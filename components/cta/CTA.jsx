@@ -2,7 +2,7 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <section className="py-14 bg-primary-50">
+    <section className="pt-10 pb-20 bg-primary-50">
       <div className=" mx-auto space-y-16">
         <div class="flex flex-col items-center rounded-lg  p-4 sm:p-8">
           <div class="mb-4 sm:mb-8">

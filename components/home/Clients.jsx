@@ -34,23 +34,23 @@ const Clients = () => {
   ];
   return (
     <section className="bg-white py-20 px-4 sm:px-10">
-      <div className="max-w-screen-lg mx-auto space-y-16">
-        <div className="flex justify-between">
-          <h1 className="text-primary-900 font-semibold text-3xl text-center">
+      <div className="max-w-screen-lg mx-auto space-y-8 sm:space-y-16">
+        <div className="flex-col sm:flex-row justify-between space-y-4 sm:space-y-0">
+          <h1 className="text-primary-900 font-semibold text-2xl sm:text-3xl text-center">
             Karini AI is loved by our clients
           </h1>
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 justify-end">
             <BsArrowLeft
-              size={60}
+              size={50}
               className="text-primary-900 rounded-full border border-primary-600 p-4 hover:cursor-pointer hover:border-2"
             />
             <BsArrowRight
-              size={60}
+              size={50}
               className="text-primary-900 rounded-full border border-primary-600 p-4 hover:cursor-pointer hover:border-2"
             />
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
           {ClientsData.map((client, index) => (
             <div
               key={index}

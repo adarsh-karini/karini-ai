@@ -40,7 +40,7 @@ const OurSolutions = () => {
     <section className="bg-white py-20 px-4 sm:px-10">
       <div className="max-w-screen-lg mx-auto space-y-16">
         <div className="space-y-2">
-          <h1 className="text-primary-900 font-semibold text-3xl text-center">
+          <h1 className="text-primary-900 font-semibold text-2xl sm:text-3xl text-center">
             Our Solutions
           </h1>
           <p className="text-gray-500 text-center">
