@@ -37,7 +37,7 @@ const OurSolutions = () => {
   ];
 
   return (
-    <section className="bg-white py-20 px-4 sm:px-10">
+    <section className="bg-white py-32 px-4 sm:px-10">
       <div className="max-w-screen-lg mx-auto space-y-16">
         <div className="space-y-2">
           <h1 className="text-primary-900 font-semibold text-2xl sm:text-3xl text-center">

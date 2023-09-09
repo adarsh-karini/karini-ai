@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const aboutus = () => {
   return (
-    <div className={inter.className}>
+    <div className={`${inter.className} bg-white`}>
       <Hero />
       <Stats />
       <WhoWe />

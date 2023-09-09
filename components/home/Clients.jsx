@@ -35,7 +35,7 @@ const Clients = () => {
   return (
     <section className="bg-white py-20 px-4 sm:px-10">
       <div className="max-w-screen-lg mx-auto space-y-8 sm:space-y-16">
-        <div className="flex-col sm:flex-row justify-between space-y-4 sm:space-y-0">
+        <div className="flex flex-col sm:flex-row justify-between space-y-4 sm:space-y-0">
           <h1 className="text-primary-900 font-semibold text-2xl sm:text-3xl text-center">
             Karini AI is loved by our clients
           </h1>

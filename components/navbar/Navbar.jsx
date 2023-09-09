@@ -18,7 +18,7 @@ const Navbar = () => {
 
             <nav className="hidden lg:flex space-x-8 text-gray-300">
               <Link href="/platforms">Platforms</Link>
-              <Link href="/solutions">Solutions</Link>
+              <Link href="/services">Services</Link>
               <Link href="/blogs">Blogs</Link>
               <Link href="/pricing">Pricing</Link>
               <Link href="/aboutus">About us</Link>

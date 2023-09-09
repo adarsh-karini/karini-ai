@@ -4,7 +4,8 @@ const HowItWorks = () => {
   const buttons = [
     "Create Dataset",
     "Create Project",
-    "Invite Team",
+    "Invite Teams",
+    "Choose Pre-labeling Model",
     "Choose Auto-labelling Model",
     "User Task UI",
     "Built-in Quality Workflow",
@@ -21,39 +22,15 @@ const HowItWorks = () => {
         </h1>
         <div className="space-y-4">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 text-sm text-gray-500">
-            <button type="button" className="py-3 px-4 border rounded">
-              Create Dataset
-            </button>
-            <button type="button" className="py-3 px-4 border rounded">
-              Create Project
-            </button>
-            <button type="button" className="py-3 px-4 border rounded">
-              Invite Team
-            </button>
-            <button type="button" className="py-3 px-4 border rounded">
-              Choose Pre-labelling Model
-            </button>
-            <button type="button" className="py-3 px-4 border rounded">
-              Choose Auto-labelling Model
-            </button>
-            <button type="button" className="py-3 px-4 border rounded">
-              User Task UI
-            </button>
-            <button type="button" className="py-3 px-4 border rounded">
-              Built-in Quality Workflow
-            </button>
-            <button type="button" className="py-3 px-4 border rounded">
-              Export and Track Datasets
-            </button>
-            <button type="button" className="py-3 px-4 border rounded">
-              Run Models
-            </button>
-            <button type="button" className="py-3 px-4 border rounded">
-              Compare Model against Groundtruth
-            </button>
-            <button type="button" className="py-3 px-4 border rounded">
-              Integrate with Business Workflow
-            </button>
+            {buttons.map((button, index) => (
+              <button
+                key={index}
+                type="button"
+                className="py-3 px-4 border rounded"
+              >
+                {button}
+              </button>
+            ))}
           </div>
           <div className="bg-gray-200 h-96 w-full rounded"></div>
         </div>

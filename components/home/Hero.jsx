@@ -3,11 +3,11 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <header className="overflow-hidden bg-gradient-to-b from-dark from-0% via-medium via-50% to-light to-100%">
-      <div className="mx-auto max-w-screen-2xl pb-32">
+    <header className="">
+      <div className="mx-auto max-w-screen-2xl">
         <section className=" relative">
-          <div className="flex flex-col items-center justify-center space-y-12">
-            <div className="space-y-4 px-4 pt-16 max-w-screen-md">
+          <div className="flex flex-col items-center justify-center pt-20 pb-10 space-y-12 z-10">
+            <div className="z-10 space-y-4 px-4 max-w-screen-md">
               <h1 className="flex flex-col text-center text-xl font-bold text-gray-100 sm:text-2xl md:text-4xl">
                 <span>Advanced Analytics to grow</span>
                 <span className="text-primary-600"> your business</span>
@@ -40,7 +40,7 @@ const Hero = () => {
               />
             </div>
           </div>
-          <div className="absolute w-[100vw] h-[20rem] -skew-y-[9deg] bg-white text-black"></div>
+          <div className=" absolute top-0 left-0 bg-gradient-to-b from-dark from-0% via-medium via-50% to-light to-100% w-full h-full clip_hero_page"></div>
         </section>
       </div>
     </header>

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const index = () => {
   return (
-    <div className={inter.className}>
+    <div className={`${inter.className} bg-white`}>
       <Hero />
       <Blogs />
     </div>
