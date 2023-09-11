@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="bg-dark">
       <div className="mx-auto max-w-screen-2xl">
-        <nav className="border-b border-gray-600">
+        <nav className="border-b border-slate-800">
           <div className="px-4 md:px-8 py-4 md:py-8 flex items-center justify-between">
             <Link
               href="/"
@@ -13,7 +13,7 @@ const Navbar = () => {
               aria-label="logo"
             >
               <span className="text-white">karini.</span>
-              <span className="text-purple-700">ai</span>
+              <span className="text-primary-600">ai</span>
             </Link>
 
             <nav className="hidden lg:flex space-x-8 text-gray-300">
@@ -28,7 +28,7 @@ const Navbar = () => {
 
             <Link
               href="#"
-              className="hidden lg:inline-block rounded bg-purple-700 border border-purple-700 px-6 py-2 text-center text-sm font-semibold text-white hover:text-purple-700 transition duration-100 hover:bg-white hover:border-purple-700"
+              className="hidden lg:inline-block bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white hover:border-primary-600"
             >
               Try It Free
             </Link>

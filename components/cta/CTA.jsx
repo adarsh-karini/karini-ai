@@ -2,47 +2,36 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <section className="pt-10 pb-20 bg-primary-50">
-      <div className=" mx-auto space-y-16">
-        <div class="flex flex-col items-center rounded-lg  p-4 sm:p-8">
-          <div class="mb-4 sm:mb-8">
-            <h2 class="text-center text-xl font-bold text-primary-600 sm:text-2xl lg:text-3xl">
-              Get the latest updates
-            </h2>
-            <p class="text-center text-gray-500">Sign up for our newsletter</p>
+    <section className="bg-white relative py-28">
+      <div className="w-full absolute -bottom-1/2">
+        <div className="bg-dark mx-auto max-w-screen-lg p-4">
+          <div class="overflow-hidden relative flex flex-col items-center border border-secondary-400 w-full h-full py-10 space-y-4">
+            <div className="p-20 absolute -left-20 -bottom-24 bg-primary-600 rounded-full opacity-50"></div>
+            <div className="p-20 absolute -right-20 -top-1/2 bg-primary-600 rounded-full opacity-50"></div>
+
+            <div class="space-y-1">
+              <h2 class="text-center text-xl font-bold text-white sm:text-2xl lg:text-3xl">
+                NEWSLETTER
+              </h2>
+              <p class="text-center text-secondary-300">
+                Subscribe our newsletter to get our latest update & news.
+              </p>
+            </div>
+
+            <form class="flex space-x-2 md:w-2/3">
+              <input
+                placeholder="Email"
+                class="bg-gray-white w-full flex-1 border border-gray-300 px-3 py-2 text-gray-800 placeholder-gray-400 outline-none transition duration-100"
+              />
+
+              <button
+                disabled
+                class="inline-block bg-primary-600 px-8 py-2 text-center text-sm font-semibold text-white transition duration-100 hover:bg-primary-900 md:text-base"
+              >
+                Send
+              </button>
+            </form>
           </div>
-
-          <form class="mb-3 flex w-full max-w-md gap-2 sm:mb-5">
-            <input
-              placeholder="Email"
-              class="bg-gray-white w-full flex-1 rounded border border-gray-300 px-3 py-2 text-gray-800 placeholder-gray-400 outline-none ring-indigo-300 transition duration-100 focus:ring"
-            />
-
-            <button
-              disabled
-              class="inline-block rounded bg-primary-600 px-8 py-2 text-center text-sm font-semibold text-white transition duration-100 hover:bg-primary-900 md:text-base"
-            >
-              Send
-            </button>
-          </form>
-
-          <p class="text-center text-xs text-gray-400">
-            By signing up to our newsletter you agree to our{" "}
-            <a
-              href="#"
-              class="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-            >
-              Term of Service
-            </a>{" "}
-            and{" "}
-            <a
-              href="#"
-              class="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-            >
-              Privacy Policy
-            </a>
-            .
-          </p>
         </div>
       </div>
     </section>

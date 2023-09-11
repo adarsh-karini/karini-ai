@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div class="overflow-hidden bg-gradient-to-b from-medium from-0% to-dark to-90%">
       <footer class="relative mx-auto max-w-screen-2xl">
-        <div className="absolute -top-20 w-[100vw] h-[10rem] -skew-y-6 bg-primary-50 text-black"></div>
+        {/* <div className="absolute -top-20 w-[100vw] h-[10rem] -skew-y-6 bg-primary-50 text-black"></div> */}
 
         <div class="mb-16 grid grid-cols-2 gap-12 pt-40 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-56 px-4 md:px-8">
           <div class="flex flex-col justify-between col-span-full lg:col-span-2 bg-dark rounded-md p-6">

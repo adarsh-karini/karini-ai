@@ -3,7 +3,7 @@ import { BsRobot, BsCloudFog2, BsArrowRight } from "react-icons/bs";
 import { FaCircleNodes } from "react-icons/fa6";
 import { TbBoxModel } from "react-icons/tb";
 
-const OurSolutions = () => {
+const OurPlatforms = () => {
   const IconNames = {
     BsRobot,
     FaCircleNodes,
@@ -11,25 +11,25 @@ const OurSolutions = () => {
     TbBoxModel,
   };
 
-  const OurSolutionsData = [
+  const OurPlatformsData = [
     {
       title: "Karini Bot",
       icon: "BsRobot",
       description: "Build a chatbot in minutes using Large Language Model.",
     },
     {
-      title: "Intelligent Document Understanding",
+      title: "Human In The Loop",
       icon: "FaCircleNodes",
       description:
         "Karini empowers you to make well-informed business decisions on time.",
     },
     {
-      title: "Content Moderation",
+      title: "Dataset Management",
       icon: "TbBoxModel",
       description: "Karini offers cutting-edge content moderation workflows.",
     },
     {
-      title: "Human in the Loop",
+      title: "Active Learning",
       icon: "BsCloudFog2",
       description:
         "Experience the perfect blend of human intuition and machine intelligence with Karini AI.",
@@ -37,25 +37,28 @@ const OurSolutions = () => {
   ];
 
   return (
-    <section className="bg-white py-32 px-4 sm:px-10">
-      <div className="max-w-screen-lg mx-auto space-y-16">
+    <section className="bg-white px-4 sm:px-0 py-20">
+      <div className="max-w-screen-lg mx-auto space-y-8">
         <div className="space-y-2">
-          <h1 className="text-primary-900 font-semibold text-2xl sm:text-3xl text-center">
-            Our Solutions
+          <h1 className="text-black font-semibold text-2xl sm:text-3xl text-center">
+            Our Platforms
           </h1>
-          <p className="text-gray-500 text-center">
-            We make it easy for users to use our platform, that&apos;s why we
-            provide this benefit.
+          <p className="text-secondary-700 text-center">
+            Leverage a proprietary machine learning engine that multiplies the
+            value of labelled data, allowing for better AI with fewer data
+            requirements. Leverage a proprietary machine learning engine that
+            multiplies the value of labelled data, allowing for better AI with
+            fewer data requirements.
           </p>
         </div>
         <div className="space-y-4">
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-8">
-            {OurSolutionsData.map((data, index) => {
+            {OurPlatformsData.map((data, index) => {
               const IconComponent = IconNames[data.icon];
               return (
                 <div
                   key={index}
-                  className="flex flex-col justify-between space-y-10 bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow"
+                  className="flex flex-col justify-between space-y-10 bg-white p-6 shadow-md border border-secondary-200 hover:shadow"
                 >
                   <div>
                     <div className="flex flex-col space-y-2">
@@ -63,17 +66,22 @@ const OurSolutions = () => {
                         {IconComponent && (
                           <IconComponent
                             size={50}
-                            className="text-medium bg-primary-200 rounded-lg p-4"
+                            className="text-primary-800 bg-primary-200 rounded-lg p-4"
                           />
                         )}
                       </span>
-                      <h1 className="text-gray-800 font-semibold sm:text-base">
+                      <h1 className="text-secondary-800 font-semibold sm:text-base">
                         {data.title}
                       </h1>
                     </div>
-                    <p className="text-gray-400 text-sm">{data.description}</p>
+                    <p className="text-secondary-400 text-sm">
+                      {data.description}
+                    </p>
                   </div>
-                  <div className="">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-primary-600 font-semibold text-sm">
+                      Explore more
+                    </span>
                     <button className="">
                       <BsArrowRight size={20} className="text-primary-600" />
                     </button>
@@ -88,4 +96,4 @@ const OurSolutions = () => {
   );
 };
 
-export default OurSolutions;
+export default OurPlatforms;
