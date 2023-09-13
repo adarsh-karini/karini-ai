@@ -3,12 +3,12 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <header className="">
-      <div className="mx-auto max-w-screen-2xl">
-        <section className=" relative">
+    <header>
+      <div className="relative">
+        <section className=" mx-auto max-w-screen-2xl">
           <div className="flex flex-col items-center justify-center pt-20 pb-10 space-y-12 z-10">
             <div className="z-10 space-y-4 px-4 max-w-screen-md">
-              <h1 className="flex flex-col text-center text-xl font-bold text-secondary-100 sm:text-2xl md:text-4xl">
+              <h1 className="flex flex-col text-center text-3xl sm:text-4xl font-bold text-secondary-200">
                 <span>Advanced Analytics to grow</span>
                 <span className="text-primary-600"> your business</span>
               </h1>

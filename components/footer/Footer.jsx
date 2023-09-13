@@ -3,17 +3,17 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div class="overflow-hidden bg-gradient-to-b from-medium from-0% to-dark to-90%">
-      <footer class="relative mx-auto max-w-screen-2xl">
+    <div className="overflow-hidden bg-gradient-to-b from-medium from-0% to-dark to-90%">
+      <footer className="relative mx-auto max-w-screen-2xl">
         {/* <div className="absolute -top-20 w-[100vw] h-[10rem] -skew-y-6 bg-primary-50 text-black"></div> */}
 
-        <div class="mb-16 grid grid-cols-2 gap-12 pt-40 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-56 px-4 md:px-8">
-          <div class="flex flex-col justify-between col-span-full lg:col-span-2 bg-dark rounded-md p-6">
+        <div className="mb-16 grid grid-cols-2 gap-12 pt-40 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-56 px-4 md:px-8">
+          <div className="flex flex-col justify-between col-span-full lg:col-span-2 bg-dark rounded-md p-6">
             <div className="">
-              <div class="mb-4 lg:-mt-2">
+              <div className="mb-4 lg:-mt-2">
                 <Link
                   href="/"
-                  class="inline-flex items-center text-xl font-bold text-gray-100 md:text-2xl"
+                  className="inline-flex items-center text-xl font-bold text-gray-100 md:text-2xl"
                   aria-label="logo"
                 >
                   <span className="text-white">karini.</span>
@@ -21,19 +21,19 @@ const Footer = () => {
                 </Link>
               </div>
 
-              <p class="mb-6 text-gray-400 sm:pr-8">
+              <p className="mb-6 text-gray-400 sm:pr-8">
                 Filler text is dummy text which has no meaning however looks
                 very similar to real text.
               </p>
             </div>
-            <div class="flex gap-4">
+            <div className="flex gap-4">
               <a
                 href="#"
                 target="_blank"
-                class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
+                className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
               >
                 <svg
-                  class="h-5 w-5"
+                  className="h-5 w-5"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -47,10 +47,10 @@ const Footer = () => {
               <a
                 href="#"
                 target="_blank"
-                class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
+                className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
               >
                 <svg
-                  class="h-5 w-5"
+                  className="h-5 w-5"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -64,10 +64,10 @@ const Footer = () => {
               <a
                 href="#"
                 target="_blank"
-                class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
+                className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
               >
                 <svg
-                  class="h-5 w-5"
+                  className="h-5 w-5"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -81,10 +81,10 @@ const Footer = () => {
               <a
                 href="#"
                 target="_blank"
-                class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
+                className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
               >
                 <svg
-                  class="h-5 w-5"
+                  className="h-5 w-5"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -98,15 +98,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <div class="mb-4 font-bold uppercase tracking-widest text-gray-100">
+            <div className="mb-4 font-bold uppercase tracking-widest text-gray-100">
               Products
             </div>
 
-            <nav class="flex flex-col gap-4">
+            <nav className="flex flex-col gap-4">
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Overview
                 </a>
@@ -115,7 +115,7 @@ const Footer = () => {
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Solutions
                 </a>
@@ -124,7 +124,7 @@ const Footer = () => {
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Pricing
                 </a>
@@ -133,7 +133,7 @@ const Footer = () => {
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Customers
                 </a>
@@ -142,15 +142,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <div class="mb-4 font-bold uppercase tracking-widest text-gray-100">
+            <div className="mb-4 font-bold uppercase tracking-widest text-gray-100">
               Company
             </div>
 
-            <nav class="flex flex-col gap-4">
+            <nav className="flex flex-col gap-4">
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   About
                 </a>
@@ -159,7 +159,7 @@ const Footer = () => {
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Investor Relations
                 </a>
@@ -168,7 +168,7 @@ const Footer = () => {
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Jobs
                 </a>
@@ -177,7 +177,7 @@ const Footer = () => {
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Press
                 </a>
@@ -186,7 +186,7 @@ const Footer = () => {
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Blog
                 </a>
@@ -195,15 +195,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <div class="mb-4 font-bold uppercase tracking-widest text-gray-100">
+            <div className="mb-4 font-bold uppercase tracking-widest text-gray-100">
               Support
             </div>
 
-            <nav class="flex flex-col gap-4">
+            <nav className="flex flex-col gap-4">
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Contact
                 </a>
@@ -212,7 +212,7 @@ const Footer = () => {
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Documentation
                 </a>
@@ -221,7 +221,7 @@ const Footer = () => {
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Chat
                 </a>
@@ -230,7 +230,7 @@ const Footer = () => {
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   FAQ
                 </a>
@@ -239,15 +239,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <div class="mb-4 font-bold uppercase tracking-widest text-gray-100">
+            <div className="mb-4 font-bold uppercase tracking-widest text-gray-100">
               Legal
             </div>
 
-            <nav class="flex flex-col gap-4">
+            <nav className="flex flex-col gap-4">
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Terms of Service
                 </a>
@@ -256,7 +256,7 @@ const Footer = () => {
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Privacy Policy
                 </a>
@@ -265,7 +265,7 @@ const Footer = () => {
               <div>
                 <a
                   href="#"
-                  class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
                   Cookie settings
                 </a>
@@ -274,7 +274,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="border-t border-gray-800 py-8 text-center text-sm text-gray-400">
+        <div className="border-t border-gray-800 py-8 text-center text-sm text-gray-400">
           © 2023 - karini AI. All rights reserved.
         </div>
       </footer>

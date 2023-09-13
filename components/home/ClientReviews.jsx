@@ -33,11 +33,11 @@ const ClientReviews = () => {
     },
   ];
   return (
-    <section className="bg-gradient-to-b from-primary-100 from-0% to-white to-100% px-4 sm:px-0 py-20">
+    <section className="bg-gradient-to-b from-primary-100 from-0% to-white to-100% px-4 lg:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-8">
         <div className="space-y-6">
           <div className="flex-1 space-y-4 text-center ltr:sm:text-left rtl:sm:text-right">
-            <h1 className="text-3xl font-bold tracking-tight text-black sm:text-3xl">
+            <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
               The Stunning Results Our Customers Have Experienced
             </h1>
 
@@ -86,7 +86,7 @@ const ClientReviews = () => {
             </div>
           </div>
 
-          <div className="w-full flex">
+          <div className="w-full flex flex-col md:flex-row">
             <div className="inline-block">
               <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
                 <div>

@@ -37,10 +37,10 @@ const OurPlatforms = () => {
   ];
 
   return (
-    <section className="bg-white px-4 sm:px-0 py-20">
+    <section className="bg-white px-4 lg:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-8">
         <div className="space-y-2">
-          <h1 className="text-black font-semibold text-2xl sm:text-3xl text-center">
+          <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
             Our Platforms
           </h1>
           <p className="text-secondary-700 text-center">
@@ -52,7 +52,7 @@ const OurPlatforms = () => {
           </p>
         </div>
         <div className="space-y-4">
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-8">
             {OurPlatformsData.map((data, index) => {
               const IconComponent = IconNames[data.icon];
               return (

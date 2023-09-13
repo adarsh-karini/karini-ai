@@ -17,7 +17,7 @@ const HowItWorks = () => {
   return (
     <section className="bg-white py-20 px-4 sm:px-10">
       <div className="max-w-screen-lg mx-auto space-y-16">
-        <h1 className="text-primary-900 font-semibold text-3xl text-center">
+        <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
           How It Works
         </h1>
         <div className="space-y-4">

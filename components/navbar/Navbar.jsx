@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <div className="bg-dark">
       <div className="mx-auto max-w-screen-2xl">
-        <nav className="border-b border-slate-800">
-          <div className="px-4 md:px-8 py-4 md:py-8 flex items-center justify-between">
+        <nav className="border-b border-secondary-700">
+          <div className="px-4 md:px-8 py-4 md:py-6 flex items-center justify-between">
             <Link
               href="/"
               className="inline-flex items-center text-xl font-semibold md:text-2xl"

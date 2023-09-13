@@ -11,12 +11,13 @@ import ClientReviews from "@/components/home/ClientReviews";
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-poppins",
   subsets: ["devanagari"],
 });
 
 export default function Home() {
   return (
-    <div className={`${inter.className} bg-white`}>
+    <div className={`${poppins.variable} ${inter.className} bg-white`}>
       <Hero />
       <WhyKarini />
       <OurServices />
