@@ -1,7 +1,11 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import { FaAngleDown } from "react-icons/fa";
+import { BsCloudFog2 } from "react-icons/bs";
 
 const Navbar = () => {
+  const [servicesDropdown, setServicesDropdown] = useState(false);
+
   return (
     <div className="bg-dark">
       <div className="mx-auto max-w-screen-2xl">
@@ -16,9 +20,44 @@ const Navbar = () => {
               <span className="text-primary-600">ai</span>
             </Link>
 
-            <nav className="hidden lg:flex space-x-8 text-gray-300">
+            <nav className="relative hidden lg:flex space-x-8 text-gray-300">
               <Link href="/platforms">Platforms</Link>
-              <Link href="/services">Services</Link>
+              <div
+                href="/services/genai"
+                className="flex items-end space-x-1 cursor-pointer"
+                onClick={() => setServicesDropdown((prev) => !prev)}
+              >
+                <span>Services</span>
+                <FaAngleDown size={20} />
+                {servicesDropdown && (
+                  <div className="z-20 border absolute top-10 bg-white drop-shadow-md grid grid-cols-1 gap-4 py-4 px-4">
+                    <Link
+                      href={"/services/genai"}
+                      className="flex items-center space-x-2"
+                    >
+                      <BsCloudFog2
+                        size={35}
+                        className="text-primary-600 bg-primary-100 p-2"
+                      />
+                      <h3 className="cursor-pointer text-sm text-black font-semibold">
+                        Generative AI
+                      </h3>
+                    </Link>
+                    <Link
+                      href={"/services/ml"}
+                      className="flex items-center space-x-2"
+                    >
+                      <BsCloudFog2
+                        size={35}
+                        className="text-primary-600 bg-primary-100 p-2"
+                      />
+                      <h3 className="cursor-pointer text-sm text-black font-semibold">
+                        Machine Learning
+                      </h3>
+                    </Link>
+                  </div>
+                )}
+              </div>
               <Link href="/blogs">Blogs</Link>
               <Link href="/pricing">Pricing</Link>
               <Link href="/aboutus">About us</Link>
