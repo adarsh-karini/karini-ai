@@ -1,8 +1,9 @@
 import React from "react";
 import { SiAmazonaws } from "react-icons/si";
 
+import { clientLogosData } from "@/content/services/ml/mlData";
+
 const ClientLogos = () => {
-  const clientLogosData = [1, 2, 3, 4, 5, 6, 7, 8];
   return (
     <section className="bg-white px-4 md:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-16">

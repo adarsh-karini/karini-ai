@@ -5,6 +5,8 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import { TbBoxModel } from "react-icons/tb";
 import { AiOutlineCodepenCircle } from "react-icons/ai";
 
+import { OurServicesData } from "@/content/services/ml/mlData";
+
 const OurServices = () => {
   const IconNames = {
     BsRobot,
@@ -12,60 +14,6 @@ const OurServices = () => {
     BsCloudFog2,
     TbBoxModel,
   };
-
-  const OurServicesData = [
-    {
-      title: "ML Foundations",
-      services: [
-        {
-          title: "MLOps Training",
-          path: "/services/genai_services/1",
-        },
-        {
-          title: "Data Science Training",
-          path: "/services/genai_services/2",
-        },
-        {
-          title: "Workshops & Game Days",
-          path: "/services/genai_services/3",
-        },
-      ],
-    },
-    {
-      title: "Prototyping",
-      services: [
-        {
-          title: "Computer Vision",
-          path: "/services/rapid_prototypes/1",
-        },
-        {
-          title: "Natural Language Processing",
-          path: "/services/rapid_prototypes/2",
-        },
-        {
-          title: "Generative AI",
-          path: "/services/rapid_prototypes/3",
-        },
-      ],
-    },
-    {
-      title: "Solutions",
-      services: [
-        {
-          title: "ML Platform Migrations",
-          path: "/services/solutioning/1",
-        },
-        {
-          title: "Intelligent Document Processing",
-          path: "/services/solutioning/2",
-        },
-        {
-          title: "Demand Forecasting",
-          path: "/services/solutioning/3",
-        },
-      ],
-    },
-  ];
 
   return (
     <section className="relative bg-white px-4 lg:px-0 py-20">

@@ -1,19 +1,9 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 
+import { successStoryData } from "@/content/services/ml/mlData";
+
 const SuccessStories = () => {
-  const successStoryData = {
-    title:
-      "Marine Classification Services Company Automates Regulatory Queries",
-    description:
-      "We specialize in human-in-the-loop AI solutions, blending human intelligence with advanced AI research to drive growth and streamline workflows. Our dedicated team of experts creates innovative and powerful solutions for diverse industries. ch to drive growth and streamline workflows. Our dedicated team of experts creates innovative and powerful solutions for diverse industries.",
-    points: [
-      "80% automation of all internal regulatory answers",
-      "40% increase in surveyor productivity",
-      "15-20% improvement in classification accuracy",
-    ],
-    picture: "....................",
-  };
   return (
     <section className="bg-gradient-to-b from-primary-50 from-0% to-white to-100% px-4 md:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-10 md:space-y-16">
