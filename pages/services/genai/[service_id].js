@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { Inter, Poppins } from "next/font/google";
 
-import { genaiServciesData } from "@/content/services/genai/genaiServciesData";
+import { genaiServicesData } from "@/content/services/genai/genaiServicesData";
 import Hero from "@/components/services/genai/service_details/Hero";
 import KeyPoints from "@/components/services/genai/service_details/KeyPoints";
 import SectionOne from "@/components/services/genai/service_details/SectionOne";
@@ -22,7 +22,7 @@ const Service = () => {
   const [service, setService] = useState();
 
   const getServiceData = (id) => {
-    const result = genaiServciesData?.filter((service) => service.id === id);
+    const result = genaiServicesData?.filter((service) => service.id === id);
     console.log("hi44", result);
     setService(result[0]);
   };

@@ -6,6 +6,7 @@ import { TbBoxModel } from "react-icons/tb";
 import { AiOutlineCodepenCircle } from "react-icons/ai";
 
 import { OurServicesData } from "@/content/services/ml/mlData";
+import Link from "next/link";
 
 const OurServices = () => {
   const IconNames = {
@@ -44,9 +45,9 @@ const OurServices = () => {
                 />
               </div>
               <div className="md:w-3/4 grid grid-cols-2 sm:grid-cols-3 gap-4">
-                {data.services.map((service, ind) => (
-                  <div
-                    onClick={() => alert("Clicked!!!!")}
+                {data?.services.map((service, ind) => (
+                  <Link
+                    href={service.path}
                     key={ind}
                     className="flex-1 flex flex-col justify-between space-y-10 bg-white p-6 shadow-md border border-secondary-200 hover:border-primary-500 hover:cursor-pointer"
                   >
@@ -63,11 +64,11 @@ const OurServices = () => {
                       <span className="text-primary-600 font-semibold text-sm hover:font-bold">
                         Explore more
                       </span>
-                      <button className="">
+                      <div>
                         <BsArrowRight size={20} className="text-primary-600" />
-                      </button>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>

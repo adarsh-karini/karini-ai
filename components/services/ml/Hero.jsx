@@ -11,8 +11,7 @@ const Hero = () => {
 
             <div className="z-10 space-y-6 px-4 max-w-screen-lg">
               <h1 className="text-center text-4xl font-extrabold text-black md:text-5xl lg:text-6xl">
-                Leveraging <span className="text-primary-600">ML OPs</span> to
-                galvanize growth
+                <span className="text-primary-600">MLOPs</span> as a service
               </h1>
               <p className="text-center text-gray-600 text-sm sm:text-base">
                 By using karini ai to automate business operations, our

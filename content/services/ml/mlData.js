@@ -4,15 +4,15 @@ export const OurServicesData = [
     services: [
       {
         title: "MLOps Training",
-        path: "/services/genai_services/1",
+        path: "/services/ml/mlops_training",
       },
       {
         title: "Data Science Training",
-        path: "/services/genai_services/2",
+        path: "/services/ml/data_science_training",
       },
       {
         title: "Workshops & Game Days",
-        path: "/services/genai_services/3",
+        path: "/services/ml/workshops_and_game_days",
       },
     ],
   },
@@ -21,15 +21,15 @@ export const OurServicesData = [
     services: [
       {
         title: "Computer Vision",
-        path: "/services/rapid_prototypes/1",
+        path: "/services/ml/computer_vision",
       },
       {
         title: "Natural Language Processing",
-        path: "/services/rapid_prototypes/2",
+        path: "/services/ml/natural_language_processing",
       },
       {
         title: "Generative AI",
-        path: "/services/rapid_prototypes/3",
+        path: "/services/ml/generative_ai",
       },
     ],
   },
@@ -38,15 +38,15 @@ export const OurServicesData = [
     services: [
       {
         title: "ML Platform Migrations",
-        path: "/services/solutioning/1",
+        path: "/services/ml/ml_platform_migrations",
       },
       {
         title: "Intelligent Document Processing",
-        path: "/services/solutioning/2",
+        path: "/services/ml/intelligent_document_processing",
       },
       {
         title: "Demand Forecasting",
-        path: "/services/solutioning/3",
+        path: "/services/ml/demand_forecasting",
       },
     ],
   },

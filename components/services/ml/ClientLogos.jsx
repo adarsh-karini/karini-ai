@@ -1,7 +1,7 @@
 import React from "react";
 import { SiAmazonaws } from "react-icons/si";
 
-import { clientLogosData } from "@/content/services/ml/mlData";
+import { clientLogosData } from "@/content/services/genai/genaiData";
 
 const ClientLogos = () => {
   return (
