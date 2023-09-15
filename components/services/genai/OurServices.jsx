@@ -5,6 +5,9 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import { TbBoxModel } from "react-icons/tb";
 import { AiOutlineCodepenCircle } from "react-icons/ai";
 
+import { OurServicesData } from "@/content/services/genai/genaiData";
+import Link from "next/link";
+
 const OurServices = () => {
   const IconNames = {
     BsRobot,
@@ -12,60 +15,6 @@ const OurServices = () => {
     BsCloudFog2,
     TbBoxModel,
   };
-
-  const OurServicesData = [
-    {
-      title: "GEN AI Foundations",
-      services: [
-        {
-          title: "Training & Enablement",
-          path: "/services/genai_services/1",
-        },
-        {
-          title: "Workshops",
-          path: "/services/genai_services/2",
-        },
-        {
-          title: "Advisory",
-          path: "/services/genai_services/3",
-        },
-      ],
-    },
-    {
-      title: "Rapid Prototypes",
-      services: [
-        {
-          title: "Retrieval Augumented Generation Prototyping",
-          path: "/services/rapid_prototypes/1",
-        },
-        {
-          title: "Prompt Engineering & Tuning",
-          path: "/services/rapid_prototypes/2",
-        },
-        {
-          title: "Chatbot Integrations",
-          path: "/services/rapid_prototypes/3",
-        },
-      ],
-    },
-    {
-      title: "Solutioning",
-      services: [
-        {
-          title: "Model Finetuning with RLHF Evaluation",
-          path: "/services/solutioning/1",
-        },
-        {
-          title: "Model Pre-Training",
-          path: "/services/solutioning/2",
-        },
-        {
-          title: "LLMOps",
-          path: "/services/solutioning/3",
-        },
-      ],
-    },
-  ];
 
   return (
     <section className="relative bg-white px-4 lg:px-0 py-20">
@@ -96,9 +45,9 @@ const OurServices = () => {
                 />
               </div>
               <div className="md:w-3/4 grid grid-cols-2 sm:grid-cols-3 gap-4">
-                {data.services.map((service, ind) => (
-                  <div
-                    onClick={() => alert("Clicked!!!!")}
+                {data?.services.map((service, ind) => (
+                  <Link
+                    href={service.path}
                     key={ind}
                     className="flex-1 flex flex-col justify-between space-y-10 bg-white p-6 shadow-md border border-secondary-200 hover:border-primary-500 hover:cursor-pointer"
                   >
@@ -115,11 +64,11 @@ const OurServices = () => {
                       <span className="text-primary-600 font-semibold text-sm hover:font-bold">
                         Explore more
                       </span>
-                      <button className="">
+                      <div>
                         <BsArrowRight size={20} className="text-primary-600" />
-                      </button>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>

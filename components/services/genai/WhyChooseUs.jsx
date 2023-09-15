@@ -3,6 +3,8 @@ import { BsRobot, BsCloudFog2, BsArrowRight } from "react-icons/bs";
 import { FaCircleNodes } from "react-icons/fa6";
 import { TbBoxModel } from "react-icons/tb";
 
+import { whyChooseUsData } from "@/content/services/genai/genaiData";
+
 const WhyChooseUs = () => {
   const IconNames = {
     BsRobot,
@@ -11,32 +13,6 @@ const WhyChooseUs = () => {
     TbBoxModel,
   };
 
-  const whyChooseUsData = [
-    {
-      title: "Tap full-spectrum generative AI skills",
-      icon: "BsRobot",
-      description:
-        "Leverage a proprietary machine learning engine that multiplies the value of labelled data, allowing for better AI. Build a chatbot in minutes using Large Language Model.",
-    },
-    {
-      title: "Access cross-disciplinary expertise",
-      icon: "FaCircleNodes",
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti laudantium tempore magni quasi delectus ducimus ab dolores eius sint mollitia! Build a chatbot in minutes using Large Language Model.",
-    },
-    {
-      title: "Put generative AI accelerators to work",
-      icon: "BsCloudFog2",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eius. Delectus nam fuga ratione impedit. Perferendis vitae qui sapiente nihil. Build a chatbot in minutes using Large Language Model.",
-    },
-    {
-      title: "Access ATOM.AI",
-      icon: "TbBoxModel",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero beatae, explicabo debitis perferendis aut voluptatem fugit sed blanditiis labore! Eius. Build a chatbot in minutes using Large Language Model.",
-    },
-  ];
   return (
     <section className="bg-primary-50 px-4 md:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-8">
