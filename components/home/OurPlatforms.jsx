@@ -3,6 +3,9 @@ import { BsRobot, BsCloudFog2, BsArrowRight } from "react-icons/bs";
 import { FaCircleNodes } from "react-icons/fa6";
 import { TbBoxModel } from "react-icons/tb";
 
+import { OurPlatformsData } from "@/content/home/ourPlatformData";
+import Link from "next/link";
+
 const OurPlatforms = () => {
   const IconNames = {
     BsRobot,
@@ -10,31 +13,6 @@ const OurPlatforms = () => {
     BsCloudFog2,
     TbBoxModel,
   };
-
-  const OurPlatformsData = [
-    {
-      title: "Karini Bot",
-      icon: "BsRobot",
-      description: "Build a chatbot in minutes using Large Language Model.",
-    },
-    {
-      title: "Human In The Loop",
-      icon: "FaCircleNodes",
-      description:
-        "Karini empowers you to make well-informed business decisions on time.",
-    },
-    {
-      title: "Dataset Management",
-      icon: "TbBoxModel",
-      description: "Karini offers cutting-edge content moderation workflows.",
-    },
-    {
-      title: "Active Learning",
-      icon: "BsCloudFog2",
-      description:
-        "Experience the perfect blend of human intuition and machine intelligence with Karini AI.",
-    },
-  ];
 
   return (
     <section className="bg-white px-4 lg:px-0 py-20">
@@ -60,8 +38,8 @@ const OurPlatforms = () => {
                   key={index}
                   className="flex flex-col justify-between space-y-10 bg-white p-6 shadow-md border border-secondary-200 hover:shadow"
                 >
-                  <div>
-                    <div className="flex flex-col space-y-2">
+                  <div className="space-y-2">
+                    <div className="flex flex-col space-y-4">
                       <span>
                         {IconComponent && (
                           <IconComponent
@@ -74,18 +52,21 @@ const OurPlatforms = () => {
                         {data.title}
                       </h1>
                     </div>
-                    <p className="text-secondary-400 text-sm">
-                      {data.description}
+                    <p className="text-secondary-400 text-sm leading-relaxed">
+                      {data.overview}
                     </p>
                   </div>
-                  <div className="flex items-center space-x-2">
+                  <Link
+                    href={data.path}
+                    className="flex items-center space-x-2"
+                  >
                     <span className="text-primary-600 font-semibold text-sm">
                       Explore more
                     </span>
                     <button className="">
                       <BsArrowRight size={20} className="text-primary-600" />
                     </button>
-                  </div>
+                  </Link>
                 </div>
               );
             })}

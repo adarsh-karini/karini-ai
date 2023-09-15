@@ -1,24 +1,10 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 
+import { ourServicesData } from "@/content/home/ourServicesData";
+import Link from "next/link";
+
 const OurServices = () => {
-  const servicesData = [
-    {
-      title: "Generative AI",
-      description:
-        "We specialize in human-in-the-loop AI solutions, blending human intelligence with advanced AI research to drive growth and streamline workflows. blending human intelligence with advanced AI research to drive growth and streamline workflows.",
-    },
-    {
-      title: "MLOPs",
-      description:
-        "We specialize in human-in-the-loop AI solutions, blending human intelligence with advanced AI research to drive growth and streamline workflows. blending human intelligence with advanced AI research to drive growth and streamline workflows.",
-    },
-    {
-      title: "AI Bot",
-      description:
-        "We specialize in human-in-the-loop AI solutions, blending human intelligence with advanced AI research to drive growth and streamline workflows. blending human intelligence with advanced AI research to drive growth and streamline workflows.",
-    },
-  ];
   return (
     <section className="bg-primary-50 px-4 lg:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-8">
@@ -35,7 +21,7 @@ const OurServices = () => {
           </p>
         </div>
         <div className="space-y-20">
-          {servicesData.map((service, index) => (
+          {ourServicesData.map((service, index) => (
             <div key={index} className="space-y-4">
               <h1 className="text-secondary-800 text-xl sm:text-2xl font-semibold">
                 {service.title}
@@ -44,14 +30,14 @@ const OurServices = () => {
                 <div className="hidden md:block flex-1 bg-primary-500 py-20"></div>
                 <div className="flex-1 flex flex-col justify-between space-y-2">
                   <p className="text-secondary-700 text-sm leading-relaxed">
-                    {service.description}
+                    {service.overview}
                   </p>
-                  <div className="flex justify-end">
+                  <Link href={service.path} className="flex justify-end">
                     <button className="text-white text-sm font-medium flex items-center space-x-2 bg-primary-600 border border-primary-600 px-4 py-2 ">
                       <span>Learn More</span>{" "}
                       <BsArrowRight size={20} className="font-semibold" />
                     </button>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>

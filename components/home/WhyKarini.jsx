@@ -7,6 +7,8 @@ import {
 import { FaUsers } from "react-icons/fa";
 import { TiFlowSwitch } from "react-icons/ti";
 
+import { whyKariniData } from "@/content/home/whyKariniData";
+
 const WhyKarini = () => {
   const IconNames = {
     BsSpeedometer,
@@ -14,28 +16,6 @@ const WhyKarini = () => {
     BsBarChartLineFill,
     TiFlowSwitch,
   };
-
-  const whyKariniData = [
-    {
-      title: "Easy Integration",
-      icon: "BsSpeedometer",
-      description:
-        "Elevate your complex business processes with TensorAct Studio, a powerful platform designed for seamless integration with cloud AI APIs and Machine Learning solutions.",
-    },
-
-    {
-      title: "Active Learning",
-      icon: "TiFlowSwitch",
-      description:
-        "Active Learning is a technique designed to select the most valuable samples from an unlabeled dataset and submit them for labeling. This approach minimizes labeling expenses while maintaining optimal model performance.",
-    },
-    {
-      title: "Flexible Experience",
-      icon: "BsBarChartLineFill",
-      description:
-        "Machine Learning involves a cyclical process,data annotation tasks may evolve throughout their development.",
-    },
-  ];
 
   return (
     <section className="bg-white px-4 lg:px-0 py-20">
@@ -63,7 +43,7 @@ const WhyKarini = () => {
                     </h1>
                   </div>
                   <p className="text-secondary-800 text-sm leading-loose">
-                    {data.description}
+                    {data.overview}
                   </p>
                 </div>
               );
