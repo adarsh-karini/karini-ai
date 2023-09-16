@@ -20,7 +20,7 @@ const Navbar = () => {
               <span className="text-primary-600">ai</span>
             </Link>
 
-            <nav className="relative hidden lg:flex space-x-8 text-gray-300">
+            <nav className="relative hidden lg:flex space-x-8 text-sm text-secondary-300">
               <Link href="/platforms">Platforms</Link>
               <div
                 href="/services/genai"
@@ -28,7 +28,7 @@ const Navbar = () => {
                 onMouseEnter={() => setServicesDropdown(true)}
               >
                 <span>Services</span>
-                <FaAngleDown size={20} />
+                <FaAngleDown size={15} />
                 {servicesDropdown && (
                   <div
                     onMouseLeave={() => setServicesDropdown(false)}
@@ -77,7 +77,7 @@ const Navbar = () => {
 
             <button
               type="button"
-              className="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring md:text-base lg:hidden"
+              className="inline-flex items-center gap-2 rounded-lg bg-secondary-200 px-2.5 py-2 text-sm font-semibold text-secondary-500 ring-indigo-300 hover:bg-secondary-300 focus-visible:ring md:text-base lg:hidden"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
