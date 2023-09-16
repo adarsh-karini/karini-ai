@@ -2,20 +2,21 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <header className="overflow-hidden bg-gradient-to-b from-dark from-0% via-medium via-50% to-light to-100% clip_bg_cover">
-      <div className="mx-auto max-w-screen-2xl pb-24">
-        <section className="">
-          <div className="flex flex-col items-center justify-center py-28 space-y-12">
-            <div className="space-y-2 px-4 max-w-screen-md">
-              <h1 className="flex flex-col text-center text-xl font-bold text-gray-100 sm:text-2xl md:text-4xl">
-                <span>We&apos;d love to hear from you</span>
+    <header className="bg-white">
+      <div className="mx-auto max-w-screen-2xl">
+        <section>
+          <div className="relative flex flex-col items-center justify-center py-14 md:py-20">
+            <div className="absolute p-20 md:p-32 rounded-full left-0 md:left-1/4 top-10 md:top-0 bg-primary-100 blur-2xl"></div>
+            <div className="absolute p-20 md:p-32 rounded-full right-0 bottom-10 bg-primary-100 blur-2xl"></div>
+            <div className="z-10 space-y-6 px-4 max-w-screen-lg">
+              <h1 className="text-center text-4xl font-extrabold text-black md:text-5xl lg:text-6xl">
+                We would love to hear from you
               </h1>
-              <p className="text-center text-gray-300 text-sm sm:text-base">
+              <p className="text-center text-gray-600 text-sm sm:text-base">
                 We have offices and teams all around the world.
               </p>
             </div>
           </div>
-          {/* <div className="absolute w-[100vw] h-[20rem] -skew-y-6 bg-white text-black"></div> */}
         </section>
       </div>
     </header>
