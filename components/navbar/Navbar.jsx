@@ -25,12 +25,15 @@ const Navbar = () => {
               <div
                 href="/services/genai"
                 className="flex items-end space-x-1 cursor-pointer"
-                onClick={() => setServicesDropdown((prev) => !prev)}
+                onMouseEnter={() => setServicesDropdown(true)}
               >
                 <span>Services</span>
                 <FaAngleDown size={20} />
                 {servicesDropdown && (
-                  <div className="z-20 border absolute top-10 bg-white drop-shadow-md grid grid-cols-1 gap-4 py-4 px-4">
+                  <div
+                    onMouseLeave={() => setServicesDropdown(false)}
+                    className="z-20 border absolute top-10 bg-white drop-shadow-md grid grid-cols-1 gap-4 py-4 px-4"
+                  >
                     <Link
                       href={"/services/genai"}
                       className="flex items-center space-x-2"

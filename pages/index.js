@@ -7,6 +7,7 @@ import HowItWorks from "@/components/home/HowItWorks";
 import OurServices from "@/components/home/OurServices";
 import OurPlatforms from "@/components/home/OurPlatforms";
 import ClientReviews from "@/components/home/ClientReviews";
+import FAQ from "@/components/home/FAQ";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -24,6 +25,7 @@ export default function Home() {
       <OurPlatforms />
       {/* <HowItWorks /> */}
       <ClientReviews />
+      <FAQ />
     </div>
   );
 }

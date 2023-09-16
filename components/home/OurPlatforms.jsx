@@ -48,11 +48,11 @@ const OurPlatforms = () => {
                           />
                         )}
                       </span>
-                      <h1 className="text-secondary-800 font-semibold sm:text-base">
+                      <h2 className="text-secondary-800 font-semibold sm:text-base">
                         {data.title}
-                      </h1>
+                      </h2>
                     </div>
-                    <p className="text-secondary-400 text-sm leading-relaxed">
+                    <p className="text-secondary-600 text-sm leading-relaxed">
                       {data.overview}
                     </p>
                   </div>

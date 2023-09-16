@@ -33,7 +33,7 @@ const ClientReviews = () => {
     },
   ];
   return (
-    <section className="bg-gradient-to-b from-primary-100 from-0% to-white to-100% px-4 lg:px-0 py-20">
+    <section className="bg-primary-50 px-4 lg:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-8">
         <div className="space-y-6">
           <div className="flex-1 space-y-4 text-center ltr:sm:text-left rtl:sm:text-right">
