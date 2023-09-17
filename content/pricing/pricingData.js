@@ -1,0 +1,76 @@
+export const pricingData = {
+  monthly: [
+    {
+      name: "Starter",
+      price: "$8",
+      benefits: [
+        "2 team members",
+        "3 datasets",
+        "10 dataset items",
+        "3 projects",
+        "10 project tasks",
+        "2 models",
+        "3 model runs",
+      ],
+      url: "https://www.google.com/",
+    },
+    {
+      name: "Professional",
+      price: "$8",
+      benefits: [
+        "2 team members",
+        "3 datasets",
+        "10 dataset items",
+        "3 projects",
+        "10 project tasks",
+        "2 models",
+        "3 model runs",
+      ],
+      url: "https://www.google.com/",
+    },
+    {
+      name: "Enterprise",
+      price: "Contact Us",
+      benefits: [
+        "2 team members",
+        "3 datasets",
+        "10 dataset items",
+        "3 projects",
+        "10 project tasks",
+        "2 models",
+        "3 model runs",
+      ],
+      url: "https://www.google.com/",
+    },
+  ],
+  yearly: [
+    {
+      name: "Professional",
+      price: "$8",
+      benefits: [
+        "2 team members",
+        "3 datasets",
+        "10 dataset items",
+        "3 projects",
+        "10 project tasks",
+        "2 models",
+        "3 model runs",
+      ],
+      url: "https://www.google.com/",
+    },
+    {
+      name: "Professional plus",
+      price: "$8",
+      benefits: [
+        "2 team members",
+        "3 datasets",
+        "10 dataset items",
+        "3 projects",
+        "10 project tasks",
+        "2 models",
+        "3 model runs",
+      ],
+      url: "https://www.google.com/",
+    },
+  ],
+};
