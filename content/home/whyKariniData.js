@@ -1,21 +1,39 @@
 export const whyKariniData = [
   {
     icon: "BsSpeedometer",
-    title: "Easy Integration",
+    title: "Build Gen AI Workflows 10x faster",
     overview:
-      "Elevate your complex business processes with TensorAct Studio, a powerful platform designed for seamless integration with cloud AI APIs and Machine Learning solutions.",
+      "Pre-built Generative AI Recipes for summarization, classification and conversational AI.",
   },
 
   {
     icon: "TiFlowSwitch",
-    title: "Active Learning",
+    title: "Security & Governance",
     overview:
-      "Active Learning is a technique designed to select the most valuable samples from an unlabeled dataset and submit them for labeling. This approach minimizes labeling expenses while maintaining optimal model performance.",
+      "Redact confidential and PII information from your data. Integrate authorization to protect your data assets. Track all your prompts and responses to understand popular questions and trends.",
   },
   {
     icon: "BsBarChartLineFill",
-    title: "Flexible Experience",
+    title: "Low Code Integration",
     overview:
-      "Machine Learning involves a cyclical process,data annotation tasks may evolve throughout their development.",
+      "Faster setup using quickstart templates. Native integration with Amazon Bedrock, Azure OpenAI, Google Palm, Anthropic, Cohere, Databricks, HuggingFace, and Amazon SageMaker.",
+  },
+  {
+    icon: "BsSpeedometer",
+    title: "Built-in Human Feedback",
+    overview:
+      "Faster setup using quickstart templates. Native integration with Amazon Bedrock, Azure OpenAI, Google Palm, Anthropic, Cohere, Databricks, HuggingFace, and Amazon SageMakerCapture human feedback with built-in rating ranking. Capture ground truth labels to improve your Models.",
+  },
+  {
+    icon: "TiFlowSwitch",
+    title: "Accelerators",
+    overview:
+      "Solutions accelerators for documentation Q&A, Customer Service Chatbots, Promotion Generation, Code Generation, and Document summarization.",
+  },
+  {
+    icon: "BsBarChartLineFill",
+    title: "Use our AI Experts",
+    overview:
+      "Our experts can work with your business and technology leaders to plan and execute Generative AI strategy. Leverage free Proof of concepts to justify investments. Finetune or pre-train domain-specific Generative Models to reduce cost and improve quality.",
   },
 ];

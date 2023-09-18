@@ -1,28 +1,30 @@
 export const OurPlatformsData = [
   {
-    title: "Karini Bot",
+    title: "Generative AI Recipes",
     icon: "BsRobot",
-    overview: "Build a chatbot in minutes using Large Language Model.",
-    path: "/platforms",
-  },
-  {
-    title: "Human In The Loop",
-    icon: "FaCircleNodes",
     overview:
-      "Karini empowers you to make well-informed business decisions on time.",
+      "Explore the future of business applications with our innovative prebuilt Generative AI Recipes to take your ideas to production in a few clicks.",
     path: "/platforms",
   },
   {
     title: "Dataset Management",
-    icon: "TbBoxModel",
-    overview: "Karini offers cutting-edge content moderation workflows.",
+    icon: "FaCircleNodes",
+    overview:
+      "Centrally manage your data assets such as text, images, audio, and video along with business metadata and use semantic search capabilities to find relevant content.",
     path: "/platforms",
   },
   {
-    title: "Active Learning",
+    title: "Security & Governance",
+    icon: "TbBoxModel",
+    overview:
+      "Built-in access controls and fine-grained authorization to ensure only authorized users can access data assets and derived insights.",
+    path: "/platforms",
+  },
+  {
+    title: "Quality Management",
     icon: "BsCloudFog2",
     overview:
-      "Experience the perfect blend of human intuition and machine intelligence with Karini AI.",
+      "Generative AI is powerful but still in its early days; hence, it requires continuous monitoring to improve its efficiency over time. Karini AI provides capabilities to monitor responses, baseline quality, and use your favorite platforms to improve models.",
     path: "/platforms",
   },
 ];
