@@ -38,3 +38,19 @@ h2,
 h3 {
   font-family: var(--font-poppins);
 }
+
+.splide__pagination__page {
+  background-color: lightgray !important;
+}
+
+.splide__pagination__page.is-active {
+  background-color: black !important;
+}
+
+.splide__arrow svg {
+  fill: black !important;
+}
+
+.splide__arrow:focus {
+  outline: none !important;
+}
