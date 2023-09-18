@@ -21,22 +21,22 @@ const OurPlatforms = () => {
           <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
             Our Platforms
           </h1>
-          <p className="text-secondary-700 text-center">
+          {/* <p className="text-secondary-700 text-center">
             Leverage a proprietary machine learning engine that multiplies the
             value of labelled data, allowing for better AI with fewer data
             requirements. Leverage a proprietary machine learning engine that
             multiplies the value of labelled data, allowing for better AI with
             fewer data requirements.
-          </p>
+          </p> */}
         </div>
         <div className="space-y-4">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-2">
             {OurPlatformsData.map((data, index) => {
               const IconComponent = IconNames[data.icon];
               return (
                 <div
                   key={index}
-                  className="flex flex-col justify-between space-y-10 bg-white p-6 shadow-md border border-secondary-200 hover:shadow"
+                  className="flex flex-col justify-between space-y-6 bg-white p-4 shadow-md border border-secondary-200 hover:shadow"
                 >
                   <div className="space-y-2">
                     <div className="flex flex-col space-y-4">
@@ -44,7 +44,7 @@ const OurPlatforms = () => {
                         {IconComponent && (
                           <IconComponent
                             size={50}
-                            className="text-primary-800 bg-primary-200 rounded-lg p-4"
+                            className="text-primary-800 bg-primary-200 p-4"
                           />
                         )}
                       </span>

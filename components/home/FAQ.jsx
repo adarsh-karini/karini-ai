@@ -19,7 +19,7 @@ const FAQ = () => {
             <details
               key={index}
               className="group [&_summary::-webkit-details-marker]:hidden"
-              close
+              close="true"
             >
               <summary className="flex outline-none cursor-pointer items-center justify-between gap-1.5 border bg-secondary-50 py-4 px-4 md:px-6 text-secondary-800">
                 <h3 className="text-sm md:text-base font-medium">

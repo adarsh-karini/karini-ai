@@ -12,13 +12,13 @@ const OurServices = () => {
           <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
             Our Services
           </h1>
-          <p className="text-secondary-700 text-center text-sm">
+          {/* <p className="text-secondary-700 text-center text-sm">
             Leverage a proprietary machine learning engine that multiplies the
             value of labelled data, allowing for better AI with fewer data
             requirements. Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Consequuntur rerum corrupti necessitatibus sit soluta,
             architecto.
-          </p>
+          </p> */}
         </div>
         {/* <div className="space-y-20">
           {ourServicesData.map((service, index) => (
@@ -52,10 +52,10 @@ const OurServices = () => {
                 className="absolute inset-0 h-full w-full object-cover"
               />
 
-              <div className="h-full relative bg-gradient-to-t from-secondary-900/70 to-secondary-900/50">
+              <div className="h-full relative bg-gradient-to-b from-dark/80 to-medium/70">
                 <div className="h-full flex flex-col justify-end space-y-8 p-8">
                   <div className="space-y-4">
-                    <h2 className="text-white font-semibold sm:text-base">
+                    <h2 className="text-white font-semibold sm:text-base border-b-4 pb-1">
                       {service.title}
                     </h2>
                     <p className="text-secondary-100 text-sm leading-relaxed">
