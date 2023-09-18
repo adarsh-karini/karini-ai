@@ -79,16 +79,28 @@ export const whyChooseUsData = [
   },
 ];
 
-export const clientLogosData = [1, 2, 3, 4, 5, 6, 7, 8];
+export const ourExpertiseData = [1, 2, 3, 4, 5, 6, 7, 8];
 
-export const successStoryData = {
-  title: "Marine Classification Services Company Automates Regulatory Queries",
-  description:
-    "We specialize in human-in-the-loop AI solutions, blending human intelligence with advanced AI research to drive growth and streamline workflows. Our dedicated team of experts creates innovative and powerful solutions for diverse industries. ch to drive growth and streamline workflows. Our dedicated team of experts creates innovative and powerful solutions for diverse industries.",
-  points: [
-    "80% automation of all internal regulatory answers",
-    "40% increase in surveyor productivity",
-    "15-20% improvement in classification accuracy",
-  ],
-  picture: "....................",
-};
+export const customerStoriesData = [
+  {
+    title: "Largest Insurance in EMEA",
+    points: [
+      {
+        title: "Challenge",
+        description:
+          "Processes over 10M+ claims per year and have 1000s of customer support staff which adds to bottom line of the customer.",
+      },
+      {
+        title: "Solution",
+        description:
+          "Built a customized OCR system powered by Amazon Textract and integrated the pipeline using Karini AI Generative AI recipes to build a conversational AI to help customer support to better equip to handle customers.",
+      },
+      {
+        title: "Benefits",
+        description:
+          "Reduced time per call by 2 mins on average, saving projected millions of Euros per year.",
+      },
+    ],
+    picture: "....................",
+  },
+];
