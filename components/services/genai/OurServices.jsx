@@ -5,7 +5,10 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import { TbBoxModel } from "react-icons/tb";
 import { AiFillGolden, AiOutlineCodepenCircle } from "react-icons/ai";
 
-import { OurServicesData } from "@/content/services/genai/genaiData";
+import {
+  OurServicesData,
+  genaiSubServicesData,
+} from "@/content/services/genai/genaiData";
 import Link from "next/link";
 import { IoCheckmarkCircle } from "react-icons/io5";
 
@@ -21,109 +24,6 @@ const OurServices = () => {
     "Generative AI Foundations",
     "Rapid Prototyping",
     "Advanced Services",
-  ];
-
-  const genaiSubServicesData = [
-    {
-      name: "Generative AI Foundations",
-      services: [
-        {
-          title: "Training and Enablement",
-          keyPoints: [
-            "Introduction to Generative AI",
-            "Introduction to Amazon Bedrock",
-            "Prompt Engineering Basics",
-            "Introduction to Vector databases",
-          ],
-        },
-        {
-          title: "Workshops",
-          keyPoints: [
-            "Building a Retrieval Augmented Generation (RAG) application",
-            "Document Management Understanding with Generative AI",
-            "Foundational Model finetuning",
-            "Generative AI Evaluation",
-          ],
-        },
-        {
-          title: "Advisory",
-          keyPoints: [
-            "Business and technology discovery",
-            "Business process evaluation",
-            "Business value assessment",
-            "Use case brainstorming",
-            "Competitive assessment",
-          ],
-        },
-      ],
-    },
-    {
-      name: "Rapid Prototyping",
-      services: [
-        {
-          title: "Retrieval Augmented GenerationI(RAG)",
-          keyPoints: [
-            "Propose RAG architecture",
-            "Perform data preparation",
-            "Set up vector indexing pipeline",
-            "Propose and set up a LLM pipeline",
-          ],
-        },
-        {
-          title: "Prompt Engineering and Prompt Tuning",
-          keyPoints: [
-            "Qualified prompt engineers  to create training datasets",
-            "Provide content creators to review prompt responses",
-            "Rank, Classify prompt responses",
-            "Provide human in the loop services",
-          ],
-        },
-        {
-          title: "Chatbot Integration",
-          keyPoints: [
-            "Assess your business processes",
-            "Propose Gen AI capabilities to improve applications",
-            "Build secure chatbot interface",
-            "Set up Human review workflows",
-          ],
-        },
-      ],
-    },
-    {
-      name: "Advanced Services",
-      services: [
-        {
-          title: "Model finetuning with RLHF",
-          keyPoints: [
-            "Create a curated dataset",
-            "Data preprocessing",
-            "Finetune a SOTA OSS model or SAAS api",
-            "Benchmark multiple models against human evaluation score",
-            "Set up training pipeline automation",
-          ],
-        },
-        {
-          title: "Model Pretraining",
-          keyPoints: [
-            "Understand use case, dataset, budget",
-            "Recommend model, platform and cost",
-            "Preparare data and develop a LLM recipe",
-            "Perform LLM training and model evaluation against benchmarks",
-          ],
-        },
-        {
-          title: "LLMOps",
-          keyPoints: [
-            "Exploratory data analysis (EDA)",
-            "Data prep and prompt engineering",
-            "Model fine-tuning",
-            "Model review and governance",
-            "Model inference and serving",
-            "Model monitoring with human feedback",
-          ],
-        },
-      ],
-    },
   ];
 
   const [switchValue, setSwitchValue] = useState(0);
@@ -152,8 +52,8 @@ const OurServices = () => {
                   className={`${
                     switchValue === index
                       ? "bg-primary-600 text-white"
-                      : "bg-white text-primary-600"
-                  } py-3 px-5 text-xs font-semibold whitespace-nowrap`}
+                      : "bg-white ttext-secondary-500"
+                  } py-3 px-5 text-xs font-semibold whitespace-nowrap border-r-2 last:border-none`}
                 >
                   {serviceButton}
                 </button>

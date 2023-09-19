@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
                     />
                   )}
                 </div>
-                <div className="space-y-2">
+                <div className="flex-1 space-y-2">
                   <h3 className="text-black font-semibold text-base md:text-lg">
                     {data.title}
                   </h3>
