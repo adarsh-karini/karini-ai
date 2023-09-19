@@ -14,14 +14,11 @@ const Hero = () => {
                 <span className="text-primary-600"> Platforms</span>
               </h1>
               <p className="text-center text-secondary-600 text-sm sm:text-base">
-                By using karini ai to automate business operations, our
-                cognitive Intelligent Automation solutions enable customers to
-                overcome the most difficult obstacles. Lorem ipsum dolor sit
-                amet consectetur, adipisicing elit. Corporis autem culpa
-                eligendi ab velit maxime doloremque enim totam provident unde
-                expedita alias voluptatibus vitae possimus ipsam nobis,
-                obcaecati dignissimos optio laborum tenetur. Sapiente velit
-                explicabo dolore iure exercitationem ad nemo.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur dolor nihil quasi iste earum, repudiandae, quod
+                delectus alias tenetur similique quae sed repellat pariatur sint
+                harum beatae atque. Quae ab impedit debitis nam praesentium
+                possimus ipsum enim in quibusdam facilis!
               </p>
             </div>
           </div>
