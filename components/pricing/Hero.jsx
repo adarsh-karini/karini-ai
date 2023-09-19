@@ -12,12 +12,13 @@ const Hero = () => {
               <h1 className="text-center text-4xl font-extrabold text-black md:text-5xl lg:text-6xl">
                 One tool for your whole team needs
               </h1>
-              <div>
+              <div className="flex flex-col justify-center">
                 <p className="text-center text-secondary-600 text-sm sm:text-base">
                   Try Karini free for 30 days to start connected with your all
-                  <p className="text-center text-secondary-600 text-sm sm:text-base">
-                    teams. Cancel any time. No credit card required.
-                  </p>
+                  teams.
+                </p>
+                <p className="text-center text-secondary-600 text-sm sm:text-base">
+                  Cancel any time. No credit card required.
                 </p>
               </div>
             </div>

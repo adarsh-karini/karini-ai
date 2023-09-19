@@ -31,7 +31,7 @@ const OurServices = () => {
   );
 
   return (
-    <section className="relative bg-white px-4 lg:px-0 py-20">
+    <section className="relative bg-primary-50 px-4 lg:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-8">
         <div className="space-y-2">
           <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">

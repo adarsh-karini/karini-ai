@@ -4,7 +4,7 @@ import Link from "next/link";
 import { IoCheckmarkCircle } from "react-icons/io5";
 
 const Pricing = () => {
-  const [switchValue, setSwitchValue] = useState(false);
+  const [switchValue, setSwitchValue] = useState(true);
   return (
     <section className="px-4 lg:px-0 py-10">
       <div className="max-w-screen-lg mx-auto space-y-8">
@@ -148,6 +148,16 @@ const Pricing = () => {
                   </div>
                 </div>
               ))}
+          </div>
+        </div>
+        <div className="bg-gradient-to-r from-primary-900 from-0% to-primary-600 to-90% p-8">
+          <div className="flex justify-center items-center space-x-10">
+            <h2 className="text-white text-xl md:text-2xl font-semibold">
+              Looking for a custom plan?
+            </h2>
+            <button className="px-4 py-2 bg-white hover:bg-primary-900 text-primary-600 hover:text-white transition font-semibold text-sm">
+              Contact us
+            </button>
           </div>
         </div>
       </div>

@@ -32,7 +32,7 @@ const Challenges = () => {
               rewind: true,
               gap: 10,
               pagination: false,
-              pauseOnHover: false,
+              pauseOnHover: true,
               pauseOnFocus: false,
               breakpoints: {
                 640: {

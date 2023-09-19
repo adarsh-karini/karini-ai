@@ -2,8 +2,6 @@ import Challenges from "@/components/services/genai/Challenges";
 import Hero from "@/components/services/genai/Hero";
 import OurExpertise from "@/components/services/genai/OurExpertise";
 import OurServices from "@/components/services/genai/OurServices";
-import SectionOne from "@/components/services/genai/SectionOne";
-import SectionTwo from "@/components/services/genai/SectionTwo";
 import WhyChooseUs from "@/components/services/genai/WhyChooseUs";
 import CustomerStories from "@/components/services/genai/customerStories";
 import { Inter, Poppins } from "next/font/google";
@@ -21,7 +19,7 @@ const index = () => {
       <Hero />
       <Challenges />
       <OurServices />
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
       <OurExpertise />
       <CustomerStories />
     </div>
