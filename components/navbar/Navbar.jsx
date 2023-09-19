@@ -32,29 +32,31 @@ const Navbar = () => {
                 {servicesDropdown && (
                   <div
                     onMouseLeave={() => setServicesDropdown(false)}
-                    className="z-20 border absolute top-10 bg-white drop-shadow-md grid grid-cols-1 gap-4 py-4 px-4"
+                    className="z-20 border absolute top-10 bg-white drop-shadow-md grid grid-cols-1 gap-2 p-4"
                   >
                     <Link
                       href={"/services/genai"}
-                      className="flex items-center space-x-2"
+                      onClick={() => setServicesDropdown(false)}
+                      className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2"
                     >
                       <BsCloudFog2
                         size={35}
-                        className="text-primary-600 bg-primary-100 p-2"
+                        className="text-primary-600 p-2 group-hover:text-white"
                       />
-                      <h3 className="cursor-pointer text-sm text-black font-semibold">
+                      <h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white">
                         Generative AI
                       </h3>
                     </Link>
                     <Link
                       href={"/services/ml"}
-                      className="flex items-center space-x-2"
+                      onClick={() => setServicesDropdown(false)}
+                      className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2"
                     >
                       <BsCloudFog2
                         size={35}
-                        className="text-primary-600 bg-primary-100 p-2"
+                        className="text-primary-600 p-2 group-hover:text-white"
                       />
-                      <h3 className="cursor-pointer text-sm text-black font-semibold">
+                      <h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white">
                         Machine Learning
                       </h3>
                     </Link>

@@ -1,7 +1,7 @@
 import React from "react";
 import { SiAmazonaws } from "react-icons/si";
 
-import { ourExpertiseData } from "@/content/services/genai/genaiData";
+import { ourGenaiExpertiseData } from "@/content/services/genai/genaiData";
 
 const OurExpertise = () => {
   return (
@@ -11,7 +11,7 @@ const OurExpertise = () => {
           Our Expertise
         </h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
-          {ourExpertiseData.map((val, index) => (
+          {ourGenaiExpertiseData.map((val, index) => (
             <SiAmazonaws
               key={index}
               size={40}

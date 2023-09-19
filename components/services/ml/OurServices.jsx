@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsRobot, BsCloudFog2, BsArrowRight } from "react-icons/bs";
 import { FaCircleNodes } from "react-icons/fa6";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import { TbBoxModel } from "react-icons/tb";
-import { AiOutlineCodepenCircle } from "react-icons/ai";
+import { AiFillGolden, AiOutlineCodepenCircle } from "react-icons/ai";
 
 import { OurServicesData } from "@/content/services/ml/mlData";
 import Link from "next/link";
@@ -16,20 +16,189 @@ const OurServices = () => {
     TbBoxModel,
   };
 
+  const mlServicesButtons = [
+    "MLOps Foundations",
+    "Rapid Prototyping",
+    "Platform Solutions",
+  ];
+
+  const mlSubServicesData = [
+    {
+      name: "MLOps Foundations",
+      services: [
+        {
+          title: "MLOps Training",
+          keyPoints: [
+            "In-depth courses covering MLOps principles, tools, and best practices.",
+            "Hands-on labs for version control using Git, model tracking with tools like MLflow, and CI/CD pipeline setups.",
+            "Training modules on automating model deployment and monitoring in production.",
+            "Learning to address common MLOps challenges and ensuring model reliability.",
+          ],
+        },
+        {
+          title: "Data Science Training",
+          keyPoints: [
+            "Customized training programs for data scientists, data engineers, and analysts.",
+            "Workshops on data preprocessing, feature selection, and advanced analytics techniques.",
+            "Hands-on experience with popular data science libraries like pandas, scikit-learn, and TensorFlow.",
+            "Training in building end-to-end machine learning pipelines from data collection to model deployment.",
+          ],
+        },
+        {
+          title: "Workshops and Game Days",
+          keyPoints: [
+            "Interactive workshops focusing on real-world MLOps scenarios.",
+            "Game days simulating MLOps incidents and testing incident response plans.",
+            "Machine Learning Hackathons for talent acquisition.",
+            "Building cool demo to win for conferences and exhibitions.",
+          ],
+        },
+      ],
+    },
+    {
+      name: "Rapid Prototyping",
+      services: [
+        {
+          title: "Computer Vision",
+          keyPoints: [
+            "Rapid development of computer vision models using frameworks like TensorFlow and PyTorch.",
+            "Prototyping for image classification, object detection, image segmentation, and image generation.",
+            "Integration with hardware like cameras and sensors for real-time applications.",
+            "Model optimization for edge devices and deployment strategies.",
+          ],
+        },
+        {
+          title: "Natural Language Processing",
+          keyPoints: [
+            "Accelerated NLP model development for tasks like sentiment analysis, chatbots, and named entity recognition.",
+            "Customization of pre-trained language models for domain-specific applications.",
+            "Building chatbot prototypes with natural language understanding (NLU) capabilities.",
+            "Creating text summarization models for content generation.",
+          ],
+        },
+        {
+          title: "Forecasting",
+          keyPoints: [
+            "Rapid implementation of time series forecasting models using libraries like Prophet and ARIMA.",
+            "Forecasting demand, sales, financial trends, and more.",
+            "Evaluation of model accuracy with metrics like RMSE and MAE.",
+            "Hyperparameter tuning and model selection for optimal results.",
+          ],
+        },
+        {
+          title: "Recommendation engines",
+          keyPoints: [
+            "Quick development of recommendation systems based on collaborative filtering and content-based filtering.",
+            "Prototyping personalized product recommendation engines for e-commerce.",
+            "Implementing hybrid recommendation algorithms that combine multiple approaches.",
+            "Evaluation of recommendation quality using precision, recall, and F1-score metrics.",
+          ],
+        },
+      ],
+    },
+    {
+      name: "Platform Solutions",
+      services: [
+        {
+          title: "ML Platform Migrations",
+          keyPoints: [
+            "Assessment and planning for migrating existing ML platforms to modern, scalable solutions.",
+            "Data and model migration strategies to minimize downtime and data loss",
+            "Implementation of cloud-based ML platforms like AWS SageMaker or Databricks.",
+            "Integration of essential components, such as version control, model tracking, and automated deployment.",
+          ],
+        },
+        {
+          title: "Intelligent Document Understanding",
+          keyPoints: [
+            "Development of AI-driven document understanding solutions for text extraction and classification.",
+            "Automated structured data extraction from unstructured documents like invoices, forms, and contracts.",
+            "Customized natural language processing (NLP) models for document summarization and sentiment analysis.",
+            "Deployment of document understanding systems to enhance data retrieval and decision-making.",
+          ],
+        },
+        {
+          title: "Model Migrations",
+          keyPoints: [
+            "Assessment and strategy development for migrating machine learning models to new environments.",
+            "Transition from legacy on-premises models to cloud-based platforms for scalability and efficiency.",
+            "Optimization of models for deployment on edge devices and IoT platforms.",
+            "Ensuring model performance and reliability during and after migration.",
+          ],
+        },
+      ],
+    },
+  ];
+
+  const [switchValue, setSwitchValue] = useState(0);
+  const [showService, setShowService] = useState(
+    mlSubServicesData[switchValue]
+  );
+
   return (
     <section className="relative bg-white px-4 lg:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-8">
-        {/* <div className="absolute p-40 rounded-full -left-40 -top-40 bg-primary-100 blur-xl"></div> */}
         <div className="space-y-2">
           <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
             Our Services
           </h1>
-          <p className="text-secondary-700 text-center">
-            Leverage a proprietary machine learning engine that multiplies the
-            value of labelled data, allowing for better AI.
-          </p>
         </div>
-        <div className="space-y-6 flex flex-col">
+        <div className="space-y-10">
+          <div className="flex justify-center">
+            <div className="flex p-1 border border-gray-300 bg-white drop-shadow-xl overflow-x-auto">
+              {mlServicesButtons.map((serviceButton, index) => (
+                <button
+                  key={index}
+                  onClick={() => {
+                    setSwitchValue(index);
+                    setShowService(mlSubServicesData[index]);
+                  }}
+                  className={`${
+                    switchValue === index
+                      ? "bg-primary-600 text-white"
+                      : "bg-white text-primary-600"
+                  } py-3 px-5 text-xs font-semibold whitespace-nowrap`}
+                >
+                  {serviceButton}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div>
+            <div className="space-y-6">
+              <h2 className="text-xl text-black font-semibold text-center pb-2 border-b-2 border-secondary-300">
+                {showService.name}
+              </h2>
+              <div className="space-y-10">
+                {showService.services?.map((service, ind) => (
+                  <div key={ind} className="space-y-2">
+                    <h3 className="text-black font-medium text-sm sm:text-base text-left">
+                      {service.title}
+                    </h3>
+                    <div className="flex gap-8">
+                      <div className="hidden md:block flex-1 bg-primary-600 opacity-40"></div>
+
+                      <div className="flex-1 space-y-2">
+                        {service.keyPoints.map((point, ind) => (
+                          <div
+                            key={ind}
+                            className="flex space-x-2 text-primary-600"
+                          >
+                            <AiFillGolden size={40} className="p-2" />
+                            <p className="flex-1 text-secondary-700 text-sm">
+                              {point}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="space-y-6 flex flex-col">
           {OurServicesData.map((data, index) => (
             <div
               key={index}
@@ -73,7 +242,7 @@ const OurServices = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

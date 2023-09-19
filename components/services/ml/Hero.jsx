@@ -10,18 +10,15 @@ const Hero = () => {
             <div className="absolute p-20 md:p-32 rounded-full right-0 bottom-0 bg-primary-100 blur-2xl"></div>
 
             <div className="z-10 space-y-6 px-4 max-w-screen-lg">
-              <h1 className="text-center text-4xl font-extrabold text-black md:text-5xl lg:text-6xl">
-                <span className="text-primary-600">MLOPs</span> as a service
+              <h1 className="text-center text-2xl font-extrabold text-black md:text-4xl lg:text-5xl">
+                Karini AI is your partner to establish
+                <span className="text-primary-600"> MLOps </span>to within your
+                Enterprise
               </h1>
               <p className="text-center text-gray-600 text-sm sm:text-base">
-                By using karini ai to automate business operations, our
-                cognitive Intelligent Automation solutions enable customers to
-                overcome the most difficult obstacles. Lorem ipsum dolor sit
-                amet consectetur, adipisicing elit. Corporis autem culpa
-                eligendi ab velit maxime doloremque enim totam provident unde
-                expedita alias voluptatibus vitae possimus ipsam nobis,
-                obcaecati dignissimos optio laborum tenetur. Sapiente velit
-                explicabo dolore iure exercitationem ad nemo.
+                We are ex-Amazon Machine Learning builders with deep expertise
+                in Machine Learning, Computer Vision, and Natural Language
+                Processing
               </p>
             </div>
           </div>

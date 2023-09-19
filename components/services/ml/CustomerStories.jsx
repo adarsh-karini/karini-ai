@@ -3,7 +3,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { BsArrowRight } from "react-icons/bs";
 import { AiFillCloud } from "react-icons/ai";
 
-import { genaiCustomerStoriesData } from "@/content/services/genai/genaiData";
+import { mlCustomerStoriesData } from "@/content/services/ml/mlData";
 
 // Default theme
 import "@splidejs/react-splide/css";
@@ -37,7 +37,7 @@ const CustomerStories = () => {
               pauseOnFocus: false,
             }}
           >
-            {genaiCustomerStoriesData.map((customerStory, index) => (
+            {mlCustomerStoriesData.map((customerStory, index) => (
               <SplideSlide key={index}>
                 <div className="flex flex-col md:flex-row md:space-x-10 space-y-4 md:space-y-0">
                   <div className="hidden lg:block bg-primary-400 px-40 py-40 md:py-0"></div>
@@ -66,6 +66,34 @@ const CustomerStories = () => {
             ))}
           </Splide>
         </div>
+        {/* {mlCustomerStoriesData.map((customerStory, index) => (
+          <div
+            key={index}
+            className="flex flex-col md:flex-row md:space-x-10 space-y-4 md:space-y-0"
+          >
+            <div className="hidden sm:block bg-primary-400 px-40 py-40 md:py-0"></div>
+            <div className="flex flex-col space-y-4">
+              <h2 className="text-black text-base md:text-lg font-semibold pb-2 border-b-2 border-primary-600">
+                {customerStory.title}
+              </h2>
+              <div className="space-y-4">
+                {customerStory.points.map((point, index) => (
+                  <div key={index} className="space-y-1">
+                    <div className="flex items-center space-x-2 text-primary-600">
+                      <AiFillCloud size={20} />
+                      <p className="text-black font-medium text-sm sm:text-base text-left">
+                        {point.title}
+                      </p>
+                    </div>
+                    <p className="flex-1 text-secondary-700 text-sm leading-6">
+                      {point.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))} */}
       </div>
     </section>
   );

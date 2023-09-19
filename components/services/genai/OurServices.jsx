@@ -17,13 +17,13 @@ const OurServices = () => {
     TbBoxModel,
   };
 
-  const servicesButtons = [
+  const genaiServicesButtons = [
     "Generative AI Foundations",
     "Rapid Prototyping",
     "Advanced Services",
   ];
 
-  const subServicesData = [
+  const genaiSubServicesData = [
     {
       name: "Generative AI Foundations",
       services: [
@@ -127,36 +127,33 @@ const OurServices = () => {
   ];
 
   const [switchValue, setSwitchValue] = useState(0);
-  const [showService, setShowService] = useState(subServicesData[switchValue]);
+  const [showService, setShowService] = useState(
+    genaiSubServicesData[switchValue]
+  );
 
   return (
     <section className="relative bg-white px-4 lg:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-8">
-        {/* <div className="absolute p-40 rounded-full -left-40 -top-40 bg-primary-100 blur-xl"></div> */}
         <div className="space-y-2">
           <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
             Our Services
           </h1>
-          <p className="text-secondary-700 text-center">
-            Leverage a proprietary machine learning engine that multiplies the
-            value of labelled data, allowing for better AI.
-          </p>
         </div>
         <div className="space-y-10">
           <div className="flex justify-center">
-            <div className="flex p-1 border border-gray-300 bg-white shadow-sm">
-              {servicesButtons.map((serviceButton, index) => (
+            <div className="flex p-1 border border-gray-300 bg-white drop-shadow-xl overflow-x-auto">
+              {genaiServicesButtons.map((serviceButton, index) => (
                 <button
                   key={index}
                   onClick={() => {
                     setSwitchValue(index);
-                    setShowService(subServicesData[index]);
+                    setShowService(genaiSubServicesData[index]);
                   }}
                   className={`${
                     switchValue === index
                       ? "bg-primary-600 text-white"
                       : "bg-white text-primary-600"
-                  } py-3 px-5 text-xs font-semibold`}
+                  } py-3 px-5 text-xs font-semibold whitespace-nowrap`}
                 >
                   {serviceButton}
                 </button>
@@ -181,10 +178,10 @@ const OurServices = () => {
                         {service.keyPoints.map((point, ind) => (
                           <div
                             key={ind}
-                            className="flex items-center space-x-2 text-primary-600"
+                            className="flex space-x-2 text-primary-600"
                           >
                             <AiFillGolden size={20} />
-                            <p className="text-secondary-700 text-sm">
+                            <p className="flex-1 text-secondary-700 text-sm">
                               {point}
                             </p>
                           </div>

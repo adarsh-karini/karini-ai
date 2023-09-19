@@ -6,7 +6,7 @@ import "@splidejs/react-splide/css";
 // or other themes
 import "@splidejs/react-splide/css/sea-green";
 
-import { genaiChallenges } from "@/content/services/genai/genaiData";
+import { mlChallenges } from "@/content/services/ml/mlData";
 
 const Challenges = () => {
   return (
@@ -16,8 +16,12 @@ const Challenges = () => {
           <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
             Challenges
           </h1>
+          <p className="text-secondary-700 text-center">
+            Adopting MLOps in an enterprise setting can be a transformative
+            journey, but it also comes with its fair share of challenges
+          </p>
         </div>
-        <div className="">
+        <div>
           <Splide
             aria-label="Challenges"
             options={{
@@ -47,7 +51,7 @@ const Challenges = () => {
               },
             }}
           >
-            {genaiChallenges?.map((challenge, index) => (
+            {mlChallenges?.map((challenge, index) => (
               <SplideSlide key={index}>
                 <div
                   key={index}
@@ -67,7 +71,7 @@ const Challenges = () => {
           </Splide>
         </div>
         {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {genaiChallenges.map((challenge, index) => (
+          {mlChallenges.map((challenge, index) => (
             <div
               key={index}
               className="h-full flex flex-col justify-between space-y-10 bg-white p-6 drop-shadow-md border border-secondary-300"
