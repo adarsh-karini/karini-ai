@@ -9,7 +9,7 @@ const Hero = ({ title, overview }) => {
             <div className="absolute p-20 md:p-32 rounded-full left-0 md:left-1/4 top-10 md:top-20 bg-primary-100 blur-2xl"></div>
             <div className="absolute p-20 md:p-32 rounded-full right-0 bottom-0 bg-primary-100 blur-2xl"></div>
 
-            <div className="max-w-screen-lg z-10 flex justify-between">
+            <div className="max-w-screen-lg z-10 flex justify-between space-x-4">
               <div className="flex-1 px-4 md:px-0">
                 <div className=" space-y-1">
                   <h1 className="text-left text-xl font-extrabold text-black md:text-3xl">
@@ -18,7 +18,7 @@ const Hero = ({ title, overview }) => {
                   <p className="text-left text-gray-600 text-sm">{overview}</p>
                 </div>
               </div>
-              <div className="flex-1 bg-primary-200"></div>
+              <div className="flex-1 bg-primary-400 py-20"></div>
             </div>
           </div>
         </section>

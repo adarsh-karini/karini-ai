@@ -6,6 +6,7 @@ import Hero from "@/components/solutions/solution_details/Hero";
 import BreadCrumb from "@/components/solutions/solution_details/BreadCrumb";
 
 import { solutionDetailsData } from "@/content/solutions/solutionDetailsData";
+import SectionOne from "@/components/solutions/solution_details/SectionOne";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -62,6 +63,7 @@ const Solution = () => {
             title={solutionsData?.title}
             overview={solutionsData?.overview}
           />
+          <SectionOne />
         </div>
       )}
     </>
