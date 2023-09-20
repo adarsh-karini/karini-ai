@@ -2,7 +2,6 @@ import { Inter, Poppins } from "next/font/google";
 import Hero from "@/components/home/Hero";
 import ClientLogos from "@/components/home/ClientLogos";
 import WhyKarini from "@/components/home/WhyKarini";
-import HowItWorks from "@/components/home/HowItWorks";
 import OurServices from "@/components/home/OurServices";
 import OurPlatforms from "@/components/home/OurPlatforms";
 import ClientReviews from "@/components/home/ClientReviews";
@@ -22,7 +21,6 @@ export default function Home() {
       <WhyKarini />
       <OurServices />
       <OurPlatforms />
-      {/* <HowItWorks /> */}
       <ClientReviews />
       <FAQ />
     </div>

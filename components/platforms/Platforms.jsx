@@ -20,13 +20,20 @@ const Platforms = () => {
     "Quality Management",
   ];
 
-  const [switchValue, setSwitchValue] = useState(0);
-  const [showPlatform, setShowPlatform] = useState(platformsData[switchValue]);
+  const [selected, setSelected] = useState(platformsButtons[0]);
+  const [showPlatform, setShowPlatform] = useState([platformsData[0]]);
+
+  const handleClick = (val) => {
+    setSelected(val);
+
+    const data = platformsData.filter((platform) => platform.title === val);
+    setShowPlatform(data);
+  };
 
   return (
     <section className="bg-white px-4 md:px-0 py-10">
       <div className="max-w-screen-lg mx-auto space-y-8">
-        <div className="space-y-2">
+        <div className="">
           <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
             Platforms
           </h1>
@@ -38,11 +45,10 @@ const Platforms = () => {
                 <button
                   key={index}
                   onClick={() => {
-                    setSwitchValue(index);
-                    setShowPlatform(platformsData[index]);
+                    handleClick(platformButton);
                   }}
                   className={`${
-                    switchValue === index
+                    platformButton === selected
                       ? "bg-primary-600 text-white"
                       : "bg-white text-secondary-500"
                   } py-3 px-5 text-xs font-semibold whitespace-nowrap border-r-2 last:border-none`}
@@ -54,20 +60,20 @@ const Platforms = () => {
           </div>
           <div className="space-y-6">
             <div className="space-y-1">
-              <h2 className="text-xl text-black font-semibold text-left">
-                {showPlatform.title}
+              <h2 className="text-xl text-black font-semibold text-center">
+                {showPlatform[0]?.title}
               </h2>
-              <p className="text-secondary-700 text-base">
-                {showPlatform.overview}
+              <p className="text-secondary-600 text-sm text-center">
+                {showPlatform[0]?.overview}
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {showPlatform.points?.map((point, index) => {
+              {showPlatform[0]?.points.map((point, index) => {
                 const IconComponent = IconNames[point.icon];
                 return (
                   <div
                     key={index}
-                    className=" flex space-x-4 border border-primary-200 border-l-8 border-l-primary-600 p-4 items-center shadow-sm"
+                    className=" flex space-x-4 bg-secondary-50 border border-primary-200 border-l-8 border-l-primary-600 p-4 items-center shadow-sm"
                   >
                     <div>
                       {IconComponent && (
@@ -91,21 +97,6 @@ const Platforms = () => {
             </div>
           </div>
         </div>
-
-        {/* <div>
-          {platformsData.map((platform, index) => (
-            <div key={index}>
-              <div className="space-y-1">
-                <h3 className="text-black font-medium text-sm sm:text-base text-left">
-                  {platform.title}
-                </h3>
-                <p className=" text-secondary-700 text-sm text-left">
-                  {platform.overview}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div> */}
       </div>
     </section>
   );

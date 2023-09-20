@@ -63,6 +63,7 @@ const Navbar = () => {
                   </div>
                 )}
               </div>
+              <Link href="/solutions">Solutions</Link>
               <Link href="/blogs">Blogs</Link>
               <Link href="/pricing">Pricing</Link>
               <Link href="/aboutus">About us</Link>

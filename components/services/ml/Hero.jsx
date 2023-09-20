@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="z-10 space-y-6 px-4 max-w-screen-lg">
               <h1 className="text-center text-2xl font-extrabold text-black md:text-4xl lg:text-5xl">
                 Karini AI is your partner to establish
-                <span className="text-primary-600"> MLOps </span>to within your
+                <span className="text-primary-600"> MLOPs </span>to within your
                 Enterprise
               </h1>
               <p className="text-center text-gray-600 text-sm sm:text-base">
