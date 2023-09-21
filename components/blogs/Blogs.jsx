@@ -1,43 +1,20 @@
+import Link from "next/link";
 import React from "react";
 
+import { blogsData } from "@/content/blogs/blogsData";
+
 const Blogs = () => {
-  const blogData = [
-    {
-      image: "",
-      title: "Highnote Emerges from Stealth with $54 Million in Funding",
-      description:
-        "Self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.",
-      tag: "analytics",
-      dateandDuration: "Oct 3 - 7 min read",
-    },
-    {
-      image: "",
-      title: "Custom Reports Can Go A Long Way For Your Business",
-      description:
-        "Self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.",
-      tag: "analytics",
-      dateandDuration: "Oct 3 - 7 min read",
-    },
-    {
-      image: "",
-      title: "Highnote Emerges from Stealth with $54 Million in Funding",
-      description:
-        "Self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.",
-      tag: "analytics",
-      dateandDuration: "Oct 3 - 7 min read",
-    },
-  ];
   return (
-    <section className="bg-white px-4 sm:px-10 pt-0 sm:pt-10 pb-20">
-      <div class="mx-auto max-w-screen-lg space-y-8">
-        <h2 class="text-2xl font-semibold text-primary-900 sm:text-3xl">
+    <section className="bg-white px-4 sm:px-10 py-20">
+      <div className="max-w-screen-lg mx-auto space-y-10">
+        <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
           Blogs & Updates
-        </h2>
+        </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {blogData.map((blog, index) => (
+          {blogsData.map((blog, index) => (
             <article
               key={index}
-              className="overflow-hidden rounded-lg border-2 border-gray-100 bg-white shadow-sm"
+              className="overflow-hidden border border-secondary-200 bg-white shadow-md hover:scale-105 transition sm:first:col-span-2 md:first:col-span-3 sm:first:flex"
             >
               <img
                 alt="Office"
@@ -45,29 +22,36 @@ const Blogs = () => {
                 className="h-56 w-full object-cover"
               />
 
-              <div className="p-4 sm:p-6">
-                <a href="#">
-                  <h3 className="text-lg font-medium text-gray-900 hover:text-primary-600">
-                    {blog.title}
-                  </h3>
-                </a>
+              <div className="p-4 sm:p-6 flex flex-col justify-between">
+                <div>
+                  <Link href={blog.path}>
+                    <h3 className="text-base font-semibold text-secondary-900 hover:text-primary-600">
+                      {blog.title}
+                    </h3>
+                  </Link>
 
-                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-                  {blog.description}
-                </p>
+                  <p className="mt-2 line-clamp-3 text-sm/relaxed text-secondary-700">
+                    {blog.description}
+                  </p>
+                </div>
 
-                <a
-                  href="#"
-                  className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary-600"
-                >
-                  Find out more
-                  <span
-                    aria-hidden="true"
-                    className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                <div className="flex justify-between items-end">
+                  <Link
+                    href={blog.path}
+                    className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary-600"
                   >
-                    &rarr;
-                  </span>
-                </a>
+                    Find out more
+                    <span
+                      aria-hidden="true"
+                      className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                    >
+                      &rarr;
+                    </span>
+                  </Link>
+                  <p className="text-secondary-500 text-xs">
+                    {blog.dateandDuration}
+                  </p>
+                </div>
               </div>
             </article>
           ))}

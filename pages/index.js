@@ -14,7 +14,7 @@ const poppins = Poppins({
   subsets: ["devanagari"],
 });
 
-export default function Home() {
+const index = () => {
   return (
     <div className={`${poppins.variable} ${inter.className} bg-white`}>
       <Hero />
@@ -25,4 +25,6 @@ export default function Home() {
       <FAQ />
     </div>
   );
-}
+};
+
+export default index;

@@ -10,7 +10,7 @@ const poppins = Poppins({
   subsets: ["devanagari"],
 });
 
-export default function Home() {
+const platforms = () => {
   return (
     <div className={`${poppins.variable} ${inter.className} bg-white`}>
       <Hero />
@@ -18,4 +18,6 @@ export default function Home() {
       <HowItWorks />
     </div>
   );
-}
+};
+
+export default platforms;

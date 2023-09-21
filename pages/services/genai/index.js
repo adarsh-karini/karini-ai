@@ -13,7 +13,7 @@ const poppins = Poppins({
   subsets: ["devanagari"],
 });
 
-const index = () => {
+const genai = () => {
   return (
     <div className={`${poppins.variable} ${inter.className} bg-white`}>
       <Hero />
@@ -26,4 +26,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default genai;

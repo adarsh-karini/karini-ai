@@ -22,7 +22,6 @@ const Solution = () => {
   const [solutionTypeData, setSolutionTypeData] = useState();
   const [solutionsData, setSolutionsData] = useState();
   const [loading, setLoading] = useState(false);
-  console.log("yy", solutionsData);
 
   const getSolutionTypeData = (id) => {
     const result = solutionDetailsData?.filter(
@@ -52,7 +51,7 @@ const Solution = () => {
   return (
     <>
       {loading && (
-        <div className="py-20 bg-white">
+        <div className="py-20 bg-white flex justify-center items-center">
           <h1 className="text-black font-3xl">Loading....</h1>
         </div>
       )}

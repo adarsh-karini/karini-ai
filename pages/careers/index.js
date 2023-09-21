@@ -1,6 +1,7 @@
-import Hero from "@/components/solutions/Hero";
-import Solutions from "@/components/solutions/Solutions";
+import React from "react";
 import { Inter, Poppins } from "next/font/google";
+import Hero from "@/components/careers/Hero";
+import Careers from "@/components/careers/Careers";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -9,13 +10,13 @@ const poppins = Poppins({
   subsets: ["devanagari"],
 });
 
-const solution = () => {
+const careers = () => {
   return (
     <div className={`${poppins.variable} ${inter.className} bg-white`}>
       <Hero />
-      <Solutions />
+      <Careers />
     </div>
   );
 };
 
-export default solution;
+export default careers;

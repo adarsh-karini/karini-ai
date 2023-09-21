@@ -42,7 +42,7 @@ const Pricing = () => {
                 >
                   <div className="p-6 border-b space-y-6">
                     <div className="text-center">
-                      <h2 className="text-black text-2xl font-bold">
+                      <h2 className="text-primary-600 text-2xl font-bold">
                         {plan.name}
                       </h2>
                       <p className="text-secondary-600 text-xs">

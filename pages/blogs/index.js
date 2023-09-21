@@ -4,7 +4,7 @@ import Hero from "@/components/blogs/Hero";
 import Blogs from "@/components/blogs/Blogs";
 const inter = Inter({ subsets: ["latin"] });
 
-const index = () => {
+const blog = () => {
   return (
     <div className={`${inter.className} bg-white`}>
       <Hero />
@@ -13,4 +13,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default blog;
