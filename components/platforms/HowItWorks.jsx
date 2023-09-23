@@ -30,7 +30,7 @@ const HowItWorks = () => {
                   active === index
                     ? "bg-primary-600 text-white border-primary-600"
                     : "bg-white text-secondary-700 border-secondary-300"
-                } hover:bg-primary-600 hover:text-white text-xs transition py-2 px-3 border`}
+                } border hover:border-primary-600 hover:bg-primary-50 hover:text-primary-600 text-xs transition py-2 px-3`}
               >
                 {button}
               </button>
