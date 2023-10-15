@@ -10,15 +10,11 @@ const Hero = () => {
             <div className="hidden lg:block absolute p-20 md:p-32 rounded-full right-0 bottom-0 bg-primary-100 blur-2xl"></div> */}
             <div className="z-10 space-y-6 px-4 max-w-screen-lg">
               <h1 className="text-center text-4xl font-extrabold text-white md:text-5xl lg:text-6xl">
-                Our Platforms
+                Our Platform
                 <span className="text-primary-600"> </span>
               </h1>
               <p className="text-center text-secondary-100 text-sm sm:text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur dolor nihil quasi iste earum, repudiandae, quod
-                delectus alias tenetur similique quae sed repellat pariatur sint
-                harum beatae atque. Quae ab impedit debitis nam praesentium
-                possimus ipsum enim in quibusdam facilis!
+              Simplifying the Power of Generative AI: Our mission is to streamline the complex processes of AI for enterprises with our no-code, low-code pipelines. Immerse in the wide spectrum of Generative AI applications in language, image, and audio, while quickly building and fine-tuning Large Language Model applications with crowd-sourced wisdom.
               </p>
             </div>
           </div>

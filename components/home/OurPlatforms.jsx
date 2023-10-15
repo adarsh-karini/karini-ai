@@ -19,7 +19,7 @@ const OurPlatforms = () => {
       <div className="max-w-screen-lg mx-auto space-y-8">
         <div className="space-y-2">
           <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
-            Our Platforms
+            Our Platform
           </h1>
           {/* <p className="text-secondary-700 text-center">
             Leverage a proprietary machine learning engine that multiplies the

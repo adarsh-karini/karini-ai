@@ -30,7 +30,7 @@ export const platformsData = [
       },
       {
         icon: "BsRobot",
-        title: "Image Generation Studio",
+        title: "Image Generation Studio (Coming Soon)",
         overview:
           "Use your domain specific business data to create cutting edge marketing content, product catalogs or brand content.",
       },
@@ -39,11 +39,11 @@ export const platformsData = [
   {
     title: "Dataset Management",
     overview:
-      "Centrally manage your data assets such as text, images, audio, and video along with business metadata and use semantic search capabilities to find relevant content.",
+      "Centrally manage your data assets such as text, images, audio, and video along with business metadata. Use semantic search capabilities to find relevant content.",
     points: [
       {
         icon: "BsRobot",
-        title: "Data connectors quickly",
+        title: "Built-in Data connectors",
         overview:
           "Connect to one of your favorite data sources such as Slack,  Google Cloud Storage, Amazon S3, Dropbox and more.",
       },
@@ -57,13 +57,13 @@ export const platformsData = [
         icon: "BsCloudFog2",
         title: "Data Preprocessing",
         overview:
-          "Native chunking, OCR and custom pre-processing capabilities using your favorite runtimes.",
+          "Native chunking,PII Redaction, OCR and custom pre-processing capabilities using your favorite runtimes.",
       },
       {
         icon: "TbBoxModel",
         title: "Insights",
         overview:
-          "Perform built-in analytics to understand trends, popularity and custom dashboards.",
+          "Perform analytics to understand trends, popularity and custom dashboards.",
       },
     ],
   },
@@ -76,19 +76,19 @@ export const platformsData = [
         icon: "BsRobot",
         title: "RBAC",
         overview:
-          "Define data, model and recipe administrators, executors and read-only users. Built-in data lineage of data assets and their access history.",
+          "Define data, model and recipe administrators, executors and read-only users. Native data lineage of data assets and their access history.",
       },
       {
         icon: "FaCircleNodes",
         title: "OIDC",
         overview:
-          "  Built-in authentication and authorization to leverage your existing RBAC security model.",
+          "Built-in authentication and authorization to leverage your existing RBAC security model.",
       },
       {
         icon: "BsCloudFog2",
         title: "Cost Controls",
         overview:
-          "Define your infrastructure budget and get tips for optimizing future spending.",
+          "Define your Generative AI project budget and get tips for optimizing future spending.",
       },
       {
         icon: "TbBoxModel",
@@ -101,7 +101,7 @@ export const platformsData = [
   {
     title: "Quality Management",
     overview:
-      "Generative AI is powerful but still in its early days; hence, it requires continuous monitoring to improve its efficiency over time. Karini AI provides capabilities to monitor responses, baseline quality, and use your favorite platforms to improve models.",
+      "Generative AI is powerful but still in its early days; hence, it requires continuous monitoring to improve its efficiency over time. Karini provides capabilities to monitor responses, baseline quality, and use your favorite platforms to improve models.",
     points: [
       {
         icon: "BsRobot",
@@ -119,7 +119,7 @@ export const platformsData = [
         icon: "BsCloudFog2",
         title: "Model Finetuning",
         overview:
-          "Use pre-built examples to perform model finetuning using Amazon SageMaker, Amazon Bedrock, or Databricks Platform.",
+          "Use pre-built examples to perform model finetuning using Amazon SageMaker, Amazon Bedrock, Anyscale or Databricks Platform.",
       },
       {
         icon: "TbBoxModel",

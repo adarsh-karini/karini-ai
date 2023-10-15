@@ -321,12 +321,12 @@ export const mlCustomerStoriesData = [
       {
         title: "Solution",
         description:
-          "Karini AI developed an OCR labeling workflow powered by Amazon Textract APIs to detect OCR text, key values, and tables. The labeling workflow integration with SageMaker training and serving provided the human-in-the-loop workflow to improve the model quality continuously.Karini AI developed an AI platform using AWS Services to provide easy-to-use bulk classification workflow but built-in dynamic consensus, dataset management to track and understand failure scenarios, and MLOps pipeline using Amazon SageMaker.",
+          "Karini AI developed an AI platform using AWS Services to provide easy-to-use bulk classification workflow but built-in dynamic consensus, dataset management to track and understand failure scenarios, and MLOps pipeline using Amazon SageMaker.",
       },
       {
         title: "Benefits",
         description:
-          "Continous learning improved model quality to 85%+ accuracy. Efficient bulk classification workflow was able to save 40% on labeling costs by medical professionals.",
+          "Continuous learning improved model quality to 85%+ accuracy. Efficient bulk classification workflow was able to save 40% on labeling costs by medical professionals.",
       },
     ],
     picture: "....................",

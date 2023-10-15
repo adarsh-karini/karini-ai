@@ -35,7 +35,7 @@ const Platforms = () => {
       <div className="max-w-screen-xl mx-auto space-y-8">
         <div className="">
           <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
-            Platforms
+            Platform Capabilities
           </h1>
         </div>
         <div className="space-y-16">

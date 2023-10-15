@@ -22,8 +22,7 @@ const Footer = () => {
               </div>
 
               <p className="mb-6 text-gray-400 sm:pr-8">
-                Filler text is dummy text which has no meaning however looks
-                very similar to real text.
+                Harness the power of Data and AI.
               </p>
             </div>
             <div className="flex gap-4">

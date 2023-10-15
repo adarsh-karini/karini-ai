@@ -37,7 +37,7 @@ const Navbar2 = () => {
             </Link>
           </div>
           <div className="hidden lg:flex justify-between space-x-8 text-sm text-secondary-300">
-            <Link href={"/platforms"}>Platforms</Link>
+            <Link href={"/platforms"}>Platform</Link>
             <div
               className="flex items-end space-x-1 cursor-pointer"
               onMouseEnter={() => setServicesDropdown(true)}

@@ -83,7 +83,7 @@ export const genaiChallenges = [
   {
     title: "Identification of Use cases",
     overview:
-      "How to get started is a big challenge for enterprises as there a Generative AI offers numerous capabilities, but understanding Return on Investment and exploring needle-moving use cases is a big challenge.",
+      "How to get started is a big challenge for enterprises as Generative AI offers numerous capabilities, but understanding Return on Investment and exploring needle-moving use cases is a big challenge.",
   },
   {
     title: "Use case Prioritization",
@@ -101,14 +101,14 @@ export const genaiChallenges = [
       "There are many SaaS APIs and Open-source options available for building blocks of Generative AI, and it is essential to use the right tool for your use case.",
   },
   {
-    title: "UIP protection and Security",
+    title: "IP protection and Security",
     overview:
       "Recent data leak of a large enterprise,  highlights the importance of balancing enthusiasm of Generative AI with your IP protection and ensuring Security standards are adhered to.",
   },
   {
     title: "Legal Implications",
     overview:
-      " Generative AI applications use crowd-sourced internet-scale text and image datasets. How to ensure that using APIs or certain models does not get into legal situations. The design needs to ensure that whatever APIs and models are used should meet the regulations.",
+      "Generative AI applications use crowd-sourced internet-scale text and image datasets. How to ensure that using APIs or certain models does not get you into legal situations. The design needs to ensure that whatever APIs and models are used should meet the local regulations.",
   },
   {
     title: "Responsible AI",
@@ -239,7 +239,7 @@ export const genaiCustomerStoriesData = [
       {
         title: "Solution",
         description:
-          "Built a customized OCR system powered by Amazon Textract and integrated the pipeline using Karini AI Generative AI recipes to build a conversational AI to help customer support to better equip to handle customers.",
+          "Built a customized OCR system powered by Amazon Textract and integrated the pipeline using Karini's Generative AI recipes to build a conversational AI to help customer support to better equip to handle customers.",
       },
       {
         title: "Benefits",
@@ -260,7 +260,7 @@ export const genaiCustomerStoriesData = [
       {
         title: "Solution",
         description:
-          "Karini AI built a document understanding solution using Generative AI using LLAMA2 coupled with classical ML to provide customer service agents with better-tailored strategy for a customer, on-the-spot risk assessed offers and promotions.",
+          "Karini built a document understanding solution using Generative AI using LLAMAv2 coupled with classical ML to provide customer service agents with better-tailored strategy for a customer, on-the-spot risk assessed offers and promotions.",
       },
       {
         title: "Benefits",
@@ -281,7 +281,7 @@ export const genaiCustomerStoriesData = [
       {
         title: "Solution",
         description:
-          "Karini AI built a custom Generative AI recipe using Azure OpenAI’s GPT-4 model to build Text to SQL solution to provide self-service conversational AI.",
+          "Karini built a custom Agentic Generative AI pipeline using Azure OpenAI’s GPT-4 model to build Text to SQL solution to provide self-service conversational AI.",
       },
       {
         title: "Benefits",

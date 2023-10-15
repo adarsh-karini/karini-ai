@@ -21,7 +21,7 @@ const Challenges = () => {
           <div className="space-y-6">
             <div className="space-y-2 text-center">
               <h1 className="inline-block text-black font-semibold text-lg sm:text-2xl text-center">
-                Challenges
+                Challenges: Building MLOps Platform
               </h1>
             </div>
             <div className="px-2">

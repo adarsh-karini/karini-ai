@@ -6,13 +6,13 @@ import { MdOutlineInsertPageBreak } from "react-icons/md";
 const HowItWorks = () => {
   const [active, setActive] = useState(0);
   const buttons = [
-    "Connect to your Data source",
+    "Connect Source",
     "Select Embedding Model",
-    "Set up Recipes",
-    "Run Evaluation tests",
-    "Make your application smarter",
+    "Set up Prompt",
+    "Run Tests",
+    "Export AI Widget",
+    "Deploy to Production",
     "Monitor Quality",
-    "Finetune a model",
   ];
   return (
     <section className="bg-white px-4 sm:px-10 py-20 overflow-hidden">
@@ -26,9 +26,7 @@ const HowItWorks = () => {
             How It Works
           </h1>
           <p className="text-secondary-600 text-sm text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-            delectus beatae, non velit temporibus dignissimos consequatur eius
-            sit eveniet ea.
+            Build and Deploy Gen AI application in minutes
           </p>
         </div>
         <div className="space-y-4">
