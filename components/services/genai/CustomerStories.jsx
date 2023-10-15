@@ -1,70 +1,100 @@
-import React from "react";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import { BsArrowRight } from "react-icons/bs";
-import { AiFillCloud } from "react-icons/ai";
-
 import { genaiCustomerStoriesData } from "@/content/services/genai/genaiData";
+import IconOne from "@/svgs/services/IconOne";
+import IconThree from "@/svgs/services/IconThree";
+import IconTwo from "@/svgs/services/IconTwo";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
 
-// Default theme
-import "@splidejs/react-splide/css";
-
-// or other themes
-import "@splidejs/react-splide/css/sea-green";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const CustomerStories = () => {
+  const iconColor = "#7c3aed";
   return (
-    <section className="bg-gradient-to-b from-primary-50 from-0% to-white to-100% px-4 md:px-0 py-20">
-      <div className="max-w-screen-lg mx-auto">
+    <section className="bg-secondary-100 px-6 md:px-20 py-20 overflow-hidden">
+      <div className="z-10 relative max-w-screen-lg mx-auto space-y-8">
+        <div className="absolute -left-14 -top-0 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg"></div>
+        <div className="-z-10 absolute -right-32 -bottom-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg">
+          <div className="p-20 m-8 bg-white rounded-full"></div>
+        </div>
         <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
-          Customer Stories
+          <span className="text-primary-600">Customer</span> Stories
         </h1>
         <div>
-          <Splide
-            aria-label="Challenges"
-            options={{
-              type: "loop",
-              perPage: 1,
-              perMove: 1,
-              loop: true,
-              autoplay: true,
-              interval: 3000,
-              arrows: false,
-              speed: 500,
-              rewind: true,
-              gap: 10,
-              pagination: true,
-              pauseOnHover: true,
-              pauseOnFocus: false,
+          <Swiper
+            loop={true}
+            autoHeight={true}
+            // height={200}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
             }}
+            modules={[Pagination, Autoplay]}
+            spaceBetween={50}
+            slidesPerView={1}
+            pagination={{ clickable: true }}
+            className="rounded-2xl border bg-white shadow-md"
           >
-            {genaiCustomerStoriesData.map((customerStory, index) => (
-              <SplideSlide key={index}>
-                <div className="flex flex-col md:flex-row md:space-x-10 space-y-4 md:space-y-0">
-                  <div className="hidden lg:block bg-primary-400 px-40 py-40 md:py-0"></div>
-                  <div className="flex flex-col space-y-4">
-                    <h2 className="text-black text-lg md:text-xl font-semibold pb-2 border-b-2 border-primary-600">
-                      {customerStory.title}
+            {genaiCustomerStoriesData.map((story, index) => (
+              <SwiperSlide key={index}>
+                <div className="bg-white flex space-x-4 p-12">
+                  <div className="flex-1 space-y-8">
+                    <h2 className="text-3xl font-semibold text-black">
+                      {story.title}
                     </h2>
-                    <div className="space-y-4">
-                      {customerStory.points.map((point, index) => (
-                        <div key={index} className="space-y-1">
-                          <div className="flex items-center space-x-2 text-primary-600">
-                            <AiFillCloud size={20} />
-                            <p className="text-black font-medium text-sm sm:text-base text-left">
+                    <div className="space-y-6">
+                      {story.points.map((point, ind) => (
+                        <div key={ind} className="flex items-center space-x-4">
+                          <div>
+                            {ind === 0 && (
+                              <IconOne
+                                width={40}
+                                height={40}
+                                color={iconColor}
+                              />
+                            )}
+                            {ind === 1 && (
+                              <IconTwo
+                                width={40}
+                                height={40}
+                                color={iconColor}
+                              />
+                            )}
+                            {ind === 2 && (
+                              <IconThree
+                                width={40}
+                                height={40}
+                                color={iconColor}
+                              />
+                            )}
+                          </div>
+                          <div className="flex-1 space-y-2">
+                            <h3 className="text-black font-semibold text-base">
                               {point.title}
+                            </h3>
+                            <p className="text-secondary-700 text-sm leading-relaxed">
+                              {point.description}
                             </p>
                           </div>
-                          <p className="flex-1 text-secondary-700 text-sm leading-6">
-                            {point.description}
-                          </p>
                         </div>
                       ))}
                     </div>
                   </div>
+                  <div className="hidden lg:block w-60 bg-primary-600 rounded-lg"></div>
                 </div>
-              </SplideSlide>
+              </SwiperSlide>
             ))}
-          </Splide>
+          </Swiper>
         </div>
       </div>
     </section>

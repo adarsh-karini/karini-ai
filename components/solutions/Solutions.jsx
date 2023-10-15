@@ -22,8 +22,12 @@ const Solutions = () => {
   };
 
   return (
-    <section className="bg-white px-4 sm:px-10 py-20">
-      <div className="max-w-screen-lg mx-auto space-y-10">
+    <section className="bg-white px-4 sm:px-10 py-20 overflow-hidden">
+      <div className="relative z-10 max-w-screen-lg mx-auto space-y-10">
+        <div className="-z-10 absolute -right-20 -top-10 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg"></div>
+        <div className="-z-10 absolute -left-32 -bottom-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg">
+          <div className="p-20 m-8 bg-white rounded-full"></div>
+        </div>
         <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
           Explore Solutions
         </h1>

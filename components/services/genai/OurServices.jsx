@@ -11,8 +11,12 @@ import {
 } from "@/content/services/genai/genaiData";
 import Link from "next/link";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import IconOne from "@/svgs/services/IconOne";
+import IconFour from "@/svgs/services/IconFour";
 
 const OurServices = () => {
+  const iconColor = "#7c3aed";
+
   const IconNames = {
     BsRobot,
     FaCircleNodes,
@@ -46,7 +50,7 @@ const OurServices = () => {
         </div>
         <div className="space-y-10">
           <div className="flex justify-center">
-            <div className="flex p-1 border border-gray-300 bg-white drop-shadow-xl overflow-x-auto">
+            <div className="flex border border-gray-300 bg-white drop-shadow-xl overflow-x-auto rounded-lg">
               {genaiServicesButtons.map((serviceButton, index) => (
                 <button
                   key={index}
@@ -66,33 +70,44 @@ const OurServices = () => {
           </div>
           <div>
             <div className="space-y-6">
-              <h2 className="text-xl text-black font-semibold text-center pb-2 border-b-2 border-secondary-300">
+              <h2 className="text-xl text-black font-semibold text-center">
                 {showService[0].name}
               </h2>
-              {showService[0].services.map((service, ind) => (
-                <div key={ind} className="space-y-2">
-                  <h3 className="text-black font-medium text-sm sm:text-base text-left">
-                    {service.title}
-                  </h3>
-                  <div className="flex gap-8">
-                    <div className="hidden md:block flex-1 bg-primary-600 opacity-40"></div>
-
-                    <div className="flex-1 space-y-2">
-                      {service.keyPoints.map((point, ind) => (
-                        <div
-                          key={ind}
-                          className="flex space-x-2 text-primary-600"
-                        >
-                          <AiFillGolden size={20} />
-                          <p className="flex-1 text-secondary-700 text-sm">
-                            {point}
-                          </p>
-                        </div>
-                      ))}
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                {showService[0].services.map((service, ind) => (
+                  <div
+                    key={ind}
+                    className=" border border-secondary-300 rounded-lg shadow-2xl shadow-primary-200"
+                  >
+                    <div className="h-40 bg-about_img bg-cover p-6 rounded-t-lg">
+                      <h3 className="text-white font-medium text-sm sm:text-base text-left">
+                        <span className="px-2 border-l-2 border-l-white">
+                          {service.title}
+                        </span>
+                      </h3>
+                    </div>
+                    <div className="flex-1 p-6">
+                      <div className=" space-y-2">
+                        {service.keyPoints.map((point, ind) => (
+                          <div
+                            key={ind}
+                            className="flex items-center gap-4 text-primary-600"
+                          >
+                            <IconFour
+                              width={20}
+                              height={20}
+                              color={iconColor}
+                            />
+                            <p className="flex-1 text-secondary-700 text-sm">
+                              {point}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>

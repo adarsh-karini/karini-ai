@@ -18,14 +18,14 @@ const Hero = () => {
               <div className="w-full space-x-2 flex justify-center">
                 <Link
                   href="#"
-                  className=" bg-primary-600 px-4 sm:px-8 py-2 sm:py-3 text-xs font-medium text-white transition duration-100 md:text-base"
+                  className=" bg-primary-600 px-4 sm:px-8 py-2 sm:py-3 text-xs font-medium text-white transition duration-100 md:text-base rounded"
                 >
                   Try it free
                 </Link>
 
                 <Link
                   href={"/pricing"}
-                  className="px-4 sm:px-8 py-2 sm:py-3 text-xs font-medium text-secondary-300 border border-sectext-secondary-300 transition duration-100 hover:text-primary-600 hover:bg-white md:text-base"
+                  className="px-4 sm:px-8 py-2 sm:py-3 text-xs font-medium text-secondary-300 border border-sectext-secondary-300 transition duration-100 hover:text-primary-600 hover:bg-white md:text-base rounded"
                 >
                   View pricing
                 </Link>

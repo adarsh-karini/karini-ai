@@ -19,9 +19,8 @@ const ml = () => {
       <Hero />
       <Challenges />
       <OurServices />
-      {/* <WhyChooseUs /> */}
-      <OurExpertise />
       <CustomerStories />
+      <OurExpertise />
     </div>
   );
 };

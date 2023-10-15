@@ -68,7 +68,7 @@ export const platformsData = [
     ],
   },
   {
-    title: "Quality Management",
+    title: "Security & Governance",
     overview:
       "Built-in access controls and fine-grained authorization to ensure only authorized users can access data assets and derived insights.",
     points: [

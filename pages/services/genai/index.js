@@ -20,8 +20,8 @@ const genai = () => {
       <Challenges />
       <OurServices />
       {/* <WhyChooseUs /> */}
-      <OurExpertise />
       <CustomerStories />
+      <OurExpertise />
     </div>
   );
 };

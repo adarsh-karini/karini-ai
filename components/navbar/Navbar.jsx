@@ -1,3 +1,4 @@
+import Logo from "@/svgs/logo/Logo";
 import Link from "next/link";
 import React, { useState } from "react";
 import {
@@ -27,11 +28,12 @@ const Navbar2 = () => {
           <div>
             <Link
               href="/"
-              className="text-xl font-semibold md:text-2xl"
+              // className="text-xl font-semibold md:text-2xl"
               aria-label="logo"
             >
-              <span className="text-white">karini.</span>
-              <span className="text-primary-600">ai</span>
+              <Logo />
+              {/* <span className="text-white">karini.</span>
+              <span className="text-primary-600">ai</span> */}
             </Link>
           </div>
           <div className="hidden lg:flex justify-between space-x-8 text-sm text-secondary-300">
@@ -86,7 +88,7 @@ const Navbar2 = () => {
           <div>
             <Link
               href={"/"}
-              className="hidden lg:block bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white"
+              className="hidden lg:block bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white rounded"
             >
               Try It Free
             </Link>

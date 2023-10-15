@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero_img: "url('/assets/images/tool_image.png')",
+        about_img: "url('/assets/images/aboutus/aboutbg.jpg')",
       },
       colors: {
         dark: "#111827", //dark purple
@@ -56,5 +57,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
