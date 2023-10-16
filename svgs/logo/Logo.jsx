@@ -1,13 +1,13 @@
 import React from "react";
 
-const Logo = () => {
+const Logo = ({ width, height }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       version="1.1"
-      width="100"
-      height="auto"
+      width={width || "100"}
+      height={height || "50"}
       viewBox="0 0 3162.2002820874472 768.7069884162837"
     >
       <g transform="scale(8.110014104372356) translate(10, 10)">
