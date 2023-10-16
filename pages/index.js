@@ -18,11 +18,12 @@ const index = () => {
   return (
     <div className={`${poppins.variable} ${inter.className} bg-white`}>
       <Hero />
+      <ClientLogos />
       <WhyKarini />
-      <OurServices />
       <OurPlatforms />
+      <OurServices />
       <ClientReviews />
-      <FAQ />
+      {/* <FAQ /> */}
     </div>
   );
 };

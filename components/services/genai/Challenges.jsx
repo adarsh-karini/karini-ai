@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination, Navigation, Scrollbar } from "swiper/modules";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 // Default theme
 import "@splidejs/react-splide/css";
@@ -10,6 +10,7 @@ import "@splidejs/react-splide/css/sea-green";
 
 // Import Swiper styles
 import "swiper/css";
+// import "swiper/css/scrollbar";
 
 import { genaiChallenges } from "@/content/services/genai/genaiData";
 
@@ -21,33 +22,34 @@ const Challenges = () => {
           <div className="space-y-6">
             <div className="space-y-2 text-center">
               <h1 className="inline-block text-black font-semibold text-lg sm:text-2xl text-center">
-                Challenges to Operationalize Generative AI 
+                Challenges to Operationalize Generative AI
               </h1>
             </div>
             <div className="px-2">
               <Swiper
-                spaceBetween={30}
+                spaceBetween={10}
                 loop={true}
                 slidesPerView={1}
                 breakpoints={{
                   640: {
                     slidesPerView: 2,
-                    spaceBetween: 20,
+                    spaceBetween: 10,
                   },
                   768: {
                     slidesPerView: 2,
-                    spaceBetween: 40,
+                    spaceBetween: 20,
                   },
                   1024: {
                     slidesPerView: 3,
-                    spaceBetween: 50,
+                    spaceBetween: 10,
                   },
                 }}
                 autoplay={{
-                  delay: 2500,
+                  delay: 4000,
                   disableOnInteraction: false,
                 }}
                 navigation={false}
+                pagination={{ clickable: true }}
                 modules={[Autoplay, Pagination]}
                 className="mySwiper bg-white rounded-lg"
               >
@@ -61,7 +63,7 @@ const Challenges = () => {
                         <h3 className="text-primary-600 font-semibold sm:text-lg ">
                           {challenge.title}
                         </h3>
-                        <p className="text-secondary-600 text-sm leading-relaxed">
+                        <p className="text-secondary-700 text-sm leading-relaxed">
                           {challenge.overview}
                         </p>
                       </div>

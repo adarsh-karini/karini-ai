@@ -26,21 +26,21 @@ const Challenges = () => {
             </div>
             <div className="px-2">
               <Swiper
-                spaceBetween={30}
+                spaceBetween={10}
                 loop={true}
                 slidesPerView={1}
                 breakpoints={{
                   640: {
                     slidesPerView: 2,
-                    spaceBetween: 20,
+                    spaceBetween: 10,
                   },
                   768: {
                     slidesPerView: 2,
-                    spaceBetween: 40,
+                    spaceBetween: 20,
                   },
                   1024: {
                     slidesPerView: 3,
-                    spaceBetween: 50,
+                    spaceBetween: 10,
                   },
                 }}
                 autoplay={{
@@ -48,6 +48,7 @@ const Challenges = () => {
                   disableOnInteraction: false,
                 }}
                 navigation={false}
+                pagination={{ clickable: true }}
                 modules={[Autoplay, Pagination]}
                 className="mySwiper bg-white rounded-lg"
               >

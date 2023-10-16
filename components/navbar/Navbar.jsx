@@ -47,7 +47,7 @@ const Navbar2 = () => {
               {servicesDropdown && (
                 <div
                   onMouseLeave={() => setServicesDropdown(false)}
-                  className="z-20 border absolute top-14 bg-white drop-shadow-md grid grid-cols-1"
+                  className="z-20 border absolute top-14 bg-white drop-shadow-md grid grid-cols-1 p-2"
                 >
                   <Link
                     href={"/services/genai"}
@@ -78,19 +78,19 @@ const Navbar2 = () => {
                 </div>
               )}
             </div>
-            <Link href={"/solutions"}>Solutions</Link>
+            {/* <Link href={"/solutions"}>Solutions</Link>
             <Link href={"/blogs"}>Blogs</Link>
-            <Link href={"/pricing"}>Pricing</Link>
-            <Link href={"/aboutus"}>About Us</Link>
+            <Link href={"/pricing"}>Pricing</Link> */}
+            <Link href={"/aboutus"}>About us</Link>
             <Link href={"/careers"}>Careers</Link>
-            <Link href={"/contactus"}>Contact Us</Link>
+            <Link href={"/contactus"}>Contact us</Link>
           </div>
           <div>
             <Link
               href={"/"}
               className="hidden lg:block bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white rounded"
             >
-              Try It Free
+              Join waitlist
             </Link>
           </div>
           <div className="lg:hidden">
@@ -177,7 +177,7 @@ const Navbar2 = () => {
                     </ul>
                   </details>
 
-                  <Link
+                  {/* <Link
                     onClick={() => setMobileMenu((prev) => !prev)}
                     href={"/solutions"}
                     className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
@@ -211,7 +211,7 @@ const Navbar2 = () => {
                     <IoPricetags size={20} className="text-secondary-600" />
 
                     <span className="text-sm font-medium"> Pricing </span>
-                  </Link>
+                  </Link> */}
 
                   <Link
                     onClick={() => setMobileMenu((prev) => !prev)}

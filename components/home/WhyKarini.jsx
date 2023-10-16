@@ -8,8 +8,16 @@ import { FaUsers } from "react-icons/fa";
 import { TiFlowSwitch } from "react-icons/ti";
 
 import { whyKariniData } from "@/content/home/whyKariniData";
+import IconOne from "@/svgs/home/IconOne";
+import IconTwo from "@/svgs/home/IconTwo";
+import IconThree from "@/svgs/home/IconThree";
+import IconFour from "@/svgs/home/IconFour";
+import IconFive from "@/svgs/home/IconFive";
+import IconSix from "@/svgs/home/IconSix";
 
 const WhyKarini = () => {
+  const iconColor = "#7c3aed";
+
   const IconNames = {
     BsSpeedometer,
     FaUsers,
@@ -18,36 +26,54 @@ const WhyKarini = () => {
   };
 
   return (
-    <section className="bg-white px-4 lg:px-0 py-20">
-      <div className="max-w-screen-lg mx-auto space-y-8">
-        <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
-          Why Karini AI ?
-        </h1>
-        <div className="space-y-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {whyKariniData.map((data, index) => {
-              const IconComponent = IconNames[data.icon];
-              return (
+    <section className="bg-dark px-4 lg:px-0 py-20 overflow-hidden">
+      <div className="relative z-10 max-w-screen-lg mx-auto">
+        <div className="absolute -z-10 -right-52 -top-32 p-52 rounded-full bg-primary-500 blur-3xl opacity-20"></div>
+        <div className="absolute -z-10 -left-52 -bottom-40 p-52 rounded-full bg-primary-500 blur-3xl opacity-20"></div>
+        <div className="space-y-10">
+          <h1 className="text-white font-bold text-2xl sm:text-3xl text-center">
+            <span className="text-primary-600">Why</span> Karini AI ?
+          </h1>
+          <div className="space-y-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {whyKariniData.map((data, index) => (
                 <div
                   key={index}
-                  className="flex flex-col space-y-4 bg-primary-50 px-8 py-10 border border-primary-100 border-b-8 border-b-primary-600 drop-shadow"
+                  className="bg-gradient-to-br from-gray-800 to-gray-950 space-y-6 rounded-3xl p-6"
                 >
-                  <div className="flex items-center space-x-2">
-                    <span className="p-2 bg-primary-700">
-                      {IconComponent && (
-                        <IconComponent size={20} className="text-white" />
+                  <div className="flex justify-center">
+                    <div className=" bg-primary-950 rounded-full p-4">
+                      {index === 0 && (
+                        <IconOne width={40} height={40} color={iconColor} />
                       )}
-                    </span>
-                    <h1 className="text-secondary-800 font-semibold text-base">
-                      {data.title}
-                    </h1>
+                      {index === 1 && (
+                        <IconTwo width={40} height={40} color={iconColor} />
+                      )}
+                      {index === 2 && (
+                        <IconThree width={40} height={40} color={iconColor} />
+                      )}
+                      {index === 3 && (
+                        <IconFour width={40} height={40} color={iconColor} />
+                      )}
+                      {index === 4 && (
+                        <IconFive width={40} height={40} color={iconColor} />
+                      )}
+                      {index === 5 && (
+                        <IconSix width={40} height={40} color={iconColor} />
+                      )}
+                    </div>
                   </div>
-                  <p className="text-secondary-800 text-sm leading-relaxed">
-                    {data.overview}
-                  </p>
+                  <div className="space-y-4">
+                    <h3 className="text-white text-center text-base md:text-lg font-medium">
+                      {data.title}
+                    </h3>
+                    <p className="text-secondary-400 text-left text-sm leading-relaxed">
+                      {data.overview}
+                    </p>
+                  </div>
                 </div>
-              );
-            })}
+              ))}
+            </div>
           </div>
         </div>
       </div>

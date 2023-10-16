@@ -52,11 +52,14 @@ const HowItWorks = () => {
               </button>
             ))}
           </div>
-          <div className="bg-primary-300 h-96 max-w-screen-lg mx-auto flex justify-center items-center border-8 border-white shadow">
-            <ImPlay3
+          <div className="bg-primary-100 max-w-screen-lg mx-auto flex justify-center items-center border-8 border-white shadow py-40 rounded-lg">
+            {/* <ImPlay3
               size={60}
               className="text-primary-300 bg-primary-900 p-3"
-            />
+            /> */}
+            <h3 className="text-3xl font-bold text-primary-600">
+              Coming soon...
+            </h3>
           </div>
         </div>
       </div>

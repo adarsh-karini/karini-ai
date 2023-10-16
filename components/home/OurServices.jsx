@@ -3,75 +3,84 @@ import { BsArrowRight } from "react-icons/bs";
 
 import { ourServicesData } from "@/content/home/ourServicesData";
 import Link from "next/link";
+import IconOne from "@/svgs/aboutus/IconOne";
+import IconSeven from "@/svgs/home/IconSeven";
+import IconEight from "@/svgs/home/IconEight";
 
 const OurServices = () => {
+  const iconColor = "#7c3aed";
+
   return (
-    <section className="bg-primary-50 px-4 lg:px-0 py-20">
+    <section className="bg-dark px-4 lg:px-0 py-20 lg:py-40 overflow-hidden">
       <div className="max-w-screen-lg mx-auto space-y-8">
-        <div className="space-y-2">
-          <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
-            Our Services
-          </h1>
-          {/* <p className="text-secondary-700 text-center text-sm">
-            Leverage a proprietary machine learning engine that multiplies the
-            value of labelled data, allowing for better AI with fewer data
-            requirements. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Consequuntur rerum corrupti necessitatibus sit soluta,
-            architecto.
-          </p> */}
-        </div>
-        {/* <div className="space-y-20">
-          {ourServicesData.map((service, index) => (
-            <div key={index} className="space-y-4">
-              <h1 className="text-secondary-800 text-xl sm:text-2xl font-semibold">
-                {service.title}
+        <div className="h-full relative z-10 flex gap-20">
+          <div className="-z-10 absolute -right-32 -top-16 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg">
+            <div className="p-20 m-8 bg-dark rounded-full"></div>
+          </div>
+          <div className="-z-10 absolute -left-32 -bottom-14 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg"></div>
+          <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
+            <div className="flex flex-col items-center space-y-4 py-4">
+              <h1 className="text-white font-bold text-2xl sm:text-3xl text-center md:text-left">
+                <span className="text-primary-600">Our</span> Services
               </h1>
-              <div className="flex flex-col md:flex-row md:space-x-6">
-                <div className="hidden md:block flex-1 bg-primary-500 py-20"></div>
-                <div className="flex-1 flex flex-col justify-between space-y-2">
-                  <p className="text-secondary-700 text-sm leading-relaxed">
-                    {service.overview}
-                  </p>
-                  <Link href={service.path} className="flex justify-end">
-                    <button className="text-white text-sm font-medium flex items-center space-x-2 bg-primary-600 border border-primary-600 px-4 py-2 ">
-                      <span>Learn More</span>{" "}
-                      <BsArrowRight size={20} className="font-semibold" />
-                    </button>
-                  </Link>
-                </div>
+
+              <Link
+                href={"/services"}
+                className="inline-flex items-center space-x-2 bg-primary-600 px-4 py-2 rounded-md"
+              >
+                <span className="text-white font-semibold text-sm">
+                  Explore more
+                </span>
+                <button className="">
+                  <BsArrowRight size={20} className="text-white" />
+                </button>
+              </Link>
+            </div>
+            <div className="flex-1 space-y-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {ourServicesData.map((data, index) => (
+                  <div
+                    key={index}
+                    className="flex flex-col justify-between bg-gradient-to-br from-gray-800 to-gray-950 space-y-6 border border-secondary-800 shadow-lg shadow-primary-800/10 rounded-lg p-6"
+                  >
+                    <div className="h-full flex space-x-6">
+                      <div className="">
+                        {index === 0 && (
+                          <IconSeven width={40} height={40} color={iconColor} />
+                        )}
+                        {index === 1 && (
+                          <IconEight width={40} height={40} color={iconColor} />
+                        )}
+                      </div>
+                      <div className="flex-1 flex flex-col justify-between space-y-6">
+                        <div className="space-y-2">
+                          <h2 className="text-white font-semibold sm:text-base lg:text-lg">
+                            {data.title}
+                          </h2>
+                          <p className="text-secondary-300 text-sm leading-relaxed">
+                            {data.overview}
+                          </p>
+                        </div>
+                        <div className="flex justify-start">
+                          <Link
+                            href={data.path}
+                            className="flex items-center space-x-2 text-primary-600"
+                          >
+                            <span className=" font-semibold text-sm">
+                              Explore more
+                            </span>
+                            <button className="">
+                              <BsArrowRight size={20} className="" />
+                            </button>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
-          ))}
-        </div> */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {ourServicesData.map((service, index) => (
-            <article key={index} className="relative overflow-hidden">
-              <img
-                alt="Office"
-                src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
-                className="absolute inset-0 h-full w-full object-cover"
-              />
-
-              <div className="h-full relative bg-gradient-to-b from-dark/80 to-medium/70">
-                <div className="h-full flex flex-col justify-end space-y-8 p-8">
-                  <div className="space-y-4">
-                    <h2 className="text-white font-semibold sm:text-base border-b-4 pb-1">
-                      {service.title}
-                    </h2>
-                    <p className="text-secondary-100 text-sm leading-relaxed">
-                      {service.overview}
-                    </p>
-                  </div>
-                  <Link href={service.path} className="">
-                    <button className="text-white text-sm font-medium flex items-center space-x-2 bg-primary-600 border border-primary-600 px-4 py-2 ">
-                      <span>Explore all services</span>
-                      <BsArrowRight size={20} className="font-semibold" />
-                    </button>
-                  </Link>
-                </div>
-              </div>
-            </article>
-          ))}
+          </div>
         </div>
       </div>
     </section>

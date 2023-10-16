@@ -30,7 +30,8 @@ export const platformsData = [
       },
       {
         icon: "BsRobot",
-        title: "Image Generation Studio (Coming Soon)",
+        title: "Image Generation Studio",
+        tag: "coming soon",
         overview:
           "Use your domain specific business data to create cutting edge marketing content, product catalogs or brand content.",
       },

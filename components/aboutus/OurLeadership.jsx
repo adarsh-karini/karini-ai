@@ -15,12 +15,27 @@ const OurLeadership = () => {
           <div className="-z-10 absolute -right-32 -bottom-20 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg">
             <div className="p-20 m-8 bg-white rounded-full"></div>
           </div>
-          <div className="sm:w-2/3 flex flex-col justify-between space-y-4 sm:space-y-0">
+          <div className="sm:w-2/3 flex flex-col justify-between space-y-4 sm:space-y-8">
             <p className="text-secondary-700 text-sm text-justify leading-6">
-            Deepali Rajale stands out as an AI aficionado with a remarkable tenure as a Global Machine Learning Specialist at Amazon Web Services. At AWS, she not only penned insightful blogs on Amazon SageMaker but also became a notable figure in various AI circles. She's been instrumental in propelling Fortune-100 companies towards a seamless AI integration. Her passion has driven substantial advancements in Generative AI, MLOps, and TCO for Amazon Machine Learning and AI Services. Before her illustrious journey with Amazon, Deepali spearheaded product engineering at renowned firms like Paypal and Blue Yonder. Beyond her corporate achievements, Deepali is a celebrated author, having penned hundreds of soul-stirring poems in her native tongue, published a book and is cherished by thousands on Facebook. She's also in the midst of crafting a definitive book on MLOps on AWS.
+              Deepali Rajale stands out as an AI aficionado with a remarkable
+              tenure as a Global Machine Learning Specialist at Amazon Web
+              Services. At AWS, she not only penned insightful blogs on Amazon
+              SageMaker but also became a notable figure in various AI circles.
+              She&apos;s been instrumental in propelling Fortune-100 companies
+              towards a seamless AI integration. Her passion has driven
+              substantial advancements in Generative AI, MLOps, and TCO for
+              Amazon Machine Learning and AI Services. Before her illustrious
+              journey with Amazon, Deepali spearheaded product engineering at
+              renowned firms like Paypal and Blue Yonder. Beyond her corporate
+              achievements, Deepali is a celebrated author, having penned
+              hundreds of soul-stirring poems in her native tongue, published a
+              book and is cherished by thousands on Facebook. She&apos;s also in
+              the midst of crafting a definitive book on MLOps on AWS.
             </p>
             <div className="flex space-x-4 items-center">
-              <IconSeven width={40} height={40} color={iconColor} />
+              <div className="bg-primary-100 p-2 rounded-md">
+                <IconSeven width={40} height={40} color={iconColor} />
+              </div>
               <div>
                 <h3 className="text-black text-base md:text-lg font-semibold">
                   Deepali Rajale

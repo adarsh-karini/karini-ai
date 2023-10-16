@@ -24,7 +24,7 @@ const Careers = () => {
             {careersData.map((job, index) => (
               <div
                 key={index}
-                className="p-4 bg-white border border-secondary-300 shadow-md"
+                className="p-4 bg-white border border-secondary-300 shadow-md rounded-lg"
               >
                 <div className="flex flex-col lg:flex-row justify-between lg:items-center space-y-2 lg:space-y-0">
                   <h3 className="flex-1 text-black text-base font-medium">
@@ -40,7 +40,7 @@ const Careers = () => {
                   </div>
                   <div className="flex-1 flex justify-end">
                     <Link href={job.path}>
-                      <button className="flex space-x-4 items-center bg-primary-600 px-4 py-2 text-white font-medium">
+                      <button className="flex space-x-4 items-center bg-primary-600 px-4 py-2 text-white font-medium rounded-md">
                         <span className="text-sm">Apply</span>
                         <span
                           aria-hidden="true"

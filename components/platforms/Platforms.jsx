@@ -67,30 +67,37 @@ const Platforms = () => {
                 {showPlatform[0]?.overview}
               </p>
             </div>
-            <div className="w-3/4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="w-3/4 grid grid-cols-1 sm:grid-cols-2 gap-6">
               {showPlatform[0]?.points.map((point, index) => {
                 const IconComponent = IconNames[point.icon];
                 return (
                   <div
                     key={index}
-                    className=" flex space-x-8 bg-secondary-50 border border-primary-200 border-l-8 border-l-primary-600 p-4 shadow-sm rounded-lg"
+                    className="relative flex space-x-8 bg-gradient-to-br from-primary-200 from-10% to-primary-50 border border-primary-200  p-4 shadow-md shadow-primary-100 rounded-lg"
                   >
                     <div>
                       {IconComponent && (
                         <IconComponent
                           size={60}
-                          className="text-primary-800 bg-primary-200 rounded-lg p-4"
+                          className="text-primary-100 bg-primary-900 rounded-lg p-4"
                         />
                       )}
                     </div>
                     <div className="flex-1 space-y-2">
-                      <h3 className="text-primary-600 font-semibold text-sm md:text-base">
+                      <h3 className="text-black font-semibold text-sm md:text-base">
                         {point.title}
                       </h3>
-                      <p className="text-secondary-600 text-xs md:text-sm leading-relaxed">
+                      <p className="text-secondary-700 text-xs md:text-sm leading-relaxed">
                         {point.overview}
                       </p>
                     </div>
+                    {point.tag && (
+                      <div className="absolute -top-2 -right-2">
+                        <h3 className="text-white text-xs font-medium bg-primary-600 p-2 rounded-md">
+                          {point.tag}
+                        </h3>
+                      </div>
+                    )}
                   </div>
                 );
               })}

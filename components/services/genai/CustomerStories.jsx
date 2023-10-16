@@ -22,7 +22,7 @@ const CustomerStories = () => {
   const iconColor = "#7c3aed";
   return (
     <section className="bg-secondary-100 px-6 md:px-20 py-20 overflow-hidden">
-      <div className="z-10 relative max-w-screen-lg mx-auto space-y-8">
+      <div className="z-10 relative h-[55rem] md:h-[40rem] max-w-screen-lg mx-auto space-y-8">
         <div className="absolute -left-14 -top-0 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg"></div>
         <div className="-z-10 absolute -right-32 -bottom-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg">
           <div className="p-20 m-8 bg-white rounded-full"></div>
@@ -36,7 +36,7 @@ const CustomerStories = () => {
             autoHeight={true}
             // height={200}
             autoplay={{
-              delay: 2500,
+              delay: 4000,
               disableOnInteraction: false,
             }}
             modules={[Pagination, Autoplay]}
@@ -47,9 +47,9 @@ const CustomerStories = () => {
           >
             {genaiCustomerStoriesData.map((story, index) => (
               <SwiperSlide key={index}>
-                <div className="bg-white flex space-x-4 p-12">
+                <div className="bg-white flex space-x-4 p-6 md:p-12">
                   <div className="flex-1 space-y-8">
-                    <h2 className="text-3xl font-semibold text-black">
+                    <h2 className="text-xl md:text-3xl font-semibold text-black">
                       {story.title}
                     </h2>
                     <div className="space-y-6">
