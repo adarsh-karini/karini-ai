@@ -2,7 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <header className="bg-about_img bg-cover">
+    <header className="relative bg-platform_img bg-cover">
+      <div className="h-full w-full opacity-70 absolute bg-black"></div>
       <div className="mx-auto max-w-screen-2xl">
         <section>
           <div className="relative flex flex-col items-center justify-center py-14 md:py-32">
@@ -14,7 +15,12 @@ const Hero = () => {
                 <span className="text-primary-600"> </span>
               </h1>
               <p className="text-center text-secondary-100 text-sm sm:text-base">
-              Simplifying the Power of Generative AI: Our mission is to streamline the complex processes of AI for enterprises with our no-code, low-code pipelines. Immerse in the wide spectrum of Generative AI applications in language, image, and audio, while quickly building and fine-tuning Large Language Model applications with crowd-sourced wisdom.
+                Simplifying the Power of Generative AI: Our mission is to
+                streamline the complex processes of AI for enterprises with our
+                no-code, low-code pipelines. Immerse in the wide spectrum of
+                Generative AI applications in language, image, and audio, while
+                quickly building and fine-tuning Large Language Model
+                applications with crowd-sourced wisdom.
               </p>
             </div>
           </div>
