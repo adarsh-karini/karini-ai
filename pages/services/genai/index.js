@@ -1,6 +1,6 @@
 import Challenges from "@/components/services/genai/Challenges";
 import Hero from "@/components/services/genai/Hero";
-import OurExpertise from "@/components/services/genai/OurExpertise";
+import OurClients from "@/components/services/genai/OurClients";
 import OurServices from "@/components/services/genai/OurServices";
 import WhyChooseUs from "@/components/services/genai/WhyChooseUs";
 import CustomerStories from "@/components/services/genai/CustomerStories";
@@ -21,7 +21,7 @@ const genai = () => {
       <OurServices />
       {/* <WhyChooseUs /> */}
       <CustomerStories />
-      <OurExpertise />
+      <OurClients />
     </div>
   );
 };

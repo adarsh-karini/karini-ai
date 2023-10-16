@@ -9,25 +9,16 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero_img: "url('/assets/images/tool_image.png')",
-        about_img: "url('/assets/images/aboutus/aboutbg.jpg')",
+        about_img: "url('/assets/images/aboutus/aboutus_img.jpg')",
+        solution_img: "url('/assets/images/solutions/solutions_img.jpg')",
+        platform_img: "url('/assets/images/platform/platform_img.jpg')",
+        gen_img: "url('/assets/images/services/gen_services_img.jpg')",
+        ml_img: "url('/assets/images/services/ml_services_img.jpg')",
       },
       colors: {
         dark: "#111827", //dark purple
         medium: "#581C87", // medium purple
         light: "#7C3AED", // light purple
-        // primary_one: {
-        //   50: "#faf5ff",
-        //   100: "#f3e8ff",
-        //   200: "#e9d5ff",
-        //   300: "#d8b4fe",
-        //   400: "#c084fc",
-        //   500: "#a855f7",
-        //   600: "#9333ea",
-        //   700: "#7e22ce",
-        //   800: "#6b21a8",
-        //   900: "#581c87",
-        //   950: "#3b0764",
-        // },
         primary: {
           50: "#f5f3ff",
           100: "#ede9fe",

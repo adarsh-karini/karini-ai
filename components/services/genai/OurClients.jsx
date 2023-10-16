@@ -2,28 +2,28 @@ import Image from "next/image";
 import React from "react";
 import { SiAmazonaws } from "react-icons/si";
 
-const OurExpertise = () => {
+const OurClients = () => {
   const ClientLogos = [
-    "/assets/images/ml/aws_rekognition.png",
-    "/assets/images/ml/aws_sagemaker.webp",
-    "/assets/images/ml/aws_textract.png",
-    "/assets/images/ml/hugging_face.svg",
-    "/assets/images/ml/aws_bedrock.jpg",
-    "/assets/images/ml/nvidia.png",
-    "/assets/images/ml/anyscale.svg",
+    "/assets/images/services/aws_bedrock.jpg",
+    "/assets/images/services/azure_openai.png",
+    "/assets/images/services/aws_sagemaker.webp",
+    "/assets/images/services/hugging_face.svg",
+    "/assets/images/services/anthropic.svg",
+    "/assets/images/services/anyscale.svg",
+    "/assets/images/services/databricks.png",
   ];
 
   return (
     <section className="bg-white px-4 md:px-10 py-20">
       <div className="max-w-screen-lg mx-auto space-y-16">
         <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
-          Our Expertise and Partners
+          Our Expertise
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {ClientLogos.map((val, index) => (
             <div
               key={index}
-              className=" py-8 border border-secondary-200 rounded-lg shadow-md shadow-primary-100 flex justify-center"
+              className="py-8 border border-secondary-200 rounded-lg shadow-md shadow-primary-100 flex justify-center"
             >
               <Image
                 src={val}
@@ -43,4 +43,4 @@ const OurExpertise = () => {
   );
 };
 
-export default OurExpertise;
+export default OurClients;

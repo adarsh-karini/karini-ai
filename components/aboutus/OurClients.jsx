@@ -1,8 +1,8 @@
 import React from "react";
 import { SiAmazonaws } from "react-icons/si";
 
-const ClientLogos = () => {
-  const ClientLogos = [1, 2, 3, 4, 5, 6];
+const OurClients = () => {
+  const OurClients = [1, 2, 3, 4, 5, 6];
 
   return (
     <section className="bg-white px-4 md:px-10 lg:px-0 py-20">
@@ -28,4 +28,4 @@ const ClientLogos = () => {
   );
 };
 
-export default ClientLogos;
+export default OurClients;

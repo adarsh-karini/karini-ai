@@ -1,6 +1,6 @@
 import { Inter, Poppins } from "next/font/google";
 import Hero from "@/components/home/Hero";
-import ClientLogos from "@/components/home/ClientLogos";
+import OurClients from "@/components/home/OurClients";
 import WhyKarini from "@/components/home/WhyKarini";
 import OurServices from "@/components/home/OurServices";
 import OurPlatforms from "@/components/home/OurPlatforms";
@@ -18,11 +18,11 @@ const index = () => {
   return (
     <div className={`${poppins.variable} ${inter.className} bg-white`}>
       <Hero />
-      <ClientLogos />
+      <OurClients />
       <WhyKarini />
       <OurPlatforms />
       <OurServices />
-      <ClientReviews />
+      {/* <ClientReviews /> */}
       {/* <FAQ /> */}
     </div>
   );

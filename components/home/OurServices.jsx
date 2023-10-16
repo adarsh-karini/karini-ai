@@ -23,18 +23,6 @@ const OurServices = () => {
               <h1 className="text-white font-bold text-2xl sm:text-3xl text-center md:text-left">
                 <span className="text-primary-600">Our</span> Services
               </h1>
-
-              <Link
-                href={"/services"}
-                className="inline-flex items-center space-x-2 bg-primary-600 px-4 py-2 rounded-md"
-              >
-                <span className="text-white font-semibold text-sm">
-                  Explore more
-                </span>
-                <button className="">
-                  <BsArrowRight size={20} className="text-white" />
-                </button>
-              </Link>
             </div>
             <div className="flex-1 space-y-4">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

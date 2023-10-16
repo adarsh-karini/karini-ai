@@ -1,4 +1,4 @@
-import ClientLogos from "@/components/aboutus/ClientLogos";
+import OurClients from "@/components/aboutus/OurClients";
 import Hero from "@/components/aboutus/Hero";
 import OurLeadership from "@/components/aboutus/OurLeadership";
 import Stats from "@/components/aboutus/Stats";
@@ -23,7 +23,7 @@ const aboutus = () => {
       <OurLeadership />
       <TheProcess />
       <VisionMission />
-      <ClientLogos />
+      {/* <OurClients /> */}
     </div>
   );
 };

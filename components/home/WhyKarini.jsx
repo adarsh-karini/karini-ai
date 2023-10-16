@@ -67,7 +67,7 @@ const WhyKarini = () => {
                     <h3 className="text-white text-center text-base md:text-lg font-medium">
                       {data.title}
                     </h3>
-                    <p className="text-secondary-400 text-left text-sm leading-relaxed">
+                    <p className="text-secondary-400 text-center text-sm leading-relaxed">
                       {data.overview}
                     </p>
                   </div>

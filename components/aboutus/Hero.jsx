@@ -7,7 +7,9 @@ const Hero = () => {
     "/assets/images/aboutus/about_img3.jpg",
   ];
   return (
-    <header className="z-10 bg-about_img bg-cover">
+    <header className="relative z-10 bg-about_img bg-cover">
+      <div className="h-full w-full opacity-60 absolute bg-black"></div>
+
       <div className="mx-auto max-w-screen-2xl">
         <section>
           <div className="relative flex flex-col items-center justify-center py-14 md:py-40">
