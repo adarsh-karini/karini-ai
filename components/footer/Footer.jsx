@@ -7,9 +7,9 @@ const Footer = () => {
     <div className="overflow-hidden bg-white px-4">
       <footer className="relative max-w-screen-2xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 px-4 md:px-0 py-6 border-b border-secondary-400">
-          <h1 className="text-black font-semibold text-xl">
+          {/* <h1 className="text-black font-semibold text-xl">
             Welcome to a Smarter Way to Label Data.
-          </h1>
+          </h1> */}
           <Link
             href={"/"}
             className=" bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white rounded"
@@ -23,9 +23,7 @@ const Footer = () => {
               <Logo width={100} height={30} />
             </div>
             <p className="text-secondary-600 text-sm font-medium leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              temporibus maxime minima sit eos vel quos assumenda veritatis
-              molestias facere.
+              Make Intelligent decisions with Generative AI.
             </p>
           </div>
           <div className="md:w-3/5">

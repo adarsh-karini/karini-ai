@@ -18,13 +18,11 @@ const Hero = () => {
 
             <div className="z-10 max-w-screen-lg space-y-10 px-4">
               <div className="space-y-6 ">
-                <h1 className="text-center text-4xl font-extrabold text-white md:text-5xl lg:text-6xl">
-                  We are proud of our product
+                <h1 className="text-center text-2xl font text-white md:text-3xl lg:text-4xl">
+                  Making Generative AI accessible to all enterprises 
                 </h1>
                 <p className="text-center text-gray-200 text-sm sm:text-base">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua.
+                Karini is on a mission to democratize the power of Generative AI. We believe that every enterprise, regardless of size or industry, should have access to cutting-edge AI technology. Our team of experts combines a deep understanding of AI with a passion for simplifying complex solutions, making it easier than ever for businesses to harness the potential of Generative AI in their operations. With a focus on innovation, reliability, and user-friendliness, we're dedicated to empowering your organization with the tools you need to thrive in the AI-driven future."
                 </p>
               </div>
               {/* <div className="flex space-x-4">

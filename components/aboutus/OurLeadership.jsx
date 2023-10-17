@@ -48,7 +48,7 @@ const OurLeadership = () => {
           </div>
           <div className="sm:w-1/3 flex justify-center">
             <img
-              src="/assets/images/team_members/co_founder.jpg"
+              src="/assets/images/team_members/deepali.jpg"
               alt="co_founder"
               className="h-52 sm:h-auto w-auto object-cover object-center rounded-md shadow-xl"
             />

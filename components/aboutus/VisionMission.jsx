@@ -10,7 +10,7 @@ const VisionMission = () => {
       title: "Longitivity",
       icon: <IconThree width={40} height={40} color={"#7c3aed"} />,
       overview:
-        " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores unde deleniti et dolorum consequuntur temporibus voluptatibus eum incidunt accusamus illo!",
+        " Envisioning a future where the benefits of Generative AI are within reach for every business, while prioritizing safety and governance. ",
     },
     {
       title: "Flexibility",

@@ -22,7 +22,7 @@ export const whyKariniData = [
     icon: "BsSpeedometer",
     title: "Built-in Human Feedback",
     overview:
-      "Faster setup using quickstart templates. Native integration with Amazon Bedrock, Azure OpenAI, Google Palm, Anthropic, Cohere, Databricks, HuggingFace, and Amazon SageMakerCapture human feedback with built-in rating ranking. Capture ground truth labels to improve your Models.",
+      "Capture human feedback with built-in rating ranking. Capture ground truth labels to improve your Models.",
   },
   {
     icon: "TiFlowSwitch",
@@ -34,6 +34,6 @@ export const whyKariniData = [
     icon: "BsBarChartLineFill",
     title: "Use our AI Experts",
     overview:
-      "Our experts can work with your business and technology leaders to plan and execute Generative AI strategy. Leverage free Proof of concepts to justify investments. Finetune or pre-train domain-specific Generative Models to reduce cost and improve quality.",
+      "Our experts can work with your business and technology leaders to plan and execute Generative AI strategy. Finetune or pre-train domain-specific Generative Models to reduce cost and improve quality.",
   },
 ];
