@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.clip_bg_cover {
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+/* .clip_bg_cover {
+  clipPath: polygon(0 0, 100% 0, 100% 70%, 0 100%);
 }
 .clip_hero_page {
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-}
+  clipPath: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+} */
 
 :root {
   --foreground-rgb: 0, 0, 0;

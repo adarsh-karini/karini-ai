@@ -87,7 +87,7 @@ const Navbar2 = () => {
           </div>
           <div>
             <Link
-              href={"/"}
+              href={"/joinwaitlist"}
               className="hidden lg:block bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white rounded"
             >
               Join waitlist
@@ -249,7 +249,7 @@ const Navbar2 = () => {
                 <div className="flex p-4">
                   <Link
                     onClick={() => setMobileMenu((prev) => !prev)}
-                    href={"/"}
+                    href={"/joinwaitlist"}
                     className="w-full bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white"
                   >
                     Join waitlist

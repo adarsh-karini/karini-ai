@@ -23,7 +23,7 @@ const Hero = () => {
               </div>
               <div className="w-full space-x-2 flex justify-center">
                 <Link
-                  href="#"
+                  href="/joinwaitlist"
                   className=" flex space-x-2 bg-primary-600 px-4 sm:px-4 py-2 sm:py-3 text-xs font-medium text-white transition duration-100 md:text-base rounded"
                 >
                   <span>Join waitlist</span>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <header className="relative bg-solution_img bg-cover ">
+    <header className="relative bg-gen_img bg-cover ">
       <div className="h-full w-full opacity-60 absolute bg-black"></div>
       <div className="mx-auto max-w-screen-2xl">
         <section>

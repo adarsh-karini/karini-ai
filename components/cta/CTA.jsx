@@ -9,7 +9,7 @@ const CTA = () => {
         </div>
         <div className="-z-10 absolute -left-10 -bottom-10 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg"></div> */}
         <div className=" mx-auto max-w-screen-lg p-4 rounded-lg">
-          <div className=" flex flex-col items-center w-full h-full py-20 space-y-4">
+          <div className=" flex flex-col items-center w-full h-full py-10 space-y-4">
             {/* <div className="p-20 absolute -left-20 -bottom-24 bg-primary-600 rounded-full opacity-50"></div>
             <div className="p-20 absolute -right-20 -top-1/2 bg-primary-600 rounded-full opacity-50"></div> */}
 
