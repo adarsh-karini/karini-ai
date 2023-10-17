@@ -9,7 +9,7 @@ const contactus = () => {
     <div className={`${inter.className} bg-white`}>
       <Hero />
       <ContactForm />
-      <OurOffices />
+      {/* <OurOffices /> */}
     </div>
   );
 };

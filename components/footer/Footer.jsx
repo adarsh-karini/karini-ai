@@ -10,17 +10,17 @@ const Footer = () => {
           <div className="p-20 m-8 bg-white rounded-full"></div>
         </div>
         <div className="-z-10 absolute -left-32 -bottom-14 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg opacity-10"></div>
-        <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 px-4 md:px-0 py-6 border-b border-secondary-400">
-          {/* <h1 className="text-black font-semibold text-xl">
+        {/* <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 px-4 md:px-0 py-6 border-b border-secondary-400">
+          <h1 className="text-black font-semibold text-xl">
             Welcome to a Smarter Way to Label Data.
-          </h1> */}
+          </h1>
           <Link
             href={"/joinwaitlist"}
             className=" bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white rounded"
           >
             Join waitlist
           </Link>
-        </div>
+        </div> */}
         <div className="flex flex-col md:flex-row gap-10 lg:gap-20 py-10">
           <div className="md:w-2/5 space-y-2">
             <div>

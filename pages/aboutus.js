@@ -19,7 +19,7 @@ const aboutus = () => {
     <div className={`${poppins.variable} ${inter.className} bg-white`}>
       <Hero />
       {/* <Stats /> */}
-      <WhoWeAre />
+      {/* <WhoWeAre /> */}
       <OurLeadership />
       <TheProcess />
       <VisionMission />

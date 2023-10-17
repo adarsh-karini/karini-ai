@@ -13,7 +13,7 @@ const CTA = () => {
             {/* <div className="p-20 absolute -left-20 -bottom-24 bg-primary-600 rounded-full opacity-50"></div>
             <div className="p-20 absolute -right-20 -top-1/2 bg-primary-600 rounded-full opacity-50"></div> */}
 
-            <div className="space-y-1">
+            {/* <div className="space-y-1">
               <h2 className="text-center text-xl font-bold text-white sm:text-2xl lg:text-3xl">
                 NEWSLETTER
               </h2>
@@ -34,7 +34,7 @@ const CTA = () => {
               >
                 Send
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </div>

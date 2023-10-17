@@ -12,7 +12,7 @@ const Hero = ({ title, overview }) => {
             <div className="max-w-screen-lg z-10 flex justify-between space-x-4">
               <div className="flex-1 md:px-0">
                 <div className=" space-y-1">
-                  <h1 className="text-left text-xl font-extrabold text-black md:text-3xl">
+                  <h1 className="text-left text-xl font-semibold text-black md:text-3xl">
                     {title}
                   </h1>
                   <p className="text-left text-gray-600 text-sm">{overview}</p>
