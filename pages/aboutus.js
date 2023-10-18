@@ -21,8 +21,8 @@ const aboutus = () => {
       {/* <Stats /> */}
       {/* <WhoWeAre /> */}
       <OurLeadership />
-      <TheProcess />
-      <VisionMission />
+      {/* <TheProcess /> */}
+      {/* <VisionMission /> */}
       {/* <OurClients /> */}
     </div>
   );
