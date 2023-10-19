@@ -20,12 +20,12 @@ const privacypolicy = () => {
           <h2 className="text-black text-lg font-semibold">Introduction</h2>
           <p className="text-secondary-700 text-sm leading-relaxed">
             Tensoract Inc is committed to protecting your privacy. This privacy
-            statement explains data collection and use practices of the
-            Tensoract Inc.com site (the “Site”); it does not apply to other
-            online or offline Tensoract Inc sites, products or services. By
-            accessing the Site, you are consenting to the information collection
-            and use practices described in this privacy statement. Publish.
-            post. upload. distribute or disseminate any inappropriate. profane.
+            statement explains data collection and use practices of the Karini
+            AI LLM site (the “Site”); it does not apply to other online or
+            offline Tensoract Inc sites, products or services. By accessing the
+            Site, you are consenting to the information collection and use
+            practices described in this privacy statement. Publish. post.
+            upload. distribute or disseminate any inappropriate. profane.
             defamatory. infringing. obscene. indecent or unlawful topic. name.
             material or information. Related services and offerings with links
             from this web site, including partner sites, have their own privacy
@@ -74,13 +74,13 @@ const privacypolicy = () => {
             information or by customizing the Site to your particular preference
             or interests. In order to offer you a more consistent experience in
             your interactions with Tensoract Inc, information collected by
-            Tensoract Inc.com may be combined with information collected by
-            other Tensoract Inc services. We may use your personal information
-            to provide you with important information about the product or
-            service that you are using, including critical updates and
-            notifications. Additionally, with your permission, we may send you
-            information about other Tensoract Inc products and services, and/or
-            share information with Tensoract Inc partners so they may send you
+            Karini AI LLM may be combined with information collected by other
+            Tensoract Inc services. We may use your personal information to
+            provide you with important information about the product or service
+            that you are using, including critical updates and notifications.
+            Additionally, with your permission, we may send you information
+            about other Tensoract Inc products and services, and/or share
+            information with Tensoract Inc partners so they may send you
             information about their products and services. Tensoract Inc
             occasionally hires other companies to provide limited services on
             our behalf, such as Web site hosting, answering customer questions
@@ -110,7 +110,7 @@ const privacypolicy = () => {
           </h2>
           <p className="text-secondary-700 text-sm leading-relaxed">
             You can access and review your personal information by contacting
-            Tensoract Inc.com as described at the bottom of this statement, or
+            Karini AI LLM as described at the bottom of this statement, or
             through alternative means of access described by the service.
           </p>
         </div>
@@ -133,7 +133,7 @@ const privacypolicy = () => {
             Protection of Children’s Personal Information
           </h2>
           <p className="text-secondary-700 text-sm leading-relaxed">
-            Tensoract Inc.com is a general audience site and does not knowingly
+            Karini AI LLM is a general audience site and does not knowingly
             collect any personal information from children.
           </p>
         </div>
@@ -169,21 +169,20 @@ const privacypolicy = () => {
             Use of Web Beacons
           </h2>
           <p className="text-secondary-700 text-sm leading-relaxed">
-            Tensoract Inc.com Web pages may contain electronic images known as
-            Web beacons – sometimes also called single-pixel gifs – that allow
-            Tensoract Inc.com to count users who have visited those pages and to
-            deliver co-branded services. Tensoract Inc.com may include Web
-            beacons in promotional e-mail messages or newsletters in order to
-            determine whether messages have been opened and acted upon. Some of
-            these Web beacons may be placed by third party service providers to
-            help determine the effectiveness of our advertising campaigns or
-            email communications. These Web beacons may be used by these service
+            Karini AI LLM Web pages may contain electronic images known as Web
+            beacons – sometimes also called single-pixel gifs – that allow
+            Karini AI LLM to count users who have visited those pages and to
+            deliver co-branded services. Karini AI LLM may include Web beacons
+            in promotional e-mail messages or newsletters in order to determine
+            whether messages have been opened and acted upon. Some of these Web
+            beacons may be placed by third party service providers to help
+            determine the effectiveness of our advertising campaigns or email
+            communications. These Web beacons may be used by these service
             providers to place a persistent cookie on your computer. Doing this
             allows the service provider to recognize your computer each time you
             visit certain pages or emails and compile anonymous information in
-            relation to those page views. Tensoract Inc.com prohibits Web
-            beacons from being used to collect or access your personal
-            information.
+            relation to those page views. Karini AI LLM prohibits Web beacons
+            from being used to collect or access your personal information.
           </p>
         </div>
         <div className="space-y-2">
