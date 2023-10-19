@@ -7,8 +7,8 @@ const Hero = () => {
       <div className="mx-auto max-w-screen-2xl">
         <section>
           <div className="relative flex flex-col items-center justify-center py-14 md:py-32 md:pb-52">
-            <div className="z-10 space-y-4 lg:space-y-6 px-4 max-w-screen-xl">
-              <h1 className="text-center text-lg sm:text-2xl font-semibold text-white md:text-4xl lg:text-5xl xl:text-6xl lg:!leading-[70px]">
+            <div className="z-10 space-y-2 lg:space-y-3 px-4 max-w-screen-xl">
+              <h1 className="text-center text-2xl font-semibold text-white md:text-3xl lg:text-4xl">
                 Our Solutions
               </h1>
               <p className="max-w-screen-lg px-10 lg:px-0 text-center text-secondary-100 text-xs sm:text-base">

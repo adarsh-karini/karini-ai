@@ -5,6 +5,7 @@ import BreadCrumb from "@/components/blogs/blog_details/BreadCrumb";
 
 import { blogDetailsData } from "@/content/blogs/blogDetailsData";
 import SectionOne from "@/components/blogs/blog_details/SectionOne";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -28,10 +29,15 @@ const Blog = () => {
     getBlogData(blog_id);
   }, [blog_id]);
   return (
-    <div className={`${poppins.variable} ${inter.className} bg-white`}>
-      <BreadCrumb title={blogData?.title} />
-      <SectionOne blogData={blogData} />
-    </div>
+    <>
+      <Head>
+        <title>{blogData?.title} | Karini AI</title>
+      </Head>
+      <div className={`${poppins.variable} ${inter.className} bg-white`}>
+        <BreadCrumb title={blogData?.title} />
+        <SectionOne blogData={blogData} />
+      </div>
+    </>
   );
 };
 

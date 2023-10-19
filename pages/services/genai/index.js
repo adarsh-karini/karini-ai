@@ -5,6 +5,7 @@ import OurServices from "@/components/services/genai/OurServices";
 import WhyChooseUs from "@/components/services/genai/WhyChooseUs";
 import CustomerStories from "@/components/services/genai/CustomerStories";
 import { Inter, Poppins } from "next/font/google";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -15,14 +16,19 @@ const poppins = Poppins({
 
 const genai = () => {
   return (
-    <div className={`${poppins.variable} ${inter.className} bg-white`}>
-      <Hero />
-      <Challenges />
-      <OurServices />
-      {/* <WhyChooseUs /> */}
-      <CustomerStories />
-      <OurClients />
-    </div>
+    <>
+      <Head>
+        <title>Gen AI Services | Karini AI</title>
+      </Head>
+      <div className={`${poppins.variable} ${inter.className} bg-white`}>
+        <Hero />
+        <Challenges />
+        <OurServices />
+        {/* <WhyChooseUs /> */}
+        <CustomerStories />
+        <OurClients />
+      </div>
+    </>
   );
 };
 

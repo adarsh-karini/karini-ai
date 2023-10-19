@@ -5,6 +5,7 @@ import OurServices from "@/components/services/ml/OurServices";
 import WhyChooseUs from "@/components/services/ml/WhyChooseUs";
 import OurClients from "@/components/services/ml/OurClients";
 import { Inter, Poppins } from "next/font/google";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -15,13 +16,18 @@ const poppins = Poppins({
 
 const ml = () => {
   return (
-    <div className={`${poppins.variable} ${inter.className} bg-white`}>
-      <Hero />
-      <Challenges />
-      <OurServices />
-      <CustomerStories />
-      <OurClients />
-    </div>
+    <>
+      <Head>
+        <title>ML Services | Karini AI</title>
+      </Head>
+      <div className={`${poppins.variable} ${inter.className} bg-white`}>
+        <Hero />
+        <Challenges />
+        <OurServices />
+        <CustomerStories />
+        <OurClients />
+      </div>
+    </>
   );
 };
 

@@ -17,7 +17,7 @@ const Hero = () => {
             <div className="absolute p-20 md:p-32 rounded-full right-0 bottom-0 bg-primary-100 blur-2xl"></div> */}
 
             <div className="z-10 max-w-screen-lg space-y-10 px-4">
-              <div className="space-y-6 ">
+              <div className="space-y-3">
                 <h1 className="text-center text-2xl font-semibold text-white md:text-3xl lg:text-4xl">
                   Making Generative AI accessible to all enterprises
                 </h1>

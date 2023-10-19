@@ -4,6 +4,7 @@ import Hero from "@/components/careers/job_details/Hero";
 import JobDetails from "@/components/careers/job_details/JobDetails";
 import { careerDetailsData } from "@/content/careers/careersDetailsData";
 import { Inter, Poppins } from "next/font/google";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 
@@ -30,12 +31,17 @@ const Job = () => {
     getJobData(job_id);
   }, [job_id]);
   return (
-    <div className={`${poppins.variable} ${inter.className} bg-white`}>
-      <BreadCrumb title={jobData?.title} />
-      <Hero jobData={jobData} />
-      <JobDetails jobData={jobData} />
-      <Apply jobTitle={jobData?.title} />
-    </div>
+    <>
+      <Head>
+        <title>Apply | {jobData?.title} | Karini AI</title>
+      </Head>
+      <div className={`${poppins.variable} ${inter.className} bg-white`}>
+        <BreadCrumb title={jobData?.title} />
+        <Hero jobData={jobData} />
+        <JobDetails jobData={jobData} />
+        <Apply jobTitle={jobData?.title} />
+      </div>
+    </>
   );
 };
 

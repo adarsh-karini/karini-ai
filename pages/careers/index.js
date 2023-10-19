@@ -2,6 +2,7 @@ import React from "react";
 import { Inter, Poppins } from "next/font/google";
 import Hero from "@/components/careers/Hero";
 import Careers from "@/components/careers/Careers";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -12,10 +13,15 @@ const poppins = Poppins({
 
 const careers = () => {
   return (
-    <div className={`${poppins.variable} ${inter.className} bg-white`}>
-      <Hero />
-      <Careers />
-    </div>
+    <>
+      <Head>
+        <title>Careers | Karini AI</title>
+      </Head>
+      <div className={`${poppins.variable} ${inter.className} bg-white`}>
+        <Hero />
+        <Careers />
+      </div>
+    </>
   );
 };
 

@@ -6,6 +6,7 @@ import OurServices from "@/components/home/OurServices";
 import OurPlatforms from "@/components/home/OurPlatforms";
 import ClientReviews from "@/components/home/ClientReviews";
 import FAQ from "@/components/home/FAQ";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -16,15 +17,20 @@ const poppins = Poppins({
 
 const index = () => {
   return (
-    <div className={`${poppins.variable} ${inter.className} bg-white`}>
-      <Hero />
-      <OurClients />
-      <WhyKarini />
-      <OurPlatforms />
-      <OurServices />
-      {/* <ClientReviews /> */}
-      {/* <FAQ /> */}
-    </div>
+    <>
+      <Head>
+        <title>Home | Karini AI</title>
+      </Head>
+      <div className={`${poppins.variable} ${inter.className} bg-white`}>
+        <Hero />
+        <OurClients />
+        <WhyKarini />
+        <OurPlatforms />
+        <OurServices />
+        {/* <ClientReviews /> */}
+        {/* <FAQ /> */}
+      </div>
+    </>
   );
 };
 

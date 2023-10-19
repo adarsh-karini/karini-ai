@@ -10,14 +10,14 @@ const Pricing = () => {
       <div className="max-w-screen-lg mx-auto space-y-8">
         <div className="space-y-8">
           <div className="flex justify-center">
-            <div className="flex p-1 border border-gray-300 bg-white shadow-sm">
+            <div className="flex p-1 border border-gray-300 bg-white shadow-sm rounded">
               <button
                 onClick={() => setSwitchValue(true)}
                 className={`${
                   switchValue
                     ? "bg-primary-600 text-white"
                     : "bg-white text-primary-600"
-                } py-3 px-5 text-xs font-semibold`}
+                } py-3 px-5 text-xs font-semibold rounded`}
               >
                 Monthly
               </button>
@@ -27,7 +27,7 @@ const Pricing = () => {
                   !switchValue
                     ? "bg-primary-600 text-white"
                     : "bg-white text-primary-600"
-                } py-3 px-5 text-xs font-semibold`}
+                } py-3 px-5 text-xs font-semibold rounded`}
               >
                 Yearly
               </button>
@@ -38,7 +38,7 @@ const Pricing = () => {
               pricingData.monthly.map((plan, index) => (
                 <div
                   key={index}
-                  className="border border-secondary-300 shadow-xl hover:scale-105 transition"
+                  className="border border-secondary-300 shadow-xl hover:scale-105 transition rounded"
                 >
                   <div className="p-6 border-b space-y-6">
                     <div className="text-center">
@@ -79,11 +79,11 @@ const Pricing = () => {
                         ))}
                       </div>
                     </div>
-                    <div className="bg-red-500 flex">
+                    <div className="flex">
                       <a
                         href={plan.url}
                         target="_blank"
-                        className="w-full shadow-md transition bg-primary-600 border hover:bg-white border-primary-600 text-white hover:text-primary-600 text-xs text-center font-semibold px-6 py-4"
+                        className="w-full shadow-md transition bg-primary-600 border rounded hover:bg-white border-primary-600 text-white hover:text-primary-600 text-xs text-center font-semibold px-6 py-4"
                       >
                         Select plan
                       </a>
@@ -95,7 +95,7 @@ const Pricing = () => {
               pricingData.yearly.map((plan, index) => (
                 <div
                   key={index}
-                  className="border border-secondary-300 shadow-xl hover:scale-105 transition"
+                  className="border border-secondary-300 shadow-xl hover:scale-105 transition rounded"
                 >
                   <div className="p-6 border-b space-y-6">
                     <div className="text-center">
@@ -136,11 +136,11 @@ const Pricing = () => {
                         ))}
                       </div>
                     </div>
-                    <div className="bg-red-500 flex">
+                    <div className="flex">
                       <a
                         href={plan.url}
                         target="_blank"
-                        className="w-full shadow-md transition bg-primary-600 border hover:bg-white border-primary-600 text-white hover:text-primary-600 text-xs text-center font-semibold px-6 py-4"
+                        className="w-full shadow-md transition bg-primary-600 border rounded hover:bg-white border-primary-600 text-white hover:text-primary-600 text-xs text-center font-semibold px-6 py-4"
                       >
                         Select plan
                       </a>

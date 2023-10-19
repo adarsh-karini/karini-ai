@@ -1,6 +1,7 @@
 import Hero from "@/components/pricing/Hero";
 import Pricing from "@/components/pricing/Pricing";
 import { Inter, Poppins } from "next/font/google";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -11,10 +12,15 @@ const poppins = Poppins({
 
 const pricing = () => {
   return (
-    <div className={`${poppins.variable} ${inter.className} bg-white`}>
-      <Hero />
-      <Pricing />
-    </div>
+    <>
+      <Head>
+        <title>Pricing | Karini AI</title>
+      </Head>
+      <div className={`${poppins.variable} ${inter.className} bg-white`}>
+        <Hero />
+        <Pricing />
+      </div>
+    </>
   );
 };
 

@@ -6,6 +6,7 @@ import TheProcess from "@/components/aboutus/TheProcess";
 import VisionMission from "@/components/aboutus/VisionMission";
 import WhoWeAre from "@/components/aboutus/WhoWeAre";
 import { Inter, Poppins } from "next/font/google";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -16,15 +17,20 @@ const poppins = Poppins({
 
 const aboutus = () => {
   return (
-    <div className={`${poppins.variable} ${inter.className} bg-white`}>
-      <Hero />
-      {/* <Stats /> */}
-      {/* <WhoWeAre /> */}
-      <OurLeadership />
-      {/* <TheProcess /> */}
-      <VisionMission />
-      {/* <OurClients /> */}
-    </div>
+    <>
+      <Head>
+        <title>About us | Karini AI</title>
+      </Head>
+      <div className={`${poppins.variable} ${inter.className} bg-white`}>
+        <Hero />
+        {/* <Stats /> */}
+        {/* <WhoWeAre /> */}
+        <OurLeadership />
+        {/* <TheProcess /> */}
+        <VisionMission />
+        {/* <OurClients /> */}
+      </div>
+    </>
   );
 };
 

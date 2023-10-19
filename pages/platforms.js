@@ -2,6 +2,7 @@ import Hero from "@/components/platforms/Hero";
 import HowItWorks from "@/components/platforms/HowItWorks";
 import Platforms from "@/components/platforms/Platforms";
 import { Inter, Poppins } from "next/font/google";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -12,11 +13,16 @@ const poppins = Poppins({
 
 const platforms = () => {
   return (
-    <div className={`${poppins.variable} ${inter.className} bg-white`}>
-      <Hero />
-      <Platforms />
-      <HowItWorks />
-    </div>
+    <>
+      <Head>
+        <title>Platforms | Karini AI</title>
+      </Head>
+      <div className={`${poppins.variable} ${inter.className} bg-white`}>
+        <Hero />
+        <Platforms />
+        <HowItWorks />
+      </div>
+    </>
   );
 };
 

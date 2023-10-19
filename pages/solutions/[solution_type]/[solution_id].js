@@ -7,6 +7,7 @@ import BreadCrumb from "@/components/solutions/solution_details/BreadCrumb";
 
 import { solutionDetailsData } from "@/content/solutions/solutionDetailsData";
 import SectionOne from "@/components/solutions/solution_details/SectionOne";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -50,6 +51,9 @@ const Solution = () => {
 
   return (
     <>
+      <Head>
+        <title>{solutionsData?.title} | Karini AI</title>
+      </Head>
       {loading && (
         <div className="py-20 bg-white flex justify-center items-center">
           <h1 className="text-black font-3xl">Loading....</h1>
