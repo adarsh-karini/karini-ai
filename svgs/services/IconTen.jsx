@@ -14,13 +14,13 @@ const IconTen = ({ width, height, bgColor, color }) => {
       <path
         d="M2.94922 2.94861H47.0493V47.0487H2.94922V2.94861Z"
         stroke={color || "black"}
-        stroke-width="4"
+        strokeWidth="4"
       />
       <path
         d="M37.9173 34.7499H25.0007M12.084 19.8333L19.002 26.2916C19.002 26.2916 14.5286 30.7528 12.084 32.7499"
         stroke={color || "black"}
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
     </svg>
   );

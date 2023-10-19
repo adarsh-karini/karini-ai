@@ -13,6 +13,7 @@ import Link from "next/link";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import IconOne from "@/svgs/services/IconOne";
 import IconFour from "@/svgs/services/IconFour";
+import { VscDebugBreakpointData } from "react-icons/vsc";
 
 const OurServices = () => {
   const iconColor = "#7c3aed";
@@ -94,12 +95,11 @@ const OurServices = () => {
                         {service.keyPoints.map((point, ind) => (
                           <div
                             key={ind}
-                            className="flex items-center gap-4 text-primary-600"
+                            className="flex items-center gap-4 text-primary-600 border-b border-primary-200 last:border-b-0 py-2"
                           >
-                            <IconFour
-                              width={20}
-                              height={20}
-                              color={iconColor}
+                            <VscDebugBreakpointData
+                              size={20}
+                              className="text-primary-600"
                             />
                             <p className="flex-1 text-secondary-700 text-sm">
                               {point}

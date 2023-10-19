@@ -5,7 +5,7 @@ const IconNineteen = ({ width, height, bgColor, color }) => {
     <svg
       stroke="currentColor"
       fill={color || "black"}
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 24 24"
       width={width || "74"}
       height={height || "85"}

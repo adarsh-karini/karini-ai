@@ -18,37 +18,37 @@ const IconFourteen = ({ width, height, bgColor, color }) => {
       <path
         d="M43.011 47.616L48.5061 36.6259M31.9858 38.6408L38.8897 47.616M24.0703 46.3111L28.1185 38.6408"
         stroke={color || "black"}
-        stroke-width="3.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M49.8811 36.6259C52.1572 36.6259 54.0024 34.7807 54.0024 32.5046C54.0024 30.2285 52.1572 28.3833 49.8811 28.3833C47.6049 28.3833 45.7598 30.2285 45.7598 32.5046C45.7598 34.7807 47.6049 36.6259 49.8811 36.6259Z"
         stroke={color || "black"}
-        stroke-width="3.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M40.4462 53.4772C42.0648 53.4772 43.3769 52.1651 43.3769 50.5466C43.3769 48.9281 42.0648 47.616 40.4462 47.616C38.8277 47.616 37.5156 48.9281 37.5156 50.5466C37.5156 52.1651 38.8277 53.4772 40.4462 53.4772Z"
         stroke={color || "black"}
-        stroke-width="3.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M30.1884 38.8246C31.807 38.8246 33.1191 37.5125 33.1191 35.894C33.1191 34.2755 31.807 32.9634 30.1884 32.9634C28.5699 32.9634 27.2578 34.2755 27.2578 35.894C27.2578 37.5125 28.5699 38.8246 30.1884 38.8246Z"
         stroke={color || "black"}
-        stroke-width="3.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M22.9521 51.594C24.5706 51.594 25.8827 50.2819 25.8827 48.6634C25.8827 47.0449 24.5706 45.7328 22.9521 45.7328C21.3336 45.7328 20.0215 47.0449 20.0215 48.6634C20.0215 50.2819 21.3336 51.594 22.9521 51.594Z"
         stroke={color || "black"}
-        stroke-width="3.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

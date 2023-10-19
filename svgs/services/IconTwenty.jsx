@@ -7,7 +7,7 @@ const IconTwenty = ({ width, height, bgColor, color }) => {
     <svg
       stroke="currentColor"
       fill={color || "black"}
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 20 20"
       aria-hidden="true"
       width={width || "74"}

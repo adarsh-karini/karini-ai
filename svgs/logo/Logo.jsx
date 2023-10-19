@@ -23,7 +23,7 @@ const Logo = ({ width, height }) => {
         </defs>
         <g
           id="SvgjsG2464"
-          featureKey="v37d4h-0"
+          featurekey="v37d4h-0"
           transform="matrix(0.8549096238397657,0,0,0.8549096238397657,-4.702002931118711,-5.35258928857085)"
           fill="url(#SvgjsLinearGradient2468)"
         >
@@ -34,7 +34,7 @@ const Logo = ({ width, height }) => {
         </g>
         <g
           id="SvgjsG2465"
-          featureKey="UxBHKT-0"
+          featurekey="UxBHKT-0"
           transform="matrix(4.778664426667716,0,0,4.778664426667716,89.30987162558101,-22.077429104330104)"
           fill="url(#SvgjsLinearGradient2471)"
         >
