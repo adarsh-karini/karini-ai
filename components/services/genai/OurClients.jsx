@@ -9,7 +9,7 @@ const OurClients = () => {
     "/assets/images/services/aws_sagemaker.webp",
     "/assets/images/services/databricks.png",
     "/assets/images/services/hugging_face.svg",
-    "/assets/images/services/anyscale.svg"
+    "/assets/images/services/anyscale.svg",
   ];
 
   return (
@@ -29,8 +29,7 @@ const OurClients = () => {
                 alt="client logo"
                 width={200}
                 height={1000}
-                className="rounded-lg"
-                objectFit="contain"
+                className="rounded-lg object-contain"
                 priority={true}
                 quality={100}
               />

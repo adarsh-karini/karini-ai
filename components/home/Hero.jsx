@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -46,14 +47,17 @@ const Hero = () => {
             <div className="z-10 relative px-4 md:px-20 xl:px-0">
               <div className="absolute -z-10 -right-52 -top-32 p-52 rounded-full bg-primary-500 blur-3xl opacity-30"></div>
 
-              <img
-                src="/assets/images/hero_img.png"
+              <Image
+                src={"/assets/images/hero_img.png"}
                 alt="hero image"
+                width={1000}
+                height={1000}
                 className="shadow-2xl rounded-2xl"
+                priority={true}
+                quality={100}
               />
             </div>
           </div>
-          {/* <div className=" absolute top-0 left-0 bg-gradient-to-b from-dark from-0% via-medium via-50% to-light to-100% w-full h-full clip_hero_page"></div> */}
         </section>
       </div>
     </header>

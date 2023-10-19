@@ -47,12 +47,12 @@ const Navbar2 = () => {
               {servicesDropdown && (
                 <div
                   onMouseLeave={() => setServicesDropdown(false)}
-                  className="z-20 border absolute top-14 bg-white drop-shadow-md grid grid-cols-1 p-2"
+                  className="z-20 border absolute top-14 bg-white drop-shadow-md grid grid-cols-1 p-2 rounded"
                 >
                   <Link
                     href={"/services/genai"}
                     onClick={() => setServicesDropdown(false)}
-                    className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1"
+                    className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
                   >
                     <BsCloudFog2
                       size={35}
@@ -65,7 +65,7 @@ const Navbar2 = () => {
                   <Link
                     href={"/services/ml"}
                     onClick={() => setServicesDropdown(false)}
-                    className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1"
+                    className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
                   >
                     <BsCloudFog2
                       size={35}

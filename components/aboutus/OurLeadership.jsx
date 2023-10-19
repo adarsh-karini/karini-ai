@@ -1,4 +1,5 @@
 import IconSeven from "@/svgs/aboutus/IconSeven";
+import Image from "next/image";
 import React from "react";
 import { GiDiamondTrophy } from "react-icons/gi";
 
@@ -47,11 +48,20 @@ const OurLeadership = () => {
             </div>
           </div>
           <div className="sm:w-1/3 flex justify-center">
-            <img
+            <Image
+              src={"/assets/images/team_members/deepali.jpg"}
+              alt="founder"
+              width={150}
+              height={1000}
+              className="sm:h-auto w-auto object-cover rounded-md shadow-xl object-center"
+              priority={true}
+              quality={100}
+            />
+            {/* <img
               src="/assets/images/team_members/deepali.jpg"
               alt="co_founder"
               className="h-52 sm:h-auto w-auto object-cover object-center rounded-md shadow-xl"
-            />
+            /> */}
           </div>
         </div>
       </div>
