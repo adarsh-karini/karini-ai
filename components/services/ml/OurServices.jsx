@@ -4,6 +4,7 @@ import { FaCircleNodes } from "react-icons/fa6";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import { TbBoxModel } from "react-icons/tb";
 import { AiFillGolden, AiOutlineCodepenCircle } from "react-icons/ai";
+import { VscDebugBreakpointData } from "react-icons/vsc";
 
 import {
   OurServicesData,
@@ -79,20 +80,26 @@ const OurServices = () => {
                     className=" border border-secondary-300 rounded-lg shadow-2xl shadow-primary-200"
                   >
                     <div className="h-40 bg-about_img bg-cover p-6 rounded-t-lg">
-                      <h3 className="text-white font-medium text-sm sm:text-base text-left">
-                        <span className="px-2 border-l-2 border-l-white">
-                          {service.title}
+                      <div className="flex space-x-2">
+                        <span className="bg-white rounded-md p-2">
+                          {service.icon}
                         </span>
-                      </h3>
+                        <h3 className="text-white font-medium text-sm sm:text-base text-left px-2 border-l-2 border-l-white">
+                          {service.title}
+                        </h3>
+                      </div>
                     </div>
-                    <div className="flex-1 p-6">
-                      <div className=" space-y-4">
+                    <div className="flex-1 p-4">
+                      <div className="">
                         {service.keyPoints.map((point, ind) => (
                           <div
                             key={ind}
-                            className="flex items-center gap-4 text-primary-600"
+                            className="flex items-center gap-4 text-primary-600 border-b border-primary-200 last:border-b-0 py-2"
                           >
-                            <IconOne width={20} height={20} color={iconColor} />
+                            <VscDebugBreakpointData
+                              size={20}
+                              className="text-primary-600"
+                            />
                             <p className="flex-1 text-secondary-700 text-sm">
                               {point}
                             </p>

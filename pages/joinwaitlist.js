@@ -36,13 +36,13 @@ const Joinwaitlist = () => {
                     <input
                       type="text"
                       name="fullname"
-                      className="bg-dark border border-secondary-700 rounded-md focus:outline-secondary-600 text-black font-medium text-sm p-3"
+                      className="bg-dark border border-secondary-700 rounded-md focus:outline-secondary-600 text-white font-medium text-sm p-3"
                       placeholder="Full name"
                     />
                     <input
                       type="email"
                       name="email"
-                      className="bg-dark border border-secondary-700 rounded-md focus:outline-secondary-600 text-black font-medium text-sm p-3"
+                      className="bg-dark border border-secondary-700 rounded-md focus:outline-secondary-600 text-white font-medium text-sm p-3"
                       placeholder="email"
                     />
                   </div>

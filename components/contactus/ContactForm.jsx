@@ -27,13 +27,13 @@ const ContactForm = () => {
                   <input
                     type="text"
                     name="fullname"
-                    className="bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-black font-medium text-sm p-4"
+                    className="bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-white font-medium text-sm p-4"
                     placeholder="Full name"
                   />
                   <input
                     type="email"
                     name="email"
-                    className="bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-black font-medium text-sm p-4"
+                    className="bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-white font-medium text-sm p-4"
                     placeholder="email"
                   />
                 </div>
@@ -41,13 +41,13 @@ const ContactForm = () => {
                   <input
                     type="text"
                     name="d"
-                    className="bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-black font-medium text-sm p-4"
+                    className="bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-white font-medium text-sm p-4"
                     placeholder="Department"
                   />
                   <input
                     type="text"
                     name="industry"
-                    className="bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-black font-medium text-sm p-4"
+                    className="bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-white font-medium text-sm p-4"
                     placeholder="Industry"
                   />
                 </div>
@@ -56,7 +56,7 @@ const ContactForm = () => {
                     name="message"
                     id=""
                     rows="10"
-                    className="w-full bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-black font-medium text-sm p-4"
+                    className="w-full bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-white font-medium text-sm p-4"
                     placeholder="Message"
                   ></textarea>
                 </div>

@@ -8,7 +8,7 @@ const Apply = ({ jobTitle }) => {
           Apply here
         </h1>
         <div className="max-w-screen-md mx-auto">
-          <form className="bg-dark p-10 border border-secondary-700 shadow-2xl shadow-primary-600/20 space-y-6 rounded-md">
+          <form className="bg-dark p-10 border border-secondary-800 shadow-2xl shadow-primary-600/20 space-y-6 rounded-md">
             <div className="text-secondary-300 text-sm font-medium space-y-4">
               <div className="flex flex-col space-y-1">
                 <label>Applying for</label>
@@ -19,7 +19,7 @@ const Apply = ({ jobTitle }) => {
                   id=""
                   value={jobTitle}
                   disabled
-                  className="text-primary-600 border border-secondary-700 bg-dark italic font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black cursor-not-allowed rounded-md"
+                  className="text-primary-600 border border-secondary-800 bg-dark italic font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black cursor-not-allowed rounded-md"
                 />
               </div>
 
@@ -31,7 +31,7 @@ const Apply = ({ jobTitle }) => {
                     type="text"
                     name="firstName"
                     id=""
-                    className="border border-secondary-700 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
+                    className="border border-secondary-800 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
                   />
                 </div>
                 <div className="flex flex-col space-y-1">
@@ -41,7 +41,7 @@ const Apply = ({ jobTitle }) => {
                     type="text"
                     name="lastName"
                     id=""
-                    className="border border-secondary-700 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
+                    className="border border-secondary-800 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
                   />
                 </div>
               </div>
@@ -53,7 +53,7 @@ const Apply = ({ jobTitle }) => {
                     type="email"
                     name="email"
                     id=""
-                    className="border border-secondary-700 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
+                    className="border border-secondary-800 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
                   />
                 </div>
                 <div className="flex flex-col space-y-1">
@@ -63,7 +63,7 @@ const Apply = ({ jobTitle }) => {
                     type="tel"
                     name="lastName"
                     id=""
-                    className="border border-secondary-700 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
+                    className="border border-secondary-800 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
                   />
                 </div>
               </div>
@@ -75,7 +75,7 @@ const Apply = ({ jobTitle }) => {
                     type="text"
                     name="currDesignation"
                     id=""
-                    className="border border-secondary-700 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
+                    className="border border-secondary-800 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
                   />
                 </div>
                 <div className="flex flex-col space-y-1">
@@ -85,7 +85,7 @@ const Apply = ({ jobTitle }) => {
                     type="text"
                     name="orgnization"
                     id=""
-                    className="border border-secondary-700 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
+                    className="border border-secondary-800 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
                   />
                 </div>
               </div>
@@ -95,7 +95,7 @@ const Apply = ({ jobTitle }) => {
                 <textarea
                   name=""
                   id=""
-                  className="border border-secondary-700 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
+                  className="border border-secondary-800 bg-dark font-normal p-4 focus:outline-secondary-500 focus:outline-none focus:border-black rounded-md"
                   rows="5"
                 ></textarea>
               </div>

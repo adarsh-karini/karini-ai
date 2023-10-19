@@ -33,7 +33,7 @@ const IconFive = ({ width, height, bgColor, color }) => {
         d="M47.0956 39.295H17.6219M30.5167 15.3477L15.7798 33.7687"
         stroke={color || "black"}
         strokeWidth="4"
-        stroke-linecap="round"
+        strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path

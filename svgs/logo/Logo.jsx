@@ -13,12 +13,12 @@ const Logo = ({ width, height }) => {
       <g transform="scale(8.110014104372356) translate(10, 10)">
         <defs id="SvgjsDefs2463">
           <linearGradient id="SvgjsLinearGradient2468">
-            <stop id="SvgjsStop2469" stop-color="#7f00ff" offset="0"></stop>
-            <stop id="SvgjsStop2470" stop-color="#e100ff" offset="1"></stop>
+            <stop id="SvgjsStop2469" stopColor="#7f00ff" offset="0"></stop>
+            <stop id="SvgjsStop2470" stopColor="#e100ff" offset="1"></stop>
           </linearGradient>
           <linearGradient id="SvgjsLinearGradient2471">
-            <stop id="SvgjsStop2472" stop-color="#7f00ff" offset="0"></stop>
-            <stop id="SvgjsStop2473" stop-color="#e100ff" offset="1"></stop>
+            <stop id="SvgjsStop2472" stopColor="#7f00ff" offset="0"></stop>
+            <stop id="SvgjsStop2473" stopColor="#e100ff" offset="1"></stop>
           </linearGradient>
         </defs>
         <g

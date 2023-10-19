@@ -22,7 +22,7 @@ const aboutus = () => {
       {/* <WhoWeAre /> */}
       <OurLeadership />
       {/* <TheProcess /> */}
-      {/* <VisionMission /> */}
+      <VisionMission />
       {/* <OurClients /> */}
     </div>
   );

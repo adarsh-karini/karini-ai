@@ -5,16 +5,17 @@ import IconThree from "@/svgs/aboutus/IconThree";
 import React from "react";
 
 const VisionMission = () => {
+  const color = "#7c3aed";
   const ourVisionOneData = [
     {
       title: "Longitivity",
-      icon: <IconThree width={40} height={40} color={"#7c3aed"} />,
+      icon: <IconThree width={40} height={40} color={color} />,
       overview:
         " Envisioning a future where the benefits of Generative AI are within reach for every business, while prioritizing safety and governance. ",
     },
     {
       title: "Flexibility",
-      icon: <IconFour width={40} height={40} color={"#7c3aed"} />,
+      icon: <IconFour width={40} height={40} color={color} />,
 
       overview:
         " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores unde deleniti et dolorum consequuntur temporibus voluptatibus eum incidunt accusamus illo!",
@@ -24,14 +25,14 @@ const VisionMission = () => {
   const ourVisionTwoData = [
     {
       title: "Planning",
-      icon: <IconFive width={40} height={40} color={"#7c3aed"} />,
+      icon: <IconFive width={40} height={40} color={color} />,
 
       overview:
         " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores unde deleniti et dolorum consequuntur temporibus voluptatibus eum incidunt accusamus illo!",
     },
     {
       title: "Productivity",
-      icon: <IconSix width={40} height={40} color={"#7c3aed"} />,
+      icon: <IconSix width={40} height={40} color={color} />,
 
       overview:
         " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores unde deleniti et dolorum consequuntur temporibus voluptatibus eum incidunt accusamus illo!",

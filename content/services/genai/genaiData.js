@@ -1,3 +1,15 @@
+import IconEight from "@/svgs/services/IconEight";
+import IconEighteen from "@/svgs/services/IconEighteen";
+import IconEleven from "@/svgs/services/IconEleven";
+import IconFour from "@/svgs/services/IconFour";
+import IconNine from "@/svgs/services/IconNine";
+import IconNineteen from "@/svgs/services/IconNineteen";
+import IconSeven from "@/svgs/services/IconSeven";
+import IconTen from "@/svgs/services/IconTen";
+import IconTwelve from "@/svgs/services/IconTwelve";
+
+const color = "#7c3aed";
+
 export const OurServicesData = [
   {
     title: "GEN AI Foundations",
@@ -128,6 +140,7 @@ export const genaiSubServicesData = [
     services: [
       {
         title: "Training and Enablement",
+        icon: <IconSeven width={40} height={40} color={color} />,
         keyPoints: [
           "Introduction to Generative AI",
           "Introduction to Amazon Bedrock",
@@ -137,6 +150,7 @@ export const genaiSubServicesData = [
       },
       {
         title: "Workshops",
+        icon: <IconEighteen width={40} height={40} color={color} />,
         keyPoints: [
           "Building a Retrieval Augmented Generation (RAG) application",
           "Document Management Understanding with Generative AI",
@@ -146,6 +160,7 @@ export const genaiSubServicesData = [
       },
       {
         title: "Advisory",
+        icon: <IconEight width={40} height={40} color={color} />,
         keyPoints: [
           "Business and technology discovery",
           "Business process evaluation",
@@ -161,6 +176,7 @@ export const genaiSubServicesData = [
     services: [
       {
         title: "Retrieval Augmented GenerationI(RAG)",
+        icon: <IconNine width={40} height={40} color={color} />,
         keyPoints: [
           "Propose RAG architecture",
           "Perform data preparation",
@@ -170,6 +186,7 @@ export const genaiSubServicesData = [
       },
       {
         title: "Prompt Engineering and Prompt Tuning",
+        icon: <IconTen width={40} height={40} color={color} />,
         keyPoints: [
           "Qualified prompt engineers  to create training datasets",
           "Provide content creators to review prompt responses",
@@ -179,6 +196,7 @@ export const genaiSubServicesData = [
       },
       {
         title: "Chatbot Integration",
+        icon: <IconNineteen width={40} height={40} color={color} />,
         keyPoints: [
           "Assess your business processes",
           "Propose Gen AI capabilities to improve applications",
@@ -193,6 +211,7 @@ export const genaiSubServicesData = [
     services: [
       {
         title: "Model finetuning with RLHF",
+        icon: <IconEleven width={40} height={40} color={color} />,
         keyPoints: [
           "Create a curated dataset",
           "Data preprocessing",
@@ -203,6 +222,7 @@ export const genaiSubServicesData = [
       },
       {
         title: "Model Pretraining",
+        icon: <IconTwelve width={40} height={40} color={color} />,
         keyPoints: [
           "Understand use case, dataset, budget",
           "Recommend model, platform and cost",
@@ -212,6 +232,7 @@ export const genaiSubServicesData = [
       },
       {
         title: "LLMOps",
+        icon: <IconFour width={40} height={40} color={color} />,
         keyPoints: [
           "Exploratory data analysis (EDA)",
           "Data prep and prompt engineering",

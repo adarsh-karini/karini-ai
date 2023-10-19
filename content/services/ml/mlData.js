@@ -1,3 +1,16 @@
+import IconFifteen from "@/svgs/services/IconFifteen";
+import IconFive from "@/svgs/services/IconFive";
+import IconFourteen from "@/svgs/services/IconFourteen";
+import IconSeventeen from "@/svgs/services/IconSeventeen";
+import IconSix from "@/svgs/services/IconSix";
+import IconSixteen from "@/svgs/services/IconSixteen";
+import IconThirteen from "@/svgs/services/IconThirteen";
+import IconTwenty from "@/svgs/services/IconTwenty";
+import IconTwentyOne from "@/svgs/services/IconTwentyOne";
+import IconTwentyTwo from "@/svgs/services/IconTwentyTwo";
+
+const color = "#7c3aed";
+
 export const OurServicesData = [
   {
     title: "ML Foundations",
@@ -163,6 +176,7 @@ export const mlSubServicesData = [
     services: [
       {
         title: "MLOps Training",
+        icon: <IconSix width={40} height={40} color={color} />,
         keyPoints: [
           "In-depth courses covering MLOps principles, tools, and best practices.",
           "Hands-on labs for version control using Git, model tracking with tools like MLflow, and CI/CD pipeline setups.",
@@ -172,6 +186,7 @@ export const mlSubServicesData = [
       },
       {
         title: "Data Science Training",
+        icon: <IconThirteen width={40} height={40} color={color} />,
         keyPoints: [
           "Customized training programs for data scientists, data engineers, and analysts.",
           "Workshops on data preprocessing, feature selection, and advanced analytics techniques.",
@@ -181,6 +196,7 @@ export const mlSubServicesData = [
       },
       {
         title: "Workshops and Game Days",
+        icon: <IconFourteen width={40} height={40} color={color} />,
         keyPoints: [
           "Interactive workshops focusing on real-world MLOps scenarios.",
           "Game days simulating MLOps incidents and testing incident response plans.",
@@ -195,6 +211,7 @@ export const mlSubServicesData = [
     services: [
       {
         title: "Computer Vision",
+        icon: <IconFifteen width={40} height={40} color={color} />,
         keyPoints: [
           "Rapid development of computer vision models using frameworks like TensorFlow and PyTorch.",
           "Prototyping for image classification, object detection, image segmentation, and image generation.",
@@ -204,6 +221,7 @@ export const mlSubServicesData = [
       },
       {
         title: "Natural Language Processing",
+        icon: <IconSixteen width={40} height={40} color={color} />,
         keyPoints: [
           "Accelerated NLP model development for tasks like sentiment analysis, chatbots, and named entity recognition.",
           "Customization of pre-trained language models for domain-specific applications.",
@@ -213,6 +231,7 @@ export const mlSubServicesData = [
       },
       {
         title: "Forecasting",
+        icon: <IconTwenty width={40} height={40} color={color} />,
         keyPoints: [
           "Rapid implementation of time series forecasting models using libraries like Prophet and ARIMA.",
           "Forecasting demand, sales, financial trends, and more.",
@@ -222,6 +241,7 @@ export const mlSubServicesData = [
       },
       {
         title: "Recommendation engines",
+        icon: <IconTwentyOne width={40} height={40} color={color} />,
         keyPoints: [
           "Quick development of recommendation systems based on collaborative filtering and content-based filtering.",
           "Prototyping personalized product recommendation engines for e-commerce.",
@@ -236,6 +256,7 @@ export const mlSubServicesData = [
     services: [
       {
         title: "ML Platform Migrations",
+        icon: <IconTwentyTwo width={40} height={40} color={color} />,
         keyPoints: [
           "Assessment and planning for migrating existing ML platforms to modern, scalable solutions.",
           "Data and model migration strategies to minimize downtime and data loss",
@@ -245,6 +266,7 @@ export const mlSubServicesData = [
       },
       {
         title: "Intelligent Document Understanding",
+        icon: <IconFive width={40} height={40} color={color} />,
         keyPoints: [
           "Development of AI-driven document understanding solutions for text extraction and classification.",
           "Automated structured data extraction from unstructured documents like invoices, forms, and contracts.",
@@ -254,6 +276,7 @@ export const mlSubServicesData = [
       },
       {
         title: "Model Migrations",
+        icon: <IconSeventeen width={40} height={40} color={color} />,
         keyPoints: [
           "Assessment and strategy development for migrating machine learning models to new environments.",
           "Transition from legacy on-premises models to cloud-based platforms for scalability and efficiency.",

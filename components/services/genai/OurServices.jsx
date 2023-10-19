@@ -80,11 +80,14 @@ const OurServices = () => {
                     className=" border border-secondary-300 rounded-lg shadow-2xl shadow-primary-200"
                   >
                     <div className="h-40 bg-about_img bg-cover p-6 rounded-t-lg">
-                      <h3 className="text-white font-medium text-sm sm:text-base text-left">
-                        <span className="px-2 border-l-2 border-l-white">
-                          {service.title}
+                      <div className="flex space-x-2">
+                        <span className="bg-white rounded-md p-2">
+                          {service.icon}
                         </span>
-                      </h3>
+                        <h3 className="text-white font-medium text-sm sm:text-base text-left px-2 border-l-2 border-l-white">
+                          {service.title}
+                        </h3>
+                      </div>
                     </div>
                     <div className="flex-1 p-6">
                       <div className=" space-y-2">
