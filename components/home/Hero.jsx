@@ -48,30 +48,20 @@ const Hero = () => {
             <div className="z-10 relative px-4 md:px-10 py-16">
               <div className="absolute -z-10 -right-52 -top-32 p-52 rounded-full bg-primary-500 blur-3xl opacity-30"></div>
 
-              <div className="relative">
-                <div className="absolute left-0 -top-8 flex space-x-2">
-                  <PiStarFourFill size={20} className="text-primary-600" />
-                  <h2 className="text-white font-semibold">
-                    Connect to SAAS and Proprietary Models
-                  </h2>
-                </div>
-                <div className="absolute right-0 -top-8 flex space-x-2">
-                  <PiStarFourFill size={20} className="text-primary-600" />
-                  <h2 className=" text-white font-semibold">
-                    Low Code Recipes
-                  </h2>
-                </div>
-                <div className="absolute left-0 -bottom-9 flex space-x-2">
-                  <PiStarFourFill size={20} className="text-primary-600" />
-                  <h2 className="text-white font-semibold">
-                    Prompt Engineering
-                  </h2>
-                </div>
-                <div className="absolute right-0 -bottom-9 flex space-x-2">
-                  <PiStarFourFill size={20} className="text-primary-600" />
-                  <h2 className="text-white font-semibold">
-                    Integrate Chatbot with your Applications
-                  </h2>
+              <div className="space-y-2">
+                <div className="flex justify-between">
+                  <div className="flex-1 flex justify-start items-center space-x-1">
+                    <PiStarFourFill size={10} className="text-primary-600" />
+                    <h2 className="text-white font-medium text-[7px] sm:text-sm">
+                      Connect to SAAS and Proprietary Models
+                    </h2>
+                  </div>
+                  <div className="flex-1 flex justify-end items-center space-x-1">
+                    <PiStarFourFill size={10} className="text-primary-600" />
+                    <h2 className="text-white font-medium text-[7px] sm:text-sm">
+                      Connect to SAAS and Proprietary Models
+                    </h2>
+                  </div>
                 </div>
 
                 <Image
@@ -83,6 +73,20 @@ const Hero = () => {
                   priority={true}
                   quality={100}
                 />
+                <div className="flex justify-between">
+                  <div className="flex-1 flex justify-start items-center space-x-1">
+                    <PiStarFourFill size={10} className="text-primary-600" />
+                    <h2 className="text-white font-medium text-[7px] sm:text-sm">
+                      Prompt Engineering
+                    </h2>
+                  </div>
+                  <div className="flex-1 flex justify-end items-center space-x-1">
+                    <PiStarFourFill size={10} className="text-primary-600" />
+                    <h2 className="text-white font-medium text-[7px] sm:text-sm">
+                      Integrate Chatbot with your Applications
+                    </h2>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
