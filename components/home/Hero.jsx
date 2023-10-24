@@ -65,7 +65,7 @@ const Hero = () => {
                 </div>
 
                 <Image
-                  src={"/assets/images/hero-bg.png"}
+                  src={"/assets/images/hero-img.png"}
                   alt="hero image"
                   width={10000}
                   height={10000}
