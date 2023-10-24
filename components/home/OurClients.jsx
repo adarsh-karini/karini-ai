@@ -4,7 +4,7 @@ import { SiAmazonaws } from "react-icons/si";
 
 const OurClients = () => {
   const ClientLogos = [
-    "/assets/images/services/aws-sagemaker.png",
+    "/assets/images/services/sagemaker.png",
     "/assets/images/services/aws_textract.png",
     "/assets/images/services/aws_bedrock.jpg",
     "/assets/images/services/databricks.png",
@@ -20,11 +20,11 @@ const OurClients = () => {
         <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
           <span className="text-primary-600">Our</span> Expertise
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {ClientLogos.map((val, index) => (
             <div
               key={index}
-              className="py-4 border border-secondary-200 rounded-lg shadow-md shadow-primary-100 flex justify-center"
+              className="h-20 md:h-28 py-4 border border-secondary-200 rounded-lg shadow-md shadow-primary-100 flex justify-center"
             >
               <Image
                 src={val}

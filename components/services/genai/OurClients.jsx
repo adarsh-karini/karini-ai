@@ -6,7 +6,7 @@ const OurClients = () => {
   const ClientLogos = [
     "/assets/images/services/aws_bedrock.jpg",
     "/assets/images/services/azure_openai.png",
-    "/assets/images/services/aws_sagemaker.webp",
+    "/assets/images/services/sagemaker.png",
     "/assets/images/services/databricks.png",
     "/assets/images/services/hugging_face.svg",
     "/assets/images/services/anyscale.svg",
@@ -18,11 +18,11 @@ const OurClients = () => {
         <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
           Our Expertise
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {ClientLogos.map((val, index) => (
             <div
               key={index}
-              className="py-8 border border-secondary-200 rounded-lg shadow-md shadow-primary-100 flex justify-center"
+              className="px-2 md:px-0 py-8 border border-secondary-200 rounded-lg shadow-md shadow-primary-100 flex justify-center"
             >
               <Image
                 src={val}

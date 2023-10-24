@@ -51,29 +51,29 @@ const Platforms = () => {
                     platformButton === selected
                       ? "bg-primary-600 text-white"
                       : "bg-white text-secondary-500"
-                  } py-3 px-5 text-sm font-semibold whitespace-nowrap border-r-2 last:border-none rounded-md`}
+                  } py-3 px-5 text-xs md:text-sm font-semibold whitespace-nowrap border-r-2 last:border-none rounded-md`}
                 >
                   {platformButton}
                 </button>
               ))}
             </div>
           </div>
-          <div className="flex gap-8">
-            <div className="w-1/4 space-y-4">
-              <h2 className="text-4xl text-left text-black font-semibold">
+          <div className="flex flex-col lg:flex-row gap-8">
+            <div className="lg:w-1/4 space-y-4">
+              <h2 className="text-2xl lg:text-4xl text-center lg:text-left text-black font-semibold">
                 {showPlatform[0]?.title}
               </h2>
-              <p className="text-secondary-600 text-sm text-left">
+              <p className="text-secondary-600 text-sm text-center lg:text-left">
                 {showPlatform[0]?.overview}
               </p>
             </div>
-            <div className="w-3/4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="lg:w-3/4 grid grid-cols-1 sm:grid-cols-2 gap-6">
               {showPlatform[0]?.points.map((point, index) => {
                 const IconComponent = IconNames[point.icon];
                 return (
                   <div
                     key={index}
-                    className="relative flex space-x-8 bg-gradient-to-br from-primary-200 from-10% to-primary-50 border border-primary-200  p-4 shadow-md shadow-primary-100 rounded-lg"
+                    className="relative flex space-x-8 bg-gradient-to-br from-primary-200 from-10% to-primary-50 border border-primary-200 p-4 shadow-md shadow-primary-100 rounded-lg"
                   >
                     <div>
                       {IconComponent && (
@@ -84,15 +84,15 @@ const Platforms = () => {
                       )}
                     </div>
                     <div className="flex-1 space-y-2">
-                      <h3 className="text-black font-semibold text-sm md:text-base">
+                      <h3 className="text-black font-semibold text-sm lg:text-base">
                         {point.title}
                       </h3>
-                      <p className="text-secondary-700 text-xs md:text-sm leading-relaxed">
+                      <p className="text-secondary-700 text-xs lg:text-sm leading-relaxed">
                         {point.overview}
                       </p>
                     </div>
                     {point.tag && (
-                      <div className="absolute -top-2 -right-2">
+                      <div className="absolute -top-4 -right-2">
                         <h3 className="text-white text-xs font-medium bg-primary-600 p-2 rounded-md">
                           {point.tag}
                         </h3>

@@ -59,7 +59,7 @@ const Hero = () => {
                   <div className="flex-1 flex justify-end items-center space-x-1">
                     <PiStarFourFill size={10} className="text-primary-600" />
                     <h2 className="text-white font-medium text-[7px] sm:text-sm">
-                      Connect to SAAS and Proprietary Models
+                      Low Code Recipes
                     </h2>
                   </div>
                 </div>
