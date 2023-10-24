@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { PiStarFourFill } from "react-icons/pi";
 
 const Hero = () => {
   return (
@@ -44,18 +45,45 @@ const Hero = () => {
                 </Link> */}
               </div>
             </div>
-            <div className="z-10 relative px-4 md:px-20 xl:px-0">
+            <div className="z-10 relative px-4 md:px-10 py-16">
               <div className="absolute -z-10 -right-52 -top-32 p-52 rounded-full bg-primary-500 blur-3xl opacity-30"></div>
 
-              <Image
-                src={"/assets/images/hero-bg.png"}
-                alt="hero image"
-                width={1000}
-                height={1000}
-                className="shadow-2xl rounded-2xl"
-                priority={true}
-                quality={100}
-              />
+              <div className="relative">
+                <div className="absolute left-0 -top-8 flex space-x-2">
+                  <PiStarFourFill size={20} className="text-primary-600" />
+                  <h2 className="text-white font-semibold">
+                    Connect to SAAS and Proprietary Models
+                  </h2>
+                </div>
+                <div className="absolute right-0 -top-8 flex space-x-2">
+                  <PiStarFourFill size={20} className="text-primary-600" />
+                  <h2 className=" text-white font-semibold">
+                    Low Code Recipes
+                  </h2>
+                </div>
+                <div className="absolute left-0 -bottom-9 flex space-x-2">
+                  <PiStarFourFill size={20} className="text-primary-600" />
+                  <h2 className="text-white font-semibold">
+                    Prompt Engineering
+                  </h2>
+                </div>
+                <div className="absolute right-0 -bottom-9 flex space-x-2">
+                  <PiStarFourFill size={20} className="text-primary-600" />
+                  <h2 className="text-white font-semibold">
+                    Integrate Chatbot with your Applications
+                  </h2>
+                </div>
+
+                <Image
+                  src={"/assets/images/hero-bg.png"}
+                  alt="hero image"
+                  width={10000}
+                  height={10000}
+                  className="shadow-2xl rounded-md"
+                  priority={true}
+                  quality={100}
+                />
+              </div>
             </div>
           </div>
         </section>
