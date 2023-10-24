@@ -4,13 +4,13 @@ import { SiAmazonaws } from "react-icons/si";
 
 const OurClients = () => {
   const ClientLogos = [
-    "/assets/images/services/aws_sagemaker.webp",
+    "/assets/images/services/aws-sagemaker.png",
+    "/assets/images/services/aws_textract.png",
+    "/assets/images/services/aws_bedrock.jpg",
     "/assets/images/services/databricks.png",
     "/assets/images/services/anthropic.svg",
     "/assets/images/services/anyscale.svg",
     "/assets/images/services/hugging_face.svg",
-    "/assets/images/services/aws_bedrock.jpg",
-    "/assets/images/services/aws_textract.png",
     "/assets/images/services/azure_openai.png",
   ];
 
@@ -31,7 +31,7 @@ const OurClients = () => {
                 alt="client logo"
                 width={150}
                 height={1000}
-                className="rounded-lg object-contain"
+                className="object-contain"
                 priority={true}
                 quality={100}
               />

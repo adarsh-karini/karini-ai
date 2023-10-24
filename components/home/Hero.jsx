@@ -48,7 +48,7 @@ const Hero = () => {
               <div className="absolute -z-10 -right-52 -top-32 p-52 rounded-full bg-primary-500 blur-3xl opacity-30"></div>
 
               <Image
-                src={"/assets/images/hero_img.png"}
+                src={"/assets/images/hero-bg.png"}
                 alt="hero image"
                 width={1000}
                 height={1000}
