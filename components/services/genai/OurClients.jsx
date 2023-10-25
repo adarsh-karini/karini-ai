@@ -6,7 +6,7 @@ const OurClients = () => {
   const ClientLogos = [
     "/assets/images/services/aws_bedrock.jpg",
     "/assets/images/services/azure_openai.png",
-    "/assets/images/services/sagemaker.png",
+    "/assets/images/services/aws_sagemaker.svg",
     "/assets/images/services/databricks.png",
     "/assets/images/services/hugging_face.svg",
     "/assets/images/services/anyscale.svg",
@@ -30,8 +30,8 @@ const OurClients = () => {
                 width={200}
                 height={1000}
                 className="rounded-lg object-contain"
-                priority={true}
-                quality={100}
+                // priority={true}
+                // quality={100}
               />
             </div>
           ))}

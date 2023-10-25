@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Navbar />
-      <div className="py-10"></div>
+      <div className="py-8"></div>
       <Component {...pageProps} />
       <CTA />
       <Footer />
