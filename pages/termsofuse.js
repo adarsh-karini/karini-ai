@@ -57,7 +57,7 @@ const termsofuse = () => {
               link contained in a Linked Site. or any changes or updates to a
               Linked Site. Karini AI LLC is not responsible for webcasting or
               any other form of transmission received from any Linked Site.
-              Tensoract Inc is providing these links to you only as a
+              Karini AI LLC is providing these links to you only as a
               convenience. and the inclusion of any link does not imply
               endorsement by Karini AI LLC of the site or any association with
               its operators.
@@ -77,7 +77,7 @@ const termsofuse = () => {
               party&apos;s use and enjoyment of the Karini AI LLC Web Site. You
               may not obtain or attempt to obtain any materials or information
               through any means not intentionally made available or provided for
-              through the Tensoract Inc Web Sites.
+              through the Karini AI LLC Web Sites.
             </p>
           </div>
           <div className="space-y-2">
@@ -207,7 +207,7 @@ const termsofuse = () => {
               reproduce. edit. translate and reformat your Submission: and to
               publish your name in connection with your Submission. No
               compensation will be paid with respect to the use of your
-              Submission. as provided herein. Tensoract Inc is under no
+              Submission. as provided herein. Karini AI LLC is under no
               obligation to post or use any Submission you may provide and may
               remove any Submission at any time in Karini AI LLC sole
               discretion. By posting. uploading. inputting. providing or
@@ -318,8 +318,8 @@ const termsofuse = () => {
               COPYRIGHT AND TRADEMARK NOTICES
             </h2>
             <p className="text-secondary-700 text-sm leading-relaxed">
-              All contents of the Karini AI LLC Web Site are: 2023 by Tensoract
-              Inc and/or its suppliers. All rights reserved.
+              All contents of the Karini AI LLC Web Site are: 2023 by Karini AI
+              LLC and/or its suppliers. All rights reserved.
             </p>
           </div>
           <div className="space-y-2">
