@@ -82,7 +82,7 @@ const Navbar2 = () => {
             <Link href={"/blogs"}>Blogs</Link>
             <Link href={"/pricing"}>Pricing</Link> */}
             <Link href={"/aboutus"}>About us</Link>
-            <Link href={"/careers"}>Careers</Link>
+            {/* <Link href={"/careers"}>Careers</Link> */}
             <Link href={"/contactus"}>Contact us</Link>
           </div>
           <div>
@@ -226,7 +226,7 @@ const Navbar2 = () => {
                     <span className="text-sm font-medium"> About Us </span>
                   </Link>
 
-                  <Link
+                  {/* <Link
                     onClick={() => setMobileMenu((prev) => !prev)}
                     href={"/careers"}
                     className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
@@ -234,7 +234,7 @@ const Navbar2 = () => {
                     <AiOutlineRise size={20} className="text-secondary-600" />
 
                     <span className="text-sm font-medium"> Careers </span>
-                  </Link>
+                  </Link> */}
 
                   <Link
                     onClick={() => setMobileMenu((prev) => !prev)}

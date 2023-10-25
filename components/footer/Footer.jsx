@@ -101,7 +101,7 @@ const Footer = () => {
               href={"/termsofuse"}
               className="text-secondary-500 text-sm hover:text-black hover:font-semibold font-medium"
             >
-              Terms & Conditions
+              Terms of Use
             </Link>
           </div>
         </div>

@@ -228,7 +228,7 @@ const termsofuse = () => {
               INACCURACIES OR TYPOGRAPHICAL ERRORS. CHANGES ARE PERIODICALLY
               ADDED TO THE INFORMATION HEREIN. Karini AI LLC AND/OR ITS
               SUPPLIERS MAY MAKE IMPROVEMENTS AND/OR CHANGES IN THE Karini AI
-              LLM WEB SITE AT ANY TIME. ADVICE RECEIVED VIA THE Karini AI LLC
+              LLC WEB SITE AT ANY TIME. ADVICE RECEIVED VIA THE Karini AI LLC
               WEB SITE SHOULD NOT BE RELIED UPON FOR PERSONAL. MEDICAL. LEGAL OR
               FINANCIAL DECISIONS AND YOU SHOULD CONSULT AN APPROPRIATE
               PROFESSIONAL FOR SPECIFIC ADVICE TAILORED TO YOUR SITUATION.
@@ -245,7 +245,7 @@ const termsofuse = () => {
               IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A
               PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. TO THE MAXIMUM
               EXTENT PERMITTED BY APPLICABLE LAW. IN NO EVENT SHALL Karini AI
-              LLM AND/OR ITS SUPPLIERS BE LIABLE FOR ANY DIRECT. INDIRECT.
+              LLC AND/OR ITS SUPPLIERS BE LIABLE FOR ANY DIRECT. INDIRECT.
               PUNITIVE. INCIDENTAL. SPECIAL. CONSEQUENTIAL DAMAGES OR ANY
               DAMAGES WHATSOEVER INCLUDING. WITHOUT LIMITATION. DAMAGES FOR LOSS
               OF USE. DATA OR PROFITS. ARISING OUT OF OR IN ANY WAY CONNECTED
@@ -279,12 +279,12 @@ const termsofuse = () => {
               U.S.A. and you hereby consent to the exclusive jurisdiction and
               venue of courts in San Mateo County. California. U.S.A. in all
               disputes arising out of or relating to the use of the Karini AI
-              LLM Web Site. Use of the Karini AI LLC Web Site is unauthorized in
+              LLC Web Site. Use of the Karini AI LLC Web Site is unauthorized in
               any jurisdiction that does not give effect to all provisions of
               these terms and conditions, including without limitation this
               paragraph. You agree that no joint venture, partnership,
               employment, or agency relationship exists between you and Karini
-              AI LLM as a result of this agreement or use of the Karini AI LLC
+              AI LLC as a result of this agreement or use of the Karini AI LLC
               Web Site. Karini AI LLC performance of this agreement is subject
               to existing laws and legal process. and nothing contained in this
               agreement is in derogation of Karini AI LLC right to comply with
