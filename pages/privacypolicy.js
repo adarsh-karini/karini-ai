@@ -26,7 +26,7 @@ const privacypolicy = () => {
             <p className="text-secondary-700 text-sm leading-relaxed">
               Tensoract Inc is committed to protecting your privacy. This
               privacy statement explains data collection and use practices of
-              the Karini AI LLM site (the “Site”); it does not apply to other
+              the KARINI AI LLC site (the “Site”); it does not apply to other
               online or offline Tensoract Inc sites, products or services. By
               accessing the Site, you are consenting to the information
               collection and use practices described in this privacy statement.
@@ -81,7 +81,7 @@ const privacypolicy = () => {
               enter the same information or by customizing the Site to your
               particular preference or interests. In order to offer you a more
               consistent experience in your interactions with Tensoract Inc,
-              information collected by Karini AI LLM may be combined with
+              information collected by KARINI AI LLC may be combined with
               information collected by other Tensoract Inc services. We may use
               your personal information to provide you with important
               information about the product or service that you are using,
@@ -118,7 +118,7 @@ const privacypolicy = () => {
             </h2>
             <p className="text-secondary-700 text-sm leading-relaxed">
               You can access and review your personal information by contacting
-              Karini AI LLM as described at the bottom of this statement, or
+              KARINI AI LLC as described at the bottom of this statement, or
               through alternative means of access described by the service.
             </p>
           </div>
@@ -141,7 +141,7 @@ const privacypolicy = () => {
               Protection of Children’s Personal Information
             </h2>
             <p className="text-secondary-700 text-sm leading-relaxed">
-              Karini AI LLM is a general audience site and does not knowingly
+              KARINI AI LLC is a general audience site and does not knowingly
               collect any personal information from children.
             </p>
           </div>
@@ -178,10 +178,10 @@ const privacypolicy = () => {
               Use of Web Beacons
             </h2>
             <p className="text-secondary-700 text-sm leading-relaxed">
-              Karini AI LLM Web pages may contain electronic images known as Web
+              KARINI AI LLC Web pages may contain electronic images known as Web
               beacons – sometimes also called single-pixel gifs – that allow
-              Karini AI LLM to count users who have visited those pages and to
-              deliver co-branded services. Karini AI LLM may include Web beacons
+              KARINI AI LLC to count users who have visited those pages and to
+              deliver co-branded services. KARINI AI LLC may include Web beacons
               in promotional e-mail messages or newsletters in order to
               determine whether messages have been opened and acted upon. Some
               of these Web beacons may be placed by third party service
