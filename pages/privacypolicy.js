@@ -24,10 +24,10 @@ const privacypolicy = () => {
           <div className="space-y-2">
             <h2 className="text-black text-lg font-semibold">Introduction</h2>
             <p className="text-secondary-700 text-sm leading-relaxed">
-              Tensoract Inc is committed to protecting your privacy. This
+              Karini AI LLC is committed to protecting your privacy. This
               privacy statement explains data collection and use practices of
               the KARINI AI LLC site (the “Site”); it does not apply to other
-              online or offline Tensoract Inc sites, products or services. By
+              online or offline Karini AI LLC sites, products or services. By
               accessing the Site, you are consenting to the information
               collection and use practices described in this privacy statement.
               Publish. post. upload. distribute or disseminate any
@@ -47,10 +47,10 @@ const privacypolicy = () => {
               We will explicitly ask you when we need information that
               personally identifies you (personal information) or allows us to
               contact you to provide a service or carry out a transaction that
-              you have requested such as receiving information about Tensoract
-              Inc products and services, ordering e-mail newsletters, joining a
+              you have requested such as receiving information about Karini AI
+              LLC products and services, ordering e-mail newsletters, joining a
               limited-access site or service, signing up for an event or
-              training, or when downloading and/or registering Tensoract Inc
+              training, or when downloading and/or registering Karini AI LLC
               products. The personal information we collect may include your
               name, title, company or organization name, work e-mail, work
               phone, work or home address, information about your job function,
@@ -74,39 +74,39 @@ const privacypolicy = () => {
               The personal information collected on this Site will be used to
               operate the Site and to provide the service(s) or carry out the
               transaction(s) you have requested or authorized. In support of
-              these uses, Tensoract Inc may use personal information to provide
+              these uses, Karini AI LLC may use personal information to provide
               you with more effective customer service, to improve the Site and
-              any related Tensoract Inc products or services, and to make the
+              any related Karini AI LLC products or services, and to make the
               Site easier to use by eliminating the need for you to repeatedly
               enter the same information or by customizing the Site to your
               particular preference or interests. In order to offer you a more
-              consistent experience in your interactions with Tensoract Inc,
-              information collected by KARINI AI LLC may be combined with
-              information collected by other Tensoract Inc services. We may use
+              consistent experience in your interactions with Karini AI LLC,
+              information collected by Karini AI LLC may be combined with
+              information collected by other Karini AI LLC services. We may use
               your personal information to provide you with important
               information about the product or service that you are using,
               including critical updates and notifications. Additionally, with
-              your permission, we may send you information about other Tensoract
-              Inc products and services, and/or share information with Tensoract
-              Inc partners so they may send you information about their products
-              and services. Tensoract Inc occasionally hires other companies to
+              your permission, we may send you information about other Karini AI
+              LLC products and services, and/or share information with Karini AI
+              LLC partners so they may send you information about their products
+              and services. Karini AI LLC occasionally hires other companies to
               provide limited services on our behalf, such as Web site hosting,
               answering customer questions about products and services, and
               sending information about our products, special offers, and other
               services. We will only provide those companies the personal
               information they need to deliver the service. They are required to
               maintain the confidentiality of the information and are prohibited
-              from using that information for any other purpose. Tensoract Inc
+              from using that information for any other purpose. Karini AI LLC
               may disclose personal information if required to do so by law or
               in the good faith belief that such action is necessary to: (a.) –
               Conform to the edicts of the law or comply with legal process
-              served on Tensoract Inc or the Site; (b.) – Protect and defend the
-              rights or property of Tensoract Inc and our family of Web sites;
+              served on Karini AI LLC or the Site; (b.) – Protect and defend the
+              rights or property of Karini AI LLC and our family of Web sites;
               or (c.) – Act in urgent circumstances to protect the personal
-              safety of Tensoract Inc employees or agents, users of Tensoract
-              Inc products or services, or members of the public. Personal
+              safety of Karini AI LLC employees or agents, users of Karini AI
+              LLC products or services, or members of the public. Personal
               information collected on the Site may be stored and processed in
-              the United States or any other country in which Tensoract Inc or
+              the United States or any other country in which Karini AI LLC or
               its affiliates, subsidiaries or agents maintain facilities, and by
               using the Site, you consent to any such transfer of information
               outside of your country.
@@ -127,7 +127,7 @@ const privacypolicy = () => {
               Security of Personal Information
             </h2>
             <p className="text-secondary-700 text-sm leading-relaxed">
-              Tensoract Inc is committed to protecting the security of your
+              Karini AI LLC is committed to protecting the security of your
               personal information. We use a variety of security technologies
               and procedures to help protect your personal information from
               unauthorized access, use, or disclosure. Additionally, when we
@@ -164,9 +164,9 @@ const privacypolicy = () => {
               you customized. We may occasionally opt to share aggregated site
               statistics with partner companies, but do not allow other
               companies to place cookies on our sites unless there is a
-              temporary, overriding customer value (such as merging into
-              Tensoract Inc .coma site that relies on third-party cookies). You
-              have the ability to accept or decline cookies. Most Web browsers
+              temporary, overriding customer value (such as merging into Karini
+              AI LLC .coma site that relies on third-party cookies). You have
+              the ability to accept or decline cookies. Most Web browsers
               automatically accept cookies, but you can usually modify your
               browser setting to decline cookies if you prefer. If you choose to
               decline cookies, you may not be able to fully experience the
@@ -191,7 +191,7 @@ const privacypolicy = () => {
               computer. Doing this allows the service provider to recognize your
               computer each time you visit certain pages or emails and compile
               anonymous information in relation to those page views. Karini AI
-              LLM prohibits Web beacons from being used to collect or access
+              LLC prohibits Web beacons from being used to collect or access
               your personal information.
             </p>
           </div>
@@ -204,9 +204,9 @@ const privacypolicy = () => {
               to identify and provide secure sign-in for certain users. In order
               to sign in to this portion if the Site, authorized users will be
               asked to type the login name and password provided to them by
-              Tensoract Inc employees and/or their agents. For additional
+              Karini AI LLC employees and/or their agents. For additional
               information about or assistance with Client Login features and
-              usage, please contact your Tensoract Inc sales, technical or
+              usage, please contact your Karini AI LLC sales, technical or
               administrative representative.
             </p>
           </div>
@@ -216,7 +216,7 @@ const privacypolicy = () => {
             </h2>
             <p className="text-secondary-700 text-sm leading-relaxed">
               If you have questions regarding this statement, please contact
-              Tensoract Inc at the postal and/or email addresses below.
+              Karini AI LLC at the postal and/or email addresses below.
             </p>
           </div>
           <div className="space-y-2">
@@ -231,7 +231,7 @@ const privacypolicy = () => {
               about how we are helping to protect the personal information we
               collect. Your continued use of the service constitutes your
               agreement to this privacy statement and any updates.If you have
-              questions regarding this statement, please contact Tensoract Inc
+              questions regarding this statement, please contact Karini AI LLC
               at the postal and/or email addresses below.
             </p>
           </div>
@@ -240,13 +240,13 @@ const privacypolicy = () => {
               Contact Information
             </h2>
             <p className="text-secondary-700 text-sm leading-relaxed">
-              Tensoract Inc welcomes your comments regarding this privacy
-              statement. If you believe that Tensoract Inc has not adhered to
+              Karini AI LLC welcomes your comments regarding this privacy
+              statement. If you believe that Karini AI LLC has not adhered to
               this privacy statement, please contact us electronically or via
               postal mail at the addresses provided below, and we will use
               commercially reasonable efforts to promptly determine and remedy
               the problem. To make such a request, please send an email to help
-              sales@tensoract.com or write us at Tensoract Inc, 2300 Lakeview
+              sales@karin.ai or write us at Karini AI LLC, 2300 Lakeview
               Parkway, Suite 700, Alpharetta, Georgia, 30009.
             </p>
           </div>
