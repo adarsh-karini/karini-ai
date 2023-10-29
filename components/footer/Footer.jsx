@@ -75,12 +75,12 @@ const Footer = () => {
                   >
                     Contact us
                   </Link>
-                  <Link
+                  {/* <Link
                     href={"/careers"}
                     className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
                   >
                     Careers
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
