@@ -13,9 +13,9 @@ const Hero = () => {
                 We would love to{" "}
                 <span className="text-primary-600">hear from you</span>
               </h1>
-              <p className="text-center text-gray-600 text-sm sm:text-base">
+              {/* <p className="text-center text-gray-600 text-sm sm:text-base">
                 We have offices and teams all around the world.
-              </p>
+              </p> */}
             </div>
           </div>
         </section>

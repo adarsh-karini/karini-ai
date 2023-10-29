@@ -19,6 +19,10 @@ const ml = () => {
     <>
       <Head>
         <title>ML Services | Karini AI</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8" />
+        <meta name="description" content="Data to Insights using Generative AI " />
+        <meta name="keywords" content="Computer Vision,CV,NLP,Machine Learning,HuggingFace,MLOPS,SageMaker,VertexAI,Bedrock,Databricks,Dolly" /> 
       </Head>
       <div className={`${poppins.variable} ${inter.className} bg-white`}>
         <Hero />
