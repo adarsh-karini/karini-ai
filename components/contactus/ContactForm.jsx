@@ -1,13 +1,15 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 
 const ContactForm = () => {
-	const [show, setShow] = useState(false);
+	const [show, setShow] = useState(""); // submitting, failed, success
 	const [contactData, setContactData] = useState({
 		fullName: "",
 		email: "",
 		department: "",
+		phone: "",
 		industry: "",
 		message: "",
 	});
@@ -20,25 +22,34 @@ const ContactForm = () => {
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
+		setShow("submitting");
 
 		try {
-			// const apiEndpoint =
-			// 	"https://4tqk6pfqye.execute-api.us-east-1.amazonaws.com/v1/";
+			const apiEndpoint =
+				"https://4tqk6pfqye.execute-api.us-east-1.amazonaws.com/v1/contactus";
 
-			// const res = await axios.post(apiEndpoint, contactData);
+			const res = await axios.post(apiEndpoint, contactData);
 
-			// console.log("Response Data:", res);
-			setShow(true);
+			console.log("Response Data:", res);
+			setShow("success");
 		} catch (error) {
+			setShow("failed");
 			console.error("Error during POST request:", error);
 		}
 
-		setContactData({ email: "" });
+		setContactData({
+			fullName: "",
+			email: "",
+			department: "",
+			industry: "",
+			message: "",
+		});
 
 		setTimeout(() => {
-			setShow(false);
-		}, 2500);
+			setShow("");
+		}, 3500);
 	};
+
 	return (
 		<section className="relative bg-dark px-4 lg:px-10 xl:px-0 py-20 overflow-hidden">
 			<div className="max-w-screen-xl mx-auto space-y-16">
@@ -67,6 +78,7 @@ const ContactForm = () => {
 										placeholder="Full name"
 										value={contactData.fullName}
 										onChange={handleChange}
+										required
 									/>
 									<input
 										type="email"
@@ -75,6 +87,7 @@ const ContactForm = () => {
 										placeholder="email"
 										value={contactData.email}
 										onChange={handleChange}
+										required
 									/>
 								</div>
 								<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -85,14 +98,28 @@ const ContactForm = () => {
 										placeholder="Department"
 										value={contactData.department}
 										onChange={handleChange}
+										required
 									/>
+									<input
+										type="tel"
+										name="phone"
+										id=""
+										className="bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-white font-medium text-sm p-4"
+										placeholder="Phone"
+										value={contactData.phone}
+										onChange={handleChange}
+										required
+									/>
+								</div>
+								<div>
 									<input
 										type="text"
 										name="industry"
-										className="bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-white font-medium text-sm p-4"
+										className="w-full bg-dark border border-secondary-700 rounded-md focus:outline-primary-600 text-white font-medium text-sm p-4"
 										placeholder="Industry"
 										value={contactData.industry}
 										onChange={handleChange}
+										required
 									/>
 								</div>
 								<div>
@@ -104,6 +131,7 @@ const ContactForm = () => {
 										placeholder="Message"
 										value={contactData.message}
 										onChange={handleChange}
+										required
 									></textarea>
 								</div>
 								<div>
@@ -115,11 +143,25 @@ const ContactForm = () => {
 									</button>
 								</div>
 							</form>
-							{show && (
+							{show === "submitting" && (
+								<div>
+									<p className="text-secondary-300 text-sm text-center">
+										Submitting...
+									</p>
+								</div>
+							)}
+							{show === "success" && (
 								<div>
 									<p className="text-sm text-center text-green-400">
 										Thank you for reaching out! Your message has been
 										successfully submitted!
+									</p>
+								</div>
+							)}
+							{show === "failed" && (
+								<div>
+									<p className="text-sm text-center text-red-400">
+										Please try again.
 									</p>
 								</div>
 							)}

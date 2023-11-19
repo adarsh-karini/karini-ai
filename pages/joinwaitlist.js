@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 const Joinwaitlist = () => {
-	const [show, setShow] = useState(false);
+	const [show, setShow] = useState(""); // submitting, failed, success
 	const [formData, setFormData] = useState({
 		email: "",
 	});
@@ -24,25 +24,28 @@ const Joinwaitlist = () => {
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
+		setShow("submitting");
 
 		try {
 			const apiEndpoint =
-				"https://4tqk6pfqye.execute-api.us-east-1.amazonaws.com/v1/";
+				"https://4tqk6pfqye.execute-api.us-east-1.amazonaws.com/v1/joinwaitlisted";
 
 			const res = await axios.post(apiEndpoint, formData);
 
 			console.log("Response Data:", res);
-			setShow(true);
+			setShow("success");
 		} catch (error) {
+			setShow("failed");
 			console.error("Error during POST request:", error);
 		}
 
 		setFormData({ email: "" });
 
 		setTimeout(() => {
-			setShow(false);
+			setShow("");
 		}, 2500);
 	};
+
 	return (
 		<>
 			<Head>
@@ -101,13 +104,27 @@ const Joinwaitlist = () => {
 										</div>
 									</form>
 								</div>
-								{show && (
+								{show === "submitting" && (
+									<div>
+										<p className="text-secondary-300 text-sm text-center">
+											Submitting...
+										</p>
+									</div>
+								)}
+								{show === "success" && (
 									<div>
 										<p className="text-sm text-center text-green-400">
 											🎉 We&apos;ve added to our waitlist!
 										</p>
 										<p className="text-secondary-300 text-sm text-center">
 											We will let you know when karini.ai is ready.
+										</p>
+									</div>
+								)}
+								{show === "failed" && (
+									<div>
+										<p className="text-sm text-center text-red-400">
+											Please try again.
 										</p>
 									</div>
 								)}
