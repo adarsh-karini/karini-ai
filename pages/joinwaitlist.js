@@ -26,13 +26,9 @@ const Joinwaitlist = () => {
 		e.preventDefault();
 
 		try {
-			const apiEndpoint =
-				"https://4rcbc2gwuvj4ychuekoapgtseu0bdtpp.lambda-url.us-east-1.on.aws/"; // Replace with your API
+			const { data } = await axios.post("/api/joinwaitlist", formData);
 
-			const data = await axios.post(apiEndpoint, formData);
-
-			const res = await data.json();
-			console.log("Response Data:", res);
+			console.log("Response Data:", data);
 		} catch (error) {
 			console.error("Error during POST request:", error);
 		}
