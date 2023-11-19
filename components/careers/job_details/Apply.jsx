@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { axios } from "axios";
 
 const Apply = ({ jobTitle }) => {
+	const [show, setShow] = useState(true);
 	const [jobData, setJobData] = useState({
 		jobTitle: jobTitle,
 		firstName: "",
@@ -23,11 +24,22 @@ const Apply = ({ jobTitle }) => {
 		e.preventDefault();
 
 		try {
-			const { data } = await axios.post("/api/apply", jobData);
-			console.log("Response Data:", data);
+			// const apiEndpoint =
+			// 	"https://4tqk6pfqye.execute-api.us-east-1.amazonaws.com/v1/";
+
+			// const res = await axios.post(apiEndpoint, jobData);
+
+			// console.log("Response Data:", res);
+			setShow(true);
 		} catch (error) {
 			console.error("Error during POST request:", error);
 		}
+
+		setJobData({ email: "" });
+
+		setTimeout(() => {
+			setShow(false);
+		}, 2500);
 	};
 
 	return (
@@ -36,7 +48,7 @@ const Apply = ({ jobTitle }) => {
 				<h1 className="text-white font-bold text-2xl sm:text-3xl text-center">
 					Apply here
 				</h1>
-				<div className="max-w-screen-md mx-auto">
+				<div className="max-w-screen-md mx-auto space-y-4">
 					<form
 						onSubmit={handleSubmit}
 						className="bg-dark p-10 border border-secondary-800 shadow-2xl shadow-primary-600/20 space-y-6 rounded-md"
@@ -155,6 +167,14 @@ const Apply = ({ jobTitle }) => {
 							</button>
 						</div>
 					</form>
+					{show && (
+						<div>
+							<p className="text-sm text-center text-green-400">
+								Resume received! We&apos;ll be in touch if there&apos;s a match.
+								Thanks for your interest!
+							</p>
+						</div>
+					)}
 				</div>
 			</div>
 		</section>

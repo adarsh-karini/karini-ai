@@ -26,12 +26,22 @@ const Joinwaitlist = () => {
 		e.preventDefault();
 
 		try {
-			const { data } = await axios.post("/api/joinwaitlist", formData);
+			const apiEndpoint =
+				"https://4tqk6pfqye.execute-api.us-east-1.amazonaws.com/v1/";
 
-			console.log("Response Data:", data);
+			const res = await axios.post(apiEndpoint, formData);
+
+			console.log("Response Data:", res);
+			setShow(true);
 		} catch (error) {
 			console.error("Error during POST request:", error);
 		}
+
+		setFormData({ email: "" });
+
+		setTimeout(() => {
+			setShow(false);
+		}, 2500);
 	};
 	return (
 		<>

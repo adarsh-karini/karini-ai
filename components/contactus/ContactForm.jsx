@@ -3,6 +3,7 @@ import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 
 const ContactForm = () => {
+	const [show, setShow] = useState(false);
 	const [contactData, setContactData] = useState({
 		fullName: "",
 		email: "",
@@ -21,11 +22,22 @@ const ContactForm = () => {
 		e.preventDefault();
 
 		try {
-			const { data } = await axios.post("/api/contact", contactData);
-			console.log("Response Data:", data);
+			// const apiEndpoint =
+			// 	"https://4tqk6pfqye.execute-api.us-east-1.amazonaws.com/v1/";
+
+			// const res = await axios.post(apiEndpoint, contactData);
+
+			// console.log("Response Data:", res);
+			setShow(true);
 		} catch (error) {
 			console.error("Error during POST request:", error);
 		}
+
+		setContactData({ email: "" });
+
+		setTimeout(() => {
+			setShow(false);
+		}, 2500);
 	};
 	return (
 		<section className="relative bg-dark px-4 lg:px-10 xl:px-0 py-20 overflow-hidden">
@@ -44,7 +56,7 @@ const ContactForm = () => {
 						</p>
 					</div>
 					<div className="col-span-2">
-						<div className="z-10 relative ">
+						<div className="z-10 relative space-y-4">
 							<div className="-z-10 absolute top-20 left-32 p-52 rounded-full bg-primary-600 blur-3xl opacity-20"></div>
 							<form onSubmit={handleSubmit} className="space-y-4">
 								<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -103,6 +115,14 @@ const ContactForm = () => {
 									</button>
 								</div>
 							</form>
+							{show && (
+								<div>
+									<p className="text-sm text-center text-green-400">
+										Thank you for reaching out! Your message has been
+										successfully submitted!
+									</p>
+								</div>
+							)}
 						</div>
 					</div>
 				</div>
