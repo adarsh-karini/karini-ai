@@ -27,7 +27,7 @@ const Joinwaitlist = () => {
 
 		try {
 			const apiEndpoint =
-				"https://4rcbc2gwuvj4ychuekoapgtseu0bdtpp.lambda-url.us-east-1.on.aws/"; // Replace with your API
+				"https://4tqk6pfqye.execute-api.us-east-1.amazonaws.com/v1/"; // Replace with your API
 
 			const data = await axios.post(apiEndpoint, formData);
 
