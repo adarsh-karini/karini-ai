@@ -20,9 +20,9 @@ const OurServices = () => {
           <div className="-z-10 absolute -left-32 -bottom-14 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg"></div>
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
             <div className="flex flex-col items-center space-y-4 py-4">
-              <h1 className="text-white font-bold text-2xl sm:text-3xl text-center md:text-left">
+              <h2 className="text-white font-bold text-2xl sm:text-3xl text-center md:text-left">
                 <span className="text-primary-600">Our</span> Services
-              </h1>
+              </h2>
             </div>
             <div className="flex-1 space-y-4">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

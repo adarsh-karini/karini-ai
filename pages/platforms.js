@@ -15,12 +15,18 @@ const platforms = () => {
   return (
     <>
       <Head>
-        <title>Platforms | Karini AI</title>
+        <title>Our Platform: Streamline with Generative Ai for Enterprises</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
-        <meta name="description" content="Data to Insights using Generative AI " />
-        <meta name="keywords" content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly" /> 
-      </Head>
+        <meta name="description" content="Explore our platform simplifying AI for enterprises. No-code, low-code pipelines empower Generative AI in language, image, and audio. Build Large Language Model applications with crowd-sourced wisdom." />
+        <meta name="keywords" content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly" />
+        
+		<meta name="robots" content="index,follow" />
+
+        <link rel="canonical" href="https://www.karini.ai/platforms" />
+		<link rel="amphtml" href="https://www.karini.com/platforms/amp"/>
+
+	  </Head>
       <div className={`${poppins.variable} ${inter.className} bg-white`}>
         <Hero />
         <Platforms />

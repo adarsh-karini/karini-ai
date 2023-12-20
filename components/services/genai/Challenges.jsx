@@ -21,9 +21,9 @@ const Challenges = () => {
         <div className="">
           <div className="space-y-6">
             <div className="space-y-2 text-center">
-              <h1 className="inline-block text-black font-semibold text-lg sm:text-2xl text-center">
+              <h2 className="inline-block text-black font-semibold text-lg sm:text-2xl text-center">
                 Challenges to Operationalize Generative AI
-              </h1>
+              </h2>
             </div>
             <div className="px-2">
               <Swiper
@@ -46,6 +46,7 @@ const Challenges = () => {
                 }}
                 autoplay={{
                   delay: 4000,
+				  pauseOnMouseEnter: true,
                   disableOnInteraction: false,
                 }}
                 navigation={false}

@@ -45,9 +45,9 @@ const OurServices = () => {
     <section className="relative bg-white px-4 lg:px-4 xl:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-8">
         <div className="space-y-2">
-          <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
+          <h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
             Our Services
-          </h1>
+          </h2>
         </div>
         <div className="space-y-10">
           <div className="flex justify-center">

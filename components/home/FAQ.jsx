@@ -7,9 +7,9 @@ const FAQ = () => {
     <section className="bg-white px-4 lg:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-8">
         <div className="space-y-2">
-          <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
+          <h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
             Frequently Asked Questions
-          </h1>
+          </h2>
           <p className="text-secondary-700 text-center">
             We have put together some commonly asked questions
           </p>

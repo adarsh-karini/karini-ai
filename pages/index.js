@@ -19,12 +19,18 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Home | Karini AI</title>
+        <title>Karini AI | Streamline Your Business with Generative AI</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
-        <meta name="description" content="Data to Insights using Generative AI " />
-        <meta name="keywords" content="OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,Azure OpenAI,LLM,HuggingFace,LLMOps,Databricks,Dolly" />  
-      </Head>
+        <meta name="description" content="Streamline your business with Karini AI's generative AI technology. Get pre-built Generative AI Recipes for summarization, classification, and conversational AI, low-code integration, and built-in human feedback. Join our waitlist now." />
+        <meta name="keywords" content="OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,Azure OpenAI,LLM,HuggingFace,LLMOps,Databricks,Dolly" />
+
+        <meta name="robots" content="index,follow" />
+
+        <link rel="canonical" href="https://www.karini.ai/" />
+		<link rel="amphtml" href="https://www.karini.com/amp"/>
+	  
+	  </Head>
       <div className={`${poppins.variable} ${inter.className} bg-white`}>
         <Hero />
         <OurClients />
