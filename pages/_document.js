@@ -21,6 +21,25 @@ export default function Document() {
 					}}
 				></Script>
 				{/* End Google Tag Manager */}
+				{/* Schema Markup */}
+				<Script
+					id="schema-markup"
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: `{
+									"@context": "https://schema.org/",
+									"@type": "WebSite",
+									"name": "karini",
+									"url": "https://www.karini.ai/",
+									"potentialAction": {
+										"@type": "SearchAction",
+										"target": "https://www.karini.ai/services/genai{search_term_string}https://www.karini.ai/services/genai",
+										"query-input": "required name=search_term_string"
+									}
+									}`,
+					}}
+				></Script>
+				{/* End Schema Markup */}
 			</Head>
 			<body>
 				{/* Google Tag Manager (noscript) */}
