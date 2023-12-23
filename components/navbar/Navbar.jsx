@@ -78,9 +78,9 @@ const Navbar2 = () => {
 								</div>
 							)}
 						</div>
-						{/* <Link href={"/solutions"}>Solutions</Link>
-            <Link href={"/blogs"}>Blogs</Link>
-            <Link href={"/pricing"}>Pricing</Link> */}
+						{/* <Link href={"/solutions"}>Solutions</Link> */}
+						<Link href={"/blogs"}>Blogs</Link>
+						{/* <Link href={"/pricing"}>Pricing</Link> */}
 						<Link href={"/aboutus"}>About us</Link>
 						{/* <Link href={"/careers"}>Careers</Link> */}
 						<Link href={"/contactus"}>Contact us</Link>
@@ -185,40 +185,40 @@ const Navbar2 = () => {
 									</details>
 
 									{/* <Link
-                    onClick={() => setMobileMenu((prev) => !prev)}
-                    href={"/solutions"}
-                    className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
-                  >
-                    <BiSolidBarChartAlt2
-                      size={20}
-                      className="text-secondary-600"
-                    />
+										onClick={() => setMobileMenu((prev) => !prev)}
+										href={"/solutions"}
+										className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+									>
+										<BiSolidBarChartAlt2
+											size={20}
+											className="text-secondary-600"
+										/>
 
-                    <span className="text-sm font-medium"> Solutions </span>
-                  </Link>
+										<span className="text-sm font-medium"> Solutions </span>
+									</Link> */}
 
-                  <Link
-                    onClick={() => setMobileMenu((prev) => !prev)}
-                    href={"/blogs"}
-                    className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
-                  >
-                    <BsBookmarkStarFill
-                      size={20}
-                      className="text-secondary-600"
-                    />
+									<Link
+										onClick={() => setMobileMenu((prev) => !prev)}
+										href={"/blogs"}
+										className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+									>
+										<BsBookmarkStarFill
+											size={20}
+											className="text-secondary-600"
+										/>
 
-                    <span className="text-sm font-medium"> Blogs </span>
-                  </Link>
+										<span className="text-sm font-medium"> Blogs </span>
+									</Link>
 
-                  <Link
-                    onClick={() => setMobileMenu((prev) => !prev)}
-                    href={"/pricing"}
-                    className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
-                  >
-                    <IoPricetags size={20} className="text-secondary-600" />
+									{/* <Link
+										onClick={() => setMobileMenu((prev) => !prev)}
+										href={"/pricing"}
+										className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+									>
+										<IoPricetags size={20} className="text-secondary-600" />
 
-                    <span className="text-sm font-medium"> Pricing </span>
-                  </Link> */}
+										<span className="text-sm font-medium"> Pricing </span>
+									</Link> */}
 
 									<Link
 										onClick={() => setMobileMenu((prev) => !prev)}

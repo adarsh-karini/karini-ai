@@ -10,49 +10,67 @@
 } */
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 214, 219, 220;
+	--background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+	:root {
+		--foreground-rgb: 255, 255, 255;
+		--background-start-rgb: 0, 0, 0;
+		--background-end-rgb: 0, 0, 0;
+	}
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	color: rgb(var(--foreground-rgb));
+	background: linear-gradient(
+			to bottom,
+			transparent,
+			rgb(var(--background-end-rgb))
+		)
+		rgb(var(--background-start-rgb));
 
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 h1,
 h2,
 h3 {
-  font-family: var(--font-poppins);
+	font-family: var(--font-poppins);
 }
 
 .splide__pagination__page {
-  background-color: lightgray !important;
+	background-color: lightgray !important;
 }
 
 .splide__pagination__page.is-active {
-  background-color: black !important;
+	background-color: black !important;
 }
 
 .splide__arrow svg {
-  fill: black !important;
+	fill: black !important;
 }
 
 .splide__arrow:focus {
-  outline: none !important;
+	outline: none !important;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+}
+
+::-webkit-scrollbar:horizontal {
+	height: 4px;
+}
+
+/* Customize the scrollbar thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+	background-color: #94a3b8; /* Replace with your desired color */
+}
+
+/* Customize the scrollbar track (the area behind the scrollbar) on hover */
+::-webkit-scrollbar-track {
+	background: #111827; /* Replace with a background color for the track */
 }
