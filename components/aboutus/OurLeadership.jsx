@@ -1,5 +1,6 @@
 import IconSeven from "@/svgs/aboutus/IconSeven";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { GiDiamondTrophy } from "react-icons/gi";
 
@@ -34,9 +35,13 @@ const OurLeadership = () => {
               the midst of crafting a definitive book on MLOps on AWS.
             </p>
             <div className="flex space-x-4 items-center">
-              <div className="bg-primary-100 p-2 rounded-md">
+              <a
+				 href="https://www.linkedin.com/in/deepali-rajale-958a267"
+					target="_blank"
+					rel="noopener noreferrer"
+				className="bg-primary-100 p-2 rounded-md cursor-pointer">
                 <IconSeven width={40} height={40} color={iconColor} />
-              </div>
+              </a>
               <div>
                 <h3 className="text-black text-base md:text-lg font-semibold">
                   Deepali Rajale

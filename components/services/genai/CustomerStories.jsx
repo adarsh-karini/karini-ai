@@ -27,9 +27,9 @@ const CustomerStories = () => {
         <div className="-z-10 absolute -right-32 -bottom-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg">
           <div className="p-20 m-8 bg-white rounded-full"></div>
         </div>
-        <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
+        <h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
           <span className="text-primary-600">Customer</span> Stories
-        </h1>
+        </h2>
         <div>
           <Swiper
             loop={true}
@@ -37,9 +37,10 @@ const CustomerStories = () => {
             // height={200}
             autoplay={{
               delay: 4000,
+			  pauseOnMouseEnter: true,
               disableOnInteraction: false,
             }}
-            modules={[Pagination, Autoplay]}
+            modules={[Autoplay, Pagination]}
             spaceBetween={50}
             slidesPerView={1}
             pagination={{ clickable: true }}

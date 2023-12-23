@@ -15,9 +15,9 @@ const OurClients = () => {
   return (
     <section className="bg-white px-4 md:px-10 py-20">
       <div className="max-w-screen-lg mx-auto space-y-16">
-        <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
+        <h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
           Our Expertise and Partners
-        </h1>
+        </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {ClientLogos.map((val, index) => (
             <div

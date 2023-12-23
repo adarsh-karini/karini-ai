@@ -53,9 +53,9 @@ const ClientReviews = () => {
         <div className="space-y-10">
           <div className="text-center ltr:sm:text-left rtl:sm:text-right">
             <div className="space-y-1">
-              <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
+              <h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
                 Testimonials
-              </h1>
+              </h2>
               <p className="text-secondary-700 text-sm font-medium">
                 The Stunning Results Our Customers Have Experienced
               </p>

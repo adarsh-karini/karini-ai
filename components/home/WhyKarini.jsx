@@ -31,9 +31,9 @@ const WhyKarini = () => {
         <div className="absolute -z-10 -right-52 -top-32 p-52 rounded-full bg-primary-500 blur-3xl opacity-20"></div>
         <div className="absolute -z-10 -left-52 -bottom-40 p-52 rounded-full bg-primary-500 blur-3xl opacity-20"></div>
         <div className="space-y-10">
-          <h1 className="text-white font-bold text-2xl sm:text-3xl text-center">
+          <h2 className="text-white font-bold text-2xl sm:text-3xl text-center">
             <span className="text-primary-600">Why</span> Karini
-          </h1>
+          </h2>
           <div className="space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {whyKariniData.map((data, index) => (

@@ -19,9 +19,9 @@ const OurPlatforms = () => {
       <div className="max-w-screen-lg mx-auto space-y-8">
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
           <div className="flex flex-col items-center space-y-4 py-4">
-            <h1 className="text-black font-bold text-2xl sm:text-3xl text-center md:text-left">
+            <h2 className="text-black font-bold text-2xl sm:text-3xl text-center md:text-left">
               <span className="text-primary-600">Our</span> Platform
-            </h1>
+            </h2>
 
             <Link
               href={"/platforms"}

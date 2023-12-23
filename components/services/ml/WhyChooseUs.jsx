@@ -17,9 +17,9 @@ const WhyChooseUs = () => {
     <section className="bg-primary-50 px-4 md:px-0 py-20">
       <div className="max-w-screen-lg mx-auto space-y-8">
         <div className="space-y-2">
-          <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
+          <h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
             Why Choose Us
-          </h1>
+          </h2>
           <p className="text-secondary-700 text-center">
             Leverage a proprietary machine learning engine that multiplies the
             value of labelled data, allowing for better AI.

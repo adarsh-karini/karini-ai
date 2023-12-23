@@ -34,9 +34,9 @@ const Platforms = () => {
     <section className="bg-white px-4 lg:px-8 xl:px-0 py-10">
       <div className="max-w-screen-xl mx-auto space-y-8">
         <div className="">
-          <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
+          <h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
             Platform Capabilities
-          </h1>
+          </h2>
         </div>
         <div className="space-y-16">
           <div className="flex justify-center">

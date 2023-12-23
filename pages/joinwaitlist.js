@@ -54,7 +54,7 @@ const Joinwaitlist = () => {
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Data to Insights using Generative AI "
+					content="Data to Insights using Generative AI"
 				/>
 				<meta
 					name="keywords"

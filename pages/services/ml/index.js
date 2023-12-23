@@ -18,12 +18,17 @@ const ml = () => {
   return (
     <>
       <Head>
-        <title>ML Services | Karini AI</title>
+        <title>MLOps Services: Partnering for Enterprise Excellence</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
-        <meta name="description" content="Data to Insights using Generative AI " />
+        <meta name="description" content="Former Amazon ML builders bring deep expertise in ML, Computer Vision, and NLP. Your partner to establish MLOps seamlessly across the enterprise." />
         <meta name="keywords" content="Computer Vision,CV,NLP,Machine Learning,HuggingFace,MLOPS,SageMaker,VertexAI,Bedrock,Databricks,Dolly" /> 
-      </Head>
+		
+		<meta name="robots" content="index,follow" />
+
+		<link rel="canonical" href="https://www.karini.ai/services/ml" />
+		<link rel="amphtml" href="https://www.karini.ai/services/ml/amp"/>
+	  </Head>
       <div className={`${poppins.variable} ${inter.className} bg-white`}>
         <Hero />
         <Challenges />

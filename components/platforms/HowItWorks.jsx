@@ -22,9 +22,9 @@ const HowItWorks = () => {
           <div className="p-20 m-8 bg-white rounded-full"></div>
         </div>
         <div className="space-y-2">
-          <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
+          <h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
             How It Works
-          </h1>
+          </h2>
           <p className="text-secondary-600 text-sm text-center">
             Build and Deploy Gen AI application in minutes
           </p>
