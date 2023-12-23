@@ -6,17 +6,17 @@ import { MdOutlineInsertPageBreak } from "react-icons/md";
 
 const HowItWorks = () => {
 	const [active, setActive] = useState(0);
-	const buttons = [
-		"Centralized Management of Gen AI apps",
-		"Create Model Endpoint",
-		"Test Prompts using Playground",
-		"Set up Data flows using Recipe",
-		"Run Recipe",
-		"Evaluate RAG",
-		"Export Copilot",
-		"Explore Copilot Hub",
-		"Start using Copilot",
-	];
+	// const buttons = [
+	// 	"Centralized Management of Gen AI apps",
+	// 	"Create Model Endpoint",
+	// 	"Test Prompts using Playground",
+	// 	"Set up Data flows using Recipe",
+	// 	"Run Recipe",
+	// 	"Evaluate RAG",
+	// 	"Export Copilot",
+	// 	"Explore Copilot Hub",
+	// 	"Start using Copilot",
+	// ];
 
 	const howItWorksData = [
 		{
