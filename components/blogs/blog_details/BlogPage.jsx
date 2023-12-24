@@ -5,18 +5,18 @@ const SectionOne = ({ blogData }) => {
 	console.log("iii", blogData);
 	return (
 		<section className="bg-white px-4 sm:px-10 py-10">
-			<div className="max-w-screen-lg mx-auto space-y-10">
+			<div className="max-w-screen-sm mx-auto space-y-10">
 				<div className="space-y-8">
-					<h3 className="text-black text-lg sm:text-xl md:text-2xl font-semibold text-center">
+					<h3 className="text-black text-xl md:text-3xl font-semibold text-left">
 						{/* {blogData?.title} */}
 						Industrializing Generative AI with “Merlin” platform
 					</h3>
 					<div className="space-y-6">
 						<div className="space-y-1">
-							<p className="text-base text-black font-medium">
+							<p className="text-lg text-black font-medium">
 								Hype of Generative AI
 							</p>
-							<p className="text-sm text-secondary-700">
+							<p className="text-base text-secondary-700">
 								Generative AI is not just a fleeting trend; it&rsquo;s a
 								transformative force that&apos;s been captivating global
 								interest. Comparable in significance to the dawn of the
@@ -37,16 +37,16 @@ const SectionOne = ({ blogData }) => {
 							</p>
 						</div>
 						<div className="space-y-1">
-							<p className="text-base text-black font-medium">
+							<p className="text-lg text-black font-medium">
 								Why enterprises struggle with Industrializing Generative AI
 							</p>
-							<p className="text-sm text-secondary-700">
+							<p className="text-base text-secondary-700">
 								Despite the enthusiasm, enterprises are grappling with the
 								practicalities of adopting Generative AI.
 							</p>
 						</div>
 						<div className="space-y-2">
-							<p className="text-sm text-black">
+							<p className="text-lg text-black">
 								According to survey by{" "}
 								<a
 									href="https://cnvrg.io/wp-content/uploads/2023/11/ML-Insider-Survey_2023_WEB.pdf"
@@ -59,7 +59,7 @@ const SectionOne = ({ blogData }) => {
 							</p>
 							<ol
 								start={1}
-								className="text-sm text-secondary-700 space-y-2"
+								className="text-base text-secondary-700 space-y-2"
 								style={{ listStyle: "inside", listStyleType: "revert" }}
 							>
 								<li>
@@ -87,7 +87,7 @@ const SectionOne = ({ blogData }) => {
 									efficiency(53%)
 								</li>
 							</ol>
-							<p className="text-sm text-secondary-700">
+							<p className="text-base text-secondary-700">
 								In summary, Generative AI offers massive opportunities to
 								enterprise but due to skills, requirements for enterprise
 								security and governance, they are still behind in the adoption
@@ -95,10 +95,10 @@ const SectionOne = ({ blogData }) => {
 							</p>
 						</div>
 						<div className="space-y-1">
-							<p className="text-base text-black font-medium">
+							<p className="text-lg text-black font-medium">
 								Industrialization of Generative AI applications
 							</p>
-							<p className="text-sm text-secondary-700">
+							<p className="text-base text-secondary-700">
 								The quest for enterprise-grade Generative AI applications is now
 								easier, thanks to SaaS-based model APIs and packages like
 								Langchain and Llama Index. Yet, scaling these initiatives across
@@ -118,13 +118,13 @@ const SectionOne = ({ blogData }) => {
 							/>
 						</div>
 						<div className="space-y-2">
-							<p className="text-sm text-black">
+							<p className="text-lg text-black">
 								Enterprises should think about Gen AI platforms with the above
 								four layered cake,
 							</p>
 							<ol
 								start={1}
-								className="text-sm text-secondary-700 space-y-2"
+								className="text-base text-secondary-700 space-y-2"
 								style={{ listStyle: "inside", listStyleType: "revert" }}
 							>
 								<li>
@@ -151,7 +151,7 @@ const SectionOne = ({ blogData }) => {
 									customer reviews and more.
 								</li>
 							</ol>
-							<p className="text-sm text-secondary-700">
+							<p className="text-base text-secondary-700">
 								Many Data, ML and AI vendors are snapping these capabilities on
 								top of their existing platform. ML Platforms that start with
 								supervised labels and depend on model building &amp; deployment
@@ -167,10 +167,10 @@ const SectionOne = ({ blogData }) => {
 							</p>
 						</div>
 						<div className="space-y-1">
-							<p className="text-base text-black font-medium">
+							<p className="text-lg text-black font-medium">
 								Introducing Merlin - Gen AI Platform for all
 							</p>
-							<p className="text-sm text-secondary-700">
+							<p className="text-base text-secondary-700">
 								Karini AI presents &quot;Merlin,&quot; a platform designed to
 								revolutionize enterprise operations by integrating proprietary
 								data with advanced language models, effectively creating a
@@ -193,8 +193,8 @@ const SectionOne = ({ blogData }) => {
 							/>
 						</div>
 						<div className="space-y-1">
-							<p className="text-base text-black font-medium">Conclusion</p>
-							<p className="text-sm text-secondary-700">
+							<p className="text-lg text-black font-medium">Conclusion</p>
+							<p className="text-base text-secondary-700">
 								Merlin is designed to accelerate experimentation, expedite
 								market delivery, and bridge the generative AI adoption gap,
 								enabling businesses to harness the full potential of this
@@ -203,10 +203,8 @@ const SectionOne = ({ blogData }) => {
 							</p>
 						</div>
 						<div className="space-y-1">
-							<p className="text-base text-black font-medium">
-								About the Author
-							</p>
-							<p className="text-sm text-secondary-700">
+							<p className="text-lg text-black font-medium">About the Author</p>
+							<p className="text-base text-secondary-700">
 								<a href="https://www.linkedin.com/in/deepali-rajale-958a267/">
 									Deepali Rajale
 								</a>{" "}
