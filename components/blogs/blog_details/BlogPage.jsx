@@ -17,7 +17,23 @@ const SectionOne = ({ blogData }) => {
 								Hype of Generative AI
 							</p>
 							<p className="text-sm text-secondary-700">
-							Generative AI is not just a fleeting trend; it&rsquo;s a transformative force that's been captivating global interest. Comparable in significance to the dawn of the internet, its influence extends across various domains, altering the way we search, communicate, and leverage data. From enhancing business processes to serving as an academic guide or a tool for crafting articulate emails, its applications are vast. Developers have even begun to favor it over traditional resources for coding assistance. The term Retrieval Augmented Generation (RAG), introduced by Meta in 2020(<a href="https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/">1</a>), is now familiar in the corporate world. However, the deployment of such technologies at an enterprise level often encounters hurdles like task-specificity, accuracy, and the need for robust controls.
+								Generative AI is not just a fleeting trend; it&rsquo;s a
+								transformative force that&apos;s been captivating global
+								interest. Comparable in significance to the dawn of the
+								internet, its influence extends across various domains, altering
+								the way we search, communicate, and leverage data. From
+								enhancing business processes to serving as an academic guide or
+								a tool for crafting articulate emails, its applications are
+								vast. Developers have even begun to favor it over traditional
+								resources for coding assistance. The term Retrieval Augmented
+								Generation (RAG), introduced by Meta in 2020(
+								<a href="https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/">
+									1
+								</a>
+								), is now familiar in the corporate world. However, the
+								deployment of such technologies at an enterprise level often
+								encounters hurdles like task-specificity, accuracy, and the need
+								for robust controls.
 							</p>
 						</div>
 						<div className="space-y-1">
@@ -136,7 +152,18 @@ const SectionOne = ({ blogData }) => {
 								</li>
 							</ol>
 							<p className="text-sm text-secondary-700">
-							Many Data, ML and AI vendors are snapping these capabilities on top of their existing platform. ML Platforms that start with supervised labels and depend on model building &amp; deployment aspect of MLOps, Generative AI platforms begin with a pre-trained Open source model(e.g. Llama2) or proprietary SAAS model(GPT4), focuses on capabilities to contextualize Large Language models and deploy capabilities to enable smarts in applications such as Copilots or Agents. Hence we propose a radically different approach to fulfill the promise of industrialized Gen AI that focuses on LLMOps development loop ( Connect to Model Hub -&gt; Contextualize Model for Data -&gt; Human Evaluation )
+								Many Data, ML and AI vendors are snapping these capabilities on
+								top of their existing platform. ML Platforms that start with
+								supervised labels and depend on model building &amp; deployment
+								aspect of MLOps, Generative AI platforms begin with a
+								pre-trained Open source model(e.g. Llama2) or proprietary SAAS
+								model(GPT4), focuses on capabilities to contextualize Large
+								Language models and deploy capabilities to enable smarts in
+								applications such as Copilots or Agents. Hence we propose a
+								radically different approach to fulfill the promise of
+								industrialized Gen AI that focuses on LLMOps development loop (
+								Connect to Model Hub -&gt; Contextualize Model for Data -&gt;
+								Human Evaluation )
 							</p>
 						</div>
 						<div className="space-y-1">
@@ -168,13 +195,26 @@ const SectionOne = ({ blogData }) => {
 						<div className="space-y-1">
 							<p className="text-base text-black font-medium">Conclusion</p>
 							<p className="text-sm text-secondary-700">
-							Merlin is designed to accelerate experimentation, expedite market delivery, and bridge the generative AI adoption gap, enabling businesses to harness the full potential of this groundbreaking technology. Try out the platform by quick <a href="https://app.karini.ai/signup">sign up</a>
+								Merlin is designed to accelerate experimentation, expedite
+								market delivery, and bridge the generative AI adoption gap,
+								enabling businesses to harness the full potential of this
+								groundbreaking technology. Try out the platform by quick{" "}
+								<a href="https://app.karini.ai/signup">sign up</a>
 							</p>
 						</div>
 						<div className="space-y-1">
-							<p className="text-base text-black font-medium">About the Author</p>
+							<p className="text-base text-black font-medium">
+								About the Author
+							</p>
 							<p className="text-sm text-secondary-700">
-							<a href="https://www.linkedin.com/in/deepali-rajale-958a267/">Deepali Rajale</a> is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generatie AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.
+								<a href="https://www.linkedin.com/in/deepali-rajale-958a267/">
+									Deepali Rajale
+								</a>{" "}
+								is a founder of Karini AI with a mission to democratize
+								generative AI across enterprises. She enjoys blogging about
+								Generative AI, coaching customers to optimize Generatie AI
+								practice. She loves to spend time outdoors camping with her
+								family and also a poet and has published a book.
 							</p>
 						</div>
 					</div>
