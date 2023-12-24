@@ -19,21 +19,14 @@ const HowItWorks = () => {
 	// ];
 
 	const howItWorksData = [
-		{
-			name: "Explore Copilot Hub",
-			image: "/assets/images/platform/Copilot_Hub.png",
-		},
-		{
-			name: "Start using Copilot",
-			image: "/assets/images/platform/Copilot.png",
-		},
+
 		{
 			name: "Dashboard",
 			image: "/assets/images/platform/Dashboards.png",
 		},
 		{
-			name: "Export Copilot",
-			image: "/assets/images/platform/Export.png",
+			name: "Explore Copilot Hub",
+			image: "/assets/images/platform/Copilot_Hub.png",
 		},
 		{
 			name: "Create Model Endpoint",
@@ -44,13 +37,21 @@ const HowItWorks = () => {
 			image: "/assets/images/platform/Prompt_Playground.png",
 		},
 		{
+			name: "Set up and Run Recipe",
+			image: "/assets/images/platform/Recipe.png",
+		},
+		{
 			name: "Evaluate RAG",
 			image: "/assets/images/platform/RAG_Evaluation.png",
 		},
 		{
-			name: "Run Recipe",
-			image: "/assets/images/platform/Recipe.png",
+			name: "Export Copilot",
+			image: "/assets/images/platform/Export.png",
 		},
+		{
+			name: "Start using Copilot",
+			image: "/assets/images/platform/Copilot.png",
+		}
 	];
 
 	return (

@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <header className="bg-white">
       <div className="mx-auto max-w-screen-2xl">
-        <section>
+        {/* <section>
           <div className="relative flex flex-col items-center justify-center py-14 md:py-20">
             <div className="absolute p-20 md:p-32 rounded-full left-0 md:left-1/4 top-10 md:top-20 bg-primary-100 blur-2xl"></div>
             <div className="absolute p-20 md:p-32 rounded-full right-0 bottom-0 bg-primary-100 blur-2xl"></div>
@@ -22,7 +22,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </header>
   );
