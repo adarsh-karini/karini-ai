@@ -1,93 +1,109 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { PiStarFourFill } from "react-icons/pi";
+import { IoIosSend } from "react-icons/io";
+
+import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
+// import "@splidejs/react-splide/css";
+// import "@splidejs/react-splide/css/core";
+// import "@splidejs/react-splide/css/skyblue";
+import "@splidejs/react-splide/css/sea-green";
 
 const Hero = () => {
+	const imagesData = [
+		{
+			title: "Integrate Chatbot with your Applications",
+			path: "/assets/images/home/copilot.png",
+		},
+		{
+			title: "Connect to SAAS and Proprietary Models",
+			path: "/assets/images/home/models.png",
+		},
+		{
+			title: "Prompt Engineering",
+			path: "/assets/images/home/prompt.png",
+		},
+		{
+			title: "Low Code Recipes",
+			path: "/assets/images/home/recipe.png",
+		},
+	];
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		console.log("submit");
+	};
+
 	return (
 		<header>
-			<div className="relative bg-dark overflow-hidden">
-				<section className=" mx-auto max-w-screen-2xl">
-					<div className="flex flex-col items-center justify-center pt-20 pb-10 space-y-12 z-10">
-						<div className="z-10 space-y-4 px-4 max-w-screen-md">
-							<div className="space-y-8">
-								<h1 className="flex flex-col text-center text-xl sm:text-2xl font-semibold text-secondary-200 space-y-2">
-									<span className="text-center">
-										Data to Business Insights using
-									</span>
-									<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-700 to-primary-200 text-4xl md:text-5xl lg:text-6xl font-extrabold">
-										Generative AI
-									</span>
-								</h1>
-								<p className="text-center text-secondary-300 text-sm sm:text-base">
-									We make your applications more intelligent 10x faster
-								</p>
-							</div>
-							<div className="w-full space-x-2 flex justify-center">
-								<Link
-									href="https://app.karini.ai/signup"
-									className=" flex space-x-2 bg-primary-600 px-4 sm:px-4 py-2 sm:py-3 text-xs font-medium text-white transition duration-100 md:text-base rounded"
-								>
-									<span>Try now</span>
-									<span
-										aria-hidden="true"
-										className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+			<div className="relative bg-dark overflow-hidden px-4 py-20">
+				<section className="mx-auto max-w-screen-xl">
+					<div className="z-10 md:flex md:items-center space-y-10 md:space-y-0 md:space-x-10 lg:space-x-20">
+						<div className="md:w-2/5 flex justify-center md:justify-start md:items-center">
+							<div className="space-y-4">
+								<div className="space-y-1 text-center md:text-left">
+									<h1 className="flex flex-col text-xl sm:text-2xl text-secondary-200 space-y-1">
+										<span className="md:ml-1 md:text-sm lg:text-base">
+											Data to Business Insights using
+										</span>
+										<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-700 to-primary-200 text-3xl md:text-4xl lg:text-5xl font-extrabold">
+											Generative AI
+										</span>
+									</h1>
+									<p className="md:ml-1 text-secondary-300 text-sm lg:text-base">
+										We make your applications more intelligent 10x faster
+									</p>
+								</div>
+								<div className="md:ml-1 w-full flex justify-center md:justify-start">
+									<Link
+										href="https://app.karini.ai/signup"
+										className=" flex space-x-2 bg-primary-600 px-3 sm:px-4 py-2 text-xs font-medium text-white transition duration-100 md:text-sm rounded"
 									>
-										&rarr;
-									</span>
-								</Link>
-
-								{/* <Link
-                  href={"/pricing"}
-                  className="px-4 sm:px-8 py-2 sm:py-3 text-xs font-medium text-secondary-300 border border-sectext-secondary-300 transition duration-100 hover:text-primary-600 hover:bg-white md:text-base rounded"
-                >
-                  View pricing
-                </Link> */}
+										<span>Try now</span>
+										<span
+											aria-hidden="true"
+											className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+										>
+											&rarr;
+										</span>
+									</Link>
+								</div>
 							</div>
 						</div>
-						<div className="z-10 relative px-4 md:px-10 py-16">
-							<div className="absolute -z-10 -right-52 -top-32 p-52 rounded-full bg-primary-500 blur-3xl opacity-30"></div>
-
-							<div className="space-y-2">
-								<div className="flex justify-between">
-									<div className="flex-1 flex justify-start items-center space-x-1">
-										<PiStarFourFill size={10} className="text-primary-600" />
-										<h2 className="text-white font-medium text-[7px] sm:text-sm">
-											Connect to SAAS and Proprietary Models
-										</h2>
-									</div>
-									<div className="flex-1 flex justify-end items-center space-x-1">
-										<PiStarFourFill size={10} className="text-primary-600" />
-										<h2 className="text-white font-medium text-[7px] sm:text-sm">
-											Low Code Recipes
-										</h2>
-									</div>
-								</div>
-
-								<Image
-									src={"/assets/images/herobg.png"}
-									alt="hero image"
-									width={10000}
-									height={10000}
-									className="shadow-2xl rounded-md"
-									priority={true}
-									quality={100}
-								/>
-								<div className="flex justify-between">
-									<div className="flex-1 flex justify-start items-center space-x-1">
-										<PiStarFourFill size={10} className="text-primary-600" />
-										<h2 className="text-white font-medium text-[7px] sm:text-sm">
-											Prompt Engineering
-										</h2>
-									</div>
-									<div className="flex-1 flex justify-end items-center space-x-1">
-										<PiStarFourFill size={10} className="text-primary-600" />
-										<h2 className="text-white font-medium text-[7px] sm:text-sm">
-											Integrate Chatbot with your Applications
-										</h2>
-									</div>
-								</div>
-							</div>
+						<div className="flex-1 shadow-2xl shadow-primary-600/60 rounded">
+							<Splide
+								options={{
+									type: "loop",
+									arrows: false,
+									perPage: 1,
+									perMove: 1,
+									speed: 700,
+									interval: 2500,
+									// gap: 1,
+									autoplay: true,
+									rewind: true,
+									rewindSpeed: 2000,
+									drag: true,
+									pauseOnHover: true,
+									omitEnd: true,
+								}}
+								className="rounded"
+							>
+								{imagesData.map((val, index) => (
+									<SplideSlide key={index} className="">
+										<Image
+											src={val.path}
+											alt="hero image"
+											width={1500}
+											height={1000}
+											className="w-full shadow-2xl rounded"
+											priority={true}
+											quality={100}
+										/>
+									</SplideSlide>
+								))}
+							</Splide>
 						</div>
 					</div>
 				</section>

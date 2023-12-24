@@ -41,6 +41,18 @@ h3 {
 	font-family: var(--font-poppins);
 }
 
+#splide01 {
+	padding: 0px;
+}
+
+.swiper-pagination-bullet {
+	background-color: "white" !important;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: "#7c3aed" !important;
+}
+
 .splide__pagination__page {
 	background-color: lightgray !important;
 }

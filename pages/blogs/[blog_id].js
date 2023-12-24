@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import { Inter, Poppins } from "next/font/google";
+import { Inter, Open_Sans, Poppins } from "next/font/google";
 import BreadCrumb from "@/components/blogs/blog_details/BreadCrumb";
 
 import { blogDetailsData } from "@/content/blogs/blogDetailsData";
@@ -12,6 +12,10 @@ const poppins = Poppins({
 	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 	variable: "--font-poppins",
 	subsets: ["devanagari"],
+});
+const openSans = Open_Sans({
+	subsets: ["latin"],
+	weight: ["300", "400", "500", "600", "700", "800"],
 });
 
 const Blog = () => {
@@ -35,7 +39,9 @@ const Blog = () => {
 					{"Industrializing Generative AI with “Merlin” platform"} | Karini AI
 				</title>
 			</Head>
-			<div className={`${poppins.variable} ${inter.className} bg-white`}>
+			<div
+				className={`${poppins.variable} ${inter.className} bg-white subpixel-antialiased`}
+			>
 				{/* <BreadCrumb title={blogData?.title} /> */}
 				{/* <SectionOne blogData={blogData} /> */}
 				<BreadCrumb
