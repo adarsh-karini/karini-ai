@@ -24,19 +24,19 @@ const Navbar2 = () => {
 	return (
 		<div className="bg-dark fixed w-full z-50">
 			<div className="mx-auto max-w-screen-2xl">
-				<nav className="relative flex justify-between items-center border-b border-gray-800 px-4 md:px-8 py-4">
+				<nav className="relative flex justify-between items-center border-b border-gray-800 px-4 py-4">
 					<div>
 						<Link
 							href="/"
 							// className="text-xl font-semibold md:text-2xl"
 							aria-label="logo"
 						>
-							<Logo />
+							<Logo width={100} />
 							{/* <span className="text-white">karini.</span>
               <span className="text-primary-600">ai</span> */}
 						</Link>
 					</div>
-					<div className="hidden lg:flex justify-between space-x-8 text-sm text-secondary-300">
+					<div className="hidden lg:flex justify-between space-x-8 text-base text-secondary-300">
 						<Link href={"/platforms"}>Platform</Link>
 						<div
 							className="flex items-end space-x-1 cursor-pointer"

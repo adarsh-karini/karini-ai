@@ -40,18 +40,20 @@ const Hero = () => {
 			<div className="relative bg-dark overflow-hidden px-4 py-20">
 				<section className="mx-auto max-w-screen-xl">
 					<div className="z-10 md:flex md:items-center space-y-10 md:space-y-0 md:space-x-10 lg:space-x-20">
-						<div className="md:w-2/5 flex justify-center md:justify-start md:items-center">
+						<div className="md:w-2/6 flex justify-center md:justify-start md:items-center">
 							<div className="space-y-4">
 								<div className="space-y-1 text-center md:text-left">
-									<h1 className="flex flex-col text-xl sm:text-2xl text-secondary-200 space-y-1">
-										<span className="md:ml-1 md:text-sm lg:text-base">
+									<div className="space-y-2">
+										<span className="md:ml-1 md:text-sm text-primary-100 border border-primary-600 px-2 py-1 rounded-full">
 											Data to Business Insights using
 										</span>
-										<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-700 to-primary-200 text-3xl md:text-4xl lg:text-5xl font-extrabold">
-											Generative AI
-										</span>
-									</h1>
-									<p className="md:ml-1 text-secondary-300 text-sm lg:text-base">
+										<h1 className="flex flex-col text-xl sm:text-2xl">
+											<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-700 to-primary-200 text-3xl md:text-4xl lg:text-5xl font-extrabold">
+												Generative AI
+											</span>
+										</h1>
+									</div>
+									<p className="md:ml-1 text-white text-sm lg:text-base">
 										We make your applications more intelligent 10x faster
 									</p>
 								</div>
