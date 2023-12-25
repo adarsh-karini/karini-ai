@@ -97,7 +97,7 @@ const Navbar2 = () => {
 							target="_blank"
 							className="hidden lg:block bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white rounded"
 						>
-							Try now
+							Sign up
 						</Link>
 					</div>
 					<div className="lg:hidden">

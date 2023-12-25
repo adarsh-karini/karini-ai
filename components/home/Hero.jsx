@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { PiStarFourFill } from "react-icons/pi";
 import { IoIosSend } from "react-icons/io";
+import { FiExternalLink } from "react-icons/fi";
 
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 // import "@splidejs/react-splide/css";
@@ -57,12 +58,20 @@ const Hero = () => {
 										We make your applications more intelligent 10x faster
 									</p>
 								</div>
-								<div className="md:ml-1 w-full flex justify-center md:justify-start">
+								<div className="md:ml-1 w-full flex justify-center md:justify-start space-x-2">
 									<Link
-										href="https://app.karini.ai/signup"
+										href="https://sandbox.karini.ai/lab"
+										target="_blank"
 										className=" flex space-x-2 bg-primary-600 px-3 sm:px-4 py-2 text-xs font-medium text-white transition duration-100 md:text-sm rounded"
 									>
-										<span>Try now</span>
+										<span>Try our copilot</span>
+										<FiExternalLink size={20} className="text-white" />
+									</Link>
+									<Link
+										href="https://app.karini.ai/signup"
+										className=" flex space-x-2 bg-dark text-primary-600 text-xs font-medium border border-primary-600 px-3 sm:px-4 py-2 transition duration-100 md:text-sm rounded"
+									>
+										<span>Sign up</span>
 										<span
 											aria-hidden="true"
 											className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
