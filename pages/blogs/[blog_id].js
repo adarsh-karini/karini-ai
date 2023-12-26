@@ -37,7 +37,8 @@ const Blog = () => {
 		<>
 			<Head>
 				<title>
-					{"Industrializing Generative AI with “Merlin” platform"} | Karini AI
+					Industrializing Generative AI with Merlin: Revolutionizing Enterprise
+					Operations
 				</title>
 			</Head>
 			{/* <Script

@@ -185,7 +185,7 @@ const SectionOne = ({ blogData }) => {
 						</div>
 						<div className="flex justify-center">
 							<Image
-								src={"/assets/images/blogs/blog1-img2.png"}
+								src={"/assets/images/blogs/blog1-img2.jpg"}
 								height={200}
 								width={500}
 								alt="blog-img"
