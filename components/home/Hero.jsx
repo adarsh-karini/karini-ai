@@ -68,7 +68,7 @@ const Hero = () => {
 										target="_blank"
 										className=" flex items-center space-x-2 bg-primary-600 px-3 sm:px-4 py-2 text-xs font-medium text-white transition duration-100 md:text-sm rounded"
 									>
-										<span>Free Copilot</span>
+										<span>Try our copilot</span>
 										<FiExternalLink size={20} className="text-white" />
 									</Link>
 									<Link
