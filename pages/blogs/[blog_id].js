@@ -6,6 +6,7 @@ import BreadCrumb from "@/components/blogs/blog_details/BreadCrumb";
 import { blogDetailsData } from "@/content/blogs/blogDetailsData";
 import BlogPage from "@/components/blogs/blog_details/BlogPage";
 import Head from "next/head";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -39,6 +40,39 @@ const Blog = () => {
 					{"Industrializing Generative AI with “Merlin” platform"} | Karini AI
 				</title>
 			</Head>
+			<Script
+				id="schema-markup-blog"
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{
+					__html: `
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.karini.ai/blogs/industrializing-generative-ai-with-merlin-platform"
+        },
+        "headline": "Industrializing Generative AI with “Merlin” platform",
+        "description": "Announcing Merlin - designed to accelerate experimentation, expedite market delivery, and bridge the generative AI adoption gap, enabling businesses to harness the full potential of this groundbreaking technology.",
+        "image": "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2Fblog1-img2.png&w=640&q=75",
+        "author": {
+          "@type": "Organization",
+          "name": "karini",
+          "url": "https://www.karini.ai/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Deepali Rajale",
+          "logo": {
+            "@type": "ImageObject",
+            "url": ""
+          }
+        },
+        "datePublished": "2023-12-25"
+      }
+    `,
+				}}
+			></Script>
 			<div
 				className={`${poppins.variable} ${inter.className} bg-white subpixel-antialiased`}
 			>

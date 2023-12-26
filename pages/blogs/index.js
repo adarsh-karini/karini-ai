@@ -13,7 +13,20 @@ const blog = () => {
 	return (
 		<>
 			<Head>
-				<title>Blogs | Karini AI</title>
+				<title>
+					Industrializing Generative AI with Merlin: Revolutionizing Enterprise
+					Operations
+				</title>
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta charSet="utf-8" />
+				<meta
+					name="description"
+					content="Discover how Merlin, the Gen AI platform by Karini AI, integrates advanced language models to create a digital co-pilot. Simplify application development and bridge the generative AI adoption gap."
+				/>
+				<meta
+					name="keywords"
+					content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly"
+				/>
 			</Head>
 			<div className={`${inter.className} bg-white`}>
 				<Hero />

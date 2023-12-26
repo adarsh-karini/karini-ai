@@ -7,15 +7,15 @@ const SectionOne = ({ blogData }) => {
 		<section className="bg-white px-4 sm:px-10 py-10">
 			<div className="max-w-screen-sm mx-auto space-y-10">
 				<div className="space-y-8">
-					<h3 className="text-black text-xl md:text-3xl font-semibold text-left">
+					<h1 className="text-black text-xl md:text-3xl font-semibold text-left">
 						{/* {blogData?.title} */}
 						Industrializing Generative AI with “Merlin” platform
-					</h3>
+					</h1>
 					<div className="space-y-6">
 						<div className="space-y-1">
-							<p className="text-lg text-black font-medium">
+							<h2 className="text-lg text-black font-medium">
 								Hype of Generative AI
-							</p>
+							</h2>
 							<p className="text-base text-secondary-700">
 								Generative AI is not just a fleeting trend; it&rsquo;s a
 								transformative force that&apos;s been captivating global
@@ -37,9 +37,9 @@ const SectionOne = ({ blogData }) => {
 							</p>
 						</div>
 						<div className="space-y-1">
-							<p className="text-lg text-black font-medium">
+							<h2 className="text-lg text-black font-medium">
 								Why enterprises struggle with Industrializing Generative AI
-							</p>
+							</h2>
 							<p className="text-base text-secondary-700">
 								Despite the enthusiasm, enterprises are grappling with the
 								practicalities of adopting Generative AI.
@@ -95,9 +95,9 @@ const SectionOne = ({ blogData }) => {
 							</p>
 						</div>
 						<div className="space-y-1">
-							<p className="text-lg text-black font-medium">
+							<h2 className="text-lg text-black font-medium">
 								Industrialization of Generative AI applications
-							</p>
+							</h2>
 							<p className="text-base text-secondary-700">
 								The quest for enterprise-grade Generative AI applications is now
 								easier, thanks to SaaS-based model APIs and packages like
@@ -167,9 +167,9 @@ const SectionOne = ({ blogData }) => {
 							</p>
 						</div>
 						<div className="space-y-1">
-							<p className="text-lg text-black font-medium">
+							<h2 className="text-lg text-black font-medium">
 								Introducing Merlin - Gen AI Platform for all
-							</p>
+							</h2>
 							<p className="text-base text-secondary-700">
 								Karini AI presents &quot;Merlin,&quot; a platform designed to
 								revolutionize enterprise operations by integrating proprietary
@@ -193,7 +193,7 @@ const SectionOne = ({ blogData }) => {
 							/>
 						</div>
 						<div className="space-y-1">
-							<p className="text-lg text-black font-medium">Conclusion</p>
+							<h2 className="text-lg text-black font-medium">Conclusion</h2>
 							<p className="text-base text-secondary-700">
 								Merlin is designed to accelerate experimentation, expedite
 								market delivery, and bridge the generative AI adoption gap,
@@ -202,7 +202,7 @@ const SectionOne = ({ blogData }) => {
 								<a href="https://app.karini.ai/signup">sign up</a>
 							</p>
 						</div>
-						<div className="space-y-1">
+						<div className="space-y-1 border p-5 rounded">
 							<p className="text-lg text-black font-medium">About the Author</p>
 							<p className="text-base text-secondary-700">
 								<a href="https://www.linkedin.com/in/deepali-rajale-958a267/">
