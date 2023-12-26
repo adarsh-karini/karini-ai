@@ -15,19 +15,23 @@ const Hero = () => {
 	const imagesData = [
 		{
 			title: "Integrate Chatbot with your Applications",
-			path: "/assets/images/home/copilot.png",
+			path: "/assets/images/platform/Copilot.png",
+			altText: "intergrate-chatbot-with-your-applications",
 		},
 		{
 			title: "Connect to SAAS and Proprietary Models",
-			path: "/assets/images/home/models.png",
+			path: "/assets/images/platform/Model_Hub.png",
+			altText: "connect-to-saas-and-proprietary-models",
 		},
 		{
 			title: "Prompt Engineering",
-			path: "/assets/images/home/prompt.png",
+			path: "/assets/images/platform/Prompt_Playground.png",
+			altText: "prompt-engineering",
 		},
 		{
 			title: "Low Code Recipes",
-			path: "/assets/images/home/recipe.png",
+			path: "/assets/images/platform/Recipe.png",
+			altText: "low-code-recipes",
 		},
 	];
 
@@ -39,8 +43,8 @@ const Hero = () => {
 	return (
 		<header>
 			<div className="relative bg-dark overflow-hidden px-4 py-20">
-				<section className="mx-auto max-w-screen-xl">
-					<div className="z-10 md:flex md:items-center space-y-10 md:space-y-0 md:space-x-10 lg:space-x-20">
+				<section className="mx-auto max-w-screen-2xl">
+					<div className="z-10 md:flex md:items-center space-y-10 md:space-y-0 md:space-x-10">
 						<div className="md:w-2/6 flex justify-center md:justify-start md:items-center">
 							<div className="space-y-4">
 								<div className="space-y-1 text-center md:text-left">
@@ -62,14 +66,14 @@ const Hero = () => {
 									<Link
 										href="https://sandbox.karini.ai/lab"
 										target="_blank"
-										className=" flex space-x-2 bg-primary-600 px-3 sm:px-4 py-2 text-xs font-medium text-white transition duration-100 md:text-sm rounded"
+										className=" flex items-center space-x-2 bg-primary-600 px-3 sm:px-4 py-2 text-xs font-medium text-white transition duration-100 md:text-sm rounded"
 									>
-										<span>Try our copilot</span>
+										<span>Free Copilot</span>
 										<FiExternalLink size={20} className="text-white" />
 									</Link>
 									<Link
 										href="https://app.karini.ai/signup"
-										className=" flex space-x-2 bg-dark text-primary-600 text-xs font-medium border border-primary-600 px-3 sm:px-4 py-2 transition duration-100 md:text-sm rounded"
+										className=" flex space-x-2 bg-dark text-secondary-300 text-xs font-medium border border-secondary-400 px-3 sm:px-4 py-2 transition duration-100 md:text-sm rounded"
 									>
 										<span>Sign up</span>
 										<span
@@ -82,15 +86,15 @@ const Hero = () => {
 								</div>
 							</div>
 						</div>
-						<div className="flex-1 shadow-2xl shadow-primary-600/60 rounded">
+						<div className="flex-1 shadow-2xl rounded">
 							<Splide
 								options={{
 									type: "loop",
 									arrows: false,
 									perPage: 1,
 									perMove: 1,
-									speed: 700,
-									interval: 2500,
+									speed: 1500,
+									interval: 3500,
 									// gap: 1,
 									autoplay: true,
 									rewind: true,
@@ -103,15 +107,20 @@ const Hero = () => {
 							>
 								{imagesData.map((val, index) => (
 									<SplideSlide key={index} className="">
-										<Image
-											src={val.path}
-											alt="hero image"
-											width={1500}
-											height={1000}
-											className="w-full shadow-2xl rounded"
-											priority={true}
-											quality={100}
-										/>
+										<div className="h-full">
+											<h1 className="min-h-[5px] text-white text-sm font-semibold text-left">
+												{val.title}
+											</h1>
+											<Image
+												src={val.path}
+												alt={val.altText}
+												width={1500}
+												height={1000}
+												className="w-full shadow-2xl rounded"
+												priority={true}
+												quality={100}
+											/>
+										</div>
 									</SplideSlide>
 								))}
 							</Splide>
