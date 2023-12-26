@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 const SectionOne = ({ blogData }) => {
-	console.log("iii", blogData);
+	// console.log("iii", blogData);
 	return (
 		<section className="bg-white px-4 sm:px-10 py-10">
 			<div className="max-w-screen-sm mx-auto space-y-10">
@@ -110,7 +110,7 @@ const SectionOne = ({ blogData }) => {
 						</div>
 						<div className="flex justify-center">
 							<Image
-								src={"/assets/images/blogs/blog1-img1.png"}
+								src={"/assets/images/blogs/blog1-img1.jpg"}
 								height={200}
 								width={500}
 								alt="blog-img"

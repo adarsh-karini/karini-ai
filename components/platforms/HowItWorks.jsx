@@ -22,35 +22,35 @@ const HowItWorks = () => {
 
 		{
 			name: "Dashboard",
-			image: "/assets/images/platform/Dashboards.png",
+			image: "/assets/images/platform/Dashboards.jpg",
 		},
 		{
 			name: "Explore Copilot Hub",
-			image: "/assets/images/platform/Copilot_Hub.png",
+			image: "/assets/images/platform/Copilot_Hub.jpg",
 		},
 		{
 			name: "Create Model Endpoint",
-			image: "/assets/images/platform/Model_Hub.png",
+			image: "/assets/images/platform/Model_Hub.jpg",
 		},
 		{
 			name: "Test Prompts using Playground",
-			image: "/assets/images/platform/Prompt_Playground.png",
+			image: "/assets/images/platform/Prompt_Playground.jpg",
 		},
 		{
 			name: "Set up and Run Recipe",
-			image: "/assets/images/platform/Recipe.png",
+			image: "/assets/images/platform/Recipe.jpg",
 		},
 		{
 			name: "Evaluate RAG",
-			image: "/assets/images/platform/RAG_Evaluation.png",
+			image: "/assets/images/platform/RAG_Evaluation.jpg",
 		},
 		{
 			name: "Export Copilot",
-			image: "/assets/images/platform/Export.png",
+			image: "/assets/images/platform/Export.jpg",
 		},
 		{
 			name: "Start using Copilot",
-			image: "/assets/images/platform/Copilot.png",
+			image: "/assets/images/platform/Copilot.jpg",
 		}
 	];
 

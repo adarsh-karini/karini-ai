@@ -40,7 +40,7 @@ const Blog = () => {
 					{"Industrializing Generative AI with “Merlin” platform"} | Karini AI
 				</title>
 			</Head>
-			<Script
+			{/* <Script
 				id="schema-markup-blog"
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{
@@ -72,7 +72,7 @@ const Blog = () => {
       }
     `,
 				}}
-			></Script>
+			></Script> */}
 			<div
 				className={`${poppins.variable} ${inter.className} bg-white subpixel-antialiased`}
 			>

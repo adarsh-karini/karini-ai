@@ -15,22 +15,22 @@ const Hero = () => {
 	const imagesData = [
 		{
 			title: "Integrate Chatbot with your Applications",
-			path: "/assets/images/platform/Copilot.png",
+			path: "/assets/images/platform/Copilot.jpg",
 			altText: "intergrate-chatbot-with-your-applications",
 		},
 		{
 			title: "Connect to SAAS and Proprietary Models",
-			path: "/assets/images/platform/Model_Hub.png",
+			path: "/assets/images/platform/Model_Hub.jpg",
 			altText: "connect-to-saas-and-proprietary-models",
 		},
 		{
 			title: "Prompt Engineering",
-			path: "/assets/images/platform/Prompt_Playground.png",
+			path: "/assets/images/platform/Prompt_Playground.jpg",
 			altText: "prompt-engineering",
 		},
 		{
 			title: "Low Code Recipes",
-			path: "/assets/images/platform/Recipe.png",
+			path: "/assets/images/platform/Recipe.jpg",
 			altText: "low-code-recipes",
 		},
 	];

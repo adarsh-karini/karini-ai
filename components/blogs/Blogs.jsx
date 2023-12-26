@@ -19,7 +19,7 @@ const Blogs = () => {
 						>
 							<Image
 								alt="blog-img"
-								src="/assets/images/blogs/blog1-img2.png"
+								src="/assets/images/blogs/blog1-img2.jpg"
 								width={500}
 								height={400}
 								className="object-contain"
