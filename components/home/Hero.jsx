@@ -64,7 +64,7 @@ const Hero = () => {
 								</div>
 								<div className="md:ml-1 w-full flex justify-center md:justify-start space-x-2">
 									<Link
-										href="https://sandbox.karini.ai/lab"
+										href="https://app.karini.ai/chat"
 										target="_blank"
 										className=" flex items-center space-x-2 bg-primary-600 px-3 sm:px-4 py-2 text-xs font-medium text-white transition duration-100 md:text-sm rounded"
 									>
