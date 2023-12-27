@@ -38,7 +38,7 @@ const CustomerStories = () => {
 						autoplay={{
 							delay: 4000,
 							pauseOnMouseEnter: true,
-							disableOnInteraction: false,
+							disableOnInteraction: true,
 						}}
 						modules={[Autoplay, Pagination]}
 						spaceBetween={50}

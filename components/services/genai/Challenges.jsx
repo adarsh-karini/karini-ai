@@ -47,7 +47,7 @@ const Challenges = () => {
                 autoplay={{
                   delay: 4000,
 				  pauseOnMouseEnter: true,
-                  disableOnInteraction: false,
+                  disableOnInteraction: true,
                 }}
                 navigation={false}
                 pagination={{ clickable: true }}

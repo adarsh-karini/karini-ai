@@ -28,7 +28,7 @@ const SectionOne = ({ blogData }) => {
 								resources for coding assistance. The term Retrieval Augmented
 								Generation (RAG), introduced by Meta in 2020(
 								<a
-									className="underline text-sky-600"
+									className="underline text-sky-500"
 									target="_blank"
 									href="https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/"
 								>
@@ -204,7 +204,7 @@ const SectionOne = ({ blogData }) => {
 								enabling businesses to harness the full potential of this
 								groundbreaking technology. Try out the platform by quick{" "}
 								<a
-									className="underline text-sky-600"
+									className="text-blue-500 hover:underline"
 									target="_blank"
 									href="https://app.karini.ai/signup"
 								>
@@ -216,7 +216,7 @@ const SectionOne = ({ blogData }) => {
 							<p className="text-lg text-black font-medium">About the Author</p>
 							<p className="text-base text-secondary-700">
 								<a
-									className="underline text-sky-600"
+									className="text-blue-500 hover:underline"
 									target="_blank"
 									href="https://www.linkedin.com/in/deepali-rajale-958a267/"
 								>
