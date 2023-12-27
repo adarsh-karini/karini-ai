@@ -15,6 +15,7 @@ import "swiper/css";
 import { genaiChallenges } from "@/content/services/genai/genaiData";
 
 const Challenges = () => {
+
   return (
     <section className="px-4 lg:px-0 py-20">
       <div className="max-w-screen-xl mx-auto">
@@ -31,9 +32,9 @@ const Challenges = () => {
                 loop={true}
                 slidesPerView={1}
                 breakpoints={{
-                  640: {
+                  640: {	
                     slidesPerView: 2,
-                    spaceBetween: 10,
+                    spaceBetween: 10,					
                   },
                   768: {
                     slidesPerView: 2,
@@ -47,7 +48,7 @@ const Challenges = () => {
                 autoplay={{
                   delay: 4000,
 				  pauseOnMouseEnter: true,
-                  disableOnInteraction: true,
+                  disableOnInteraction: false,
                 }}
                 navigation={false}
                 pagination={{ clickable: true }}

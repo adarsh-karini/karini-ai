@@ -43,5 +43,8 @@
     <url>
     <loc>https://www.karini.ai/blogs</loc>
     <lastmod>2021-06-01</lastmod>
+	 <!-- <image:image>
+        <image:loc>https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2Fblog1-img2.jpg&w=640&q=75</image:loc>
+      </image:image> -->
   </url>
 </urlset>
