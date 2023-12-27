@@ -107,10 +107,10 @@ const Hero = () => {
 							>
 								{imagesData.map((val, index) => (
 									<SplideSlide key={index} className="">
-										<div className="h-full">
-											<h1 className="min-h-[5px] text-white text-sm font-semibold text-left">
+										<div className="space-y-1 h-full">
+											<p className="min-h-[5px] text-white text-sm font-semibold text-left">
 												{val.title}
-											</h1>
+											</p>
 											<Image
 												src={val.path}
 												alt={val.altText}

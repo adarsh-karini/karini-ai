@@ -23,15 +23,15 @@ const Footer = () => {
 						<div className="grid grid-cols-3 gap-4">
 							<div className="space-y-2">
 								<Link href={"/platforms"}>
-									<h1 className="inline text-primary-600 font-semibold text-lg">
+									<p className="inline text-primary-600 font-semibold text-lg">
 										Platform
-									</h1>
+									</p>
 								</Link>
 							</div>
 							<div className="space-y-2">
-								<h1 className="text-primary-600 font-semibold text-lg">
+								<p className="text-primary-600 font-semibold text-lg">
 									Services
-								</h1>
+								</p>
 								<div className="grid grid-cols-1 gap-2">
 									<Link
 										href={"/services/genai"}
@@ -48,9 +48,9 @@ const Footer = () => {
 								</div>
 							</div>
 							<div className="space-y-2">
-								<h1 className="text-primary-600 font-semibold text-lg">
+								<p className="text-primary-600 font-semibold text-lg">
 									Company
-								</h1>
+								</p>
 								<div className="grid grid-cols-1 gap-2">
 									<Link
 										href={"/aboutus"}
@@ -76,9 +76,9 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="flex flex-col md:flex-row justify-between items-center gap-4 py-6 border-t border-secondary-400">
-					<h1 className="text-secondary-700 font-semibold text-sm">
+					<p className="text-secondary-700 font-semibold text-sm">
 						© 2023 karini.ai. All Rights Reserved.
-					</h1>
+					</p>
 					<div className="space-x-6">
 						<Link
 							href={"/privacypolicy"}

@@ -27,7 +27,11 @@ const SectionOne = ({ blogData }) => {
 								vast. Developers have even begun to favor it over traditional
 								resources for coding assistance. The term Retrieval Augmented
 								Generation (RAG), introduced by Meta in 2020(
-								<a href="https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/">
+								<a
+									className="underline text-sky-600"
+									target="_blank"
+									href="https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/"
+								>
 									1
 								</a>
 								), is now familiar in the corporate world. However, the
@@ -199,13 +203,23 @@ const SectionOne = ({ blogData }) => {
 								market delivery, and bridge the generative AI adoption gap,
 								enabling businesses to harness the full potential of this
 								groundbreaking technology. Try out the platform by quick{" "}
-								<a href="https://app.karini.ai/signup">sign up</a>
+								<a
+									className="underline text-sky-600"
+									target="_blank"
+									href="https://app.karini.ai/signup"
+								>
+									sign up
+								</a>
 							</p>
 						</div>
 						<div className="space-y-1 border p-5 rounded">
 							<p className="text-lg text-black font-medium">About the Author</p>
 							<p className="text-base text-secondary-700">
-								<a href="https://www.linkedin.com/in/deepali-rajale-958a267/">
+								<a
+									className="underline text-sky-600"
+									target="_blank"
+									href="https://www.linkedin.com/in/deepali-rajale-958a267/"
+								>
 									Deepali Rajale
 								</a>{" "}
 								is a founder of Karini AI with a mission to democratize
