@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="hidden lg:block absolute p-20 md:p-32 rounded-full right-0 bottom-0 bg-primary-100 blur-2xl"></div> */}
             <div className="z-10 space-y-3 px-4 max-w-screen-lg">
               <h1 className="text-center text-2xl font-semibold text-white md:text-3xl lg:text-4xl">
-                Our Platform
+                Merlin - Industrialize Generative AI
                 <span className="text-primary-600"> </span>
               </h1>
               <p className="text-center text-secondary-100 text-sm sm:text-base">

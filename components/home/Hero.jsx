@@ -59,7 +59,7 @@ const Hero = () => {
 										</h1>
 									</div>
 									<p className="md:ml-1 text-white text-sm lg:text-base">
-										We make your applications more intelligent 10x faster
+										Make your applications more intelligent 10x faster
 									</p>
 								</div>
 								<div className="md:ml-1 w-full flex justify-center md:justify-start space-x-2">
@@ -68,7 +68,7 @@ const Hero = () => {
 										target="_blank"
 										className=" flex items-center space-x-2 bg-primary-600 px-3 sm:px-4 py-2 text-xs font-medium text-white transition duration-100 md:text-sm rounded"
 									>
-										<span>Try our copilot</span>
+										<span>Try copilot</span>
 										<FiExternalLink size={20} className="text-white" />
 									</Link>
 									<Link
