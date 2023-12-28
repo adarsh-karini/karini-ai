@@ -41,8 +41,12 @@ h3 {
 	font-family: var(--font-poppins);
 }
 
-#splide01 {
-	padding: 0px;
+/* #splide01 {
+	padding: 0px !important;
+} */
+
+.heroSliderHome{
+	padding: 0px !important;
 }
 
 .swiper-pagination-bullet {

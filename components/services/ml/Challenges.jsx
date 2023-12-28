@@ -24,7 +24,7 @@ const Challenges = () => {
 								Challenges: Building MLOps Platform
 							</h2>
 						</div>
-						<div className="px-2">
+						<div className="hidden lg:block px-2">
 							<Swiper
 								spaceBetween={10}
 								loop={true}
@@ -45,6 +45,54 @@ const Challenges = () => {
 								}}
 								autoplay={{
 									delay: 4000,
+									pauseOnMouseEnter: true,
+									disableOnInteraction: false,
+								}}
+								navigation={false}
+								pagination={{ clickable: true }}
+								modules={[Autoplay, Pagination]}
+								className="mySwiper bg-white rounded-lg"
+							>
+								{mlChallenges?.map((challenge, index) => (
+									<SwiperSlide key={index}>
+										<div
+											key={index}
+											className="h-60 space-y-10 bg-white p-6 border border-primary-200 rounded-lg"
+										>
+											<div className="h-full flex flex-col space-y-4">
+												<h3 className="text-primary-600 font-semibold sm:text-lg ">
+													{challenge.title}
+												</h3>
+												<p className="text-secondary-600 text-sm leading-relaxed">
+													{challenge.overview}
+												</p>
+											</div>
+										</div>
+									</SwiperSlide>
+								))}
+							</Swiper>
+						</div>
+						<div className="block lg:hidden px-2">
+							<Swiper
+								spaceBetween={10}
+								loop={true}
+								slidesPerView={1}
+								breakpoints={{
+									640: {
+										slidesPerView: 2,
+										spaceBetween: 10,
+									},
+									768: {
+										slidesPerView: 2,
+										spaceBetween: 20,
+									},
+									1024: {
+										slidesPerView: 3,
+										spaceBetween: 10,
+									},
+								}}
+								autoplay={{
+									delay: 7000,
 									pauseOnMouseEnter: true,
 									disableOnInteraction: false,
 								}}

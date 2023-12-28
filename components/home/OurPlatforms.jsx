@@ -56,9 +56,9 @@ const OurPlatforms = () => {
                         </span>
                       </div>
                       <div className="space-y-2">
-                        <h2 className="text-primary-600 font-semibold sm:text-base lg:text-lg">
+                        <h3 className="text-primary-600 font-semibold sm:text-base lg:text-lg">
                           {data.title}
-                        </h2>
+                        </h3>
                         <p className="text-secondary-600 text-sm leading-relaxed">
                           {data.overview}
                         </p>

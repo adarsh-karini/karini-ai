@@ -27,7 +27,7 @@ const ml = () => {
 		<meta name="robots" content="index,follow" />
 
 		<link rel="canonical" href="https://www.karini.ai/services/ml" />
-		<link rel="amphtml" href="https://www.karini.ai/services/ml/amp"/>
+		{/* <link rel="amphtml" href="https://www.karini.ai/services/ml/amp"/> */}
 	  </Head>
       <div className={`${poppins.variable} ${inter.className} bg-white`}>
         <Hero />

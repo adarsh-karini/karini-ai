@@ -28,6 +28,7 @@ const Navbar2 = () => {
 					<div>
 						<Link
 							href="/"
+							onClick={() => setMobileMenu(false)}
 							// className="text-xl font-semibold md:text-2xl"
 							aria-label="logo"
 						>
@@ -123,6 +124,7 @@ const Navbar2 = () => {
 							<div className=" bg-white shadow-xl">
 								<div className="space-y-4 border-b border-secondary-3x`00 p-4">
 									<Link
+										onClick={() => setMobileMenu((prev) => !prev)}
 										href={"/platforms"}
 										className="flex items-center gap-2 rounded-lg text-secondary-600"
 									>
@@ -257,7 +259,7 @@ const Navbar2 = () => {
 									<Link
 										onClick={() => setMobileMenu((prev) => !prev)}
 										href={"https://app.karini.ai/signup"}
-										className="w-full bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white"
+										className="w-full rounded bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white"
 									>
 										Try now
 									</Link>

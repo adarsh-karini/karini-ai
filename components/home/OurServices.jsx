@@ -42,9 +42,9 @@ const OurServices = () => {
                       </div>
                       <div className="flex-1 flex flex-col justify-between space-y-6">
                         <div className="space-y-2">
-                          <h2 className="text-white font-semibold sm:text-base lg:text-lg">
+                          <h3 className="text-white font-semibold sm:text-base lg:text-lg">
                             {data.title}
-                          </h2>
+                          </h3>
                           <p className="text-secondary-300 text-sm leading-relaxed">
                             {data.overview}
                           </p>

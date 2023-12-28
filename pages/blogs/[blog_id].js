@@ -40,6 +40,16 @@ const Blog = () => {
 					Industrializing Generative AI with Merlin: Revolutionizing Enterprise
 					Operations
 				</title>
+				<meta
+					name="description"
+					content="Discover how Merlin, the Gen AI platform by Karini AI, integrates advanced language models to create a digital co-pilot. Simplify application development and bridge the generative AI adoption gap."
+				/>
+				<meta name="robots" content="index,follow" />
+
+				<link
+					rel="canonical"
+					href="https://www.karini.ai/blogs/industrializing-generative-ai-with-merlin-platform"
+				/>
 			</Head>
 			<Script
 				id="schema-markup-blog"

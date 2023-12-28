@@ -86,7 +86,7 @@ const Hero = () => {
 								</div>
 							</div>
 						</div>
-						<div className="flex-1 shadow-2xl rounded">
+						<div className="hidden lg:block flex-1 shadow-2xl rounded">
 							<Splide
 								options={{
 									type: "loop",
@@ -95,15 +95,56 @@ const Hero = () => {
 									perMove: 1,
 									speed: 1500,
 									interval: 3500,
-									// gap: 1,
+									gap: 4,
 									autoplay: true,
 									rewind: true,
 									rewindSpeed: 2000,
 									drag: true,
 									pauseOnHover: true,
 									omitEnd: true,
+									pauseOnFocus: true,
 								}}
-								className="rounded"
+								className="heroSliderHome rounded"
+							>
+								{imagesData.map((val, index) => (
+									<SplideSlide key={index} className="">
+										<div className="space-y-1 h-full">
+											<p className="min-h-[5px] text-white text-sm font-semibold text-left">
+												{val.title}
+											</p>
+											<Image
+												src={val.path}
+												alt={val.altText}
+												width={1500}
+												height={1000}
+												className="w-full shadow-2xl rounded"
+												priority={true}
+												quality={100}
+											/>
+										</div>
+									</SplideSlide>
+								))}
+							</Splide>
+						</div>
+						<div className="block lg:hidden flex-1 shadow-2xl rounded">
+							<Splide
+								options={{
+									type: "loop",
+									arrows: false,
+									perPage: 1,
+									perMove: 1,
+									speed: 1500,
+									interval: 7000,
+									gap: 4,
+									autoplay: true,
+									rewind: true,
+									rewindSpeed: 2000,
+									drag: true,
+									pauseOnHover: true,
+									omitEnd: true,
+									pauseOnFocus: true,
+								}}
+								className="heroSliderHome rounded"
 							>
 								{imagesData.map((val, index) => (
 									<SplideSlide key={index} className="">
