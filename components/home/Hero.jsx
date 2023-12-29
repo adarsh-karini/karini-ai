@@ -14,24 +14,44 @@ import "@splidejs/react-splide/css/sea-green";
 const Hero = () => {
 	const imagesData = [
 		{
-			title: "Integrate Chatbot with your Applications",
-			path: "/assets/images/platform/Copilot.jpg",
-			altText: "intergrate-chatbot-with-your-applications",
+			title: "Dashboard",
+			path: "/assets/images/platform/Dashboards.jpg",
+			altText: "dashboard",
+		},
+		{
+			title: "Explore Copilot Hub",
+			path: "/assets/images/platform/Copilot_Hub.png",
+			altText: "explore-copilot-hub",
 		},
 		{
 			title: "Connect to SAAS and Proprietary Models",
-			path: "/assets/images/platform/Model_Hub.jpg",
+			path: "/assets/images/platform/Model_Hub.png",
 			altText: "connect-to-saas-and-proprietary-models",
 		},
 		{
 			title: "Prompt Engineering",
-			path: "/assets/images/platform/Prompt_Playground.jpg",
+			path: "/assets/images/platform/Prompt_Playground.png",
 			altText: "prompt-engineering",
 		},
 		{
 			title: "Low Code Recipes",
-			path: "/assets/images/platform/Recipe.jpg",
+			path: "/assets/images/platform/Recipe.png",
 			altText: "low-code-recipes",
+		},
+		{
+			title: "Evaluate RAG",
+			path: "/assets/images/platform/RAG_Evaluation.png",
+			altText: "evaluate-rag",
+		},
+		{
+			title: "Export Copilot",
+			path: "/assets/images/platform/Export.png",
+			altText: "export copilot",
+		},
+		{
+			title: "Integrate Chatbot with your Applications",
+			path: "/assets/images/platform/Copilot.png",
+			altText: "intergrate-chatbot-with-your-applications",
 		},
 	];
 

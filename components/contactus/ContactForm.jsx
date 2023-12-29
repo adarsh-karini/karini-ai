@@ -22,6 +22,13 @@ const ContactForm = () => {
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
+		if (
+			contactData.fullName === "" ||
+			contactData.email === "" ||
+			contactData.industry === ""
+		) {
+			return;
+		}
 		setShow("submitting");
 
 		try {
@@ -55,9 +62,9 @@ const ContactForm = () => {
 			<div className="max-w-screen-xl mx-auto space-y-16">
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
 					<div className="col-span-1 space-y-2">
-						<h1 className="text-white text-center lg:text-left font-semibold text-2xl md:text-4xl xl:text-6xl">
+						<h2 className="text-white text-center lg:text-left font-semibold text-2xl md:text-4xl xl:text-6xl">
 							<span className="text-primary-600">Contact</span> Us
-						</h1>
+						</h2>
 						<p className="text-secondary-100 text-sm text-center lg:text-left">
 							We&apos;re here to assist you with any questions or concerns you
 							may have. Whether you want to inquire about our products, provide
@@ -98,7 +105,6 @@ const ContactForm = () => {
 										placeholder="Department"
 										value={contactData.department}
 										onChange={handleChange}
-										required
 									/>
 									<input
 										type="tel"
@@ -108,7 +114,6 @@ const ContactForm = () => {
 										placeholder="Phone"
 										value={contactData.phone}
 										onChange={handleChange}
-										required
 									/>
 								</div>
 								<div>
@@ -131,7 +136,6 @@ const ContactForm = () => {
 										placeholder="Message"
 										value={contactData.message}
 										onChange={handleChange}
-										required
 									></textarea>
 								</div>
 								<div>

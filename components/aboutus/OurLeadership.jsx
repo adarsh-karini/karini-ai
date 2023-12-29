@@ -10,9 +10,9 @@ const OurLeadership = () => {
   return (
     <section className="bg-gradient-to-b from-primary-50 from-0% to-white to-100% px-4 md:px-0 py-20 overflow-hidden">
       <div className="max-w-screen-md mx-auto space-y-10 md:space-y-16">
-        <h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
+        <h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
           Our Leadership
-        </h1>
+        </h2>
         <div className="relative z-10 flex flex-col-reverse sm:flex-row sm:space-x-8 space-y-reverse space-y-6 sm:space-y-0">
           <div className="-z-10 absolute -right-32 -bottom-20 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg">
             <div className="p-20 m-8 bg-white rounded-full"></div>

@@ -16,7 +16,10 @@ const blog = () => {
 				<title>Blog | Karini.ai</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
-				<meta name="description" content="Discover our blogs" />
+				<meta
+					name="description"
+					content="Unlock the power of AI and stay updated with the latest Article, Product Updates, Announcement  and tips from our blog.- Karini.AI"
+				/>
 				<meta
 					name="keywords"
 					content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly"

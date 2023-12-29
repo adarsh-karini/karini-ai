@@ -27,7 +27,6 @@ const genai = () => {
 		<meta name="robots" content="index,follow" />
 
 		<link rel="canonical" href="https://www.karini.ai/services/genai" />
-		{/* <link rel="amphtml" href="https://www.karini.ai/services/genai/amp"/> */}
 
 	  </Head>
       <div className={`${poppins.variable} ${inter.className} bg-white`}>

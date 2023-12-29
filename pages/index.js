@@ -42,7 +42,7 @@ const index = () => {
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai/" />
-				{/* <link rel="amphtml" href="https://www.karini.com/amp" /> */}
+
 			</Head>
 			<div
 				className={`${poppins.variable} ${inter.className} bg-white subpixel-antialiased`}
