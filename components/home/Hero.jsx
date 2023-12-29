@@ -49,7 +49,7 @@ const Hero = () => {
 			altText: "export copilot",
 		},
 		{
-			title: "Integrate Chatbot with your Applications",
+			title: "Integrate Copilot with your application",
 			path: "/assets/images/platform/Copilot.png",
 			altText: "intergrate-chatbot-with-your-applications",
 		},
