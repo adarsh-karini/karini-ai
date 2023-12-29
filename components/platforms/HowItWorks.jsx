@@ -19,7 +19,6 @@ const HowItWorks = () => {
 	// ];
 
 	const howItWorksData = [
-
 		{
 			name: "Dashboard",
 			image: "/assets/images/platform/Dashboards.jpg",
@@ -96,7 +95,7 @@ const HowItWorks = () => {
 						{howItWorksData[active] && (
 							<Image
 								src={howItWorksData[active].image}
-								alt="how-it-works-image"
+								alt={`${howItWorksData[active].name} image`}
 								width={1000}
 								height={500}
 								className="object-contain rounded-lg shadow border"
