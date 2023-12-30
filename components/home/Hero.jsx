@@ -15,7 +15,7 @@ const Hero = () => {
 	const imagesData = [
 		{
 			title: "Dashboard",
-			path: "/assets/images/platform/Dashboards.jpg",
+			path: "/assets/images/platform/Dashboards.png",
 			altText: "dashboard",
 		},
 		{

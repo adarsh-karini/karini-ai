@@ -21,7 +21,7 @@ const HowItWorks = () => {
 	const howItWorksData = [
 		{
 			name: "Dashboard",
-			image: "/assets/images/platform/Dashboards.jpg",
+			image: "/assets/images/platform/Dashboards.png",
 		},
 		{
 			name: "Explore Copilot Hub",
