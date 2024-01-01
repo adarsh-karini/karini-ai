@@ -1,7 +1,7 @@
 export const blogDetailsData = [
 	{
-		id: "industrializing-generative-ai-with-merlin-platform",
-		title: "Industrializing Generative AI with “Merlin” platform",
+		id: "industrialize-generative-ai",
+		title: "Industrialize Generative AI",
 		sections: [
 			{
 				title: "Hype of Generative AI",

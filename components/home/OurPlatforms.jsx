@@ -20,7 +20,7 @@ const OurPlatforms = () => {
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
           <div className="flex flex-col items-center space-y-4 py-4">
             <h2 className="text-black font-bold text-2xl sm:text-3xl text-center md:text-left">
-              <span className="text-primary-600">Merlin</span> 
+              <span className="text-primary-600">Generative AI Platform</span> 
               </h2>
 
             <Link

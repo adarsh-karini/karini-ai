@@ -9,7 +9,7 @@ const SectionOne = ({ blogData }) => {
 				<div className="space-y-8">
 					<h1 className="text-black text-xl md:text-3xl font-semibold text-left">
 						{/* {blogData?.title} */}
-						Industrializing Generative AI with “Merlin” platform
+						Industrialize Generative AI
 					</h1>
 					<div className="space-y-6">
 						<div className="space-y-1">
@@ -122,7 +122,7 @@ const SectionOne = ({ blogData }) => {
 							/>
 						</div>
 						<div className="space-y-2">
-							<p className="text-lg text-black">
+							<p className="text-base text-secondary-700">
 								Enterprises should think about Gen AI platforms with the above
 								four layered cake,
 							</p>
@@ -172,13 +172,13 @@ const SectionOne = ({ blogData }) => {
 						</div>
 						<div className="space-y-1">
 							<h2 className="text-lg text-black font-medium">
-								Introducing Merlin - Gen AI Platform for all
+								Introducing Generative AI Platform for all
 							</h2>
 							<p className="text-base text-secondary-700">
-								Karini AI presents &quot;Merlin,&quot; a platform designed to
+								Karini AI presents &quot;Generative AI platform&quot;, designed to
 								revolutionize enterprise operations by integrating proprietary
 								data with advanced language models, effectively creating a
-								digital co-pilot for every user. Merlin simplifies the process,
+								digital co-pilot for every user. Karini simplifies the process,
 								offering intuitive Gen AI templates that allow rapid application
 								development. The platform offers an array of data processing
 								tools and adheres to LLMOps practices for deploying Models,
@@ -199,7 +199,7 @@ const SectionOne = ({ blogData }) => {
 						<div className="space-y-1">
 							<h2 className="text-lg text-black font-medium">Conclusion</h2>
 							<p className="text-base text-secondary-700">
-								Merlin is designed to accelerate experimentation, expedite
+								Karini AI accelerates experimentation, expedite
 								market delivery, and bridge the generative AI adoption gap,
 								enabling businesses to harness the full potential of this
 								groundbreaking technology. Try out the platform by quick{" "}
