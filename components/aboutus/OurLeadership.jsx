@@ -56,7 +56,7 @@ const OurLeadership = () => {
             <Image
               src={"/assets/images/team_members/deepali.jpg"}
               alt="founder"
-              width={400}
+              width={600}
               height={600}
               className="sm:h-auto w-auto object-cover rounded-md shadow-xl object-center"
               priority={true}
