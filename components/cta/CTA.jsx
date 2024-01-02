@@ -10,12 +10,12 @@ const CTA = () => {
 					<div className="p-20 m-8 bg-primary-600 rounded-full"></div>
 				</div>
 				<div className="-z-10 absolute -left-10 -bottom-10 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg"></div>
-				<div className=" mx-auto max-w-screen-lg p-4 rounded-lg">
+				<div className="mx-auto max-w-screen-lg p-4 rounded-lg">
 					<div className=" flex flex-col items-center w-full h-full py-10 space-y-4">
 						<div className="p-20 absolute -left-20 -bottom-24 bg-primary-600 rounded-full opacity-50"></div>
 						<div className="p-20 absolute -right-20 -top-1/2 bg-primary-600 rounded-full opacity-50"></div>
 
-						<div className="space-y-1">
+						<div className="block md:hidden space-y-1">
 							<p className="text-center text-white">
 								Data to Business Insights using
 							</p>
@@ -24,7 +24,7 @@ const CTA = () => {
 							</h2>
 						</div>
 
-						<div className="flex justify-center space-x-2">
+						<div className="md:hidden flex justify-center space-x-2">
 							<Link
 								href="https://app.karini.ai/chat"
 								target="_blank"

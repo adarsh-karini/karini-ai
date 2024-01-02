@@ -12,9 +12,9 @@ const Footer = () => {
 				<div className="-z-10 absolute -left-32 -bottom-14 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg opacity-10"></div>
 				<div className="flex flex-col md:flex-row gap-10 lg:gap-20 py-10">
 					<div className="md:w-2/5 space-y-2">
-						<div>
+						<Link href={"/"}>
 							<Logo width={100} height={30} />
-						</div>
+						</Link>
 						<p className="text-secondary-600 text-sm font-medium leading-relaxed">
 							Make Intelligent decisions with Generative AI.
 						</p>
@@ -23,9 +23,15 @@ const Footer = () => {
 						<div className="grid grid-cols-3 gap-4">
 							<div className="space-y-2">
 								<Link href={"/platforms"}>
-									<p className="inline text-primary-600 font-semibold text-lg">
+									<p className="text-primary-600 font-semibold text-lg">
 										Platform
 									</p>
+								</Link>
+								<Link
+									href={"/blogs"}
+									className="text-primary-600 font-semibold text-lg"
+								>
+									Blogs
 								</Link>
 							</div>
 							<div className="space-y-2">
@@ -52,12 +58,6 @@ const Footer = () => {
 									Company
 								</p>
 								<div className="grid grid-cols-1 gap-2">
-									<Link
-										href={"/blogs"}
-										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
-									>
-										Blogs
-									</Link>
 									<Link
 										href={"/aboutus"}
 										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
