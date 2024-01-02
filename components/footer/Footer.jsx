@@ -53,6 +53,12 @@ const Footer = () => {
 								</p>
 								<div className="grid grid-cols-1 gap-2">
 									<Link
+										href={"/blogs"}
+										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
+									>
+										Blogs
+									</Link>
+									<Link
 										href={"/aboutus"}
 										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
 									>

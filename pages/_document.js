@@ -7,7 +7,7 @@ export default function Document() {
 			<Head>
 				<link rel="icon" type="image/x-icon" href="/favicon.png" />
 				{/* Google Tag Manager */}
-				<Script
+				{/* <Script
 					id="gtm-script"
 					strategy="afterInteractive"
 					dangerouslySetInnerHTML={{
@@ -19,8 +19,26 @@ export default function Document() {
 								})(window,document,'script','dataLayer','GTM-KBTD3M2M');
 								`,
 					}}
-				></Script>
+				></Script> */}
 				{/* End Google Tag Manager */}
+
+				{/* Google Analytics (gtag.js) */}
+				<Script
+					strategy="afterInteractive"
+					src="https://www.googletagmanager.com/gtag/js?id=G-ZPKWXDBMEZ"
+				></Script>
+				<Script
+					strategy="afterInteractive"
+					dangerouslySetInnerHTML={{
+						__html: `window.dataLayer = window.dataLayer || [];
+								function gtag(){dataLayer.push(arguments);}
+								gtag('js', new Date());
+								gtag('config', 'G-ZPKWXDBMEZ');
+                   			 `,
+					}}
+				></Script>
+				{/* End Google Analytics (gtag.js) */}
+				
 				{/* Schema Markup */}
 				<Script
 					id="schema-markup"
