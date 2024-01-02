@@ -8,19 +8,23 @@ export default function Document() {
 				<link rel="icon" type="image/x-icon" href="/favicon.png" />
 				{/* Google Analytics (gtag.js) */}
 				<Script
-					id="google-analytics"
-					strategy="afterInteractive"
+					id="ga1"
+					async
 					src="https://www.googletagmanager.com/gtag/js?id=G-ZPKWXDBMEZ"
 				></Script>
 				<Script
-					id="ga"
+					id="ga2"
 					strategy="afterInteractive"
 					dangerouslySetInnerHTML={{
-						__html: `window.dataLayer = window.dataLayer || [];
-								function gtag(){dataLayer.push(arguments);}
-								gtag('js', new Date());
-								gtag('config', 'G-ZPKWXDBMEZ');
-                   			 `,
+						__html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){
+                                dataLayer.push(arguments);
+                            }
+                            gtag('js', new Date());
+                            gtag('config', 'G-ZPKWXDBMEZ');
+                            console.log('Google Analytics script loaded');
+                        `,
 					}}
 				></Script>
 				{/* End Google Analytics (gtag.js) */}
