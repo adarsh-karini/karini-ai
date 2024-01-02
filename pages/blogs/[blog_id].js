@@ -50,12 +50,12 @@ const Blog = () => {
 					rel="canonical"
 					href="https://www.karini.ai/blogs/industrialize-generative-ai"
 				/>
-			</Head>
-			<Script
-				id="schema-markup-blog"
-				type="application/ld+json"
-				dangerouslySetInnerHTML={{
-					__html: `
+				{/* Schema Markup */}
+				<script
+					id="schema-markup-blog"
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: `
 								{
 									"@context": "https://schema.org",
 									"@type": "BlogPosting",
@@ -82,16 +82,16 @@ const Blog = () => {
 									"datePublished": "2023-12-25"
 								}
 								`,
-				}}
-			></Script>
+					}}
+				></script>
+				{/* End Schema Markup */}
+			</Head>
 			<div
 				className={`${poppins.variable} ${inter.className} bg-white subpixel-antialiased`}
 			>
 				{/* <BreadCrumb title={blogData?.title} /> */}
 				{/* <SectionOne blogData={blogData} /> */}
-				<BreadCrumb
-					title={"Industrialize Generative AI"}
-				/>
+				<BreadCrumb title={"Industrialize Generative AI"} />
 				<BlogPage />
 			</div>
 		</>

@@ -6,22 +6,6 @@ export default function Document() {
 		<Html lang="en">
 			<Head>
 				<link rel="icon" type="image/x-icon" href="/favicon.png" />
-				{/* Google Tag Manager */}
-				{/* <Script
-					id="gtm-script"
-					strategy="afterInteractive"
-					dangerouslySetInnerHTML={{
-						__html: `(function(w,d,s,l,i){
-									w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
-									var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-									j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-									f.parentNode.insertBefore(j,f);
-								})(window,document,'script','dataLayer','GTM-KBTD3M2M');
-								`,
-					}}
-				></Script> */}
-				{/* End Google Tag Manager */}
-
 				{/* Google Analytics (gtag.js) */}
 				<Script
 					strategy="afterInteractive"
@@ -38,9 +22,9 @@ export default function Document() {
 					}}
 				></Script>
 				{/* End Google Analytics (gtag.js) */}
-				
+
 				{/* Schema Markup */}
-				<Script
+				<script
 					id="schema-markup"
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{
@@ -56,18 +40,10 @@ export default function Document() {
 									}
 									}`,
 					}}
-				></Script>
+				></script>
 				{/* End Schema Markup */}
 			</Head>
 			<body>
-				{/* Google Tag Manager (noscript) */}
-				<noscript
-					dangerouslySetInnerHTML={{
-						__html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBTD3M2M" height="0" width="0" style="display: none; visibility: hidden;" />`,
-					}}
-				/>
-
-				{/* End Google Tag Manager (noscript) */}
 				<Main />
 				<NextScript />
 			</body>
