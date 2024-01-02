@@ -23,7 +23,6 @@ export default function Document() {
                             }
                             gtag('js', new Date());
                             gtag('config', 'G-ZPKWXDBMEZ');
-                            console.log('Google Analytics script loaded');
                         `,
 					}}
 				></Script>
