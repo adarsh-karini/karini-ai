@@ -8,10 +8,12 @@ export default function Document() {
 				<link rel="icon" type="image/x-icon" href="/favicon.png" />
 				{/* Google Analytics (gtag.js) */}
 				<Script
+					id="google-analytics"
 					strategy="afterInteractive"
 					src="https://www.googletagmanager.com/gtag/js?id=G-ZPKWXDBMEZ"
 				></Script>
 				<Script
+					id="ga"
 					strategy="afterInteractive"
 					dangerouslySetInnerHTML={{
 						__html: `window.dataLayer = window.dataLayer || [];
