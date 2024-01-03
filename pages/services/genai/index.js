@@ -6,6 +6,7 @@ import WhyChooseUs from "@/components/services/genai/WhyChooseUs";
 import CustomerStories from "@/components/services/genai/CustomerStories";
 import { Inter, Poppins } from "next/font/google";
 import Head from "next/head";
+import CTA from "@/components/cta/CTA";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -36,6 +37,7 @@ const genai = () => {
         {/* <WhyChooseUs /> */}
         <CustomerStories />
         <OurClients />
+		<CTA />
       </div>
     </>
   );

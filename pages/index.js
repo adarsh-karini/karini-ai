@@ -7,6 +7,7 @@ import OurPlatforms from "@/components/home/OurPlatforms";
 import ClientReviews from "@/components/home/ClientReviews";
 import FAQ from "@/components/home/FAQ";
 import Head from "next/head";
+import CTA from "@/components/cta/CTA";
 
 const inter = Inter({ subsets: ["latin"] });
 const openSans = Open_Sans({
@@ -51,6 +52,7 @@ const index = () => {
 				<WhyKarini />
 				<OurPlatforms />
 				<OurServices />
+				<CTA />
 				{/* <ClientReviews /> */}
 				{/* <FAQ /> */}
 			</div>

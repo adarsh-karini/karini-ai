@@ -47,6 +47,19 @@ export default function Document() {
 					}}
 				></script>
 				{/* End Schema Markup */}
+				<script
+					id="semrush"
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: `(function() {
+							var script = document.createElement('script');
+							script.id = 'ceb3c41b-43bf-4f05-bfe7-5f164276f462';
+							script.type = 'module';
+							script.src = 'https://pageimprove.io';
+							document.head.appendChild(script);
+						})();`,
+					}}
+				></script>
 			</Head>
 			<body>
 				<Main />

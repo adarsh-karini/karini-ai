@@ -6,6 +6,7 @@ import WhyChooseUs from "@/components/services/ml/WhyChooseUs";
 import OurClients from "@/components/services/ml/OurClients";
 import { Inter, Poppins } from "next/font/google";
 import Head from "next/head";
+import CTA from "@/components/cta/CTA";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -35,6 +36,7 @@ const ml = () => {
         <OurServices />
         <CustomerStories />
         <OurClients />
+		<CTA />
       </div>
     </>
   );

@@ -1,3 +1,4 @@
+import CTA from "@/components/cta/CTA";
 import Hero from "@/components/platforms/Hero";
 import HowItWorks from "@/components/platforms/HowItWorks";
 import Platforms from "@/components/platforms/Platforms";
@@ -30,6 +31,7 @@ const platforms = () => {
         <Hero />
         <Platforms />
         <HowItWorks />
+		<CTA />
       </div>
     </>
   );
