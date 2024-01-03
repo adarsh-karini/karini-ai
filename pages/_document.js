@@ -52,12 +52,19 @@ export default function Document() {
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{
 						__html: `(function() {
-							var script = document.createElement('script');
-							script.id = 'ceb3c41b-43bf-4f05-bfe7-5f164276f462';
-							script.type = 'module';
-							script.src = 'https://pageimprove.io';
-							document.head.appendChild(script);
-						})();`,
+								window.SM_PAGEIMPROVE = window.SM_PAGEIMPROVE || {ready: false}
+								window.addEventListener(
+								'pageimprove.initialized', 
+								function() {
+									window.SM_PAGEIMPROVE.ready = true
+								}
+								)
+								var script = document.createElement('script')
+								script.id = 'ceb3c41b-43bf-4f05-bfe7-5f164276f462'
+								script.src = 'https://pageimprove.io/react'
+								script.type = 'module'
+								document.head.appendChild(script)
+							})();`,
 					}}
 				></script>
 			</Head>
