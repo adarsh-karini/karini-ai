@@ -47,26 +47,6 @@ export default function Document() {
 					}}
 				></script>
 				{/* End Schema Markup */}
-				<script
-					id="semrush"
-					type="application/ld+json"
-					dangerouslySetInnerHTML={{
-						__html: `(function() {
-								window.SM_PAGEIMPROVE = window.SM_PAGEIMPROVE || {ready: false}
-								window.addEventListener(
-								'pageimprove.initialized', 
-								function() {
-									window.SM_PAGEIMPROVE.ready = true
-								}
-								)
-								var script = document.createElement('script')
-								script.id = 'ceb3c41b-43bf-4f05-bfe7-5f164276f462'
-								script.src = 'https://pageimprove.io/react'
-								script.type = 'module'
-								document.head.appendChild(script)
-							})();`,
-					}}
-				></script>
 			</Head>
 			<body>
 				<Main />
