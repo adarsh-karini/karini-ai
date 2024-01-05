@@ -87,7 +87,7 @@ const Blog = () => {
 				{/* End Schema Markup */}
 			</Head>
 			<div
-				className={`${poppins.variable} ${inter.className} bg-white subpixel-antialiased`}
+				className={`${poppins.variable} font-sans subpixel-antialiased bg-white subpixel-antialiased`}
 			>
 				{/* <BreadCrumb title={blogData?.title} /> */}
 				{/* <SectionOne blogData={blogData} /> */}

@@ -28,7 +28,7 @@ const blog = () => {
 
 				<link rel="canonical" href="https://www.karini.ai/blogs" />
 			</Head>
-			<div className={`${inter.className} bg-white`}>
+			<div className={`font-sans subpixel-antialiased bg-white`}>
 				<Hero />
 				<Blogs />
 				<section className="bg-white relative">

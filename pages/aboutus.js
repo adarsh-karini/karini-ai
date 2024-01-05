@@ -34,7 +34,9 @@ const aboutus = () => {
 
 				<link rel="canonical" href="https://www.karini.ai/aboutus" />
 			</Head>
-			<div className={`${poppins.variable} ${inter.className} bg-white`}>
+			<div
+				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
+			>
 				<Hero />
 				{/* <Stats /> */}
 				{/* <WhoWeAre /> */}

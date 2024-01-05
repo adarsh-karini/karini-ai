@@ -61,7 +61,9 @@ const Joinwaitlist = () => {
 					content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly"
 				/>
 			</Head>
-			<div className={`${poppins.variable} ${inter.className} bg-white`}>
+			<div
+				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
+			>
 				<section className="bg-dark px-4 xl:px-0 overflow-hidden">
 					<div className="max-w-screen-lg mx-auto space-y-8">
 						<div className="h-[70vh] w-full flex justify-center items-center">

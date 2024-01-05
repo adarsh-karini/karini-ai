@@ -45,7 +45,7 @@ const index = () => {
 				<link rel="canonical" href="https://www.karini.ai/" />
 			</Head>
 			<div
-				className={`${poppins.variable} ${inter.className} bg-white subpixel-antialiased`}
+				className={`${poppins.variable} font-sans subpixel-antialiased bg-white subpixel-antialiased`}
 			>
 				<Hero />
 				<OurClients />

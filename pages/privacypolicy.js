@@ -29,7 +29,9 @@ const privacypolicy = () => {
 					content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly"
 				/>
 			</Head>
-			<div className={`${poppins.variable} ${inter.className} bg-white`}>
+			<div
+				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
+			>
 				<div className="max-w-screen-xl mx-auto space-y-4 py-10 px-4 lg:px-0">
 					<h1 className="text-primary-600 text-center text-2xl lg:text-4xl font-bold">
 						Privacy Policy
@@ -261,9 +263,9 @@ const privacypolicy = () => {
 							this privacy statement, please contact us electronically or via
 							postal mail at the addresses provided below, and we will use
 							commercially reasonable efforts to promptly determine and remedy
-							the problem. To make such a request, please send an email to help{" "} 
+							the problem. To make such a request, please send an email to help{" "}
 							<a className="text-primary-600" href="mailto:sales@karin.ai">
-								 sales@karin.ai
+								sales@karin.ai
 							</a>{" "}
 							or write us at Karini AI LLC, 2300 Lakeview Parkway, Suite 700,
 							Alpharetta, Georgia, 30009.
@@ -288,7 +290,9 @@ const privacypolicy = () => {
 					content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly"
 				/>
 			</Head>
-			<div className={`${poppins.variable} ${inter.className} bg-white`}>
+			<div
+				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
+			>
 				<div className="max-w-screen-lg mx-auto space-y-4 py-10 px-4 lg:px-0">
 					<h1 className="text-primary-600 text-center text-2xl lg:text-4xl font-bold">
 						Privacy Policy

@@ -24,7 +24,7 @@ const contactus = () => {
 
 				<link rel="canonical" href="https://www.karini.ai/contactus" />
 			</Head>
-			<div className={`${inter.className} bg-white`}>
+			<div className={`font-sans subpixel-antialiased bg-white`}>
 				<Hero />
 				<ContactForm />
 				{/* <OurOffices /> */}
@@ -41,7 +41,7 @@ const contactus = () => {
 							</div>
 						</div>
 					</div>
-				</section> 
+				</section>
 			</div>
 		</>
 	);

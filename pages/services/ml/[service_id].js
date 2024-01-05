@@ -10,35 +10,37 @@ import BreadCrumb from "@/components/services/ml/service_details/BreadCrumb";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-poppins",
-  subsets: ["devanagari"],
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+	variable: "--font-poppins",
+	subsets: ["devanagari"],
 });
 
 const Service = () => {
-  const router = useRouter();
-  const { service_id } = router.query;
+	const router = useRouter();
+	const { service_id } = router.query;
 
-  const [service, setService] = useState();
+	const [service, setService] = useState();
 
-  const getServiceData = (id) => {
-    const result = mlServicesData?.filter((service) => service.id === id);
-    console.log("hi44", result);
-    setService(result[0]);
-  };
+	const getServiceData = (id) => {
+		const result = mlServicesData?.filter((service) => service.id === id);
+		console.log("hi44", result);
+		setService(result[0]);
+	};
 
-  useEffect(() => {
-    getServiceData(service_id);
-  }, [service_id]);
+	useEffect(() => {
+		getServiceData(service_id);
+	}, [service_id]);
 
-  return (
-    <div className={`${poppins.variable} ${inter.className} bg-white`}>
-      <BreadCrumb title={service?.title} />
-      <Hero title={service?.title} overview={service?.overview} />
-      <KeyPoints keyPoints={service?.keyPoints} />
-      <SectionOne SectionOne={service?.sectionOne} />
-    </div>
-  );
+	return (
+		<div
+			className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
+		>
+			<BreadCrumb title={service?.title} />
+			<Hero title={service?.title} overview={service?.overview} />
+			<KeyPoints keyPoints={service?.keyPoints} />
+			<SectionOne SectionOne={service?.sectionOne} />
+		</div>
+	);
 };
 
 export default Service;

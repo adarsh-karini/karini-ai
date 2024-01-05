@@ -10,36 +10,43 @@ import CTA from "@/components/cta/CTA";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-poppins",
-  subsets: ["devanagari"],
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+	variable: "--font-poppins",
+	subsets: ["devanagari"],
 });
 
 const ml = () => {
-  return (
-    <>
-      <Head>
-        <title>MLOps Services: Partnering for Enterprise Excellence</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="utf-8" />
-        <meta name="description" content="Former Amazon ML builders bring deep expertise in ML, Computer Vision, and NLP. Your partner to establish MLOps seamlessly across the enterprise." />
-        <meta name="keywords" content="Computer Vision,CV,NLP,Machine Learning,HuggingFace,MLOPS,SageMaker,VertexAI,Bedrock,Databricks,Dolly" /> 
-		
-		<meta name="robots" content="index,follow" />
+	return (
+		<>
+			<Head>
+				<title>MLOps Services: Partnering for Enterprise Excellence</title>
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta charSet="utf-8" />
+				<meta
+					name="description"
+					content="Former Amazon ML builders bring deep expertise in ML, Computer Vision, and NLP. Your partner to establish MLOps seamlessly across the enterprise."
+				/>
+				<meta
+					name="keywords"
+					content="Computer Vision,CV,NLP,Machine Learning,HuggingFace,MLOPS,SageMaker,VertexAI,Bedrock,Databricks,Dolly"
+				/>
 
-		<link rel="canonical" href="https://www.karini.ai/services/ml" />
+				<meta name="robots" content="index,follow" />
 
-	  </Head>
-      <div className={`${poppins.variable} ${inter.className} bg-white`}>
-        <Hero />
-        <Challenges />
-        <OurServices />
-        <CustomerStories />
-        <OurClients />
-		<CTA />
-      </div>
-    </>
-  );
+				<link rel="canonical" href="https://www.karini.ai/services/ml" />
+			</Head>
+			<div
+				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
+			>
+				<Hero />
+				<Challenges />
+				<OurServices />
+				<CustomerStories />
+				<OurClients />
+				<CTA />
+			</div>
+		</>
+	);
 };
 
 export default ml;

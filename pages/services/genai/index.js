@@ -10,37 +10,44 @@ import CTA from "@/components/cta/CTA";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-poppins",
-  subsets: ["devanagari"],
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+	variable: "--font-poppins",
+	subsets: ["devanagari"],
 });
 
 const genai = () => {
-  return (
-    <>
-      <Head>
-        <title>Generative AI Services: Your Partner in Innovation</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="utf-8" />
-        <meta name="description" content="Legitimate your initiative with AI Builders. Keep up with the latest in generative AI trends. Our platform, guided by domain experts, rapidly transforms ideas into products." />
-        <meta name="keywords" content="OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,Azure OpenAI,LLM,HuggingFace,LLMOps,Databricks,Dolly" /> 
-		
-		<meta name="robots" content="index,follow" />
+	return (
+		<>
+			<Head>
+				<title>Generative AI Services: Your Partner in Innovation</title>
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta charSet="utf-8" />
+				<meta
+					name="description"
+					content="Legitimate your initiative with AI Builders. Keep up with the latest in generative AI trends. Our platform, guided by domain experts, rapidly transforms ideas into products."
+				/>
+				<meta
+					name="keywords"
+					content="OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,Azure OpenAI,LLM,HuggingFace,LLMOps,Databricks,Dolly"
+				/>
 
-		<link rel="canonical" href="https://www.karini.ai/services/genai" />
+				<meta name="robots" content="index,follow" />
 
-	  </Head>
-      <div className={`${poppins.variable} ${inter.className} bg-white`}>
-        <Hero />
-        <Challenges />
-        <OurServices />
-        {/* <WhyChooseUs /> */}
-        <CustomerStories />
-        <OurClients />
-		<CTA />
-      </div>
-    </>
-  );
+				<link rel="canonical" href="https://www.karini.ai/services/genai" />
+			</Head>
+			<div
+				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
+			>
+				<Hero />
+				<Challenges />
+				<OurServices />
+				{/* <WhyChooseUs /> */}
+				<CustomerStories />
+				<OurClients />
+				<CTA />
+			</div>
+		</>
+	);
 };
 
 export default genai;

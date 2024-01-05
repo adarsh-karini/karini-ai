@@ -26,7 +26,9 @@ const termsofuse = () => {
 					content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly"
 				/>
 			</Head>
-			<div className={`${poppins.variable} ${inter.className} bg-white`}>
+			<div
+				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
+			>
 				<div className="max-w-screen-lg mx-auto space-y-8 py-10 px-4 lg:px-0">
 					<h1 className="text-primary-600 text-center text-2xl lg:text-4xl font-bold">
 						Terms of use

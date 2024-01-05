@@ -10,39 +10,41 @@ import React, { useEffect, useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-poppins",
-  subsets: ["devanagari"],
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+	variable: "--font-poppins",
+	subsets: ["devanagari"],
 });
 
 const Job = () => {
-  const router = useRouter();
-  const { job_id } = router.query;
+	const router = useRouter();
+	const { job_id } = router.query;
 
-  const [jobData, setJobData] = useState();
+	const [jobData, setJobData] = useState();
 
-  const getJobData = (id) => {
-    const jobId = Number(id);
-    const result = careerDetailsData?.filter((job) => job.id === jobId);
-    setJobData(result[0]);
-  };
+	const getJobData = (id) => {
+		const jobId = Number(id);
+		const result = careerDetailsData?.filter((job) => job.id === jobId);
+		setJobData(result[0]);
+	};
 
-  useEffect(() => {
-    getJobData(job_id);
-  }, [job_id]);
-  return (
-    <>
-      <Head>
-        <title>Apply | {jobData?.title} | Karini AI</title>
-      </Head>
-      <div className={`${poppins.variable} ${inter.className} bg-white`}>
-        <BreadCrumb title={jobData?.title} />
-        <Hero jobData={jobData} />
-        <JobDetails jobData={jobData} />
-        <Apply jobTitle={jobData?.title} />
-      </div>
-    </>
-  );
+	useEffect(() => {
+		getJobData(job_id);
+	}, [job_id]);
+	return (
+		<>
+			<Head>
+				<title>Apply | {jobData?.title} | Karini AI</title>
+			</Head>
+			<div
+				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
+			>
+				<BreadCrumb title={jobData?.title} />
+				<Hero jobData={jobData} />
+				<JobDetails jobData={jobData} />
+				<Apply jobTitle={jobData?.title} />
+			</div>
+		</>
+	);
 };
 
 export default Job;
