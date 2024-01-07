@@ -22,7 +22,7 @@ const Hero = () => {
                 Karini AI Powers Evolution in Generative AI
                 </h1>
                 <p className="text-center text-gray-200 text-sm sm:text-base">
-                Experience the unstoppable evolution of generative AI with Karini AI! Fueled by innovation, we're making the dream of robust Generative AI systems a reality. No longer confined to specialists, Karini AI empowers non-experts to participate actively in creating and evaluating generative AI applications. As the world's first platform democratizing Generative AI, we enable business people to bring their ideas to life, following rules with governance, security, and business-level controls – all in one revolutionary platform.
+                Experience the unstoppable evolution of generative AI with Karini AI! Fueled by innovation, we&apos;re making the dream of robust Generative AI systems a reality. No longer confined to specialists, Karini AI empowers non-experts to participate actively in creating and evaluating generative AI applications. As the world's first platform democratizing Generative AI, we enable business people to bring their ideas to life, following rules with governance, security, and business-level controls – all in one revolutionary platform.
                 </p>
               </div>
               {/* <div className="flex space-x-4">
