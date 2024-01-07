@@ -175,16 +175,16 @@ const SectionOne = ({ blogData }) => {
 								Introducing Generative AI Platform for all
 							</h2>
 							<p className="text-base text-secondary-700">
-								Karini AI presents &quot;Generative AI platform&quot;, designed to
-								revolutionize enterprise operations by integrating proprietary
-								data with advanced language models, effectively creating a
-								digital co-pilot for every user. Karini simplifies the process,
-								offering intuitive Gen AI templates that allow rapid application
-								development. The platform offers an array of data processing
-								tools and adheres to LLMOps practices for deploying Models,
-								Data, and Copilots. It also provides customization options and
-								incorporates continuous feedback mechanisms to enhance the
-								quality of RAG implementations.
+								Karini AI presents &quot;Generative AI platform&quot;, designed
+								to revolutionize enterprise operations by integrating
+								proprietary data with advanced language models, effectively
+								creating a digital co-pilot for every user. Karini simplifies
+								the process, offering intuitive Gen AI templates that allow
+								rapid application development. The platform offers an array of
+								data processing tools and adheres to LLMOps practices for
+								deploying Models, Data, and Copilots. It also provides
+								customization options and incorporates continuous feedback
+								mechanisms to enhance the quality of RAG implementations.
 							</p>
 						</div>
 						<div className="flex justify-center">
@@ -199,10 +199,10 @@ const SectionOne = ({ blogData }) => {
 						<div className="space-y-1">
 							<h2 className="text-lg text-black font-medium">Conclusion</h2>
 							<p className="text-base text-secondary-700">
-								Karini AI accelerates experimentation, expedite
-								market delivery, and bridge the generative AI adoption gap,
-								enabling businesses to harness the full potential of this
-								groundbreaking technology. Try out the platform by quick{" "}
+								Karini AI accelerates experimentation, expedite market delivery,
+								and bridge the generative AI adoption gap, enabling businesses
+								to harness the full potential of this groundbreaking technology.
+								Try out the platform by quick{" "}
 								<a
 									className="text-blue-500 hover:underline"
 									target="_blank"
@@ -212,7 +212,7 @@ const SectionOne = ({ blogData }) => {
 								</a>
 							</p>
 						</div>
-						<div className="space-y-1 border p-5 rounded">
+						<div className="bg-gradient-to-br from-primary-50 to-white space-y-1 border p-5 rounded">
 							<p className="text-lg text-black font-medium">About the Author</p>
 							<p className="text-base text-secondary-700">
 								<a

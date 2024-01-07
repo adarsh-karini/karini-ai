@@ -7,6 +7,7 @@ import { blogDetailsData } from "@/content/blogs/blogDetailsData";
 import BlogPage from "@/components/blogs/blog_details/BlogPage";
 import Head from "next/head";
 import Script from "next/script";
+import CTA from "@/components/cta/CTA";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -93,6 +94,7 @@ const Blog = () => {
 				{/* <SectionOne blogData={blogData} /> */}
 				<BreadCrumb title={"Industrialize Generative AI"} />
 				<BlogPage />
+				<CTA />
 			</div>
 		</>
 	);
