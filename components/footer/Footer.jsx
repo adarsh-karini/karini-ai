@@ -16,7 +16,7 @@ const Footer = () => {
 							<Logo width={100} height={30} />
 						</Link>
 						<p className="text-secondary-600 text-sm font-medium leading-relaxed">
-							Make Intelligent decisions with Generative AI.
+						Power Evolution in Generative AI.
 						</p>
 					</div>
 					<div className="md:w-3/5">

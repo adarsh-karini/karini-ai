@@ -28,16 +28,16 @@ const index = () => {
 	return (
 		<>
 			<Head>
-				<title>Karini AI | Streamline Your Business with Generative AI</title>
+				<title>Karini AI Powers Evolution in Generative AI</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Streamline your business with Karini AI's generative AI technology. Get pre-built Generative AI Recipes for summarization, classification, and conversational AI, low-code integration, and built-in human feedback. Join our waitlist now."
+					content="Karini AI Powers Evolution in Generative AI"
 				/>
 				<meta
 					name="keywords"
-					content="OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,Azure OpenAI,LLM,HuggingFace,LLMOps,Databricks,Dolly"
+					content="OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,Azure OpenAI,LLM,HuggingFace,LLMOps,Databricks,Llama2"
 				/>
 
 				<meta name="robots" content="index,follow" />

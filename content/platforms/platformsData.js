@@ -38,7 +38,7 @@ export const platformsData = [
     ],
   },
   {
-    title: "Dataset Management",
+    title: "Dataset Preprocessing",
     overview:
       "Centrally manage your data assets such as text, images, audio, and video along with business metadata. Use semantic search capabilities to find relevant content.",
     points: [

@@ -1,39 +1,39 @@
 export const whyKariniData = [
   {
     icon: "BsSpeedometer",
-    title: "Build Gen AI Workflows 10x faster",
+    title: "Faster Time to Market",
     overview:
-      "Pre-built Generative AI Recipes for summarization, classification and conversational AI.",
+      "Accelerate the launch of generative AI applications, managing them effectively in a matter of minutes.",
   },
 
   {
     icon: "TiFlowSwitch",
-    title: "Security & Governance",
+    title: "Robust Security Compliance",
     overview:
-      "Redact confidential and PII information from your data. Integrate authorization to protect your data assets. Track all your prompts and responses to understand popular questions and trends.",
+      "Adheres to strict enterprise security standards, ensuring a secure digital environment",
   },
   {
     icon: "BsBarChartLineFill",
-    title: "Low Code Integration",
+    title: "Enhanced Data Privacy",
     overview:
-      "Faster setup using quickstart templates. Native integration with Amazon Bedrock, Azure OpenAI, Google Palm, Anthropic, Cohere, Databricks, HuggingFace, and Amazon SageMaker.",
+      "Guarantees the utmost privacy, preventing any data breaches and safeguarding sensitive information",
   },
   {
     icon: "BsSpeedometer",
-    title: "Built-in Human Feedback",
+    title: "Trustworthiness and Brand Safety",
     overview:
-      "Capture human feedback with built-in rating ranking. Capture ground truth labels to improve your Models.",
+      "Builds confidence among users and safeguards your brand's reputation from potential risks.",
   },
   {
     icon: "TiFlowSwitch",
-    title: "Accelerators",
+    title: "Monitor Usage and Performance",
     overview:
-      "Solutions accelerators for documentation Q&A, Customer Service Chatbots, Promotion Generation, Code Generation, and Document summarization.",
+      "Offers centralized dashboards to efficiently oversee usage, performance and monitor cost of generative AI initiatives.",
   },
   {
     icon: "BsBarChartLineFill",
-    title: "Use our AI Experts",
+    title: "Future-Proofing Against Rapid Tech Changes",
     overview:
-      "Our experts can work with your business and technology leaders to plan and execute Generative AI strategy. Finetune or pre-train domain-specific Generative Models to reduce cost and improve quality.",
+      "Reduces the burden of technical obsolescence, ensuring adaptability in a fast-evolving tech landscape.",
   },
 ];
