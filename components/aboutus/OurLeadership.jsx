@@ -14,16 +14,19 @@ const OurLeadership = () => {
 				<h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
 					Our Leadership
 				</h2>
-				<div className="grid sm:grid-cols-2 gap-10">
+				<div className="grid sm:grid-cols-1 gap-10">
 					{ourLeadershipData.map((data, index) => (
-						<div key={index} className="relative z-10 flex flex-col space-y-6">
-							<div className=" flex flex-col justify-center items-center space-y-4">
+						<div
+							key={index}
+							className="relative z-10 flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-4"
+						>
+							<div className="md:w-1/4 flex flex-col items-center space-y-4">
 								<Image
 									src={data.image}
 									alt="team member image"
 									width={100}
 									height={100}
-									className="h-40 object-cover rounded-full shadow-xl object-center"
+									className="h-32 w-32 rounded-full shadow-xl object-cover" // object-contain object-cover object-fill object-none object-scale-down
 									priority={true}
 									quality={100}
 								/>
@@ -46,7 +49,7 @@ const OurLeadership = () => {
 									</div>
 								</div>
 							</div>
-							<div className=" flex flex-col justify-between space-y-4 sm:space-y-8">
+							<div className="md:w-3/4">
 								<p className="text-secondary-700 text-sm text-justify leading-6">
 									{data.summary}
 								</p>
