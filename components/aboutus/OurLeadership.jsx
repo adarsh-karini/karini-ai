@@ -3,75 +3,60 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { GiDiamondTrophy } from "react-icons/gi";
+import { ourLeadershipData } from "@/content/aboutus/OurLeadershipData";
 
 const OurLeadership = () => {
-  const iconColor = "#7c3aed";
+	const iconColor = "#7c3aed";
 
-  return (
-    <section className="bg-gradient-to-b from-primary-50 from-0% to-white to-100% px-4 md:px-0 py-20 overflow-hidden">
-      <div className="max-w-screen-md mx-auto space-y-10 md:space-y-16">
-        <h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
-          Our Leadership
-        </h2>
-        <div className="relative z-10 flex flex-col-reverse sm:flex-row sm:space-x-8 space-y-reverse space-y-6 sm:space-y-0">
-          <div className="-z-10 absolute -right-32 -bottom-20 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg">
-            <div className="p-20 m-8 bg-white rounded-full"></div>
-          </div>
-          <div className="sm:w-2/3 flex flex-col justify-between space-y-4 sm:space-y-8">
-            <p className="text-secondary-700 text-sm text-justify leading-6">
-              Deepali Rajale stands out as an AI aficionado with a remarkable
-              tenure as a Global Machine Learning Specialist at Amazon Web
-              Services. At AWS, she not only penned insightful blogs on Amazon
-              SageMaker but also became a notable figure in various AI circles.
-              She&apos;s been instrumental in propelling Fortune-100 companies
-              towards a seamless AI integration. Her passion has driven
-              substantial advancements in Generative AI, MLOps, and TCO for
-              Amazon Machine Learning and AI Services. Before her illustrious
-              journey with Amazon, Deepali spearheaded product engineering at
-              renowned firms like Paypal and Blue Yonder. Beyond her corporate
-              achievements, Deepali is a celebrated author, having penned
-              hundreds of soul-stirring poems in her native tongue, published a
-              book and is cherished by thousands on Facebook. She&apos;s also in
-              the midst of crafting a definitive book on MLOps on AWS.
-            </p>
-            <div className="flex space-x-4 items-center">
-              <a
-				 href="https://www.linkedin.com/in/deepali-rajale-958a267"
-					target="_blank"
-					rel="noopener noreferrer"
-				className="bg-primary-100 p-2 rounded-md cursor-pointer">
-                <IconSeven width={40} height={40} color={iconColor} />
-              </a>
-              <div>
-                <h3 className="text-black text-base md:text-lg font-semibold">
-                  Deepali Rajale
-                </h3>
-                <p className="text-secondary-600 text-sm font-semibold">
-                  Founder, karini.ai
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="sm:w-1/3 flex justify-center">
-            <Image
-              src={"/assets/images/team_members/deepali.jpg"}
-              alt="founder"
-              width={600}
-              height={600}
-              className="sm:h-auto w-auto object-cover rounded-md shadow-xl object-center"
-              priority={true}
-              quality={100}
-            />
-            {/* <img
-              src="/assets/images/team_members/deepali.jpg"
-              alt="co_founder"
-              className="h-52 sm:h-auto w-auto object-cover object-center rounded-md shadow-xl"
-            /> */}
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+	return (
+		<section className="bg-gradient-to-b from-primary-50 from-0% to-white to-100% px-4 md:px-0 py-20 overflow-hidden">
+			<div className="max-w-screen-md mx-auto space-y-10 md:space-y-16">
+				<h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
+					Our Leadership
+				</h2>
+				<div className="grid sm:grid-cols-2 gap-10">
+					{ourLeadershipData.map((data, index) => (
+						<div key={index} className="relative z-10 flex flex-col space-y-6">
+							<div className=" flex flex-col justify-center items-center space-y-4">
+								<Image
+									src={data.image}
+									alt="team member image"
+									width={100}
+									height={100}
+									className="h-40 object-cover rounded-full shadow-xl object-center"
+									priority={true}
+									quality={100}
+								/>
+								<div className="flex space-x-4 items-center">
+									<a
+										href={data.linkedIn}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="bg-primary-100 p-1 rounded-md cursor-pointer"
+									>
+										<IconSeven width={30} height={30} color={iconColor} />
+									</a>
+									<div>
+										<h3 className="text-black text-base font-semibold">
+											{data.name}
+										</h3>
+										<p className="text-secondary-600 text-sm font-semibold">
+											{data.position}
+										</p>
+									</div>
+								</div>
+							</div>
+							<div className=" flex flex-col justify-between space-y-4 sm:space-y-8">
+								<p className="text-secondary-700 text-sm text-justify leading-6">
+									{data.summary}
+								</p>
+							</div>
+						</div>
+					))}
+				</div>
+			</div>
+		</section>
+	);
 };
 
 export default OurLeadership;

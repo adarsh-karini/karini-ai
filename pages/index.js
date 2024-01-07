@@ -8,6 +8,8 @@ import ClientReviews from "@/components/home/ClientReviews";
 import FAQ from "@/components/home/FAQ";
 import Head from "next/head";
 import CTA from "@/components/cta/CTA";
+import WhyKarini2 from "@/components/home/WhyKarini2";
+import OurClients2 from "@/components/home/OurClients2";
 
 const inter = Inter({ subsets: ["latin"] });
 const openSans = Open_Sans({
@@ -45,11 +47,13 @@ const index = () => {
 				<link rel="canonical" href="https://www.karini.ai/" />
 			</Head>
 			<div
-				className={`${poppins.variable} font-sans subpixel-antialiased bg-white subpixel-antialiased`}
+				className={`${poppins.variable} font-sans bg-white subpixel-antialiased`}
 			>
 				<Hero />
-				<OurClients />
-				<WhyKarini />
+				<WhyKarini2 />
+				<OurClients2 />
+				{/* <OurClients />
+				<WhyKarini /> */}
 				<OurPlatforms />
 				<OurServices />
 				<CTA />
