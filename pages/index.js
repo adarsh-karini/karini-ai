@@ -8,8 +8,6 @@ import ClientReviews from "@/components/home/ClientReviews";
 import FAQ from "@/components/home/FAQ";
 import Head from "next/head";
 import CTA from "@/components/cta/CTA";
-import WhyKarini2 from "@/components/home/WhyKarini2";
-import OurClients2 from "@/components/home/OurClients2";
 
 const inter = Inter({ subsets: ["latin"] });
 const openSans = Open_Sans({
@@ -50,10 +48,8 @@ const index = () => {
 				className={`${poppins.variable} font-sans bg-white subpixel-antialiased`}
 			>
 				<Hero />
-				<WhyKarini2 />
-				<OurClients2 />
-				{/* <OurClients />
-				<WhyKarini /> */}
+				<WhyKarini />
+				<OurClients />
 				<OurPlatforms />
 				<OurServices />
 				<CTA />
