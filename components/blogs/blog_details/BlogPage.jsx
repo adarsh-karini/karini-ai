@@ -221,7 +221,7 @@ const SectionOne = ({ blogData }) => {
 										alt="blog author image"
 										width={100}
 										height={100}
-										className="h-20 w-20 rounded-full shadow-xl object-cover" // object-contain, object-cover, object-fill, object-none, object-scale-down
+										className="h-20 w-20 rounded-md shadow-xl object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
 										priority={true}
 										quality={100}
 									/>
