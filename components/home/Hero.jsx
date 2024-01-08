@@ -10,6 +10,7 @@ import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 // import "@splidejs/react-splide/css/core";
 // import "@splidejs/react-splide/css/skyblue";
 import "@splidejs/react-splide/css/sea-green";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Hero = () => {
 	const imagesData = [
@@ -29,12 +30,12 @@ const Hero = () => {
 			altText: "connect-to-saas-and-proprietary-models",
 		},
 		{
-			title: "Prompt Engineering Playground to Build and Compare LLM performance",
+			title: "Prompt Playground to compare LLM performance",
 			path: "/assets/images/platform/Prompt_Playground.png",
 			altText: "prompt-engineering",
 		},
 		{
-			title: "Low Code Recipes to build Generative AI Applications with few clicks",
+			title: "No Code Generative AI Recipes to Build Applications",
 			path: "/assets/images/platform/Recipe.png",
 			altText: "low-code-recipes",
 		},
@@ -44,7 +45,7 @@ const Hero = () => {
 			altText: "evaluate-rag",
 		},
 		{
-			title: "Export Copilot for Styling, Custom Greetings and Human Feedback Ratings",
+			title: "Cuatomize Copilot & Deploy",
 			path: "/assets/images/platform/Export.png",
 			altText: "export copilot",
 		},
@@ -70,7 +71,7 @@ const Hero = () => {
 								<div className="space-y-1 text-center md:text-left">
 									<div className="space-y-2">
 										<span className="md:ml-1 md:text-sm text-primary-100 border border-primary-600 px-2 py-1 rounded-full">
-										Powering Evolution in
+											Powering Evolution in
 										</span>
 										<h1 className="flex flex-col text-xl sm:text-2xl">
 											<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-700 to-primary-200 text-3xl md:text-4xl lg:text-5xl font-extrabold">
@@ -79,29 +80,25 @@ const Hero = () => {
 										</h1>
 									</div>
 									<p className="md:ml-1 text-white text-sm lg:text-base">
-									Build and manage production-grade generative AI applications with an easy-to-use visual interface for any use case. 
+										Build and manage production-grade generative AI applications
+										with an easy-to-use visual interface for any use case.
 									</p>
 								</div>
 								<div className="md:ml-1 w-full flex justify-center md:justify-start space-x-2">
 									<Link
 										href="https://app.karini.ai/chat"
 										target="_blank"
-										className=" flex items-center space-x-2 bg-primary-600 px-3 sm:px-4 py-2 text-xs font-medium text-white transition duration-100 md:text-sm rounded"
+										className=" flex items-center space-x-2 bg-primary-600 px-3 sm:px-4 py-2 text-sm md:text-base font-medium text-white transition duration-100 rounded"
 									>
 										<span>Try copilot</span>
 										<FiExternalLink size={20} className="text-white" />
 									</Link>
 									<Link
-										href="https://app.karini.ai/signup"
-										className=" flex space-x-2 bg-dark text-secondary-300 text-xs font-medium border border-secondary-400 px-3 sm:px-4 py-2 transition duration-100 md:text-sm rounded"
+										href="https://app.karini.ai/signin"
+										className=" flex items-center space-x-2 bg-white text-primary-600 text-xs md:text-base font-medium border border-secondary-400 px-3 sm:px-4 py-2 transition duration-100 rounded"
 									>
-										<span>Sign up</span>
-										<span
-											aria-hidden="true"
-											className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
-										>
-											&rarr;
-										</span>
+										<span>Log in</span>
+										<FaArrowRightLong size={20} />
 									</Link>
 								</div>
 							</div>
@@ -129,7 +126,7 @@ const Hero = () => {
 								{imagesData.map((val, index) => (
 									<SplideSlide key={index} className="">
 										<div className="space-y-1 h-full">
-											<p className="min-h-[5px] text-white text-sm font-semibold text-left">
+											<p className="min-h-[5px] text-white text-xs font-semibold text-left">
 												{val.title}
 											</p>
 											<Image

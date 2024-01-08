@@ -5,7 +5,7 @@ const SectionOne = ({ blogData }) => {
 	// console.log("iii", blogData);
 	return (
 		<section className="bg-white px-4 sm:px-10 py-10">
-			<div className="max-w-screen-sm mx-auto space-y-10">
+			<div className="max-w-screen-lg mx-auto space-y-10">
 				<div className="space-y-8">
 					<h1 className="text-black text-xl md:text-3xl font-semibold text-left">
 						{/* {blogData?.title} */}

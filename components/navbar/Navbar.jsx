@@ -94,11 +94,11 @@ const Navbar2 = () => {
               Join waitlist
             </Link> */}
 						<Link
-							href={"https://app.karini.ai/signup"}
+							href={"https://app.karini.ai/signin"}
 							target="_blank"
 							className="hidden lg:block bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white rounded"
 						>
-							Sign up
+							Log in
 						</Link>
 					</div>
 					<div className="lg:hidden">
@@ -258,10 +258,10 @@ const Navbar2 = () => {
 								<div className="flex p-4">
 									<Link
 										onClick={() => setMobileMenu((prev) => !prev)}
-										href={"https://app.karini.ai/signup"}
+										href={"https://app.karini.ai/signin"}
 										className="w-full rounded bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white"
 									>
-										Try now
+										Log in
 									</Link>
 								</div>
 							</div>

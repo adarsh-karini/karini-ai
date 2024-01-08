@@ -25,9 +25,9 @@ const contactus = () => {
 				<link rel="canonical" href="https://www.karini.ai/contactus" />
 			</Head>
 			<div className={`font-sans subpixel-antialiased bg-white`}>
-				<Hero />
+				{/* <Hero /> */}
 				<ContactForm />
-				{/* <OurOffices /> */}
+				<OurOffices />
 				<section className="bg-white relative">
 					<div className="bg-gradient-to-br from-primary-900 from-30% via-primary-700 to-primary-500 overflow-hidden z-10 relative">
 						<div className="-z-10 absolute -right-32 -top-16 bg-gradient-to-br from-primary-100 to-primary-500 rounded-full shadow-lg">
