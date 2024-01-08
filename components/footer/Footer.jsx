@@ -131,10 +131,10 @@ const Footer = () => {
 									<div className="flex items-center space-x-1">
 										<FaPhoneAlt size={17} className="text-primary-600" />
 										<a
-											href="tel:+(404) 891-0255"
+											href="tel:(404) 891-0255"
 											className="flex-1 text-secondary-700 text-sm font-medium"
 										>
-											+(404) 891-0255
+											(404) 891-0255
 										</a>
 									</div>
 									<div className="flex items-center space-x-1">
