@@ -159,7 +159,7 @@ const Footer = () => {
 				</div>
 				<div className="flex flex-col md:flex-row justify-between items-center gap-4 py-3 border-t border-secondary-400">
 					<p className="text-secondary-700 font-semibold text-sm">
-						© 2023{" "}
+						© 2023-2024{" "}
 						<Link
 							href={"https://www.karini.ai/"}
 							className="text-blue-500 hover:underline underline-offset-1"
