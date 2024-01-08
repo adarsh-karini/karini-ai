@@ -1,4 +1,4 @@
-import { contactUsData } from "@/content/contactus/ContactUsData";
+import { ourOfficesData } from "@/content/contactus/ourOfficesData";
 import React from "react";
 
 const OurOffices = () => {
@@ -20,7 +20,7 @@ const OurOffices = () => {
 						<div className="flex justify-center">
 							<div>
 								<div className="grid grid-cols-2 gap-4">
-									{contactUsData.map((data, index) => (
+									{ourOfficesData.map((data, index) => (
 										<div
 											key={index}
 											className="bg-white p-4 border rounded shadow space-y-2"
