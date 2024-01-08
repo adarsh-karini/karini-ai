@@ -15,9 +15,9 @@ const Platforms = () => {
 
   const platformsButtons = [
     "Generative AI Recipes",
-    "Dataset Management",
+    "Data Preparation",
     "Security & Governance",
-    "Quality Management",
+    "Improve Quality",
   ];
 
   const [selected, setSelected] = useState(platformsButtons[0]);

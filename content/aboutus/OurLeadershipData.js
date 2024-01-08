@@ -2,17 +2,17 @@ export const ourLeadershipData = [
 	{
 		image: "/assets/images/team_members/deepali.jpg",
 		name: "Deepali Rajale",
-		position: "Founder, karini.ai",
+		position: "Founder and CEO",
 		summary:
-			"Deepali Rajale stands out as an AI aficionado with a remarkable tenure as a Global Machine Learning Specialist at Amazon Web Services. At AWS, she not only penned insightful blogs on Amazon SageMaker but also became a notable figure in various AI circles. She's been instrumental in propelling Fortune-100 companies towards a seamless AI integration. Her passion has driven substantial advancements in Generative AI, MLOps, and TCO for Amazon Machine Learning and AI Services. Before her illustrious journey with Amazon, Deepali spearheaded product engineering at renowned firms like Paypal and Blue Yonder. Beyond her corporate achievements, Deepali is a celebrated author, having penned hundreds of soul-stirring poems in her native tongue, published a book and is cherished by thousands on Facebook. She's also in the midst of crafting a definitive book on MLOps on AWS.",
-		linkedIn: "https://www.linkedin.com/in/deepali-rajale-958a267",
+			"Deepali Rajale, our CEO and founder, is an accomplished AI enthusiast and global machine learning specialist who has made a significant impact during her remarkable tenure at Amazon Web Services. With expertise in Amazon SageMaker, she seamlessly integrates AI for Fortune-100 companies, advancing Generative AI, MLOps, and TCO. Deepali's illustrious career includes spearheading product engineering at renowned firms like Paypal and Blue Yonder. Beyond corporate success, she is a celebrated author crafting a definitive book on MLOps on AWS. Explore Deepali's extraordinary journey on her LinkedIn profile.",
+		linkedIn: "https://www.linkedin.com/in/deepali-rajale",
 	},
 	{
-		image: "/assets/images/team_members/co_founder.jpg",
-		name: "Tim Daniel",
-		position: "CTO, karini.ai",
+		image: "/assets/images/team_members/jerome.png",
+		name: "Jerome Mendell",
+		position: "Head of Sales and Marketing",
 		summary:
-			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, nostrum illo, voluptatum recusandae nesciunt dicta consequatur corrupti ea fugit, porro eos minima! Dignissimos enim incidunt ex unde ratione est adipisci recusandae eligendi, doloremque non fugit corrupti ea laborum. Possimus, molestias.",
-		linkedIn: "https://www.linkedin.com/",
+			"Jerome Mendell, our Chief Revenue Officer, is a seasoned software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus, he has a keen passion for artificial intelligence. Jerome has collaborated with leading technology providers serving Fortune 500 companies across various sectors, including BFS, CPG, MFG, and NGOs. He's launched, consulted, and advised many XaaS companies from ideation to revenue. His expertise is in aligning global channels and driving progress and innovation. Explore Jerome's remarkable career journey on his LinkedIn profile.",
+		linkedIn: "https://www.linkedin.com/in/jeromemendell/",
 	},
 ];

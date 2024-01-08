@@ -14,7 +14,7 @@ import "@splidejs/react-splide/css/sea-green";
 const Hero = () => {
 	const imagesData = [
 		{
-			title: "Dashboard",
+			title: "Centralized Visiblity and Usage Trends",
 			path: "/assets/images/platform/Dashboards.png",
 			altText: "dashboard",
 		},
@@ -24,32 +24,32 @@ const Hero = () => {
 			altText: "explore-copilot-hub",
 		},
 		{
-			title: "Connect to SAAS and Proprietary Models",
+			title: "Connect to SAAS Models or Open Source Models",
 			path: "/assets/images/platform/Model_Hub.png",
 			altText: "connect-to-saas-and-proprietary-models",
 		},
 		{
-			title: "Prompt Engineering",
+			title: "Prompt Engineering Playground to Build and Compare LLM performance",
 			path: "/assets/images/platform/Prompt_Playground.png",
 			altText: "prompt-engineering",
 		},
 		{
-			title: "Low Code Recipes",
+			title: "Low Code Recipes to build Generative AI Applications with few clicks",
 			path: "/assets/images/platform/Recipe.png",
 			altText: "low-code-recipes",
 		},
 		{
-			title: "Evaluate RAG",
+			title: "Evaluate RAG using Ground Truth Labels",
 			path: "/assets/images/platform/RAG_Evaluation.png",
 			altText: "evaluate-rag",
 		},
 		{
-			title: "Export Copilot",
+			title: "Export Copilot for Styling, Custom Greetings and Human Feedback Ratings",
 			path: "/assets/images/platform/Export.png",
 			altText: "export copilot",
 		},
 		{
-			title: "Integrate Copilot with your application",
+			title: "Integrate Copilot with your Application",
 			path: "/assets/images/platform/Copilot.png",
 			altText: "intergrate-chatbot-with-your-applications",
 		},
@@ -70,7 +70,7 @@ const Hero = () => {
 								<div className="space-y-1 text-center md:text-left">
 									<div className="space-y-2">
 										<span className="md:ml-1 md:text-sm text-primary-100 border border-primary-600 px-2 py-1 rounded-full">
-											Data to Business Insights using
+										Powering Evolution in
 										</span>
 										<h1 className="flex flex-col text-xl sm:text-2xl">
 											<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-700 to-primary-200 text-3xl md:text-4xl lg:text-5xl font-extrabold">
@@ -79,7 +79,7 @@ const Hero = () => {
 										</h1>
 									</div>
 									<p className="md:ml-1 text-white text-sm lg:text-base">
-										Make your applications more intelligent 10x faster
+									Build and manage production-grade generative AI applications with an easy-to-use visual interface for any use case. 
 									</p>
 								</div>
 								<div className="md:ml-1 w-full flex justify-center md:justify-start space-x-2">

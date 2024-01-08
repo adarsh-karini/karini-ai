@@ -1,30 +1,30 @@
 export const OurPlatformsData = [
   {
-    title: "Generative AI Recipes",
+    title: "Rapid prototyping",
     icon: "BsRobot",
     overview:
-      "Explore the future of business applications with our innovative prebuilt Generative AI Recipes to take your ideas to production in a few clicks.",
+      "Offers intuitive, no-code solutions with a comprehensive range of connectors and advanced language models. This enables rapid development and deployment of generative AI applications",
     path: "/platforms",
   },
   {
-    title: "Dataset Management",
+    title: "Enhanced Quality",
     icon: "FaCircleNodes",
     overview:
-      "Centrally manage your data assets such as text, images, audio, and video along with business metadata and use semantic search capabilities to find relevant content.",
+      "Features a prompt playground for model comparison, prompt inspection for greater transparency, and language model evaluation tools. Includes a unique method of comparing machine-generated responses with human annotations and user feedback for continuous improvement",
     path: "/platforms",
   },
   {
-    title: "Security & Governance",
+    title: "Versatile Applications",
     icon: "TbBoxModel",
     overview:
-      "Built-in access controls and fine-grained authorization to ensure only authorized users can access data assets and derived insights.",
+      "Supports various applications, including conversational interfaces, content summarization, data classification, and code interpretation, catering to diverse business needs.",
     path: "/platforms",
   },
   {
-    title: "Quality Management",
+    title: "Trust and Safety",
     icon: "BsCloudFog2",
     overview:
-      "Generative AI is powerful but still in its early days; hence, it requires continuous monitoring to improve its efficiency over time. Karini AI provides capabilities to monitor responses, baseline quality, and use your favorite platforms to improve models.",
+      "Implements advanced filters to minimize irrelevant content, prevent the dissemination of harmful material, and incorporates citation features to enhance the reliability of information.",
     path: "/platforms",
   },
 ];

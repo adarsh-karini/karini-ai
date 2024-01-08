@@ -24,7 +24,7 @@ const aboutus = () => {
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Data to Insights using Generative AI"
+					content="Power Evolution in Generative AI"
 				/>
 				<meta
 					name="keywords"
