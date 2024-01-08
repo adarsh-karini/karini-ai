@@ -28,12 +28,12 @@ const index = () => {
 	return (
 		<>
 			<Head>
-				<title>Karini AI Powers Evolution in Generative AI</title>
+				<title>Karini AI | Powering Evolution in Generative AI</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Karini AI Powers Evolution in Generative AI"
+					content="Karini AI Powering Evolution in Generative AI"
 				/>
 				<meta
 					name="keywords"

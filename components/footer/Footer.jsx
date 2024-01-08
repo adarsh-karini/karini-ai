@@ -19,7 +19,7 @@ const Footer = () => {
 				</div>
 				<div className="-z-10 absolute -left-32 -bottom-14 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg opacity-10"></div>
 				<div className="flex flex-col md:flex-row gap-10 lg:gap-20 py-10">
-					<div className="md:w-2/5 space-y-2">
+					<div className="md:w-1/5 lg:w-2/5 space-y-2">
 						<Link href={"/"}>
 							<Logo width={100} height={30} />
 						</Link>
@@ -39,8 +39,8 @@ const Footer = () => {
 							</Link>
 						</div>
 					</div>
-					<div className="md:w-3/5">
-						<div className="grid grid-cols-4 gap-4">
+					<div className="md:w-4/5 lg:w-3/5">
+						<div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
 							{/* <div className="space-y-2">
 								<Link href={"/platforms"}>
 									<p className="text-primary-600 font-semibold text-lg">
