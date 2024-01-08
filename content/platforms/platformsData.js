@@ -38,40 +38,40 @@ export const platformsData = [
     ],
   },
   {
-    title: "Dataset Preprocessing",
+    title: "Data Preparation",
     overview:
-      "Centrally manage your data assets such as text, images, audio, and video along with business metadata. Use semantic search capabilities to find relevant content.",
+      "Connect to your enterprise datasets using one of many built-in connectors to ingest  text, images, audios, or videos along with business metadata. Use one of the preprocessing technique to create embeddings for semantic search",
     points: [
       {
         icon: "BsRobot",
         title: "Built-in Data connectors",
         overview:
-          "Connect to one of your favorite data sources such as Slack,  Google Cloud Storage, Amazon S3, Dropbox and more.",
+          "Connect to one of your favorite data sources such as Amazon S3, Google Cloud Storage, Websites, Confluence and more.",
       },
       {
         icon: "FaCircleNodes",
         title: "Semantic Search",
         overview:
-          " Use native vector indexing using state of the art AI embedding models to perform powerful similarity search and clustering.",
+          "Use native vector indexing using state of the art AI embedding models of your choice to create powerful vector indexes for semantic search.",
       },
       {
         icon: "BsCloudFog2",
-        title: "Data Preprocessing",
+        title: "Data Pre-processing",
         overview:
-          "Native chunking,PII Redaction, OCR and custom pre-processing capabilities using your favorite runtimes.",
+          "Native chunking,PII Masking, complex OCR and custom pre-processing capabilities using your favorite runtimes such as Databicks, AWS Glue or Lambda",
       },
       {
         icon: "TbBoxModel",
         title: "Insights",
         overview:
-          "Perform analytics to understand trends, popularity and custom dashboards.",
+          "Built-in analytics to understand progress of your data praparation pipelines using operational dashboards.",
       },
     ],
   },
   {
     title: "Security & Governance",
     overview:
-      "Built-in access controls and fine-grained authorization to ensure only authorized users can access data assets and derived insights.",
+      "Enterprise security and Governance for secure credentials management, PII masking, data encryption and role based access controls(RBAC).",
     points: [
       {
         icon: "BsRobot",
@@ -88,19 +88,26 @@ export const platformsData = [
       {
         icon: "BsCloudFog2",
         title: "Cost Controls",
+        tag: "coming soon",
         overview:
           "Define your Generative AI project budget and get tips for optimizing future spending.",
       },
       {
         icon: "TbBoxModel",
+        title: "Safety Controls",
+        overview:
+          "Set up safety controls to reduce noise, block harmful content and inline relevant citations to provide evidence",
+      },
+      {
+        icon: "TbBoxModel",
         title: "Insights",
         overview:
-          "Track all your prompts and responses. Undestand popular items and user behaviors to define future products and experiences.",
+          "Understand users sessions, copilot history and human feedback trends to redact harmful content",
       },
     ],
   },
   {
-    title: "Quality Management",
+    title: "Improve Quality",
     overview:
       "Generative AI is powerful but still in its early days; hence, it requires continuous monitoring to improve its efficiency over time. Karini provides capabilities to monitor responses, baseline quality, and use your favorite platforms to improve models.",
     points: [
@@ -108,25 +115,26 @@ export const platformsData = [
         icon: "BsRobot",
         title: "Human Feedback",
         overview:
-          " Set up and use ranking, relevance, or attributions scale in your conversation interfaces to capture user feedback to identify outliers.",
+          "Set up and use ranking, relevance, or attributions scale in your conversation interfaces to capture user feedback to identify outliers.",
       },
       {
         icon: "FaCircleNodes",
-        title: "Prompt engineering",
+        title: "Prompt engineering playground",
         overview:
-          "Use your army of prompt engineers or one of the managed providers to gather ground truth to create training datasets.",
+          "Use prompt playground to start with one of the prompt templates, customize and perform prompt comparison using multiple models",
       },
       {
         icon: "BsCloudFog2",
         title: "Model Finetuning",
+        tag: "coming soon",
         overview:
-          "Use pre-built examples to perform model finetuning using Amazon SageMaker, Amazon Bedrock, Anyscale or Databricks Platform.",
+          "Use automated triggers to perform model finetuning using collected feedback leveragin your favourite platform such as Amazon SageMaker, Amazon Bedrock, Anyscale or Databricks.",
       },
       {
         icon: "TbBoxModel",
         title: "Evaluation",
         overview:
-          "Use curated human evaluation benchmarks to assess the efficiencies of your Retrieval Augmented Generation applications and eliminate hallucinations.",
+          "Use LLM as a Judge to compare your Retrieval Augmented Generation(RAG) applications against ground truth labels to understand accuarcy, completeness, comprehensiveness and eliminate hallucinations.",
       },
     ],
   },

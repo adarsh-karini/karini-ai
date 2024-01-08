@@ -70,7 +70,7 @@ const Hero = () => {
 								<div className="space-y-1 text-center md:text-left">
 									<div className="space-y-2">
 										<span className="md:ml-1 md:text-sm text-primary-100 border border-primary-600 px-2 py-1 rounded-full">
-										Power Evolution in Generative AI
+										Powering Evolution in
 										</span>
 										<h1 className="flex flex-col text-xl sm:text-2xl">
 											<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-700 to-primary-200 text-3xl md:text-4xl lg:text-5xl font-extrabold">

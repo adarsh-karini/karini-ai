@@ -15,12 +15,7 @@ const Hero = () => {
                 <span className="text-primary-600"> </span>
               </h1>
               <p className="text-center text-secondary-100 text-sm sm:text-base">
-                Simplifying the Power of Generative AI: Our mission is to
-                streamline the complex processes of AI for enterprises with our
-                no-code, low-code pipelines. Immerse in the wide spectrum of
-                Generative AI applications in language, image, and audio, while
-                quickly building and fine-tuning Large Language Model
-                applications with crowd-sourced wisdom.
+              Karini is pioneering the future of Generative AI, blending advanced language models with proprietary data to craft a digital co-pilot tailored for every user. Our platform streamlines the journey, offering user-friendly Gen AI templates for swift application development. Embrace the power of versatility with a suite of data processing tools, robust LLMOps practices for deploying Models, Data, and Copilots, and flexible customization options. Embedded with continuous feedback mechanisms, Karini ensures your Generative AI applications evolve and improve, driving innovation and excellence in the enterprise world.
               </p>
             </div>
           </div>
