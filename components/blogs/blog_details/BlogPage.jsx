@@ -114,7 +114,7 @@ const SectionOne = ({ blogData }) => {
 						</div>
 						<div className="flex justify-center">
 							<Image
-								src={"/assets/images/blogs/blog1-img1.jpg"}
+								src={"/assets/images/blogs/blog1_img1.png"}
 								height={200}
 								width={500}
 								alt="blog-img"
@@ -189,7 +189,7 @@ const SectionOne = ({ blogData }) => {
 						</div>
 						<div className="flex justify-center">
 							<Image
-								src={"/assets/images/blogs/blog1-img2.jpg"}
+								src={"/assets/images/blogs/blog1_img2.png"}
 								height={200}
 								width={500}
 								alt="blog-img"
@@ -217,7 +217,7 @@ const SectionOne = ({ blogData }) => {
 							<div className="flex space-x-2">
 								<div className="pr-2 border-r-2 border-secondary-300">
 									<Image
-										src={"/assets/images/team_members/deepali.jpg"}
+										src={"/assets/images/team_members/deepali-rajale.png"}
 										alt="blog author image"
 										width={100}
 										height={100}

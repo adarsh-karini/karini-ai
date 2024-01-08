@@ -20,7 +20,7 @@ const Blogs = () => {
 									<div className="flex justify-center">
 										<Image
 											alt="blog-img"
-											src="/assets/images/blogs/blog1-img2.jpg"
+											src="/assets/images/blogs/blog1_img2.png"
 											width={500}
 											height={400}
 											className="object-contain"
