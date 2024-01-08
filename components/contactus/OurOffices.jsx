@@ -36,7 +36,7 @@ const OurOffices = () => {
 														</address>
 														<a
 															href={data.phone}
-															className="text-secondary-700 text-sm"
+															className="text-blue-600 text-sm"
 														>
 															{data.email}
 														</a>

@@ -1,6 +1,14 @@
 import Logo from "@/svgs/logo/Logo";
 import Link from "next/link";
 import React from "react";
+import { BiSolidMapPin } from "react-icons/bi";
+import {
+	FaLinkedin,
+	FaPhone,
+	FaPhoneAlt,
+	FaPhoneSquareAlt,
+} from "react-icons/fa";
+import { MdAlternateEmail } from "react-icons/md";
 
 const Footer = () => {
 	return (
@@ -16,23 +24,24 @@ const Footer = () => {
 							<Logo width={100} height={30} />
 						</Link>
 						<p className="text-secondary-600 text-sm font-medium leading-relaxed">
-						Powering Evolution in Generative AI.
+							Powering Evolution in Generative AI.
 						</p>
+						<div className="flex space-x-2">
+							<FaLinkedin
+								size={25}
+								className="cursor-pointer"
+								color="#0077b5"
+							/>
+						</div>
 					</div>
 					<div className="md:w-3/5">
-						<div className="grid grid-cols-3 gap-4">
+						<div className="grid grid-cols-4 gap-4">
 							<div className="space-y-2">
 								<Link href={"/platforms"}>
 									<p className="text-primary-600 font-semibold text-lg">
 										Platform
 									</p>
 								</Link>
-								{/* <Link
-									href={"/blogs"}
-									className="text-primary-600 font-semibold text-lg"
-								>
-									Blogs
-								</Link> */}
 							</div>
 							<div className="space-y-2">
 								<p className="text-primary-600 font-semibold text-lg">
@@ -76,6 +85,60 @@ const Footer = () => {
 									>
 										Contact us
 									</Link>
+									{/* <Link
+                    href={"/careers"}
+                    className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
+                  >
+                    Careers
+                  </Link> */}
+								</div>
+							</div>
+							<div className="space-y-2">
+								<p className="text-primary-600 font-semibold text-lg">
+									Contact us
+								</p>
+								<div className="grid grid-cols-1 gap-2">
+									<div className="flex items-center space-x-1">
+										<BiSolidMapPin size={20} className="text-secondary-700" />
+										<Link
+											href={"https://maps.app.goo.gl/1sPWPSUeyfnm6dVj7"}
+											target="_blank"
+											className="flex-1 text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
+										>
+											USA
+										</Link>
+									</div>
+									<div className="flex items-center space-x-1">
+										<BiSolidMapPin size={20} className="text-secondary-700" />
+										<Link
+											href={"https://maps.app.goo.gl/StY3Yd6iZaqZqEFY9"}
+											target="_blank"
+											className="flex-1 text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
+										>
+											Pune, India
+										</Link>
+									</div>
+									<div className="flex items-center space-x-1">
+										<FaPhoneAlt size={17} className="text-secondary-700" />
+										<a
+											href="tel:+(404) 891-0255"
+											className="flex-1 text-secondary-700 text-sm font-medium"
+										>
+											+(404) 891-0255
+										</a>
+									</div>
+									<div className="flex items-center space-x-1">
+										<MdAlternateEmail
+											size={20}
+											className="text-secondary-700"
+										/>
+										<a
+											href="mailto:sales@karini.ai"
+											className="flex-1 text-secondary-700 text-sm font-medium"
+										>
+											sales@karini.ai
+										</a>
+									</div>
 									{/* <Link
                     href={"/careers"}
                     className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"

@@ -26,7 +26,7 @@ const OurLeadership = () => {
 									alt="team member image"
 									width={100}
 									height={100}
-									className="h-32 w-32 rounded-full shadow-xl object-cover" // object-contain object-cover object-fill object-none object-scale-down
+									className="h-32 w-32 rounded-full shadow-xl object-cover" // object-contain, object-cover, object-fill, object-none, object-scale-down
 									priority={true}
 									quality={100}
 								/>

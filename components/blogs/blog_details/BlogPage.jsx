@@ -214,20 +214,35 @@ const SectionOne = ({ blogData }) => {
 						</div>
 						<div className="bg-gradient-to-br from-primary-50 to-white space-y-1 border p-5 rounded">
 							<p className="text-lg text-black font-medium">About the Author</p>
-							<p className="text-base text-secondary-700">
-								<a
-									className="text-blue-500 hover:underline"
-									target="_blank"
-									href="https://www.linkedin.com/in/deepali-rajale-958a267/"
-								>
-									Deepali Rajale
-								</a>{" "}
-								is a founder of Karini AI with a mission to democratize
-								generative AI across enterprises. She enjoys blogging about
-								Generative AI, coaching customers to optimize Generatie AI
-								practice. She loves to spend time outdoors camping with her
-								family and also a poet and has published a book.
-							</p>
+							<div className="flex space-x-2">
+								<div className="pr-2 border-r-2 border-secondary-300">
+									<Image
+										src={"/assets/images/team_members/deepali.jpg"}
+										alt="blog author image"
+										width={100}
+										height={100}
+										className="h-20 w-20 rounded-full shadow-xl object-cover" // object-contain, object-cover, object-fill, object-none, object-scale-down
+										priority={true}
+										quality={100}
+									/>
+								</div>
+								<p className="flex-1 text-base text-secondary-700">
+									<a
+										className="text-blue-500 hover:underline"
+										target="_blank"
+										href="https://www.linkedin.com/in/deepali-rajale-958a267/"
+									>
+										Deepali Rajale
+									</a>{" "}
+									<span>
+										is a founder of Karini AI with a mission to democratize
+										generative AI across enterprises. She enjoys blogging about
+										Generative AI, coaching customers to optimize Generatie AI
+										practice. She loves to spend time outdoors camping with her
+										family and also a poet and has published a book.
+									</span>
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
