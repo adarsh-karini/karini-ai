@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { GiDiamondTrophy } from "react-icons/gi";
 import { ourLeadershipData } from "@/content/aboutus/OurLeadershipData";
+import { FaLinkedin } from "react-icons/fa";
 
 const OurLeadership = () => {
 	const iconColor = "#7c3aed";
@@ -26,24 +27,30 @@ const OurLeadership = () => {
 									alt="team member image"
 									width={100}
 									height={100}
-									className="h-32 w-32 rounded-full shadow-xl object-cover" // object-contain, object-cover, object-fill, object-none, object-scale-down
+									className="h-32 w-32 rounded-md shadow-xl object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
 									priority={true}
 									quality={100}
 								/>
-								<div className="flex space-x-4 items-center">
-									<a
-										href={data.linkedIn}
-										target="_blank"
-										rel="noopener noreferrer"
-										className="bg-primary-100 p-1 rounded-md cursor-pointer"
-									>
-										<IconSeven width={30} height={30} color={iconColor} />
-									</a>
+								<div className="flex items-center space-x-2">
 									<div>
-										<h3 className="text-black text-base font-semibold">
+										<Link
+											href={data.linkedIn}
+											target="_blank"
+											rel="noopener noreferrer"
+											className=""
+										>
+											<FaLinkedin
+												size={25}
+												className="cursor-pointer"
+												color="#0077b5"
+											/>
+										</Link>
+									</div>
+									<div className="flex-1 ">
+										<h3 className="text-primary-600 text-base font-semibold">
 											{data.name}
 										</h3>
-										<p className="text-secondary-600 text-sm font-semibold">
+										<p className="text-secondary-600 text-sm italic">
 											{data.position}
 										</p>
 									</div>

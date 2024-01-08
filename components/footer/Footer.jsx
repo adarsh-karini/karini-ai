@@ -27,26 +27,40 @@ const Footer = () => {
 							Powering Evolution in Generative AI.
 						</p>
 						<div className="flex space-x-2">
-							<FaLinkedin
-								size={25}
-								className="cursor-pointer"
-								color="#0077b5"
-							/>
+							<Link
+								href={"https://www.linkedin.com/company/karini-ai/"}
+								target="_blank"
+							>
+								<FaLinkedin
+									size={25}
+									className="cursor-pointer"
+									color="#0077b5"
+								/>
+							</Link>
 						</div>
 					</div>
 					<div className="md:w-3/5">
 						<div className="grid grid-cols-4 gap-4">
-							<div className="space-y-2">
+							{/* <div className="space-y-2">
 								<Link href={"/platforms"}>
 									<p className="text-primary-600 font-semibold text-lg">
 										Platform
 									</p>
 								</Link>
+							</div> */}
+							<div className="space-y-2">
+								<p className="text-black font-semibold text-lg">Quick links</p>
+								<div className="grid grid-cols-1 gap-2">
+									<Link
+										href={"/platforms"}
+										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
+									>
+										Platform
+									</Link>
+								</div>
 							</div>
 							<div className="space-y-2">
-								<p className="text-primary-600 font-semibold text-lg">
-									Services
-								</p>
+								<p className="text-black font-semibold text-lg">Services</p>
 								<div className="grid grid-cols-1 gap-2">
 									<Link
 										href={"/services/genai"}
@@ -63,9 +77,7 @@ const Footer = () => {
 								</div>
 							</div>
 							<div className="space-y-2">
-								<p className="text-primary-600 font-semibold text-lg">
-									Company
-								</p>
+								<p className="text-black font-semibold text-lg">Company</p>
 								<div className="grid grid-cols-1 gap-2">
 									<Link
 										href={"/blogs"}
@@ -94,12 +106,10 @@ const Footer = () => {
 								</div>
 							</div>
 							<div className="space-y-2">
-								<p className="text-primary-600 font-semibold text-lg">
-									Contact us
-								</p>
+								<p className="text-black font-semibold text-lg">Contact us</p>
 								<div className="grid grid-cols-1 gap-2">
 									<div className="flex items-center space-x-1">
-										<BiSolidMapPin size={20} className="text-secondary-700" />
+										<BiSolidMapPin size={20} className="text-primary-600" />
 										<Link
 											href={"https://maps.app.goo.gl/1sPWPSUeyfnm6dVj7"}
 											target="_blank"
@@ -109,7 +119,7 @@ const Footer = () => {
 										</Link>
 									</div>
 									<div className="flex items-center space-x-1">
-										<BiSolidMapPin size={20} className="text-secondary-700" />
+										<BiSolidMapPin size={20} className="text-primary-600" />
 										<Link
 											href={"https://maps.app.goo.gl/StY3Yd6iZaqZqEFY9"}
 											target="_blank"
@@ -119,7 +129,7 @@ const Footer = () => {
 										</Link>
 									</div>
 									<div className="flex items-center space-x-1">
-										<FaPhoneAlt size={17} className="text-secondary-700" />
+										<FaPhoneAlt size={17} className="text-primary-600" />
 										<a
 											href="tel:+(404) 891-0255"
 											className="flex-1 text-secondary-700 text-sm font-medium"
@@ -128,10 +138,7 @@ const Footer = () => {
 										</a>
 									</div>
 									<div className="flex items-center space-x-1">
-										<MdAlternateEmail
-											size={20}
-											className="text-secondary-700"
-										/>
+										<MdAlternateEmail size={20} className="text-primary-600" />
 										<a
 											href="mailto:sales@karini.ai"
 											className="flex-1 text-secondary-700 text-sm font-medium"
