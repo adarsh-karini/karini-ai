@@ -157,20 +157,27 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col md:flex-row justify-between items-center gap-4 py-6 border-t border-secondary-400">
+				<div className="flex flex-col md:flex-row justify-between items-center gap-4 py-3 border-t border-secondary-400">
 					<p className="text-secondary-700 font-semibold text-sm">
-						© 2023 karini.ai. All Rights Reserved.
+						© 2023{" "}
+						<Link
+							href={"https://www.karini.ai/"}
+							className="text-blue-500 hover:underline underline-offset-1"
+						>
+							karini.ai
+						</Link>
+						. All Rights Reserved.
 					</p>
-					<div className="space-x-6">
+					<div className="space-x-3">
 						<Link
 							href={"/privacypolicy"}
-							className="text-secondary-500 text-sm hover:text-black hover:font-semibold font-medium"
+							className="text-primary-600 text-sm hover:underline underline-offset-2 hover:font-semibold font-medium"
 						>
 							Privacy Policy
 						</Link>
 						<Link
 							href={"/termsofuse"}
-							className="text-secondary-500 text-sm hover:text-black hover:font-semibold font-medium"
+							className="text-primary-600 text-sm hover:underline underline-offset-2 hover:font-semibold font-medium"
 						>
 							Terms of Use
 						</Link>
