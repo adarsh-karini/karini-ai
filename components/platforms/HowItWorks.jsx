@@ -1,3 +1,9 @@
+import ChatbotIcon from "@/svgs/platforms/ChatbotIcon";
+import DashboardIcon from "@/svgs/platforms/DashboardIcon";
+import EvaluateIcon from "@/svgs/platforms/EvaluateIcon";
+import ModelsIcon from "@/svgs/platforms/ModelsIcon";
+import PromptIcon from "@/svgs/platforms/PromptIcon";
+import RecipeIcon from "@/svgs/platforms/RecipeIcon";
 import Image from "next/image";
 import React, { useState } from "react";
 import { GrPlayFill } from "react-icons/gr";
@@ -22,35 +28,43 @@ const HowItWorks = () => {
 		{
 			name: "Dashboard",
 			image: "/assets/images/platform/Dashboards.png",
+			icon: DashboardIcon,
 		},
 		{
 			name: "Explore Copilot Hub",
 			image: "/assets/images/platform/Copilot_Hub.png",
+			icon: ChatbotIcon,
 		},
 		{
 			name: "Create Model Endpoint",
 			image: "/assets/images/platform/Model_Hub.png",
+			icon: ModelsIcon,
 		},
 		{
 			name: "Test Prompts using Playground",
 			image: "/assets/images/platform/Prompt_Playground.png",
+			icon: PromptIcon,
 		},
 		{
 			name: "Set up and Run Recipe",
 			image: "/assets/images/platform/Recipe.png",
+			icon: RecipeIcon,
 		},
 		{
 			name: "Evaluate RAG",
 			image: "/assets/images/platform/RAG_Evaluation.png",
+			icon: EvaluateIcon,
 		},
 		{
 			name: "Export Copilot",
 			image: "/assets/images/platform/Export.png",
+			icon: ChatbotIcon,
 		},
 		{
 			name: "Start using Copilot",
 			image: "/assets/images/platform/Copilot.png",
-		}
+			icon: ChatbotIcon,
+		},
 	];
 
 	return (
@@ -79,13 +93,12 @@ const HowItWorks = () => {
 									active === index
 										? "border-2 border-primary-600 text-primary-600 font-medium"
 										: "bg-white text-secondary-700 border-secondary-300"
-								} flex items-center space-x-4 border hover:border-primary-600 hover:bg-primary-50 text-xs transition py-3 px-3 mb-4 whitespace-nowrap rounded-lg`}
+								} flex items-center space-x-2 border hover:border-primary-600 hover:bg-primary-50 text-xs transition py-3 px-3 mb-4 whitespace-nowrap rounded-lg`}
 							>
-								<MdOutlineInsertPageBreak
-									size={20}
-									className={
-										active === index ? "text-primary-600" : "text-secondary-700"
-									}
+								<data.icon
+									width={28}
+									height={28}
+									color={active === index ? "#7c3aed" : "#334155"}
 								/>
 								<span>{data.name}</span>
 							</button>
