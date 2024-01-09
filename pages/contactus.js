@@ -1,4 +1,4 @@
-import ContactForm from "@/components/contactus/ContactForm";
+import ContactUs from "@/components/contactus/ContactUs";
 import Hero from "@/components/contactus/Hero";
 import OurOffices from "@/components/contactus/OurOffices";
 import { Inter, Poppins } from "next/font/google";
@@ -26,7 +26,7 @@ const contactus = () => {
 			</Head>
 			<div className={`font-sans subpixel-antialiased bg-white`}>
 				{/* <Hero /> */}
-				<ContactForm />
+				<ContactUs />
 				<OurOffices />
 				<section className="bg-white relative">
 					<div className="bg-gradient-to-br from-primary-900 from-30% via-primary-700 to-primary-500 overflow-hidden z-10 relative">

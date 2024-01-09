@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 
-const ContactForm = () => {
+const ContactUs = () => {
 	const [show, setShow] = useState(""); // submitting, failed, success
 	const [contactData, setContactData] = useState({
 		fullName: "",
@@ -61,17 +61,21 @@ const ContactForm = () => {
 		<section className="relative bg-dark px-4 lg:px-10 xl:px-0 py-20 overflow-hidden">
 			<div className="max-w-screen-xl mx-auto space-y-16">
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-					<div className="col-span-1 space-y-2">
+					<div className="col-span-1 space-y-3">
 						<h2 className="text-white text-center lg:text-left font-semibold text-2xl md:text-2xl xl:text-6xl">
-							<span className="text-primary-600">Say</span> Hello
+							<span className="text-primary-600">Book a</span> Demo
 						</h2>
-						<p className="text-secondary-100 text-l text-center lg:text-left">
-						Unlock the full potential of Generative AI and elevate your game with our cutting-edge Platform. 
-						</p>
-						<p className="text-secondary-100 text-l text-center lg:text-left">
-						Don&apos;t miss the opportunity to transform your business with the power of Generative AI. Reach out to us now to say Hello, geek out or to learn about our platform. 
-						</p>
-						
+						<div className="space-y-1">
+							<p className="text-secondary-100 text-l text-center lg:text-left">
+								Unlock the full potential of Generative AI and elevate your game
+								with our cutting-edge Platform.
+							</p>
+							<p className="text-secondary-100 text-l text-center lg:text-left">
+								Don&apos;t miss the opportunity to transform your business with
+								the power of Generative AI. Reach out to us now to say Hello,
+								geek out or to learn about our platform.
+							</p>
+						</div>
 					</div>
 					<div className="col-span-2">
 						<div className="z-10 relative space-y-4">
@@ -177,4 +181,4 @@ const ContactForm = () => {
 	);
 };
 
-export default ContactForm;
+export default ContactUs;

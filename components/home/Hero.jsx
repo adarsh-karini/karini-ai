@@ -95,7 +95,7 @@ const Hero = () => {
 									</Link>
 									<Link
 										href="https://app.karini.ai/signup"
-										className=" flex items-center space-x-2 bg-white text-primary-600 text-xs md:text-base font-medium border border-secondary-400 px-3 sm:px-4 py-2 transition duration-100 rounded"
+										className=" flex items-center space-x-2 bg-primary-100 text-primary-600 text-xs md:text-base font-medium border border-secondary-400 px-3 sm:px-4 py-2 transition duration-100 rounded"
 									>
 										<span>Sign up</span>
 										<FaArrowRightLong size={20} />
