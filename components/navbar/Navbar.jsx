@@ -86,13 +86,19 @@ const Navbar2 = () => {
 						{/* <Link href={"/careers"}>Careers</Link> */}
 						<Link href={"/contactus"}>Contact us</Link>
 					</div>
-					<div>
+					<div className="flex space-x-2">
 						{/* <Link
               href={"/joinwaitlist"}
               className="hidden lg:block bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white rounded"
             >
               Join waitlist
             </Link> */}
+						<Link
+							href={"/contactus"}
+							className="hidden lg:block text-primary-600 hover:text-white border border-primary-600 px-6 py-2 text-center text-sm font-semibold bg-primary-100 hover:bg-primary-600 transition duration-100  rounded"
+						>
+							Book a demo
+						</Link>
 						<Link
 							href={"https://app.karini.ai/signin"}
 							target="_blank"

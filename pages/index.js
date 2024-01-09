@@ -33,7 +33,7 @@ const index = () => {
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Karini AI Powering Evolution in Generative AI"
+					content="Karini AI - Powering Evolution in Generative AI. Build and manage production-grade generative AI applications with an easy-to-use visual interface. Try copilot now!"
 				/>
 				<meta
 					name="keywords"

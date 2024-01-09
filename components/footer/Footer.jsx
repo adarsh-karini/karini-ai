@@ -132,7 +132,7 @@ const Footer = () => {
 										<FaPhoneAlt size={17} className="text-primary-600" />
 										<a
 											href="tel:(404) 891-0255"
-											className="flex-1 text-secondary-700 text-sm font-medium"
+											className="flex-1 text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
 										>
 											(404) 891-0255
 										</a>
@@ -141,7 +141,7 @@ const Footer = () => {
 										<MdAlternateEmail size={20} className="text-primary-600" />
 										<a
 											href="mailto:sales@karini.ai"
-											className="flex-1 text-secondary-700 text-sm font-medium"
+											className="flex-1 text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
 										>
 											sales@karini.ai
 										</a>
