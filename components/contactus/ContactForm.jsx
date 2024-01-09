@@ -69,7 +69,7 @@ const ContactForm = () => {
 						Unlock the full potential of Generative AI and elevate your game with our cutting-edge Platform. 
 						</p>
 						<p className="text-secondary-100 text-l text-center lg:text-left">
-						Don't miss the opportunity to transform your business with the power of Generative AI. Reach out to us now to say Hello, geek out or to learn about our platform. 
+						Don&apos;t miss the opportunity to transform your business with the power of Generative AI. Reach out to us now to say Hello, geek out or to learn about our platform. 
 						</p>
 						
 					</div>
