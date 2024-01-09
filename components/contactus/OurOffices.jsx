@@ -34,18 +34,12 @@ const OurOffices = () => {
 														<address className="text-secondary-700 text-sm font-semibold">
 															{data.address}
 														</address>
-														<a
-															href={data.phone}
-															className="text-blue-600 text-sm"
-														>
+														<p className="text-blue-600 text-sm">
 															{data.email}
-														</a>
-														<a
-															href={data.phone}
-															className="text-secondary-700 text-sm"
-														>
+														</p>
+														<p className="text-secondary-700 text-sm">
 															{data.phone}
-														</a>
+														</p>
 													</div>
 												</div>
 												<div>
