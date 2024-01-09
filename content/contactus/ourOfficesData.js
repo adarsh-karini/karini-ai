@@ -10,7 +10,7 @@ export const ourOfficesData = [
 	{
 		location: "Pune, India",
 		address:
-			"No. 204, Second Floor, B Wing, Building - GO Square, Near Mankar Chowk, Wakad, Pune",
+			"Wakad, Pune",
 		email: "sales@karini.ai",
 		// phone: "+0-000-000-0000",
 		iframeURL:

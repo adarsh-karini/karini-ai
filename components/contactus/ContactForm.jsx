@@ -62,16 +62,16 @@ const ContactForm = () => {
 			<div className="max-w-screen-xl mx-auto space-y-16">
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
 					<div className="col-span-1 space-y-2">
-						<h2 className="text-white text-center lg:text-left font-semibold text-2xl md:text-4xl xl:text-6xl">
-							<span className="text-primary-600">Contact</span> Us
+						<h2 className="text-white text-center lg:text-left font-semibold text-2xl md:text-2xl xl:text-6xl">
+							<span className="text-primary-600">Say</span> Hello
 						</h2>
-						<p className="text-secondary-100 text-sm text-center lg:text-left">
-							We&apos;re here to assist you with any questions or concerns you
-							may have. Whether you want to inquire about our products, provide
-							feedback, or simply say hello, don&apos;t hesitate to get in touch
-							with us. Our team is dedicated to providing you with the best
-							possible support.
+						<p className="text-secondary-100 text-l text-center lg:text-left">
+						Unlock the full potential of Generative AI and elevate your game with our cutting-edge Platform. 
 						</p>
+						<p className="text-secondary-100 text-l text-center lg:text-left">
+						Don&apos;t miss the opportunity to transform your business with the power of Generative AI. Reach out to us now to say Hello, geek out or to learn about our platform. 
+						</p>
+						
 					</div>
 					<div className="col-span-2">
 						<div className="z-10 relative space-y-4">
