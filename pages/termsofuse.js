@@ -1,3 +1,4 @@
+import CTA from "@/components/cta/CTA";
 import Hero from "@/components/pricing/Hero";
 import Pricing from "@/components/pricing/Pricing";
 import { Inter, Poppins } from "next/font/google";
@@ -359,6 +360,7 @@ const termsofuse = () => {
 						</p>
 					</div>
 				</div>
+				{/* <CTA /> */}
 			</div>
 		</>
 	);

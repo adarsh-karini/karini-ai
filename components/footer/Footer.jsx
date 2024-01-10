@@ -12,7 +12,7 @@ import { MdAlternateEmail } from "react-icons/md";
 
 const Footer = () => {
 	return (
-		<div className="overflow-hidden bg-white px-4">
+		<div className="overflow-hidden bg-white px-4 border-t border-t-secondary-300">
 			<footer className="relative z-10 max-w-screen-2xl mx-auto">
 				<div className="-z-10 absolute -right-52 top-10 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg opacity-10">
 					<div className="p-20 m-8 bg-white rounded-full"></div>
