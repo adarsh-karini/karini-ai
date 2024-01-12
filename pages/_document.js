@@ -7,27 +7,23 @@ export default function Document() {
 			<Head>
 				<link rel="icon" type="image/x-icon" href="/favicon.png" />
 				{/* Google Analytics (gtag.js) */}
-				<Script
+				<script
 					id="ga1"
 					async
 					src="https://www.googletagmanager.com/gtag/js?id=G-ZPKWXDBMEZ"
-				></Script>
-				<Script
+				></script>
+				<script
 					id="ga2"
-					strategy="afterInteractive"
+					type="application/ld+json"
 					dangerouslySetInnerHTML={{
-						__html: `
-                            window.dataLayer = window.dataLayer || [];
-                            function gtag(){
-                                dataLayer.push(arguments);
-                            }
-                            gtag('js', new Date());
-                            gtag('config', 'G-ZPKWXDBMEZ');
-                        `,
-					}}
-				></Script>
-				{/* End Google Analytics (gtag.js) */}
+						__html: `window.dataLayer = window.dataLayer || [];
+									function gtag(){dataLayer.push(arguments);}
+									gtag('js', new Date());
 
+									gtag('config', 'G-ZPKWXDBMEZ');`,
+					}}
+				></script>
+				{/* Google Analytics (gtag.js) end*/}
 				{/* Schema Markup */}
 				<script
 					id="schema-markup"
