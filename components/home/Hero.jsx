@@ -45,7 +45,7 @@ const Hero = () => {
 			altText: "evaluate-rag",
 		},
 		{
-			title: "Cuatomize Copilot & Deploy",
+			title: "Customize Copilot & Deploy",
 			path: "/assets/images/platform/Export.png",
 			altText: "export copilot",
 		},
