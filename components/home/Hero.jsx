@@ -15,7 +15,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Hero = () => {
 	const imagesData = [
 		{
-			title: "Centralized Visiblity and Usage Trends",
+			title: "Centralized Visibility and Usage Trends",
 			path: "/assets/images/platform/Dashboards.png",
 			altText: "dashboard",
 		},
