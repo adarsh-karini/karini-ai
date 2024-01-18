@@ -4,13 +4,32 @@ import React from "react";
 const SectionOne = ({ blogData }) => {
 	// console.log("iii", blogData);
 	return (
-		<section className="bg-white px-4 sm:px-10 py-10">
+		<section className="bg-white px-4 sm:px-10 py-6">
 			<div className="max-w-screen-lg mx-auto space-y-10">
 				<div className="space-y-8">
-					<h1 className="text-black text-xl md:text-3xl font-semibold text-left">
-						{/* {blogData?.title} */}
-						Industrialize Generative AI
-					</h1>
+					<div className="space-y-2 border-b border-b-secondary-300 pb-2">
+						{/* <Image
+							alt="announcement-img"
+							src={"/assets/images/blogs/blog1_img2.png"}
+							width={300}
+							height={400}
+							className="object-contain"
+						/> */}
+						<h1 className="text-black text-xl md:text-3xl font-semibold text-left">
+							{/* {blogData?.title} */}
+							Industrialize Generative AI
+						</h1>
+						<div className="flex space-x-4">
+							<p className="text-secondary-700 text-sm">
+								Published on:{" "}
+								<span className="font-medium">January 2, 2024</span>
+							</p>
+							<p className="text-secondary-700 text-sm">
+								Author: <span className="font-medium">Deepali Rajale</span>
+							</p>
+							<p className="text-secondary-700 text-sm italic">5 min read</p>
+						</div>
+					</div>
 					<div className="space-y-6">
 						<div className="space-y-1">
 							<h2 className="text-lg text-black font-medium">
@@ -121,6 +140,7 @@ const SectionOne = ({ blogData }) => {
 								className="rounded"
 							/>
 						</div>
+
 						<div className="space-y-2">
 							<p className="text-base text-secondary-700">
 								Enterprises should think about Gen AI platforms with the above
