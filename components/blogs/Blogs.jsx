@@ -22,7 +22,7 @@ const Blogs = () => {
 											<Image
 												alt="announcement-img"
 												src={announcement.image}
-												width={500}
+												width={400}
 												height={400}
 												className="object-contain"
 											/>

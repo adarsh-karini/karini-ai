@@ -8,16 +8,16 @@ const AnnPage = ({ blogData }) => {
 			<div className="max-w-screen-lg mx-auto space-y-10">
 				<div className="space-y-8">
 					<div className="space-y-1 border-b border-b-secondary-300 pb-2">
-						<Image
+						{/* <Image
 							alt="announcement-img"
 							src={"/assets/images/blogs/Streaming-eye-catcher.png"}
 							width={300}
 							height={400}
 							className="object-contain"
-						/>
+						/> */}
 						<h1 className="text-black text-xl md:text-3xl font-semibold text-left">
 							{/* {blogData?.title} */}
-							Karini.ai Launches Streaming for CoPilot
+							Karini AI Launches Streaming for Copilot
 						</h1>
 						<p className="text-secondary-600 text-sm">
 							Posted on: January 18, 2024
@@ -29,13 +29,12 @@ const AnnPage = ({ blogData }) => {
 								Hype of Generative AI
 							</h2> */}
 							<p className="text-base text-secondary-700">
-								Karini.ai is proud to announce a new feature to help businesses
+								Karini AI is proud to announce a new feature to help businesses
 								enhance user experiences by replacing the everlasting ellipsis
 								with streaming responses. Following the latest trends in
-								open-source generative artificial intelligence, this leap
-								forward for purpose built enterprise-focused artificial
-								intelligence using natural language questions and answers is
-								evolving CoPilot to the next level.
+								open-source generative AI, this leap forward for purpose built
+								enterprise-focused AI using natural language questions and
+								answers is evolving copilot to the next level.
 							</p>
 						</div>
 
@@ -63,13 +62,13 @@ const AnnPage = ({ blogData }) => {
 								Industrialization of Generative AI applications
 							</h2> */}
 							<p className="text-base text-secondary-700">
-								We are excited to share that Karini.ai’s CoPilot now supports
-								the streaming experience for almost all SOTA model providers,
-								citations (references), and optional follow-up questions. The
-								feature is vital as it allows a uniform experience for users
-								when enterprises switch between model providers for A/B testing
-								and model upgrades. The feature is available out of the box and
-								requires no additional setup.
+								We are excited to share that Karini AI&apos;s copilot now
+								supports the streaming experience for almost all SOTA model
+								providers, citations (references), and optional follow-up
+								questions. The feature is vital as it allows a uniform
+								experience for users when enterprises switch between model
+								providers for A/B testing and model upgrades. The feature is
+								available out of the box and requires no additional setup.
 							</p>
 						</div>
 						<div className="flex justify-center">

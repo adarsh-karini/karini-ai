@@ -8,13 +8,13 @@ const SectionOne = ({ blogData }) => {
 			<div className="max-w-screen-lg mx-auto space-y-10">
 				<div className="space-y-8">
 					<div className="space-y-2 border-b border-b-secondary-300 pb-2">
-						<Image
+						{/* <Image
 							alt="announcement-img"
 							src={"/assets/images/blogs/blog1_img2.png"}
 							width={300}
 							height={400}
 							className="object-contain"
-						/>
+						/> */}
 						<h1 className="text-black text-xl md:text-3xl font-semibold text-left">
 							{/* {blogData?.title} */}
 							Industrialize Generative AI

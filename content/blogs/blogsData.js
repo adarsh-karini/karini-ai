@@ -13,9 +13,9 @@ export const blogsData = [
 export const announcementsData = [
 	{
 		image: "/assets/images/blogs/Streaming-eye-catcher.png",
-		title: "Karini.ai Launches Streaming for Copilot",
+		title: "Karini AI Launches Streaming for Copilot",
 		description:
-			"Karini.ai is proud to announce a new feature to help businesses enhance user experiences by replacing the everlasting ellipsis with streaming responses.  Following the latest trends in open-source generative artificial intelligence, this leap forward for purpose built enterprise-focused artificial intelligence using natural language questions and answers is evolving CoPilot to the next level.",
+			"Karini AI is proud to announce a new feature to help businesses enhance user experiences by replacing the everlasting ellipsis with streaming responses.  Following the latest trends in open-source generative artificial intelligence, this leap forward for purpose built enterprise-focused artificial intelligence using natural language questions and answers is evolving CoPilot to the next level.",
 		tag: "Gen AI",
 		dateandDuration: "Jan 18th, 2024 | 5 min read",
 		path: "/announcements/streaming-for-copilot",
