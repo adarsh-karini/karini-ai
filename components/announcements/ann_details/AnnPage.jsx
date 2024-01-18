@@ -62,13 +62,14 @@ const AnnPage = ({ blogData }) => {
 								Industrialization of Generative AI applications
 							</h2> */}
 							<p className="text-base text-secondary-700">
-								We are excited to share that Karini AI&apos;s copilot now
-								supports the streaming experience for almost all SOTA model
-								providers, citations (references), and optional follow-up
-								questions. The feature is vital as it allows a uniform
-								experience for users when enterprises switch between model
-								providers for A/B testing and model upgrades. The feature is
-								available out of the box and requires no additional setup.
+								We are excited to share that Karini AI’s CoPilot now supports
+								the streaming experience for almost all SOTA model providers,
+								citations (references), and optional follow-up questions. The
+								feature is vital as it delivers a uniform user experience when
+								enterprises switch between model providers for A/B testing and
+								model upgrades. Available now and out of the box without any
+								additional setup. See it in action below and contact us for more
+								information.
 							</p>
 						</div>
 						<div className="flex justify-center">
@@ -81,7 +82,7 @@ const AnnPage = ({ blogData }) => {
 							/>
 						</div>
 						<div>
-							<p className="text-base text-secondary-700 font-medium">
+							{/* <p className="text-base text-secondary-700 font-medium">
 								To get started, visit{" "}
 								<a
 									target="_blank"
@@ -99,7 +100,7 @@ const AnnPage = ({ blogData }) => {
 									sign up
 								</a>
 								.
-							</p>
+							</p> */}
 						</div>
 					</div>
 				</div>
