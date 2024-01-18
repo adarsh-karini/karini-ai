@@ -18,6 +18,6 @@ export const announcementsData = [
 			"Karini.ai is proud to announce a new feature to help businesses enhance user experiences by replacing the everlasting ellipsis with streaming responses.  Following the latest trends in open-source generative artificial intelligence, this leap forward for purpose built enterprise-focused artificial intelligence using natural language questions and answers is evolving CoPilot to the next level.",
 		tag: "Gen AI",
 		dateandDuration: "Jan 18th, 2024 | 5 min read",
-		path: "/announcements/launches-streaming-for-copilot",
+		path: "/announcements/streaming-for-copilot",
 	},
 ];

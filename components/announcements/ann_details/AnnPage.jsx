@@ -26,15 +26,7 @@ const AnnPage = ({ blogData }) => {
 								evolving CoPilot to the next level.
 							</p>
 						</div>
-						<div className="flex justify-center">
-							<Image
-								src={"/assets/images/blogs/Streaming-eye-catcher.png"}
-								height={100}
-								width={300}
-								alt="blog-img"
-								className="rounded"
-							/>
-						</div>
+
 						<div className="space-y-1">
 							{/* <h2 className="text-lg text-black font-medium">
 								Why enterprises struggle with Industrializing Generative AI
@@ -66,6 +58,36 @@ const AnnPage = ({ blogData }) => {
 								when enterprises switch between model providers for A/B testing
 								and model upgrades. The feature is available out of the box and
 								requires no additional setup.
+							</p>
+						</div>
+						<div className="flex justify-center">
+							<Image
+								src={"/gif/karini_copilot_streaming_demo.gif"}
+								height={600}
+								width={700}
+								alt="blog-img"
+								className="rounded border"
+							/>
+						</div>
+						<div>
+							<p className="text-base text-secondary-700 font-medium">
+								To get started, visit{" "}
+								<a
+									target="_blank"
+									href="https://www.karini.ai"
+									className="text-blue-500 underline"
+								>
+									karini.ai
+								</a>{" "}
+								or try our platform by quick{" "}
+								<a
+									target="_blank"
+									href="https://app.karini.ai/signup"
+									className="text-blue-500 underline"
+								>
+									sign up
+								</a>
+								.
 							</p>
 						</div>
 					</div>

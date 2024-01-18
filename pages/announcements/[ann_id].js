@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { Inter, Open_Sans, Poppins } from "next/font/google";
-import BreadCrumb from "@/components/blogs/blog_details/BreadCrumb";
 
 import { blogDetailsData } from "@/content/blogs/blogDetailsData";
 import BlogPage from "@/components/blogs/blog_details/BlogPage";
@@ -9,6 +8,7 @@ import Head from "next/head";
 import Script from "next/script";
 import CTA from "@/components/cta/CTA";
 import AnnPage from "@/components/announcements/ann_details/AnnPage";
+import BreadCrumb from "@/components/announcements/ann_details/BreadCrumb";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -90,7 +90,7 @@ const Blog = () => {
 			>
 				{/* <BreadCrumb title={blogData?.title} /> */}
 				{/* <SectionOne blogData={blogData} /> */}
-				<BreadCrumb title={"Karini.ai Launches Streaming for Copilot"} />
+				<BreadCrumb title={"Streaming for Copilot"} />
 				<AnnPage />
 				<CTA />
 			</div>

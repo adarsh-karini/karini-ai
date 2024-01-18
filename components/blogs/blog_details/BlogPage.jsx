@@ -113,19 +113,12 @@ const SectionOne = ({ blogData }) => {
 							</p>
 						</div>
 						<div className="flex justify-center">
-							{/* <Image
+							<Image
 								src={"/assets/images/blogs/blog1_img1.png"}
 								height={200}
 								width={500}
 								alt="blog-img"
 								className="rounded"
-							/> */}
-							<Image
-								src={"/gif/karini_copilot_streaming_demo.gif"}
-								height={400}
-								width={700}
-								alt="blog-img"
-								className="rounded border"
 							/>
 						</div>
 
