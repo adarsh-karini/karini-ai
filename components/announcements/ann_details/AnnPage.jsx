@@ -4,13 +4,25 @@ import React from "react";
 const AnnPage = ({ blogData }) => {
 	// console.log("iii", blogData);
 	return (
-		<section className="bg-white px-4 sm:px-10 py-10">
+		<section className="bg-white px-4 sm:px-10 py-6">
 			<div className="max-w-screen-lg mx-auto space-y-10">
 				<div className="space-y-8">
-					<h1 className="text-black text-xl md:text-3xl font-semibold text-left">
-						{/* {blogData?.title} */}
-						Karini.ai Launches Streaming for CoPilot
-					</h1>
+					<div className="space-y-1 border-b border-b-secondary-300 pb-2">
+						<Image
+							alt="announcement-img"
+							src={"/assets/images/blogs/Streaming-eye-catcher.png"}
+							width={300}
+							height={400}
+							className="object-contain"
+						/>
+						<h1 className="text-black text-xl md:text-3xl font-semibold text-left">
+							{/* {blogData?.title} */}
+							Karini.ai Launches Streaming for CoPilot
+						</h1>
+						<p className="text-secondary-600 text-sm">
+							Posted on: January 18, 2024
+						</p>
+					</div>
 					<div className="space-y-6">
 						<div className="space-y-1">
 							{/* <h2 className="text-lg text-black font-medium">
