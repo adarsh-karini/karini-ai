@@ -61,7 +61,7 @@ const AnnPage = ({ blogData }) => {
 							</p>
 						</div>
 						<div className="flex justify-center">
-							<Image
+							<img
 								src={"/gif/karini_copilot_streaming_demo.gif"}
 								height={600}
 								width={700}
