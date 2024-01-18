@@ -10,7 +10,7 @@ const BreadCrumb = ({ title }) => {
 				<BiSolidHome size={20} className="text-primary-600" />
 				<Link href={"/blogs"}>
 					<span className="text-primary-600 text-sm font-medium cursor-pointer">
-						Announcements
+						Blogs
 					</span>
 				</Link>
 				<FaAngleRight size={25} className="text-primary-600" />
