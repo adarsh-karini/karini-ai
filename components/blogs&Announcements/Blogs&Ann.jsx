@@ -1,40 +1,85 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-import { announcementsData, blogsData } from "@/content/blogs/blogsData";
+import { blogsData } from "@/content/blogs&announcements/blogsData";
 import Image from "next/image";
+import { announcementsData } from "@/content/blogs&announcements/announcementsData";
 
-const Blogs = () => {
+const BlogsandAnn = () => {
+	const [activeFilter, setActiveFilter] = useState(0);
+	let filterButtons = ["all", "blogs", "announcements"];
+
+	const [filteredBlogs, setFilteredBlogs] = useState([
+		...announcementsData,
+		...blogsData,
+	]);
+
+	useEffect(() => {
+		if (activeFilter === 0) {
+			setFilteredBlogs([...announcementsData, ...blogsData]);
+		} else if (activeFilter === 1) {
+			setFilteredBlogs([...blogsData]);
+		} else if (activeFilter === 2) {
+			setFilteredBlogs([...announcementsData]);
+		}
+	}, [activeFilter]);
+
 	return (
-		<section className="bg-white px-4 sm:px-10 py-20">
+		<section className="bg-white px-4 sm:px-10 py-14">
 			<div className="max-w-screen-lg mx-auto space-y-10">
 				<h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
 					Blogs & Announcements
 				</h1>
 				{/* grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  */}
 				<div className="space-y-6">
-					<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1">
-						{announcementsData.map((announcement, index) => (
-							<Link key={index} href={announcement.path}>
-								<article className="bg-white rounded-md border shadow p-4">
+					<div>
+						<div className="space-x-2">
+							{filterButtons.map((button, index) => (
+								<button
+									key={index}
+									className={`${
+										activeFilter === index
+											? "bg-primary-600 text-white"
+											: "bg-secondary-50 text-secondary-700 hover:bg-primary-100"
+									} text-sm px-2 py-1 rounded border transition-all`}
+									onClick={() => setActiveFilter(index)}
+								>
+									{button}
+								</button>
+							))}
+						</div>
+					</div>
+					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-4">
+						{filteredBlogs.map((blog, index) => (
+							<Link key={index} href={blog.path}>
+								<article className="h-full bg-white rounded-md border shadow p-4">
 									<div className="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0">
 										<div className="flex justify-center">
 											<Image
-												alt="announcement-img"
-												src={announcement.image}
-												width={700}
-												height={400}
+												alt="blog-img"
+												src={blog.image}
+												width={blog.imageWidth}
+												height={blog.imageHeight}
 												className="object-contain"
 											/>
 										</div>
 										<div className="flex flex-col justify-between">
-											<div>
-												<h3 className="text-base font-semibold text-secondary-900 hover:text-primary-600">
-													{announcement.title}
+											<div className="space-y-1">
+												<span
+													className={`${
+														blog.type === "blog"
+															? "bg-primary-500"
+															: "bg-green-500"
+													} text-xs text-white border rounded-full py-1 px-2`}
+												>
+													{blog.type === "blog" ? "blog" : "announcement"}
+												</span>
+												<h3 className="text-xl font-semibold text-secondary-900 hover:text-primary-600">
+													{blog.title}
 												</h3>
 
 												<p className="mt-2 line-clamp-3 text-sm/relaxed text-secondary-700">
-													{announcement.description}
+													{blog.description}
 												</p>
 											</div>
 
@@ -48,8 +93,8 @@ const Blogs = () => {
 														&rarr;
 													</span>
 												</div>
-												<p className="text-secondary-500 text-xs">
-													{announcement.dateandDuration}
+												<p className="text-green-600 text-sm">
+													{blog.dateandDuration}
 												</p>
 											</div>
 										</div>
@@ -58,7 +103,7 @@ const Blogs = () => {
 							</Link>
 						))}
 					</div>
-					<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1">
+					{/* <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1">
 						{blogsData.map((blog, index) => (
 							<Link key={index} href={blog.path}>
 								<article className="bg-white rounded-md border shadow p-4">
@@ -102,11 +147,11 @@ const Blogs = () => {
 								</article>
 							</Link>
 						))}
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>
 	);
 };
 
-export default Blogs;
+export default BlogsandAnn;
