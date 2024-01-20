@@ -1,3 +1,16 @@
+let type = {
+	heading: "heading",
+	paragraph: "paragraph",
+	list: "list",
+	image: "image",
+};
+
+let fontSize = {
+	small: "small",
+	medium: "medium",
+	large: "large",
+};
+
 export const announcementsDetailsData = [
 	{
 		type: "announcement",
@@ -45,8 +58,8 @@ export const announcementsDetailsData = [
 				group: true,
 				data: [
 					{
-						type: "paragraph",
-						fontSize: "medium",
+						type: type.paragraph,
+						fontSize: fontSize.medium,
 						value:
 							"Karini AI is proud to announce a new feature to help businesses enhance user experiences by replacing the everlasting ellipsis	with streaming responses. Following the latest trends in open-source generative AI, this leap forward for purpose built enterprise-focused AI using natural language questions and answers is evolving copilot to the next level.",
 					},
@@ -56,8 +69,8 @@ export const announcementsDetailsData = [
 				group: true,
 				data: [
 					{
-						type: "paragraph",
-						fontSize: "medium",
+						type: type.paragraph,
+						fontSize: fontSize.medium,
 						value:
 							"Today, ChatGPT has set the tone and standard for the copilot user experience as it gives us a conversational impression due to the streaming tokens appearing on the screen. Creating the streaming experience with large models like GPT4 is more straightforward but, at the same time, challenging in enterprise environments where you may need a wide array of state-of-the-art (SOTA) model providers ranging from open source to SaaS. Each LLM is nuanced in its capabilities to stream tokens and the	quality of response. So, it’s tough to build a uniform user	experience across the ecosystem of model providers, diminishing	and degrading users’ engagement.",
 					},
@@ -67,8 +80,8 @@ export const announcementsDetailsData = [
 				group: true,
 				data: [
 					{
-						type: "paragraph",
-						fontSize: "medium",
+						type: type.paragraph,
+						fontSize: fontSize.medium,
 						value:
 							"We are excited to share that Karini AI’s CoPilot now supports the streaming experience for almost all SOTA model providers, citations (references), and optional follow-up questions. The feature is vital as it delivers a uniform user experience when enterprises switch between model providers for A/B testing and model upgrades. Available now and out of the box without any additional setup. See it in action below and contact us for more information.",
 					},
