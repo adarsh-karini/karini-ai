@@ -149,7 +149,7 @@ const PageBuilder = ({ data }) => {
 						<div className="bg-gradient-to-br from-primary-50 to-white space-y-2 border p-5 rounded">
 							<p className="text-lg text-black font-medium">About the Author</p>
 							<div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row space-x-2">
-								<div className="pr-2 border-r border-secondary-300">
+								<div className="pr-2 sm:border-r border-secondary-300">
 									<Image
 										src={data?.aboutAuthor.authorImage}
 										alt="blog author image"
