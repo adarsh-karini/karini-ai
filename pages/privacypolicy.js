@@ -33,7 +33,7 @@ const privacypolicy = () => {
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
-				<div className="max-w-screen-xl mx-auto space-y-4 py-10 px-4 lg:px-0">
+				<div className="max-w-screen-lg mx-auto space-y-4 py-10 px-4 lg:px-0">
 					<h1 className="text-primary-600 text-center text-2xl lg:text-4xl font-bold">
 						Privacy Policy
 					</h1>
