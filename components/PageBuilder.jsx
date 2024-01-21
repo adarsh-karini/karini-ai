@@ -3,6 +3,52 @@ import React from "react";
 
 const PageBuilder = ({ data }) => {
 	console.log("page data", data);
+
+	const getDynamicClassName = (val) => {
+		const fontSizeClass = () => {
+			switch (val.fontSize) {
+				case "small":
+					return "text-sm";
+				case "medium":
+					return "text-base";
+				case "large":
+					return "text-lg";
+				default:
+					return "text-base";
+			}
+		};
+
+		const fontWeightClass = () => {
+			switch (val.fontWeight) {
+				case "normal":
+					return "font-normal";
+				case "medium":
+					return "font-medium";
+				case "bold":
+					return "font-bold";
+				default:
+					return "font-normal";
+			}
+		};
+
+		const fontStyleClass = () => {
+			switch (val.fontStyle) {
+				case "normal":
+					return "not-italic";
+				case "italic":
+					return "italic";
+				default:
+					return "not-italic";
+			}
+		};
+
+		const fontSize = fontSizeClass();
+		const fontWeight = fontWeightClass();
+		const fontStyle = fontStyleClass();
+
+		return `${fontSize} ${fontWeight} ${fontStyle}`;
+	};
+
 	return (
 		<section className="bg-white px-4 sm:px-10 py-6">
 			<div className="max-w-screen-lg mx-auto space-y-10">
@@ -55,30 +101,16 @@ const PageBuilder = ({ data }) => {
 										<div key={index}>
 											{val.type == "heading" && (
 												<h2
-													className={`${
-														val.fontSize === "small"
-															? "text-sm"
-															: val.fontSize === "medium"
-															? "text-base"
-															: val.fontSize === "large"
-															? "text-lg"
-															: "text-sm"
-													} text-black font-medium`}
+													className={`${getDynamicClassName(val)} text-black`}
 												>
 													{val.value}
 												</h2>
 											)}
 											{val.type == "paragraph" && (
 												<p
-													className={`${
-														val.fontSize === "small"
-															? "text-sm"
-															: val.fontSize === "medium"
-															? "text-base"
-															: val.fontSize === "large"
-															? "text-lg"
-															: "text-sm"
-													} text-secondary-700`}
+													className={`${getDynamicClassName(
+														val
+													)} text-secondary-700`}
 													dangerouslySetInnerHTML={{
 														__html: val.value,
 													}}
@@ -86,15 +118,9 @@ const PageBuilder = ({ data }) => {
 											)}
 											{val.type == "list" && (
 												<ol
-													className={`${
-														val.fontSize === "small"
-															? "text-sm"
-															: val.fontSize === "medium"
-															? "text-base"
-															: val.fontSize === "large"
-															? "text-lg"
-															: "text-sm"
-													} text-secondary-700`}
+													className={`${getDynamicClassName(
+														val
+													)} text-secondary-700`}
 													style={{
 														listStyle: "inside",
 														listStyleType: "revert",
