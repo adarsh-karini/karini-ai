@@ -1,5 +1,6 @@
 export const announcementsData = [
 	{
+		show: true,
 		type: "announcement",
 		image: "/assets/images/blogs/Streaming-eye-catcher.png",
 		imageWidth: 670,

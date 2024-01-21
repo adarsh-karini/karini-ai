@@ -1,5 +1,6 @@
 export const blogsData = [
 	{
+		show: true,
 		type: "blog",
 		image: "/assets/images/blogs/Industrialize-Generative-AI.png",
 		imageWidth: 400,
