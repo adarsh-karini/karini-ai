@@ -90,7 +90,7 @@ const BlogsandAnn = () => {
 														className={`${
 															blog.type === "blog"
 																? "bg-primary-500"
-																: "bg-green-500"
+																: "bg-[#e100ff]"
 														} text-xs text-white border rounded-full py-1 px-2`}
 													>
 														{blog.type === "blog" ? "blog" : "announcement"}
@@ -99,7 +99,7 @@ const BlogsandAnn = () => {
 														{blog.title}
 													</h3>
 
-													<p className="mt-2 line-clamp-3 text-sm/relaxed text-secondary-700">
+													<p className="mt-2 line-clamp-3 text-base/relaxed text-secondary-700">
 														{blog.description}
 													</p>
 												</div>
@@ -114,7 +114,7 @@ const BlogsandAnn = () => {
 															&rarr;
 														</span>
 													</div>
-													<p className="text-green-600 text-sm">
+													<p className="text-primary-600 text-sm font-medium">
 														{blog.dateandDuration}
 													</p>
 												</div>
