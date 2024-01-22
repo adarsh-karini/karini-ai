@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { Inter, Open_Sans, Poppins } from "next/font/google";
-import BreadCrumb from "@/components/blogs/blog_details/BreadCrumb";
+import BreadCrumb from "@/components/BreadCrumb";
 
-import { blogDetailsData } from "@/content/blogs/blogDetailsData";
+import { blogDetailsData } from "@/content/blogs&announcements/blogDetailsData";
 import BlogPage from "@/components/blogs/blog_details/BlogPage";
 import Head from "next/head";
 import Script from "next/script";
@@ -27,9 +27,11 @@ const Blog = () => {
 	const [blogData, setBlogData] = useState();
 
 	const getBlogData = (id) => {
-		const result = blogDetailsData?.filter((blog) => blog.id === id);
-		setBlogData(result[0]);
+		const [result] = blogDetailsData?.filter((blog) => blog.id === id);
+		setBlogData(result);
 	};
+
+	console.log("blog found", blogData);
 
 	useEffect(() => {
 		getBlogData(blog_id);
@@ -37,52 +39,17 @@ const Blog = () => {
 	return (
 		<>
 			<Head>
-				<title>
-					Industrialize Generative AI: Unlock the Full Potential of AI in
-					Enterprises
-				</title>
-				<meta
-					name="description"
-					content=" Discover how to overcome the challenges of implementing Generative AI in enterprises and unlock its potential. Explore the Generative AI platform by Karini AI for rapid application development and enhanced business operations. Try it now!"
-				/>
+				<title>{blogData?.SEO_data.title}</title>
+				<meta name="description" content={blogData?.SEO_data.content} />
 				<meta name="robots" content="index,follow" />
 
-				<link
-					rel="canonical"
-					href="https://www.karini.ai/blogs/industrialize-generative-ai"
-				/>
+				<link rel="canonical" href={blogData?.SEO_data.canonicalLink} />
 				{/* Schema Markup */}
 				<script
 					id="schema-markup-blog"
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{
-						__html: `
-								{
-									"@context": "https://schema.org",
-									"@type": "BlogPosting",
-									"mainEntityOfPage": {
-									"@type": "WebPage",
-									"@id": "https://www.karini.ai/blogs/industrialize-generative-ai"
-									},
-									"headline": "Industrializing Generative AI",
-									"description": "Announcing Generative AI Platform - designed to accelerate experimentation, expedite market delivery, and bridge the generative AI adoption gap, enabling businesses to harness the full potential of this groundbreaking technology.",
-									"image": "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2Fblog1-img2.jpg&w=640&q=75",
-									"author": {
-									"@type": "Organization",
-									"name": "karini",
-									"url": "https://www.karini.ai/"
-									},
-									"publisher": {
-									"@type": "Organization",
-									"name": "Deepali Rajale",
-									"logo": {
-										"@type": "ImageObject",
-										"url": ""
-									}
-									},
-									"datePublished": "2023-12-25"
-								}
-								`,
+						__html: `${blogData?.SEO_data.schemaMarkup}`,
 					}}
 				></script>
 				{/* End Schema Markup */}
@@ -92,8 +59,8 @@ const Blog = () => {
 			>
 				{/* <BreadCrumb title={blogData?.title} /> */}
 				{/* <SectionOne blogData={blogData} /> */}
-				<BreadCrumb title={"Industrialize Generative AI"} />
-				<BlogPage />
+				<BreadCrumb title={blogData?.title} />
+				<BlogPage blogData={blogData} />
 				<CTA />
 			</div>
 		</>

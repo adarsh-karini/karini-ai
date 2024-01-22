@@ -2,13 +2,13 @@ import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { Inter, Open_Sans, Poppins } from "next/font/google";
 
-import { blogDetailsData } from "@/content/blogs/blogDetailsData";
-import BlogPage from "@/components/blogs/blog_details/BlogPage";
 import Head from "next/head";
 import Script from "next/script";
 import CTA from "@/components/cta/CTA";
 import AnnPage from "@/components/announcements/ann_details/AnnPage";
-import BreadCrumb from "@/components/announcements/ann_details/BreadCrumb";
+import { announcementsData } from "@/content/blogs&announcements/announcementsData";
+import { announcementsDetailsData } from "@/content/blogs&announcements/announcementsDetailsData";
+import BreadCrumb from "@/components/BreadCrumb";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -21,24 +21,28 @@ const openSans = Open_Sans({
 	weight: ["300", "400", "500", "600", "700", "800"],
 });
 
-const Blog = () => {
+const Announcement = () => {
 	const router = useRouter();
 	const { ann_id } = router.query;
 
-	const [blogData, setBlogData] = useState();
+	console.log("ann_id", ann_id);
 
-	const getBlogData = (id) => {
-		const result = blogDetailsData?.filter((blog) => blog.id === id);
-		setBlogData(result[0]);
+	const [annData, setAnnData] = useState();
+
+	const getAnnData = (id) => {
+		const [result] = announcementsDetailsData?.filter((ann) => ann.id === id);
+		setAnnData(result);
 	};
 
+	console.log("ann found", annData);
+
 	useEffect(() => {
-		getBlogData(ann_id);
+		getAnnData(ann_id);
 	}, [ann_id]);
 	return (
 		<>
 			<Head>
-				<title>Karini.ai Launches Streaming for Copilot</title>
+				<title>{annData?.title}</title>
 				<meta
 					name="description"
 					content=" Discover how to overcome the challenges of implementing Generative AI in enterprises and unlock its potential. Explore the Generative AI platform by Karini AI for rapid application development and enhanced business operations. Try it now!"
@@ -90,12 +94,12 @@ const Blog = () => {
 			>
 				{/* <BreadCrumb title={blogData?.title} /> */}
 				{/* <SectionOne blogData={blogData} /> */}
-				<BreadCrumb title={"Streaming for Copilot"} />
-				<AnnPage />
+				<BreadCrumb title={annData?.title} />
+				<AnnPage annData={annData} />
 				<CTA />
 			</div>
 		</>
 	);
 };
 
-export default Blog;
+export default Announcement;
