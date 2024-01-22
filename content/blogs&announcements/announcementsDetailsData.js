@@ -31,39 +31,29 @@ export const announcementsDetailsData = [
 		postedOn: "January 18, 2024",
 		timeToRead: "2 min read",
 		SEO_data: {
-			title: "Karini AI Launches Streaming for Copilot",
-			content:
-				"Karini AI is proud to announce a new feature to help businesses enhance user experiences by replacing the everlasting ellipsis with streaming responses. Following the latest trends in open-source generative artificial intelligence, this leap forward for purpose built enterprise-focused artificial intelligence using natural language questions and answers is evolving CoPilot to the next level.",
-			canonicalLink:
-				"https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot",
-			schemaMarkup: {
-				"@context": "https://schema.org",
-				"@type": "BlogPosting",
-				mainEntityOfPage: {
-					"@type": "WebPage",
-					"@id":
-						"https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot",
-				},
-				headline: "Karini AI Launches Streaming for Copilot",
-				description:
-					"Announcing Generative AI Platform - designed to accelerate experimentation, expedite market delivery, and bridge the generative AI adoption gap, enabling businesses to harness the full potential of this groundbreaking technology.",
-				image:
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2Fblog1-img2.jpg&w=640&q=75",
-				author: {
-					"@type": "Organization",
-					name: "karini",
-					url: "https://www.karini.ai/",
-				},
-				publisher: {
-					"@type": "Organization",
-					name: "Deepali Rajale",
-					logo: {
-						"@type": "ImageObject",
-						url: "",
-					},
-				},
-				datePublished: "2023-12-25",
+			"@context": "https://schema.org",
+			"@type": "NewsArticle",
+			mainEntityOfPage: {
+				"@type": "WebPage",
+				"@id":
+					"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
 			},
+			headline: "Karini AI Launches Streaming for Copilot",
+			image:
+				"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
+			author: {
+				"@type": "",
+				name: "",
+			},
+			publisher: {
+				"@type": "Organization",
+				name: "",
+				logo: {
+					"@type": "ImageObject",
+					url: "",
+				},
+			},
+			datePublished: "2024-01-18",
 		},
 		sections: [
 			{
