@@ -42,49 +42,17 @@ const Announcement = () => {
 	return (
 		<>
 			<Head>
-				<title>{annData?.title}</title>
-				<meta
-					name="description"
-					content=" Discover how to overcome the challenges of implementing Generative AI in enterprises and unlock its potential. Explore the Generative AI platform by Karini AI for rapid application development and enhanced business operations. Try it now!"
-				/>
+				<title>{annData?.SEO_data.title}</title>
+				<meta name="description" content={annData?.SEO_data.content} />
 				<meta name="robots" content="index,follow" />
 
-				<link
-					rel="canonical"
-					href="https://www.karini.ai/blogs/industrialize-generative-ai"
-				/>
+				<link rel="canonical" href={annData?.SEO_data.canonicalLink} />
 				{/* Schema Markup */}
 				<script
 					id="schema-markup-blog"
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{
-						__html: `
-								{
-									"@context": "https://schema.org",
-									"@type": "BlogPosting",
-									"mainEntityOfPage": {
-									"@type": "WebPage",
-									"@id": "https://www.karini.ai/blogs/industrialize-generative-ai"
-									},
-									"headline": "Industrializing Generative AI",
-									"description": "Announcing Generative AI Platform - designed to accelerate experimentation, expedite market delivery, and bridge the generative AI adoption gap, enabling businesses to harness the full potential of this groundbreaking technology.",
-									"image": "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2Fblog1-img2.jpg&w=640&q=75",
-									"author": {
-									"@type": "Organization",
-									"name": "karini",
-									"url": "https://www.karini.ai/"
-									},
-									"publisher": {
-									"@type": "Organization",
-									"name": "Deepali Rajale",
-									"logo": {
-										"@type": "ImageObject",
-										"url": ""
-									}
-									},
-									"datePublished": "2023-12-25"
-								}
-								`,
+						__html: `${annData?.SEO_data.schemaMarkup}`,
 					}}
 				></script>
 				{/* End Schema Markup */}
