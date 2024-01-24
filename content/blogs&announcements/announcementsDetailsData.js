@@ -31,29 +31,36 @@ export const announcementsDetailsData = [
 		postedOn: "January 18, 2024",
 		timeToRead: "2 min read",
 		SEO_data: {
-			"@context": "https://schema.org",
-			"@type": "NewsArticle",
-			mainEntityOfPage: {
-				"@type": "WebPage",
-				"@id":
-					"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
-			},
-			headline: "Karini AI Launches Streaming for Copilot",
-			image:
+			title: "Karini AI Launches Streaming for Copilot",
+			content:
+				"Karini AI is proud to announce a new feature to help businesses enhance user experiences by replacing the everlasting ellipsis with streaming responses.  Following the latest trends in open-source generative artificial intelligence, this leap forward for purpose built enterprise-focused artificial intelligence using natural language questions and answers is evolving CoPilot to the next level.",
+			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
-			author: {
-				"@type": "",
-				name: "",
-			},
-			publisher: {
-				"@type": "Organization",
-				name: "",
-				logo: {
-					"@type": "ImageObject",
-					url: "",
+			schemaMarkup: {
+				"@context": "https://schema.org",
+				"@type": "NewsArticle",
+				mainEntityOfPage: {
+					"@type": "WebPage",
+					"@id":
+						"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
 				},
+				headline: "Karini AI Launches Streaming for Copilot",
+				image:
+					"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
+				author: {
+					"@type": "",
+					name: "",
+				},
+				publisher: {
+					"@type": "Organization",
+					name: "",
+					logo: {
+						"@type": "ImageObject",
+						url: "",
+					},
+				},
+				datePublished: "2024-01-18",
 			},
-			datePublished: "2024-01-18",
 		},
 		sections: [
 			{
