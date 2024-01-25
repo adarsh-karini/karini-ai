@@ -117,4 +117,97 @@ export const announcementsDetailsData = [
 			},
 		],
 	},
+	{
+		type: "announcement",
+		id: "karini-ai-unveils-enhanced-prompt-playground",
+		title: "Karini AI unveils enhanced Prompt Playground, inviting Industry Experts to engage in Gen AI development",
+		postedOn: "January 22, 2024",
+		timeToRead: "2 min read",
+		SEO_data: {
+			title: "Karini AI unveils enhanced Prompt Playground, inviting Industry Experts to engage in Gen AI development",
+			content:
+				"Karini AI announces advanced prompt playground, encouringing industry experts to delve into the craft of prompt creation. This enhanced playground provides ready-to-use templates, user-friendly prompt creation, and a testing framework for model comparison. This allows business and technical users to quickly evaluate prompt efficacy and model performance, making the most of their domain expertise in crafting prompts.",
+			canonicalLink:
+				"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
+			schemaMarkup: {
+				"@context": "https://schema.org",
+				"@type": "NewsArticle",
+				mainEntityOfPage: {
+					"@type": "WebPage",
+					"@id":
+						"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
+				},
+				headline: "Karini AI evolves the Prompting Experience with the Latest Playground",
+				image:
+					"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
+				author: {
+					"@type": "",
+					name: "",
+				},
+				publisher: {
+					"@type": "Organization",
+					name: "",
+					logo: {
+						"@type": "ImageObject",
+						url: "",
+					},
+				},
+				datePublished: "2024-01-22",
+			},
+		},
+		sections: [
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Karini AI announces advanced prompt playground, encouringing industry experts to delve into the craft of prompt creation. This enhanced playground provides ready-to-use templates, user-friendly prompt creation, and a testing framework for model comparison. This allows business and technical users to quickly evaluate prompt efficacy and model performance, making the most of their domain expertise in crafting prompts.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Today, prompt engineering is one of the most critical steps to harness the power of large language models. With the rapid proliferation of the LLM ecosystem providers such as Amazon Bedrock, Databricks, Anyscale, and others following the trail blazed by OpenAI, it has become increasingly important to understand the comparative responses to select the best model for the task. Generative AI drives more domain experts and business users to take up prompt engineering as they understand enterprise data better than their technical counterparts. While other prompt playgrounds are available in the market, they lack intuitive features for domain experts to build complex prompts and are typically not integrated within the Generative AI application-building process.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Karini AI provides the first playground that enables domain experts to become prompt engineers with a guided experience using built-in prompt templates to initiate the prompt-building process and quickly compare the prompts against authorized models for quality of responses, number of tokens, and response time to select the best prompt. This enables domain experts to excel in prompt engineering, effectively utilizing their specialized knowledge in prompt creation. Moreover, Generative AI applications can use these prompts with our drag-and-drop recipes to build the applications in minutes. See it in action below and contact us for more information.",
+					},
+				],
+			},
+
+			{
+				group: true,
+				data: [
+					{
+						type: type.gif,
+						path: "/gif/karini_prompt_playground_demo.gif",
+						caption: "",
+						width: 600,
+						height: 700,
+					},
+				],
+			},
+		],
+	},
 ];
