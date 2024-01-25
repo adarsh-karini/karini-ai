@@ -98,7 +98,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							"We are excited to share that Karini AI’s CoPilot now supports the streaming experience for almost all SOTA model providers, citations (references), and optional follow-up questions. The feature is vital as it delivers a uniform user experience when enterprises switch between model providers for A/B testing and model upgrades. Available now and out of the box without any additional setup. See it in action below and contact us for more information.",
+							"We are excited to share that Karini AI’s copilot now supports the streaming experience for almost all SOTA model providers, citations (references), and optional follow-up questions. The feature is vital as it delivers a uniform user experience when enterprises switch between model providers for A/B testing and model upgrades. Available now and out of the box without any additional setup. See it in action below and contact us for more information.",
 					},
 				],
 			},
@@ -120,11 +120,11 @@ export const announcementsDetailsData = [
 	{
 		type: "announcement",
 		id: "karini-ai-unveils-enhanced-prompt-playground",
-		title: "Karini AI unveils enhanced Prompt Playground, inviting Industry Experts to engage in Gen AI development",
+		title: "Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
 		postedOn: "January 22, 2024",
 		timeToRead: "2 min read",
 		SEO_data: {
-			title: "Karini AI unveils enhanced Prompt Playground, inviting Industry Experts to engage in Gen AI development",
+			title: "Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
 			content:
 				"Karini AI announces advanced prompt playground, encouringing industry experts to delve into the craft of prompt creation. This enhanced playground provides ready-to-use templates, user-friendly prompt creation, and a testing framework for model comparison. This allows business and technical users to quickly evaluate prompt efficacy and model performance, making the most of their domain expertise in crafting prompts.",
 			canonicalLink:
@@ -137,7 +137,7 @@ export const announcementsDetailsData = [
 					"@id":
 						"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
 				},
-				headline: "Karini AI evolves the Prompting Experience with the Latest Playground",
+				headline: "Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
 				image:
 					"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
 				author: {
