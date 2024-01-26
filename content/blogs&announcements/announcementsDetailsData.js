@@ -25,7 +25,7 @@ let fontStyle = {
 
 export const announcementsDetailsData = [
 	{
-		type: "announcements",
+		type: "announcement",
 		id: "karini-ai-launches-streaming-for-copilot",
 		breadCrumbTitle: "Karini AI Launches Streaming for Copilot",
 		title: "Karini AI Launches Streaming for Copilot",
@@ -119,7 +119,7 @@ export const announcementsDetailsData = [
 		],
 	},
 	{
-		type: "announcements",
+		type: "announcement",
 		id: "karini-ai-unveils-enhanced-prompt-playground",
 		breadCrumbTitle: "Karini AI Unveils Enhanced Prompt PlayGround",
 		title:
@@ -216,7 +216,148 @@ export const announcementsDetailsData = [
 		],
 	},
 	{
-		type: "announcements",
+		type: "announcement",
+		id: "karini-ai-embarks-on-a-new-partnership-with-databricks",
+		title: "Karini AI Embarks on a New Partnership with Databricks",
+		postedOn: "November 14, 2023",
+		timeToRead: "2 min read",
+		SEO_data: {
+			title: "Karini AI Embarks on a New Partnership with Databricks",
+			content:
+				'We are excited to announce a dynamic new partnership between Karini AI and <a href="https://www.databricks.com/" target="_blank" class="text-blue-600 hover:underline">Databricks</a> effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers.',
+			canonicalLink:
+				"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
+			schemaMarkup: {
+				"@context": "https://schema.org",
+				"@type": "NewsArticle",
+				mainEntityOfPage: {
+					"@type": "WebPage",
+					"@id":
+						"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
+				},
+				headline: "Karini AI Embarks on a New Partnership with Databricks",
+				image:
+					"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
+				author: {
+					"@type": "",
+					name: "",
+				},
+				publisher: {
+					"@type": "Organization",
+					name: "",
+					logo: {
+						"@type": "ImageObject",
+						url: "",
+					},
+				},
+				datePublished: "2023-11-14",
+			},
+		},
+		sections: [
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							'We are excited to announce a dynamic new partnership between Karini AI and <a href="https://www.databricks.com/" target="_blank" class="text-blue-600 hover:underline">Databricks</a> effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers.',
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"This partnership is pivotal in our mission to provide an industrialized Generative AI platform using no code experience to existing Databricks customers. The joint solution will utilize Databricks capabilities such as Vector Search, Foundation Models, and powerful distributed data processing runtime coupled with Karini AI’s visual Generative AI experience to quickly productionalize Generative AI workflows.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "What this means for our customers:",
+					},
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"<ul style='list-style: inside; list-style-type: disc;'><li><strong>Rapid prototyping:</strong> The Karini AI platform offers no code visual interface to build Generative AI applications. Customers can rapidly connect their Databricks workspaces to Karini AI to prototype their ideas.</li></ul><li><strong>Distributed processing: </strong>Databricks offers distributed runtime for the parallel processing of big datasets. Karini AI will leverage Databricks runtime to create LLM-ready data.</li><li><strong>Multi-cloud deployment: </strong>Customers can leverage best-of-breed capabilities using Databricks multi-cloud architecture and Karini AI's Generative AI control layer.</li><li><strong>Faster pilot to production: </strong>Karini AI enables built-in LLMOps and observability capabilities. Customers can promote their pilots to production with a single click and continuously monitor the quality of their applications.</li></ul>",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Key Benefits of the Partnership:",
+					},
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"<ul style='list-style: inside; list-style-type: disc;'><li><strong>Seamless Data Experience:</strong> We are committed to delivering democratized generative AI with a no-code platform that provides a seamless experience for business users, data scientists, and engineers alike, facilitating an environment where they can work collaboratively and efficiently.</li></ul><li><strong>Robust AI Solutions: </strong>Our collaboration is set to revolutionize how businesses leverage Gen AI, offering strong, user-friendly, and highly adaptable solutions to various industry needs.</li><li><strong>Innovative Approach: </strong>Karini AI and Databricks are pushing the boundaries of what's possible in Gen AI, fostering continuous innovation and development.</li></ul>",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"As we move forward, we are eager to see this partnership's transformative impact across various sectors. Our teams are already working closely to integrate our technologies and create solutions that will redefine the landscape of enterprise Gen AI Applications.",
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Stay tuned for updates on new capabilities and services that will emerge from this collaboration.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Together with Databricks, we are not just embracing the future of AI; we are evolving it.",
+					},
+				],
+			},
+		],
+	},
+	{
+		type: "announcement",
 		id: "karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 		breadCrumbTitle:
 			"Karini AI Joins Forces with AWS as an Independent Software Vendor",
@@ -255,7 +396,7 @@ export const announcementsDetailsData = [
 						url: "",
 					},
 				},
-				datePublished: "2024-01-22",
+				datePublished: "2023-10-16",
 			},
 		},
 		sections: [

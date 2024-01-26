@@ -31,12 +31,12 @@ export const announcementsData = [
 	{
 		show: true,
 		type: "announcement",
-		image: "/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png",
-		imageWidth: 500,
-		imageHeight: 500,
+		image: "/assets/images/blogs/Databricks_Partnership.png",
+		imageWidth: 530,
+		imageHeight: 530,
 		title: "Karini AI Embarks on a New Partnership with Databricks",
 		description:
-			"We are thrilled to announce that Karini AI has officially partnered with Amazon Web Services (AWS) as an Independent Software Vendor (ISV). This strategic partnership, effective from October 16, 2023, marks a significant milestone in our journey towards innovation and excellence.",
+			"We are excited to announce a dynamic new partnership between Karini AI and Databricks effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers.",
 		tag: "Gen AI",
 		date: "Nov 14th, 2023",
 		timeToRead: "2 min read",

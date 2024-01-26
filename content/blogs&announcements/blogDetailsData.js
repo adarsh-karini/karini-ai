@@ -25,7 +25,7 @@ let fontStyle = {
 
 export const blogDetailsData = [
 	{
-		type: "blogs",
+		type: "blog",
 		id: "industrialize-generative-ai",
 		breadCrumbTitle: "Industrialize Generative AI",
 		title: "Industrialize Generative AI",
