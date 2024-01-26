@@ -23,10 +23,14 @@ const BlogsandAnn = () => {
 
 		let allBlogs = [...announcements, ...blogs];
 
+		let sortedBlogsByDate = allBlogs.sort((a, b) =>
+			moment(b.date, "MMM Do, YYYY").diff(moment(a.date, "MMM Do, YYYY"))
+		);
+
 		// let blogTypes = Array.from(new Set(allBlogs.map((blog) => blog.type)));
 
 		if (activeFilter === "all") {
-			setFilteredBlogs(allBlogs);
+			setFilteredBlogs(sortedBlogsByDate);
 		} else if (activeFilter === "blogs") {
 			setFilteredBlogs(blogs);
 		} else if (activeFilter === "announcements") {
@@ -46,6 +50,8 @@ const BlogsandAnn = () => {
 		let sortedBlogsByDate = allBlogs.sort((a, b) =>
 			moment(b.date, "MMM Do, YYYY").diff(moment(a.date, "MMM Do, YYYY"))
 		);
+
+		// console.log("sortedBlogsByDate", sortedBlogsByDate);
 
 		setFilteredBlogs(sortedBlogsByDate);
 	}, []);
