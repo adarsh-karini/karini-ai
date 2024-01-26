@@ -99,7 +99,7 @@ const BlogsandAnn = () => {
 														{blog.title}
 													</h3>
 
-													<p className="mt-2 line-clamp-3 text-base/relaxed text-secondary-700">
+													<p className="mt-2 line-clamp-3 text-base text-secondary-700">
 														{blog.description}
 													</p>
 												</div>
