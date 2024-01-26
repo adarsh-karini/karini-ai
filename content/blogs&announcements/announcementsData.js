@@ -33,7 +33,7 @@ export const announcementsData = [
 		imageHeight: 530,
 		title: "Karini AI Embarks on a New Partnership with Databricks",
 		description:
-			"We are excited to announce a dynamic new partnership between Karini AI and Databricks effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers",
+			"We are excited to announce a dynamic new partnership between Karini AI and Databricks effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers.",
 		tag: "Gen AI",
 		dateandDuration: "Nov 14th, 2023 | 2 min read",
 		path: "/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",

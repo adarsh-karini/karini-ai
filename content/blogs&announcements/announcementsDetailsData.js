@@ -222,7 +222,7 @@ export const announcementsDetailsData = [
 		SEO_data: {
 			title: "Karini AI Embarks on a New Partnership with Databricks",
 			content:
-			'We are excited to announce a dynamic new partnership between Karini AI and <a href="https://www.databricks.com/" target="_blank" class="text-blue-600 hover:underline">Databricks</a> effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers',
+			'We are excited to announce a dynamic new partnership between Karini AI and <a href="https://www.databricks.com/" target="_blank" class="text-blue-600 hover:underline">Databricks</a> effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers.',
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
 			schemaMarkup: {
@@ -261,7 +261,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							'We are excited to announce a dynamic new partnership between Karini AI and <a href="https://www.databricks.com/" target="_blank" class="text-blue-600 hover:underline">Databricks</a> effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers',
+							'We are excited to announce a dynamic new partnership between Karini AI and <a href="https://www.databricks.com/" target="_blank" class="text-blue-600 hover:underline">Databricks</a> effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers.',
 					},
 				],
 			},
