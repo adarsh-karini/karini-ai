@@ -120,11 +120,13 @@ export const announcementsDetailsData = [
 	{
 		type: "announcement",
 		id: "karini-ai-unveils-enhanced-prompt-playground",
-		title: "Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
+		title:
+			"Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
 		postedOn: "January 22, 2024",
 		timeToRead: "2 min read",
 		SEO_data: {
-			title: "Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
+			title:
+				"Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
 			content:
 				"Karini AI announces advanced prompt playground, encouringing industry experts to delve into the craft of prompt creation. This enhanced playground provides ready-to-use templates, user-friendly prompt creation, and a testing framework for model comparison. This allows business and technical users to quickly evaluate prompt efficacy and model performance, making the most of their domain expertise in crafting prompts.",
 			canonicalLink:
@@ -137,7 +139,8 @@ export const announcementsDetailsData = [
 					"@id":
 						"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
 				},
-				headline: "Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
+				headline:
+					"Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
 				image:
 					"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
 				author: {
@@ -213,11 +216,13 @@ export const announcementsDetailsData = [
 	{
 		type: "announcement",
 		id: "karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
-		title: "Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
+		title:
+			"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
 		postedOn: "October 16, 2023",
 		timeToRead: "2 min read",
 		SEO_data: {
-			title: "Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
+			title:
+				"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
 			content:
 				"We are thrilled to announce that Karini AI has officially partnered with Amazon Web Services (AWS) as an Independent Software Vendor (ISV). This strategic partnership, effective from October 16, 2023, marks a significant milestone in our journey towards innovation and excellence.",
 			canonicalLink:
@@ -230,7 +235,8 @@ export const announcementsDetailsData = [
 					"@id":
 						"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 				},
-				headline: "Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
+				headline:
+					"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
 				image:
 					"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 				author: {
@@ -296,8 +302,7 @@ export const announcementsDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:
-							'Here’s what you can expect from Karini AI and AWS:',
+						value: "Here’s what you can expect from Karini AI and AWS:",
 					},
 					{
 						type: type.list,
@@ -305,9 +310,9 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							"<ul><li><strong>Enhanced Performance:</strong> By integrating our AI solutions with AWS’s robust cloud infrastructure, we're set to offer unparalleled performance and reliability.</li><li><strong>Scalability: </strong>Whether you're a startup or an enterprise, our services will scale with your needs, thanks to the elasticity of AWS.</li><li><strong>Security: </strong>AWS's comprehensive security features will ensure the highest level of data protection for our clients' sensitive information.</li><li><strong>Innovation: </strong>This partnership fosters an environment for continuous innovation, where Karini.ai can develop and deploy cutting-edge features faster than ever.</li></ul>",
+							"<ul style='list-style: inside; list-style-type: disc;'><li><strong>Enhanced Performance:</strong> By integrating our AI solutions with AWS’s robust cloud infrastructure, we're set to offer unparalleled performance and reliability.</li><li><strong>Scalability: </strong>Whether you're a startup or an enterprise, our services will scale with your needs, thanks to the elasticity of AWS.</li><li><strong>Security: </strong>AWS's comprehensive security features will ensure the highest level of data protection for our clients' sensitive information.</li><li><strong>Innovation: </strong>This partnership fosters an environment for continuous innovation, where Karini.ai can develop and deploy cutting-edge features faster than ever.</li></ul>",
 					},
-				]
+				],
 			},
 			{
 				group: true,

@@ -117,18 +117,16 @@ const PageBuilder = ({ data }) => {
 												></p>
 											)}
 											{val.type == "list" && (
-												<ol
-													className={`${getDynamicClassName(
-														val
-													)} text-secondary-700`}
-													style={{
-														listStyle: "inside",
-														listStyleType: "revert",
-													}}
-													dangerouslySetInnerHTML={{
-														__html: val.value,
-													}}
-												></ol>
+												<>
+													<div
+														className={`${getDynamicClassName(
+															val
+														)} text-secondary-700 list-disc`}
+														dangerouslySetInnerHTML={{
+															__html: val.value,
+														}}
+													></div>
+												</>
 											)}
 											{val.type == "image" && (
 												<div className="space-y-1">
