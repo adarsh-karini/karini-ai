@@ -25,8 +25,9 @@ let fontStyle = {
 
 export const announcementsDetailsData = [
 	{
-		type: "announcement",
+		type: "announcements",
 		id: "karini-ai-launches-streaming-for-copilot",
+		breadCrumbTitle: "Karini AI Launches Streaming for Copilot",
 		title: "Karini AI Launches Streaming for Copilot",
 		postedOn: "January 18, 2024",
 		timeToRead: "2 min read",
@@ -118,8 +119,9 @@ export const announcementsDetailsData = [
 		],
 	},
 	{
-		type: "announcement",
+		type: "announcements",
 		id: "karini-ai-unveils-enhanced-prompt-playground",
+		breadCrumbTitle: "Karini AI Unveils Enhanced Prompt PlayGround",
 		title:
 			"Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
 		postedOn: "January 22, 2024",
@@ -214,8 +216,10 @@ export const announcementsDetailsData = [
 		],
 	},
 	{
-		type: "announcement",
+		type: "announcements",
 		id: "karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+		breadCrumbTitle:
+			"Karini AI Joins Forces with AWS as an Independent Software Vendor",
 		title:
 			"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
 		postedOn: "October 16, 2023",

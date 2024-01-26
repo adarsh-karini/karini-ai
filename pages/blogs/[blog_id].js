@@ -31,8 +31,6 @@ const Blog = () => {
 		setBlogData(result);
 	};
 
-	console.log("blog found", blogData);
-
 	useEffect(() => {
 		getBlogData(blog_id);
 	}, [blog_id]);
@@ -59,7 +57,7 @@ const Blog = () => {
 			>
 				{/* <BreadCrumb title={blogData?.title} /> */}
 				{/* <SectionOne blogData={blogData} /> */}
-				<BreadCrumb title={blogData?.title} />
+				<BreadCrumb title={blogData?.breadCrumbTitle} />
 				<BlogPage blogData={blogData} />
 				<CTA />
 			</div>
