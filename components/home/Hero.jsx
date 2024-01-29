@@ -56,11 +56,6 @@ const Hero = () => {
 		},
 	];
 
-	const handleSubmit = (e) => {
-		e.preventDefault();
-		console.log("submit");
-	};
-
 	return (
 		<header>
 			<div className="relative bg-dark overflow-hidden px-4 py-20">

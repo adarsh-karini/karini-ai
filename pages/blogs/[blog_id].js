@@ -31,8 +31,6 @@ const Blog = () => {
 		setBlogData(result);
 	};
 
-	console.log("blog found", blogData);
-
 	useEffect(() => {
 		getBlogData(blog_id);
 	}, [blog_id]);
@@ -52,14 +50,31 @@ const Blog = () => {
 						__html: `${blogData?.SEO_data.schemaMarkup}`,
 					}}
 				></script>
+				<script
+					async
+					type="application/javascript"
+					src="https://news.google.com/swg/js/v1/swg-basic.js"
+				></script>
 				{/* End Schema Markup */}
+				<script>
+					{(self.SWG_BASIC = self.SWG_BASIC || []).push(
+						(basicSubscriptions) => {
+							basicSubscriptions.init({
+								type: "NewsArticle",
+								isPartOfType: ["Product"],
+								isPartOfProductId: "CAowwoDWCw:openaccess",
+								clientOptions: { theme: "light", lang: "en" },
+							});
+						}
+					)}
+				</script>
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				{/* <BreadCrumb title={blogData?.title} /> */}
 				{/* <SectionOne blogData={blogData} /> */}
-				<BreadCrumb title={blogData?.title} />
+				<BreadCrumb title={blogData?.breadCrumbTitle} />
 				<BlogPage blogData={blogData} />
 				<CTA />
 			</div>

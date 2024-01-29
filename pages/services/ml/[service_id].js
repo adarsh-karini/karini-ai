@@ -23,7 +23,6 @@ const Service = () => {
 
 	const getServiceData = (id) => {
 		const result = mlServicesData?.filter((service) => service.id === id);
-		console.log("hi44", result);
 		setService(result[0]);
 	};
 

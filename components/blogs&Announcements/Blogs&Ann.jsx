@@ -1,14 +1,17 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
-import { blogsData } from "@/content/blogs&announcements/blogsData";
+import {
+	blogsData,
+	blogsFilterArray,
+} from "@/content/blogs&announcements/blogsData";
 import Image from "next/image";
 import { announcementsData } from "@/content/blogs&announcements/announcementsData";
+import moment from "moment";
 
 const BlogsandAnn = () => {
-	const [activeFilter, setActiveFilter] = useState(0);
-	let filterButtons = ["all", "blogs", "announcements"];
-
+	const [activeFilter, setActiveFilter] = useState("all");
+	let filterButtons = blogsFilterArray;
 	const [filteredBlogs, setFilteredBlogs] = useState([]);
 
 	useEffect(() => {
@@ -19,24 +22,44 @@ const BlogsandAnn = () => {
 
 		let allBlogs = [...announcements, ...blogs];
 
-		if (activeFilter === 0) {
-			setFilteredBlogs(allBlogs);
-		} else if (activeFilter === 1) {
-			setFilteredBlogs(blogs);
-		} else if (activeFilter === 2) {
-			setFilteredBlogs(announcements);
+		let sortedBlogsByDate = (blogs) => {
+			let result = blogs.sort((a, b) =>
+				moment(b.date, "MMM Do, YYYY").diff(moment(a.date, "MMM Do, YYYY"))
+			);
+
+			return result;
+		};
+
+		let blogTypes = Array.from(
+			new Set(allBlogs.map((blog) => blog.filterName))
+		);
+		console.log("blogTypes", blogTypes);
+
+		if (activeFilter === "all") {
+			setFilteredBlogs(sortedBlogsByDate(allBlogs));
+		} else if (activeFilter === "blogs") {
+			setFilteredBlogs(sortedBlogsByDate(blogs));
+		} else if (activeFilter === "announcements") {
+			setFilteredBlogs(sortedBlogsByDate(announcements));
 		}
 	}, [activeFilter]);
 
 	useEffect(() => {
+		let blogs = blogsData.filter((blog) => blog.show);
+
 		let announcements = announcementsData.filter(
 			(announcement) => announcement.show
 		);
-		let blogs = blogsData.filter((blog) => blog.show);
 
-		let allBlogs = [...announcements, ...blogs];
+		let allBlogs = [...blogs, ...announcements];
 
-		setFilteredBlogs(allBlogs);
+		let sortedBlogsByDate = allBlogs.sort((a, b) =>
+			moment(b.date, "MMM Do, YYYY").diff(moment(a.date, "MMM Do, YYYY"))
+		);
+
+		// console.log("sortedBlogsByDate", sortedBlogsByDate);
+
+		setFilteredBlogs(sortedBlogsByDate);
 	}, []);
 
 	return (
@@ -53,11 +76,11 @@ const BlogsandAnn = () => {
 								<button
 									key={index}
 									className={`${
-										activeFilter === index
+										activeFilter === button
 											? "bg-primary-600 text-white"
 											: "bg-secondary-50 text-secondary-700 hover:bg-primary-100"
 									} text-sm px-2 py-1 rounded border transition-all`}
-									onClick={() => setActiveFilter(index)}
+									onClick={() => setActiveFilter(button)}
 								>
 									{button}
 								</button>
@@ -114,8 +137,10 @@ const BlogsandAnn = () => {
 															&rarr;
 														</span>
 													</div>
-													<p className="text-primary-600 text-sm font-medium">
-														{blog.dateandDuration}
+													<p className="text-primary-600 text-sm font-medium space-x-2">
+														<span>{blog.date}</span>
+														<span>|</span>
+														<span>{blog.timeToRead}</span>
 													</p>
 												</div>
 											</div>

@@ -25,16 +25,12 @@ const Announcement = () => {
 	const router = useRouter();
 	const { ann_id } = router.query;
 
-	console.log("ann_id", ann_id);
-
 	const [annData, setAnnData] = useState();
 
 	const getAnnData = (id) => {
 		const [result] = announcementsDetailsData?.filter((ann) => ann.id === id);
 		setAnnData(result);
 	};
-
-	console.log("ann found", annData);
 
 	useEffect(() => {
 		getAnnData(ann_id);
@@ -56,13 +52,25 @@ const Announcement = () => {
 					}}
 				></script>
 				{/* End Schema Markup */}
+				<script>
+					{(self.SWG_BASIC = self.SWG_BASIC || []).push(
+						(basicSubscriptions) => {
+							basicSubscriptions.init({
+								type: "NewsArticle",
+								isPartOfType: ["Product"],
+								isPartOfProductId: "CAowwoDWCw:openaccess",
+								clientOptions: { theme: "light", lang: "en" },
+							});
+						}
+					)}
+				</script>
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				{/* <BreadCrumb title={blogData?.title} /> */}
 				{/* <SectionOne blogData={blogData} /> */}
-				<BreadCrumb title={annData?.title} />
+				<BreadCrumb title={annData?.breadCrumbTitle} />
 				<AnnPage annData={annData} />
 				<CTA />
 			</div>

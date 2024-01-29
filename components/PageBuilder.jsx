@@ -2,8 +2,6 @@ import Image from "next/image";
 import React from "react";
 
 const PageBuilder = ({ data }) => {
-	console.log("page data", data);
-
 	const getDynamicClassName = (val) => {
 		const fontSizeClass = () => {
 			switch (val.fontSize) {

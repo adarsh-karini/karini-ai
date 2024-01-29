@@ -27,6 +27,7 @@ export const blogDetailsData = [
 	{
 		type: "blog",
 		id: "industrialize-generative-ai",
+		breadCrumbTitle: "Industrialize Generative AI",
 		title: "Industrialize Generative AI",
 		publishedOn: "January 2, 2024",
 		author: "Deepali Rajale",

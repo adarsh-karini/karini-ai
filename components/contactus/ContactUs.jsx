@@ -37,7 +37,7 @@ const ContactUs = () => {
 
 			const res = await axios.post(apiEndpoint, contactData);
 
-			console.log("Response Data:", res);
+			// console.log("Response Data:", res);
 			setShow("success");
 		} catch (error) {
 			setShow("failed");

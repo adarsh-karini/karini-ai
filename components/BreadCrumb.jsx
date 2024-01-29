@@ -12,7 +12,7 @@ const BreadCrumb = ({ title }) => {
 			<div className="flex items-center space-x-2 text-sm">
 				<CgArrowLeft size={20} className="text-primary-600" />
 				<Link href={"/blogs"}>
-					<span className="text-primary-600 text-sm font-medium cursor-pointer hover:underline">
+					<span className="text-primary-600 text-sm whitespace-nowrap font-medium cursor-pointer hover:underline">
 						Go back
 					</span>
 				</Link>
