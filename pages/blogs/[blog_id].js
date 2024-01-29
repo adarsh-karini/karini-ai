@@ -56,18 +56,18 @@ const Blog = () => {
 					src="https://news.google.com/swg/js/v1/swg-basic.js"
 				></script>
 				{/* End Schema Markup */}
-				<script>
-					{(self.SWG_BASIC = self.SWG_BASIC || []).push(
-						(basicSubscriptions) => {
-							basicSubscriptions.init({
-								type: "NewsArticle",
-								isPartOfType: ["Product"],
-								isPartOfProductId: "CAowwoDWCw:openaccess",
-								clientOptions: { theme: "light", lang: "en" },
-							});
-						}
-					)}
-				</script>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `(window.SWG_BASIC = window.SWG_BASIC || []).push((basicSubscriptions) => {
+								basicSubscriptions.init({
+									type: "NewsArticle",
+									isPartOfType: ["Product"],
+									isPartOfProductId: "CAowwoDWCw:openaccess",
+									clientOptions: { theme: "light", lang: "en" },
+								});
+							});`,
+					}}
+				/>
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
