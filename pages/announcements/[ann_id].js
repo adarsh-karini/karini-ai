@@ -53,7 +53,7 @@ const Announcement = () => {
 				></script>
 				{/* End Schema Markup */}
 				<script>
-					{(self.SWG_BASIC = self.SWG_BASIC || []).push(
+					{(window.self.SWG_BASIC = window.self.SWG_BASIC || []).push(
 						(basicSubscriptions) => {
 							basicSubscriptions.init({
 								type: "NewsArticle",
