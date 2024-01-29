@@ -52,18 +52,18 @@ const Announcement = () => {
 					}}
 				></script>
 				{/* End Schema Markup */}
-				<script>
-					{(window.self.SWG_BASIC = window.self.SWG_BASIC || []).push(
-						(basicSubscriptions) => {
-							basicSubscriptions.init({
-								type: "NewsArticle",
-								isPartOfType: ["Product"],
-								isPartOfProductId: "CAowwoDWCw:openaccess",
-								clientOptions: { theme: "light", lang: "en" },
-							});
-						}
-					)}
-				</script>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `(window.SWG_BASIC = window.SWG_BASIC || []).push((basicSubscriptions) => {
+								basicSubscriptions.init({
+									type: "NewsArticle",
+									isPartOfType: ["Product"],
+									isPartOfProductId: "CAowwoDWCw:openaccess",
+									clientOptions: { theme: "light", lang: "en" },
+								});
+							});`,
+					}}
+				/>
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
