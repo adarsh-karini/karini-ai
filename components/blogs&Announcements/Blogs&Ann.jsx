@@ -12,7 +12,6 @@ import moment from "moment";
 const BlogsandAnn = () => {
 	const [activeFilter, setActiveFilter] = useState("all");
 	let filterButtons = blogsFilterArray;
-
 	const [filteredBlogs, setFilteredBlogs] = useState([]);
 
 	useEffect(() => {
@@ -23,18 +22,25 @@ const BlogsandAnn = () => {
 
 		let allBlogs = [...announcements, ...blogs];
 
-		let sortedBlogsByDate = allBlogs.sort((a, b) =>
-			moment(b.date, "MMM Do, YYYY").diff(moment(a.date, "MMM Do, YYYY"))
-		);
+		let sortedBlogsByDate = (blogs) => {
+			let result = blogs.sort((a, b) =>
+				moment(b.date, "MMM Do, YYYY").diff(moment(a.date, "MMM Do, YYYY"))
+			);
 
-		// let blogTypes = Array.from(new Set(allBlogs.map((blog) => blog.type)));
+			return result;
+		};
+
+		let blogTypes = Array.from(
+			new Set(allBlogs.map((blog) => blog.filterName))
+		);
+		console.log("blogTypes", blogTypes);
 
 		if (activeFilter === "all") {
-			setFilteredBlogs(sortedBlogsByDate);
+			setFilteredBlogs(sortedBlogsByDate(allBlogs));
 		} else if (activeFilter === "blogs") {
-			setFilteredBlogs(blogs);
+			setFilteredBlogs(sortedBlogsByDate(blogs));
 		} else if (activeFilter === "announcements") {
-			setFilteredBlogs(announcements);
+			setFilteredBlogs(sortedBlogsByDate(announcements));
 		}
 	}, [activeFilter]);
 

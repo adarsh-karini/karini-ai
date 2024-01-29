@@ -3,6 +3,7 @@ export const blogsFilterArray = ["all", "blogs", "announcements"];
 export const blogsData = [
 	{
 		show: true,
+		filterName: "blogs",
 		type: "blog",
 		image: "/assets/images/blogs/Industrialize-Generative-AI.png",
 		imageWidth: 400,

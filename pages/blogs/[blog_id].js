@@ -50,7 +50,24 @@ const Blog = () => {
 						__html: `${blogData?.SEO_data.schemaMarkup}`,
 					}}
 				></script>
+				<script
+					async
+					type="application/javascript"
+					src="https://news.google.com/swg/js/v1/swg-basic.js"
+				></script>
 				{/* End Schema Markup */}
+				<script>
+					{(self.SWG_BASIC = self.SWG_BASIC || []).push(
+						(basicSubscriptions) => {
+							basicSubscriptions.init({
+								type: "NewsArticle",
+								isPartOfType: ["Product"],
+								isPartOfProductId: "CAowwoDWCw:openaccess",
+								clientOptions: { theme: "light", lang: "en" },
+							});
+						}
+					)}
+				</script>
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}

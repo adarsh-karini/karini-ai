@@ -1,6 +1,7 @@
 export const announcementsData = [
 	{
 		show: true,
+		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Karini_Evolves_Prompting_Experience.png",
 		imageWidth: 730,
@@ -16,6 +17,7 @@ export const announcementsData = [
 	},
 	{
 		show: true,
+		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Streaming-eye-catcher.png",
 		imageWidth: 670,
@@ -30,6 +32,7 @@ export const announcementsData = [
 	},
 	{
 		show: true,
+		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Databricks_Partnership.png",
 		imageWidth: 530,
@@ -44,6 +47,7 @@ export const announcementsData = [
 	},
 	{
 		show: true,
+		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png",
 		imageWidth: 500,
