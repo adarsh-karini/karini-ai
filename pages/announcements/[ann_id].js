@@ -52,7 +52,18 @@ const Announcement = () => {
 					}}
 				></script>
 				{/* End Schema Markup */}
-				<script
+				
+			</Head>
+			<body
+				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
+			>
+				{/* <BreadCrumb title={blogData?.title} /> */}
+				{/* <SectionOne blogData={blogData} /> */}
+				<BreadCrumb title={annData?.breadCrumbTitle} />
+				<AnnPage annData={annData} />
+				<CTA />
+				<Script
+				id="ann-swg-script"
 					dangerouslySetInnerHTML={{
 						__html: `(window.SWG_BASIC = window.SWG_BASIC || []).push((basicSubscriptions) => {
 								basicSubscriptions.init({
@@ -64,16 +75,7 @@ const Announcement = () => {
 							});`,
 					}}
 				/>
-			</Head>
-			<div
-				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
-			>
-				{/* <BreadCrumb title={blogData?.title} /> */}
-				{/* <SectionOne blogData={blogData} /> */}
-				<BreadCrumb title={annData?.breadCrumbTitle} />
-				<AnnPage annData={annData} />
-				<CTA />
-			</div>
+			</body>
 		</>
 	);
 };

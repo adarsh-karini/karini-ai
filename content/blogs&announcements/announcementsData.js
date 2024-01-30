@@ -4,8 +4,8 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Karini_Evolves_Prompting_Experience.png",
-		imageWidth: 730,
-		imageHeight: 730,
+		imageWidth: 550,
+		imageHeight: 550,
 		title:
 			"Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
 		description:
@@ -29,6 +29,21 @@ export const announcementsData = [
 		date: "Jan 18th, 2024",
 		timeToRead: "2 min read",
 		path: "/announcements/karini-ai-launches-streaming-for-copilot",
+	},
+	{
+		show: true,
+		filterName: "announcements",
+		type: "announcement",
+		image: "/assets/images/blogs/Bedrock_Models_Support.png",
+		imageWidth: 530,
+		imageHeight: 530,
+		title: "Karini AI Announces Full Support for Amazon Bedrock Models",
+		description:
+			"We are delighted to share that starting December 1, 2023, Karini AI has fully expanded its capabilities to support all Amazon Bedrock Models. This significant enhancement to our service offerings helps take your pilots using Amazon Bedrock faster to production.",
+		tag: "Gen AI",
+		date: "Dec 1st, 2023",
+		timeToRead: "2 min read",
+		path: "/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
 	},
 	{
 		show: true,

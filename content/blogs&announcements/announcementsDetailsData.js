@@ -217,6 +217,147 @@ export const announcementsDetailsData = [
 	},
 	{
 		type: "announcement",
+		id: "karini-ai-announces-full-support-for-amazon-bedrock-models",
+		title: "Karini AI Announces Full Support for Amazon Bedrock Models",
+		postedOn: "December 1, 2023",
+		timeToRead: "2 min read",
+		SEO_data: {
+			title: "Karini AI Announces Full Support for Amazon Bedrock Models",
+			content:
+				'We are delighted to share that starting December 1, 2023, Karini AI has fully expanded its capabilities to support all <a href="https://aws.amazon.com/bedrock/" target="_blank" class="text-blue-600 hover:underline">Amazon Bedrock</a> models. This significant enhancement to our service offerings helps take your pilots using Amazon Bedrock faster to production.',
+			canonicalLink:
+				"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
+			schemaMarkup: {
+				"@context": "https://schema.org",
+				"@type": "NewsArticle",
+				mainEntityOfPage: {
+					"@type": "WebPage",
+					"@id":
+						"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
+				},
+				headline: "Karini AI Announces Full Support for Amazon Bedrock Models",
+				image:
+					"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
+				author: {
+					"@type": "",
+					name: "",
+				},
+				publisher: {
+					"@type": "Organization",
+					name: "",
+					logo: {
+						"@type": "ImageObject",
+						url: "",
+					},
+				},
+				datePublished: "2023-12-01",
+			},
+		},
+		sections: [
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							'We are delighted to share that starting December 1, 2023, Karini AI has fully expanded its capabilities to support all <a href="https://aws.amazon.com/bedrock/" target="_blank" class="text-blue-600 hover:underline">Amazon Bedrock</a> models. This significant enhancement to our service offerings helps take your pilots using Amazon Bedrock faster to production.',
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Amazon Bedrock provides secure and scalable hosting of industry-leading model providers such as Anthropic, Cohere, AI21 Labs, Meta’s Llama, and Amazon Titan. By integrating these models into our platform, we will provide more choices to our customers to use models that fit their needs.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "What this means for our customers:",
+					},
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"<ul style='list-style: inside; list-style-type: disc;'><li><strong>Broader Scope:</strong> Customers now have access to a more comprehensive range of Large Language Models, which means more possibilities for innovation and optimization in their Gen AI projects.</li></ul><li><strong>Streamlined Integration: </strong>Karini AIi ensures seamless integration with AWS Bedrock Models, simplifying the deployment of complex AI applications.</li><li><strong>AWS Security and Compliance: </strong>Amazon Bedrock meets the highest compliance standards, such as SOC2 and HIPAA, enabling Karini AI to cater to customers in regulated industries.</li></ul>",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Key Benefits of Comprehensive Amazon Bedrock Model Integration:",
+					},
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"<ul style='list-style: inside; list-style-type: disc;'><li><strong>Rapid Production Deployments:</strong> With Karini AI’s observability, LLMOps, and visual no-code application building user experience backed by Amazon Bedrock, you can deploy more projects to production.</li></ul><li><strong>Production Scalability: </strong>Amazon Bedrock’s scalable infrastructure dynamically serves many requests simultaneously, which, along with the provisioned throughput capacity model, supports stringent business SLAs.</li><li><strong>AWS Innovation: </strong>Leveraging AWS innovations to improve model scaling performance and a desire to provide better price per performance benefits our joint customers.</li></ul>",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"The expansion to our model portfolio is a testament to making Generative AI accessible to enterprises and using the most suitable model that serves the use case the best.",
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"We invite you to explore the benefits AWS Bedrock Models can bring your business.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Let's democratize Generative AI together!",
+					},
+				],
+			},
+		],
+	},
+	{
+		type: "announcement",
 		id: "karini-ai-embarks-on-a-new-partnership-with-databricks",
 		title: "Karini AI Embarks on a New Partnership with Databricks",
 		postedOn: "November 14, 2023",
