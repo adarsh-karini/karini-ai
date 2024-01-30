@@ -63,6 +63,11 @@ const Announcement = () => {
 				<AnnPage annData={annData} />
 				<CTA />
 				<Script
+					async
+					type="application/javascript"
+					src="https://news.google.com/swg/js/v1/swg-basic.js"
+				/>
+				<Script
 				id="ann-swg-script"
 					dangerouslySetInnerHTML={{
 						__html: `(window.SWG_BASIC = window.SWG_BASIC || []).push((basicSubscriptions) => {
