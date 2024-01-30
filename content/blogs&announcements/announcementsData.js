@@ -4,7 +4,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Karini_Evolves_Prompting_Experience.png",
-		imageWidth: 550,
+		imageWidth: 750,
 		imageHeight: 550,
 		title:
 			"Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
@@ -35,7 +35,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Bedrock_Models_Support.png",
-		imageWidth: 530,
+		imageWidth: 450,
 		imageHeight: 530,
 		title: "Karini AI Announces Full Support for Amazon Bedrock Models",
 		description:

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Blog Post 1 -->
+  <url>
+    <loc>https://www.karini.ai/blogs/industrialize-generative-ai</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Generative AI Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-02</news:publication_date>
+      <news:title>Industrialize Generative AI</news:title>
+      <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
+    </news:news>
+  </url>
+
+  <!-- Announcement Post 1 -->
+  <url>
+    <loc>https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Announcement one</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-22</news:publication_date>
+      <news:title>Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development</news:title>
+      <news:keywords>Generative AI, Challenges, AI Adoption</news:keywords>
+    </news:news>
+  </url>
+
+  <!-- Announcement Post 2 -->
+  <url>
+    <loc>https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Announcement two</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-18</news:publication_date>
+      <news:title>Karini AI Launches Streaming for Copilot</news:title>
+      <news:keywords>Enterprise Operations, Karini AI, Generative AI</news:keywords>
+    </news:news>
+  </url>
+
+  <!-- Announcement Post 3 -->
+  <url>
+    <loc>https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Announcement three</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2023-11-14</news:publication_date>
+      <news:title>Karini AI Embarks on a New Partnership with Databricks</news:title>
+      <news:keywords>Enterprise Operations, Karini AI, Generative AI</news:keywords>
+    </news:news>
+  </url>
+
+<!-- Announcement Post 4 -->
+  <url>
+    <loc>https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Announcement four</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2023-10-16</news:publication_date>
+      <news:title>Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor</news:title>
+      <news:keywords>Enterprise Operations, Karini AI, Generative AI</news:keywords>
+    </news:news>
+  </url>
+
+  <!-- Announcement Post 5 -->
+  <url>
+    <loc>https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Announcement five</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2023-12-01</news:publication_date>
+      <news:title>Karini AI Announces Full Support for Amazon Bedrock Models</news:title>
+      <news:keywords>Enterprise Operations, Karini AI, Generative AI</news:keywords>
+    </news:news>
+  </url>
+
+</urlset>
