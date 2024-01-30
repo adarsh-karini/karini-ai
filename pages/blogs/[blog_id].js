@@ -1,12 +1,12 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
+import Head from "next/head";
+import Script from "next/script";
 import { Inter, Open_Sans, Poppins } from "next/font/google";
 import BreadCrumb from "@/components/BreadCrumb";
 
 import { blogDetailsData } from "@/content/blogs&announcements/blogDetailsData";
 import BlogPage from "@/components/blogs/blog_details/BlogPage";
-import Head from "next/head";
-import Script from "next/script";
 import CTA from "@/components/cta/CTA";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -56,7 +56,18 @@ const Blog = () => {
 					src="https://news.google.com/swg/js/v1/swg-basic.js"
 				></script>
 				{/* End Schema Markup */}
-				<script
+				
+			</Head>
+			<body
+				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
+			>
+				{/* <BreadCrumb title={blogData?.title} /> */}
+				{/* <SectionOne blogData={blogData} /> */}
+				<BreadCrumb title={blogData?.breadCrumbTitle} />
+				<BlogPage blogData={blogData} />
+				<CTA />
+				<Script
+				id="blog-swg-script"
 					dangerouslySetInnerHTML={{
 						__html: `(window.SWG_BASIC = window.SWG_BASIC || []).push((basicSubscriptions) => {
 								basicSubscriptions.init({
@@ -68,16 +79,7 @@ const Blog = () => {
 							});`,
 					}}
 				/>
-			</Head>
-			<div
-				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
-			>
-				{/* <BreadCrumb title={blogData?.title} /> */}
-				{/* <SectionOne blogData={blogData} /> */}
-				<BreadCrumb title={blogData?.breadCrumbTitle} />
-				<BlogPage blogData={blogData} />
-				<CTA />
-			</div>
+			</body>
 		</>
 	);
 };
