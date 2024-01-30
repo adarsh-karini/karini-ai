@@ -50,11 +50,7 @@ const Blog = () => {
 						__html: `${blogData?.SEO_data.schemaMarkup}`,
 					}}
 				></script>
-				<script
-					async
-					type="application/javascript"
-					src="https://news.google.com/swg/js/v1/swg-basic.js"
-				></script>
+				
 				{/* End Schema Markup */}
 				
 			</Head>
@@ -66,6 +62,11 @@ const Blog = () => {
 				<BreadCrumb title={blogData?.breadCrumbTitle} />
 				<BlogPage blogData={blogData} />
 				<CTA />
+				<Script
+					async
+					type="application/javascript"
+					src="https://news.google.com/swg/js/v1/swg-basic.js"
+				/>
 				<Script
 				id="blog-swg-script"
 					dangerouslySetInnerHTML={{
