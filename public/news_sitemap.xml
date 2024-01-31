@@ -17,6 +17,19 @@
       <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
     </news:news>
   </url>
+   <!-- Blog Post 2 -->
+  <url>
+    <loc>https://www.karini.ai/blogs/navigating-genaiops-in-enterprises</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Generative AI Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-02</news:publication_date>
+      <news:title>Industrialize Generative AI</news:title>
+      <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
+    </news:news>
+  </url>
 
   <!-- Announcement Post 1 -->
   <url>
