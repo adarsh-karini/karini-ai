@@ -139,7 +139,7 @@ const PageBuilder = ({ data }) => {
 															height={val.width}
 															width={val.height}
 															alt={val.caption}
-															className="rounded"
+															className="rounded border p-2"
 														/>
 													</div>
 													{val.caption && (

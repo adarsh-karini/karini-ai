@@ -442,8 +442,8 @@ export const blogDetailsData = [
 						type: type.image,
 						path: "/assets/images/blogs/msn_chevy_chatbot.png",
 						caption: "",
-						width: 800,
-						height: 600,
+						width: 200,
+						height: 400,
 					},
 				]
 			},
