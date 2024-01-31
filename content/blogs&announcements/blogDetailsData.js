@@ -261,10 +261,12 @@ export const blogDetailsData = [
 		type: "blog",
 		id: "navigating-genaiops-in-enterprises",
 		breadCrumbTitle: "Navigating GenAIOps in Enterprises",
-		title: "Navigating GenAIOps in Enterprises: Challenges and Best Practices",
-		publishedOn: "January 2, 2024",
+		title: "Navigating GenAIOps in Enterprises: Challenges and Best Practices - Version 1.0",
+		subTitle: "Version 1.0",
+		publishedOn: "January 31, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "5 min read",
+		version : "1.0",
 		SEO_data: {
 			title: "Navigating GenAIOps in Enterprises: Challenges and Best Practices",
 			content:
@@ -298,6 +300,7 @@ export const blogDetailsData = [
 				datePublished: "2023-12-25",
 			},
 		},
+		tags : "Version 1.0",
 		sections: [
 			{
 				group: true,
@@ -594,7 +597,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:"<strong>Enhancing User Experience</strong>:Ultimately, user experience is essential to increase engagement and attract new users. Add streaming if you are building a conversational system, provide appropriate feedback options so users can rate responses, and volunteer to provide correct responses to build the knowledge base. Provide custom instructions, seeding questions to start the conversation, and follow-up questions. Generative AI is rapidly evolving, so it is vital to continue to monitor user feedback and incorporate additional capabilities such as multi-modal (image and text)"
+						value:"<strong>Enhancing User Experience</strong>: Ultimately, user experience is essential to increase engagement and attract new users. Add streaming if you are building a conversational system, provide appropriate feedback options so users can rate responses, and volunteer to provide correct responses to build the knowledge base. Provide custom instructions, seeding questions to start the conversation, and follow-up questions. Generative AI is rapidly evolving, so it is vital to continue to monitor user feedback and incorporate additional capabilities such as multi-modal (image and text)"
 					},
 				],
 			},

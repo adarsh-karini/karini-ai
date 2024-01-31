@@ -52,8 +52,9 @@ const PageBuilder = ({ data }) => {
 			<div className="max-w-screen-lg mx-auto space-y-10">
 				<div className="space-y-8">
 					<div className="space-y-2 border-b border-b-secondary-300 pb-2">
-						<h1 className="text-primary-600 text-xl md:text-3xl font-semibold text-left">
-							{data?.title}
+						<h1 className="text-primary-600 text-xl md:text-3xl font-semibold text-left space-x-1">
+						{data?.title}
+							
 						</h1>
 						<div className="flex justify-between">
 							<div className="sm:flex sm:space-x-4">
@@ -91,6 +92,9 @@ const PageBuilder = ({ data }) => {
 							</div>
 						</div>
 					</div>
+					
+					<div className="space-y-6">
+					
 					{data?.sections.map(
 						(value, index) =>
 							value.group && (
@@ -168,6 +172,7 @@ const PageBuilder = ({ data }) => {
 								</div>
 							)
 					)}
+					</div>
 					{data?.aboutAuthor && (
 						<div className="bg-gradient-to-br from-primary-50 to-white space-y-2 border p-5 rounded">
 							<p className="text-lg text-black font-medium">About the Author</p>
