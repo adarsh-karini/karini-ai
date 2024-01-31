@@ -47,7 +47,13 @@
       <image:loc>https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FIndustrialize-Generative-AI.png&w=640&q=75</image:loc>
     </image:image>
   </url>
-
+  <url>
+    <loc>https://www.karini.ai/blogs/navigating-genaiops-in-enterprises</loc>
+    <lastmod>2024-01-02</lastmod>
+	 <image:image>
+      <image:loc>https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FIndustrialize-Generative-AI.png&w=640&q=75</image:loc>
+    </image:image>
+  </url>
   <url>
     <loc>https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground</loc>
     <lastmod>2024-01-22</lastmod>
