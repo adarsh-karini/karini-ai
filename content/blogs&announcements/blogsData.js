@@ -20,8 +20,8 @@ export const blogsData = [
 		show: true,
 		filterName: "blogs",
 		type: "blog",
-		image: "/assets/images/blogs/Industrialize-Generative-AI.png",
-		imageWidth: 400,
+		image: "/assets/images/blogs/Navigating GenAIOps in Enterprises.png", 
+		imageWidth: 430,
 		imageHeight: 400,
 		title: "Navigating GenAIOps in Enterprises: Challenges and Best Practices",
 		description:

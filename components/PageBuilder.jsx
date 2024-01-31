@@ -130,6 +130,7 @@ const PageBuilder = ({ data }) => {
 												<div className="space-y-1">
 													<div className="flex justify-center">
 														<Image
+														quality={100}
 															src={val.path}
 															height={val.width}
 															width={val.height}
