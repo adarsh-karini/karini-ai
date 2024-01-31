@@ -265,7 +265,7 @@ export const blogDetailsData = [
 		subTitle: "Version 1.0",
 		publishedOn: "January 31, 2024",
 		author: "Deepali Rajale",
-		timeToRead: "5 min read",
+		timeToRead: "10 min read",
 		version : "1.0",
 		SEO_data: {
 			title: "Navigating GenAIOps in Enterprises: Challenges and Best Practices",

@@ -28,7 +28,7 @@ export const blogsData = [
 			"Enterprises are adopting Generative AI to help solve many complex use cases with natural language instructions. Building a Gen AI application involves multiple components such as an LLM, data sources, vector store, prompt engineering, and RAG.",
 		tag: "Gen AI",
 		date: "Jan 31st, 2024",
-		timeToRead: "5 min read",
+		timeToRead: "10 min read",
 		path: "/blogs/navigating-genaiops-in-enterprises",
 	},
 ];
