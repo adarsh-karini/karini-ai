@@ -440,7 +440,7 @@ export const blogDetailsData = [
 				data: [
 					{
 						type: type.image,
-						path: "/assets/images/blogs/GenAIOps_best_practices.png",
+						path: "/assets/images/blogs/msn_chevy_chatbot.png",
 						caption: "",
 						width: 800,
 						height: 600,
