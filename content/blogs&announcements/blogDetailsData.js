@@ -343,8 +343,8 @@ export const blogDetailsData = [
 						type: type.image,
 						path: "/assets/images/blogs/GenAIOps_challenges.png",
 						caption: "",
-						width: 1000,
-						height: 900,
+						width: 1300,
+						height: 1100,
 					},
 				]
 			},
@@ -440,7 +440,7 @@ export const blogDetailsData = [
 				data: [
 					{
 						type: type.image,
-						path: "/assets/images/blogs/msn_chevy_chatbot.png",
+						path: "/assets/images/blogs/msn_chevy_chatbot_crop.png",
 						caption: "",
 						width: 200,
 						height: 400,
@@ -500,8 +500,8 @@ export const blogDetailsData = [
 						type: type.image,
 						path: "/assets/images/blogs/GenAIOps_best_practices.png",
 						caption: "",
-						width: 900,
-						height: 900,
+						width: 1300,
+						height: 1100,
 					},
 				]
 			},
