@@ -33,38 +33,30 @@ export const blogDetailsData = [
 		author: "Deepali Rajale",
 		timeToRead: "5 min read",
 		SEO_data: {
-			title: "Industrialize Generative AI",
-			content:
-				"Discover how to overcome the challenges of implementing Generative AI in enterprises and unlock its potential. Explore the Generative AI platform by Karini AI for rapid application development and enhanced business operations. Try it now!",
-			canonicalLink: "https://www.karini.ai/blogs/industrialize-generative-ai",
-			schemaMarkup: {
-				"@context": "https://schema.org",
-				"@type": "BlogPosting",
-				mainEntityOfPage: {
-					"@type": "WebPage",
-					"@id": "https://www.karini.ai/blogs/industrialize-generative-ai",
-				},
-				headline: "Industrializing Generative AI",
-				description:
-					"Announcing Generative AI Platform - designed to accelerate experimentation, expedite market delivery, and bridge the generative AI adoption gap, enabling businesses to harness the full potential of this groundbreaking technology.",
-				image:
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2Fblog1-img2.jpg&w=640&q=75",
-				author: {
-					"@type": "Organization",
-					name: "karini",
-					url: "https://www.karini.ai/",
-				},
-				publisher: {
-					"@type": "Organization",
-					name: "Deepali Rajale",
-					logo: {
-						"@type": "ImageObject",
-						url: "",
-					},
-				},
-				datePublished: "2023-12-25",
+			"@context": "https://schema.org",
+			"@type": "BlogPosting",
+			"mainEntityOfPage": {
+			  "@type": "WebPage",
+			  "@id": "https://www.karini.ai/blogs/industrialize-generative-ai"
 			},
-		},
+			"headline": "Industrialize Generative AI",
+			"description": "Generative AI",
+			"image": "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FIndustrialize-Generative-AI.png&w=640&q=75",  
+			"author": {
+			  "@type": "Person",
+			  "name": "Deepali Rajale"
+			},  
+			"publisher": {
+			  "@type": "Organization",
+			  "name": "Karini Ai",
+			  "logo": {
+				"@type": "ImageObject",
+				"url": "https://www.karini.ai/"
+			  }
+			},
+			"datePublished": "2024-01-02"
+		  }
+		  ,
 		sections: [
 			{
 				group: true,
@@ -275,30 +267,28 @@ export const blogDetailsData = [
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
-				mainEntityOfPage: {
-					"@type": "WebPage",
-					"@id": "https://www.karini.ai/blogs/navigating-genaiops-in-enterprises",
+				"mainEntityOfPage": {
+				  "@type": "WebPage",
+				  "@id": "https://www.karini.ai/blogs/navigating-genaiops-in-enterprises"
 				},
-				headline: "Navigating GenAIOps in Enterprises: Challenges and Best Practices",
-				description:
-					"Enterprises are adopting Generative AI to help solve many complex use cases with natural language instructions. Building a Gen AI application involves multiple components such as an LLM, data sources, vector store, prompt engineering, and RAG.",
-				image:
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2Fblog1-img2.jpg&w=640&q=75",
-				author: {
-					"@type": "Organization",
-					name: "karini",
-					url: "https://www.karini.ai/",
+				"headline": "Navigating GenAIOps in Enterprises: Challenges and Best Practices - Version 1.0",
+				"description": "Navigating GenAIOps in Enterprises",
+				"image": "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FNavigating%20GenAIOps%20in%20Enterprises.png&w=640&q=75",  
+				"author": {
+				  "@type": "Person",
+				  "name": "Deepali Rajale"
+				},  
+				"publisher": {
+				  "@type": "Organization",
+				  "name": "Karini Ai",
+				  "logo": {
+					"@type": "ImageObject",
+					"url": "https://www.karini.ai/"
+				  }
 				},
-				publisher: {
-					"@type": "Organization",
-					name: "Deepali Rajale",
-					logo: {
-						"@type": "ImageObject",
-						url: "",
-					},
-				},
-				datePublished: "2023-12-25",
-			},
+				"datePublished": "2024-01-31"
+			  }
+			  ,
 		},
 		tags : "Version 1.0",
 		sections: [
