@@ -1,4 +1,4 @@
-import { Inter, Open_Sans, Poppins, Lato } from "next/font/google";
+import { Poppins } from "next/font/google";
 import Hero from "@/components/home/Hero";
 import OurClients from "@/components/home/OurClients";
 import WhyKarini from "@/components/home/WhyKarini";
@@ -9,15 +9,6 @@ import FAQ from "@/components/home/FAQ";
 import Head from "next/head";
 import CTA from "@/components/cta/CTA";
 
-const inter = Inter({ subsets: ["latin"] });
-const openSans = Open_Sans({
-	subsets: ["latin"],
-	weight: ["300", "400", "500", "600", "700", "800"],
-});
-const lato = Lato({
-	subsets: ["latin-ext"],
-	weight: ["100", "300", "400", "700", "900"],
-});
 const poppins = Poppins({
 	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 	variable: "--font-poppins",

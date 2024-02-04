@@ -4,11 +4,10 @@ import Hero from "@/components/services/ml/Hero";
 import OurServices from "@/components/services/ml/OurServices";
 import WhyChooseUs from "@/components/services/ml/WhyChooseUs";
 import OurClients from "@/components/services/ml/OurClients";
-import { Inter, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import Head from "next/head";
 import CTA from "@/components/cta/CTA";
 
-const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
 	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 	variable: "--font-poppins",
