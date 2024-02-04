@@ -1,28 +1,12 @@
 import React, { useState } from "react";
-import { BsRobot, BsCloudFog2, BsArrowRight } from "react-icons/bs";
-import { FaCircleNodes } from "react-icons/fa6";
-import { FaAngleDoubleRight } from "react-icons/fa";
-import { TbBoxModel } from "react-icons/tb";
-import { AiFillGolden, AiOutlineCodepenCircle } from "react-icons/ai";
 import { VscDebugBreakpointData } from "react-icons/vsc";
 
 import {
-  OurServicesData,
   mlSubServicesData,
 } from "@/content/services/ml/mlData";
-import Link from "next/link";
-import { IoCheckmarkCircle } from "react-icons/io5";
-import IconOne from "@/svgs/services/IconFour";
 
 const OurServices = () => {
   const iconColor = "#7c3aed";
-
-  const IconNames = {
-    BsRobot,
-    FaCircleNodes,
-    BsCloudFog2,
-    TbBoxModel,
-  };
 
   const mlServicesButtons = [
     "MLOps Foundations",

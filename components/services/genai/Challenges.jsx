@@ -1,12 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation, Scrollbar } from "swiper/modules";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-// Default theme
-import "@splidejs/react-splide/css";
-
-// or other themes
-import "@splidejs/react-splide/css/sea-green";
 
 // Import Swiper styles
 import "swiper/css";

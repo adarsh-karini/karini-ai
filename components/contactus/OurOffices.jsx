@@ -27,9 +27,9 @@ const OurOffices = () => {
 										>
 											<div className="h-full flex flex-col justify-between space-y-2">
 												<div className="space-y-2">
-													<h1 className="text-black font-medium pb-1 border-b-2 border-primary-600">
+													<h2 className="text-black font-medium pb-1 border-b-2 border-primary-600">
 														{data.location}
-													</h1>
+													</h2>
 													<div className="flex flex-col space-y-2">
 														<address className="text-secondary-700 text-sm font-semibold">
 															{data.address}
@@ -46,9 +46,9 @@ const OurOffices = () => {
 													<iframe
 														src={data.iframeURL}
 														style={{ border: 0 }}
-														allowfullscreen=""
+														allowFullScreen=""
 														loading="lazy"
-														referrerpolicy="no-referrer-when-downgrade"
+														referrerPolicy="no-referrer-when-downgrade"
 														className="w-full h-full rounded-md"
 													></iframe>
 												</div>

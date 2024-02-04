@@ -1,29 +1,12 @@
 import React, { useState } from "react";
-import { BsRobot, BsCloudFog2, BsArrowRight } from "react-icons/bs";
-import { FaCircleNodes } from "react-icons/fa6";
-import { FaAngleDoubleRight } from "react-icons/fa";
-import { TbBoxModel } from "react-icons/tb";
-import { AiFillGolden, AiOutlineCodepenCircle } from "react-icons/ai";
 
 import {
-  OurServicesData,
   genaiSubServicesData,
 } from "@/content/services/genai/genaiData";
-import Link from "next/link";
-import { IoCheckmarkCircle } from "react-icons/io5";
-import IconOne from "@/svgs/services/IconOne";
-import IconFour from "@/svgs/services/IconFour";
 import { VscDebugBreakpointData } from "react-icons/vsc";
 
 const OurServices = () => {
   const iconColor = "#7c3aed";
-
-  const IconNames = {
-    BsRobot,
-    FaCircleNodes,
-    BsCloudFog2,
-    TbBoxModel,
-  };
 
   const genaiServicesButtons = [
     "Generative AI Foundations",

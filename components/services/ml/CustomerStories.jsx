@@ -1,29 +1,15 @@
 import React from "react";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import { BsArrowRight } from "react-icons/bs";
-import { AiFillCloud } from "react-icons/ai";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
-	Navigation,
 	Pagination,
-	Scrollbar,
-	A11y,
 	Autoplay,
 } from "swiper/modules";
 
 import { mlCustomerStoriesData } from "@/content/services/ml/mlData";
 
-// Default theme
-import "@splidejs/react-splide/css";
-
-// or other themes
-import "@splidejs/react-splide/css/sea-green";
-
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 import IconOne from "@/svgs/services/IconOne";
 import IconTwo from "@/svgs/services/IconTwo";
 import IconThree from "@/svgs/services/IconThree";

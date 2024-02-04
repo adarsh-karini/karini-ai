@@ -1,22 +1,18 @@
-import { genaiCustomerStoriesData } from "@/content/services/genai/genaiData";
-import IconOne from "@/svgs/services/IconOne";
-import IconThree from "@/svgs/services/IconThree";
-import IconTwo from "@/svgs/services/IconTwo";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
-	Navigation,
 	Pagination,
-	Scrollbar,
-	A11y,
 	Autoplay,
 } from "swiper/modules";
 
+import { genaiCustomerStoriesData } from "@/content/services/genai/genaiData";
+
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/scrollbar";
+import IconOne from "@/svgs/services/IconOne";
+import IconThree from "@/svgs/services/IconThree";
+import IconTwo from "@/svgs/services/IconTwo";
 
 const CustomerStories = () => {
 	const iconColor = "#7c3aed";
