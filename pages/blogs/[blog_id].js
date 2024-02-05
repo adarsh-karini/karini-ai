@@ -60,6 +60,7 @@ const Blog = () => {
 				{/* <BreadCrumb title={blogData?.title} /> */}
 				{/* <SectionOne blogData={blogData} /> */}
 				<BreadCrumb title={blogData?.breadCrumbTitle} />
+			<div className="py-8 bg-black"></div>
 				<BlogPage blogData={blogData} />
 				<CTA />
 				<Script

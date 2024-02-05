@@ -57,6 +57,7 @@ const Announcement = () => {
 				{/* <BreadCrumb title={blogData?.title} /> */}
 				{/* <SectionOne blogData={blogData} /> */}
 				<BreadCrumb title={annData?.breadCrumbTitle} />
+			<div className="py-8 bg-black"></div>
 				<AnnPage annData={annData} />
 				<CTA />
 				<Script
