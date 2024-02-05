@@ -1,25 +1,20 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import { Inter, Open_Sans, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 
 import Head from "next/head";
 import Script from "next/script";
 import CTA from "@/components/cta/CTA";
 import AnnPage from "@/components/announcements/ann_details/AnnPage";
-import { announcementsData } from "@/content/blogs&announcements/announcementsData";
 import { announcementsDetailsData } from "@/content/blogs&announcements/announcementsDetailsData";
 import BreadCrumb from "@/components/BreadCrumb";
 
-const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
 	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 	variable: "--font-poppins",
 	subsets: ["devanagari"],
 });
-const openSans = Open_Sans({
-	subsets: ["latin"],
-	weight: ["300", "400", "500", "600", "700", "800"],
-});
+
 
 const Announcement = () => {
 	const router = useRouter();
@@ -31,6 +26,8 @@ const Announcement = () => {
 		const [result] = announcementsDetailsData?.filter((ann) => ann.id === id);
 		setAnnData(result);
 	};
+
+	// console.log('annData 123', annData);
 
 	useEffect(() => {
 		getAnnData(ann_id);
@@ -48,13 +45,13 @@ const Announcement = () => {
 					id="schema-markup-blog"
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{
-						__html: `${annData?.SEO_data.schemaMarkup}`,
+						__html: `${JSON.stringify(annData?.SEO_data.schemaMarkup)}`,
 					}}
 				></script>
 				{/* End Schema Markup */}
-				
+
 			</Head>
-			<body
+			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				{/* <BreadCrumb title={blogData?.title} /> */}
@@ -68,7 +65,7 @@ const Announcement = () => {
 					src="https://news.google.com/swg/js/v1/swg-basic.js"
 				/>
 				<Script
-				id="ann-swg-script"
+					id="ann-swg-script"
 					dangerouslySetInnerHTML={{
 						__html: `(window.SWG_BASIC = window.SWG_BASIC || []).push((basicSubscriptions) => {
 								basicSubscriptions.init({
@@ -80,7 +77,7 @@ const Announcement = () => {
 							});`,
 					}}
 				/>
-			</body>
+			</div>
 		</>
 	);
 };
