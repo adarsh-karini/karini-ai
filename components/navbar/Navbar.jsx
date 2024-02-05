@@ -24,7 +24,7 @@ const Navbar2 = () => {
 	return (
 		<div className="bg-dark fixed w-full z-50">
 			<div className="mx-auto max-w-screen-2xl">
-				<nav className="relative flex justify-between items-center border-b border-gray-800 px-4 py-4">
+				<nav className="relative flex justify-between items-center border-b border-gray-800 px-4 py-5">
 					<div>
 						<Link
 							href="/"
@@ -95,14 +95,14 @@ const Navbar2 = () => {
             </Link> */}
 						<Link
 							href={"/contactus"}
-							className="hidden lg:block text-primary-600 hover:text-white border border-primary-600 px-6 py-2 text-center text-sm font-semibold bg-primary-100 hover:bg-primary-600 transition duration-100  rounded"
+							className="hidden lg:block text-primary-600 hover:text-white border border-primary-600 px-4 py-1 text-center text-sm font-semibold bg-primary-100 hover:bg-primary-600 transition duration-100  rounded"
 						>
 							Book a demo
 						</Link>
 						<Link
 							href={"https://app.karini.ai/signin"}
 							target="_blank"
-							className="hidden lg:block bg-primary-600 border border-primary-600 px-6 py-2 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white rounded"
+							className="hidden lg:block bg-primary-600 border border-primary-600 px-4 py-1 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white rounded"
 						>
 							Log in
 						</Link>

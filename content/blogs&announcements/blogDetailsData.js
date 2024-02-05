@@ -234,7 +234,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Conculsion",
+						value: "Conclusion",
 					},
 					{
 						type: type.paragraph,
@@ -618,7 +618,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Conculsion",
+						value: "Conclusion",
 					},
 					{
 						type: type.paragraph,
