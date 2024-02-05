@@ -47,14 +47,14 @@ const Blog = () => {
 					id="schema-markup-blog"
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{
-						__html: `${blogData?.SEO_data.schemaMarkup}`,
+						__html: `${JSON.stringify(blogData?.SEO_data.schemaMarkup)}`,
 					}}
 				></script>
-				
+
 				{/* End Schema Markup */}
-				
+
 			</Head>
-			<body
+			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				{/* <BreadCrumb title={blogData?.title} /> */}
@@ -68,7 +68,7 @@ const Blog = () => {
 					src="https://news.google.com/swg/js/v1/swg-basic.js"
 				/>
 				<Script
-				id="blog-swg-script"
+					id="blog-swg-script"
 					dangerouslySetInnerHTML={{
 						__html: `(window.SWG_BASIC = window.SWG_BASIC || []).push((basicSubscriptions) => {
 								basicSubscriptions.init({
@@ -80,7 +80,7 @@ const Blog = () => {
 							});`,
 					}}
 				/>
-			</body>
+			</div>
 		</>
 	);
 };
