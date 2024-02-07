@@ -45,7 +45,7 @@ h3 {
 	padding: 0px !important;
 } */
 
-.heroSliderHome{
+.heroSliderHome {
 	padding: 0px !important;
 }
 
@@ -89,4 +89,8 @@ h3 {
 /* Customize the scrollbar track (the area behind the scrollbar) on hover */
 ::-webkit-scrollbar-track {
 	background: #111827; /* Replace with a background color for the track */
+}
+
+.parent-list {
+	padding-left: 100px;
 }

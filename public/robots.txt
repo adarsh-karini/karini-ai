@@ -1,7 +1,5 @@
-# Block all crawlers for /privacypolicy
-# User-agent: *
-# Disallow: /privacypolicy
-
 # Allow all crawlers
 User-agent: *
 Allow: /
+Disallow: /sandbox/
+Disallow: /app/
