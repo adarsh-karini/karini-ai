@@ -1147,6 +1147,13 @@ export const blogDetailsData = [
 						value:
 							"For further insights, explore our website or engage with our team.",
 					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "—----------",
+					},
 				],
 			},
 		],
@@ -1350,6 +1357,13 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value: "(करिणी) - We’re with you on your entire journey…",
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "—----------",
 					},
 				],
 			},
