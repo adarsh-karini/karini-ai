@@ -504,8 +504,7 @@ export const announcementsDetailsData = [
 	{
 		type: "announcement",
 		id: "karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
-		breadCrumbTitle:
-			"Karini AI Joins Forces with AWS as an Independent Software Vendor",
+		breadCrumbTitle: "Karini AI Joins Forces with AWS",
 		title:
 			"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
 		postedOn: "October 16, 2023",

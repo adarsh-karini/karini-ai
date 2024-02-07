@@ -52,7 +52,7 @@ const PageBuilder = ({ data }) => {
 			<div className="max-w-screen-lg mx-auto space-y-10">
 				<div className="space-y-8">
 					<div className="space-y-2 border-b border-b-secondary-300 pb-2">
-						<h1 className="text-primary-600 text-xl md:text-3xl font-semibold text-left space-x-1">
+						<h1 className="text-primary-600 text-base sm:text-lg md:text-2xl xl:text-3xl font-semibold text-left space-x-1">
 							{data?.title}
 						</h1>
 						<div className="flex justify-between">

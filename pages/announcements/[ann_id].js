@@ -15,7 +15,6 @@ const poppins = Poppins({
 	subsets: ["devanagari"],
 });
 
-
 const Announcement = () => {
 	const router = useRouter();
 	const { ann_id } = router.query;
@@ -49,15 +48,12 @@ const Announcement = () => {
 					}}
 				></script>
 				{/* End Schema Markup */}
-
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
-				{/* <BreadCrumb title={blogData?.title} /> */}
-				{/* <SectionOne blogData={blogData} /> */}
 				<BreadCrumb title={annData?.breadCrumbTitle} />
-			<div className="py-8 bg-black"></div>
+				<div className="py-5 bg-black"></div>
 				<AnnPage annData={annData} />
 				<CTA />
 				<Script
