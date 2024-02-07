@@ -5,7 +5,7 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
-				<link rel="icon" type="image/x-icon" href="/favicon.png" />
+				<link rel="icon" type="image/x-icon" href="/karini-favicon.png" />
 			</Head>
 			<body>
 				<Main />
