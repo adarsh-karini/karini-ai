@@ -8,7 +8,7 @@ import { CgArrowLeft } from "react-icons/cg";
 
 const BreadCrumb = ({ title }) => {
 	return (
-		<div className="fixed w-full bg-white flex items-center px-4 md:px-8 py-6 border-b border-secondary-300">
+		<div className="fixed w-full bg-white flex items-center px-4 md:px-8 py-3 border-b border-secondary-300">
 			<div className="flex items-center space-x-2 text-sm">
 				<CgArrowLeft size={20} className="text-primary-600" />
 				<Link href={"/blogs"}>

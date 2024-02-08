@@ -16,6 +16,15 @@
       <news:title>Industrialize Generative AI</news:title>
       <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
     </news:news>
+	<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png</image:loc>
+    </image:image>
+	<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/GenAIOps_four_layer_cake.png</image:loc>
+    </image:image>
+		<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/AI-Platform-Architecture.png</image:loc>
+    </image:image>
   </url>
    <!-- Blog Post 2 -->
   <url>
@@ -29,6 +38,18 @@
       <news:title>Industrialize Generative AI</news:title>
       <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
     </news:news>
+	<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png</image:loc>
+    </image:image>
+	<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/GenAIOps_challenges.png</image:loc>
+    </image:image>
+	<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/msn_chevy_chatbot_crop.png</image:loc>
+    </image:image>
+	<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/GenAIOps_best_practices.png</image:loc>
+    </image:image>
   </url>
 
   <!-- Announcement Post 1 -->
@@ -43,6 +64,9 @@
       <news:title>Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development</news:title>
       <news:keywords>Generative AI, Challenges, AI Adoption</news:keywords>
     </news:news>
+	<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Karini_Evolves_Prompting_Experience.png</image:loc>
+    </image:image>
   </url>
 
   <!-- Announcement Post 2 -->
@@ -57,6 +81,9 @@
       <news:title>Karini AI Launches Streaming for Copilot</news:title>
       <news:keywords>Enterprise Operations, Karini AI, Generative AI</news:keywords>
     </news:news>
+	<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png</image:loc>
+    </image:image>
   </url>
 
   <!-- Announcement Post 3 -->
@@ -71,6 +98,9 @@
       <news:title>Karini AI Embarks on a New Partnership with Databricks</news:title>
       <news:keywords>Enterprise Operations, Karini AI, Generative AI</news:keywords>
     </news:news>
+	<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png</image:loc>
+    </image:image>
   </url>
 
 <!-- Announcement Post 4 -->
@@ -85,6 +115,9 @@
       <news:title>Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor</news:title>
       <news:keywords>Enterprise Operations, Karini AI, Generative AI</news:keywords>
     </news:news>
+	<image:image>
+	 <image:loc>https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png</image:loc>
+    </image:image>
   </url>
 
   <!-- Announcement Post 5 -->
@@ -99,6 +132,41 @@
       <news:title>Karini AI Announces Full Support for Amazon Bedrock Models</news:title>
       <news:keywords>Enterprise Operations, Karini AI, Generative AI</news:keywords>
     </news:news>
+	<image:image>
+	<image:loc>https://www.karini.ai/assets/images/blogs/Bedrock_Models_Support.png</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Generative AI Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-02-02</news:publication_date>
+      <news:title>Unleashing the Potential of Unified Data: The Gen AI Evolution in Business Intelligence</news:title>
+      <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
+    </news:news>
+	<image:image>
+	<image:loc>https://www.karini.ai/assets/images/blogs/Evolution_of_Gen_AI.png</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.karini.ai/blogs/mastering-generative-ai</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Generative AI Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-04</news:publication_date>
+      <news:title>Mastering Generative AI: A Strategic Roadmap for Enterprise Integration</news:title>
+      <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
+    </news:news>
+	<image:image>
+	<image:loc>https://www.karini.ai/assets/images/blogs/Mastering_Generative_AI.png</image:loc>
+    </image:image>
   </url>
 
 </urlset>

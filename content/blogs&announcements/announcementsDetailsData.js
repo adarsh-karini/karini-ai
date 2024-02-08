@@ -40,28 +40,29 @@ export const announcementsDetailsData = [
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
-				"mainEntityOfPage": {
+				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id": "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
+					"@id":
+						"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
 				},
-				"headline": "Karini AI Launches Streaming for Copilot",
-				"description": "Karini Ai Copilot",
-				"image": "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FStreaming-eye-catcher.png&w=750&q=75",
-				"author": {
+				headline: "Karini AI Launches Streaming for Copilot",
+				description: "Karini Ai Copilot",
+				image:
+					"https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png",
+				author: {
 					"@type": "Person",
-					"name": "Deepali Rajale"
+					name: "Deepali Rajale",
 				},
-				"publisher": {
+				publisher: {
 					"@type": "Organization",
-					"name": "Karini Ai",
-					"logo": {
+					name: "Karini Ai",
+					logo: {
 						"@type": "ImageObject",
-						"url": "https://www.karini.ai/"
-					}
+						url: "https://www.karini.ai/",
+					},
 				},
-				"datePublished": "2024-01-18"
-			}
-			,
+				datePublished: "2024-01-18",
+			},
 		},
 		sections: [
 			{
@@ -136,28 +137,30 @@ export const announcementsDetailsData = [
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
-				"mainEntityOfPage": {
+				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id": "https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground"
+					"@id":
+						"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
 				},
-				"headline": "Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
-				"description": "Prompt PlayGround",
-				"image": "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_Evolves_Prompting_Experience.png&w=750&q=75",
-				"author": {
+				headline:
+					"Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
+				description: "Prompt PlayGround",
+				image:
+					"https://www.karini.ai/assets/images/blogs/Karini_Evolves_Prompting_Experience.png",
+				author: {
 					"@type": "Person",
-					"name": "Deepali Rajale"
+					name: "Deepali Rajale",
 				},
-				"publisher": {
+				publisher: {
 					"@type": "Organization",
-					"name": "Karini Ai",
-					"logo": {
+					name: "Karini Ai",
+					logo: {
 						"@type": "ImageObject",
-						"url": "https://www.karini.ai/"
-					}
+						url: "https://www.karini.ai/",
+					},
 				},
-				"datePublished": "2024-01-22"
-			}
-			,
+				datePublished: "2024-01-22",
+			},
 		},
 		sections: [
 			{
@@ -229,28 +232,29 @@ export const announcementsDetailsData = [
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
-				"mainEntityOfPage": {
+				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id": "https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models"
+					"@id":
+						"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
 				},
-				"headline": "Karini AI Announces Full Support for Amazon Bedrock Models",
-				"description": "Karini AI Amazon Bedrock Model",
-				"image": "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBedrock_Models_Support.png&w=640&q=75",
-				"author": {
+				headline: "Karini AI Announces Full Support for Amazon Bedrock Models",
+				description: "Karini AI Amazon Bedrock Model",
+				image:
+					"https://www.karini.ai/assets/images/blogs/Bedrock_Models_Support.png",
+				author: {
 					"@type": "Person",
-					"name": "Deepali Rajale"
+					name: "Deepali Rajale",
 				},
-				"publisher": {
+				publisher: {
 					"@type": "Organization",
-					"name": "Karini Ai",
-					"logo": {
+					name: "Karini Ai",
+					logo: {
 						"@type": "ImageObject",
-						"url": "https://www.karini.ai/"
-					}
+						url: "https://www.karini.ai/",
+					},
 				},
-				"datePublished": "2023-12-01"
-			}
-			,
+				datePublished: "2023-12-01",
+			},
 		},
 		sections: [
 			{
@@ -307,7 +311,8 @@ export const announcementsDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Key Benefits of Comprehensive Amazon Bedrock Model Integration:",
+						value:
+							"Key Benefits of Comprehensive Amazon Bedrock Model Integration:",
 					},
 					{
 						type: type.list,
@@ -348,8 +353,7 @@ export const announcementsDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:
-							"Let's democratize Generative AI together!",
+						value: "Let's democratize Generative AI together!",
 					},
 				],
 			},
@@ -370,28 +374,29 @@ export const announcementsDetailsData = [
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
-				"mainEntityOfPage": {
+				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id": "https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks"
+					"@id":
+						"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
 				},
-				"headline": "Karini AI Embarks on a New Partnership with Databricks",
-				"description": "Karini AI Partnership with Databricks",
-				"image": "https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
-				"author": {
+				headline: "Karini AI Embarks on a New Partnership with Databricks",
+				description: "Karini AI Partnership with Databricks",
+				image:
+					"https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png",
+				author: {
 					"@type": "Person",
-					"name": "Deepali Rajale"
+					name: "Deepali Rajale",
 				},
-				"publisher": {
+				publisher: {
 					"@type": "Organization",
-					"name": "Karini Ai",
-					"logo": {
+					name: "Karini Ai",
+					logo: {
 						"@type": "ImageObject",
-						"url": "https://www.karini.ai/"
-					}
+						url: "https://www.karini.ai/",
+					},
 				},
-				"datePublished": "2023-11-14"
-			}
-			,
+				datePublished: "2023-11-14",
+			},
 		},
 		sections: [
 			{
@@ -499,8 +504,7 @@ export const announcementsDetailsData = [
 	{
 		type: "announcement",
 		id: "karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
-		breadCrumbTitle:
-			"Karini AI Joins Forces with AWS as an Independent Software Vendor",
+		breadCrumbTitle: "Karini AI Joins Forces with AWS",
 		title:
 			"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
 		postedOn: "October 16, 2023",
@@ -515,28 +519,30 @@ export const announcementsDetailsData = [
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
-				"mainEntityOfPage": {
+				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id": "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
+					"@id":
+						"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 				},
-				"headline": "Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
-				"description": "Karini AI with AWS as Software Vendor",
-				"image": "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75",
-				"author": {
+				headline:
+					"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
+				description: "Karini AI with AWS as Software Vendor",
+				image:
+					"https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png",
+				author: {
 					"@type": "Person",
-					"name": "Deepali Rajale"
+					name: "Deepali Rajale",
 				},
-				"publisher": {
+				publisher: {
 					"@type": "Organization",
-					"name": "Karini Ai",
-					"logo": {
+					name: "Karini Ai",
+					logo: {
 						"@type": "ImageObject",
-						"url": "https://www.karini.ai/"
-					}
+						url: "https://www.karini.ai/",
+					},
 				},
-				"datePublished": "2023-10-16"
-			}
-			,
+				datePublished: "2023-10-16",
+			},
 		},
 		sections: [
 			{
