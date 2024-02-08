@@ -115,6 +115,7 @@
       <news:title>Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor</news:title>
       <news:keywords>Enterprise Operations, Karini AI, Generative AI</news:keywords>
     </news:news>
+	<image:image>
 	 <image:loc>https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png</image:loc>
     </image:image>
   </url>
@@ -131,6 +132,7 @@
       <news:title>Karini AI Announces Full Support for Amazon Bedrock Models</news:title>
       <news:keywords>Enterprise Operations, Karini AI, Generative AI</news:keywords>
     </news:news>
+	<image:image>
 	<image:loc>https://www.karini.ai/assets/images/blogs/Bedrock_Models_Support.png</image:loc>
     </image:image>
   </url>
@@ -146,6 +148,7 @@
       <news:title>Unleashing the Potential of Unified Data: The Gen AI Evolution in Business Intelligence</news:title>
       <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
     </news:news>
+	<image:image>
 	<image:loc>https://www.karini.ai/assets/images/blogs/Evolution_of_Gen_AI.png</image:loc>
     </image:image>
   </url>
@@ -161,6 +164,7 @@
       <news:title>Mastering Generative AI: A Strategic Roadmap for Enterprise Integration</news:title>
       <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
     </news:news>
+	<image:image>
 	<image:loc>https://www.karini.ai/assets/images/blogs/Mastering_Generative_AI.png</image:loc>
     </image:image>
   </url>
