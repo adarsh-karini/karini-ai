@@ -20,7 +20,7 @@ export const blogsData = [
 		show: true,
 		filterName: "blogs",
 		type: "blog",
-		image: "/assets/images/blogs/Navigating GenAIOps in Enterprises.png",
+		image: "/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png",
 		imageWidth: 430,
 		imageHeight: 400,
 		title:

@@ -159,7 +159,7 @@ export const blogDetailsData = [
 				data: [
 					{
 						type: type.image,
-						path: "/assets/images/blogs/blog1_img1.png",
+						path: "/assets/images/blogs/GenAIOps_four_layer_cake.png",
 						caption: "",
 						width: 600,
 						height: 600,
@@ -220,7 +220,7 @@ export const blogDetailsData = [
 				data: [
 					{
 						type: type.image,
-						path: "/assets/images/blogs/blog1_img2.png",
+						path: "/assets/images/blogs/AI-Platform-Architecture.png",
 						caption: "",
 						width: 600,
 						height: 600,
@@ -284,7 +284,7 @@ export const blogDetailsData = [
 				description:
 					"Enterprises are adopting Generative AI to help solve many complex use cases with natural language instructions. Building a Gen AI application involves multiple components such as an LLM, data sources, vector store, prompt engineering, and RAG.",
 				image:
-					"https://www.karini.ai/assets/images/blogs/Navigating GenAIOps in Enterprises.png",
+					"https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png",
 				author: {
 					"@type": "Organization",
 					name: "karini",
