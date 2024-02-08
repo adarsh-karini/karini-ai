@@ -351,90 +351,78 @@ export const blogDetailsData = [
 				group: true,
 				data: [
 					{
-						type: type.paragraph,
+						type: type.list,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:
-							"<ol style='list-style: inside; list-style-type: decimal;'><li><strong>Access to Enterprise Data</strong>: This involves creating connectors to various storage solutions and databases, considering different ingestion formats like files, tabular data, or API responses. Unlike traditional ETL, extraction, cleaning, masking, and chunking techniques require special attention, especially when dealing with complex structures like tables in PDFs or removing unwanted HTML tags from web crawls.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='2' style='list-style: inside; list-style-type: decimal;'><li><strong>Embedding Algorithms</strong>: The constantly evolving nature of embedding algorithms <a href='https://huggingface.co/spaces/mteb/leaderboard' target='_blank' class='text-blue-600 hover:underline'> (Refer MTEB Leaderboard)</a> means it's crucial to experiment with the top models to select the most effective one for your needs. Failure to do so can adversely impact the search process.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='3' style='list-style: inside; list-style-type: decimal;'><li><strong>Query Phase Management</strong>: This phase can be vulnerable to adversarial actors who may try to 'jailbreak' <a href='https://www.jailbreakchat.com/' target='_blank' class='text-blue-600 hover:underline'> (refer to jailbreakchat)</a> the prompts or overwhelm the system, impacting other users and potentially causing a cost spike.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='4' style='list-style: inside; list-style-type: decimal;'><li><strong>Chunk Retrieval Process</strong>:  For the chunk retrieval process, the similarity search may not retrieve adequate information or be unable to retrieve matching chunks, leading to insufficient context for comprehensive and relevant answers. Advanced retrieval chains are required to augment prompts with personalized context. (e.g., What are claims exclusions for “my” insurance plan? )</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='5' style='list-style: inside; list-style-type: decimal;'><li><strong>Prompt Efficiency</strong>: Open source LLMs are catching up fast with proprietary LLMs in language understanding, as evident in the <a href='https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard' target='_blank' class='text-blue-600 hover:underline'> open LLMs leaderboard</a>. Hence, writing efficient prompts is very important to get a relevant and comprehensive answer. Bad prompts can either confuse the LLMs or lead to inadequate responses.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='6' style='list-style: inside; list-style-type: decimal;'><li><strong>Understanding the Enterprise Domain</strong>: While Generative AI effectively addresses numerous inquisitive challenges within enterprises, Large Language Models (LLMs) often struggle to grasp the specific nuances of individual enterprise domains. LLMs are trained on publicly available datasets by crawling the world wide web, but enterprise data is behind firewalls; hence, LLMs may not understand a specific internal term used within a business, leading to an “I don't know” response or a response related to a similar term in Wikipedia dictionary leading to hallucination.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='7' style='list-style: inside; list-style-type: decimal;'><li><strong>Content Safety</strong>: LLMs may spout toxic or unsafe content without proper guardrails, leading to brand reputation issues. The brand reputation concern is genuine, as reported by Chevrolet’s public AI chatbot<a href='https://www.msn.com/en-us/money/companies/a-chevrolet-dealer-offered-an-ai-chatbot-on-its-website-it-told-customers-to-buy-a-ford/ar-AA1lL6KE?ocid=entnewsntp&cvid=b258df25642b448c8467af9a3bf4c362&ei=18' target='_blank' class='text-blue-600 hover:underline'>(MSN)</a>, which produced results touting Ford's products. Imagine building these AI chatbots for children or other uninformed or vulnerable populations that may be led astray with misinformation.</li></ol>",
+						value: `
+					<ol start="1" style="list-style: decimal; padding-left: 20px" class="space-y-4">
+			<li>
+				<strong>Access to Enterprise Data:</strong> This involves creating
+				connectors to various storage solutions and databases, considering
+				different ingestion formats like files, tabular data, or API responses.
+				Unlike traditional ETL, extraction, cleaning, masking, and chunking
+				techniques require special attention, especially when dealing with
+				complex structures like tables in PDFs or removing unwanted HTML tags
+				from web crawls.
+			</li>
+			<li>
+				<strong>Embedding Algorithms:</strong> The constantly evolving nature of
+				embedding algorithms
+				<a
+					href="https://huggingface.co/spaces/mteb/leaderboard"
+					class="text-blue-600"
+					target="_blank"
+					>(Refer MTEB Leaderboard)</a
+				>
+				means it's crucial to experiment with the top models to select the most
+				effective one for your needs. Failure to do so can adversely impact the
+				search process.
+			</li>
+			<li>
+				<strong>Query Phase Management:</strong> This phase can be vulnerable to
+				adversarial actors who may try to 'jailbreak'
+				<a
+					href="https://www.jailbreakchat.com/"
+					class="text-blue-600"
+					target="_blank"
+					>(refer to jailbreakchat)</a
+				>
+				the prompts or overwhelm the system, impacting other users and
+				potentially causing a cost spike.
+			</li>
+			<li>
+				<strong>Chunk Retrieval Process:</strong> For the chunk retrieval
+				process, the similarity search may not retrieve adequate information or
+				be unable to retrieve matching chunks, leading to insufficient context
+				for comprehensive and relevant answers. Advanced retrieval chains are
+				required to augment prompts with personalized context. (e.g., What are
+				claims exclusions for “my” insurance plan? )
+			</li>
+			<li>
+				<strong>Prompt Efficiency</strong>Open source LLMs are catching up fast
+				with proprietary LLMs in language understanding, as evident in the
+				<a
+					href="https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard"
+					class="text-blue-600"
+					target="_blank"
+					>open LLMs leaderboard</a
+				>. Hence, writing efficient prompts is very important to get a relevant
+				and comprehensive answer. Bad prompts can either confuse the LLMs or
+				lead to inadequate responses.
+			</li>
+			<li>
+				<strong>Understanding the Enterprise Domain:</strong>  While Generative AI effectively addresses numerous inquisitive challenges within enterprises, Large Language Models (LLMs) often struggle to grasp the specific nuances of individual enterprise domains. LLMs are trained on publicly available datasets by crawling the world wide web, but enterprise data is behind firewalls; hence, LLMs may not understand a specific internal term used within a business, leading to an “I don't know” response or a response related to a similar term in Wikipedia dictionary leading to hallucination.
+			</li>
+			<li>
+				<strong>Content Safety:</strong> LLMs may spout toxic or unsafe content without proper guardrails, leading to brand reputation issues. The brand reputation concern is genuine, as reported by Chevrolet’s public AI chatbot<a
+				href="https://www.msn.com/en-us/money/companies/a-chevrolet-dealer-offered-an-ai-chatbot-on-its-website-it-told-customers-to-buy-a-ford/ar-AA1lL6KE?ocid=entnewsntp&cvid=b258df25642b448c8467af9a3bf4c362&ei=18"
+				class="text-blue-600"
+				target="_blank"
+				>(MSN)</a
+			>, which produced results touting Ford's products. Imagine building these AI chatbots for children or other uninformed or vulnerable populations that may be led astray with misinformation.
+			</li>
+		</ol>`,
 					},
 				],
 			},
@@ -454,25 +442,15 @@ export const blogDetailsData = [
 				group: true,
 				data: [
 					{
-						type: type.paragraph,
+						type: type.list,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='8' style='list-style: inside; list-style-type: decimal;'><li><strong>User Experience</strong>: Most Gen AI systems do not focus on end-user experience. Chat GPT has set the standard for user experience, but OpenAI has control of the end-to-end pipeline, including the model. Lack of good experiences, such as streaming responses, A/B testing framework, lack of exhaustive user feedback mechanism, adequate seeding questions, or lack of follow-up questions, may diminish user engagement.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"Getting started with GenAIOps automation is another hurdle due to its technical complexity, specialized skills, and the evolving nature of the field. Organizations must prepare for a learning curve and potentially invest in training to tackle these challenges effectively. A typical enterprise may require 15+ specialized applications to encompass different departments and external applications. Let's dive deep into GenAIOps' best practices to tackle these challenges.",
+						value: `
+					<ol start="8" style="list-style: decimal; padding-left: 20px" class="space-y-4">
+					<li>
+				<strong>User Experience:</strong>  Most Gen AI systems do not focus on end-user experience. Chat GPT has set the standard for user experience, but OpenAI has control of the end-to-end pipeline, including the model. Lack of good experiences, such as streaming responses, A/B testing framework, lack of exhaustive user feedback mechanism, adequate seeding questions, or lack of follow-up questions, may diminish user engagement.
+			</li></ol>`,
 					},
 				],
 			},
@@ -512,103 +490,73 @@ export const blogDetailsData = [
 				group: true,
 				data: [
 					{
-						type: type.paragraph,
+						type: type.list,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:
-							"<ol style='list-style: inside; list-style-type: decimal;'><li><strong>Data Management</strong>: Utilize standard storage, database, and SaaS application interfaces to minimize bulk distributed data replication and incremental ingestion. To make it LLM-ready, utilize distributed runtimes for extraction, cleaning, masking, and chunking data. Maintain a copy of source metadata to the vector store to ensure downstream querying systems can use it for pre-filtering for more relevant answers.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='2' style='list-style: inside; list-style-type: decimal;'><li><strong>Model Selection</strong>: Depending on your dataset, use the most appropriate embedding model for your use case. Try at least the top 2 embedding model techniques <a href='https://huggingface.co/spaces/mteb/leaderboard' target='_blank' class='text-blue-600 hover:underline'>(Refer MTEB Leaderboard)</a> during the experimentation phase to understand search relevance based on human-generated standard questions and answer pairs. Utilize synthetic questions generated by LLMs if you don't have human-generated question-answer pairs.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='3' style='list-style: inside; list-style-type: decimal;'><li><strong>Query Management</strong>: To prevent intentional or unintentional adverse behavior, use a suitable classification model to block questions and provide canned responses. Monitor adverse prompts for trends and take appropriate action to improve classification methods iteratively. To safeguard against spam attacks, enable user- and token-based throttling to limit attack vectors.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='4' style='list-style: inside; list-style-type: decimal;'><li><strong>Retrieval Optimization</strong>: Use user metadata for pre-filtering to produce a narrower set for semantic search for optimal retrieval. Many vector databases, such as OpenSearch, MongoDB, and Pinecone, provide hybrid search capabilities. Depending on your source datasets, use additional retrieval chains to retrieve the entire or partial document to provide adequate context for your LLM query. For example, in an R&D chatbot, if the user asks to summarize a particular science paper, your retrieval chain must retrieve the entire science paper based on matching chunks.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='5' style='list-style: inside; list-style-type: decimal;'><li><strong>Building Efficient System Prompts</strong>: Building system prompts is the most critical task to get the most optimal response. Due to the lack of a universal framework for prompts, ensure you follow the standards most appropriate based on LLM or your task (e.g., conversation, summarization, or classification). Maintain a library of best practice prompts for enterprise-specific use cases to benefit others.  Including and enabling domain experts to design system prompts is essential as they are intimately familiar with datasets and expected outputs. Provide a prompt playground so domain experts can intuitively write system prompts, including examples, “Do not” rules, and expected response format. Provide a playground to quickly compare against authorized models for your enterprise. Maintain versions of the prompts so you can promote the best version to production.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='6' style='list-style: inside; list-style-type: decimal;'><li><strong>Model Experimentation</strong>: Many enterprises start with SaaS model providers such as Azure OpenAI or Amazon Bedrock. Open-source models such as Llama2, Mistral, and MPT and their variants are catching up fast. Try out your application against at least 2-3 leading SOTA models to understand response time, domain understanding, and quality of response. Typical enterprise applications may not need the bells and whistles of multi-headed SaaS models, so using open-source models may be as effective as you scale out and offer a better price per performance. For the rapid testing, build an evaluation script to utilize the”LLM as a judge” approach to compare the responses' relevance, comprehensiveness, and accuracy. If the general purpose model does not provide relevant and comprehensive responses, resort to domain-specific fine-tuning or instruction fine-tuning techniques and employ the fine-tuned model in your RAG.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='7' style='list-style: inside; list-style-type: decimal;'><li><strong>Content Safety</strong>: To prevent harmful, toxic responses, augment system prompts to instruct LLMs to redact harmful content from the response. Employ additional controls using other classifiers to block harmful responses entirely to ensure trust and safety. Use a standard set of questions for automated testing to ensure RAGs are regression tested to account for any changes in LLM, system prompts, or changes in data.</li></ol>",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"<ol start='8' style='list-style: inside; list-style-type: decimal;'><li><strong>Enhancing User Experience</strong>: Ultimately, user experience is essential to increase engagement and attract new users. Add streaming if you are building a conversational system, provide appropriate feedback options so users can rate responses, and volunteer to provide correct responses to build the knowledge base. Provide custom instructions, seeding questions to start the conversation, and follow-up questions. Generative AI is rapidly evolving, so it is vital to continue to monitor user feedback and incorporate additional capabilities such as multi-modal (image and text)</li></ol>",
+						value: `
+		<ol
+			start="1"
+			style="list-style: decimal; padding-left: 20px"
+			class="space-y-4"
+		>
+			<li>
+				<strong>Data Management:</strong> Utilize standard storage, database,
+				and SaaS application interfaces to minimize bulk distributed data
+				replication and incremental ingestion. To make it LLM-ready, utilize
+				distributed runtimes for extraction, cleaning, masking, and chunking
+				data. Maintain a copy of source metadata to the vector store to ensure
+				downstream querying systems can use it for pre-filtering for more
+				relevant answers.
+			</li>
+			<li>
+				<strong>Model Selection:</strong>
+
+				Depending on your dataset, use the most appropriate embedding model for
+				your use case. Try at least the top 2 embedding model techniques
+				<a
+					href="https://huggingface.co/spaces/mteb/leaderboard"
+					class="text-blue-600"
+					target="_blank"
+					>(Refer MTEB Leaderboard)</a
+				>
+				during the experimentation phase to understand search relevance based on
+				human-generated standard questions and answer pairs. Utilize synthetic
+				questions generated by LLMs if you don't have human-generated
+				question-answer pairs.
+			</li>
+			<li>
+				<strong>Query Phase Management:</strong> To prevent intentional or
+				unintentional adverse behavior, use a suitable classification model to
+				block questions and provide canned responses. Monitor adverse prompts
+				for trends and take appropriate action to improve classification methods
+				iteratively. To safeguard against spam attacks, enable user- and
+				token-based throttling to limit attack vectors.
+			</li>
+			<li>
+				<strong>Retrieval Optimization:</strong> Use user metadata for
+				pre-filtering to produce a narrower set for semantic search for optimal
+				retrieval. Many vector databases, such as OpenSearch, MongoDB, and
+				Pinecone, provide hybrid search capabilities. Depending on your source
+				datasets, use additional retrieval chains to retrieve the entire or
+				partial document to provide adequate context for your LLM query. For
+				example, in an R&D chatbot, if the user asks to summarize a particular
+				science paper, your retrieval chain must retrieve the entire science
+				paper based on matching chunks.
+			</li>
+			<li>
+				<strong>Building Efficient System Prompts</strong>Building system prompts is the most critical task to get the most optimal response. Due to the lack of a universal framework for prompts, ensure you follow the standards most appropriate based on LLM or your task (e.g., conversation, summarization, or classification). Maintain a library of best practice prompts for enterprise-specific use cases to benefit others.  Including and enabling domain experts to design system prompts is essential as they are intimately familiar with datasets and expected outputs. Provide a prompt playground so domain experts can intuitively write system prompts, including examples, “Do not” rules, and expected response format. Provide a playground to quickly compare against authorized models for your enterprise. Maintain versions of the prompts so you can promote the best version to production.
+			</li>
+			<li>
+				<strong>Model Experimentation:</strong> Many enterprises start with SaaS model providers such as Azure OpenAI or Amazon Bedrock. Open-source models such as Llama2, Mistral, and MPT and their variants are catching up fast. Try out your application against at least 2-3 leading SOTA models to understand response time, domain understanding, and quality of response. Typical enterprise applications may not need the bells and whistles of multi-headed SaaS models, so using open-source models may be as effective as you scale out and offer a better price per performance. For the rapid testing, build an evaluation script to utilize the”LLM as a judge” approach to compare the responses' relevance, comprehensiveness, and accuracy. If the general purpose model does not provide relevant and comprehensive responses, resort to domain-specific fine-tuning or instruction fine-tuning techniques and employ the fine-tuned model in your RAG.
+			</li>
+			<li>
+				<strong>Content Safety:</strong> To prevent harmful, toxic responses, augment system prompts to instruct LLMs to redact harmful content from the response. Employ additional controls using other classifiers to block harmful responses entirely to ensure trust and safety. Use a standard set of questions for automated testing to ensure RAGs are regression tested to account for any changes in LLM, system prompts, or changes in data.
+			</li>
+			<li>
+				<strong>Enhancing User Experience:</strong> Ultimately, user experience is essential to increase engagement and attract new users. Add streaming if you are building a conversational system, provide appropriate feedback options so users can rate responses, and volunteer to provide correct responses to build the knowledge base. Provide custom instructions, seeding questions to start the conversation, and follow-up questions. Generative AI is rapidly evolving, so it is vital to continue to monitor user feedback and incorporate additional capabilities such as multi-modal (image and text).
+			</li>
+		</ol>`,
 					},
 				],
 			},
@@ -664,9 +612,9 @@ export const blogDetailsData = [
 		timeToRead: "10 min read",
 		SEO_data: {
 			title:
-				"Mastering Generative AI: A Strategic Roadmap for Enterprise Integration",
+				"Unlocking Generative AI: Strategic Approaches for Enterprises | Karini.ai",
 			content:
-				"In the past twelve months, the corporate landscape has been abuzz with the potential of generative AI as a groundbreaking innovation. Despite broad recognition of its transformative power, many firms have adopted a tentative stance, cautiously navigating the implementation of this technology.",
+				"Explore strategic approaches for effective and secure adoption of generative AI. Transform your enterprise with Karini.ai's expertise and innovative solutions.",
 			canonicalLink: "https://www.karini.ai/blogs/mastering-generative-ai",
 			schemaMarkup: {
 				"@context": "https://schema.org",
@@ -1174,10 +1122,9 @@ export const blogDetailsData = [
 		author: "Jerome Mendell",
 		timeToRead: "5 min read",
 		SEO_data: {
-			title:
-				"Unleashing the Potential of Unified Data: The Gen AI Evolution in Business Intelligence",
+			title: "Bridging Unified Data: Gen AI Revolution | Karini.ai",
 			content:
-				"In an era where data is the new gold, businesses have grappled with the challenge of data silos - isolated reservoirs of information accessible only to specific organizational factions.",
+				"Discover how Karini.ai leverages Generative AI (Gen AI) to break down unified data, enabling seamless access to diverse data for informed decision-making.",
 			canonicalLink:
 				"https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data",
 			schemaMarkup: {
