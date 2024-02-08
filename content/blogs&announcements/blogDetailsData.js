@@ -1077,15 +1077,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							"The promise of generative AI far overshadows the perceived risks, demanding proactive engagement rather than cautious observation. ",
-					},
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"Now is the opportune moment for enterprises to embrace generative AI, navigating its introduction with calculated measures to offset potential risks.",
+							"The promise of generative AI far overshadows the perceived risks, demanding proactive engagement rather than cautious observation. Now is the opportune moment for enterprises to embrace generative AI, navigating its introduction with calculated measures to offset potential risks.",
 					},
 					{
 						type: type.paragraph,
