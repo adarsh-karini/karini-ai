@@ -38,7 +38,7 @@ const Blog = () => {
 		<>
 			<Head>
 				<title>{blogData?.SEO_data.title}</title>
-				<meta name="description" content={blogData?.SEO_data.content} />
+				<meta name="description" content={blogData?.SEO_data.description} />
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href={blogData?.SEO_data.canonicalLink} />
@@ -65,7 +65,7 @@ const Blog = () => {
 					type="application/javascript"
 					src="https://news.google.com/swg/js/v1/swg-basic.js"
 				/>
-				<Script
+				{/* <Script
 					id="blog-swg-script"
 					dangerouslySetInnerHTML={{
 						__html: `(window.SWG_BASIC = window.SWG_BASIC || []).push((basicSubscriptions) => {
@@ -77,7 +77,7 @@ const Blog = () => {
 								});
 							});`,
 					}}
-				/>
+				/> */}
 			</div>
 		</>
 	);
