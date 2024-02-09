@@ -266,7 +266,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							'We are delighted to share that starting December 1, 2023, Karini AI has fully expanded its capabilities to support all <a href="https://aws.amazon.com/bedrock/" target="_blank" class="text-blue-600 hover:underline">Amazon Bedrock</a> models. This significant enhancement to our service offerings helps take your pilots using Amazon Bedrock faster to production.',
+							'We are delighted to share that starting December 1, 2023, Karini AI has fully expanded its capabilities to support all <a href="https://aws.amazon.com/bedrock/" target="_blank" rel=" nofollow" class="text-blue-600 hover:underline">Amazon Bedrock</a> models. This significant enhancement to our service offerings helps take your pilots using Amazon Bedrock faster to production.',
 					},
 				],
 			},
@@ -408,7 +408,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							'We are excited to announce a dynamic new partnership between Karini AI and <a href="https://www.databricks.com/" target="_blank" class="text-blue-600 hover:underline">Databricks</a> effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers.',
+							'We are excited to announce a dynamic new partnership between Karini AI and <a href="https://www.databricks.com/" target="_blank" rel=" nofollow" class="text-blue-600 hover:underline">Databricks</a> effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers.',
 					},
 				],
 			},
@@ -554,7 +554,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							'We are thrilled to announce that Karini AI has officially partnered with <a href="http://aws.amazon.com" target="_blank" class="text-blue-600 hover:underline"> Amazon Web Services (AWS)</a> as an Independent Software Vendor (ISV). This strategic partnership, effective from October 16, 2023, marks a significant milestone in our journey towards innovation and excellence.',
+							'We are thrilled to announce that Karini AI has officially partnered with <a href="http://aws.amazon.com" target="_blank" rel=" nofollow" class="text-blue-600 hover:underline"> Amazon Web Services (AWS)</a> as an Independent Software Vendor (ISV). This strategic partnership, effective from October 16, 2023, marks a significant milestone in our journey towards innovation and excellence.',
 					},
 				],
 			},

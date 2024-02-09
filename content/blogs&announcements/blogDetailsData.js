@@ -114,7 +114,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							'According to survey by	<a href="https://cnvrg.io/wp-content/uploads/2023/11/ML-Insider-Survey_2023_WEB.pdf" target="_blank" class="text-blue-600 hover:underline"> MLInsider</a>,',
+							'According to survey by	<a href="https://cnvrg.io/wp-content/uploads/2023/11/ML-Insider-Survey_2023_WEB.pdf" target="_blank" rel=" nofollow" class="text-blue-600 hover:underline"> MLInsider</a>,',
 					},
 					{
 						type: type.list,
@@ -160,6 +160,7 @@ export const blogDetailsData = [
 					{
 						type: type.image,
 						path: "/assets/images/blogs/GenAIOps_four_layer_cake.png",
+						imageAltName: "GenAIOps four layer cake",
 						caption: "",
 						width: 600,
 						height: 600,
@@ -221,6 +222,7 @@ export const blogDetailsData = [
 					{
 						type: type.image,
 						path: "/assets/images/blogs/AI-Platform-Architecture.png",
+						imageAltName: "AI Platform Architecture",
 						caption: "",
 						width: 600,
 						height: 600,
@@ -252,7 +254,7 @@ export const blogDetailsData = [
 			title: "About the author",
 			authorImage: "/assets/images/team_members/deepali-rajale.png",
 			authorInfo:
-				'<a	class="text-blue-600 hover:underline" target="_blank" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generatie AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
+				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generatie AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
 	},
 	{
@@ -341,6 +343,7 @@ export const blogDetailsData = [
 					{
 						type: type.image,
 						path: "/assets/images/blogs/GenAIOps_challenges.png",
+						imageAltName: "GenAIOps challenges",
 						caption: "",
 						width: 1300,
 						height: 1100,
@@ -372,7 +375,7 @@ export const blogDetailsData = [
 				<a
 					href="https://huggingface.co/spaces/mteb/leaderboard"
 					class="text-blue-600"
-					target="_blank"
+					target="_blank" rel=" nofollow"
 					>(Refer MTEB Leaderboard)</a
 				>
 				means it's crucial to experiment with the top models to select the most
@@ -385,7 +388,7 @@ export const blogDetailsData = [
 				<a
 					href="https://www.jailbreakchat.com/"
 					class="text-blue-600"
-					target="_blank"
+					target="_blank" rel=" nofollow"
 					>(refer to jailbreakchat)</a
 				>
 				the prompts or overwhelm the system, impacting other users and
@@ -405,7 +408,7 @@ export const blogDetailsData = [
 				<a
 					href="https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard"
 					class="text-blue-600"
-					target="_blank"
+					target="_blank" rel=" nofollow"
 					>open LLMs leaderboard</a
 				>. Hence, writing efficient prompts is very important to get a relevant
 				and comprehensive answer. Bad prompts can either confuse the LLMs or
@@ -418,7 +421,7 @@ export const blogDetailsData = [
 				<strong>Content Safety:</strong> LLMs may spout toxic or unsafe content without proper guardrails, leading to brand reputation issues. The brand reputation concern is genuine, as reported by Chevrolet’s public AI chatbot<a
 				href="https://www.msn.com/en-us/money/companies/a-chevrolet-dealer-offered-an-ai-chatbot-on-its-website-it-told-customers-to-buy-a-ford/ar-AA1lL6KE?ocid=entnewsntp&cvid=b258df25642b448c8467af9a3bf4c362&ei=18"
 				class="text-blue-600"
-				target="_blank"
+				target="_blank" rel=" nofollow"
 				>(MSN)</a
 			>, which produced results touting Ford's products. Imagine building these AI chatbots for children or other uninformed or vulnerable populations that may be led astray with misinformation.
 			</li>
@@ -432,6 +435,7 @@ export const blogDetailsData = [
 					{
 						type: type.image,
 						path: "/assets/images/blogs/msn_chevy_chatbot_crop.png",
+						imageAltName: "Chevrolet chatbot",
 						caption: "",
 						width: 200,
 						height: 400,
@@ -480,6 +484,7 @@ export const blogDetailsData = [
 					{
 						type: type.image,
 						path: "/assets/images/blogs/GenAIOps_best_practices.png",
+						imageAltName: "GenAIOps best practices",
 						caption: "",
 						width: 1300,
 						height: 1100,
@@ -517,7 +522,7 @@ export const blogDetailsData = [
 				<a
 					href="https://huggingface.co/spaces/mteb/leaderboard"
 					class="text-blue-600"
-					target="_blank"
+					target="_blank" rel=" nofollow"
 					>(Refer MTEB Leaderboard)</a
 				>
 				during the experimentation phase to understand search relevance based on
@@ -598,7 +603,7 @@ export const blogDetailsData = [
 			title: "About the author",
 			authorImage: "/assets/images/team_members/deepali-rajale.png",
 			authorInfo:
-				'<a	class="text-blue-600 hover:underline" target="_blank" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generatie AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
+				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generatie AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
 	},
 	{
@@ -1101,7 +1106,7 @@ export const blogDetailsData = [
 			title: "About the author",
 			authorImage: "/assets/images/team_members/jerome-mendell.png",
 			authorInfo:
-				'<a	class="text-blue-600 hover:underline" target="_blank" href="https://www.linkedin.com/in/jeromemendell/"> Jerome Mendell </a>is a software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus. Jerome has collaborated with leading technology providers, publishers, and clients serving Fortune 500 companies globally.',
+				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/jeromemendell/"> Jerome Mendell </a>is a software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus. Jerome has collaborated with leading technology providers, publishers, and clients serving Fortune 500 companies globally.',
 		},
 	},
 	{
@@ -1311,7 +1316,7 @@ export const blogDetailsData = [
 			title: "About the author",
 			authorImage: "/assets/images/team_members/jerome-mendell.png",
 			authorInfo:
-				'<a	class="text-blue-600 hover:underline" target="_blank" href="https://www.linkedin.com/in/jeromemendell/"> Jerome Mendell </a>is a software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus. Jerome has collaborated with leading technology providers, publishers, and clients serving Fortune 500 companies globally.',
+				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/jeromemendell/"> Jerome Mendell </a>is a software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus. Jerome has collaborated with leading technology providers, publishers, and clients serving Fortune 500 companies globally.',
 		},
 	},
 ];

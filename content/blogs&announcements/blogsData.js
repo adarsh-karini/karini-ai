@@ -6,6 +6,7 @@ export const blogsData = [
 		filterName: "blogs",
 		type: "blog",
 		image: "/assets/images/blogs/Industrialize-Generative-AI.png",
+		imageAltName: "Industrialize Generative AI",
 		imageWidth: 400,
 		imageHeight: 400,
 		title: "Industrialize Generative AI",
@@ -21,6 +22,7 @@ export const blogsData = [
 		filterName: "blogs",
 		type: "blog",
 		image: "/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png",
+		imageAltName: "Navigating GenAIOps in Enterprises",
 		imageWidth: 430,
 		imageHeight: 400,
 		title:
@@ -37,6 +39,7 @@ export const blogsData = [
 		filterName: "blogs",
 		type: "blog",
 		image: "/assets/images/blogs/Mastering_Generative_AI.png",
+		imageAltName: "Mastering Generative AI",
 		imageWidth: 510,
 		imageHeight: 510,
 		title:
@@ -53,6 +56,7 @@ export const blogsData = [
 		filterName: "blogs",
 		type: "blog",
 		image: "/assets/images/blogs/Evolution_of_Gen_AI.png",
+		imageAltName: "Evolution of Gen AI",
 		imageWidth: 320,
 		imageHeight: 320,
 		title:

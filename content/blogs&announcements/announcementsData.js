@@ -4,6 +4,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Karini_Evolves_Prompting_Experience.png",
+		imageAltName: "Karini Evolves Prompting Experience",
 		imageWidth: 750,
 		imageHeight: 550,
 		title:
@@ -20,6 +21,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Streaming-eye-catcher.png",
+		imageAltName: "Karini AI Launches Streaming for Copilot",
 		imageWidth: 670,
 		imageHeight: 700,
 		title: "Karini AI Launches Streaming for Copilot",
@@ -35,6 +37,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Bedrock_Models_Support.png",
+		imageAltName: "Karini AI Announces Full Support for Amazon Bedrock Models",
 		imageWidth: 450,
 		imageHeight: 530,
 		title: "Karini AI Announces Full Support for Amazon Bedrock Models",
@@ -50,6 +53,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Databricks_Partnership.png",
+		imageAltName: "Karini AI Embarks on a New Partnership with Databricks",
 		imageWidth: 530,
 		imageHeight: 530,
 		title: "Karini AI Embarks on a New Partnership with Databricks",
@@ -65,6 +69,8 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png",
+		imageAltName:
+			"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
 		imageWidth: 500,
 		imageHeight: 500,
 		title:

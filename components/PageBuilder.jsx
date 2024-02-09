@@ -134,7 +134,8 @@ const PageBuilder = ({ data }) => {
 																src={val.path}
 																height={val.width}
 																width={val.height}
-																alt={val.caption}
+																alt={val.imageAltName}
+																title={val.imageAltName}
 																className="rounded border p-2"
 															/>
 														</div>
@@ -152,7 +153,8 @@ const PageBuilder = ({ data }) => {
 																src={val.path}
 																height={val.width}
 																width={val.height}
-																alt={val.caption}
+																alt={val.imageAltName}
+																title={val.imageAltName}
 																className="rounded border border-secondary-300"
 															/>
 														</div>

@@ -100,7 +100,8 @@ const BlogsandAnn = () => {
 										<div className="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0">
 											<div className="flex justify-center">
 												<Image
-													alt="blog-img"
+													alt={blog.imageAltName}
+													title={blog.imageAltName}
 													src={blog.image}
 													width={blog.imageWidth}
 													height={blog.imageHeight}
