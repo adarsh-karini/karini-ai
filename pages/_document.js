@@ -21,8 +21,13 @@ export default function Document() {
 				/>
 
 				<link rel="icon" type="image/x-icon" href="/karini-favicon.png" />
-				<script type="text/javascript">
-					{(function (c, l, a, r, i, t, y) {
+				<link rel="icon" href="/karini-favicon.ico" />
+
+				<Script
+					id="ga001"
+					type="text/javascript"
+					dangerouslySetInnerHTML={{
+						__html: `{(function (c, l, a, r, i, t, y) {
 						c[a] =
 							c[a] ||
 							function () {
@@ -33,8 +38,9 @@ export default function Document() {
 						t.src = "https://www.clarity.ms/tag/" + i;
 						y = l.getElementsByTagName(r)[0];
 						y.parentNode.insertBefore(t, y);
-					})(window, document, "clarity", "script", "kyysgqymfd")}
-				</script>
+					})(window, document, "clarity", "script", "kyysgqymfd")}`,
+					}}
+				></Script>
 			</Head>
 			<body>
 				<Main />
