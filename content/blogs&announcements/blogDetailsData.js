@@ -34,7 +34,7 @@ export const blogDetailsData = [
 		timeToRead: "5 min read",
 		SEO_data: {
 			title: "Industrialize Generative AI",
-			content:
+			description:
 				"Discover how to overcome the challenges of implementing Generative AI in enterprises and unlock its potential. Explore the Generative AI platform by Karini AI for rapid application development and enhanced business operations. Try it now!",
 			canonicalLink: "https://www.karini.ai/blogs/industrialize-generative-ai",
 			schemaMarkup: {
@@ -266,9 +266,9 @@ export const blogDetailsData = [
 		timeToRead: "10 min read",
 		SEO_data: {
 			title:
-				"Navigating GenAIOps in Enterprises: Challenges and Best Practices",
-			content:
-				"Enterprises are adopting Generative AI to help solve many complex use cases with natural language instructions. Building a Gen AI application involves multiple components such as an LLM, data sources, vector store, prompt engineering, and RAG.",
+				"Empowering Enterprises with GenAIOps: Overcoming Challenges and Best Practices",
+			description:
+				"Explore how enterprises leverage Generative AI for complex tasks, face challenges in automation, and adopt GenAIOps best practices for optimal results.",
 			canonicalLink:
 				"https://www.karini.ai/blogs/navigating-genaiops-in-enterprises",
 			schemaMarkup: {
@@ -613,7 +613,7 @@ export const blogDetailsData = [
 		SEO_data: {
 			title:
 				"Unlocking Generative AI: Strategic Approaches for Enterprises | Karini.ai",
-			content:
+			description:
 				"Explore strategic approaches for effective and secure adoption of generative AI. Transform your enterprise with Karini.ai's expertise and innovative solutions.",
 			canonicalLink: "https://www.karini.ai/blogs/mastering-generative-ai",
 			schemaMarkup: {
@@ -1115,7 +1115,7 @@ export const blogDetailsData = [
 		timeToRead: "5 min read",
 		SEO_data: {
 			title: "Bridging Unified Data: Gen AI Revolution | Karini.ai",
-			content:
+			description:
 				"Discover how Karini.ai leverages Generative AI (Gen AI) to break down unified data, enabling seamless access to diverse data for informed decision-making.",
 			canonicalLink:
 				"https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data",

@@ -32,9 +32,9 @@ export const announcementsDetailsData = [
 		postedOn: "January 18, 2024",
 		timeToRead: "2 min read",
 		SEO_data: {
-			title: "Karini AI Launches Streaming for Copilot",
-			content:
-				"Karini AI is proud to announce a new feature to help businesses enhance user experiences by replacing the everlasting ellipsis with streaming responses.  Following the latest trends in open-source generative artificial intelligence, this leap forward for purpose built enterprise-focused artificial intelligence using natural language questions and answers is evolving CoPilot to the next level.",
+			title: "Karini AI Elevates User Experience: Streaming Responses Unveiled",
+			description:
+				"Discover Karini AI's groundbreaking feature—replace ellipsis with streaming responses, enhancing user engagement across various SOTA model providers seamlessly. Elevate your copilot experience effortlessly.",
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
 			schemaMarkup: {
@@ -129,9 +129,9 @@ export const announcementsDetailsData = [
 		timeToRead: "2 min read",
 		SEO_data: {
 			title:
-				"Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
-			content:
-				"Karini AI announces advanced prompt playground, encouringing industry experts to delve into the craft of prompt creation. This enhanced playground provides ready-to-use templates, user-friendly prompt creation, and a testing framework for model comparison. This allows business and technical users to quickly evaluate prompt efficacy and model performance, making the most of their domain expertise in crafting prompts.",
+				"Karini AI Unveils Advanced Prompt Playground for Expert Prompt Engineering",
+			description:
+				"Empower industry experts with Karini AI's enhanced prompt playground, offering templates, user-friendly creation, and a model testing framework for optimal prompt design. Elevate your Generative AI applications effortlessly.",
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
 			schemaMarkup: {
@@ -224,9 +224,9 @@ export const announcementsDetailsData = [
 		postedOn: "December 1, 2023",
 		timeToRead: "2 min read",
 		SEO_data: {
-			title: "Karini AI Announces Full Support for Amazon Bedrock Models",
-			content:
-				'We are delighted to share that starting December 1, 2023, Karini AI has fully expanded its capabilities to support all <a href="https://aws.amazon.com/bedrock/" target="_blank" class="text-blue-600 hover:underline">Amazon Bedrock</a> models. This significant enhancement to our service offerings helps take your pilots using Amazon Bedrock faster to production.',
+			title: "Karini AI Expands: Full Support for Amazon Bedrock Models",
+			description:
+				"Unlock innovation with Karini AI's expanded support for Amazon Bedrock Models. Streamline integration, ensure AWS security, and deploy Gen AI projects rapidly. Explore the benefits now!",
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
 			schemaMarkup: {
@@ -367,8 +367,8 @@ export const announcementsDetailsData = [
 		timeToRead: "2 min read",
 		SEO_data: {
 			title: "Karini AI Embarks on a New Partnership with Databricks",
-			content:
-				'We are excited to announce a dynamic new partnership between Karini AI and <a href="https://www.databricks.com/" target="_blank" class="text-blue-600 hover:underline">Databricks</a> effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers.',
+			description:
+				"Exciting collaboration! Karini AI joins forces with Databricks, combining cutting-edge AI capabilities and distributed processing for seamless, rapid Gen AI workflow production.",
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
 			schemaMarkup: {
@@ -511,9 +511,9 @@ export const announcementsDetailsData = [
 		timeToRead: "2 min read",
 		SEO_data: {
 			title:
-				"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
-			content:
-				"We are thrilled to announce that Karini AI has officially partnered with Amazon Web Services (AWS) as an Independent Software Vendor (ISV). This strategic partnership, effective from October 16, 2023, marks a significant milestone in our journey towards innovation and excellence.",
+				"Karini AI Joins Forces with AWS: Advancing Generative AI Solutions",
+			description:
+				"Exciting partnership! Karini AI collaborates with AWS as an ISV, leveraging cloud computing and AI services for scalable, secure, and innovative Generative AI solutions.",
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 			schemaMarkup: {

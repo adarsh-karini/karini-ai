@@ -35,7 +35,7 @@ const Announcement = () => {
 		<>
 			<Head>
 				<title>{annData?.SEO_data.title}</title>
-				<meta name="description" content={annData?.SEO_data.content} />
+				<meta name="description" content={annData?.SEO_data.description} />
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href={annData?.SEO_data.canonicalLink} />
@@ -61,7 +61,7 @@ const Announcement = () => {
 					type="application/javascript"
 					src="https://news.google.com/swg/js/v1/swg-basic.js"
 				/>
-				<Script
+				{/* <Script
 					id="ann-swg-script"
 					dangerouslySetInnerHTML={{
 						__html: `(window.SWG_BASIC = window.SWG_BASIC || []).push((basicSubscriptions) => {
@@ -73,7 +73,7 @@ const Announcement = () => {
 								});
 							});`,
 					}}
-				/>
+				/> */}
 			</div>
 		</>
 	);
