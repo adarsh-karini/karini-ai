@@ -5,8 +5,8 @@ export const announcementsData = [
 		type: "announcement",
 		image: "/assets/images/blogs/Karini_Evolves_Prompting_Experience.png",
 		imageAltName: "Karini Evolves Prompting Experience",
-		imageWidth: 750,
-		imageHeight: 550,
+		// imageWidth: 750,
+		// imageHeight: 550,
 		title:
 			"Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
 		description:
@@ -22,8 +22,8 @@ export const announcementsData = [
 		type: "announcement",
 		image: "/assets/images/blogs/Streaming-eye-catcher.png",
 		imageAltName: "Karini AI Launches Streaming for Copilot",
-		imageWidth: 670,
-		imageHeight: 700,
+		// imageWidth: 670,
+		// imageHeight: 700,
 		title: "Karini AI Launches Streaming for Copilot",
 		description:
 			"Karini AI is proud to announce a new feature to help businesses enhance user experiences by replacing the everlasting ellipsis with streaming responses.  Following the latest trends in open-source generative artificial intelligence, this leap forward for purpose built enterprise-focused artificial intelligence using natural language questions and answers is evolving CoPilot to the next level.",
@@ -38,8 +38,8 @@ export const announcementsData = [
 		type: "announcement",
 		image: "/assets/images/blogs/Bedrock_Models_Support.png",
 		imageAltName: "Karini AI Announces Full Support for Amazon Bedrock Models",
-		imageWidth: 450,
-		imageHeight: 530,
+		// imageWidth: 450,
+		// imageHeight: 530,
 		title: "Karini AI Announces Full Support for Amazon Bedrock Models",
 		description:
 			"We are delighted to share that starting December 1, 2023, Karini AI has fully expanded its capabilities to support all Amazon Bedrock Models. This significant enhancement to our service offerings helps take your pilots using Amazon Bedrock faster to production.",
@@ -54,8 +54,8 @@ export const announcementsData = [
 		type: "announcement",
 		image: "/assets/images/blogs/Databricks_Partnership.png",
 		imageAltName: "Karini AI Embarks on a New Partnership with Databricks",
-		imageWidth: 530,
-		imageHeight: 530,
+		// imageWidth: 530,
+		// imageHeight: 530,
 		title: "Karini AI Embarks on a New Partnership with Databricks",
 		description:
 			"We are excited to announce a dynamic new partnership between Karini AI and Databricks effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offerered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers.",
@@ -71,8 +71,8 @@ export const announcementsData = [
 		image: "/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png",
 		imageAltName:
 			"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
-		imageWidth: 500,
-		imageHeight: 500,
+		// imageWidth: 500,
+		// imageHeight: 500,
 		title:
 			"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
 		description:
