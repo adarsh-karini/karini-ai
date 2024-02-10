@@ -13,6 +13,7 @@ const BlogsandAnn = () => {
 	const [activeFilter, setActiveFilter] = useState("all");
 	let filterButtons = blogsFilterArray;
 	const [filteredBlogs, setFilteredBlogs] = useState([]);
+	const [view, setView] = useState("list"); // list, grid
 
 	useEffect(() => {
 		let announcements = announcementsData.filter(
@@ -70,7 +71,7 @@ const BlogsandAnn = () => {
 				</h1>
 				{/* grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  */}
 				<div className="space-y-6">
-					<div>
+					<div className="pb-2 border-b border-b-secondary-200">
 						<div className="space-x-2">
 							{filterButtons.map((button, index) => (
 								<button
@@ -87,29 +88,94 @@ const BlogsandAnn = () => {
 							))}
 						</div>
 					</div>
-					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-4">
-						{filteredBlogs.length === 0 && (
-							<p className="text-center text-black italic">
-								No blogs or announcements to show...
-							</p>
-						)}
-						{filteredBlogs.length > 0 &&
-							filteredBlogs.map((blog, index) => (
-								<Link key={index} href={blog.path}>
-									<article className="h-full bg-white rounded-md border shadow p-4">
-										<div className="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0">
-											<div className="flex justify-center">
+					<div className="block md:hidden">
+						<div className="grid grid-cols-1 gap-4">
+							{filteredBlogs.length === 0 && (
+								<p className="text-center text-black italic">
+									No blogs or announcements to show...
+								</p>
+							)}
+							{filteredBlogs.length > 0 &&
+								filteredBlogs.map((blog, index) => (
+									<Link key={index} href={blog.path}>
+										<article className="h-full bg-white rounded-md border shadow p-4">
+											<div className="flex space-x-4 space-y-0">
+												<div className="w-40">
+													<Image
+														alt={blog.imageAltName}
+														title={blog.imageAltName}
+														src={blog.image}
+														width={500}
+														height={500}
+														className="object-fill w-full h-full rounded"
+													/>
+												</div>
+												<div className="flex-1 flex flex-col justify-between">
+													<div className="space-y-1">
+														<span
+															className={`${
+																blog.type === "blog"
+																	? "bg-primary-500"
+																	: "bg-[#e100ff]"
+															} text-xs text-white border rounded-full py-1 px-2`}
+														>
+															{blog.type === "blog" ? "blog" : "announcement"}
+														</span>
+														<h3 className="text-sm sm:text-base lg:text-xl font-semibold text-secondary-900 hover:text-primary-600">
+															{blog.title}
+														</h3>
+
+														<p className="mt-2 line-clamp-3 text-xs sm:text-sm md:text-base text-secondary-700">
+															{blog.description}
+														</p>
+													</div>
+
+													<div className="flex justify-between items-end">
+														<div className="group mt-4 inline-flex items-center gap-1 text-xs md:text-sm font-medium text-primary-600">
+															<span className="flex-1">Read More</span>
+															<span
+																aria-hidden="true"
+																className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+															>
+																&rarr;
+															</span>
+														</div>
+														<p className="text-primary-600 text-xs md:text-sm font-medium space-x-1 md:space-x-2">
+															<span>{blog.date}</span>
+															<span>|</span>
+															<span>{blog.timeToRead}</span>
+														</p>
+													</div>
+												</div>
+											</div>
+										</article>
+									</Link>
+								))}
+						</div>
+					</div>
+					<div className="hidden md:block">
+						<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+							{filteredBlogs.length === 0 && (
+								<p className="text-center text-black italic">
+									No blogs or announcements to show...
+								</p>
+							)}
+							{filteredBlogs.length > 0 &&
+								filteredBlogs.map((blog, index) => (
+									<Link key={index} href={blog.path}>
+										<div className="h-full bg-white flex flex-col border border-secondary-300 rounded shadow p-4 space-y-4">
+											<div className="h-[300px] w-full border">
 												<Image
 													alt={blog.imageAltName}
 													title={blog.imageAltName}
 													src={blog.image}
-													width={blog.imageWidth}
-													height={blog.imageHeight}
-													className="object-contain"
+													width={500}
+													height={500}
+													className="object-cover rounded-md w-full h-full"
 												/>
 											</div>
-											<div className="flex flex-col justify-between">
-												<div className="space-y-1">
+											<div className="flex-1 flex flex-col space-y-4">
+												<div className="flex-1 space-y-1">
 													<span
 														className={`${
 															blog.type === "blog"
@@ -119,26 +185,26 @@ const BlogsandAnn = () => {
 													>
 														{blog.type === "blog" ? "blog" : "announcement"}
 													</span>
-													<h3 className="text-xl font-semibold text-secondary-900 hover:text-primary-600">
+													<h3 className="text-base text-black font-medium hover:text-primary-600 hover:underline">
 														{blog.title}
 													</h3>
-
-													<p className="mt-2 line-clamp-3 text-base text-secondary-700">
+													<p className="text-sm text-secondary-700 line-clamp-2">
 														{blog.description}
 													</p>
 												</div>
-
-												<div className="flex justify-between items-end">
-													<div className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary-600">
-														Read More
+												<div className="flex justify-between items-center">
+													<div className="flex-1 md:flex-none flex items-center">
+														<span className="text-sm text-primary-600 text-left font-medium hover:underline">
+															Read More
+														</span>
 														<span
 															aria-hidden="true"
-															className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+															className="block transition-all group-hover:ms-0.5 rtl:rotate-180 text-primary-600"
 														>
 															&rarr;
 														</span>
 													</div>
-													<p className="text-primary-600 text-sm font-medium space-x-2">
+													<p className="flex-1 md:flex-none text-primary-600 text-sm text-right font-medium space-x-1">
 														<span>{blog.date}</span>
 														<span>|</span>
 														<span>{blog.timeToRead}</span>
@@ -146,55 +212,10 @@ const BlogsandAnn = () => {
 												</div>
 											</div>
 										</div>
-									</article>
-								</Link>
-							))}
+									</Link>
+								))}
+						</div>
 					</div>
-					{/* <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1">
-						{blogsData.map((blog, index) => (
-							<Link key={index} href={blog.path}>
-								<article className="bg-white rounded-md border shadow p-4">
-									<div className="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0">
-										<div className="flex justify-center">
-											<Image
-												alt="blog-img"
-												src={blog.image}
-												width={500}
-												height={400}
-												className="object-contain"
-											/>
-										</div>
-										<div className="flex flex-col justify-between">
-											<div>
-												<h3 className="text-base font-semibold text-secondary-900 hover:text-primary-600">
-													{blog.title}
-												</h3>
-
-												<p className="mt-2 line-clamp-3 text-sm/relaxed text-secondary-700">
-													{blog.description}
-												</p>
-											</div>
-
-											<div className="flex justify-between items-end">
-												<div className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary-600">
-													Read More
-													<span
-														aria-hidden="true"
-														className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
-													>
-														&rarr;
-													</span>
-												</div>
-												<p className="text-secondary-500 text-xs">
-													{blog.dateandDuration}
-												</p>
-											</div>
-										</div>
-									</div>
-								</article>
-							</Link>
-						))}
-					</div> */}
 				</div>
 			</div>
 		</section>

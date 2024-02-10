@@ -7,8 +7,8 @@ export const blogsData = [
 		type: "blog",
 		image: "/assets/images/blogs/Industrialize-Generative-AI.png",
 		imageAltName: "Industrialize Generative AI",
-		imageWidth: 400,
-		imageHeight: 400,
+		// imageWidth: 400,
+		// imageHeight: 400,
 		title: "Industrialize Generative AI",
 		description:
 			"Announcing Generative AI Platform - designed to accelerate experimentation, expedite market delivery, and bridge the generative AI adoption gap, enabling businesses to harness the full potential of this groundbreaking technology.",
@@ -23,8 +23,8 @@ export const blogsData = [
 		type: "blog",
 		image: "/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png",
 		imageAltName: "Navigating GenAIOps in Enterprises",
-		imageWidth: 430,
-		imageHeight: 400,
+		// imageWidth: 430,
+		// imageHeight: 400,
 		title:
 			"Navigating GenAIOps in Enterprises: Challenges and Best Practices - Version 1.0",
 		description:
@@ -40,7 +40,7 @@ export const blogsData = [
 		type: "blog",
 		image: "/assets/images/blogs/Mastering_Generative_AI.png",
 		imageAltName: "Mastering Generative AI",
-		imageWidth: 510,
+		// imageWidth: 510,
 		imageHeight: 510,
 		title:
 			"Mastering Generative AI: A Strategic Roadmap for Enterprise Integration",
@@ -57,7 +57,7 @@ export const blogsData = [
 		type: "blog",
 		image: "/assets/images/blogs/Evolution_of_Gen_AI.png",
 		imageAltName: "Evolution of Gen AI",
-		imageWidth: 320,
+		// imageWidth: 320,
 		imageHeight: 320,
 		title:
 			"Unleashing the Potential of Unified Data: The Gen AI Evolution in Business Intelligence",
