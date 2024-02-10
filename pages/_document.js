@@ -21,7 +21,12 @@ export default function Document() {
 				/>
 
 				<link rel="icon" type="image/x-icon" href="/karini-favicon.png" />
-				<link rel="icon" href="/karini-favicon.ico" />
+				<link rel="icon" type="image/x-icon" href="/karini-favicon.ico" />
+				<link
+					rel="shortcut icon"
+					href="/karini-favicon.ico"
+					type="image/x-icon"
+				/>
 
 				<Script
 					id="ga001"
