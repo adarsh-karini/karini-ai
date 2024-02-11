@@ -48,8 +48,12 @@ const PageBuilder = ({ data }) => {
 	};
 
 	return (
-		<section className="bg-white px-4 sm:px-10 py-6">
-			<div className="max-w-screen-lg mx-auto space-y-10">
+		<section className="bg-white px-4 sm:px-10 pt-0 pb-6 overflow-x-hidden">
+			<div className="relative max-w-screen-lg mx-auto space-y-10">
+				<div className="absolute -left-72 -top-6 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg opacity-40"></div>
+				<div className="z-10 absolute -right-80 bottom-20 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg opacity-60">
+					<div className="p-20 m-8 bg-white rounded-full"></div>
+				</div>
 				<div className="space-y-8">
 					<div className="space-y-2 border-b border-b-secondary-300 pb-2">
 						<h1 className="text-primary-600 text-base sm:text-lg md:text-2xl xl:text-3xl font-semibold text-left space-x-1">
