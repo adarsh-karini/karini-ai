@@ -28,6 +28,46 @@ export default function Document() {
 					type="image/x-icon"
 				/>
 
+				<script
+					id="ga0"
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: `{
+							"@context": "https://schema.org",
+							"@type": "Organization",
+							"name": "Karini Ai",
+							"alternateName": "Karini",
+							"url": "https://www.karini.ai/",
+							"logo": "https://karini.ai/karini-logo.png",
+							"sameAs": [
+								"https://www.linkedin.com/company/karini-ai/",
+								"https://twitter.com/karini_ai"
+							]}`,
+					}}
+				/>
+				<script
+					id="ga1"
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: `{
+							"@context": "https://schema.org/",
+							"@type": "WebSite",
+							"name": "Karini Ai",
+							"url": "https://www.karini.ai/",
+							"potentialAction": {
+								"@type": "SearchAction",
+								"target": "https://www.karini.ai/platforms{search_term_string}https://www.karini.ai/aboutus",
+								"query-input": "required name=search_term_string"
+							}
+							}
+						`,
+					}}
+				/>
+			</Head>
+			<body>
+				<Main />
+				<NextScript />
+				{/* Google Analytics (gtag.js) */}
 				<Script
 					id="ga001"
 					type="text/javascript"
@@ -46,46 +86,7 @@ export default function Document() {
 					})(window, document, "clarity", "script", "kyysgqymfd")}`,
 					}}
 				></Script>
-			</Head>
-			<body>
-				<Main />
-				<NextScript />
-				{/* Google Analytics (gtag.js) */}
-				<Script
-					id="ga0"
-					type="application/ld+json"
-					dangerouslySetInnerHTML={{
-						__html: `{
-							"@context": "https://schema.org",
-							"@type": "Organization",
-							"name": "Karini Ai",
-							"alternateName": "Karini",
-							"url": "https://www.karini.ai/",
-							"logo": "https://karini.ai/karini-logo.png",
-							"sameAs": [
-								"https://www.linkedin.com/company/karini-ai/",
-								"https://twitter.com/karini_ai"
-							]}`,
-					}}
-				/>
-				<Script
-					id="ga1"
-					type="application/ld+json"
-					dangerouslySetInnerHTML={{
-						__html: `{
-							"@context": "https://schema.org/",
-							"@type": "WebSite",
-							"name": "Karini Ai",
-							"url": "https://www.karini.ai/",
-							"potentialAction": {
-								"@type": "SearchAction",
-								"target": "https://www.karini.ai/platforms{search_term_string}https://www.karini.ai/aboutus",
-								"query-input": "required name=search_term_string"
-							}
-							}
-						`,
-					}}
-				/>
+
 				<Script
 					id="ga2"
 					src="https://www.googletagmanager.com/gtag/js?id=G-ZPKWXDBMEZ"
