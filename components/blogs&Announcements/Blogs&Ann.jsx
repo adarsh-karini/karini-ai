@@ -8,6 +8,10 @@ import {
 import Image from "next/image";
 import { announcementsData } from "@/content/blogs&announcements/announcementsData";
 import moment from "moment";
+import { GoArrowRight } from "react-icons/go";
+import { WiDirectionRight } from "react-icons/wi";
+import { HiOutlineArrowLongRight, HiOutlineArrowRight } from "react-icons/hi2";
+import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 const BlogsandAnn = () => {
 	const [activeFilter, setActiveFilter] = useState("all");
@@ -100,7 +104,7 @@ const BlogsandAnn = () => {
 									<Link key={index} href={blog.path}>
 										<article className="h-full bg-white rounded-md border shadow p-4">
 											<div className="flex space-x-4 space-y-0">
-												<div className="w-40">
+												<div className="w-28">
 													<Image
 														alt={blog.imageAltName}
 														title={blog.imageAltName}
@@ -115,13 +119,13 @@ const BlogsandAnn = () => {
 														<span
 															className={`${
 																blog.type === "blog"
-																	? "bg-primary-500"
-																	: "bg-[#e100ff]"
+																	? "bg-primary-500 border-primary-500"
+																	: "bg-[#e100ff] border-[#e100ff]"
 															} text-xs text-white border rounded-full py-1 px-2`}
 														>
 															{blog.type === "blog" ? "blog" : "announcement"}
 														</span>
-														<h3 className="text-sm sm:text-base lg:text-xl font-semibold text-secondary-900 hover:text-primary-600">
+														<h3 className="text-sm sm:text-base lg:text-xl font-semibold text-secondary-900 hover:text-primary-600 line-clamp-2">
 															{blog.title}
 														</h3>
 
@@ -133,17 +137,17 @@ const BlogsandAnn = () => {
 													<div className="flex justify-between items-end">
 														<div className="group mt-4 inline-flex items-center gap-1 text-xs md:text-sm font-medium text-primary-600">
 															<span className="flex-1">Read More</span>
-															<span
-																aria-hidden="true"
-																className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
-															>
-																&rarr;
-															</span>
+															<GoArrowRight
+																size={20}
+																className="text-primary-600"
+															/>
 														</div>
 														<p className="text-primary-600 text-xs md:text-sm font-medium space-x-1 md:space-x-2">
 															<span>{blog.date}</span>
-															<span>|</span>
-															<span>{blog.timeToRead}</span>
+															<span className="hidden sm:inline">|</span>
+															<span className="hidden sm:inline">
+																{blog.timeToRead}
+															</span>
 														</p>
 													</div>
 												</div>
@@ -163,8 +167,8 @@ const BlogsandAnn = () => {
 							{filteredBlogs.length > 0 &&
 								filteredBlogs.map((blog, index) => (
 									<Link key={index} href={blog.path}>
-										<div className="h-full bg-white flex flex-col border border-secondary-300 rounded shadow p-4 space-y-4">
-											<div className="h-[300px] w-full border">
+										<div className="h-full bg-white flex flex-col border border-secondary-300 rounded shadow p-4 space-y-4 hover:scale-105 transition">
+											<div className="h-[300px] w-full">
 												<Image
 													alt={blog.imageAltName}
 													title={blog.imageAltName}
@@ -179,8 +183,8 @@ const BlogsandAnn = () => {
 													<span
 														className={`${
 															blog.type === "blog"
-																? "bg-primary-500"
-																: "bg-[#e100ff]"
+																? "bg-primary-500 border-primary-500"
+																: "bg-[#e100ff] border-[#e100ff]"
 														} text-xs text-white border rounded-full py-1 px-2`}
 													>
 														{blog.type === "blog" ? "blog" : "announcement"}
@@ -193,18 +197,16 @@ const BlogsandAnn = () => {
 													</p>
 												</div>
 												<div className="flex justify-between items-center">
-													<div className="flex-1 md:flex-none flex items-center">
-														<span className="text-sm text-primary-600 text-left font-medium hover:underline">
+													<div className="flex-1 md:flex-none flex items-center space-x-1">
+														<span className="text-xs text-primary-600 text-left font-medium hover:underline">
 															Read More
 														</span>
-														<span
-															aria-hidden="true"
-															className="block transition-all group-hover:ms-0.5 rtl:rotate-180 text-primary-600"
-														>
-															&rarr;
-														</span>
+														<MdOutlineArrowRightAlt
+															size={20}
+															className="text-primary-600"
+														/>
 													</div>
-													<p className="flex-1 md:flex-none text-primary-600 text-sm text-right font-medium space-x-1">
+													<p className="flex-1 md:flex-none text-primary-600 text-xs text-right font-medium space-x-1">
 														<span>{blog.date}</span>
 														<span>|</span>
 														<span>{blog.timeToRead}</span>
