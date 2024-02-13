@@ -19,6 +19,14 @@ export default function Document() {
 					name="twitter:image"
 					content="https://twitter.com/karini_ai/photo"
 				/>
+				<meta property="og:type" content="website" />
+				<meta property="og:title" content="Karini AI" />
+				<meta property="og:url" content="https://www.karini.ai/" />
+				<meta property="og:image" content="https://karini-favicon.ico" />
+				<meta
+					property="og:description"
+					content="Karini AI - Powering Evolution in Generative AI. Build and manage production-grade generative AI applications with an easy-to-use visual interface. Try copilot now!"
+				/>
 
 				<link rel="icon" type="image/x-icon" href="/karini-favicon.png" />
 				<link rel="icon" type="image/x-icon" href="/karini-favicon.ico" />
