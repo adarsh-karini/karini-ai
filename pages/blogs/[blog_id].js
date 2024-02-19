@@ -20,20 +20,20 @@ const openSans = Open_Sans({
 	weight: ["300", "400", "500", "600", "700", "800"],
 });
 
-const Blog = () => {
+const Blog = ({ blogData }) => {
 	const router = useRouter();
-	const { blog_id } = router.query;
+	// const { blog_id } = router.query;
 
-	const [blogData, setBlogData] = useState();
+	// const [blogData, setBlogData] = useState();
 
-	const getBlogData = (id) => {
-		const [result] = blogDetailsData?.filter((blog) => blog.id === id);
-		setBlogData(result);
-	};
+	// const getBlogData = (id) => {
+	// 	const [result] = blogDetailsData?.filter((blog) => blog.id === id);
+	// 	setBlogData(result);
+	// };
 
-	useEffect(() => {
-		getBlogData(blog_id);
-	}, [blog_id]);
+	// useEffect(() => {
+	// 	getBlogData(blog_id);
+	// }, [blog_id]);
 	return (
 		<>
 			<Head>
@@ -43,14 +43,15 @@ const Blog = () => {
 
 				<link rel="canonical" href={blogData?.SEO_data.canonicalLink} />
 				{/* Schema Markup */}
-				<script
-					id="schema-markup-blog"
-					type="application/ld+json"
-					dangerouslySetInnerHTML={{
-						__html: `${JSON.stringify(blogData?.SEO_data.schemaMarkup)}`,
-					}}
-				></script>
-
+				{blogData && (
+					<script
+						id="schema-markup-blog"
+						type="application/ld+json"
+						dangerouslySetInnerHTML={{
+							__html: `${JSON.stringify(blogData?.SEO_data.schemaMarkup)}`,
+						}}
+					></script>
+				)}
 				{/* End Schema Markup */}
 			</Head>
 			<div
@@ -84,3 +85,15 @@ const Blog = () => {
 };
 
 export default Blog;
+
+export async function getServerSideProps(context) {
+	// Fetch data from an external API
+	const { blog_id } = context.query;
+	const [result] = blogDetailsData?.filter((blog) => blog.id === blog_id);
+
+	return {
+		props: {
+			blogData: result,
+		},
+	};
+}

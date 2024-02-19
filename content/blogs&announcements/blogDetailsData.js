@@ -634,13 +634,13 @@ export const blogDetailsData = [
 				image:
 					"https://www.karini.ai//assets/images/blogs/Mastering_Generative_AI.png",
 				author: {
-					"@type": "Organization",
-					name: "karini",
+					"@type": "Person",
+					name: "Jerome Mendell",
 					url: "https://www.karini.ai/",
 				},
 				publisher: {
 					"@type": "Organization",
-					name: "Jerome Mendell",
+					name: "Karini Ai",
 					logo: {
 						"@type": "ImageObject",
 						url: "",
@@ -1138,7 +1138,7 @@ export const blogDetailsData = [
 					"https://www.karini.ai/assets/images/blogs/Evolution_of_Gen_AI.png",
 				author: {
 					"@type": "Person",
-					name: "Deepali Rajale",
+					name: "Jerome Mendell",
 				},
 				publisher: {
 					"@type": "Organization",

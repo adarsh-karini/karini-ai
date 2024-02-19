@@ -23,7 +23,7 @@ const platforms = () => {
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Explore our platform simplifying AI for enterprises. No-code, low-code pipelines empower Generative AI in language, image, and audio. Build Large Language Model applications with crowd-sourced wisdom."
+					content="Explore Karini AI for enterprises. No-code, low-code pipelines empower Gen AI in language, image, and audio. Build LLM applications with crowd-sourced wisdom."
 				/>
 				<meta
 					name="keywords"
