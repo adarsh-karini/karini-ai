@@ -33,9 +33,9 @@ export const blogDetailsData = [
 		author: "Deepali Rajale",
 		timeToRead: "5 min read",
 		SEO_data: {
-			title: "Industrialize Generative AI",
+			title: "Generative AI Challenges and Hype for Enterprises",
 			description:
-				"Discover how to overcome the challenges of implementing Generative AI in enterprises and unlock its potential. Explore the Generative AI platform by Karini AI for rapid application development and enhanced business operations. Try it now!",
+				"Discover how Generative AI is reshaping industries, the hurdles enterprises face in adoption, and innovative solutions like Karini AI's platform.",
 			canonicalLink: "https://www.karini.ai/blogs/industrialize-generative-ai",
 			schemaMarkup: {
 				"@context": "https://schema.org",
@@ -610,8 +610,7 @@ export const blogDetailsData = [
 		type: "blog",
 		id: "mastering-generative-ai",
 		breadCrumbTitle: "Mastering Generative AI",
-		title:
-			"Mastering Generative AI: A Strategic Roadmap for Enterprise Integration",
+		title: "Generative AI Strategies for enterprises",
 		publishedOn: "January 4, 2024",
 		author: "Jerome Mendell",
 		timeToRead: "10 min read",
