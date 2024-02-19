@@ -615,8 +615,7 @@ export const blogDetailsData = [
 		author: "Jerome Mendell",
 		timeToRead: "10 min read",
 		SEO_data: {
-			title:
-				"Unlocking Generative AI: Strategic Approaches for Enterprises | Karini.ai",
+			title: "Generative AI Strategies for enterprises",
 			description:
 				"Explore strategic approaches for effective and secure adoption of generative AI. Transform your enterprise with Karini.ai's expertise and innovative solutions.",
 			canonicalLink: "https://www.karini.ai/blogs/mastering-generative-ai",
