@@ -24,7 +24,7 @@ const ml = () => {
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Empower your enterprise with Karini AI's expert MLOps solutions. Overcome data, privacy, scalability, and talent challenges to fully leverage ML potential."
+					content="Empower your enterprise with Karini AI&apos;s expert MLOps solutions. Overcome data, privacy, scalability, and talent challenges to fully leverage ML potential."
 				/>
 				<meta
 					name="keywords"
@@ -34,7 +34,7 @@ const ml = () => {
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai/services/ml" />
-				<link rel="alternate" href="https://www.karini.ai/services/ml" hreflang="en-us" />
+				<link rel="alternate" href="https://www.karini.ai/services/ml" hrefLang="en-us" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}

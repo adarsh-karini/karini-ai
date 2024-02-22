@@ -35,6 +35,7 @@ const index = () => {
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai"/>
+				<link rel="alternate" href="https://www.karini.ai/" hrefLang="en-us" />
 				<meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@karini_ai" />
 				<meta

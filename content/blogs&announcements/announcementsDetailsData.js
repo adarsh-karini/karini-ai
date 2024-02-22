@@ -665,25 +665,26 @@ export const announcementsDetailsData = [
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
-				"mainEntityOfPage": {
+				mainEntityOfPage: {
 				  "@type": "WebPage",
-				  "@id": "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
+				  "@id":
+				   "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 				},
-				"headline": "Karini AI releases the first purpose-built platform for GenAIOps",
-				"image": "/assetshttps://www.karini.ai/images/blogs/Karini AI Launches Revolutionary GenAIOps Platform (1).png",  
-				"author": {
+				headline: "Karini AI releases the first purpose-built platform for GenAIOps",
+				image: "https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png",  
+				author: {
 				  "@type": "Person",
 				  "name": "Deepali Rajale"
 				},  
-				"publisher": {
+				publisher: {
 				  "@type": "Organization",
-				  "name": "Karini AI",
-				  "logo": {
+				  name: "Karini AI",
+				  logo: {
 					"@type": "ImageObject",
-					"url": "https://www.karini.ai"
+					url: "https://www.karini.ai"
 				  }
 				},
-				"datePublished": "2024-01-02"
+				datePublished: "2024-01-02"
 			  }
 	},
 	sections:[
@@ -696,7 +697,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							'Dateline: Alpharetta, GA, February 1, 2024-Karini.ai is excited to announce the general availability of the first-of-its-kind purpose-built Generative AI platform designed to power evolution in enterprise AI adoption. The platform, Built by Ex Amazon Web Services (Ex-AWS) AI experts, delivers a new approach to GenAIOps for the complete supervision of DataOps, LLMOps, and DevOps for building, testing, and deploying generative AI applications at speed in the enterprise.',
+							'Karini.ai is excited to announce the general availability of the first-of-its-kind purpose-built Generative AI platform designed to power evolution in enterprise AI adoption. The platform, Built by Ex Amazon Web Services (Ex-AWS) AI experts, delivers a new approach to GenAIOps for the complete supervision of DataOps, LLMOps, and DevOps for building, testing, and deploying generative AI applications at speed in the enterprise.',
 					},
 				],
 			},
