@@ -97,7 +97,7 @@ const PageBuilder = ({ data }) => {
 					</div>
 
 					<div className="space-y-6">
-						{data?.sections.map(
+						{data?.sections?.map(
 							(value, index) =>
 								value.group && (
 									<div key={index} className="space-y-1">

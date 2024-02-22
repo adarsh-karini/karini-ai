@@ -15,17 +15,21 @@ const termsofuse = () => {
 	return (
 		<>
 			<Head>
-				<title>Terms of Use | Karini AI</title>
+				<title>Karini AI Terms of Use - Your Guide to Our Services</title>
+				<meta name="title" content="Karini AI Official Terms of Service Agreement"></meta>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Data to Insights using Generative AI "
+					content="Explore the Terms of Use for Karini AI. Understand your rights, responsibilities, and our service guidelines to ensure a great experience. "
 				/>
 				<meta
 					name="keywords"
-					content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly"
+					content="Karini AI Terms of Service,User Agreement,Service Guidelines Karini AI,User Rights and Responsibilities"
 				/>
+				<meta name="robots" content="index, follow" />
+				<link rel="canonical" href="https://www.karini.ai/termsofuse" />
+				<link rel="alternate" href="https://www.karini.ai/termsofuse" hreflang="en-us" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-  <loc>https://www.karini.ai/</loc>
+  <loc>https://www.karini.ai</loc>
   <image:image>
     <image:loc>https://www.karini.ai/karini-logo.png</image:loc>
     <image:title>Powering Evolution in Generative AI</image:title>
@@ -10,57 +10,62 @@
   <url>
     <loc>https://www.karini.ai</loc>
     <lastmod>2021-06-01</lastmod>
-	<changefreq>daily</changefreq>
-  </url>
-    <url>
-    <loc>https://www.karini.ai/signin</loc>
-    <lastmod>2021-06-01</lastmod>
-	<changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/signup</loc>
-    <lastmod>2021-06-01</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+   <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.karini.ai/aboutus</loc>
     <lastmod>2021-06-01</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>yearly</changefreq>
+  <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.karini.ai/contactus</loc>
     <lastmod>2021-06-01</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>yearly</changefreq>
+   <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.karini.ai/services/genai</loc>
     <lastmod>2021-06-01</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.karini.ai/services/ml</loc>
     <lastmod>2021-06-01</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.karini.ai/platforms</loc>
     <lastmod>2021-06-01</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+  <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.karini.ai/privacypolicy</loc>
     <lastmod>2021-06-01</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>yearly</changefreq>
+  <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.karini.ai/termsofuse</loc>
     <lastmod>2021-06-01</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>yearly</changefreq>
+  <priority>0.5</priority>
   </url>
   <url>
+  <url>
+  <loc>https://www.karini.ai/blogs</loc>
+  <lastmod>2024-01-10</lastmod> 
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
     <loc>https://www.karini.ai/blogs/industrialize-generative-ai</loc>
     <lastmod>2024-01-02</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+  <priority>0.7</priority>
 	<image:image>
       <image:loc>https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png</image:loc>
     </image:image>
@@ -74,7 +79,8 @@
   <url>
     <loc>https://www.karini.ai/blogs/navigating-genaiops-in-enterprises</loc>
     <lastmod>2024-01-02</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
 		<image:image>
       <image:loc>https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png</image:loc>
     </image:image>
@@ -91,7 +97,8 @@
   <url>
     <loc>https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground</loc>
     <lastmod>2024-01-22</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
 	<image:image>
       <image:loc>https://www.karini.ai/assets/images/blogs/Karini_Evolves_Prompting_Experience.png</image:loc>
     </image:image>
@@ -100,7 +107,8 @@
   <url>
     <loc>https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot</loc>
     <lastmod>2024-01-18</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 	<image:image>
       <image:loc>https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png</image:loc>
     </image:image>
@@ -109,7 +117,8 @@
   <url>
     <loc>https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks</loc>
     <lastmod>2023-11-14</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
 	<image:image>
     	<image:loc>https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png</image:loc>
     </image:image>
@@ -118,7 +127,8 @@
   <url>
     <loc>https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor</loc>
     <lastmod>2023-10-16</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
 	<image:image>
 	 	<image:loc>https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png</image:loc>
     </image:image>
@@ -127,15 +137,26 @@
   <url>
     <loc>https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models</loc>
     <lastmod>2023-12-01</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
 	<image:image>
 		<image:loc>https://www.karini.ai/assets/images/blogs/Bedrock_Models_Support.png</image:loc>
     </image:image>
   </url>
   <url>
+    <loc>https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops</loc>
+    <lastmod>2024-02-06</lastmod>
+	<changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+	<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Karini AI Launches Revolutionary GenAIOps Platform (1).png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data</loc>
     <lastmod>2024-02-02</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
 	<image:image>
 		<image:loc>https://www.karini.ai/assets/images/blogs/Evolution_of_Gen_AI.png</image:loc>
     </image:image>
@@ -143,7 +164,8 @@
   <url>
     <loc>https://www.karini.ai/blogs/mastering-generative-ai</loc>
     <lastmod>2024-01-04</lastmod>
-	<changefreq>daily</changefreq>
+	<changefreq>monthly</changefreq>
+  <priority>0.7</priority>
 	<image:image>
 		<image:loc>https://www.karini.ai/assets/images/blogs/Mastering_Generative_AI.png</image:loc>
     </image:image>

@@ -22,7 +22,9 @@ const Announcement = () => {
 	const [annData, setAnnData] = useState();
 
 	const getAnnData = (id) => {
+		console.log("announcementsDetailsData---",announcementsDetailsData)
 		const [result] = announcementsDetailsData?.filter((ann) => ann.id === id);
+		// console.log("result---",result.breadCrumbTitle)
 		setAnnData(result);
 	};
 
@@ -35,10 +37,17 @@ const Announcement = () => {
 		<>
 			<Head>
 				<title>{annData?.SEO_data.title}</title>
+				<meta name="title" content={annData?.SEO_data.metaTitle}></meta>
 				<meta name="description" content={annData?.SEO_data.description} />
+				<meta
+					name="keywords"
+					content={annData?.SEO_data.keywords}
+				/>
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href={annData?.SEO_data.canonicalLink} />
+
+				<link rel="alternate" href={annData?.SEO_data.hreflang} hreflang="en-us" />
 				{/* Schema Markup */}
 				<script
 					id="schema-markup-blog"

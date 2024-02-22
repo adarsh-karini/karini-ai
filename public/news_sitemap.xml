@@ -14,7 +14,7 @@
       </news:publication>
       <news:publication_date>2024-01-02</news:publication_date>
       <news:title>Industrialize Generative AI</news:title>
-      <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
+      <news:keywords>Industrialize Generative AI,Karini AI Generative AI,Gen AI Strategies,AI Application Integration,Generative AI Industrialization</news:keywords>
     </news:news>
 	<image:image>
       <image:loc>https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png</image:loc>
@@ -34,9 +34,9 @@
         <news:name>Generative AI Blog</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2024-01-02</news:publication_date>
-      <news:title>Industrialize Generative AI</news:title>
-      <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
+      <news:publication_date>2024-01-31</news:publication_date>
+      <news:title>Navigating GenAIOps in Enterprises: Challenges and Best Practices - Version 1.0</news:title>
+      <news:keywords>GenAIOps Enterprises,Generative AI Integration,GenAIOps Best Practices,Enterprise AI Solutions,Karini AI GenAIOps</news:keywords>
     </news:news>
 	<image:image>
       <image:loc>https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png</image:loc>
@@ -51,6 +51,32 @@
       <image:loc>https://www.karini.ai/assets/images/blogs/GenAIOps_best_practices.png</image:loc>
     </image:image>
   </url>
+   <!-- Blog Post 3 -->
+  <url>
+    <loc>https://www.karini.ai/blogs/mastering-generative-ai</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Generative AI Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-04</news:publication_date>
+      <news:title>Generative AI Strategies for enterprises</news:title>
+      <news:keywords>Mastering Generative AI,Generative AI Strategies,Karini AI Gen AI Guide,Enterprise Gen AI Integration,Generative AI Best Practices</news:keywords>
+    </news:news>
+    </url>
+    <!-- Blog Post 4 -->
+  <url>
+    <loc>https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Generative AI Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-02-02</news:publication_date>
+      <news:title>Unleashing the Potential of Unified Data: The Gen AI Evolution in Business Intelligence</news:title>
+      <news:keywords>"Unified Data,Generative AI,Business Intelligence,Data Integration Karini AI,AI-driven Insights"</news:keywords>
+    </news:news>
+    </url>
 
   <!-- Announcement Post 1 -->
   <url>
@@ -137,36 +163,20 @@
     </image:image>
   </url>
 
+<!-- Announcement Post 6 -->
   <url>
-    <loc>https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data</loc>
+    <loc>https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops</loc>
     <news:news>
       <news:publication>
-        <news:name>Generative AI Blog</news:name>
+        <news:name>Announcement five</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2024-02-02</news:publication_date>
-      <news:title>Unleashing the Potential of Unified Data: The Gen AI Evolution in Business Intelligence</news:title>
-      <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
+      <news:publication_date>2024-01-02</news:publication_date>
+      <news:title>Karini AI releases the first purpose-built platform for GenAIOps</news:title>
+      <news:keywords>Karini AI GenAIOps Platform, Generative AI Applications, Enterprise AI Adoption, AI Operational Efficiency, GenAI App Deployment</news:keywords>
     </news:news>
 	<image:image>
-	<image:loc>https://www.karini.ai/assets/images/blogs/Evolution_of_Gen_AI.png</image:loc>
+	<image:loc>https://www.karini.ai/assets/images/blogs/Karini AI Launches Revolutionary GenAIOps Platform (1).png</image:loc>
     </image:image>
   </url>
-
-  <url>
-    <loc>https://www.karini.ai/blogs/mastering-generative-ai</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Generative AI Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-01-04</news:publication_date>
-      <news:title>Mastering Generative AI: A Strategic Roadmap for Enterprise Integration</news:title>
-      <news:keywords>Generative AI, Artificial Intelligence, Blog</news:keywords>
-    </news:news>
-	<image:image>
-	<image:loc>https://www.karini.ai/assets/images/blogs/Mastering_Generative_AI.png</image:loc>
-    </image:image>
-  </url>
-
 </urlset>

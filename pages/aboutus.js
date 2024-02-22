@@ -19,20 +19,22 @@ const aboutus = () => {
 	return (
 		<>
 			<Head>
-				<title>About us | Karini AI</title>
+				<title>About Karini AI: Pioneers in Generative AI Solutions</title>
+				<meta name="title" content="Meet Karini AI: Leading Generative AI Innovators"></meta>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Power Evolution in Generative AI"
+					content="Discover Karini AI's journey in revolutionizing businesses with Generative AI. Learn about our mission, vision, and the team driving AI innovation."
 				/>
 				<meta
 					name="keywords"
-					content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly"
+					content="Karini AI,Generative AI,AI Innovation,AI Solutions,AI Technology Leaders"
 				/>
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai/aboutus" />
+				<link rel="alternate" href="https://www.karini.ai/aboutus" hreflang="en-us" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}

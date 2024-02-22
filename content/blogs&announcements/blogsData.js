@@ -6,7 +6,7 @@ export const blogsData = [
 		filterName: "blogs",
 		type: "blog",
 		image: "/assets/images/blogs/Industrialize-Generative-AI.png",
-		imageAltName: "Industrialize Generative AI",
+		imageAltName: 'Karini AI Generative AI Industrialization"Gen AI Integration Strategies by Karini AI"',
 		// imageWidth: 400,
 		// imageHeight: 400,
 		title: "Industrialize Generative AI",
@@ -22,7 +22,7 @@ export const blogsData = [
 		filterName: "blogs",
 		type: "blog",
 		image: "/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png",
-		imageAltName: "Navigating GenAIOps in Enterprises",
+		imageAltName: '"Graphical Representation of GenAIOps Process""Enterprise AI Workflow Diagram by Karini AI"',
 		// imageWidth: 430,
 		// imageHeight: 400,
 		title:
@@ -39,7 +39,7 @@ export const blogsData = [
 		filterName: "blogs",
 		type: "blog",
 		image: "/assets/images/blogs/Mastering_Generative_AI.png",
-		imageAltName: "Mastering Generative AI",
+		imageAltName: "Strategies for Mastering Generative AI 'Karini AI's Guide to Gen AI Integration'",
 		// imageWidth: 510,
 		imageHeight: 510,
 		title:
@@ -56,7 +56,7 @@ export const blogsData = [
 		filterName: "blogs",
 		type: "blog",
 		image: "/assets/images/blogs/Evolution_of_Gen_AI.png",
-		imageAltName: "Evolution of Gen AI",
+		imageAltName: "Infographic of Gen AI transforming business intelligence",
 		// imageWidth: 320,
 		imageHeight: 320,
 		title:

@@ -19,21 +19,23 @@ const genai = () => {
 	return (
 		<>
 			<Head>
-				<title>Generative AI Services: Your Partner in Innovation</title>
-				<meta name="viewport" content="width=device-width, initial-scale=1" />
+					<title>Karini AI: Pioneering Generative AI Solutions for Enterprises</title>
+					<meta name="title" content="Empower Your Enterprise Evolve Generative AI Implementations"></meta>
+					<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Legitimate your initiative with AI Builders. Keep up with the latest in generative AI trends. Our platform, guided by domain experts, rapidly transforms ideas into products."
+					content="Unlock the full potential of Generative AI in your enterprise with Karini AI. From idea to production, navigate challenges, ensuring seamless fast operationalization."
 				/>
 				<meta
 					name="keywords"
-					content="OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,Azure OpenAI,LLM,HuggingFace,LLMOps,Databricks,Dolly"
+					content="Generative Ai Services,Karini AI GenAI Solutions,Enterprises AI Transformation,AI Strategy Services,Open Sources,Generative AI Projects"
 				/>
 
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai/services/genai" />
+				<link rel="alternate" href="https://www.karini.ai/services/genai" hreflang="en-us" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}

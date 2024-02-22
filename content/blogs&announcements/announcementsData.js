@@ -4,7 +4,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Karini_Evolves_Prompting_Experience.png",
-		imageAltName: "Karini Evolves Prompting Experience",
+		imageAltName: "Karini AI's Enhanced Prompt Playground",
 		// imageWidth: 750,
 		// imageHeight: 550,
 		title:
@@ -21,7 +21,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Streaming-eye-catcher.png",
-		imageAltName: "Karini AI Launches Streaming for Copilot",
+		imageAltName: "Karini AI Copilot Streaming Feature",
 		// imageWidth: 670,
 		// imageHeight: 700,
 		title: "Karini AI Launches Streaming for Copilot",
@@ -37,7 +37,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Bedrock_Models_Support.png",
-		imageAltName: "Karini AI Announces Full Support for Amazon Bedrock Models",
+		imageAltName: 'Karini AI Amazon Bedrock Model Integration"Amazon Bedrock Models Supported by Karini AI"',
 		// imageWidth: 450,
 		// imageHeight: 530,
 		title: "Karini AI Announces Full Support for Amazon Bedrock Models",
@@ -53,7 +53,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Databricks_Partnership.png",
-		imageAltName: "Karini AI Embarks on a New Partnership with Databricks",
+		imageAltName: 'Karini AI and Databricks Partnership Logo "Innovative AI Solutions by Karini AI & Databricks"',
 		// imageWidth: 530,
 		// imageHeight: 530,
 		title: "Karini AI Embarks on a New Partnership with Databricks",
@@ -70,7 +70,7 @@ export const announcementsData = [
 		type: "announcement",
 		image: "/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png",
 		imageAltName:
-			"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
+			'Karini AI and AWS Partnership Announcement"Karini AI Logo alongside AWS Logo"',
 		// imageWidth: 500,
 		// imageHeight: 500,
 		title:
@@ -81,5 +81,23 @@ export const announcementsData = [
 		date: "Oct 16th, 2023",
 		timeToRead: "2 min read",
 		path: "/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+	},
+	{
+		show: true,
+		filterName: "announcements",
+		type: "announcement",
+		image: "/assets/images/blogs/Karini AI Launches Revolutionary GenAIOps Platform (1).png",
+		imageAltName:
+			"Karini AI releases the first purpose-built platform for GenAIOps",
+		// imageWidth: 500,
+		// imageHeight: 500,
+		title:
+			"Karini AI releases the first purpose-built platform for GenAIOps",
+		description:
+			"Dateline: Alpharetta, GA, February 1, 2024–Karini.ai is excited to announce the general availability of the first-of-its-kind purpose-built Generative AI platform designed to power evolution in enterprise AI adoption. ",
+		tag: "Gen AI",
+		date: "Feb 1st, 2024",
+		timeToRead: "2 min read",
+		path: "/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 	},
 ];

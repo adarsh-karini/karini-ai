@@ -17,22 +17,24 @@ const platforms = () => {
 		<>
 			<Head>
 				<title>
-					Our Platform: Streamline with Generative Ai for Enterprises
+				Karini AI: Streamline GenAI Dev Recipes Security and Quality
 				</title>
+				<meta name="title" content="Unifying GenAI Ingredients for Streamlined Application Development"></meta>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Explore Karini AI for enterprises. No-code, low-code pipelines empower Gen AI in language, image, and audio. Build LLM applications with crowd-sourced wisdom."
+					content="Discover Karini AI: Your ultimate GenAI platform that seamlessly integrates AI recipes, data prep, and robust security to revolutionize application development."
 				/>
 				<meta
 					name="keywords"
-					content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly"
+					content="LLMOps,LLM,Artificial Intelligence,Karini AI Platforms,Enterprise AI Solutions,GenAiOps Platform,AI innovation,AI Development Tools"
 				/>
 
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai/platforms" />
+				<link rel="alternate" href="https://www.karini.ai/platforms" hreflang="en-us" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}

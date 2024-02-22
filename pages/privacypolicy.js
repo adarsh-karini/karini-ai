@@ -18,17 +18,21 @@ const privacypolicy = () => {
 	return (
 		<>
 			<Head>
-				<title>Privacy Policy | Karini AI</title>
+				<title>Karini AI Privacy Policy: Safeguarding Your Data</title>
+				<meta name="title" content="Protecting Your Privacy with Karini AI’s Policy"></meta>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Data to Insights using Generative AI "
+					content="Read Karini AI’s commitment to privacy. Understand how we collect, use, and protect your data in accordance with our privacy policy."
 				/>
 				<meta
 					name="keywords"
-					content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly"
+					content="Karini AI Privacy Policy,Data Protection,Privacy Commitment,User Data Security,AI Privacy Standards"
 				/>
+				<meta name="robots" content="index, follow" />
+				<link rel="canonical" href="https://www.karini.ai/privacypolicy" />
+				<link rel="alternate" href="https://www.karini.ai/privacypolicy" hreflang="en-us" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}

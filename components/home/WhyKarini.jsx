@@ -69,7 +69,7 @@ const WhyKarini2 = () => {
 										</div>
 									</div>
 									<div className="space-y-4">
-										<h3 className="text-white text-center text-base md:text-lg font-medium">
+								<h3 className="text-white text-center text-base md:text-lg font-medium">
 											{data.title}
 										</h3>
 										<p className="text-secondary-400 text-center text-sm leading-relaxed">

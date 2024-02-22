@@ -9,20 +9,22 @@ const contactus = () => {
 	return (
 		<>
 			<Head>
-				<title>Contact us | Karini AI</title>
+				<title>Contact Karini AI: Get in Touch with AI Experts</title>
+				<meta name="title" content="Reach Out to Karini AI – Your AI Solution Partner"></meta>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Data to Insights using Generative AI"
+					content="Connect with the Karini AI team for innovative AI solutions. Let's discuss how we can transform your business with cutting-edge AI technology."
 				/>
 				<meta
 					name="keywords"
-					content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly"
+					content="Contact Karini AI,AI Solutions Contact,AI Expert Assistance,Karini AI Support,Generative AI Inquiry"
 				/>
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai/contactus" />
+				<link rel="alternate" href="https://www.karini.ai/contactus" hreflang="en-us" />
 			</Head>
 			<div className={`font-sans subpixel-antialiased bg-white`}>
 				{/* <Hero /> */}

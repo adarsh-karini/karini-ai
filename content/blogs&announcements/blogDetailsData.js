@@ -33,10 +33,13 @@ export const blogDetailsData = [
 		author: "Deepali Rajale",
 		timeToRead: "5 min read",
 		SEO_data: {
-			title: "Generative AI Challenges and Hype for Enterprises",
+			title: "Industrializing Gen AI with Karini AI Insights",
+			metaTitle:"Karini AI on Industrializing Generative AI",
+			keywords:"Industrialize Generative AI,Karini AI Generative AI,Gen AI Strategies,AI Application Integration,Generative AI Industrialization",
 			description:
-				"Discover how Generative AI is reshaping industries, the hurdles enterprises face in adoption, and innovative solutions like Karini AI's platform.",
+				"Explore how Karini AI leads the way in industrializing generative AI, offering strategies and insights for seamless AI application integration.",
 			canonicalLink: "https://www.karini.ai/blogs/industrialize-generative-ai",
+			hreflang: "https://www.karini.ai/blogs/industrialize-generative-ai",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
@@ -268,11 +271,14 @@ export const blogDetailsData = [
 		timeToRead: "10 min read",
 		SEO_data: {
 			title:
-				"Empowering Enterprises with GenAIOps: Overcoming Challenges and Best Practices",
+				"GenAIOps in Enterprises: Navigating Challenges",
+			metaTitle:"Overcoming GenAIOps Challenges in Enterprises | Karini AI",
+			keywords:"GenAIOps Enterprises,Generative AI Integration,GenAIOps Best Practices,Enterprise AI Solutions,Karini AI GenAIOps",
 			description:
-				"Explore how enterprises leverage Generative AI for complex tasks, face challenges in automation, and adopt GenAIOps best practices for optimal results.",
+				"Karini AI guides enterprises through GenAIOps, from adoption to execution. Discover best practices for integrating Generative AI into your business.",
 			canonicalLink:
 				"https://www.karini.ai/blogs/navigating-genaiops-in-enterprises",
+				hreflang: "https://www.karini.ai/blogs/navigating-genaiops-in-enterprises",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
@@ -615,10 +621,13 @@ export const blogDetailsData = [
 		author: "Jerome Mendell",
 		timeToRead: "10 min read",
 		SEO_data: {
-			title: "Generative AI Strategies for enterprises",
+			title: "Mastering Gen AI: Enterprise Guide by Karini AI",
+			metaTitle:"Karini AI Guide to Mastering Generative AI",
+			keywords:"Mastering Generative AI,Generative AI Strategies,Karini AI Gen AI Guide,Enterprise Gen AI Integration,Generative AI Best Practices",
 			description:
-				"Explore strategic approaches for effective and secure adoption of generative AI. Transform your enterprise with Karini.ai's expertise and innovative solutions.",
+				"Unlock the full potential of Generative AI in your enterprise with Karini AI's expert guide. Dive into strategic insights for effective Gen AI integration.",
 			canonicalLink: "https://www.karini.ai/blogs/mastering-generative-ai",
+			hreflang: "https://www.karini.ai/blogs/mastering-generative-ai",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
@@ -1117,11 +1126,14 @@ export const blogDetailsData = [
 		author: "Jerome Mendell",
 		timeToRead: "5 min read",
 		SEO_data: {
-			title: "Bridging Unified Data: Gen AI Revolution | Karini.ai",
+			title: "Unified Data & Gen AI: Unleashing Potential | Karini AI",
+			metaTitle:"Unleash Data Potential with Gen AI | Karini AI Blog",
+			keywords:"Unified Data,Generative AI,Business Intelligence,Data Integration Karini AI,AI-driven Insights",
 			description:
-				"Discover how Karini.ai leverages Generative AI (Gen AI) to break down unified data, enabling seamless access to diverse data for informed decision-making.",
+				"Explore how Karini AI leverages unified data through Generative AI to drive business intelligence and innovation. Unlock new insights and efficiencies.",
 			canonicalLink:
 				"https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data",
+				hreflang: "https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
@@ -1316,5 +1328,5 @@ export const blogDetailsData = [
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/jeromemendell/"> Jerome Mendell </a>is a software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus. Jerome has collaborated with leading technology providers, publishers, and clients serving Fortune 500 companies globally.',
 		},
-	},
+	},	
 ];

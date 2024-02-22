@@ -5,20 +5,7 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
-				<meta name="twitter:card" content="summary" />
-				<meta name="twitter:site" content="@karini_ai" />
-				<meta
-					name="twitter:title"
-					content="Karini AI | Powering Evolution in Generative AI"
-				/>
-				<meta
-					name="twitter:description"
-					content="Karini AI - Powering Evolution in Generative AI. Build and manage production-grade generative AI applications with an easy-to-use visual interface. Try copilot now!"
-				/>
-				<meta
-					name="twitter:image"
-					content="https://twitter.com/karini_ai/photo"
-				/>
+				
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Karini AI" />
 				<meta property="og:url" content="https://www.karini.ai/" />

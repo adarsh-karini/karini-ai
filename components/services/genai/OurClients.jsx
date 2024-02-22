@@ -26,7 +26,7 @@ const OurClients = () => {
             >
               <Image
                 src={val}
-                alt="client logo"
+                alt={val.split("/").pop()}
                 width={200}
                 height={1000}
                 className="rounded-lg object-contain"

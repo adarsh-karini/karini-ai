@@ -38,9 +38,15 @@ const Blog = ({ blogData }) => {
 		<>
 			<Head>
 				<title>{blogData?.SEO_data.title}</title>
+				<meta name="title" content={blogData?.SEO_data.metaTitle}></meta>
 				<meta name="description" content={blogData?.SEO_data.description} />
+				<meta
+					name="keywords"
+					content={blogData?.SEO_data.keywords}
+				/>
 				<meta name="robots" content="index,follow" />
 
+				<link rel="alternate" href={blogData?.SEO_data.hreflang} hreflang="en-us" />
 				<link rel="canonical" href={blogData?.SEO_data.canonicalLink} />
 				{/* Schema Markup */}
 				{blogData && (
