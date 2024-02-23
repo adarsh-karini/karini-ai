@@ -46,7 +46,7 @@ const Blog = ({ blogData }) => {
 				/>
 				<meta name="robots" content="index,follow" />
 
-				<link rel="alternate" href={blogData?.SEO_data.hreflang} hreflang="en-us" />
+				<link rel="alternate" href={blogData?.SEO_data.hreflang} hrefLang="en-us" />
 				<link rel="canonical" href={blogData?.SEO_data.canonicalLink} />
 				{/* Schema Markup */}
 				{blogData && (
@@ -72,7 +72,7 @@ const Blog = ({ blogData }) => {
 					type="application/javascript"
 					src="https://news.google.com/swg/js/v1/swg-basic.js"
 				/>
-				{/* <Script
+				<Script
 					id="blog-swg-script"
 					dangerouslySetInnerHTML={{
 						__html: `(window.SWG_BASIC = window.SWG_BASIC || []).push((basicSubscriptions) => {
@@ -84,7 +84,7 @@ const Blog = ({ blogData }) => {
 								});
 							});`,
 					}}
-				/> */}
+				/>
 			</div>
 		</>
 	);
@@ -95,6 +95,7 @@ export default Blog;
 export async function getServerSideProps(context) {
 	// Fetch data from an external API
 	const { blog_id } = context.query;
+	console.log("blog_id",blog_id)
 	const [result] = blogDetailsData?.filter((blog) => blog.id === blog_id);
 
 	return {

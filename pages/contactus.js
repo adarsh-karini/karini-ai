@@ -24,7 +24,7 @@ const contactus = () => {
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai/contactus" />
-				<link rel="alternate" href="https://www.karini.ai/contactus" hreflang="en-us" />
+				<link rel="alternate" href="https://www.karini.ai/contactus" hrefLang="en-us" />
 			</Head>
 			<div className={`font-sans subpixel-antialiased bg-white`}>
 				{/* <Hero /> */}

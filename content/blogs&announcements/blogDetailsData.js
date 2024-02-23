@@ -1,5 +1,6 @@
 let type = {
 	heading: "heading",
+	heading3: "heading3",
 	paragraph: "paragraph",
 	list: "list",
 	image: "image",
@@ -236,11 +237,11 @@ export const blogDetailsData = [
 				group: true,
 				data: [
 					{
-						type: type.heading,
+						type: type.heading3,
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Conclusion",
+						value: 'Conclusion',
 					},
 					{
 						type: type.paragraph,
@@ -257,7 +258,7 @@ export const blogDetailsData = [
 			title: "About the author",
 			authorImage: "/assets/images/team_members/deepali-rajale.png",
 			authorInfo:
-				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generatie AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
+				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
 	},
 	{
@@ -409,7 +410,7 @@ export const blogDetailsData = [
 				claims exclusions for “my” insurance plan? )
 			</li>
 			<li>
-				<strong>Prompt Efficiency</strong>Open source LLMs are catching up fast
+				<strong>Prompt Efficiency:</strong> Open source LLMs are catching up fast
 				with proprietary LLMs in language understanding, as evident in the
 				<a
 					href="https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard"
@@ -556,7 +557,7 @@ export const blogDetailsData = [
 				paper based on matching chunks.
 			</li>
 			<li>
-				<strong>Building Efficient System Prompts</strong>Building system prompts is the most critical task to get the most optimal response. Due to the lack of a universal framework for prompts, ensure you follow the standards most appropriate based on LLM or your task (e.g., conversation, summarization, or classification). Maintain a library of best practice prompts for enterprise-specific use cases to benefit others.  Including and enabling domain experts to design system prompts is essential as they are intimately familiar with datasets and expected outputs. Provide a prompt playground so domain experts can intuitively write system prompts, including examples, “Do not” rules, and expected response format. Provide a playground to quickly compare against authorized models for your enterprise. Maintain versions of the prompts so you can promote the best version to production.
+				<strong>Building Efficient System Prompts:</strong> Building system prompts is the most critical task to get the most optimal response. Due to the lack of a universal framework for prompts, ensure you follow the standards most appropriate based on LLM or your task (e.g., conversation, summarization, or classification). Maintain a library of best practice prompts for enterprise-specific use cases to benefit others.  Including and enabling domain experts to design system prompts is essential as they are intimately familiar with datasets and expected outputs. Provide a prompt playground so domain experts can intuitively write system prompts, including examples, “Do not” rules, and expected response format. Provide a playground to quickly compare against authorized models for your enterprise. Maintain versions of the prompts so you can promote the best version to production.
 			</li>
 			<li>
 				<strong>Model Experimentation:</strong> Many enterprises start with SaaS model providers such as Azure OpenAI or Amazon Bedrock. Open-source models such as Llama2, Mistral, and MPT and their variants are catching up fast. Try out your application against at least 2-3 leading SOTA models to understand response time, domain understanding, and quality of response. Typical enterprise applications may not need the bells and whistles of multi-headed SaaS models, so using open-source models may be as effective as you scale out and offer a better price per performance. For the rapid testing, build an evaluation script to utilize the”LLM as a judge” approach to compare the responses' relevance, comprehensiveness, and accuracy. If the general purpose model does not provide relevant and comprehensive responses, resort to domain-specific fine-tuning or instruction fine-tuning techniques and employ the fine-tuned model in your RAG.
@@ -588,11 +589,11 @@ export const blogDetailsData = [
 				group: true,
 				data: [
 					{
-						type: type.heading,
+						type: type.heading3,
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Conclusion",
+						value: `Conclusion`,
 					},
 					{
 						type: type.paragraph,
@@ -609,7 +610,7 @@ export const blogDetailsData = [
 			title: "About the author",
 			authorImage: "/assets/images/team_members/deepali-rajale.png",
 			authorInfo:
-				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generatie AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
+				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
 	},
 	{
@@ -1310,7 +1311,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "(करिणी) - We’re with you on your entire journey…",
+						value: "(करिणी) - We are with you on your entire journey…",
 					},
 					{
 						type: type.paragraph,

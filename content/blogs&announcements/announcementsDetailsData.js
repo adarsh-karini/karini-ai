@@ -650,7 +650,7 @@ export const announcementsDetailsData = [
 		breadCrumbTitle: "Karini AI releases the first purpose-built platform for GenAIOps",
 		title:
 			"Karini AI releases the first purpose-built platform for GenAIOps",
-		postedOn: "February 1, 2024",
+		postedOn: "February 6, 2024",
 		timeToRead: "2 min read",
 		SEO_data: {
 			title:
@@ -684,7 +684,7 @@ export const announcementsDetailsData = [
 					url: "https://www.karini.ai"
 				  }
 				},
-				datePublished: "2024-01-02"
+				datePublished: "2024-06-02"
 			  }
 	},
 	sections:[

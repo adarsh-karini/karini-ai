@@ -34,7 +34,7 @@ const aboutus = () => {
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai/aboutus" />
-				<link rel="alternate" href="https://www.karini.ai/aboutus" hreflang="en-us" />
+				<link rel="alternate" href="https://www.karini.ai/aboutus" hrefLang="en-us" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}

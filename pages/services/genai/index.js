@@ -35,7 +35,7 @@ const genai = () => {
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai/services/genai" />
-				<link rel="alternate" href="https://www.karini.ai/services/genai" hreflang="en-us" />
+				<link rel="alternate" href="https://www.karini.ai/services/genai" hrefLang="en-us" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}

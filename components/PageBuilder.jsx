@@ -110,6 +110,13 @@ const PageBuilder = ({ data }) => {
 														{val.value}
 													</h2>
 												)}
+												{val.type == "heading3" && (
+													<h3
+														className={`${getDynamicClassName(val)} text-black`}
+													>
+														{val.value}
+													</h3>
+												)}
 												{val.type == "paragraph" && (
 													<p
 														className={`${getDynamicClassName(

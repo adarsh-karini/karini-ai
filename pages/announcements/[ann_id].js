@@ -47,7 +47,7 @@ const Announcement = () => {
 
 				<link rel="canonical" href={annData?.SEO_data.canonicalLink} />
 
-				<link rel="alternate" href={annData?.SEO_data.hreflang} hreflang="en-us" />
+				<link rel="alternate" href={annData?.SEO_data.hreflang} hrefLang="en-us" />
 				{/* Schema Markup */}
 				<script
 					id="schema-markup-blog"

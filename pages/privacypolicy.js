@@ -32,7 +32,7 @@ const privacypolicy = () => {
 				/>
 				<meta name="robots" content="index, follow" />
 				<link rel="canonical" href="https://www.karini.ai/privacypolicy" />
-				<link rel="alternate" href="https://www.karini.ai/privacypolicy" hreflang="en-us" />
+				<link rel="alternate" href="https://www.karini.ai/privacypolicy" hrefLang="en-us" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}

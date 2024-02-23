@@ -29,7 +29,7 @@ const termsofuse = () => {
 				/>
 				<meta name="robots" content="index, follow" />
 				<link rel="canonical" href="https://www.karini.ai/termsofuse" />
-				<link rel="alternate" href="https://www.karini.ai/termsofuse" hreflang="en-us" />
+				<link rel="alternate" href="https://www.karini.ai/termsofuse" hrefLang="en-us" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
