@@ -79,7 +79,7 @@ export const blogsData = [
 		title:
 			"Fast-track your Prompt Experiments by tracking the prompt runs",
 		description:
-			"Starting your Generative AI application, the adventure begins in the first stage of the Generative AI lifecycle: exploring models and experimenting with prompts.",
+			"Generative AI has sparked a wave of excitement among businesses eager to create chatbots, companions, and co-pilots for extracting insights from their data.",
 		tag: "Gen AI",
 		date: "Feb 26th, 2024",
 		timeToRead: "2 min read",

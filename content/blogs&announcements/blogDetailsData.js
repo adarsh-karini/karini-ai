@@ -1173,44 +1173,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							"Starting your Generative AI application, the adventure begins in the first stage of the Generative AI lifecycle: exploring models and experimenting with prompts.",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-							"Prompt engineering is all about effectively communicating with a generative AI model. Crafting effective prompts is a dynamic process, not just a one-time task. It starts with creating an initial prompt for a specific need, then refined through extensive testing to enhance its quality and impact. A complete prompt includes:",
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.list,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value: "<ul  style='list-style: inside; list-style-type: disc;'><li>The prompt text</li><li>The large language model (LLM)</li><li>Model parameters include temperature, top_p, minimum and maximum token lengths, etc.</li></ul>"
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value: "Every mix of these elements forms a distinct prompt that needs to be managed throughout life. Each variation in the design stage is essential, resulting from adjustments to these prompt components."
+							"Generative AI has sparked a wave of excitement among businesses eager to create chatbots, companions, and co-pilots for extracting insights from their data. This journey begins with the art of prompt engineering, which includes various approaches like single-shot, few-shot, and chain of thoughts. Businesses often start by developing internal chatbots to help employees gain insights and boost their productivity. Given that customer support is a significant cost center, it has become a focus for optimization, with the development of Retrieval Augmented Generation (RAG) systems for enhanced insights. However, if a customer support RAG system provides inaccurate or misleading information, it could bias the judgment of representatives, leading to misplaced trust in computer-generated responses. Recent incidents involving entities like <a href='https://arstechnica.com/tech-policy/2024/02/air-canada-must-honor-refund-policy-invented-by-airlines-chatbot/' target='_blank' rel='nofollow' class='text-blue-600' hover:'underline'> Air Canada </a> and a <a href='https://www.msn.com/en-us/money/companies/a-chevrolet-dealer-offered-an-ai-chatbot-on-its-website-it-told-customers-to-buy-a-ford/ar-AA1lL6KE?ocid=entnewsntp&cvid=b258df25642b448c8467af9a3bf4c362&ei=18' target='_blank' rel='nofollow' class='text-blue-600' hover:'underline'> Chevy chatbot</a> have highlighted the reputational and financial risks of deploying unguided chatbots for self-service support. Imagine creating a financial advisor chatbot that offers human-like responses but is based on flawed or imaginative information, opposing sound human judgment.",
 					},
 				],
 			},
@@ -1366,6 +1329,30 @@ export const blogDetailsData = [
 								</ul>
 							</li>
 						</ul>`
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:  "Conclusion:"
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "The main reason many generative AI applications fail to reach production is the issue of hallucinations and compromised quality. Prompt engineering is all about effectively communicating with a generative AI model. Crafting effective prompts is a dynamic process, not just a one-time task. Each variation in the design stage is essential, and needs to be managed throughout the prompt lifecycle."
 					},
 				],
 			},
