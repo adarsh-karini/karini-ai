@@ -86,7 +86,7 @@ export const announcementsData = [
 		show: true,
 		filterName: "announcements",
 		type: "announcement",
-		image: "/assets/images/blogs/Karini AI Launches Revolutionary GenAIOps Platform (1).png",
+		image: "/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png",
 		imageAltName:
 			"Karini AI releases the first purpose-built platform for GenAIOps",
 		// imageWidth: 500,

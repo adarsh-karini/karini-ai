@@ -68,4 +68,21 @@ export const blogsData = [
 		timeToRead: "3 min read",
 		path: "/blogs/unleashing-the-potential-of-unified-data",
 	},
+	{
+		show: true,
+		filterName: "blogs",
+		type: "blog",
+		image: "/assets/images/blogs/Fast_track_your_prompt_Experiments.png",
+		imageAltName: "Karini AI’s platform showcasing prompt engineering for AI models",
+		// imageWidth: 320,
+		imageHeight: 320,
+		title:
+			"Fast-track your Prompt Experiments by tracking the prompt runs",
+		description:
+			"Starting your Generative AI application, the adventure begins in the first stage of the Generative AI lifecycle: exploring models and experimenting with prompts.",
+		tag: "Gen AI",
+		date: "Feb 26th, 2024",
+		timeToRead: "2 min read",
+		path: "/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+	},
 ];

@@ -95,6 +95,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs</loc>
+    <lastmod>2024-02-26</lastmod>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
+		<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Fast_track_your_prompt_Experiments.png</image:loc>
+    </image:image>
+	<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Prompt_runs.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground</loc>
     <lastmod>2024-01-22</lastmod>
 	<changefreq>monthly</changefreq>

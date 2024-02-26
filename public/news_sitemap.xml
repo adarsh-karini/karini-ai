@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  
+   
   <!-- Blog Post 1 -->
   <url>
     <loc>https://www.karini.ai/blogs/industrialize-generative-ai</loc>
@@ -76,6 +76,25 @@
       <news:title>Unleashing the Potential of Unified Data: The Gen AI Evolution in Business Intelligence</news:title>
       <news:keywords>"Unified Data,Generative AI,Business Intelligence,Data Integration Karini AI,AI-driven Insights"</news:keywords>
     </news:news>
+    </url>
+    <!-- Blog Post 5 -->
+  <url>
+    <loc>https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Generative AI Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-02-26</news:publication_date>
+      <news:title>Fast-track your Prompt Experiments by tracking the prompt runs</news:title>
+      <news:keywords>"Prompt Engineering, Generative AI Application, LLM Prompt Optimization, AI Prompt Management, Karini AI Platform"</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Fast_track_your_prompt_Experiments.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Prompt_runs.png</image:loc>
+    </image:image>
     </url>
 
   <!-- Announcement Post 1 -->
