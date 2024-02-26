@@ -94,9 +94,9 @@ export const announcementsData = [
 		title:
 			"Karini AI releases the first purpose-built platform for GenAIOps",
 		description:
-			"Dateline: Alpharetta, GA, February 1, 2024–Karini.ai is excited to announce the general availability of the first-of-its-kind purpose-built Generative AI platform designed to power evolution in enterprise AI adoption. ",
+			"Karini.ai is excited to announce the general availability of the first-of-its-kind purpose-built Generative AI platform designed to power evolution in enterprise AI adoption. ",
 		tag: "Gen AI",
-		date: "Feb 1st, 2024",
+		date: "Feb 6th, 2024",
 		timeToRead: "2 min read",
 		path: "/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 	},

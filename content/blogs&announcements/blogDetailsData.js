@@ -1218,11 +1218,11 @@ export const blogDetailsData = [
 				group: true,
 				data: [
 					{
-						type: type.paragraph,
+						type: type.heading,
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Challenge:"
+						value:  "Challenge:"
 					},
 				],
 			},
@@ -1254,7 +1254,7 @@ export const blogDetailsData = [
 				group: true,
 				data: [
 					{
-						type: type.paragraph,
+						type: type.heading,
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
@@ -1314,7 +1314,7 @@ export const blogDetailsData = [
 						
 								<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px" >
 										<li>
-											Experiment with prompts by adjusting the text, models, or model parameter
+											Experiment with prompts by adjusting the text, models, or model parameter.
 										</li>
 										<li>
 											Quickly compare the prompts against multiple authorized models for quality of responses, number of tokens, and response time to select the best prompt.
@@ -1349,7 +1349,7 @@ export const blogDetailsData = [
 								<p><strong>Time Travel: </strong></p>
 								<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px" >
 									<li>
-										Revert to a previous prompt version by rolling back to a historical prompt run 
+										Revert to a previous prompt version by rolling back to a historical prompt run.
 									</li>
 									<li>
 										Save a historical prompt run as a new prompt or prompt template for future experiments or to integrate into a recipe workflow. 
