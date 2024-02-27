@@ -15,39 +15,53 @@ const poppins = Poppins({
 	subsets: ["devanagari"],
 });
 
-const Announcement = () => {
-	const router = useRouter();
-	const { ann_id } = router.query;
+export async function getServerSideProps(context) {
+	// Fetch data from an external API
+	const { ann_id } = context.query;
+	console.log("ann_id", ann_id);
+	const [result] = announcementsDetailsData?.filter((ann) => ann.id === ann_id);
 
-	const [annData, setAnnData] = useState();
-
-	const getAnnData = (id) => {
-		console.log("announcementsDetailsData---",announcementsDetailsData)
-		const [result] = announcementsDetailsData?.filter((ann) => ann.id === id);
-		// console.log("result---",result.breadCrumbTitle)
-		setAnnData(result);
+	return {
+		props: {
+			annData: result,
+		},
 	};
+}
 
-	// console.log('annData 123', annData);
+const Announcement = ({ annData }) => {
+	const router = useRouter();
+	// const { ann_id } = router.query;
 
-	useEffect(() => {
-		getAnnData(ann_id);
-	}, [ann_id]);
+	// const [annData, setAnnData] = useState();
+
+	// const getAnnData = (id) => {
+	// 	console.log("announcementsDetailsData---", announcementsDetailsData);
+	// 	const [result] = announcementsDetailsData?.filter((ann) => ann.id === id);
+	// 	// console.log("result---",result.breadCrumbTitle)
+	// 	setAnnData(result);
+	// };
+
+	// // console.log('annData 123', annData);
+
+	// useEffect(() => {
+	// 	getAnnData(ann_id);
+	// }, [ann_id]);
 	return (
 		<>
 			<Head>
 				<title>{annData?.SEO_data.title}</title>
 				<meta name="title" content={annData?.SEO_data.metaTitle}></meta>
 				<meta name="description" content={annData?.SEO_data.description} />
-				<meta
-					name="keywords"
-					content={annData?.SEO_data.keywords}
-				/>
+				<meta name="keywords" content={annData?.SEO_data.keywords} />
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href={annData?.SEO_data.canonicalLink} />
 
-				<link rel="alternate" href={annData?.SEO_data.hreflang} hrefLang="en-us" />
+				<link
+					rel="alternate"
+					href={annData?.SEO_data.hreflang}
+					hrefLang="en-us"
+				/>
 				{/* Schema Markup */}
 				<script
 					id="schema-markup-blog"
