@@ -1336,7 +1336,7 @@ export const blogDetailsData = [
 				group: true,
 				data: [
 					{
-						type: type.heading,
+						type: type.heading3,
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
