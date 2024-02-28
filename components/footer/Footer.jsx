@@ -9,6 +9,9 @@ import {
 	FaPhoneSquareAlt,
 } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
+import { FaSquareXTwitter } from "react-icons/fa";
+import Image from "next/image";
+
 
 const Footer = () => {
 	return (
@@ -36,6 +39,16 @@ const Footer = () => {
 									className="cursor-pointer"
 									color="#0077b5"
 								/>
+							</Link>
+							<Link
+								href={"https://twitter.com/karini_ai"}
+								target="_blank"
+							>
+							<Image
+								src={"/assets/images/xtwitter.png"} 
+								target="_blank"
+								width={25} height={25}
+							/>
 							</Link>
 						</div>
 					</div>

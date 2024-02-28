@@ -1273,7 +1273,7 @@ export const blogDetailsData = [
 						value: `	
 						<ul class="space-y-2" style="list-style-type: disc; padding-left: 50px">
 							<li>
-								<p><strong>Author, Compare, and Test Prompts: </strong></p>
+								<h3><strong>Author, Compare, and Test Prompts: </strong></h3>
 						
 								<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px" >
 										<li>
@@ -1285,7 +1285,7 @@ export const blogDetailsData = [
 								</ul>
 							</li>
 							<li>
-								<p><strong>Save Prompt Run:</strong></p>
+								<h3><strong>Save Prompt Run:</strong></h3>
 								<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px" >
 									<li>
 										Capture and save the trial, including the prompt, selected models, settings, generated responses, and token count and response time metrics.
@@ -1297,7 +1297,7 @@ export const blogDetailsData = [
 							</li>
 	
 							<li>
-								<p><strong>Analyze Prompt Run:</strong></p>
+								<h3><strong>Analyze Prompt Run:</strong></h3>
 								<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px" >
 									<li>
 										Review saved prompt runs to enhance and refine your work. 
@@ -1309,7 +1309,7 @@ export const blogDetailsData = [
 							</li>
 	
 							<li>
-								<p><strong>Time Travel: </strong></p>
+								<h3><strong>Time Travel: </strong></h3>
 								<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px" >
 									<li>
 										Revert to a previous prompt version by rolling back to a historical prompt run.
@@ -1321,7 +1321,7 @@ export const blogDetailsData = [
 							</li>
 	
 							<li>
-								<p><strong>Offline Analysis: </strong></p>
+								<h3><strong>Offline Analysis: </strong></h3>
 								<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px" >
 									<li>
 										Download all prompt runs as a report for comprehensive offline analysis or to meet auditing requirements.
