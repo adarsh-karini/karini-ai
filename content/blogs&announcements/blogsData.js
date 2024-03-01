@@ -85,4 +85,21 @@ export const blogsData = [
 		timeToRead: "2 min read",
 		path: "/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
 	},
+	{
+		show: true,
+		filterName: "blogs",
+		type: "blog",
+		image: "/assets/images/blogs/The_Inevitable_Disruption_copy.png",
+		imageAltName: "AI transforming enterprises infographic",
+		// imageWidth: 320,
+		imageHeight: 320,
+		title:
+			"Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes",
+		description:
+			"The business landscape is in perpetual flux, demanding constant adaptation and evolution.",
+		tag: "Gen AI",
+		date: "Mar 1st, 2024",
+		timeToRead: "3 min read",
+		path: "/blogs/generative-ai-the-inevitable-disruption",
+	},
 ];
