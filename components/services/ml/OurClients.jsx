@@ -26,6 +26,7 @@ const OurClients = () => {
               <Image
                 src={val}
                 alt={val.split("/").pop()}
+                title={val.split("/").pop()}
                 width={200}
                 height={100}
                 className="rounded-lg object-contain"

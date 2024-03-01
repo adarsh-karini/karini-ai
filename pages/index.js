@@ -59,7 +59,7 @@ const index = () => {
 				<OurClients />
 				<OurPlatforms />
 				<OurServices />
-				<CTA />
+				{/* <CTA /> */}
 				{/* <ClientReviews /> */}
 				{/* <FAQ /> */}
 			</div>

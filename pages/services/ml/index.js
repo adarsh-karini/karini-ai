@@ -44,7 +44,7 @@ const ml = () => {
 				<OurServices />
 				<CustomerStories />
 				<OurClients />
-				<CTA />
+				{/* <CTA /> */}
 			</div>
 		</>
 	);

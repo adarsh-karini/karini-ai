@@ -46,7 +46,7 @@ const genai = () => {
 				{/* <WhyChooseUs /> */}
 				<CustomerStories />
 				<OurClients />
-				<CTA />
+				{/* <CTA /> */}
 			</div>
 		</>
 	);

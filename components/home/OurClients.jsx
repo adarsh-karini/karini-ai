@@ -29,6 +29,7 @@ const OurClients2 = () => {
 							<Image
 								src={val}
 								alt={val.split("/").pop()}
+								title={val.split("/").pop()}
 								width={150}
 								height={1000}
 								className="object-contain"

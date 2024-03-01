@@ -277,7 +277,7 @@ const privacypolicy = () => {
 						</p>
 					</div>
 				</div>
-				<CTA />
+				{/* <CTA /> */}
 			</div>
 		</>
 	);
