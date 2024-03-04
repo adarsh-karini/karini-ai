@@ -112,6 +112,31 @@
       <image:loc>https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png</image:loc>
     </image:image>
     </url>
+     <!-- Blog Post 7 -->
+  <url>
+    <loc>https://www.karini.ai/blogs/the-evolution-of-ai-agents</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Generative AI Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-03-04</news:publication_date>
+      <news:title>From Hallucination to Human-Like Helpers: The Evolution of AI Agents</news:title>
+      <news:keywords>"AI Agents Evolution, Generative AI, RAG Systems, Prompt Engineering, Chatbots Innovation"</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/The_Evolution_of_AI_Agents.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/agents_challenges.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/agents_solution.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/React.png</image:loc>
+    </image:image>
+    </url>
 
   <!-- Announcement Post 1 -->
   <url>

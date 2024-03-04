@@ -1182,16 +1182,11 @@ export const blogDetailsData = [
 				data: [
 					{
 						type: type.heading,
-						fontSize: fontSize.large,
-						fontWeight: fontWeight.normal,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
 						value: "Challenge:"
 					},
-				],
-			},
-			{
-				group: true,
-				data: [
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
@@ -1218,16 +1213,11 @@ export const blogDetailsData = [
 				data: [
 					{
 						type: type.heading,
-						fontSize: fontSize.large,
-						fontWeight: fontWeight.normal,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
 						value: "Prompt Engineering with Karini’s Prompt Playground:"
 					},
-				],
-			},
-			{
-				group: true,
-				data: [
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
@@ -1260,11 +1250,6 @@ export const blogDetailsData = [
 						fontStyle: fontStyle.normal,
 						value: "Using Karini’s Prompt Playground, authors can:"
 					},
-				],
-			},
-			{
-				group: true,
-				data: [
 					{
 						type: type.list,
 						fontSize: fontSize.medium,
@@ -1338,15 +1323,10 @@ export const blogDetailsData = [
 					{
 						type: type.heading3,
 						fontSize: fontSize.large,
-						fontWeight: fontWeight.normal,
+						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
 						value: "Conclusion:"
 					},
-				],
-			},
-			{
-				group: true,
-				data: [
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
@@ -1466,15 +1446,10 @@ export const blogDetailsData = [
 					{
 						type: type.heading,
 						fontSize: fontSize.medium,
-						fontWeight: fontWeight.bold,
+						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
 						value: "Beyond Analysis, Lies Creation: A New Frontier of AI"
 					},
-				],
-			},
-			{
-				group: true,
-				data: [
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
@@ -1490,15 +1465,10 @@ export const blogDetailsData = [
 					{
 						type: type.heading,
 						fontSize: fontSize.medium,
-						fontWeight: fontWeight.bold,
+						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
 						value: "Demystifying the Engine: LLMs, NLP, and the Collaborative Powerhouse"
 					},
-				],
-			},
-			{
-				group: true,
-				data: [
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
@@ -1536,17 +1506,12 @@ export const blogDetailsData = [
 				group: true,
 				data: [
 					{
-						type: type.paragraph,
+						type: type.heading,
 						fontSize: fontSize.medium,
-						fontWeight: fontWeight.bold,
+						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
 						value: "The Imperative for Action: Embracing the Generative Future"
 					},
-				],
-			},
-			{
-				group: true,
-				data: [
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
@@ -1562,15 +1527,10 @@ export const blogDetailsData = [
 					{
 						type: type.heading,
 						fontSize: fontSize.medium,
-						fontWeight: fontWeight.bold,
+						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
 						value: "Real-World Examples of the Generative AI Advantage:"
 					},
-				],
-			},
-			{
-				group: true,
-				data: [
 					{
 						type: type.list,
 						fontSize: fontSize.medium,
@@ -1578,7 +1538,7 @@ export const blogDetailsData = [
 						fontStyle: fontStyle.normal,
 						
 						value: `	
-						<ul class="space-y-2" style="list-style-type: disc; padding-left: 50px">
+						<ul class="space-y-1" style="list-style-type: disc; padding-left: 50px">
 							<li>
 								<b>Marketing & Advertising:</b> Personalized content creation with 30% higher click-through rates and targeted messaging with 20% increased engagement as seen in companies like <a href='https://www.cio.com/article/464190/unilever-leverages-chatgpt-to-deliver-business-value.html' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Unilever</a> and <a href='https://www.sciencedirect.com/science/article/pii/S0148296324000468' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Netflix</a>.
 							</li>
@@ -1598,15 +1558,10 @@ export const blogDetailsData = [
 					{
 						type: type.heading,
 						fontSize: fontSize.medium,
-						fontWeight: fontWeight.bold,
+						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
 						value: "Your Roadmap to Leveraging Generative AI"
 					},
-				],
-			},
-			{
-				group: true,
-				data: [
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
@@ -1626,11 +1581,6 @@ export const blogDetailsData = [
 						fontStyle: fontStyle.normal,
 						value: "Experimentation through pilot projects offers an invaluable opportunity to gain firsthand experience, identify potential challenges, and cultivate internal support for wider adoption within the organization. Lastly, selecting the appropriate Generative AI tools requires thoroughly evaluating various platforms, ensuring they seamlessly integrate with existing infrastructure and align with specific business needs and resource constraints."
 					},
-				],
-			},
-			{
-				group: true,
-				data: [
 					{
 						type: type.list,
 						fontSize: fontSize.medium,
@@ -1667,15 +1617,10 @@ export const blogDetailsData = [
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
-						fontWeight: fontWeight.bold,
+						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Introducing <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.karini.ai/' target='_blank'>Karini AI</a>: Your Generative AI Ally"
+						value: "<h2>Introducing <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.karini.ai/' target='_blank'>Karini AI</a>: Your Generative AI Ally</h2>"
 					},
-				],
-			},
-			{
-				group: true,
-				data: [
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
@@ -1768,6 +1713,331 @@ export const blogDetailsData = [
 			authorImage: "/assets/images/team_members/jerome-mendell.png",
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/jeromemendell/"> Jerome Mendell </a>is a software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus. Jerome has collaborated with leading technology providers, publishers, and clients serving Fortune 500 companies globally.',
+		},
+	},
+	{
+		type: "blog",
+		id: "the-evolution-of-ai-agents",
+		breadCrumbTitle: "The Evolution of AI Agents",
+		title:
+			"From Hallucination to Human-Like Helpers: The Evolution of AI Agents",
+		publishedOn: "March 4, 2024",
+		author: "Deepali Rajale",
+		timeToRead: "4 min read",
+		SEO_data: {
+			title: "Evolution of AI Agents: From Hallucination to Precision",
+			metaTitle: "The Evolution of AI Agents in Business | Karini AI",
+			keywords: "AI Agents Evolution, Generative AI, RAG Systems, Prompt Engineering, Chatbots Innovation",
+			description:
+				' Unleash the potential of AI agents! See their transformation from simple chatbots to human-like assistants, overcoming "hallucination" challenges for precise, reliable responses. Explore solutions with Karini AI.',
+			canonicalLink:
+				"https://www.karini.ai/blogs/the-evolution-of-ai-agents",
+			hreflang: "https://www.karini.ai/blogs/the-evolution-of-ai-agents",
+			schemaMarkup: {
+				"@context": "https://schema.org",
+				"@type": "BlogPosting",
+				mainEntityOfPage: {
+					"@type": "WebPage",
+					"@id":
+						"https://www.karini.ai/blogs/the-evolution-of-ai-agents",
+				},
+				headline:
+					"From Hallucination to Human-Like Helpers: The Evolution of AI Agents",
+				description: "The advent of Generative AI has sparked a wave of enthusiasm among businesses eager to harness its potential for creating Chatbots, companions, and copilots designed to unlock insights from vast datasets.",
+				image:
+					"https://www.karini.ai/assets/images/blogs/The_Evolution_of_AI_Agents.png",
+				author: {
+					"@type": "Person",
+					name: "Deepali Rajale",
+				},
+				publisher: {
+					"@type": "Organization",
+					name: "Karini Ai",
+					logo: {
+						"@type": "ImageObject",
+						url: "https://www.karini.ai/",
+					},
+				},
+				datePublished: "2024-03-04",
+			},
+		},
+		sections: [
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							`The advent of Generative AI has sparked a wave of enthusiasm among businesses eager to harness its potential for creating Chatbots, companions, and copilots designed to unlock insights from vast datasets. This journey often begins with the art of prompt engineering, which presents itself in various forms, including Single-shot, Few-shot, and Chain of Thought methodologies. Initially, companies tend to deploy internal chatbots to bolster employee productivity by facilitating access to critical insights. Furthermore, customer support, traditionally seen as a cost center, has become a focal point for optimization efforts, leading to the development of Retrieval Augmented Generation (RAG) systems intended to provide deeper insights. However, challenges such as potential inaccuracies or "hallucinations" in responses generated by these RAG systems can significantly impact customer service representatives' decision-making, potentially resulting in customer dissatisfaction. A notable incident involving <a href='https://www.bbc.com/travel/article/20240222-air-canada-chatbot-misinformation-what-travellers-should-know' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Air Canada</a> has recently highlighted the potential risks to brand reputation and financial stability posed by deploying these autonomous chatbots in customer support scenarios. The prospect of creating similar chatbots for financial advisors, capable of delivering human-like yet fundamentally flawed responses, raises significant concerns. Issues related to quality (such as hallucination, truth grounding, and comprehensiveness), content safety, and the risk of intellectual property leakage are among the key hurdles preventing many generative AI applications from reaching production stages.`,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "Challenges in achieving quality and trust"
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "It is easy to build a simple RAG system by combining Vector search for retrieval and LLM to summarize retrieved chunks, a massive upgrade from traditional knowledge bases with a limited understanding of the semantic nature of questions. These systems show poor performance in the real world for a multipart of complex questions."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.image,
+						path: "/assets/images/blogs/agents_challenges.png",
+						imageAltName: "Challenges in AI Agents Quality and Trust",
+						caption: "",
+						width: 600,
+						height: 600,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `Let's deep dive into the challenges by breaking down the RAG system,
+						<ol style='list-style: inside; list-style-type: decimal; margin-left: 25px;'>
+						        <li>
+								<b>Question semantics:</b> Complex queries often encompass multipart intents that may be unrelated or even adversarial, designed to confuse the model or "jailbreak" the chatbot. These can range from greetings to questions that test the system's limitations or probe for inconsistencies. Without understanding these nuances, a RAG system might fail to appropriately categorize and respond to the query, leading to irrelevant or incorrect answers.
+								</li>
+								<li>
+								<b>Retrieval phase: </b> A single vector store search may not yield relevant results for complex or multipart statistical questions. Personalized queries, such as those asking for specific information about a user's insurance policy, pose additional challenges if the system needs access to personalized data points like the policies owned by the user. This limitation can prevent the system from providing accurate, user-specific information.
+								</li>
+								<li>
+								<b>Prompt augmentation:</b> In simpler RAG implementations, the system prompt is static, combined with retrieved contextual information to create an augmented prompt. This static nature can limit the system's ability to dynamically adjust to the specifics of the query, particularly for complex or evolving scenarios that require a more nuanced understanding and response.
+								</li>
+								<li>
+								<b>LLM for Summarization:</b> If the augmented prompt lacks the necessary context to answer the query effectively, LLMs may rely on their inherent knowledge base to fill in the gaps, leading to "hallucination," where the model generates plausible but inaccurate or fabricated information. This issue is particularly problematic in scenarios requiring precise, factual responses.
+								</li>
+								</ol>`
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "Rise of Agents"
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Prompt engineering techniques such as Chain of Thoughts (COT) involve generating intermediate steps or reasoning paths when solving complex problems, especially in language models. It's like showing one's work in math problems but applied to AI. The model explicitly generates a sequence of thoughts or reasoning steps before arriving at a final answer or conclusion. Although COT excels at breaking down complex tasks or questions, their effectiveness hinges on the context provided if used in RAG systems."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "<a href='https://arxiv.org/pdf/2210.03629.pdf'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>The ReACT</a> (Synergizing Reasoning and Acting in Language Models) paper shows how this approach is far superior to COTs. Let's look into the basics. In the study of autonomous agents and multi-agent systems, the concepts of Thought, Action, and Observation play crucial roles in defining how these agents perceive, interpret, and interact with their environment."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.image,
+						path: "/assets/images/blogs/React.png",
+						imageAltName: "Components of RAG System Illustrated",
+						caption: "",
+						width: 600,
+						height: 600,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `<ul class="space-y-2" style="list-style-type:disc ; padding-left: 50px">
+						         <li>
+						         <b>Thought</b> in AI agents refers to the internal processing or decision-making mechanisms that occur before taking an action. It involves the interpretation of observations, the weighing of possible actions based on learned experiences or predefined rules, and the formulation of a plan or response. Thought processes in AI can range from simple if-then rules to complex algorithms that involve reasoning, planning, and prediction based on deep learning models.
+						         </li>
+								 <li>
+								 <b>Action</b> is the step an AI agent takes in response to its thoughts and observations. It's the execution phase where the agent applies its decision to the environment, potentially altering its state. Actions can be physical movements, such as a robotic arm picking up an object, or digital responses, like sending a message or updating a database. The scope of actions available to an AI agent depends on its capabilities and the effectors it has to interact with its environment.
+								 </li>
+								 <li>
+								 <b>Observation</b> involves the agent's perception of its environment through sensors or input mechanisms. It can include data from visual cameras, microphones, temperature sensors, or digital inputs like API calls. Observations are the raw data that an AI agent receives and processes to understand its current context or the state of the environment. Effective observation is critical for an agent to make informed decisions and adapt actions accordingly.
+                                </li>
+								</ul>`
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Together, Thought, Action, and Observation form a cyclical process that enables AI agents to operate autonomously, learn from their environment, and achieve their goals."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "RAG Agents"
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Agentic workflows, also known as Agents, harness the capabilities of Large Language Models (LLMs) to navigate the complexities of constructing intricate Retrieval Augmented Generation (RAG) systems. They adeptly segment elaborate tasks into manageable sub-tasks, utilize external systems to enhance their knowledge base, and monitor the outcomes to determine subsequent actions, ensuring the initial query's goals are met. The following provides a standard depiction of how a RAG system incorporates external resources for knowledge expansion."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.image,
+						path: "/assets/images/blogs/agents_solution.png",
+						imageAltName: "Innovative ReACT and Agentic Workflows Diagram",
+						caption: "",
+						width: 600,
+						height: 600,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `There are several providers of Agentic solutions,
+						<ol class="space-y-2" style='list-style: inside; list-style-type: decimal;'>
+						<li>
+						<a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://python.langchain.com/docs/modules/agents/'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>Langchain</a> implements ReACT and several simple tutorials for customer service, Text 2 SQL and code interpreter. 
+						</li>
+						<li>
+						<a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://docs.llamaindex.ai/en/stable/use_cases/agents.html'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>LlamaIndex</a> provides its agentic implementation using ReACT and OpenAI
+                        </li>
+						<li>
+						OpenAI also introduced <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://openai.com/blog/introducing-gpts 'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>GPTs</a> to create custom versions of ChatGPT by combining instructions, external knowledge, and combination of skills 
+                        </li>
+						<li>
+						<a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html 'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>Amazon Bedrock</a> Agents allows you to build and configure autonomous agents in your application. An agent helps end-users complete actions based on organization data and user input. Agents orchestrate interactions between foundation models (FMs), data sources, software applications, and user conversations. 
+                        </li>
+						<li>
+						<a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href=' https://github.com/microsoft/semantic-kernel'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>Semantic Kernel</a> is an open-source project developed by Microsoft. It is an SDK that integrates Large Language Models (LLMs) like <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://platform.openai.com/docs/introduction 'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>OpenAI</a>, <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://azure.microsoft.com/en-us/products/ai-services/openai-service 'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>Azure OpenAI</a>, and <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://huggingface.co/ 'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>Hugging Face</a> with conventional programming languages like C#, Python, and Java. Semantic Kernel achieves this by allowing you to define <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://learn.microsoft.com/en-us/semantic-kernel/ai-orchestration/plugins 'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>plugins</a> that can be chained together in just a <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href=' https://learn.microsoft.com/en-us/semantic-kernel/ai-orchestration/chaining-functions?tabs=Csharp#using-the-runasync-method-to-simplify-your-code'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>few lines of code</a>. 
+                        </li>
+						</ol>`
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `Numerous options exist for creating Agentic workflows, yet they are not without challenges, including potential loops from unclear prompts or Large Language Models (LLMs) errors. Karini AI streamlines the process, enabling the rapid development and deployment of production-grade agentic workflows with the following features:
+						       <ul style="list-style-type:disc ; padding-left: 50px">
+						       <li>
+						       <b>Pre-built prompts:</b> Get a head start with a comprehensive library of Agentic Prompt templates designed for various needs like customer service, HR, IT, legal, and finance. These templates save you valuable time and effort.
+						       </li>
+							   <li>
+							   <b>Experiment and Refine:</b> Seamlessly connect external tools to your workflow, enhancing your prompt creation process. Design compelling prompts and engage in interactive testing sessions with your AI agents. Analyze outcomes from top model providers and log your findings to identify best practices.
+							   </li>
+							   <li>
+							   <b>Rapid Deployment:</b> Recipes for RAGs (Retrieval Augmented Generation) expedite the deployment of your AI workflows, complete with integrated performance, usage, and cost monitoring.
+                               </li>
+							   <li>
+							   <b>Deploy with Confidence:</b> Integrate an agentic co-pilot directly into your systems. Choose from optional safety features for added peace of mind. 
+                               </li>
+							   <li>
+							   <b>Recipes for RAGs:</b> expedite the deployment of agentic workflows, complete with integrated performance, usage, and cost monitoring.Create custom greetings to enhance user experience. Continuously improve your AI with a built-in feedback mechanism. 
+							   </li>
+							   </ul>`
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Karini AI empowers you to build, deploy, and manage powerful AI agents efficiently. Start your journey today!"
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading3,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "Conclusion:"
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:"The ReAct agent represents an advanced form of artificial intelligence, drawing inspiration from the human processes of thinking, acting, and observing to tackle challenges methodically. Whether you're a Generative AI aficionado or looking to gain a competitive edge by creating production-level agents through an intuitive visual platform, the <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href=' https://www.karini.ai/'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>Karini AI</a> platform is designed to accelerate your journey to market with ethical AI solutions. "
+					},
+				],
+			},	
+		],
+		aboutAuthor: {
+			title: "About the author",
+			authorImage: "/assets/images/team_members/deepali-rajale.png",
+			authorInfo:
+				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
 	},
 	{

@@ -102,4 +102,21 @@ export const blogsData = [
 		timeToRead: "3 min read",
 		path: "/blogs/generative-ai-the-inevitable-disruption",
 	},
+	{
+		show: true,
+		filterName: "blogs",
+		type: "blog",
+		image: "/assets/images/blogs/The_Evolution_of_AI_Agents.png",
+		imageAltName: "The Evolution of AI Agents",
+		// imageWidth: 320,
+		imageHeight: 320,
+		title:
+			"From Hallucination to Human-Like Helpers: The Evolution of AI Agents",
+		description:
+			"The advent of Generative AI has sparked a wave of enthusiasm among businesses eager to harness its potential for creating Chatbots, companions, and copilots designed to unlock insights from vast datasets. ",
+		tag: "Gen AI",
+		date: "Mar 4th, 2024",
+		timeToRead: "4 min read",
+		path: "/blogs/the-evolution-of-ai-agents",
+	},
 ];
