@@ -660,8 +660,8 @@ export const announcementsDetailsData = [
 			description:
 				"Discover Karini AI's GenAIOps platform, built by Ex-AWS AI experts to accelerate Generative AI application deployment in enterprises, making AI adoption 1,440X faster.",
 			canonicalLink:
-				"https://www.karini.ai/press-release-genaiops-platform-launch",
-			hreflang: "https://www.karini.ai/press-release-genaiops-platform-launch",
+				"https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+			hreflang: "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",

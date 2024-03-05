@@ -25,7 +25,7 @@ const genai = () => {
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Unlock the full potential of Generative AI in your enterprise with Karini AI. From idea to production, navigate challenges, ensuring seamless fast operationalization."
+					content="Unlock the full potential of Generative AI in your enterprise with Karini AI. From idea to production, navigate challenges, ensuring seamless fast execution"
 				/>
 				<meta
 					name="keywords"
@@ -46,7 +46,7 @@ const genai = () => {
 				{/* <WhyChooseUs /> */}
 				<CustomerStories />
 				<OurClients />
-				<CTA />
+				{/* <CTA /> */}
 			</div>
 		</>
 	);

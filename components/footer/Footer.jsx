@@ -9,6 +9,9 @@ import {
 	FaPhoneSquareAlt,
 } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
+import { FaSquareXTwitter } from "react-icons/fa";
+import Image from "next/image";
+
 
 const Footer = () => {
 	return (
@@ -36,6 +39,16 @@ const Footer = () => {
 									className="cursor-pointer"
 									color="#0077b5"
 								/>
+							</Link>
+							<Link
+								href={"https://twitter.com/karini_ai"}
+								target="_blank"
+							>
+							<Image
+								src={"/assets/images/xtwitter.png"} 
+								target="_blank"
+								width={25} height={25}
+							/>
 							</Link>
 						</div>
 					</div>
@@ -109,24 +122,26 @@ const Footer = () => {
 								<p className="text-black font-semibold text-lg">Contact us</p>
 								<div className="grid grid-cols-1 gap-2">
 									<div className="flex items-center space-x-1">
-										<BiSolidMapPin size={20} className="text-primary-600" />
-										<Link
+										<BiSolidMapPin size={20} className="text-primary-600 mr-1" />
+										{/* <Link
 											href={"https://maps.app.goo.gl/1sPWPSUeyfnm6dVj7"}
 											target="_blank"
 											className="flex-1 text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
 										>
-											USA
-										</Link>
+											Georgia, USA
+										</Link> */}
+										{" "}Georgia, USA
 									</div>
 									<div className="flex items-center space-x-1">
-										<BiSolidMapPin size={20} className="text-primary-600" />
-										<Link
+										<BiSolidMapPin size={20} className="text-primary-600 mr-1" />
+										{" "}Pune, India
+										{/* <Link
 											href={"https://maps.app.goo.gl/StY3Yd6iZaqZqEFY9"}
 											target="_blank"
 											className="flex-1 text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
 										>
 											Pune, India
-										</Link>
+										</Link> */}
 									</div>
 									<div className="flex items-center space-x-1">
 										<FaPhoneAlt size={15} className="text-primary-600" />

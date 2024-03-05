@@ -42,7 +42,7 @@ const platforms = () => {
 				<Hero />
 				<Platforms />
 				<HowItWorks />
-				<CTA />
+				{/* <CTA /> */}
 			</div>
 		</>
 	);

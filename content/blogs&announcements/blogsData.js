@@ -82,7 +82,41 @@ export const blogsData = [
 			"Generative AI has sparked a wave of excitement among businesses eager to create chatbots, companions, and co-pilots for extracting insights from their data.",
 		tag: "Gen AI",
 		date: "Feb 26th, 2024",
-		timeToRead: "2 min read",
+		timeToRead: "5 min read",
 		path: "/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+	},
+	{
+		show: true,
+		filterName: "blogs",
+		type: "blog",
+		image: "/assets/images/blogs/The_Inevitable_Disruption_copy.png",
+		imageAltName: "AI transforming enterprises infographic",
+		// imageWidth: 320,
+		imageHeight: 320,
+		title:
+			"Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes",
+		description:
+			"The business landscape is in perpetual flux, demanding constant adaptation and evolution.",
+		tag: "Gen AI",
+		date: "Mar 1st, 2024",
+		timeToRead: "5 min read",
+		path: "/blogs/generative-ai-the-inevitable-disruption",
+	},
+	{
+		show: true,
+		filterName: "blogs",
+		type: "blog",
+		image: "/assets/images/blogs/The_Evolution_of_AI_Agents.png",
+		imageAltName: "The Evolution of AI Agents",
+		// imageWidth: 320,
+		imageHeight: 320,
+		title:
+			"From Hallucination to Human-Like Helpers: The Evolution of AI Agents",
+		description:
+			"The advent of Generative AI has sparked a wave of enthusiasm among businesses eager to harness its potential for creating Chatbots, companions, and copilots designed to unlock insights from vast datasets. ",
+		tag: "Gen AI",
+		date: "Mar 4th, 2024",
+		timeToRead: "10 min read",
+		path: "/blogs/the-evolution-of-ai-agents",
 	},
 ];

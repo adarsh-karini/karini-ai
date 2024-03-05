@@ -56,7 +56,6 @@
   <priority>0.5</priority>
   </url>
   <url>
-  <url>
   <loc>https://www.karini.ai/blogs</loc>
   <lastmod>2024-01-10</lastmod> 
   <changefreq>weekly</changefreq>
@@ -104,6 +103,33 @@
     </image:image>
 	<image:image>
       <image:loc>https://www.karini.ai/assets/images/blogs/Prompt_runs.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.karini.ai//blogs/generative-ai-the-inevitable-disruption</loc>
+    <lastmod>2024-03-01</lastmod>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
+		<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.karini.ai//blogs/the-evolution-of-ai-agents</loc>
+    <lastmod>2024-03-04</lastmod>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
+		<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/The_Evolution_of_AI_Agents.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/agents_challenges.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/agents_solution.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/React.png</image:loc>
     </image:image>
   </url>
   <url>

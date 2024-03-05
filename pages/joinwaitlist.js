@@ -60,6 +60,7 @@ const Joinwaitlist = () => {
 					name="keywords"
 					content="AWS ML,Databricks,OpenAI,ChatGPT,Bedrock,RAG,Artificial Intelligence,LLM,HuggingFace,LLMOps,Dolly"
 				/>
+				<meta name="robots" content="noindex,nofollow" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
