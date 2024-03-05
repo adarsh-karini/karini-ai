@@ -94,3 +94,9 @@ h3 {
 .parent-list {
 	padding-left: 100px;
 }
+
+
+.list-heading{
+	display: inline-block;
+	font-weight: 600;
+}

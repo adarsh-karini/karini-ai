@@ -82,7 +82,7 @@ export const blogsData = [
 			"Generative AI has sparked a wave of excitement among businesses eager to create chatbots, companions, and co-pilots for extracting insights from their data.",
 		tag: "Gen AI",
 		date: "Feb 26th, 2024",
-		timeToRead: "2 min read",
+		timeToRead: "5 min read",
 		path: "/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
 	},
 	{
@@ -99,7 +99,7 @@ export const blogsData = [
 			"The business landscape is in perpetual flux, demanding constant adaptation and evolution.",
 		tag: "Gen AI",
 		date: "Mar 1st, 2024",
-		timeToRead: "3 min read",
+		timeToRead: "5 min read",
 		path: "/blogs/generative-ai-the-inevitable-disruption",
 	},
 	{
@@ -116,7 +116,7 @@ export const blogsData = [
 			"The advent of Generative AI has sparked a wave of enthusiasm among businesses eager to harness its potential for creating Chatbots, companions, and copilots designed to unlock insights from vast datasets. ",
 		tag: "Gen AI",
 		date: "Mar 4th, 2024",
-		timeToRead: "4 min read",
+		timeToRead: "10 min read",
 		path: "/blogs/the-evolution-of-ai-agents",
 	},
 ];

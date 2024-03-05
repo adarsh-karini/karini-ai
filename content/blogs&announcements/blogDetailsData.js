@@ -188,7 +188,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							"<ol style='list-style: inside; list-style-type: decimal;'><li><strong>Infrastructure</strong> - Most companies have a primary cloud infrastructure and typically utilize Gen AI building blocks offered by the cloud.</li><li><strong>Capabilities</strong> - These are set of foundational building block services offered by cloud native (e.g. Opensearch, Azure OpenAI) or 3rd party SAAS products(e.g. Milvus Vector search)</li><li><strong>Reusable services</strong> - Central Gen AI teams typically have to build a RAG (Retrieval Augmented Generation), Fine Tuning or Model Hub Services that can be readily consumed with enterprise guard-rails</li><li><strong>Use cases</strong> - Using the reusable services, use cases can be deployed and integrated with a variety of applications such as Customer support bot, summarizing customer reviews and more.</li></ol>",
+							`<ol style='list-style: inside; list-style-type: decimal;'><li><h3 class="list-heading">Infrastructure</h3> - Most companies have a primary cloud infrastructure and typically utilize Gen AI building blocks offered by the cloud.</li><li><h3 class="list-heading">Capabilities</h3> - These are set of foundational building block services offered by cloud native (e.g. Opensearch, Azure OpenAI) or 3rd party SAAS products(e.g. Milvus Vector search)</li><li><h3 class="list-heading">Reusable services</h3> - Central Gen AI teams typically have to build a RAG (Retrieval Augmented Generation), Fine Tuning or Model Hub Services that can be readily consumed with enterprise guard-rails</li><li><h3 class="list-heading">Use cases</h3> - Using the reusable services, use cases can be deployed and integrated with a variety of applications such as Customer support bot, summarizing customer reviews and more.</li></ol>`,
 					},
 					{
 						type: type.paragraph,
@@ -368,7 +368,7 @@ export const blogDetailsData = [
 						value: `
 					<ol start="1" style="list-style: decimal; padding-left: 20px" class="space-y-4">
 			<li>
-				<strong>Access to Enterprise Data:</strong> This involves creating
+			<h3 class="list-heading">Access to Enterprise Data:</h3>This involves creating
 				connectors to various storage solutions and databases, considering
 				different ingestion formats like files, tabular data, or API responses.
 				Unlike traditional ETL, extraction, cleaning, masking, and chunking
@@ -377,7 +377,7 @@ export const blogDetailsData = [
 				from web crawls.
 			</li>
 			<li>
-				<strong>Embedding Algorithms:</strong> The constantly evolving nature of
+			<h3 class="list-heading">Embedding Algorithms:</h3> The constantly evolving nature of
 				embedding algorithms
 				<a
 					href="https://huggingface.co/spaces/mteb/leaderboard"
@@ -390,7 +390,7 @@ export const blogDetailsData = [
 				search process.
 			</li>
 			<li>
-				<strong>Query Phase Management:</strong> This phase can be vulnerable to
+			<h3 class="list-heading">Query Phase Management:</h3> This phase can be vulnerable to
 				adversarial actors who may try to 'jailbreak'
 				<a
 					href="https://www.jailbreakchat.com/"
@@ -402,7 +402,7 @@ export const blogDetailsData = [
 				potentially causing a cost spike.
 			</li>
 			<li>
-				<strong>Chunk Retrieval Process:</strong> For the chunk retrieval
+			<h3 class="list-heading">Chunk Retrieval Process:</h3> For the chunk retrieval
 				process, the similarity search may not retrieve adequate information or
 				be unable to retrieve matching chunks, leading to insufficient context
 				for comprehensive and relevant answers. Advanced retrieval chains are
@@ -410,7 +410,7 @@ export const blogDetailsData = [
 				claims exclusions for “my” insurance plan? )
 			</li>
 			<li>
-				<strong>Prompt Efficiency:</strong> Open source LLMs are catching up fast
+			<h3 class="list-heading">Prompt Efficiency:</h3> Open source LLMs are catching up fast
 				with proprietary LLMs in language understanding, as evident in the
 				<a
 					href="https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard"
@@ -422,10 +422,10 @@ export const blogDetailsData = [
 				lead to inadequate responses.
 			</li>
 			<li>
-				<strong>Understanding the Enterprise Domain:</strong>  While Generative AI effectively addresses numerous inquisitive challenges within enterprises, Large Language Models (LLMs) often struggle to grasp the specific nuances of individual enterprise domains. LLMs are trained on publicly available datasets by crawling the world wide web, but enterprise data is behind firewalls; hence, LLMs may not understand a specific internal term used within a business, leading to an “I don't know” response or a response related to a similar term in Wikipedia dictionary leading to hallucination.
+			<h3 class="list-heading">Understanding the Enterprise Domain:</h3>  While Generative AI effectively addresses numerous inquisitive challenges within enterprises, Large Language Models (LLMs) often struggle to grasp the specific nuances of individual enterprise domains. LLMs are trained on publicly available datasets by crawling the world wide web, but enterprise data is behind firewalls; hence, LLMs may not understand a specific internal term used within a business, leading to an “I don't know” response or a response related to a similar term in Wikipedia dictionary leading to hallucination.
 			</li>
 			<li>
-				<strong>Content Safety:</strong> LLMs may spout toxic or unsafe content without proper guardrails, leading to brand reputation issues. The brand reputation concern is genuine, as reported by Chevrolet’s public AI chatbot<a
+			<h3 class="list-heading">Content Safety:</h3> LLMs may spout toxic or unsafe content without proper guardrails, leading to brand reputation issues. The brand reputation concern is genuine, as reported by Chevrolet’s public AI chatbot<a
 				href="https://www.msn.com/en-us/money/companies/a-chevrolet-dealer-offered-an-ai-chatbot-on-its-website-it-told-customers-to-buy-a-ford/ar-AA1lL6KE?ocid=entnewsntp&cvid=b258df25642b448c8467af9a3bf4c362&ei=18"
 				class="text-blue-600"
 				target="_blank" rel=" nofollow"
@@ -460,7 +460,7 @@ export const blogDetailsData = [
 						value: `
 					<ol start="8" style="list-style: decimal; padding-left: 20px" class="space-y-4">
 					<li>
-				<strong>User Experience:</strong>  Most Gen AI systems do not focus on end-user experience. Chat GPT has set the standard for user experience, but OpenAI has control of the end-to-end pipeline, including the model. Lack of good experiences, such as streaming responses, A/B testing framework, lack of exhaustive user feedback mechanism, adequate seeding questions, or lack of follow-up questions, may diminish user engagement.
+					<h3 class="list-heading">User Experience:</h3>  Most Gen AI systems do not focus on end-user experience. Chat GPT has set the standard for user experience, but OpenAI has control of the end-to-end pipeline, including the model. Lack of good experiences, such as streaming responses, A/B testing framework, lack of exhaustive user feedback mechanism, adequate seeding questions, or lack of follow-up questions, may diminish user engagement.
 			</li></ol>`,
 					},
 				],
@@ -513,7 +513,7 @@ export const blogDetailsData = [
 			class="space-y-4"
 		>
 			<li>
-				<strong>Data Management:</strong> Utilize standard storage, database,
+			<h3 class="list-heading">Data Management:</h3> Utilize standard storage, database,
 				and SaaS application interfaces to minimize bulk distributed data
 				replication and incremental ingestion. To make it LLM-ready, utilize
 				distributed runtimes for extraction, cleaning, masking, and chunking
@@ -522,7 +522,7 @@ export const blogDetailsData = [
 				relevant answers.
 			</li>
 			<li>
-				<strong>Model Selection:</strong>
+			<h3 class="list-heading">Model Selection:</h3>
 
 				Depending on your dataset, use the most appropriate embedding model for
 				your use case. Try at least the top 2 embedding model techniques
@@ -538,7 +538,7 @@ export const blogDetailsData = [
 				question-answer pairs.
 			</li>
 			<li>
-				<strong>Query Phase Management:</strong> To prevent intentional or
+			<h3 class="list-heading">Query Phase Management:</h3> To prevent intentional or
 				unintentional adverse behavior, use a suitable classification model to
 				block questions and provide canned responses. Monitor adverse prompts
 				for trends and take appropriate action to improve classification methods
@@ -546,7 +546,7 @@ export const blogDetailsData = [
 				token-based throttling to limit attack vectors.
 			</li>
 			<li>
-				<strong>Retrieval Optimization:</strong> Use user metadata for
+			<h3 class="list-heading">Retrieval Optimization:</h3> Use user metadata for
 				pre-filtering to produce a narrower set for semantic search for optimal
 				retrieval. Many vector databases, such as OpenSearch, MongoDB, and
 				Pinecone, provide hybrid search capabilities. Depending on your source
@@ -557,16 +557,16 @@ export const blogDetailsData = [
 				paper based on matching chunks.
 			</li>
 			<li>
-				<strong>Building Efficient System Prompts:</strong> Building system prompts is the most critical task to get the most optimal response. Due to the lack of a universal framework for prompts, ensure you follow the standards most appropriate based on LLM or your task (e.g., conversation, summarization, or classification). Maintain a library of best practice prompts for enterprise-specific use cases to benefit others.  Including and enabling domain experts to design system prompts is essential as they are intimately familiar with datasets and expected outputs. Provide a prompt playground so domain experts can intuitively write system prompts, including examples, “Do not” rules, and expected response format. Provide a playground to quickly compare against authorized models for your enterprise. Maintain versions of the prompts so you can promote the best version to production.
+			<h3 class="list-heading">Building Efficient System Prompts:</h3> Building system prompts is the most critical task to get the most optimal response. Due to the lack of a universal framework for prompts, ensure you follow the standards most appropriate based on LLM or your task (e.g., conversation, summarization, or classification). Maintain a library of best practice prompts for enterprise-specific use cases to benefit others.  Including and enabling domain experts to design system prompts is essential as they are intimately familiar with datasets and expected outputs. Provide a prompt playground so domain experts can intuitively write system prompts, including examples, “Do not” rules, and expected response format. Provide a playground to quickly compare against authorized models for your enterprise. Maintain versions of the prompts so you can promote the best version to production.
 			</li>
 			<li>
-				<strong>Model Experimentation:</strong> Many enterprises start with SaaS model providers such as Azure OpenAI or Amazon Bedrock. Open-source models such as Llama2, Mistral, and MPT and their variants are catching up fast. Try out your application against at least 2-3 leading SOTA models to understand response time, domain understanding, and quality of response. Typical enterprise applications may not need the bells and whistles of multi-headed SaaS models, so using open-source models may be as effective as you scale out and offer a better price per performance. For the rapid testing, build an evaluation script to utilize the”LLM as a judge” approach to compare the responses' relevance, comprehensiveness, and accuracy. If the general purpose model does not provide relevant and comprehensive responses, resort to domain-specific fine-tuning or instruction fine-tuning techniques and employ the fine-tuned model in your RAG.
+			<h3 class="list-heading">Model Experimentation:</h3> Many enterprises start with SaaS model providers such as Azure OpenAI or Amazon Bedrock. Open-source models such as Llama2, Mistral, and MPT and their variants are catching up fast. Try out your application against at least 2-3 leading SOTA models to understand response time, domain understanding, and quality of response. Typical enterprise applications may not need the bells and whistles of multi-headed SaaS models, so using open-source models may be as effective as you scale out and offer a better price per performance. For the rapid testing, build an evaluation script to utilize the”LLM as a judge” approach to compare the responses' relevance, comprehensiveness, and accuracy. If the general purpose model does not provide relevant and comprehensive responses, resort to domain-specific fine-tuning or instruction fine-tuning techniques and employ the fine-tuned model in your RAG.
 			</li>
 			<li>
-				<strong>Content Safety:</strong> To prevent harmful, toxic responses, augment system prompts to instruct LLMs to redact harmful content from the response. Employ additional controls using other classifiers to block harmful responses entirely to ensure trust and safety. Use a standard set of questions for automated testing to ensure RAGs are regression tested to account for any changes in LLM, system prompts, or changes in data.
+			<h3 class="list-heading">Content Safety:</h3> To prevent harmful, toxic responses, augment system prompts to instruct LLMs to redact harmful content from the response. Employ additional controls using other classifiers to block harmful responses entirely to ensure trust and safety. Use a standard set of questions for automated testing to ensure RAGs are regression tested to account for any changes in LLM, system prompts, or changes in data.
 			</li>
 			<li>
-				<strong>Enhancing User Experience:</strong> Ultimately, user experience is essential to increase engagement and attract new users. Add streaming if you are building a conversational system, provide appropriate feedback options so users can rate responses, and volunteer to provide correct responses to build the knowledge base. Provide custom instructions, seeding questions to start the conversation, and follow-up questions. Generative AI is rapidly evolving, so it is vital to continue to monitor user feedback and incorporate additional capabilities such as multi-modal (image and text).
+			<h3 class="list-heading">Enhancing User Experience:</h3> Ultimately, user experience is essential to increase engagement and attract new users. Add streaming if you are building a conversational system, provide appropriate feedback options so users can rate responses, and volunteer to provide correct responses to build the knowledge base. Provide custom instructions, seeding questions to start the conversation, and follow-up questions. Generative AI is rapidly evolving, so it is vital to continue to monitor user feedback and incorporate additional capabilities such as multi-modal (image and text).
 			</li>
 		</ol>`,
 					},
@@ -729,8 +729,7 @@ export const blogDetailsData = [
 						fontStyle: fontStyle.normal,
 						value: `<ol start="1" style="list-style: decimal; padding-left: 15px" class="space-y-6">
 						<li>
-							<strong
-								>Adopt a Streamlined Approach to Business Case Development</strong
+						<h3 class="list-heading">Adopt a Streamlined Approach to Business Case Development</h3
 							>: Generative AI, an emerging technology, demands a departure from
 							traditional business case development. Enterprises should prioritize
 							rapid experimentation and learning to pinpoint practical technology
@@ -768,7 +767,7 @@ export const blogDetailsData = [
 							</ul>
 						</li>
 						<li>
-							<strong>Initiate with Straightforward Applications</strong>: Before
+						<h3 class="list-heading">Initiate with Straightforward Applications</h3>: Before
 							venturing into more complex applications, begin by unlocking value
 							within existing business processes.
 			
@@ -801,7 +800,7 @@ export const blogDetailsData = [
 							</ul>
 						</li>
 						<li>
-							<strong>Streamline Technology Evaluation</strong>: Most generative AI
+						<h3 class="list-heading">Streamline Technology Evaluation</h3>: Most generative AI
 							tools offer similar capabilities, rendering extensive evaluation
 							unnecessary.
 			
@@ -842,7 +841,7 @@ export const blogDetailsData = [
 							</ul>
 						</li>
 						<li>
-							<strong>Harness External Expertise:</strong> The scarcity of AI
+						<h3 class="list-heading">Harness External Expertise:</h3> The scarcity of AI
 							expertise necessitates partnerships for successful implementation and
 							integration.
 			
@@ -876,7 +875,7 @@ export const blogDetailsData = [
 							</ul>
 						</li>
 						<li>
-							<strong>Design a Flexible System Architecture</strong>: Architectures
+						<h3 class="list-heading">Design a Flexible System Architecture</h3>: Architectures
 							must be dynamic to accommodate evolving technologies, use cases, and
 							regulatory landscapes.
 			
@@ -911,7 +910,7 @@ export const blogDetailsData = [
 							</ul>
 						</li>
 						<li>
-							<strong>Implement Robust Security Protocols</strong>: Addressing
+						<h3 class="list-heading">Implement Robust Security Protocols</h3>: Addressing
 							generative AI's unique security challenges through custom policies and
 							robust partnerships.
 			
@@ -942,7 +941,7 @@ export const blogDetailsData = [
 							</ul>
 						</li>
 						<li>
-							<strong>Establish Innovative KPIs</strong>: New KPIs should reflect
+						<h3 class="list-heading">Establish Innovative KPIs</h3>: New KPIs should reflect
 							generative AI's unique value and impact on business operations.
 			
 							<ul class="space-y-2" style="list-style-type: disc; padding-left: 50px">
@@ -971,7 +970,7 @@ export const blogDetailsData = [
 							</ul>
 						</li>
 						<li>
-							<strong>Foster Open Communication</strong>: Ensure continuous feedback
+						<h3 class="list-heading">Foster Open Communication</h3>: Ensure continuous feedback
 							and open communication channels for iterative improvement and employee
 							engagement.
 			
@@ -1004,7 +1003,7 @@ export const blogDetailsData = [
 							</ul>
 						</li>
 						<li>
-							<strong>Promote Comprehensive Learning and Development</strong>: Equip
+						<h3 class="list-heading">Promote Comprehensive Learning and Development</h3>: Equip
 							employees with the necessary skills and understanding to leverage AI
 							tools effectively.
 			
@@ -1039,7 +1038,7 @@ export const blogDetailsData = [
 							</ul>
 						</li>
 						<li>
-							<strong>Embrace Iterative Learning</strong>: Cultivate a learning and
+						<h3 class="list-heading">Embrace Iterative Learning</h3>: Cultivate a learning and
 							continuous improvement culture to maximize the value derived from
 							generative AI.
 			
@@ -1125,7 +1124,7 @@ export const blogDetailsData = [
 			"Fast-track your Prompt Experiments by tracking the prompt runs",
 		publishedOn: "February 26, 2024",
 		author: "Deepali Rajale",
-		timeToRead: "2 min read",
+		timeToRead: "5 min read",
 		SEO_data: {
 			title: "Optimize AI Prompts | Karini’s Prompt Playground",
 			metaTitle: "Streamline LLM Prompt Engineering | Karini AI",
@@ -1258,7 +1257,7 @@ export const blogDetailsData = [
 						value: `	
 						<ul class="space-y-2" style="list-style-type: disc; padding-left: 50px">
 							<li>
-								<h3><strong>Author, Compare, and Test Prompts: </strong></h3>
+							<h3 class="list-heading">Author, Compare, and Test Prompts:</h3>
 						
 								<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px" >
 										<li>
@@ -1270,7 +1269,7 @@ export const blogDetailsData = [
 								</ul>
 							</li>
 							<li>
-								<h3><strong>Save Prompt Run:</strong></h3>
+							<h3 class="list-heading">Save Prompt Run:</h3>
 								<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px" >
 									<li>
 										Capture and save the trial, including the prompt, selected models, settings, generated responses, and token count and response time metrics.
@@ -1282,7 +1281,7 @@ export const blogDetailsData = [
 							</li>
 	
 							<li>
-								<h3><strong>Analyze Prompt Run:</strong></h3>
+							<h3 class="list-heading">Analyze Prompt Run:</h3>
 								<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px" >
 									<li>
 										Review saved prompt runs to enhance and refine your work. 
@@ -1294,7 +1293,7 @@ export const blogDetailsData = [
 							</li>
 	
 							<li>
-								<h3><strong>Time Travel: </strong></h3>
+							<h3 class="list-heading">Time Travel:</h3>
 								<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px" >
 									<li>
 										Revert to a previous prompt version by rolling back to a historical prompt run.
@@ -1306,7 +1305,7 @@ export const blogDetailsData = [
 							</li>
 	
 							<li>
-								<h3><strong>Offline Analysis: </strong></h3>
+							<h3 class="list-heading">Offline Analysis:</h3>
 								<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px" >
 									<li>
 										Download all prompt runs as a report for comprehensive offline analysis or to meet auditing requirements.
@@ -1388,13 +1387,13 @@ export const blogDetailsData = [
 			"Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes",
 		publishedOn: "March 1, 2024",
 		author: "Jerome Mendell",
-		timeToRead: "3 min read",
+		timeToRead: "5 min read",
 		SEO_data: {
 			title: "Generative AI in Business: Navigating the Future - Karini AI",
 			metaTitle: "Exploring Generative AI's Impact on Enterprises | Karini AI",
 			keywords: "Generative AI, Business Transformation, AI Innovation, Enterprise AI Solutions, Karini AI, AI in Marketing, AI in R&D, AI Tools for Business, Disruptive Technology, Future of AI",
-			description:
-				"Discover how Generative AI is revolutionizing enterprises, from marketing to R&D, and how Karini AI can be your ally in embracing this disruptive technology.",
+			description:	
+				"Discover how Generative AI transforms businesses (marketing, R&D!) & how Karini AI empowers you to leverage it.<p>&#35;GenerativeAI</p>",
 			canonicalLink:
 				"https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption",
 			hreflang: "https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption",
@@ -1540,13 +1539,13 @@ export const blogDetailsData = [
 						value: `	
 						<ul class="space-y-1" style="list-style-type: disc; padding-left: 50px">
 							<li>
-								<b>Marketing & Advertising:</b> Personalized content creation with 30% higher click-through rates and targeted messaging with 20% increased engagement as seen in companies like <a href='https://www.cio.com/article/464190/unilever-leverages-chatgpt-to-deliver-business-value.html' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Unilever</a> and <a href='https://www.sciencedirect.com/science/article/pii/S0148296324000468' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Netflix</a>.
+							<h3 class="list-heading">Marketing & Advertising:</h3> Personalized content creation with 30% higher click-through rates and targeted messaging with 20% increased engagement as seen in companies like <a href='https://www.cio.com/article/464190/unilever-leverages-chatgpt-to-deliver-business-value.html' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Unilever</a> and <a href='https://www.sciencedirect.com/science/article/pii/S0148296324000468' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Netflix</a>.
 							</li>
 							<li>
-								<b>Research & Development:</b> Accelerating drug discovery and pioneering material science innovations as implemented by <a href='https://www.pfizer.com/news/articles/artificial_intelligence_on_a_mission_to_make_clinical_drug_development_faster_and_smarter' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Pfizer</a> and <a href='https://press.siemens.com/global/en/pressrelease/generative-artificial-intelligence-takes-siemens-predictive-maintenance-solution-next' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Siemens</a>.
+							<h3 class="list-heading">Research & Development:</h3> Accelerating drug discovery and pioneering material science innovations as implemented by <a href='https://www.pfizer.com/news/articles/artificial_intelligence_on_a_mission_to_make_clinical_drug_development_faster_and_smarter' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Pfizer</a> and <a href='https://press.siemens.com/global/en/pressrelease/generative-artificial-intelligence-takes-siemens-predictive-maintenance-solution-next' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Siemens</a>.
 							</li>
 							<li>
-								<b>Customer Service & Support:</b> Implementing automated chatbots with 25% reduced wait times and personalized product recommendations leading to increased customer satisfaction and sales exemplified by <a href='https://hyscaler.com/insights/culinary-fusion-leveraging-ai-in-hotel-dining/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Hilton Hotels</a>  and <a href='https://www.cnbc.com/2023/06/12/amazon-is-using-generative-ai-to-summarize-product-reviews.html' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon</a>.
+							<h3 class="list-heading">Customer Service & Support:</h3> Implementing automated chatbots with 25% reduced wait times and personalized product recommendations leading to increased customer satisfaction and sales exemplified by <a href='https://hyscaler.com/insights/culinary-fusion-leveraging-ai-in-hotel-dining/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Hilton Hotels</a>  and <a href='https://www.cnbc.com/2023/06/12/amazon-is-using-generative-ai-to-summarize-product-reviews.html' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon</a>.
 							</li>
 						</ul>`
 					},
@@ -1616,10 +1615,10 @@ export const blogDetailsData = [
 				data: [
 					{
 						type: type.paragraph,
-						fontSize: fontSize.medium,
+						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "<h2>Introducing <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.karini.ai/' target='_blank'>Karini AI</a>: Your Generative AI Ally</h2>"
+						value: "Introducing <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.karini.ai/' target='_blank'>Karini AI</a>: Your Generative AI Ally"
 					},
 					{
 						type: type.paragraph,
@@ -1641,19 +1640,19 @@ export const blogDetailsData = [
 						value: `	
 						<ul class="space-y-2" style="list-style-type: disc; padding-left: 50px">
 							<li>
-								<b>Simplified process:</b> We demystify technical complexities and jargon, making Generative AI accessible to everyone.
+								<h3 class="list-heading">Simplified process:</h3> We demystify technical complexities and jargon, making Generative AI accessible to everyone.
 							</li>
 							<li>
-								<b>Unlocking data potential:</b> We empower you to extract value from your data and foster an environment for creative exploration.
+								<h3 class="list-heading">Unlocking data potential:</h3> We empower you to extract value from your data and foster an environment for creative exploration.
 							</li>
 							<li>
-								<b>Iterative learning:</b> Our platform allows you to experiment, learn, and refine your AI applications, ensuring successful implementation.
+								<h3 class="list-heading">Iterative learning:</h3> Our platform allows you to experiment, learn, and refine your AI applications, ensuring successful implementation.
 							</li>
 							<li>
-								<b>Responsible innovation:</b> Our solutions prioritize security and ethical considerations, guaranteeing responsible and trustworthy applications.
+								<h3 class="list-heading">Responsible innovation:</h3> Our solutions prioritize security and ethical considerations, guaranteeing responsible and trustworthy applications.
 							</li>
 							<li>
-								<b>Collaborative expertise:</b> We provide the tools and knowledge you need to navigate the Generative AI landscape with confidence.
+								<h3 class="list-heading">Collaborative expertise:</h3> We provide the tools and knowledge you need to navigate the Generative AI landscape with confidence.
 							</li>
 						</ul>`
 					},
@@ -1723,7 +1722,7 @@ export const blogDetailsData = [
 			"From Hallucination to Human-Like Helpers: The Evolution of AI Agents",
 		publishedOn: "March 4, 2024",
 		author: "Deepali Rajale",
-		timeToRead: "4 min read",
+		timeToRead: "10 min read",
 		SEO_data: {
 			title: "Evolution of AI Agents: From Hallucination to Precision",
 			metaTitle: "The Evolution of AI Agents in Business | Karini AI",
@@ -1818,16 +1817,16 @@ export const blogDetailsData = [
 						value: `Let's deep dive into the challenges by breaking down the RAG system,
 						<ol style='list-style: inside; list-style-type: decimal; margin-left: 25px;'>
 						        <li>
-								<b>Question semantics:</b> Complex queries often encompass multipart intents that may be unrelated or even adversarial, designed to confuse the model or "jailbreak" the chatbot. These can range from greetings to questions that test the system's limitations or probe for inconsistencies. Without understanding these nuances, a RAG system might fail to appropriately categorize and respond to the query, leading to irrelevant or incorrect answers.
+								<h3 class="list-heading">Question semantics:</h3> Complex queries often encompass multipart intents that may be unrelated or even adversarial, designed to confuse the model or "jailbreak" the chatbot. These can range from greetings to questions that test the system's limitations or probe for inconsistencies. Without understanding these nuances, a RAG system might fail to appropriately categorize and respond to the query, leading to irrelevant or incorrect answers.
 								</li>
 								<li>
-								<b>Retrieval phase: </b> A single vector store search may not yield relevant results for complex or multipart statistical questions. Personalized queries, such as those asking for specific information about a user's insurance policy, pose additional challenges if the system needs access to personalized data points like the policies owned by the user. This limitation can prevent the system from providing accurate, user-specific information.
+								<h3 class="list-heading">Retrieval phase: </h3> A single vector store search may not yield relevant results for complex or multipart statistical questions. Personalized queries, such as those asking for specific information about a user's insurance policy, pose additional challenges if the system needs access to personalized data points like the policies owned by the user. This limitation can prevent the system from providing accurate, user-specific information.
 								</li>
 								<li>
-								<b>Prompt augmentation:</b> In simpler RAG implementations, the system prompt is static, combined with retrieved contextual information to create an augmented prompt. This static nature can limit the system's ability to dynamically adjust to the specifics of the query, particularly for complex or evolving scenarios that require a more nuanced understanding and response.
+								<h3 class="list-heading">Prompt augmentation:</h3> In simpler RAG implementations, the system prompt is static, combined with retrieved contextual information to create an augmented prompt. This static nature can limit the system's ability to dynamically adjust to the specifics of the query, particularly for complex or evolving scenarios that require a more nuanced understanding and response.
 								</li>
 								<li>
-								<b>LLM for Summarization:</b> If the augmented prompt lacks the necessary context to answer the query effectively, LLMs may rely on their inherent knowledge base to fill in the gaps, leading to "hallucination," where the model generates plausible but inaccurate or fabricated information. This issue is particularly problematic in scenarios requiring precise, factual responses.
+								<h3 class="list-heading">LLM for Summarization:</h3> If the augmented prompt lacks the necessary context to answer the query effectively, LLMs may rely on their inherent knowledge base to fill in the gaps, leading to "hallucination," where the model generates plausible but inaccurate or fabricated information. This issue is particularly problematic in scenarios requiring precise, factual responses.
 								</li>
 								</ol>`
 					},
@@ -1848,7 +1847,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Prompt engineering techniques such as Chain of Thoughts (COT) involve generating intermediate steps or reasoning paths when solving complex problems, especially in language models. It's like showing one's work in math problems but applied to AI. The model explicitly generates a sequence of thoughts or reasoning steps before arriving at a final answer or conclusion. Although COT excels at breaking down complex tasks or questions, their effectiveness hinges on the context provided if used in RAG systems."
+						value: "Prompt engineering techniques such as Chain of Thoughts (CoT) involve generating intermediate steps or reasoning paths when solving complex problems, especially in language models. It's like showing one's work in math problems but applied to AI. The model explicitly generates a sequence of thoughts or reasoning steps before arriving at a final answer or conclusion. Although CoT excels at breaking down complex tasks or questions, their effectiveness hinges on the context provided if used in RAG systems."
 					},
 				],
 			},
@@ -1860,7 +1859,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "<a href='https://arxiv.org/pdf/2210.03629.pdf'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>The ReACT</a> (Synergizing Reasoning and Acting in Language Models) paper shows how this approach is far superior to COTs. Let's look into the basics. In the study of autonomous agents and multi-agent systems, the concepts of Thought, Action, and Observation play crucial roles in defining how these agents perceive, interpret, and interact with their environment."
+						value: "<a href='https://arxiv.org/pdf/2210.03629.pdf'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>The ReACT</a> (Synergizing Reasoning and Acting in Language Models) paper shows how this approach is far superior to CoTs. Let's look into the basics. In the study of autonomous agents and multi-agent systems, the concepts of Thought, Action, and Observation play crucial roles in defining how these agents perceive, interpret, and interact with their environment."
 					},
 				],
 			},
@@ -1887,13 +1886,13 @@ export const blogDetailsData = [
 						fontStyle: fontStyle.normal,
 						value: `<ul class="space-y-2" style="list-style-type:disc ; padding-left: 50px">
 						         <li>
-						         <b>Thought</b> in AI agents refers to the internal processing or decision-making mechanisms that occur before taking an action. It involves the interpretation of observations, the weighing of possible actions based on learned experiences or predefined rules, and the formulation of a plan or response. Thought processes in AI can range from simple if-then rules to complex algorithms that involve reasoning, planning, and prediction based on deep learning models.
+						         <h3 class="list-heading">Thought</h3> in AI agents refers to the internal processing or decision-making mechanisms that occur before taking an action. It involves the interpretation of observations, the weighing of possible actions based on learned experiences or predefined rules, and the formulation of a plan or response. Thought processes in AI can range from simple if-then rules to complex algorithms that involve reasoning, planning, and prediction based on deep learning models.
 						         </li>
 								 <li>
-								 <b>Action</b> is the step an AI agent takes in response to its thoughts and observations. It's the execution phase where the agent applies its decision to the environment, potentially altering its state. Actions can be physical movements, such as a robotic arm picking up an object, or digital responses, like sending a message or updating a database. The scope of actions available to an AI agent depends on its capabilities and the effectors it has to interact with its environment.
+								 <h3 class="list-heading">Action</h3> is the step an AI agent takes in response to its thoughts and observations. It's the execution phase where the agent applies its decision to the environment, potentially altering its state. Actions can be physical movements, such as a robotic arm picking up an object, or digital responses, like sending a message or updating a database. The scope of actions available to an AI agent depends on its capabilities and the effectors it has to interact with its environment.
 								 </li>
 								 <li>
-								 <b>Observation</b> involves the agent's perception of its environment through sensors or input mechanisms. It can include data from visual cameras, microphones, temperature sensors, or digital inputs like API calls. Observations are the raw data that an AI agent receives and processes to understand its current context or the state of the environment. Effective observation is critical for an agent to make informed decisions and adapt actions accordingly.
+								 <h3 class="list-heading">Observation</h3> involves the agent's perception of its environment through sensors or input mechanisms. It can include data from visual cameras, microphones, temperature sensors, or digital inputs like API calls. Observations are the raw data that an AI agent receives and processes to understand its current context or the state of the environment. Effective observation is critical for an agent to make informed decisions and adapt actions accordingly.
                                 </li>
 								</ul>`
 					},
@@ -1983,19 +1982,19 @@ export const blogDetailsData = [
 						value: `Numerous options exist for creating Agentic workflows, yet they are not without challenges, including potential loops from unclear prompts or Large Language Models (LLMs) errors. Karini AI streamlines the process, enabling the rapid development and deployment of production-grade agentic workflows with the following features:
 						       <ul style="list-style-type:disc ; padding-left: 50px">
 						       <li>
-						       <b>Pre-built prompts:</b> Get a head start with a comprehensive library of Agentic Prompt templates designed for various needs like customer service, HR, IT, legal, and finance. These templates save you valuable time and effort.
+						       <h3 class="list-heading">Pre-built prompts:</h3> Get a head start with a comprehensive library of Agentic Prompt templates designed for various needs like customer service, HR, IT, legal, and finance. These templates save you valuable time and effort.
 						       </li>
 							   <li>
-							   <b>Experiment and Refine:</b> Seamlessly connect external tools to your workflow, enhancing your prompt creation process. Design compelling prompts and engage in interactive testing sessions with your AI agents. Analyze outcomes from top model providers and log your findings to identify best practices.
+							   <h3 class="list-heading">Experiment and Refine:</h3> Seamlessly connect external tools to your workflow, enhancing your prompt creation process. Design compelling prompts and engage in interactive testing sessions with your AI agents. Analyze outcomes from top model providers and log your findings to identify best practices.
 							   </li>
 							   <li>
-							   <b>Rapid Deployment:</b> Recipes for RAGs (Retrieval Augmented Generation) expedite the deployment of your AI workflows, complete with integrated performance, usage, and cost monitoring.
+							   <h3 class="list-heading">Rapid Deployment:</h3> Recipes for RAGs (Retrieval Augmented Generation) expedite the deployment of your AI workflows, complete with integrated performance, usage, and cost monitoring.
                                </li>
 							   <li>
-							   <b>Deploy with Confidence:</b> Integrate an agentic co-pilot directly into your systems. Choose from optional safety features for added peace of mind. 
+							   <h3 class="list-heading">Deploy with Confidence:</h3> Integrate an agentic co-pilot directly into your systems. Choose from optional safety features for added peace of mind. 
                                </li>
 							   <li>
-							   <b>Recipes for RAGs:</b> expedite the deployment of agentic workflows, complete with integrated performance, usage, and cost monitoring.Create custom greetings to enhance user experience. Continuously improve your AI with a built-in feedback mechanism. 
+							   <h3 class="list-heading">Recipes for RAGs:</h3> expedite the deployment of agentic workflows, complete with integrated performance, usage, and cost monitoring.Create custom greetings to enhance user experience. Continuously improve your AI with a built-in feedback mechanism. 
 							   </li>
 							   </ul>`
 					},
@@ -2048,7 +2047,7 @@ export const blogDetailsData = [
 			"Unleashing the Potential of Unified Data: The Gen AI Evolution in Business Intelligence",
 		publishedOn: "February 2, 2024",
 		author: "Jerome Mendell",
-		timeToRead: "5 min read",
+		timeToRead: "3 min read",
 		SEO_data: {
 			title: "Unified Data & Gen AI: Unleashing Potential | Karini AI",
 			metaTitle: "Unleash Data Potential with Gen AI | Karini AI Blog",
