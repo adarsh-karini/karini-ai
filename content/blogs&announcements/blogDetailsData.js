@@ -1728,7 +1728,7 @@ export const blogDetailsData = [
 			metaTitle: "The Evolution of AI Agents in Business | Karini AI",
 			keywords: "AI Agents Evolution, Generative AI, RAG Systems, Prompt Engineering, Chatbots Innovation",
 			description:
-				' Unleash the potential of AI agents! See their transformation from simple chatbots to human-like assistants, overcoming "hallucination" challenges for precise, reliable responses. Explore solutions with Karini AI.',
+				' Experience the Evolution of AI Agents: From Chatbots to Reliable Assistants. Karini AI empowers businesses with solutions overcoming “hallucination" for accurate responses.',
 			canonicalLink:
 				"https://www.karini.ai/blogs/the-evolution-of-ai-agents",
 			hreflang: "https://www.karini.ai/blogs/the-evolution-of-ai-agents",
