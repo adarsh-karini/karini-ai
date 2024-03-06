@@ -61,6 +61,7 @@
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>
 </url>
+<url>
     <loc>https://www.karini.ai/blogs/industrialize-generative-ai</loc>
     <lastmod>2024-01-02</lastmod>
 	<changefreq>monthly</changefreq>
