@@ -1368,6 +1368,7 @@ export const blogDetailsData = [
 						caption: "",
 						width: 600,
 						height: 700,
+						imageAltName: "Struggling to manage prompt experiments? Discover how Karini AI's Prompt Playground saves and analyzes your prompt runs, accelerating experimentation for accurate and reliable AI applications. Watch and learn!"
 					},
 				],
 			},
@@ -1728,7 +1729,7 @@ export const blogDetailsData = [
 			metaTitle: "The Evolution of AI Agents in Business | Karini AI",
 			keywords: "AI Agents Evolution, Generative AI, RAG Systems, Prompt Engineering, Chatbots Innovation",
 			description:
-				' Experience the Evolution of AI Agents: From Chatbots to Reliable Assistants. Karini AI empowers businesses with solutions overcoming “hallucination" for accurate responses.',
+				' AI chatbots evolve!  Karini AI builds reliable assistants, no "hallucination." #GenAI #reliableAI',
 			canonicalLink:
 				"https://www.karini.ai/blogs/the-evolution-of-ai-agents",
 			hreflang: "https://www.karini.ai/blogs/the-evolution-of-ai-agents",
