@@ -3,6 +3,7 @@ let type = {
 	paragraph: "paragraph",
 	list: "list",
 	image: "image",
+	base_image: "base_image",
 	gif: "gif",
 };
 
@@ -510,6 +511,143 @@ export const announcementsDetailsData = [
 						fontStyle: fontStyle.normal,
 						value:
 							"Together with Databricks, we are not just embracing the future of AI; we are evolving it.",
+					},
+				],
+			},
+		],
+	},
+	{
+		type: "announcement",
+		id: "enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+		breadCrumbTitle: "Karini AI Expands Enterprise Connectivity",
+		title:
+			"Karini AI Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox",
+		postedOn: "March 11th, 2024",
+		timeToRead: "3 min read",
+		SEO_data: {
+			title:
+				"Karini.ai Integrates Google, Azure, Confluence, Dropbox",
+				metaTitle: "Karini.ai's New Connectivity: Google, Azure, Confluence, Dropbox",
+				keywords: "Karini.ai, Generative AI, Google Cloud, Azure Blob Storage, Confluence, Dropbox, enterprise connectivity, RAG applications",
+			description:
+				"Discover Karini.ai's latest expansion, offering seamless integration with Google, Azure, Confluence, and Dropbox to enhance Generative AI applications across enterprises.",
+			canonicalLink:
+				"https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+			hreflang: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+			schemaMarkup: {
+				"@context": "https://schema.org",
+				"@type": "NewsArticle",
+				mainEntityOfPage: {
+					"@type": "WebPage",
+					"@id":
+						"https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+				},
+				headline:
+					"Karini AI Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox",
+				description: "Generative AI is a once-in-a-generation technology, and every enterprise is in a race to embrace it to improve internal productivity across IT, engineering, finance, and HR, as well as improve product experience for external customers.",
+				image:
+					"https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png",
+				author: {
+					"@type": "Person",
+					name: "Deepali Rajale",
+				},
+				publisher: {
+					"@type": "Organization",
+					name: "Karini Ai",
+					logo: {
+						"@type": "ImageObject",
+						url: "https://www.karini.ai/",
+					},
+				},
+				datePublished: "2024-03-11",
+			},
+		},
+		sections: [
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							'Generative AI is a once-in-a-generation technology, and every enterprise is in a race to embrace it to improve internal productivity across IT, engineering, finance, and HR, as well as improve product experience for external customers. Model providers are steadily improving their performance with the launch of Claude3 by Anthropic and Gemini by Google, which boast on par or better performance than Open AI’s GPT4. However, these models need enterprise context to provide quality task-specific responses. Over 80% of large enterprises utilize more than one cloud, dispersing enterprise data across multiple cloud storages. Enterprises struggle to build meaningful Gen AI applications for Retrieval Augmented Generation (RAG) with disparate datasets for quality responses.',
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"At the launch, <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.karini.ai/' target='_blank'>Karini.ai</a> provided connectors for Amazon S3, Amazon S3 with Manifest, and Websites to crawl any website, but it had the vision to provide coverage for 70+ connectors. We are proud to launch support of additional fully featured connectors for <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://azure.microsoft.com/en-us/products/storage/blobs/?ef_id=_k_CjwKCAiA6KWvBhAREiwAFPZM7lVL1o7SOKpQHtOcj2dqcEnNBfblza5o0hVWFPN10qheAfMb0qQUiBoCL10QAvD_BwE_k_&OCID=AIDcmm5edswduu_SEM__k_CjwKCAiA6KWvBhAREiwAFPZM7lVL1o7SOKpQHtOcj2dqcEnNBfblza5o0hVWFPN10qheAfMb0qQUiBoCL10QAvD_BwE_k_&gad_source=1&gclid=CjwKCAiA6KWvBhAREiwAFPZM7lVL1o7SOKpQHtOcj2dqcEnNBfblza5o0hVWFPN10qheAfMb0qQUiBoCL10QAvD_BwE' target='_blank'>Azure Blob Storage</a> ,<a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://cloud.google.com/storage?hl=en' target='_blank'>Google Cloud Storage(GCS)</a> , <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.google.com/drive/' target='_blank'>Google Drive</a> , <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.atlassian.com/software/confluence?&aceid=&adposition=&adgroup=138055852541&campaign=18312196225&creative=656429477698&device=c&keyword=confluence&matchtype=e&network=g&placement=&ds_kids=p72969649871&ds_e=GOOGLE&ds_eid=700000001542923&ds_e1=GOOGLE&gad_source=1&gclid=CjwKCAiA6KWvBhAREiwAFPZM7pZfFBX2hs3Vu9VJgf6c3NQSrTr9oeyh3SniORJXb4h17uZ83goy-RoCBc4QAvD_BwE&gclsrc=aw.ds' target='_blank'>Confluence</a>, and <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.dropbox.com/official-teams-page?_tk=paid_sem_goog_biz_b&_camp=18696674559&_kw=dropbox%7Ce&_ad=675882937149%7C%7Cc&gad_source=1&gclid=CjwKCAiA6KWvBhAREiwAFPZM7jvuZEtd4dUopO3txJWUUCWGAWONmxFHWqNOVUcqdh8X-nkqow9atRoCjiIQAvD_BwE' target='_blank'>Dropbox </a>. The connectors provide an easier way to ingest data from disparate data sources with just a few clicks and build a unified interactive Generative AI application. All the connectors are fully featured:",
+					},
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `<ul class="space-y-2" style="list-style-type: disc; padding-left: 50px">
+						        <li>Karini.ai includes an nifty feature called which allows the connectors to gauge the volume of source datasets and file types before executing the ingest.</li>
+						        <li>Perform full initial load and subsequently perform incremental ingest, aka Change Data Capture (CDC)</li>
+								<li>Filter the source connectors using regular expressions for selective ingest. For example, to ingest only PDF files, use filter as (*.pdf)</li>
+								<li>Recursive search capabilities are available to search all child directories and subsequent directories.</li>`,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.base_image,
+						path: "/assets/images/blogs/connectors.png",
+						imageAltName: "",
+						caption: "",
+						width: 600,
+						height: 600,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "With the addition of Google, Azure, Confluence, and Dropbox connectors, Karini.ai enables enterprises to unlock the true potential of Generative AI. Our comprehensive collection of connectors tackles the challenge of siloed data, allowing the creation of powerful RAG applications that leverage data from across various sources. This streamlines development and improves data quality, ultimately delivering superior GenAI experiences for internal and external users.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Karini.ai remains committed to expanding its connector ecosystem, fostering a future where Generative AI seamlessly integrates with the ever-evolving enterprise data landscape.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"<strong>Build your Generative AI application today!</strong> Leverage these enterprise connectors and unify disparate cloud-based sources. With Karini.ai, you can unlock the true potential of Generative AI, streamline development, improve data quality, and deliver superior GenAI experiences.",
 					},
 				],
 			},

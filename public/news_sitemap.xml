@@ -239,4 +239,25 @@
 	<image:loc>https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png</image:loc>
     </image:image>
   </url>
+
+  <!-- Announcement Post 7 -->
+  <url>
+    <loc>https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Announcement five</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-03-11</news:publication_date>
+      <news:title>Karini.ai Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox</news:title>
+      <news:keywords>Karini.ai, Generative AI, Google Cloud, Azure Blob Storage, Confluence, Dropbox, enterprise connectivity, RAG applications
+</news:keywords>
+    </news:news>
+	<image:image>
+	<image:loc>https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png</image:loc>
+    </image:image>
+    <image:image>
+	<image:loc>https://www.karini.ai/assets/images/blogs/connectors.png</image:loc>
+    </image:image>
+  </url>
 </urlset>

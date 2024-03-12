@@ -142,6 +142,18 @@
       <image:loc>https://www.karini.ai/assets/images/blogs/Karini_Evolves_Prompting_Experience.png</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox</loc>
+    <lastmod>2024-03-11</lastmod>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
+	<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai//assets/images/blogs/connectors.png</image:loc>
+    </image:image>
+  </url>
 
   <url>
     <loc>https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot</loc>

@@ -149,6 +149,22 @@ const PageBuilder = ({ data }) => {
 																title={val.imageAltName}
 																className="rounded border p-2"
 															/>
+															
+														</div>
+														{val.caption && (
+															<small className="block text-center text-secondary-600 text-sm italic font-medium">
+																{val.caption}
+															</small>
+														)}
+													</div>
+												)}
+												{val.type == "base_image" && (
+													<div className="space-y-1">
+														<div className="flex justify-center">
+															
+															<img src={val.path} height={val.width}
+																width={val.height} alt={val.imageAltName}
+																title={val.imageAltName} className="rounded border p-2" />
 														</div>
 														{val.caption && (
 															<small className="block text-center text-secondary-600 text-sm italic font-medium">
