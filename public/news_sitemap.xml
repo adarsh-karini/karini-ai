@@ -106,7 +106,7 @@
       </news:publication>
       <news:publication_date>2024-03-01</news:publication_date>
       <news:title>Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes</news:title>
-      <news:keywords>"Generative AI, Business Transformation, AI Innovation, Enterprise AI Solutions, Karini AI, AI in Marketing, AI in R&D, AI Tools for Business, Disruptive Technology, Future of AI"</news:keywords>
+      <news:keywords>"Generative AI, Business Transformation, AI Innovation, Enterprise AI Solutions, Karini AI, AI in Marketing, AI in R<p>&amp;</p>D, AI Tools for Business, Disruptive Technology, Future of AI"</news:keywords>
     </news:news>
     <image:image>
       <image:loc>https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png</image:loc>
@@ -237,6 +237,27 @@
     </news:news>
 	<image:image>
 	<image:loc>https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Announcement Post 7 -->
+  <url>
+    <loc>https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Announcement five</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-03-11</news:publication_date>
+      <news:title>Karini.ai Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox</news:title>
+      <news:keywords>Karini.ai, Generative AI, Google Cloud, Azure Blob Storage, Confluence, Dropbox, enterprise connectivity, RAG applications
+</news:keywords>
+    </news:news>
+	<image:image>
+	<image:loc>https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png</image:loc>
+    </image:image>
+    <image:image>
+	<image:loc>https://www.karini.ai/assets/images/blogs/connectors.png</image:loc>
     </image:image>
   </url>
 </urlset>

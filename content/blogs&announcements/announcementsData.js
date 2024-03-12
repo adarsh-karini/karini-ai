@@ -100,4 +100,22 @@ export const announcementsData = [
 		timeToRead: "2 min read",
 		path: "/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 	},
+	{
+		show: true,
+		filterName: "announcements",
+		type: "announcement",
+		image: "/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png",
+		imageAltName:
+			"Karini.ai's Connectivity Expansion",
+		// imageWidth: 500,
+		// imageHeight: 500,
+		title:
+			"Karini AI Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox",
+		description:
+			"Generative AI is a once-in-a-generation technology, and every enterprise is in a race to embrace it to improve internal productivity across IT, engineering, finance, and HR, as well as improve product experience for external customers. ",
+		tag: "Gen AI",
+		date: "March 11th, 2024",
+		timeToRead: "3 min read",
+		path: "/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+	},
 ];
