@@ -119,4 +119,21 @@ export const blogsData = [
 		timeToRead: "10 min read",
 		path: "/blogs/the-evolution-of-ai-agents",
 	},
+	{
+		show: true,
+		filterName: "blogs",
+		type: "blog",
+		image: "/assets/images/blogs/Building_Efficient_RAG_Systems.png",
+		imageAltName: "Building Efficient RAG Systems",
+		// imageWidth: 320,
+		imageHeight: 320,
+		title:
+			"Building Efficient RAG Systems",
+		description:
+			"When creating a RAG (Retrieval Augmented Generation) system, you infuse a Large Language Model (LLM) with fresh, current knowledge.",
+		tag: "Gen AI",
+		date: "March 13th, 2024",
+		timeToRead: "3 min read",
+		path: "/blogs/building-efficient-rag-systems",
+	},
 ];
