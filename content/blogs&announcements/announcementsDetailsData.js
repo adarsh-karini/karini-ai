@@ -530,7 +530,7 @@ export const announcementsDetailsData = [
 				metaTitle: "Karini.ai's New Connectivity: Google, Azure, Confluence, Dropbox",
 				keywords: "Karini.ai, Generative AI, Google Cloud, Azure Blob Storage, Confluence, Dropbox, enterprise connectivity, RAG applications",
 			description:
-				"Discover Karini.ai's latest expansion, offering seamless integration with Google, Azure, Confluence, and Dropbox to enhance Generative AI applications across enterprises.",
+				"Break silos! Karini.ai integrates w/ Google, Azure, Confluence, Dropbox for enterprise GenAI apps. #NoCodeAI",
 			canonicalLink:
 				"https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
 			hreflang: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
@@ -593,7 +593,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value: `<ul class="space-y-2" style="list-style-type: disc; padding-left: 50px">
-						        <li>Karini.ai includes an nifty feature called which allows the connectors to gauge the volume of source datasets and file types before executing the ingest.</li>
+						        <li>Karini.ai includes an nifty feature that allows the connectors to gauge the volume of source datasets and file types before executing the ingest.</li>
 						        <li>Perform full initial load and subsequently perform incremental ingest, aka Change Data Capture (CDC)</li>
 								<li>Filter the source connectors using regular expressions for selective ingest. For example, to ingest only PDF files, use filter as (*.pdf)</li>
 								<li>Recursive search capabilities are available to search all child directories and subsequent directories.</li>`,
@@ -605,7 +605,7 @@ export const announcementsDetailsData = [
 				data: [
 					{
 						type: type.base_image,
-						path: "/assets/images/blogs/connectors.png",
+						path: "/assets/images/blogs/Connectors.png",
 						imageAltName: "Orchestrate GenAI with Karini.ai connectors: Azure Blob Storage, Google Cloud Storage(GCS), Google Drive, Confluence, and Dropbox.",
 						caption: "",
 						width: 1200,
@@ -796,7 +796,7 @@ export const announcementsDetailsData = [
 				metaTitle: "Karini AI Launches GenAIOps - Transforming Enterprise AI",
 				keywords: "Karini AI GenAIOps Platform, Generative AI Applications, Enterprise AI Adoption, AI Operational Efficiency, GenAI App Deployment",
 			description:
-				"Discover Karini AI's GenAIOps platform, built by Ex-AWS AI experts to accelerate Generative AI application deployment in enterprises, making AI adoption 1,440X faster.",
+				"Discover Karini AI's groundbreaking platform for GenAIops, enabling businesses to build, test, and deploy Generative AI apps with ease",
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 			hreflang: "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",

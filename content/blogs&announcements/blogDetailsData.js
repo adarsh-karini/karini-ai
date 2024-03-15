@@ -1394,7 +1394,7 @@ export const blogDetailsData = [
 			metaTitle: "Exploring Generative AI's Impact on Enterprises | Karini AI",
 			keywords: "Generative AI, Business Transformation, AI Innovation, Enterprise AI Solutions, Karini AI, AI in Marketing, AI in R&D, AI Tools for Business, Disruptive Technology, Future of AI",
 			description:	
-				"Discover how Generative AI transforms businesses (marketing, R&D!) & how Karini AI empowers you to leverage it.<p>&#35;GenerativeAI</p>",
+				"Discover how Generative AI transforms businesses (marketing, R&D!) & how Karini AI empowers you to leverage it. &#35;GenerativeAI",
 			canonicalLink:
 				"https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption",
 			hreflang: "https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption",
@@ -2186,6 +2186,19 @@ export const blogDetailsData = [
 					},
 				],
 			},	
+			{
+				group: true,
+				data: [
+					{
+						type: type.image,
+						path: "/assets/images/blogs/rag_enhancement.png",
+						imageAltName: "Diagram showing the RAG system process in GenAIOps",
+						caption: "",
+						width: 800,
+						height: 800,
+					},
+				],
+			},
 			{
 				group: true,
 				data: [

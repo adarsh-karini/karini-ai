@@ -123,6 +123,9 @@
 		<image:image>
       <image:loc>https://www.karini.ai/assets/images/blogs/Building_Efficient_RAG_Systems.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/rag_enhancement.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.karini.ai//blogs/the-evolution-of-ai-agents</loc>
