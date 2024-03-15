@@ -34,13 +34,15 @@ export const announcementsDetailsData = [
 		timeToRead: "2 min read",
 		SEO_data: {
 			title: "Karini AI Launches Copilot Streaming Feature",
-			metaTitle:"Streaming for Copilot by Karini AI: A New Era",
-			keywords:"Karini AI Streaming,Copilot Streaming Feature,Real-time AI Interaction,Generative AI Streaming,Karini AI Innovations",
+			metaTitle: "Streaming for Copilot by Karini AI: A New Era",
+			keywords:
+				"Karini AI Streaming,Copilot Streaming Feature,Real-time AI Interaction,Generative AI Streaming,Karini AI Innovations",
 			description:
 				"Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications.",
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
-				hreflang: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
+			hreflang:
+				"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
@@ -132,15 +134,16 @@ export const announcementsDetailsData = [
 		postedOn: "January 22, 2024",
 		timeToRead: "2 min read",
 		SEO_data: {
-			title:
-				"Karini AI's Enhanced Prompt Playground Unveiled",
-				metaTitle:"Enhanced Prompt Playground by Karini AI Revealed",
-				keywords:"Karini AI Prompt Playground,Enhanced AI Prompt Creation,AI Development Tools,Generative AI Modeling,AI Prompt Testing",
+			title: "Karini AI's Enhanced Prompt Playground Unveiled",
+			metaTitle: "Enhanced Prompt Playground by Karini AI Revealed",
+			keywords:
+				"Karini AI Prompt Playground,Enhanced AI Prompt Creation,AI Development Tools,Generative AI Modeling,AI Prompt Testing",
 			description:
 				"Explore Karini AI's Enhanced Prompt Playground. A breakthrough in AI development, offering intuitive prompt creation and model testing for experts.",
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
-				hreflang: "https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
+			hreflang:
+				"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
@@ -227,19 +230,22 @@ export const announcementsDetailsData = [
 	{
 		type: "announcement",
 		id: "karini-ai-announces-full-support-for-amazon-bedrock-models",
-		breadCrumbTitle: "Karini AI Announces Full Support for Amazon Bedrock Models",
+		breadCrumbTitle:
+			"Karini AI Announces Full Support for Amazon Bedrock Models",
 		title: "Karini AI Announces Full Support for Amazon Bedrock Models",
 		postedOn: "December 1, 2023",
 		timeToRead: "2 min read",
 		SEO_data: {
 			title: "Karini AI Supports Amazon Bedrock Models Fully",
-			metaTitle:"Full Amazon Bedrock Model Support by Karini AI",
-			keywords:"Karini AI Amazon Bedrock,Amazon Bedrock Support,AI Model Integration Karini,Bedrock Models Karini AI,Generative AI Amazon Bedrock",
+			metaTitle: "Full Amazon Bedrock Model Support by Karini AI",
+			keywords:
+				"Karini AI Amazon Bedrock,Amazon Bedrock Support,AI Model Integration Karini,Bedrock Models Karini AI,Generative AI Amazon Bedrock",
 			description:
 				"Discover Karini AI's complete support for Amazon Bedrock Models, enhancing AI solutions with robust, scalable, and versatile AI model integration.",
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
-				hreflang: "https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
+			hreflang:
+				"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
@@ -373,19 +379,21 @@ export const announcementsDetailsData = [
 	{
 		type: "announcement",
 		id: "karini-ai-embarks-on-a-new-partnership-with-databricks",
-		breadCrumbTitle:"Karini AI Embarks on a New Partnership with Databricks",
+		breadCrumbTitle: "Karini AI Embarks on a New Partnership with Databricks",
 		title: "Karini AI Embarks on a New Partnership with Databricks",
 		postedOn: "November 14, 2023",
 		timeToRead: "2 min read",
 		SEO_data: {
 			title: "Karini AI & Databricks New Partnership Unveiled",
 			metaTitle: "Karini AI and Databricks Forge New AI Partnership",
-			keywords:"Karini AI Databricks Partnership,AI Collaboration Databricks,Karini AI Announcement,Databricks AI Integration,AI Platform Enhancement",
+			keywords:
+				"Karini AI Databricks Partnership,AI Collaboration Databricks,Karini AI Announcement,Databricks AI Integration,AI Platform Enhancement",
 			description:
 				"Karini AI partners with Databricks to revolutionize AI development. Discover how this collaboration paves the way for advanced AI solutions and innovation.",
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
-				hreflang: "https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
+			hreflang:
+				"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
@@ -525,15 +533,17 @@ export const announcementsDetailsData = [
 		postedOn: "March 11th, 2024",
 		timeToRead: "3 min read",
 		SEO_data: {
-			title:
-				"Karini.ai Integrates Google, Azure, Confluence, Dropbox",
-				metaTitle: "Karini.ai's New Connectivity: Google, Azure, Confluence, Dropbox",
-				keywords: "Karini.ai, Generative AI, Google Cloud, Azure Blob Storage, Confluence, Dropbox, enterprise connectivity, RAG applications",
+			title: "Karini.ai Integrates Google, Azure, Confluence, Dropbox",
+			metaTitle:
+				"Karini.ai's New Connectivity: Google, Azure, Confluence, Dropbox",
+			keywords:
+				"Karini.ai, Generative AI, Google Cloud, Azure Blob Storage, Confluence, Dropbox, enterprise connectivity, RAG applications",
 			description:
 				"Break silos! Karini.ai integrates w/ Google, Azure, Confluence, Dropbox for enterprise GenAI apps. #NoCodeAI",
 			canonicalLink:
 				"https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
-			hreflang: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+			hreflang:
+				"https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
@@ -544,7 +554,8 @@ export const announcementsDetailsData = [
 				},
 				headline:
 					"Karini AI Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox",
-				description: "Generative AI is a once-in-a-generation technology, and every enterprise is in a race to embrace it to improve internal productivity across IT, engineering, finance, and HR, as well as improve product experience for external customers.",
+				description:
+					"Generative AI is a once-in-a-generation technology, and every enterprise is in a race to embrace it to improve internal productivity across IT, engineering, finance, and HR, as well as improve product experience for external customers.",
 				image:
 					"https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png",
 				author: {
@@ -572,7 +583,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							'Generative AI is a once-in-a-generation technology, and every enterprise is in a race to embrace it to improve internal productivity across IT, engineering, finance, and HR, as well as improve product experience for external customers. Model providers are steadily improving their performance with the launch of Claude3 by Anthropic and Gemini by Google, which boast on par or better performance than Open AI’s GPT4. However, these models need enterprise context to provide quality task-specific responses. Over 80% of large enterprises utilize more than one cloud, dispersing enterprise data across multiple cloud storages. Enterprises struggle to build meaningful Gen AI applications for Retrieval Augmented Generation (RAG) with disparate datasets for quality responses.',
+							"Generative AI is a once-in-a-generation technology, and every enterprise is in a race to embrace it to improve internal productivity across IT, engineering, finance, and HR, as well as improve product experience for external customers. Model providers are steadily improving their performance with the launch of Claude3 by Anthropic and Gemini by Google, which boast on par or better performance than Open AI’s GPT4. However, these models need enterprise context to provide quality task-specific responses. Over 80% of large enterprises utilize more than one cloud, dispersing enterprise data across multiple cloud storages. Enterprises struggle to build meaningful Gen AI applications for Retrieval Augmented Generation (RAG) with disparate datasets for quality responses.",
 					},
 				],
 			},
@@ -604,9 +615,10 @@ export const announcementsDetailsData = [
 				group: true,
 				data: [
 					{
-						type: type.image,
-						path: "/assets/images/blogs/Connectors.png",
-						imageAltName: "Orchestrate GenAI with Karini.ai connectors: Azure Blob Storage, Google Cloud Storage(GCS), Google Drive, Confluence, and Dropbox.",
+						type: type.base_image,
+						path: "/assets/images/blogs/connectors.png",
+						imageAltName:
+							"Orchestrate GenAI with Karini.ai connectors: Azure Blob Storage, Google Cloud Storage(GCS), Google Drive, Confluence, and Dropbox.",
 						caption: "",
 						width: 1200,
 						height: 1200,
@@ -621,7 +633,8 @@ export const announcementsDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "With the addition of Google, Azure, Confluence, and Dropbox connectors, Karini.ai enables enterprises to unlock the true potential of Generative AI. Our comprehensive collection of connectors tackles the challenge of siloed data, allowing the creation of powerful RAG applications that leverage data from across various sources. This streamlines development and improves data quality, ultimately delivering superior GenAI experiences for internal and external users.",
+						value:
+							"With the addition of Google, Azure, Confluence, and Dropbox connectors, Karini.ai enables enterprises to unlock the true potential of Generative AI. Our comprehensive collection of connectors tackles the challenge of siloed data, allowing the creation of powerful RAG applications that leverage data from across various sources. This streamlines development and improves data quality, ultimately delivering superior GenAI experiences for internal and external users.",
 					},
 				],
 			},
@@ -662,15 +675,16 @@ export const announcementsDetailsData = [
 		postedOn: "October 16, 2023",
 		timeToRead: "2 min read",
 		SEO_data: {
-			title:
-				"Karini AI & AWS Partner as ISV - Major Announcement",
-				metaTitle: "Karini AI Partners with AWS | Official ISV Announcement",
-				keywords: "Karini AI AWS Partnership,Independent Software Vendor,Karini AI Announcement,AWS ISV Collaboration,Cloud AI Solutions,Generative AI Solutions",
+			title: "Karini AI & AWS Partner as ISV - Major Announcement",
+			metaTitle: "Karini AI Partners with AWS | Official ISV Announcement",
+			keywords:
+				"Karini AI AWS Partnership,Independent Software Vendor,Karini AI Announcement,AWS ISV Collaboration,Cloud AI Solutions,Generative AI Solutions",
 			description:
 				"Discover Karini AI's new chapter as an Independent Software Vendor (ISV) with Amazon Web Services. A milestone in AI innovation and cloud computing synergy.",
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
-			hreflang: "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+			hreflang:
+				"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
@@ -785,47 +799,50 @@ export const announcementsDetailsData = [
 	{
 		type: "announcement",
 		id: "karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
-		breadCrumbTitle: "Karini AI releases the first purpose-built platform for GenAIOps",
-		title:
+		breadCrumbTitle:
 			"Karini AI releases the first purpose-built platform for GenAIOps",
+		title: "Karini AI releases the first purpose-built platform for GenAIOps",
 		postedOn: "February 6, 2024",
 		timeToRead: "2 min read",
 		SEO_data: {
-			title:
-				"Karini AI Unveils GenAIOps Platform - Revolutionizing AI",
-				metaTitle: "Karini AI Launches GenAIOps - Transforming Enterprise AI",
-				keywords: "Karini AI GenAIOps Platform, Generative AI Applications, Enterprise AI Adoption, AI Operational Efficiency, GenAI App Deployment",
+			title: "Karini AI Unveils GenAIOps Platform - Revolutionizing AI",
+			metaTitle: "Karini AI Launches GenAIOps - Transforming Enterprise AI",
+			keywords:
+				"Karini AI GenAIOps Platform, Generative AI Applications, Enterprise AI Adoption, AI Operational Efficiency, GenAI App Deployment",
 			description:
 				"Discover Karini AI's groundbreaking platform for GenAIops, enabling businesses to build, test, and deploy Generative AI apps with ease",
 			canonicalLink:
 				"https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
-			hreflang: "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+			hreflang:
+				"https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
-				  "@type": "WebPage",
-				  "@id":
-				   "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+					"@type": "WebPage",
+					"@id":
+						"https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 				},
-				headline: "Karini AI releases the first purpose-built platform for GenAIOps",
-				image: "https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png",  
+				headline:
+					"Karini AI releases the first purpose-built platform for GenAIOps",
+				image:
+					"https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png",
 				author: {
-				  "@type": "Person",
-				  "name": "Deepali Rajale"
-				},  
-				publisher: {
-				  "@type": "Organization",
-				  name: "Karini AI",
-				  logo: {
-					"@type": "ImageObject",
-					url: "https://www.karini.ai"
-				  }
+					"@type": "Person",
+					name: "Deepali Rajale",
 				},
-				datePublished: "2024-06-02"
-			  }
-	},
-	sections:[
+				publisher: {
+					"@type": "Organization",
+					name: "Karini AI",
+					logo: {
+						"@type": "ImageObject",
+						url: "https://www.karini.ai",
+					},
+				},
+				datePublished: "2024-06-02",
+			},
+		},
+		sections: [
 			{
 				group: true,
 				data: [
@@ -835,7 +852,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							'Karini.ai is excited to announce the general availability of the first-of-its-kind purpose-built Generative AI platform designed to power evolution in enterprise AI adoption. The platform, Built by Ex Amazon Web Services (Ex-AWS) AI experts, delivers a new approach to GenAIOps for the complete supervision of DataOps, LLMOps, and DevOps for building, testing, and deploying generative AI applications at speed in the enterprise.',
+							"Karini.ai is excited to announce the general availability of the first-of-its-kind purpose-built Generative AI platform designed to power evolution in enterprise AI adoption. The platform, Built by Ex Amazon Web Services (Ex-AWS) AI experts, delivers a new approach to GenAIOps for the complete supervision of DataOps, LLMOps, and DevOps for building, testing, and deploying generative AI applications at speed in the enterprise.",
 					},
 				],
 			},
@@ -925,8 +942,7 @@ export const announcementsDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:
-						"<strong>About Karini AI:</strong>",
+						value: "<strong>About Karini AI:</strong>",
 					},
 					{
 						type: type.paragraph,
@@ -938,8 +954,6 @@ export const announcementsDetailsData = [
 					},
 				],
 			},
-			
 		],
-
-	}
+	},
 ];
