@@ -2264,7 +2264,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Using <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.karini.ai/' target='_blank'>Karini AI</a>’s purpose-built platform for <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.karini.ai/blogs/navigating-genaiops-in-enterprises' target='_blank'>GenAIOps</a>, you can build production-grade, efficient RAG systems within minutes. Reach out to us to discuss your use case."
+						value: "Using Karini AI’s purpose-built platform for GenAIOps, you can build production-grade, efficient RAG systems within minutes. Reach out to us to discuss your use case."
 					},
 				],
 			},

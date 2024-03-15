@@ -593,7 +593,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value: `<ul class="space-y-2" style="list-style-type: disc; padding-left: 50px">
-						        <li>Karini.ai includes an nifty feature that allows the connectors to gauge the volume of source datasets and file types before executing the ingest.</li>
+						        <li>Karini.ai includes a nifty feature that allows the connectors to gauge the volume of source datasets and file types before executing the ingest.</li>
 						        <li>Perform full initial load and subsequently perform incremental ingest, aka Change Data Capture (CDC)</li>
 								<li>Filter the source connectors using regular expressions for selective ingest. For example, to ingest only PDF files, use filter as (*.pdf)</li>
 								<li>Recursive search capabilities are available to search all child directories and subsequent directories.</li>`,
@@ -608,8 +608,8 @@ export const announcementsDetailsData = [
 						path: "/assets/images/blogs/Connectors.png",
 						imageAltName: "Orchestrate GenAI with Karini.ai connectors: Azure Blob Storage, Google Cloud Storage(GCS), Google Drive, Confluence, and Dropbox.",
 						caption: "",
-						width: 1200,
-						height: 1200,
+						width: 800,
+						height: 800,
 					},
 				],
 			},
