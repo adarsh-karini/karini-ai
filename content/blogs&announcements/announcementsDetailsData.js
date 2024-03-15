@@ -604,7 +604,7 @@ export const announcementsDetailsData = [
 				group: true,
 				data: [
 					{
-						type: type.base_image,
+						type: type.image,
 						path: "/assets/images/blogs/Connectors.png",
 						imageAltName: "Orchestrate GenAI with Karini.ai connectors: Azure Blob Storage, Google Cloud Storage(GCS), Google Drive, Confluence, and Dropbox.",
 						caption: "",
