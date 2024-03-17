@@ -116,6 +116,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.karini.ai//blogs/building-efficient-rag-systems</loc>
+    <lastmod>2024-02-29</lastmod>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
+		<image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Building_Efficient_RAG_Systems.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/rag_enhancement.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.karini.ai//blogs/the-evolution-of-ai-agents</loc>
     <lastmod>2024-03-04</lastmod>
 	<changefreq>monthly</changefreq>
@@ -151,7 +163,7 @@
       <image:loc>https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://www.karini.ai//assets/images/blogs/connectors.png</image:loc>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Connectors.png</image:loc>
     </image:image>
   </url>
 
