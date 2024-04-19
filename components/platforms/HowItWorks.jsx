@@ -27,7 +27,7 @@ const HowItWorks = () => {
 	const howItWorksData = [
 		{
 			name: "Dashboard",
-			image: "/assets/images/platform/Dashboards.png",
+			image: "/assets/images/platform/karini_ai_dashboards.gif",
 			icon: DashboardIcon,
 		},
 		{
@@ -37,7 +37,7 @@ const HowItWorks = () => {
 		},
 		{
 			name: "Create Model Endpoint",
-			image: "/assets/images/platform/Model_Hub.png",
+			image: "/assets/images/platform/Model_EndPoint.jpg",
 			icon: ModelsIcon,
 		},
 		{
@@ -47,17 +47,17 @@ const HowItWorks = () => {
 		},
 		{
 			name: "Set up and Run Recipe",
-			image: "/assets/images/platform/Recipe.png",
+			image: "/assets/images/platform/Setup_and_Run_Recipe.jpg",
 			icon: RecipeIcon,
 		},
 		{
 			name: "Evaluate RAG",
-			image: "/assets/images/platform/RAG_Evaluation.png",
+			image: "/assets/images/platform/Evaluation_Rag.jpg",
 			icon: EvaluateIcon,
 		},
 		{
 			name: "Export Copilot",
-			image: "/assets/images/platform/Export.png",
+			image: "/assets/images/platform/Export_CoPilot.png",
 			icon: ChatbotIcon,
 		},
 		{

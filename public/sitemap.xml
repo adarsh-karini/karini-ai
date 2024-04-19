@@ -146,6 +146,21 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.karini.ai/blogs/genai_visibility</loc>
+    <lastmod>2024-04-12</lastmod>
+	<changefreq>monthly</changefreq>
+   <priority>0.8</priority>
+		<image:image>
+      <image:loc>https://www.karini.ai/assets/images/public/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Dashboard_tiles.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Dashboard-pie_charts.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground</loc>
     <lastmod>2024-01-22</lastmod>
 	<changefreq>monthly</changefreq>
@@ -211,7 +226,7 @@
     <lastmod>2024-02-06</lastmod>
 	<changefreq>monthly</changefreq>
   <priority>0.8</priority>
-	<image:image>
+	<image:image/>
       <image:loc>https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png</image:loc>
     </image:image>
   </url>
