@@ -2070,7 +2070,7 @@ export const blogDetailsData = [
 					"Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes",
 				description: "Discover how Generative AI is revolutionizing enterprises, from marketing to R&D, and how Karini AI can be your ally in embracing this disruptive technology.",
 				image:
-					"https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png",
+					"https://www.karini.ai/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png",
 				author: {
 					"@type": "Person",
 					name: "Deepali Rajale",
