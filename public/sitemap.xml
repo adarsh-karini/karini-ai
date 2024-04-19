@@ -151,7 +151,7 @@
 	<changefreq>monthly</changefreq>
    <priority>0.8</priority>
 		<image:image>
-      <image:loc>https://www.karini.ai/assets/images/public\assets\images\blogs\GenAI_Visibility_with_Karini_AI.png</image:loc>
+      <image:loc>https://www.karini.ai/assets/images/public/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://www.karini.ai/assets/images/blogs/Dashboard_tiles.png</image:loc>
