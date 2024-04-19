@@ -2042,6 +2042,327 @@ export const blogDetailsData = [
 	},
 	{
 		type: "blog",
+		id: "genai-visibility-cost-transparency-and-consumption-metrics-only-with-karini-ai",
+		breadCrumbTitle: "GenAI Visibility: Cost transparency and consumption metrics only with Karini AI",
+		title:
+			"GenAI Visibility: Cost transparency and consumption metrics only with Karini AI",
+		publishedOn: "April 12, 2024",
+		author: "Deepali Rajale",
+		timeToRead: "4 min read",
+		SEO_data: {
+			title: "Maximize GenAI ROI with Karini AI’s Visibility Tools",
+			metaTitle: "Optimize GenAI Spend with Karini AI Visibility Dashboard",
+			keywords: "GenAI cost management,Karini AI dashboard,Operational transparency,LLM budget control,AI resource monitoring",
+			description:	
+				"Discover how Karini AI's visibility dashboard can transform your GenAI cost management, ensuring efficiency and transparency in operations.",
+			canonicalLink:
+				"https://www.karini.ai/blogs/genai-visibility-cost-transparency-and-consumption-metrics-only-with-karini-ai",
+			hreflang: "https://www.karini.ai/blogs/genai-visibility-cost-transparency-and-consumption-metrics-only-with-karini-ai",
+			schemaMarkup: {
+				"@context": "https://schema.org",
+				"@type": "BlogPosting",
+				mainEntityOfPage: {
+					"@type": "WebPage",
+					"@id":
+						"https://www.karini.ai/blogs/genai-visibility-cost-transparency-and-consumption-metrics-only-with-karini-ai",
+				},
+				headline:
+					"Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes",
+				description: "Discover how Generative AI is revolutionizing enterprises, from marketing to R&D, and how Karini AI can be your ally in embracing this disruptive technology.",
+				image:
+					"https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png",
+				author: {
+					"@type": "Person",
+					name: "Deepali Rajale",
+				},
+				publisher: {
+					"@type": "Organization",
+					name: "Karini Ai",
+					logo: {
+						"@type": "ImageObject",
+						url: "https://www.karini.ai/",
+					},
+				},
+				datePublished: "2024-04-12",
+			},
+		},
+		sections: [
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "Introduction:"
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "In the rapidly evolving landscape of Generative AI (Gen AI), managing the scale and cost of Large Language Models (LLMs) presents a formidable challenge for enterprises diversifying their application portfolios. As organizations increasingly integrate these powerful tools across various services, the absence of comprehensive visibility and cost controls can easily steer budgets into the red. Karini AI steps in as a game-changer, offering a meticulously designed dashboard that not only sheds light on the otherwise opaque realm of Gen AI expenditures but also puts the reins of cost management firmly in the hands of businesses."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "Exploring Karini’s Dashboards:"
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Karini’s dashboards allow you to examine your cost, usage, and resource statistics thoroughly. They enable you to identify cost drivers, the most widely used resources, such as models and connectors, and overall statistics about data ingestion and deployment completions."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "It offers the following capabilities:"
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `<ul class="space-y-2" style="list-style-type:disc ; padding-left: 40px">
+						<li>
+						<h3 class="list-heading">Statistical Overview:
+						</h3>
+						</li>
+						</ul>`
+					},
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `<ol style='list-style: inside; list-style-type: decimal; margin-left: 40px;'>
+						Karini’s statistics dashboards offer you a single pane of glass to view all your resources, such as users, models, data connectors, recipes, prompts, copilots, embedded items, and recipe runs within your organization. You can get a high-level overview of your complete portfolio, and you can also get detailed analysis by diving deeper into each stats tile. In the following example, 52 LLM endpoints and 16 embedding model endpoints have been registered in Karini’s model hub within your organization. You can click the link to view the details for deeper analysis.`
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "The following screenshot shows an example of a statistical overview of an organization’s assets in Karini.						"
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.image,
+						path: "/assets/images/blogs/Dashboard_tiles.png",
+						imageAltName: "Statistical overview on Karini AI Dashboard",
+						caption: "",
+						width: 800,
+						height: 800,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "You can also review the resources and data statistics by grouping them by dimensions to see their distribution. For example, you can view all the registered model endpoints within your organization in Karini’s model hub, grouped by their model provider or model type. You can also view all the dataset items grouped by the data connectors using which the data was sourced.						"
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "The following screenshot shows an example of a distribution of assets within an organization in Karini. 						"
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.image,
+						path: "/assets/images/blogs/Dashboard-pie_charts.png",
+						imageAltName: "Pie chart distribution of assets in Karini AI",
+						caption: "",
+						width: 800,
+						height: 800,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `<ul class="space-y-2" style="list-style-type:disc ; padding-left: 40px">
+						<li>
+						<h3 class="list-heading">Cost and usage monitoring:
+						</h3>
+						</li>
+						</ul>`
+					},
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `<ol style='list-style: inside; list-style-type: decimal; margin-left: 40px;'>
+						Karini's cost analysis dashboard features an intuitive interface that allows you to easily visualize, understand, and monitor your cost and usage trends over time. You can review your usage and costs via the main dashboard or explore specific resources like endpoints or copilots on their respective pages.`
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `<ul class="space-y-2" style="list-style-type:disc ; padding-left: 80px">
+						         <li>
+						         <h3 class="list-heading">Visualize spend by endpoints and copilots:</h3>The primary cost drivers for generative AI applications are the model endpoints, where costs accrue based on token usage. Karini's dashboards enable you to track spending across these model endpoints effectively. Additionally, you can monitor expenditures on copilot applications to analyze usage patterns and manage resources efficiently.								 .
+						         </li>
+								 <li>
+								 <h3 class="list-heading">Filter and group your data:</h3> Dig deeper into your data by flirting based on date range and grouping your resources. For example, you can visualize your monthly cost for the last three months grouped by the copilots or daily costs for the previous month grouped by the LLM endpoints. Karini’s dashboards show the cost and provide deeper insights by showing the number of API requests and token counts for the selected date and resources and delivering insights into your cost and usage patterns over the period chosen. 
+								 </li>
+								 <li>
+								 <h3 class="list-heading">Use granular filtering:</h3> Along with filtering by date range and grouping by resources, you can also visualize your costs and usage by selecting monthly, daily, and hourly granularity. This helps provide deeper insights into the costs, API requests, and associated token counts to identify trends, pinpoint cost drivers, and detect anomalies. 
+                                </li>
+								</ul>`
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.gif,
+						path: "/gif/karini_ai_dashboards.gif",
+						caption: "",
+						width: 600,
+						height: 700,
+						imageAltName: "Karini AI's cost monitoring dashboard"
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "Benefits:"
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Karini's Dashboards offer a range of benefits designed to enhance business operations and efficiency:"
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `
+						<ol style='list-style: inside; list-style-type: decimal; margin-left: 25px;'>
+						        <li>
+								<h3 class="list-heading">Comprehensive Overview:</h3> Karini Dashboards provide a "single pane of glass" to view and assess your portfolio. This allows for both high-level exploration and detailed analysis, ensuring you clearly understand your assets and their performance.
+								</li>
+								<li>
+								<h3 class="list-heading">Trend Analysis and Anomaly Detection: </h3> With Karini, you gain access to deep insights that help identify usage patterns and spot anomalies. This feature is crucial for proactive management and maintaining the integrity of your applications.
+								</li>
+								<li>
+								<h3 class="list-heading">Cost Management: </h3>The dashboards enable you to pinpoint and track the main expense drivers. This is essential for maintaining budget control and avoiding overspending.
+								</li>
+								<li>
+								<h3 class="list-heading">Usage Visibility:</h3> Given that large language model (LLM) applications can become costly, Karini provides detailed visibility into application usage. Businesses can monitor API requests and token consumption, which aids in budget planning and spending monitoring and ensures that resource use aligns with budgetary expectations.
+								</li>
+								</ol>`
+					},
+				],
+			},	
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading3,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "Conclusion:"
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Karini’s platform is a game-changer for Operational Transparency and Budget Management. Organizations gain unparalleled insight into their expenditures by offering a meticulous breakdown of costs and usage metrics. This level of transparency empowers them to optimize their deployment of LLMs precisely, ensuring that resources are allocated with maximum efficiency, fostering innovation, and streamlining operations. With Karini's dashboard, organizations can closely monitor model spending, performance, and application usage, making it an indispensable tool for those looking to leverage Gen AI while fully maintaining fiscal responsibility."
+					},
+				],
+			},
+		],
+		aboutAuthor: {
+			title: "About the author",
+			authorImage: "/assets/images/team_members/deepali-rajale.png",
+			authorInfo:
+				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
+		},
+	},
+	{
+		type: "blog",
 		id: "building-efficient-rag-systems",
 		breadCrumbTitle: "Effective Ways to Enhance RAG Systems",
 		title:

@@ -158,6 +158,26 @@
     </image:image>
     </url>
 
+ <!-- Blog Post 9 -->
+  <url>
+    <loc>https://www.karini.ai/blogs/genai_visibility</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Generative AI Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-04-12</news:publication_date>
+      <news:title>Maximize GenAI ROI with Karini AI’s Visibility Tools</news:title>
+      <news:keywords>"GenAI cost management,Karini AI dashboard,Operational transparency,LLM budget control,AI resource monitoring"</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Dashboard_tiles.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.karini.ai/assets/images/blogs/Dashboard-pie_charts.png</image:loc>
+    </image:image>
+    </url>
+
   <!-- Announcement Post 1 -->
   <url>
     <loc>https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground</loc>

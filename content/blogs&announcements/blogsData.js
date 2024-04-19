@@ -136,4 +136,21 @@ export const blogsData = [
 		timeToRead: "3 min read",
 		path: "/blogs/building-efficient-rag-systems",
 	},
+	{
+		show: true,
+		filterName: "blogs",
+		type: "blog",
+		image: "/assets/images/blogs/Building_Efficient_RAG_Systems.png",
+		imageAltName: "Building Efficient RAG Systems",
+		// imageWidth: 320,
+		imageHeight: 320,
+		title:
+			"GenAI Visibility: Cost transparency and consumption metrics only with Karini AI",
+		description:
+			"In the rapidly evolving landscape of Generative AI (Gen AI), managing the scale and cost of Large Language Models (LLMs) presents a formidable challenge for enterprises diversifying their application portfolios.",
+		tag: "Gen AI",
+		date: "April 19th, 2024",
+		timeToRead: "4 min read",
+		path: "/blogs/genai-visibility-cost-transparency-and-consumption-metrics-only-with-karini-ai",
+	},
 ];
