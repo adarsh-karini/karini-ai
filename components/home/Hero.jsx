@@ -16,7 +16,7 @@ const Hero = () => {
 	const imagesData = [
 		{
 			title: "Centralized Visibility and Usage Trends",
-			path: "/assets/images/platform/Dashboards.png",
+			path: "/assets/images/platform/karini_ai_dashboards.gif",
 			altText: "dashboard",
 		},
 		{
@@ -26,7 +26,7 @@ const Hero = () => {
 		},
 		{
 			title: "Connect to SAAS Models or Open Source Models",
-			path: "/assets/images/platform/Model_Hub.png",
+			path: "/assets/images/platform/Model_EndPoint.jpg",
 			altText: "connect-to-saas-and-proprietary-models",
 		},
 		{
@@ -36,17 +36,17 @@ const Hero = () => {
 		},
 		{
 			title: "No Code Generative AI Recipes to Build Applications",
-			path: "/assets/images/platform/Recipe.png",
+			path: "/assets/images/platform/Setup_and_Run_Recipe.jpg",
 			altText: "low-code-recipes",
 		},
 		{
 			title: "Evaluate RAG using Ground Truth Labels",
-			path: "/assets/images/platform/RAG_Evaluation.png",
+			path: "/assets/images/platform/Evaluation_Rag.jpg",
 			altText: "evaluate-rag",
 		},
 		{
 			title: "Customize Copilot & Deploy",
-			path: "/assets/images/platform/Export.png",
+			path: "/assets/images/platform/Export_CoPilot.png",
 			altText: "export copilot",
 		},
 		{
