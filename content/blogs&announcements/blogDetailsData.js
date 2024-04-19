@@ -2042,7 +2042,7 @@ export const blogDetailsData = [
 	},
 	{
 		type: "blog",
-		id: "genai-visibility-cost-transparency-and-consumption-metrics-only-with-karini-ai",
+		id: "genai-visibility",
 		breadCrumbTitle: "GenAI Visibility: Cost transparency and consumption metrics only with Karini AI",
 		title:
 			"GenAI Visibility: Cost transparency and consumption metrics only with Karini AI",
@@ -2056,15 +2056,15 @@ export const blogDetailsData = [
 			description:	
 				"Discover how Karini AI's visibility dashboard can transform your GenAI cost management, ensuring efficiency and transparency in operations.",
 			canonicalLink:
-				"https://www.karini.ai/blogs/genai-visibility-cost-transparency-and-consumption-metrics-only-with-karini-ai",
-			hreflang: "https://www.karini.ai/blogs/genai-visibility-cost-transparency-and-consumption-metrics-only-with-karini-ai",
+				"https://www.karini.ai/blogs/genai_visibility",
+			hreflang: "https://www.karini.ai/blogs/genai_visibility",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
 				mainEntityOfPage: {
 					"@type": "WebPage",
 					"@id":
-						"https://www.karini.ai/blogs/genai-visibility-cost-transparency-and-consumption-metrics-only-with-karini-ai",
+						"https://www.karini.ai/blogs/genai_visibility",
 				},
 				headline:
 					"Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes",

@@ -151,6 +151,6 @@ export const blogsData = [
 		tag: "Gen AI",
 		date: "April 12th, 2024",
 		timeToRead: "4 min read",
-		path: "/blogs/genai-visibility-cost-transparency-and-consumption-metrics-only-with-karini-ai",
+		path: "/blogs/genai-visibility",
 	},
 ];
