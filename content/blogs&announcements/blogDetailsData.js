@@ -2599,6 +2599,252 @@ export const blogDetailsData = [
 	},
 	{
 		type: "blog",
+		id: "amazon-bedrock-compound-ai-systems",
+		breadCrumbTitle: "Karini AI Supercharge Compound AI Systems",
+		title:
+			"Beyond Limits: How Amazon Bedrock and Karini AI Supercharge Compound AI Systems",
+		publishedOn: "April 25th, 2024",
+		author: "Deepali Rajale",
+		timeToRead: "5 min read",
+		SEO_data: {
+			title: "Supercharged Compound AI with Amazon Bedrock & Karini.ai",
+			metaTitle: "Elevate GenAI Systems with Amazon Bedrock & Karini AI",
+			keywords: "Karini AI Platform, Amazon bedrock, Compound AI System, Business Innovation, Generative AI Pilots",
+			description:
+				"Discover how Karini.ai enhances Amazon Bedrock compound GenAI systems for greater innovation, efficiency, and scalability. Revolutionize your tech today!",
+			canonicalLink:
+				"https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
+			hreflang: "https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
+			schemaMarkup: {
+				"@context": "https://schema.org",
+				"@type": "BlogPosting",
+				mainEntityOfPage: {
+					"@type": "WebPage",
+					"@id":
+						"https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
+				},
+				headline:
+					"Beyond Limits: How Amazon Bedrock and Karini AI Supercharge Compound AI Systems",
+				description: "Generative AI",
+				image:
+					"https://www.karini.ai/assets/images/blogs/Beyond_Limits.png",
+				author: {
+					"@type": "Person",
+					name: "Deepali Rajale",
+				},
+				publisher: {
+					"@type": "Organization",
+					name: "Karini Ai",
+					logo: {
+						"@type": "ImageObject",
+						url: "https://www.karini.ai/",
+					},
+				},
+				datePublished: "2024-04-25",
+			},
+		},
+		sections: [
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "Introduction",
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						      "Generative AI has become a shared C-Level priority with many enterprises setting goals in their annual statement and numerous press releases. As Generative AI is gaining traction, there is much anticipation around their evolving model performance capabilities. However, as developers increasingly move beyond Generative AI pilots, the trend is shifting to compound systems. The SOTA results often come from compound systems incorporating multiple components rather than relying solely on standalone models. A recent study by MIT Research has observed that 60% of LLM deployments in businesses incorporate some form of retrieval-augmented generation (RAG), with 30% utilizing multi-step chains or compound systems.	 "
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "Rise of Compound Systems",
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						      "A <a href='https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Compound AI System</a> addresses AI tasks through multiple interconnected components, including several calls to different models, retrievers, or external tools. AI models are constantly improving, with scalability seemingly limitless. However, complex, multifaceted compound systems increasingly achieve the most advanced results. Combining the models with other components allows businesses to build dynamic systems that can address complex scenarios based on user queries at runtime, reduce model hallucinations, and increase user control and trust. Enterprises can design their compound systems based on their performance goals. E.g. In some applications, even the largest model may need to be more performant or too expensive. Still, an ensemble of smaller fine-tuned models augmented with optimized search and retrieve capabilities can give the best results. Github Copilot is an excellent example of this approach. While enterprises are making a shift in compounding AI systems, the emerging challenges are how to design, optimize & operate these systems. The compound systems consist of a data processing loop, query optimization loop, and operations management capabilities, and they can be independently optimized for better performance."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.image,
+						path: "/assets/images/blogs/Compound_systems.png",
+						imageAltName: "Compound Systems",
+						caption: "",
+						width: 800,
+						height: 800,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "Karini AI Platform powered by AWS Gen AI for Compound AI Systems",
+					},
+				]
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						      "AWS provides a broad set of Gen AI managed services such as <a href='https://aws.amazon.com/bedrock/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon Bedrock</a>, Amazon SageMaker, and OpenSearch to build scalable generative AI applications. Amazon Bedrock is the most trusted and scalable fully managed service that offers a choice of high-performing foundation models from leading AI model providers and Amazon via a single API, along with a broad set of capabilities to build <a href='https://aws.amazon.com/generative-ai/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>generative AI</a> applications with security, privacy, and responsible AI."
+					},
+					
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						    "Karini AI is a no-code Generative AI platform with a broad set of capabilities to build Compound AI systems purposefully built using AWS services to speed up production-grade application development. AWS customers can use best-of-breed capabilities to build production-grade RAG in a matter of minutes."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						       "<strong>Data Processing Loop:</strong> Karini AI utilizes <a href='https://aws.amazon.com/textract/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon Textract</a> and proprietary technologies to create LLM-ready data and provides built-in chunking algorithms. Customers can choose Amazon Bedrock hosted models or custom models hosted via <a href='https://aws.amazon.com/sagemaker/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon SageMaker</a> for chunking. <a href='https://aws.amazon.com/opensearch-service/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon OpenSearch </a> delivers a secure and scalable vector store."
+					},
+					
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						    "<strong>Query Optimization Loop:</strong> Karini AI employs the easy-to-use <a href='https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Prompt Playground</a> to author, test, and compare the model performance of Bedrock-hosted models or custom models using Amazon SageMaker. Enterprises can leverage one of the many built-in chains, such as Q&A, summarization, classification, or Agentic workflows. Multiple ways are available to optimize retrieval using techniques such as query rewrite, query expansion, and context generation. Customers can also customize LLM-driven responses for greetings and follow-up questions."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						    "<strong>Operations and Visibility:</strong> Karini AI provides built-in observability for tracing RAG chains and understanding low performing conversations. Copilot supports fine-grained feedback collection to gather user preferences and create instruction fine-tuning datasets. The built-in dashboards provide system performance and cost monitoring across model endpoints for Amazon Bedrock and SageMaker-hosted models. Karini AI provides enterprise connectors for significant number of data sources such as Amazon S3, Websites, Google Storage, Azure Storage, and Dropbox to unify data silos into a single vector store and also respects source system role-based access controls during serving."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.image,
+						path: "/assets/images/blogs/karini_compound_systems.png",
+						imageAltName: "Karini Compound Systems",
+						caption: "",
+						width: 800,
+						height: 800,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						    "Here is a quick end-2-end Karini AI Generative AI recipe powered by Amazon Bedrock models."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.image,
+						path: "/assets/images/blogs/Amazon_bedrock_recipe.png",
+						imageAltName: "Amazon Bedrock Recipe",
+						caption: "",
+						width: 1000,
+						height: 1000,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading,
+						fontSize: fontSize.large,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "Conclusion:",
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Compound AI systems mark a significant advancement in AI technology by integrating various components to solve complex challenges that were once out of reach for traditional AI models. These systems are highly flexible, allowing for tailored responses and greater control over outputs. Karini AI’s advanced platform, coupled with Amazon Bedrock, enables the creation of sophisticated compound AI systems for any use case. By adopting these systems, businesses can enhance innovation, increase the quality and reliability of their AI solutions, and build stronger trust with their customers.",
+					},
+				],
+			},
+		],
+		aboutAuthor: {
+			title: "About the author",
+			authorImage: "/assets/images/team_members/deepali-rajale.png",
+			authorInfo:
+				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
+		},
+	},
+	{
+		type: "blog",
 		id: "unleashing-the-potential-of-unified-data",
 		breadCrumbTitle: "Unleashing the Potential of Unified Data",
 		title:
@@ -2810,4 +3056,5 @@ export const blogDetailsData = [
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/jeromemendell/"> Jerome Mendell </a>is a software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus. Jerome has collaborated with leading technology providers, publishers, and clients serving Fortune 500 companies globally.',
 		},
 	},
+
 ];
