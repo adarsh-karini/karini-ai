@@ -2831,7 +2831,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							"Compound AI systems represent a significant step forward in AI development. By leveraging the power of collaboration between diverse components, they offer the potential to tackle problems previously beyond traditional AI's reach. Compound systems are more adaptable to diverse tasks and provide greater control over the model’s output. Karini AI’s platform capabilities and Amazon Bedrock empower customers to build well-designed compound AI systems for any use case. Businesses can stay ahead with innovation, maximize the quality and reliability of their AI application, and improve trust with their customers by embracing compound systems to tackle complex real-world problems efficiently and with control.",
+							"Compound AI systems mark a significant advancement in AI technology by integrating various components to solve complex challenges that were once out of reach for traditional AI models. These systems are highly flexible, allowing for tailored responses and greater control over outputs. Karini AI’s advanced platform, coupled with Amazon Bedrock, enables the creation of sophisticated compound AI systems for any use case. By adopting these systems, businesses can enhance innovation, increase the quality and reliability of their AI solutions, and build stronger trust with their customers.",
 					},
 				],
 			},
