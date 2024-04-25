@@ -248,4 +248,22 @@
 		<image:loc>https://www.karini.ai/assets/images/blogs/Mastering_Generative_AI.png</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems</loc>
+    <lastmod>2024-04-25</lastmod>
+	<changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Beyond_Limits.png</image:loc>
+    </image:image>
+    <image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Compound_systems.png</image:loc>
+    </image:image>
+    <image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/karini_compound_systems.png</image:loc>
+    </image:image>
+    <image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Amazon_bedrock_recipe.png</image:loc>
+    </image:image>
+  </url>
 </urlset>

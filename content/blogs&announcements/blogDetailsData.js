@@ -2599,32 +2599,32 @@ export const blogDetailsData = [
 	},
 	{
 		type: "blog",
-		id: "amazon-bedrock-and-karini-ai-supercharge-compound-ai-systems",
+		id: "amazon-bedrock-compound-ai-systems",
 		breadCrumbTitle: "Karini AI Supercharge Compound AI Systems",
 		title:
 			"Beyond Limits: How Amazon Bedrock and Karini AI Supercharge Compound AI Systems",
 		publishedOn: "April 25th, 2024",
 		author: "Deepali Rajale",
-		timeToRead: "4 min read",
+		timeToRead: "5 min read",
 		SEO_data: {
-			title: "Unified Data & Gen AI: Unleashing Potential | Karini AI",
-			metaTitle: "Unleash Data Potential with Gen AI | Karini AI Blog",
-			keywords: "Unified Data,Generative AI,Business Intelligence,Data Integration Karini AI,AI-driven Insights",
+			title: "Supercharged Compound AI with Amazon Bedrock & Karini.ai",
+			metaTitle: "Elevate GenAI Systems with Amazon Bedrock & Karini AI",
+			keywords: "Karini AI Platform, Amazon bedrock, Compound AI System, Business Innovation, Generative AI Pilots",
 			description:
-				"Explore how Karini AI leverages unified data through Generative AI to drive business intelligence and innovation. Unlock new insights and efficiencies.",
+				"Discover how Karini.ai enhances Amazon Bedrock compound GenAI systems for greater innovation, efficiency, and scalability. Revolutionize your tech today!",
 			canonicalLink:
-				"https://www.karini.ai/blogs/amazon-bedrock-and-karini-ai-supercharge-compound-ai-systems",
-			hreflang: "https://www.karini.ai/blogs/amazon-bedrock-and-karini-ai-supercharge-compound-ai-systems",
+				"https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
+			hreflang: "https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
 				mainEntityOfPage: {
 					"@type": "WebPage",
 					"@id":
-						"https://www.karini.ai/blogs/amazon-bedrock-and-karini-ai-supercharge-compound-ai-systems",
+						"https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
 				},
 				headline:
-					"Unleashing the Potential of Unified Data: The Gen AI Evolution in Business Intelligence",
+					"Beyond Limits: How Amazon Bedrock and Karini AI Supercharge Compound AI Systems",
 				description: "Generative AI",
 				image:
 					"https://www.karini.ai/assets/images/blogs/Beyond_Limits.png",

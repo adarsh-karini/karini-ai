@@ -158,7 +158,7 @@ export const blogsData = [
 		filterName: "blogs",
 		type: "blog",
 		image: "/assets/images/blogs/Beyond_Limits.png",
-		imageAltName: "GenAI Visibility with Karini AI",
+		imageAltName: "Amazon Bedrock Compound AI Systems",
 		// imageWidth: 320,
 		imageHeight: 320,
 		title:
@@ -167,7 +167,7 @@ export const blogsData = [
 			"Generative AI has become a shared C-Level priority with many enterprises setting goals in their annual statement and numerous press releases.",
 		tag: "Gen AI",
 		date: "April 25th, 2024",
-		timeToRead: "4 min read",
-		path: "/blogs/amazon-bedrock-and-karini-ai-supercharge-compound-ai-systems",
+		timeToRead: "5 min read",
+		path: "/blogs/amazon-bedrock-compound-ai-systems",
 	},
 ];
