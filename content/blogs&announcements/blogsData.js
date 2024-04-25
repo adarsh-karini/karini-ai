@@ -166,7 +166,7 @@ export const blogsData = [
 		description:
 			"Generative AI has become a shared C-Level priority with many enterprises setting goals in their annual statement and numerous press releases.",
 		tag: "Gen AI",
-		date: "April 12th, 2024",
+		date: "April 25th, 2024",
 		timeToRead: "4 min read",
 		path: "/blogs/amazon-bedrock-and-karini-ai-supercharge-compound-ai-systems",
 	},

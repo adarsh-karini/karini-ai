@@ -2603,7 +2603,7 @@ export const blogDetailsData = [
 		breadCrumbTitle: "Karini AI Supercharge Compound AI Systems",
 		title:
 			"Beyond Limits: How Amazon Bedrock and Karini AI Supercharge Compound AI Systems",
-		publishedOn: "February 2, 2024",
+		publishedOn: "April 25th, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "4 min read",
 		SEO_data: {
@@ -2640,7 +2640,7 @@ export const blogDetailsData = [
 						url: "https://www.karini.ai/",
 					},
 				},
-				datePublished: "2024-02-02",
+				datePublished: "2024-04-25",
 			},
 		},
 		sections: [
