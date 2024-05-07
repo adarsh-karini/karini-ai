@@ -55,9 +55,14 @@ const Announcement = ({ annData }) => {
 				<meta name="keywords" content={annData?.SEO_data.keywords} />
 				<meta name="robots" content="index,follow" />
 				{Object.keys(annData?.metadata).length > 0 &&
-					Object.entries(annData?.metadata).map(([key, value]) => (
-						<meta key={key} property={key} content={value} />
-					))}
+					Object.entries(annData?.metadata).map(([key, value]) => {
+						let keyName = /twitter:/.test(key);
+						if (keyName) {
+							return <meta key={key} name={key} content={value} />;
+						} else {
+							return <meta key={key} property={key} content={value} />;
+						}
+					})}
 				<link rel="canonical" href={annData?.SEO_data.canonicalLink} />
 
 				<link

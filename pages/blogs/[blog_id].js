@@ -43,9 +43,14 @@ const Blog = ({ blogData }) => {
 				<meta name="keywords" content={blogData?.SEO_data.keywords} />
 				<meta name="robots" content="index,follow" />
 				{Object.keys(blogData?.metadata).length > 0 &&
-					Object.entries(blogData?.metadata).map(([key, value]) => (
-						<meta key={key} property={key} content={value} />
-					))}
+					Object.entries(blogData?.metadata).map(([key, value]) => {
+						let keyName = /twitter:/.test(key);
+						if (keyName) {
+							return <meta key={key} name={key} content={value} />;
+						} else {
+							return <meta key={key} property={key} content={value} />;
+						}
+					})}
 				<link
 					rel="alternate"
 					href={blogData?.SEO_data.hreflang}
