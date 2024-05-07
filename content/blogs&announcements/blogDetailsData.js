@@ -51,6 +51,32 @@ export const blogDetailsData = [
 		publishedOn: "January 2, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "5 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Industrializing Gen AI with Karini AI Insights",
+			"og:description":
+				"Explore how Karini AI leads the way in industrializing generative AI, offering strategies and insights for seamless AI application integration.",
+			"og:url": "https://www.karini.ai/blogs/industrialize-generative-ai",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-02-01",
+			"og:updated_time": "2024-02-01",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FIndustrialize-Generative-AI.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FIndustrialize-Generative-AI.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt": "industrialize-generative-ai",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Explore how Karini AI leads the way in industrializing generative AI, offering strategies and insights for seamless AI application integration.",
+			"twitter:title": "Industrializing Gen AI with Karini AI Insights",
+			"twitter:site": "https://www.karini.ai/blogs/industrialize-generative-ai",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FIndustrialize-Generative-AI.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Industrializing Gen AI with Karini AI Insights",
 			metaTitle: "Karini AI on Industrializing Generative AI",
@@ -288,6 +314,34 @@ export const blogDetailsData = [
 		publishedOn: "January 31, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "10 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "GenAIOps in Enterprises: Navigating Challenges",
+			"og:description":
+				"Karini AI guides enterprises through GenAIOps, from adoption to execution. Discover best practices for integrating Generative AI into your business.",
+			"og:url":
+				"https://www.karini.ai/blogs/navigating-genaiops-in-enterprises",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-31-01",
+			"og:updated_time": "2024-31-01",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FNavigating_GenAIOps_in_Enterprises.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FNavigating_GenAIOps_in_Enterprises.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt": "navigating-genaiops-in-enterprises",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Karini AI guides enterprises through GenAIOps, from adoption to execution. Discover best practices for integrating Generative AI into your business.",
+			"twitter:title": "GenAIOps in Enterprises: Navigating Challenges",
+			"twitter:site":
+				"https://www.karini.ai/blogs/navigating-genaiops-in-enterprises",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FNavigating_GenAIOps_in_Enterprises.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "GenAIOps in Enterprises: Navigating Challenges",
 			metaTitle: "Overcoming GenAIOps Challenges in Enterprises | Karini AI",
@@ -640,6 +694,32 @@ export const blogDetailsData = [
 		publishedOn: "January 4, 2024",
 		author: "Jerome Mendell",
 		timeToRead: "10 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Mastering Gen AI: Enterprise Guide by Karini AI",
+			"og:description":
+				"Unlock the full potential of Generative AI in your enterprise with Karini AI's expert guide. Dive into strategic insights for effective Gen AI integration.",
+			"og:url": "https://www.karini.ai/blogs/mastering-generative-ai",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-04-01",
+			"og:updated_time": "2024-04-01",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FMastering_Generative_AI.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FMastering_Generative_AI.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt": "mastering-generative-ai",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Unlock the full potential of Generative AI in your enterprise with Karini AI's expert guide. Dive into strategic insights for effective Gen AI integration.",
+			"twitter:title": "Mastering Gen AI: Enterprise Guide by Karini AI",
+			"twitter:site": "https://www.karini.ai/blogs/mastering-generative-ai",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FMastering_Generative_AI.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Mastering Gen AI: Enterprise Guide by Karini AI",
 			metaTitle: "Karini AI Guide to Mastering Generative AI",
@@ -1144,6 +1224,35 @@ export const blogDetailsData = [
 		publishedOn: "February 26, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "5 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Optimize AI Prompts | Karini’s Prompt Playground",
+			"og:description":
+				"Accelerate Gen AI applications with Karini’s Prompt Playground. Save, test, and manage prompt runs efficiently for high-quality AI interactions.",
+			"og:url":
+				"https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-26-02",
+			"og:updated_time": "2024-26-02",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FFast_track_your_prompt_Experiments.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FFast_track_your_prompt_Experiments.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt":
+				"fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Accelerate Gen AI applications with Karini’s Prompt Playground. Save, test, and manage prompt runs efficiently for high-quality AI interactions.",
+			"twitter:title": "Optimize AI Prompts | Karini’s Prompt Playground",
+			"twitter:site":
+				"https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FFast_track_your_prompt_Experiments.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Optimize AI Prompts | Karini’s Prompt Playground",
 			metaTitle: "Streamline LLM Prompt Engineering | Karini AI",
@@ -1418,6 +1527,36 @@ export const blogDetailsData = [
 		publishedOn: "March 1, 2024",
 		author: "Jerome Mendell",
 		timeToRead: "5 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title":
+				"Generative AI in Business: Navigating the Future - Karini AI",
+			"og:description":
+				"Discover how Generative AI transforms businesses (marketing, R&D!) & how Karini AI empowers you to leverage it. #GenerativeAI",
+			"og:url":
+				"https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-01-03",
+			"og:updated_time": "2024-01-03",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Inevitable_Disruption_copy.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Inevitable_Disruption_copy.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt": "generative-ai-the-inevitable-disruption",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Discover how Generative AI transforms businesses (marketing, R&D!) & how Karini AI empowers you to leverage it. #GenerativeAI",
+			"twitter:title":
+				"Generative AI in Business: Navigating the Future - Karini AI",
+			"twitter:site":
+				"https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Inevitable_Disruption_copy.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Generative AI in Business: Navigating the Future - Karini AI",
 			metaTitle: "Exploring Generative AI's Impact on Enterprises | Karini AI",
@@ -1770,6 +1909,33 @@ export const blogDetailsData = [
 		publishedOn: "March 4, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "10 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Evolution of AI Agents: From Hallucination to Precision",
+			"og:description":
+				'AI chatbots evolve! Karini AI builds reliable assistants, no "hallucination." #GenAI #reliableAI',
+			"og:url": "https://www.karini.ai/blogs/the-evolution-of-ai-agents",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-04-03",
+			"og:updated_time": "2024-04-03",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Evolution_of_AI_Agents.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Evolution_of_AI_Agents.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt": "the-evolution-of-ai-agents",
+			"twitter:card": "summary",
+			"twitter:description":
+				'AI chatbots evolve! Karini AI builds reliable assistants, no "hallucination." #GenAI #reliableAI',
+			"twitter:title":
+				"Evolution of AI Agents: From Hallucination to Precision",
+			"twitter:site": "https://www.karini.ai/blogs/the-evolution-of-ai-agents",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Evolution_of_AI_Agents.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Evolution of AI Agents: From Hallucination to Precision",
 			metaTitle: "The Evolution of AI Agents in Business | Karini AI",
@@ -2102,6 +2268,32 @@ export const blogDetailsData = [
 		publishedOn: "April 12, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "4 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Maximize GenAI ROI with Karini AI’s Visibility Tools",
+			"og:description":
+				"Discover how Karini AI's visibility dashboard can transform your GenAI cost management, ensuring efficiency and transparency in operations.",
+			"og:url": "https://www.karini.ai/blogs/genai-visibility",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-12-04",
+			"og:updated_time": "2024-12-04",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FGenAI_Visibility_with_Karini_AI.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FGenAI_Visibility_with_Karini_AI.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt": "genai-visibility",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Discover how Karini AI's visibility dashboard can transform your GenAI cost management, ensuring efficiency and transparency in operations.",
+			"twitter:title": "Maximize GenAI ROI with Karini AI’s Visibility Tools",
+			"twitter:site": "https://www.karini.ai/blogs/genai-visibility",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FGenAI_Visibility_with_Karini_AI.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Maximize GenAI ROI with Karini AI’s Visibility Tools",
 			metaTitle: "Optimize GenAI Spend with Karini AI Visibility Dashboard",
@@ -2429,6 +2621,34 @@ export const blogDetailsData = [
 		publishedOn: "March 13th, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "3 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Optimize RAG Systems with Karini AI's GenAIOps Platform",
+			"og:description":
+				"How to operationalize Generative AI with Karini.ai's GenAI Orchestration platform, enhance RAG for precision and speed in response generation #GenAIOps with Karini.",
+			"og:url": "https://www.karini.ai/blogs/building-efficient-rag-systems",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-13-03",
+			"og:updated_time": "2024-13-03",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBuilding_Efficient_RAG_Systems.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBuilding_Efficient_RAG_Systems.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt": "building-efficient-rag-systems",
+			"twitter:card": "summary",
+			"twitter:description":
+				"How to operationalize Generative AI with Karini.ai's GenAI Orchestration platform, enhance RAG for precision and speed in response generation #GenAIOps with Karini.",
+			"twitter:title":
+				"Optimize RAG Systems with Karini AI's GenAIOps Platform",
+			"twitter:site":
+				"https://www.karini.ai/blogs/building-efficient-rag-systems",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBuilding_Efficient_RAG_Systems.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Optimize RAG Systems with Karini AI's GenAIOps Platform",
 			metaTitle: "Build Efficient RAG Systems | Karini AI GenAIOps",
@@ -2668,6 +2888,35 @@ export const blogDetailsData = [
 		publishedOn: "April 25th, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "5 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Supercharged Compound AI with Amazon Bedrock &; Karini.ai",
+			"og:description":
+				"Discover how Karini.ai enhances Amazon Bedrock compound GenAI systems for greater innovation, efficiency, and scalability. Revolutionize your tech today!",
+			"og:url":
+				"https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-25-04",
+			"og:updated_time": "2024-25-04",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt": "amazon-bedrock-compound-ai-systems",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Discover how Karini.ai enhances Amazon Bedrock compound GenAI systems for greater innovation, efficiency, and scalability. Revolutionize your tech today!",
+			"twitter:title":
+				"Supercharged Compound AI with Amazon Bedrock &; Karini.ai",
+			"twitter:site":
+				"https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Supercharged Compound AI with Amazon Bedrock & Karini.ai",
 			metaTitle: "Elevate GenAI Systems with Amazon Bedrock & Karini AI",
@@ -2914,6 +3163,35 @@ export const blogDetailsData = [
 		publishedOn: "February 2, 2024",
 		author: "Jerome Mendell",
 		timeToRead: "3 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Unified Data & Gen AI: Unleashing Potential | Karini AI",
+			"og:description":
+				"Explore how Karini AI leverages unified data through Generative AI to drive business intelligence and innovation. Unlock new insights and efficiencies.",
+			"og:url":
+				"https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-02-02",
+			"og:updated_time": "2024-02-02",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEvolution_of_Gen_AI.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEvolution_of_Gen_AI.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt": "unleashing-the-potential-of-unified-data",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Explore how Karini AI leverages unified data through Generative AI to drive business intelligence and innovation. Unlock new insights and efficiencies.",
+			"twitter:title":
+				"Unified Data & Gen AI: Unleashing Potential | Karini AI",
+			"twitter:site":
+				"https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEvolution_of_Gen_AI.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Unified Data & Gen AI: Unleashing Potential | Karini AI",
 			metaTitle: "Unleash Data Potential with Gen AI | Karini AI Blog",

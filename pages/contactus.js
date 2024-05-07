@@ -10,7 +10,10 @@ const contactus = () => {
 		<>
 			<Head>
 				<title>Contact Karini AI: Get in Touch with AI Experts</title>
-				<meta name="title" content="Reach Out to Karini AI – Your AI Solution Partner"></meta>
+				<meta
+					name="title"
+					content="Reach Out to Karini AI – Your AI Solution Partner"
+				></meta>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
@@ -24,13 +27,17 @@ const contactus = () => {
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai/contactus" />
-				<link rel="alternate" href="https://www.karini.ai/contactus" hrefLang="en-us" />
+				<link
+					rel="alternate"
+					href="https://www.karini.ai/contactus"
+					hrefLang="en-us"
+				/>
 			</Head>
 			<div className={`font-sans subpixel-antialiased bg-white`}>
 				{/* <Hero /> */}
 				<ContactUs />
 				<OurOffices />
-				<section className="bg-white relative">
+				{/* <section className="bg-white relative">
 					<div className="bg-gradient-to-br from-primary-900 from-30% via-primary-700 to-primary-500 overflow-hidden z-10 relative">
 						<div className="-z-10 absolute -right-32 -top-16 bg-gradient-to-br from-primary-100 to-primary-500 rounded-full shadow-lg">
 							<div className="p-20 m-8 bg-primary-600 rounded-full"></div>
@@ -43,7 +50,7 @@ const contactus = () => {
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> */}
 			</div>
 		</>
 	);

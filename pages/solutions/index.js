@@ -22,7 +22,7 @@ const solution = () => {
 			>
 				<Hero />
 				<Solutions />
-				<CTA />
+				{/* <CTA /> */}
 			</div>
 		</>
 	);

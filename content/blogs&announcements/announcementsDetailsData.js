@@ -32,6 +32,34 @@ export const announcementsDetailsData = [
 		title: "Karini AI Launches Streaming for Copilot",
 		postedOn: "January 18, 2024",
 		timeToRead: "2 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Karini AI Launches Copilot Streaming Feature",
+			"og:description":
+				"Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications.",
+			"og:url":
+				"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-18-01",
+			"og:updated_time": "2024-18-01",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FStreaming-eye-catcher.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FStreaming-eye-catcher.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt": "karini-ai-launches-streaming-for-copilot",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications.",
+			"twitter:title": "Karini AI Launches Copilot Streaming Feature",
+			"twitter:site":
+				"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FStreaming-eye-catcher.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Karini AI Launches Copilot Streaming Feature",
 			metaTitle: "Streaming for Copilot by Karini AI: A New Era",
@@ -133,6 +161,34 @@ export const announcementsDetailsData = [
 			"Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
 		postedOn: "January 22, 2024",
 		timeToRead: "2 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Karini AI's Enhanced Prompt Playground Unveiled",
+			"og:description":
+				"Explore Karini AI's Enhanced Prompt Playground. A breakthrough in AI development, offering intuitive prompt creation and model testing for experts.",
+			"og:url":
+				"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-22-01",
+			"og:updated_time": "2024-22-01",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_Evolves_Prompting_Experience.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_Evolves_Prompting_Experience.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt": "karini-ai-unveils-enhanced-prompt-playground",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Explore Karini AI's Enhanced Prompt Playground. A breakthrough in AI development, offering intuitive prompt creation and model testing for experts.",
+			"twitter:title": "Karini AI's Enhanced Prompt Playground Unveiled",
+			"twitter:site":
+				"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_Evolves_Prompting_Experience.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Karini AI's Enhanced Prompt Playground Unveiled",
 			metaTitle: "Enhanced Prompt Playground by Karini AI Revealed",
@@ -235,6 +291,35 @@ export const announcementsDetailsData = [
 		title: "Karini AI Announces Full Support for Amazon Bedrock Models",
 		postedOn: "December 1, 2023",
 		timeToRead: "2 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Karini AI Supports Amazon Bedrock Models Fully",
+			"og:description":
+				"Discover Karini AI's complete support for Amazon Bedrock Models, enhancing AI solutions with robust, scalable, and versatile AI model integration.",
+			"og:url":
+				"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2023-12-01",
+			"og:updated_time": "2021-12-01",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBedrock_Models_Support.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBedrock_Models_Support.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt":
+				"karini-ai-announces-full-support-for-amazon-bedrock-models",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Discover Karini AI's complete support for Amazon Bedrock Models, enhancing AI solutions with robust, scalable, and versatile AI model integration.",
+			"twitter:title": "Karini AI Supports Amazon Bedrock Models Fully",
+			"twitter:site":
+				"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBedrock_Models_Support.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Karini AI Supports Amazon Bedrock Models Fully",
 			metaTitle: "Full Amazon Bedrock Model Support by Karini AI",
@@ -383,6 +468,34 @@ export const announcementsDetailsData = [
 		title: "Karini AI Embarks on a New Partnership with Databricks",
 		postedOn: "November 14, 2023",
 		timeToRead: "2 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Karini AI & Databricks New Partnership Unveiled",
+			"og:description":
+				"Karini AI partners with Databricks to revolutionize AI development. Discover how this collaboration paves the way for advanced AI solutions and innovation.",
+			"og:url":
+				"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2023-14-11",
+			"og:updated_time": "2023-14-11",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FDatabricks_Partnership.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FDatabricks_Partnership.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt": "karini-ai-embarks-on-a-new-partnership-with-databricks",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Karini AI partners with Databricks to revolutionize AI development. Discover how this collaboration paves the way for advanced AI solutions and innovation.",
+			"twitter:title": "Karini AI & Databricks New Partnership Unveiled",
+			"twitter:site":
+				"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FDatabricks_Partnership.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Karini AI & Databricks New Partnership Unveiled",
 			metaTitle: "Karini AI and Databricks Forge New AI Partnership",
@@ -532,6 +645,36 @@ export const announcementsDetailsData = [
 			"Karini AI Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox",
 		postedOn: "March 11th, 2024",
 		timeToRead: "3 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Karini.ai Integrates Google, Azure, Confluence, Dropbox",
+			"og:description":
+				"Break silos! Karini.ai integrates w/ Google, Azure, Confluence, Dropbox for enterprise GenAI apps. #NoCodeAI",
+			"og:url":
+				"https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-11-03",
+			"og:updated_time": "2024-11-03",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt":
+				"enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Break silos! Karini.ai integrates w/ Google, Azure, Confluence, Dropbox for enterprise GenAI apps. #NoCodeAI",
+			"twitter:title":
+				"Karini.ai Integrates Google, Azure, Confluence, Dropbox",
+			"twitter:site":
+				"https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Karini.ai Integrates Google, Azure, Confluence, Dropbox",
 			metaTitle:
@@ -674,6 +817,35 @@ export const announcementsDetailsData = [
 			"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
 		postedOn: "October 16, 2023",
 		timeToRead: "2 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Karini AI & AWS Partner as ISV - Major Announcement",
+			"og:description":
+				"Discover Karini AI's new chapter as an Independent Software Vendor (ISV) with Amazon Web Services. A milestone in AI innovation and cloud computing synergy.",
+			"og:url":
+				"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2023-16-10",
+			"og:updated_time": "2023-16-10",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt":
+				"karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Discover Karini AI's new chapter as an Independent Software Vendor (ISV) with Amazon Web Services. A milestone in AI innovation and cloud computing synergy.",
+			"twitter:title": "Karini AI & AWS Partner as ISV - Major Announcement",
+			"twitter:site":
+				"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Karini AI & AWS Partner as ISV - Major Announcement",
 			metaTitle: "Karini AI Partners with AWS | Official ISV Announcement",
@@ -804,6 +976,36 @@ export const announcementsDetailsData = [
 		title: "Karini AI releases the first purpose-built platform for GenAIOps",
 		postedOn: "February 6, 2024",
 		timeToRead: "2 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Karini AI Unveils GenAIOps Platform - Revolutionizing AI",
+			"og:description":
+				"Discover Karini AI's groundbreaking platform for GenAIops, enabling businesses to build, test, and deploy Generative AI apps with ease",
+			"og:url":
+				"https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-06-02",
+			"og:updated_time": "2024-06-02",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75",
+			"og:image:width": "1920",
+			"og:image:height": "1280",
+			"og:image:alt":
+				"karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Discover Karini AI's groundbreaking platform for GenAIops, enabling businesses to build, test, and deploy Generative AI apps with ease",
+			"twitter:title":
+				"Karini AI Unveils GenAIOps Platform - Revolutionizing AI",
+			"twitter:site":
+				"https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Karini AI Unveils GenAIOps Platform - Revolutionizing AI",
 			metaTitle: "Karini AI Launches GenAIOps - Transforming Enterprise AI",

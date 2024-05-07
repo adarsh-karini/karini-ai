@@ -38,7 +38,7 @@ const BlogsandAnn = () => {
 		let blogTypes = Array.from(
 			new Set(allBlogs.map((blog) => blog.filterName))
 		);
-		console.log("blogTypes", blogTypes);
+		// console.log("blogTypes", blogTypes);
 
 		if (activeFilter === "all") {
 			setFilteredBlogs(sortedBlogsByDate(allBlogs));

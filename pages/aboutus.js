@@ -20,7 +20,10 @@ const aboutus = () => {
 		<>
 			<Head>
 				<title>About Karini AI: Pioneers in Generative AI Solutions</title>
-				<meta name="title" content="Meet Karini AI: Leading Generative AI Innovators"></meta>
+				<meta
+					name="title"
+					content="Meet Karini AI: Leading Generative AI Innovators"
+				></meta>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
@@ -34,7 +37,11 @@ const aboutus = () => {
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai/aboutus" />
-				<link rel="alternate" href="https://www.karini.ai/aboutus" hrefLang="en-us" />
+				<link
+					rel="alternate"
+					href="https://www.karini.ai/aboutus"
+					hrefLang="en-us"
+				/>
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
@@ -46,7 +53,7 @@ const aboutus = () => {
 				{/* <TheProcess /> */}
 				{/* <VisionMission /> */}
 				{/* <OurClients /> */}
-				<section className="bg-white relative">
+				{/* <section className="bg-white relative">
 					<div className="bg-gradient-to-br from-primary-900 from-30% via-primary-700 to-primary-500 overflow-hidden z-10 relative">
 						<div className="-z-10 absolute -right-32 -top-16 bg-gradient-to-br from-primary-100 to-primary-500 rounded-full shadow-lg">
 							<div className="p-20 m-8 bg-primary-600 rounded-full"></div>
@@ -59,7 +66,7 @@ const aboutus = () => {
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> */}
 			</div>
 		</>
 	);

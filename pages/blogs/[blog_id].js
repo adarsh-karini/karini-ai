@@ -40,40 +40,12 @@ const Blog = ({ blogData }) => {
 				<title>{blogData?.SEO_data.title}</title>
 				<meta name="title" content={blogData?.SEO_data.metaTitle}></meta>
 				<meta name="description" content={blogData?.SEO_data.description} />
-				<meta property="og:image" content={blogData?.blog_image} />
 				<meta name="keywords" content={blogData?.SEO_data.keywords} />
 				<meta name="robots" content="index,follow" />
-				<meta property="og:local" content="en_US" />
-				<meta property="og:type" content="article" />
-				<meta
-					property="og:title"
-					content="Supercharged Compound AI with Amazon Bedrock Karini.ai"
-				/>
-				<meta
-					property="og:description"
-					content="Discover how Karini.ai enhances Amazon Bedrock compound GenAI systems for greater innovation, efficiency, and scalability. Revolutionize your tech today!"
-				/>
-				<meta
-					property="og:url"
-					content="https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems"
-				/>
-				<meta property="og:site_name" content="Karini AI" />
-				<meta property="article:published_time" content="2024-25-04" />
-				<meta property="og:updated_time" content="2024-25-04" />
-				<meta
-					property="og:image"
-					content="https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75"
-				/>
-				<meta
-					property="og:image:secure_url"
-					content="https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75"
-				/>
-				<meta property="og:image:width" content="1920" />
-				<meta property="og:image:height" content="1280" />
-				<meta
-					property="og:image:alt"
-					content="amazon-bedrock-compound-ai-systems"
-				/>
+				{Object.keys(blogData?.metadata).length > 0 &&
+					Object.entries(blogData?.metadata).map(([key, value]) => (
+						<meta key={key} property={key} content={value} />
+					))}
 				<link
 					rel="alternate"
 					href={blogData?.SEO_data.hreflang}
@@ -98,7 +70,7 @@ const Blog = ({ blogData }) => {
 				<BreadCrumb title={blogData?.breadCrumbTitle} />
 				<div className="py-5 bg-black"></div>
 				<BlogPage blogData={blogData} />
-				<CTA />
+				{/* <CTA /> */}
 				<Script
 					async
 					type="application/javascript"
@@ -127,7 +99,7 @@ export default Blog;
 export async function getServerSideProps(context) {
 	// Fetch data from an external API
 	const { blog_id } = context.query;
-	console.log("blog_id", blog_id);
+	// console.log("blog_id", blog_id);
 	const [result] = blogDetailsData?.filter((blog) => blog.id === blog_id);
 
 	return {
