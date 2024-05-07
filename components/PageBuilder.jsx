@@ -1,5 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import { FaLinkedin } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
 
 const PageBuilder = ({ data }) => {
 	const getDynamicClassName = (val) => {
@@ -88,10 +91,53 @@ const PageBuilder = ({ data }) => {
 									</p>
 								)}
 							</div>
-							<div className="flex justify-center items-end">
+							<div className="flex space-x-4 justify-center items-center">
 								<p className="bg-secondary-100 border rounded-full text-black text-xs font-medium italic py-1 px-2">
 									{data?.timeToRead}
 								</p>
+								<div className="flex space-x-2">
+									<Link
+										href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+											data?.SEO_data?.hreflang
+										)}`}
+										target="_blank"
+									>
+										<FaLinkedin
+											size={25}
+											className="cursor-pointer"
+											color="#0077b5"
+										/>
+									</Link>
+									<Link
+										href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
+											data?.SEO_data?.hreflang
+										)}`}
+										target="_blank"
+									>
+										<Image
+											src={"/assets/images/xtwitter.png"}
+											alt={"twitter"}
+											target="_blank"
+											width={25}
+											height={25}
+										/>
+									</Link>
+								</div>
+
+								{/* <FiExternalLink
+										size={20}
+										className="text-primary-900 cursor-pointer"
+										onClick={async () => {
+											if (data?.SEO_data?.hreflang) {
+												await navigator.clipboard.writeText(
+													data?.SEO_data?.hreflang
+												);
+												setTimeout(async () => {
+													await navigator.clipboard.writeText("");
+												}, 3000);
+											}
+										}}
+									/> */}
 							</div>
 						</div>
 					</div>
@@ -149,7 +195,6 @@ const PageBuilder = ({ data }) => {
 																title={val.imageAltName}
 																className="rounded border p-2"
 															/>
-															
 														</div>
 														{val.caption && (
 															<small className="block text-center text-secondary-600 text-sm italic font-medium">
@@ -161,10 +206,14 @@ const PageBuilder = ({ data }) => {
 												{val.type == "base_image" && (
 													<div className="space-y-1">
 														<div className="flex justify-center">
-															
-															<img src={val.path} height={val.width}
-																width={val.height} alt={val.imageAltName}
-																title={val.imageAltName} className="rounded border p-2" />
+															<img
+																src={val.path}
+																height={val.width}
+																width={val.height}
+																alt={val.imageAltName}
+																title={val.imageAltName}
+																className="rounded border p-2"
+															/>
 														</div>
 														{val.caption && (
 															<small className="block text-center text-secondary-600 text-sm italic font-medium">
