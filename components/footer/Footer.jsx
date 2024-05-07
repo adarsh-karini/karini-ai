@@ -119,7 +119,7 @@ const Footer = () => {
 							<div className="space-y-2">
 								<p className="text-black font-semibold text-lg">Contact us</p>
 								<div className="grid grid-cols-1 gap-2">
-									<div className="flex items-center space-x-1">
+									<div className="text-black flex items-center space-x-1">
 										<BiSolidMapPin
 											size={20}
 											className="text-primary-600 mr-1"
@@ -133,7 +133,7 @@ const Footer = () => {
 										</Link> */}{" "}
 										Georgia, USA
 									</div>
-									<div className="flex items-center space-x-1">
+									<div className="text-black flex items-center space-x-1">
 										<BiSolidMapPin
 											size={20}
 											className="text-primary-600 mr-1"
