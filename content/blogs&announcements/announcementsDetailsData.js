@@ -47,8 +47,8 @@ export const announcementsDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FStreaming-eye-catcher.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FStreaming-eye-catcher.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt": "karini-ai-launches-streaming-for-copilot",
 			"twitter:card": "summary",
 			"twitter:description":
@@ -176,8 +176,8 @@ export const announcementsDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_Evolves_Prompting_Experience.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_Evolves_Prompting_Experience.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt": "karini-ai-unveils-enhanced-prompt-playground",
 			"twitter:card": "summary",
 			"twitter:description":
@@ -306,8 +306,8 @@ export const announcementsDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBedrock_Models_Support.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBedrock_Models_Support.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt":
 				"karini-ai-announces-full-support-for-amazon-bedrock-models",
 			"twitter:card": "summary",
@@ -483,8 +483,8 @@ export const announcementsDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FDatabricks_Partnership.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FDatabricks_Partnership.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt": "karini-ai-embarks-on-a-new-partnership-with-databricks",
 			"twitter:card": "summary",
 			"twitter:description":
@@ -660,8 +660,8 @@ export const announcementsDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt":
 				"enterprise-connectivity-integrating-google-azure-confluence-dropbox",
 			"twitter:card": "summary",
@@ -832,8 +832,8 @@ export const announcementsDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt":
 				"karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 			"twitter:card": "summary",
@@ -991,8 +991,8 @@ export const announcementsDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt":
 				"karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 			"twitter:card": "summary",

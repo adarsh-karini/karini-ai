@@ -36,8 +36,8 @@ let fontStyle = {
 			<meta property="og:updated_time" content="2024-25-04"/>
 			<meta property="og:image" content="https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75"/>
 			<meta property="og:image:secure_url" content="https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75"/>
-			<meta property="og:image:width" content="1920"/>
-			<meta property="og:image:height" content="1280"/>
+			<meta property="og:image:width" content="640"/>
+			<meta property="og:image:height" content="640"/>
 			<meta property="og:image:alt" content="amazon-bedrock-compound-ai-systems" />
   */
 }
@@ -65,8 +65,8 @@ export const blogDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FIndustrialize-Generative-AI.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FIndustrialize-Generative-AI.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt": "industrialize-generative-ai",
 			"twitter:card": "summary",
 			"twitter:description":
@@ -329,8 +329,8 @@ export const blogDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FNavigating_GenAIOps_in_Enterprises.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FNavigating_GenAIOps_in_Enterprises.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt": "navigating-genaiops-in-enterprises",
 			"twitter:card": "summary",
 			"twitter:description":
@@ -708,8 +708,8 @@ export const blogDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FMastering_Generative_AI.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FMastering_Generative_AI.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt": "mastering-generative-ai",
 			"twitter:card": "summary",
 			"twitter:description":
@@ -1239,8 +1239,8 @@ export const blogDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FFast_track_your_prompt_Experiments.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FFast_track_your_prompt_Experiments.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt":
 				"fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
 			"twitter:card": "summary",
@@ -1543,8 +1543,8 @@ export const blogDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Inevitable_Disruption_copy.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Inevitable_Disruption_copy.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt": "generative-ai-the-inevitable-disruption",
 			"twitter:card": "summary",
 			"twitter:description":
@@ -1923,8 +1923,8 @@ export const blogDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Evolution_of_AI_Agents.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Evolution_of_AI_Agents.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt": "the-evolution-of-ai-agents",
 			"twitter:card": "summary",
 			"twitter:description":
@@ -2282,8 +2282,8 @@ export const blogDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FGenAI_Visibility_with_Karini_AI.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FGenAI_Visibility_with_Karini_AI.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt": "genai-visibility",
 			"twitter:card": "summary",
 			"twitter:description":
@@ -2635,8 +2635,8 @@ export const blogDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBuilding_Efficient_RAG_Systems.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBuilding_Efficient_RAG_Systems.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt": "building-efficient-rag-systems",
 			"twitter:card": "summary",
 			"twitter:description":
@@ -2903,8 +2903,8 @@ export const blogDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt": "amazon-bedrock-compound-ai-systems",
 			"twitter:card": "summary",
 			"twitter:description":
@@ -3178,8 +3178,8 @@ export const blogDetailsData = [
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEvolution_of_Gen_AI.png&w=640&q=75",
 			"og:image:secure_url":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEvolution_of_Gen_AI.png&w=640&q=75",
-			"og:image:width": "1920",
-			"og:image:height": "1280",
+			"og:image:width": "640",
+			"og:image:height": "640",
 			"og:image:alt": "unleashing-the-potential-of-unified-data",
 			"twitter:card": "summary",
 			"twitter:description":

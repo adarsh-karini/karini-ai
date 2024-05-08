@@ -104,7 +104,7 @@ const BlogsandAnn = () => {
 									<Link key={index} href={blog.path}>
 										<article className="h-full bg-white rounded-md border shadow p-4">
 											<div className="flex space-x-4 space-y-0">
-												<div className="w-28">
+												<div className="w-28 sm:w-auto">
 													<Image
 														alt={blog.imageAltName}
 														title={blog.imageAltName}

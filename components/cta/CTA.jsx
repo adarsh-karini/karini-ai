@@ -8,7 +8,10 @@ const CTA = () => {
 	// console.log("pathname", pathname);
 	return (
 		<>
-			{pathname === "/services/genai" || pathname === "/services/ml" ? (
+			{pathname === "/services/genai" ||
+			pathname === "/services/ml" ||
+			pathname === "/aboutus" ||
+			pathname === "/contactus" ? (
 				<section className="bg-white relative">
 					<div className="bg-gradient-to-br from-primary-900 from-30% via-primary-700 to-primary-500 overflow-hidden z-10 relative">
 						<div className="-z-10 absolute -right-32 -top-16 bg-gradient-to-br from-primary-100 to-primary-500 rounded-full shadow-lg">
@@ -20,13 +23,21 @@ const CTA = () => {
 								<div className="p-20 absolute -left-20 -bottom-24 bg-primary-600 rounded-full opacity-50"></div>
 								<div className="p-20 absolute -right-20 -top-1/2 bg-primary-600 rounded-full opacity-50"></div>
 
+								<div className="block md:hidden space-y-1">
+									<p className="text-center text-white">
+										Let us help to accelerate your GenAI
+									</p>
+									{/* <h2 className="text-center text-xl font-bold text-white sm:text-2xl lg:text-3xl">
+										Generative AI
+									</h2> */}
+								</div>
 								<div className="md:hidden flex justify-center space-x-2">
 									<Link
-										href="https://app.karini.ai/chat"
+										href="https://app.karini.ai/contactus"
 										target="_blank"
 										className=" flex items-center space-x-2 bg-white px-3 sm:px-4 py-2 text-xs font-medium text-primary-900 transition duration-100 md:text-sm rounded"
 									>
-										<span>Contanct us</span>
+										<span>Get in touch</span>
 									</Link>
 								</div>
 							</div>
@@ -57,24 +68,16 @@ const CTA = () => {
 
 								<div className="md:hidden flex justify-center space-x-2">
 									<Link
-										href="https://app.karini.ai/chat"
-										target="_blank"
+										href="https://karini.ai/contactus"
 										className=" flex items-center space-x-2 bg-primary-200 px-3 sm:px-4 py-2 text-xs font-medium text-primary-900 transition duration-100 md:text-sm rounded"
 									>
-										<span>Try copilot</span>
-										<FiExternalLink size={20} className="text-primary-900" />
+										<span>Book a demo</span>
 									</Link>
 									<Link
-										href="https://app.karini.ai/signup"
+										href="https://app.karini.ai/signin"
 										className=" flex space-x-2 bg-dark text-secondary-300 text-xs font-medium border border-dark px-3 sm:px-4 py-2 transition duration-100 md:text-sm rounded"
 									>
-										<span>Contact us</span>
-										<span
-											aria-hidden="true"
-											className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
-										>
-											&rarr;
-										</span>
+										<span>Login</span>
 									</Link>
 								</div>
 							</div>
