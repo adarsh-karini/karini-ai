@@ -29,7 +29,7 @@ const CustomerStories = () => {
 						autoHeight={true}
 						// height={200}
 						autoplay={{
-							delay: 4000,
+							delay: 10000,
 							pauseOnMouseEnter: true,
 							disableOnInteraction: false,
 						}}
@@ -96,7 +96,7 @@ const CustomerStories = () => {
 						autoHeight={true}
 						// height={200}
 						autoplay={{
-							delay: 7000,
+							delay: 10000,
 							pauseOnMouseEnter: true,
 							disableOnInteraction: false,
 						}}
