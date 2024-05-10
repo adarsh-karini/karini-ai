@@ -19,8 +19,13 @@ const index = () => {
 	return (
 		<>
 			<Head>
-				<title>Karini AI: GenAIOps - Generative AI for Enterprise Applications</title>
-				<meta name="title" content="No code platform connecting for GenAI Operationalization"></meta>
+				<title>
+					Karini AI: GenAIOps - Generative AI for Enterprise Applications
+				</title>
+				<meta
+					name="title"
+					content="No code platform connecting for GenAI Operationalization"
+				></meta>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
@@ -34,7 +39,7 @@ const index = () => {
 
 				<meta name="robots" content="index,follow" />
 
-				<link rel="canonical" href="https://www.karini.ai"/>
+				<link rel="canonical" href="https://www.karini.ai" />
 				<link rel="alternate" href="https://www.karini.ai/" hrefLang="en-us" />
 				<meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@karini_ai" />
