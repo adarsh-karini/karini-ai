@@ -1,8 +1,8 @@
 import PageBuilder from "@/components/PageBuilder";
-import Image from "next/image";
 import React from "react";
 
 const AnnPage = ({ annData }) => {
+	console.log("annData", annData);
 	return <PageBuilder data={annData} />;
 };
 

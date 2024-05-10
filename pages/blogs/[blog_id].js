@@ -40,13 +40,22 @@ const Blog = ({ blogData }) => {
 				<title>{blogData?.SEO_data.title}</title>
 				<meta name="title" content={blogData?.SEO_data.metaTitle}></meta>
 				<meta name="description" content={blogData?.SEO_data.description} />
-				<meta
-					name="keywords"
-					content={blogData?.SEO_data.keywords}
-				/>
+				<meta name="keywords" content={blogData?.SEO_data.keywords} />
 				<meta name="robots" content="index,follow" />
-
-				<link rel="alternate" href={blogData?.SEO_data.hreflang} hrefLang="en-us" />
+				{Object.keys(blogData?.metadata).length > 0 &&
+					Object.entries(blogData?.metadata).map(([key, value]) => {
+						let keyName = /twitter:/.test(key);
+						if (keyName) {
+							return <meta key={key} name={key} content={value} />;
+						} else {
+							return <meta key={key} property={key} content={value} />;
+						}
+					})}
+				<link
+					rel="alternate"
+					href={blogData?.SEO_data.hreflang}
+					hrefLang="en-us"
+				/>
 				<link rel="canonical" href={blogData?.SEO_data.canonicalLink} />
 				{/* Schema Markup */}
 				{blogData && (
@@ -66,7 +75,7 @@ const Blog = ({ blogData }) => {
 				<BreadCrumb title={blogData?.breadCrumbTitle} />
 				<div className="py-5 bg-black"></div>
 				<BlogPage blogData={blogData} />
-				<CTA />
+				{/* <CTA /> */}
 				<Script
 					async
 					type="application/javascript"
@@ -95,7 +104,7 @@ export default Blog;
 export async function getServerSideProps(context) {
 	// Fetch data from an external API
 	const { blog_id } = context.query;
-	console.log("blog_id",blog_id)
+	// console.log("blog_id", blog_id);
 	const [result] = blogDetailsData?.filter((blog) => blog.id === blog_id);
 
 	return {

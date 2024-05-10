@@ -14,7 +14,10 @@ const blog = () => {
 		<>
 			<Head>
 				<title>Explore Gen AI Evolution & Insights | Karini AI Blog</title>
-				<meta name="title" content="Karini AI Blog: Latest in Generative AI Development"></meta>
+				<meta
+					name="title"
+					content="Karini AI Blog: Latest in Generative AI Development"
+				></meta>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
@@ -28,7 +31,11 @@ const blog = () => {
 				<meta name="robots" content="index,follow" />
 
 				<link rel="canonical" href="https://www.karini.ai/blogs" />
-				<link rel="alternate" href="https://www.karini.ai/blogs" hrefLang="en-us" />
+				<link
+					rel="alternate"
+					href="https://www.karini.ai/blogs"
+					hrefLang="en-us"
+				/>
 				<meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@karini_ai" />
 				<meta
@@ -46,7 +53,7 @@ const blog = () => {
 			</Head>
 			<div className={`font-sans subpixel-antialiased bg-white`}>
 				<BlogsandAnn />
-				<CTA />
+				{/* <CTA /> */}
 			</div>
 		</>
 	);
