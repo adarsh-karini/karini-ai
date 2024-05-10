@@ -16,7 +16,10 @@ const termsofuse = () => {
 		<>
 			<Head>
 				<title>Karini AI Terms of Use - Your Guide to Our Services</title>
-				<meta name="title" content="Karini AI Official Terms of Service Agreement"></meta>
+				<meta
+					name="title"
+					content="Karini AI Official Terms of Service Agreement"
+				></meta>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
 				<meta
@@ -29,7 +32,42 @@ const termsofuse = () => {
 				/>
 				<meta name="robots" content="index, follow" />
 				<link rel="canonical" href="https://www.karini.ai/termsofuse" />
-				<link rel="alternate" href="https://www.karini.ai/termsofuse" hrefLang="en-us" />
+				<link
+					rel="alternate"
+					href="https://www.karini.ai/termsofuse"
+					hrefLang="en-us"
+				/>
+
+				<meta property="og:local" content="en_US" />
+
+				<meta
+					property="og:title"
+					content="Karini AI Terms of Use - Your Guide to Our Services"
+				/>
+				<meta
+					property="og:description"
+					content="Explore the Terms of Use for Karini AI. Understand your rights, responsibilities, and our service guidelines to ensure a great experience."
+				/>
+				<meta property="og:url" content="https://www.karini.ai/termsofuse" />
+				<meta property="og:site_name" content="Karini AI Terms of use" />
+
+				<meta property="og:image" content="https://www.karini.ai" />
+				<meta property="og:image:secure_url" content="https://www.karini.ai" />
+				<meta property="og:image:width" content="1920" />
+				<meta property="og:image:height" content="1280" />
+				<meta property="og:image:alt" content="karini-ai-terms-of-use" />
+
+				<meta
+					name="twitter:description"
+					content="Explore the Terms of Use for Karini AI. Understand your rights, responsibilities, and our service guidelines to ensure a great experience."
+				/>
+				<meta
+					name="twitter:title"
+					content="Karini AI Terms of Use - Your Guide to Our Services"
+				/>
+				<meta name="twitter:site" content="https://www.karini.ai/termsofuse" />
+				<meta name="twitter:image" content="https://www.karini.ai" />
+				<meta name="twitter:creator" content="Karini AI" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}

@@ -104,14 +104,14 @@ const BlogsandAnn = () => {
 									<Link key={index} href={blog.path}>
 										<article className="h-full bg-white rounded-md border shadow p-4">
 											<div className="flex space-x-4 space-y-0">
-												<div className="w-28 sm:w-auto">
+												<div className="flex items-center w-28">
 													<Image
 														alt={blog.imageAltName}
 														title={blog.imageAltName}
 														src={blog.image}
 														width={500}
 														height={500}
-														className="object-fill w-full h-full rounded"
+														className="w-full rounded"
 													/>
 												</div>
 												<div className="flex-1 flex flex-col justify-between">

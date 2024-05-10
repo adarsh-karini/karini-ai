@@ -185,7 +185,7 @@ const PageBuilder = ({ data }) => {
 												)}
 												{val.type == "image" && (
 													<div className="space-y-1">
-														<div className="flex justify-center">
+														<div className="flex justify-center items-center">
 															<Image
 																quality={100}
 																src={val.path}

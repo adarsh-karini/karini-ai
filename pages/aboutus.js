@@ -42,6 +42,37 @@ const aboutus = () => {
 					href="https://www.karini.ai/aboutus"
 					hrefLang="en-us"
 				/>
+
+				<meta property="og:local" content="en_US" />
+
+				<meta
+					property="og:title"
+					content="About Karini AI: Pioneers in Generative AI Solutions"
+				/>
+				<meta
+					property="og:description"
+					content="Discover Karini AI&#x27;s journey in revolutionizing businesses with Generative AI. Learn about our mission, vision, and the team driving AI innovation."
+				/>
+				<meta property="og:url" content="https://www.karini.ai/aboutus" />
+				<meta property="og:site_name" content="Karini AI About Us" />
+
+				<meta property="og:image" content="https://www.karini.ai" />
+				<meta property="og:image:secure_url" content="https://www.karini.ai" />
+				<meta property="og:image:width" content="1920" />
+				<meta property="og:image:height" content="1280" />
+				<meta property="og:image:alt" content="karini-ai-about-us" />
+
+				<meta
+					name="twitter:description"
+					content="Discover Karini AI&#x27;s journey in revolutionizing businesses with Generative AI. Learn about our mission, vision, and the team driving AI innovation."
+				/>
+				<meta
+					name="twitter:title"
+					content="About Karini AI: Pioneers in Generative AI Solutions"
+				/>
+				<meta name="twitter:site" content="https://www.karini.ai/aboutus" />
+				<meta name="twitter:image" content="https://www.karini.ai" />
+				<meta name="twitter:creator" content="Karini AI" />
 			</Head>
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
