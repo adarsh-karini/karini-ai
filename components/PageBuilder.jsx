@@ -1,10 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { FaLinkedin } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
+import { GoArrowRight } from "react-icons/go";
+
+import { announcementsData } from "@/content/blogs&announcements/announcementsData";
+import { blogsData } from "@/content/blogs&announcements/blogsData";
+import moment from "moment";
 
 const PageBuilder = ({ data }) => {
+	const [filteredBlogs, setFilteredBlogs] = useState([]);
+	const pathname = usePathname();
+
 	const getDynamicClassName = (val) => {
 		const fontSizeClass = () => {
 			switch (val.fontSize) {
@@ -50,9 +59,26 @@ const PageBuilder = ({ data }) => {
 		return `${fontSize} ${fontWeight} ${fontStyle}`;
 	};
 
+	useEffect(() => {
+		let blogs = blogsData.filter((blog) => blog.show);
+
+		let announcements = announcementsData.filter(
+			(announcement) => announcement.show
+		);
+
+		let allBlogs = [...blogs, ...announcements]
+			.filter((blog) => blog.path !== pathname)
+			.sort((a, b) =>
+				moment(b.date, "MMM Do, YYYY").diff(moment(a.date, "MMM Do, YYYY"))
+			)
+			.slice(0, 3);
+
+		setFilteredBlogs(allBlogs);
+	}, []);
+
 	return (
-		<section className="bg-white px-4 sm:px-10 pt-0 pb-6 overflow-x-hidden">
-			<div className="relative max-w-screen-lg mx-auto space-y-10">
+		<section className="bg-white overflow-x-hidden space-y-10">
+			<div className="relative max-w-screen-lg mx-auto space-y-10 px-4 sm:px-10 pt-0  pb-6">
 				<div className="absolute -left-72 -top-6 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg opacity-40"></div>
 				<div className="z-10 absolute -right-80 bottom-20 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg opacity-60">
 					<div className="p-20 m-8 bg-white rounded-full"></div>
@@ -271,6 +297,70 @@ const PageBuilder = ({ data }) => {
 							</div>
 						</div>
 					)}
+				</div>
+			</div>
+			<div className="bg-primary-50 py-4 px-4 lg:px-0 border-t">
+				<div className="max-w-screen-lg mx-auto space-y-4">
+					<p className="text-lg font-semibold text-primary-600">Recent posts</p>
+					<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+						{filteredBlogs &&
+							filteredBlogs.length > 0 &&
+							filteredBlogs.map((blog, index) => (
+								<Link key={index} href={blog.path}>
+									<article className="h-full bg-white rounded-md border shadow p-4">
+										<div className="flex space-x-4 space-y-0">
+											<div className="flex items-center w-28">
+												<Image
+													alt={blog.imageAltName}
+													title={blog.imageAltName}
+													src={blog.image}
+													width={500}
+													height={500}
+													className="w-full rounded"
+												/>
+											</div>
+											<div className="flex-1 flex flex-col justify-between">
+												<div className="space-y-1">
+													<span
+														className={`${
+															blog.type === "blog"
+																? "bg-primary-500 border-primary-500"
+																: "bg-[#e100ff] border-[#e100ff]"
+														} text-xs text-white border rounded-full py-1 px-2`}
+													>
+														{blog.type === "blog" ? "blog" : "announcement"}
+													</span>
+													<h3 className="text-sm font-semibold text-secondary-900 hover:text-primary-600 line-clamp-2">
+														{blog.title}
+													</h3>
+
+													{/* <p className="mt-2 line-clamp-3 text-xs sm:text-sm md:text-base text-secondary-700">
+														{blog.description}
+													</p> */}
+												</div>
+
+												<div className="flex justify-between items-end">
+													<div className="group mt-4 inline-flex items-center gap-1 text-xs md:text-sm font-medium text-primary-600">
+														<span className="flex-1">Read More</span>
+														<GoArrowRight
+															size={20}
+															className="text-primary-600"
+														/>
+													</div>
+													{/* <p className="text-primary-600 text-xs md:text-sm font-medium space-x-1 md:space-x-2">
+														<span>{blog.date}</span>
+														<span className="hidden sm:inline">|</span>
+														<span className="hidden sm:inline">
+															{blog.timeToRead}
+														</span>
+													</p> */}
+												</div>
+											</div>
+										</div>
+									</article>
+								</Link>
+							))}
+					</div>
 				</div>
 			</div>
 		</section>
