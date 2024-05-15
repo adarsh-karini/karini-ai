@@ -85,8 +85,8 @@ const PageBuilder = ({ data }) => {
 	return (
 		<section className="bg-white overflow-x-hidden space-y-10">
 			<div className="relative max-w-screen-xl mx-auto space-y-10 px-4 sm:px-10 pt-0 pb-6">
-				<div className="hidden lg:block absolute -left-20 -top-6 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg opacity-40"></div>
-				<div className="hidden lg:block z-10 absolute -right-32 -top-16  bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg opacity-60">
+				<div className="hidden lg:block absolute -left-40 -top-6 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg opacity-40"></div>
+				<div className="hidden lg:block z-10 absolute -right-52 -top-16  bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg opacity-60">
 					<div className="p-20 m-8 bg-white rounded-full"></div>
 				</div>
 				<div className="flex flex-col lg:flex-row space-y-10 lg:space-y-0">
