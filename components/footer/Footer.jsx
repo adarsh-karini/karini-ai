@@ -68,6 +68,12 @@ const Footer = () => {
 									>
 										Platform
 									</Link>
+									<Link
+										href={"/aboutus#ourprojects"}
+										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
+									>
+										Our Projects
+									</Link>
 								</div>
 							</div>
 							<div className="space-y-2">

@@ -9,26 +9,29 @@ const ProjectSection = () => {
 	const iconColor = "#7c3aed";
 
 	return (
-		<section className="bg-gradient-to-b from-primary-50 from-0% to-white to-100% px-4 md:px-0 py-20 overflow-hidden">
+		<section
+			id="ourprojects"
+			className="bg-gradient-to-b from-primary-50 from-0% to-white to-100% px-4 md:px-0 py-20 overflow-hidden"
+		>
 			<div className="max-w-screen-md mx-auto space-y-10 md:space-y-16">
 				<h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
 					Our Projects
 				</h2>
 				<div className="space-y-6 px-4 lg:px-0">
 					<div className="pb-1 border-b">
-						<h1 className="text-primary-600 font-semibold tracking-tighter text-3xl">
+						<h2 className="text-primary-600 font-semibold tracking-tighter text-3xl">
 							Built with Karini AI
-						</h1>
+						</h2>
 						<p className="text-lg text-secondary-700 font-medium">
 							Unleash the Power of Generative AI: Build with Karini
 						</p>
 					</div>
 					<div className="space-y-4 py-3 border-b">
 						<div className="space-y-1">
-							<p className="text-black font-medium">
+							<h3 className="text-black font-medium">
 								Empower Your Business with Streamlined GenAI Application
 								Development
-							</p>
+							</h3>
 							<p className="text-secondary-700 text-sm leading-relaxed">
 								Karini AI isn&apos;t just another AI development tool. It&apos;s
 								a revolutionary platform designed to empower organizations to
@@ -39,9 +42,9 @@ const ProjectSection = () => {
 							</p>
 						</div>
 						<div className="space-y-1">
-							<p className="text-black font-medium">
+							<h3 className="text-black font-medium">
 								Unparalleled Collaboration for Superior Results
-							</p>
+							</h3>
 							<p className="text-secondary-700 text-sm leading-relaxed">
 								Karini AI bridges the gap between your subject matter experts
 								(SMEs) and your technical teams. SMEs can effortlessly
@@ -53,9 +56,9 @@ const ProjectSection = () => {
 							</p>
 						</div>
 						<div className="space-y-1">
-							<p className="text-black font-medium">
+							<h3 className="text-black font-medium">
 								Streamlined Development for Faster Time-to-value
-							</p>
+							</h3>
 							<p className="text-secondary-700 text-sm leading-relaxed">
 								Karini AI streamlines the entire application development
 								lifecycle. Its intuitive interface facilitates the management
@@ -67,9 +70,9 @@ const ProjectSection = () => {
 							</p>
 						</div>
 						<div className="space-y-1">
-							<p className="text-black font-medium">
+							<h3 className="text-black font-medium">
 								Future-Proof Your Innovation with Confidence
-							</p>
+							</h3>
 							<p className="text-secondary-700 text-sm leading-relaxed">
 								Built with scalability and maintainability, Karini AI&apos;s
 								persistent application journey record provides a comprehensive
@@ -79,7 +82,7 @@ const ProjectSection = () => {
 							</p>
 						</div>
 						<div className="space-y-1">
-							<p className="text-black font-medium">
+							<p className="text-black font-medium italic">
 								Build with Karini AI and unlock the full potential of Generative
 								AI.{" "}
 								<a
@@ -103,9 +106,9 @@ const ProjectSection = () => {
 						<div>
 							<a
 								href="https://www.karini.legal/"
-								className="text-sm text-blue-600 font-medium hover:underline"
+								className="text-base text-blue-600 font-medium hover:underline"
 							>
-								karinilegal.in
+								karini.legal
 							</a>
 							<p className="text-sm text-black font-medium">
 								Built by the Lawyers for the Legal Community to transform the
@@ -115,36 +118,44 @@ const ProjectSection = () => {
 						<div>
 							<ul className="text-secondary-600 text-sm space-y-3">
 								<ol>
-									<strong>AI-enabled Knowledge Base:</strong>Our AI-enabled
-									knowledge base helps you get the right legal advice at the
-									right time. Our AI engine is trained by top legal experts to
-									provide you with the best possible advice
+									<h3 className="text-black font-medium inline">
+										AI-enabled Knowledge Base:{" "}
+									</h3>
+									Our AI-enabled knowledge base helps you get the right legal
+									advice at the right time. Our AI engine is trained by top
+									legal experts to provide you with the best possible advice
 								</ol>
 								<ol>
-									<strong>
-										Multiple Skills Chatbot (Research, Summarization, Opinions):
-									</strong>{" "}
+									<h3 className="text-black font-medium inline">
+										Multiple Skills Chatbot (Research, Summarization, Opinions):{" "}
+									</h3>{" "}
 									Our multifaceted chatbot can perform extensive research,
 									provide concise summarizations, and offer expert opinions,
 									streamlining your legal processes and decision-making.
 								</ol>
 								<ol>
-									<strong>Smart Search:</strong> Leveraging advanced algorithms,
-									our Smart Search feature quickly finds the most relevant legal
-									documents, cases, and precedents, ensuring you have all the
-									necessary information.
+									<h3 className="text-black font-medium inline">
+										Smart Search:{" "}
+									</h3>{" "}
+									Leveraging advanced algorithms, our Smart Search feature
+									quickly finds the most relevant legal documents, cases, and
+									precedents, ensuring you have all the necessary information.
 								</ol>
 								<ol>
-									<strong>Document Management:</strong> Our document management
-									system simplifies your legal document handling. It offers easy
-									storage, retrieval, and organization of documents, making your
-									legal practice more efficient.
+									<h3 className="text-black font-medium inline">
+										Document Management:{" "}
+									</h3>{" "}
+									Our document management system simplifies your legal document
+									handling. It offers easy storage, retrieval, and organization
+									of documents, making your legal practice more efficient.
 								</ol>
 								<ol>
-									<strong>Citations for References:</strong> Our platform
-									automatically generates accurate citations for all your legal
-									references, ensuring your documents comply with legal
-									standards and saving you time on manual citation work.
+									<h3 className="text-black font-medium inline">
+										Citations for References:{" "}
+									</h3>{" "}
+									Our platform automatically generates accurate citations for
+									all your legal references, ensuring your documents comply with
+									legal standards and saving you time on manual citation work.
 								</ol>
 							</ul>
 						</div>
