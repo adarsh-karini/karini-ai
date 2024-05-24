@@ -7,6 +7,7 @@ import VisionMission from "@/components/aboutus/VisionMission";
 import WhoWeAre from "@/components/aboutus/WhoWeAre";
 import { Inter, Poppins } from "next/font/google";
 import Head from "next/head";
+import ProjectSection from "@/components/aboutus/ProjectSection";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -81,6 +82,7 @@ const aboutus = () => {
 				{/* <Stats /> */}
 				{/* <WhoWeAre /> */}
 				<OurLeadership />
+				<ProjectSection />
 				{/* <TheProcess /> */}
 				{/* <VisionMission /> */}
 				{/* <OurClients /> */}

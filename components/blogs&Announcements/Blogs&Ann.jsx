@@ -218,6 +218,16 @@ const BlogsandAnn = () => {
 								))}
 						</div>
 					</div>
+					<div className="py-6 flex justify-center items-center">
+						<div className="flex items-center space-x-1">
+							<button
+								type="button"
+								className="py-1 px-3 border rounded text-black text-sm"
+							>
+								1
+							</button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

@@ -3,6 +3,7 @@ User-agent: *
 Allow: /
 Disallow: /joinwaitlist
 Disallow: /sandbox/
+Disallow: /staging/
 Disallow: /app/
 Sitemap: https://www.karini.ai/sitemap.xml
 Sitemap: https://www.karini.ai/news_sitemap.xml
