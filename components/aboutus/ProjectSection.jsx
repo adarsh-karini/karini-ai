@@ -4,6 +4,10 @@ import Link from "next/link";
 import React from "react";
 import { ourLeadershipData } from "@/content/aboutus/OurLeadershipData";
 import { FaLinkedin } from "react-icons/fa";
+import {
+	kariniLegalData,
+	projectSectionData,
+} from "@/content/aboutus/ProjectSectionData";
 
 const ProjectSection = () => {
 	const iconColor = "#7c3aed";
@@ -17,83 +21,46 @@ const ProjectSection = () => {
 				<h2 className="text-black font-bold text-2xl sm:text-3xl text-center">
 					Our Projects
 				</h2>
-				<div className="space-y-6 px-4 lg:px-0">
-					<div className="pb-1 border-b">
-						<h2 className="text-primary-600 font-semibold tracking-tighter text-3xl">
-							Built with Karini AI
-						</h2>
-						<p className="text-lg text-secondary-700 font-medium">
-							Unleash the Power of Generative AI: Build with Karini
-						</p>
-					</div>
-					<div className="space-y-4 py-3 border-b">
-						<div className="space-y-1">
-							<h3 className="text-black font-medium">
-								Empower Your Business with Streamlined GenAI Application
-								Development
-							</h3>
-							<p className="text-secondary-700 text-sm leading-relaxed">
-								Karini AI isn&apos;t just another AI development tool. It&apos;s
-								a revolutionary platform designed to empower organizations to
-								leverage the transformative potential of Generative AI (GenAI)
-								applications. Forget complex coding and fragmented workflows.
-								Karini provides a user-friendly, unified environment that
-								simplifies the entire GenAI development process.
+				<div className="space-y-14 px-4 lg:px-0">
+					<div className="space-y-6">
+						<div className="pb-1 border-b">
+							<h2 className="text-primary-600 font-semibold tracking-tighter text-3xl">
+								Built with Karini AI
+							</h2>
+							<p className="text-lg text-secondary-700 font-medium">
+								Unleash the Power of Generative AI: Build with Karini
 							</p>
 						</div>
-						<div className="space-y-1">
-							<h3 className="text-black font-medium">
-								Unparalleled Collaboration for Superior Results
-							</h3>
-							<p className="text-secondary-700 text-sm leading-relaxed">
-								Karini AI bridges the gap between your subject matter experts
-								(SMEs) and your technical teams. SMEs can effortlessly
-								contribute their valuable domain knowledge while data scientists
-								and developers seamlessly translate that expertise into
-								effective AI prompts. Our intuitive &quot;prompt
-								playground&quot; fosters collaboration, ensuring the AI grasps
-								the nuances of your specific needs and goals.
-							</p>
-						</div>
-						<div className="space-y-1">
-							<h3 className="text-black font-medium">
-								Streamlined Development for Faster Time-to-value
-							</h3>
-							<p className="text-secondary-700 text-sm leading-relaxed">
-								Karini AI streamlines the entire application development
-								lifecycle. Its intuitive interface facilitates the management
-								and orchestration of all application components, simplifying
-								functionality creation. Karini&apos;s robust testing and
-								comparison capabilities also ensure you select the optimal AI
-								model for peak performance, accuracy, and reliability to meet
-								your business objectives.
-							</p>
-						</div>
-						<div className="space-y-1">
-							<h3 className="text-black font-medium">
-								Future-Proof Your Innovation with Confidence
-							</h3>
-							<p className="text-secondary-700 text-sm leading-relaxed">
-								Built with scalability and maintainability, Karini AI&apos;s
-								persistent application journey record provides a comprehensive
-								history of your AI development process. This minimizes technical
-								debt and empowers your team to manage and confidently update
-								your application well into the future.
-							</p>
-						</div>
-						<div className="space-y-1">
-							<p className="text-black font-medium italic">
-								Build with Karini AI and unlock the full potential of Generative
-								AI.{" "}
-								<a
-									href="https://www.karini.ai/contactus"
-									className="text-blue-600 hover:underline"
-								>
-									Contact us
-								</a>{" "}
-								today to learn how Karini can accelerate your innovation
-								journey.
-							</p>
+						<div className="space-y-4">
+							<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+								{projectSectionData.map((project, index) => (
+									<div
+										key={index}
+										className="space-y-2 rounded shadow-md border p-5"
+									>
+										<h3 className="text-sm text-black font-medium pb-2 border-b">
+											{project.title}
+										</h3>
+										<p className="text-secondary-700 text-sm leading-relaxed">
+											{project.description}
+										</p>
+									</div>
+								))}
+							</div>
+							<div className="space-y-1">
+								<p className="text-black italic">
+									Build with Karini AI and unlock the full potential of
+									Generative AI.{" "}
+									<a
+										href="https://www.karini.ai/contactus"
+										className="text-blue-600 hover:underline"
+									>
+										Contact us
+									</a>{" "}
+									today to learn how Karini can accelerate your innovation
+									journey.
+								</p>
+							</div>
 						</div>
 					</div>
 					<div className="space-y-6">
@@ -116,48 +83,21 @@ const ProjectSection = () => {
 							</p>
 						</div>
 						<div>
-							<ul className="text-secondary-600 text-sm space-y-3">
-								<ol>
-									<h3 className="text-black font-medium inline">
-										AI-enabled Knowledge Base:{" "}
-									</h3>
-									Our AI-enabled knowledge base helps you get the right legal
-									advice at the right time. Our AI engine is trained by top
-									legal experts to provide you with the best possible advice
-								</ol>
-								<ol>
-									<h3 className="text-black font-medium inline">
-										Multiple Skills Chatbot (Research, Summarization, Opinions):{" "}
-									</h3>{" "}
-									Our multifaceted chatbot can perform extensive research,
-									provide concise summarizations, and offer expert opinions,
-									streamlining your legal processes and decision-making.
-								</ol>
-								<ol>
-									<h3 className="text-black font-medium inline">
-										Smart Search:{" "}
-									</h3>{" "}
-									Leveraging advanced algorithms, our Smart Search feature
-									quickly finds the most relevant legal documents, cases, and
-									precedents, ensuring you have all the necessary information.
-								</ol>
-								<ol>
-									<h3 className="text-black font-medium inline">
-										Document Management:{" "}
-									</h3>{" "}
-									Our document management system simplifies your legal document
-									handling. It offers easy storage, retrieval, and organization
-									of documents, making your legal practice more efficient.
-								</ol>
-								<ol>
-									<h3 className="text-black font-medium inline">
-										Citations for References:{" "}
-									</h3>{" "}
-									Our platform automatically generates accurate citations for
-									all your legal references, ensuring your documents comply with
-									legal standards and saving you time on manual citation work.
-								</ol>
-							</ul>
+							<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+								{kariniLegalData.map((data, index) => (
+									<div
+										key={index}
+										className="space-y-2 rounded shadow-md border p-5"
+									>
+										<h3 className="text-sm text-black font-medium pb-2 border-b">
+											{data.title}
+										</h3>
+										<p className="text-secondary-700 text-sm leading-relaxed">
+											{data.description}
+										</p>
+									</div>
+								))}
+							</div>
 						</div>
 						<p className="text-sm italic text-primary-600 font-medium">
 							Every lawyer&apos;s dream AI companion is to make you the most
