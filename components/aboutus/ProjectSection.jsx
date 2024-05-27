@@ -72,10 +72,11 @@ const ProjectSection = () => {
 						</div>
 						<div>
 							<a
-								href="https://www.karini.legal/"
+								href="https://www.karinilegal.in/"
+								target="_blank"
 								className="text-base text-blue-600 font-medium hover:underline"
 							>
-								karini.legal
+								karinilegal.in
 							</a>
 							<p className="text-sm text-black font-medium">
 								Built by the Lawyers for the Legal Community to transform the

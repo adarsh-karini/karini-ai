@@ -17,7 +17,19 @@ const BlogsandAnn = () => {
 	const [activeFilter, setActiveFilter] = useState("all");
 	let filterButtons = blogsFilterArray;
 	const [filteredBlogs, setFilteredBlogs] = useState([]);
+	const [blogsArray, setBlogsArray] = useState([]);
 	const [view, setView] = useState("list"); // list, grid
+	const [pages, setPages] = useState(1);
+	const [currentPage, setCurrentPage] = useState(1);
+
+	const handlePagination = (pageNumber) => {
+		setCurrentPage(pageNumber);
+	};
+
+	const handleFilter = (button) => {
+		setActiveFilter(button);
+		setCurrentPage(1);
+	};
 
 	useEffect(() => {
 		let announcements = announcementsData.filter(
@@ -35,19 +47,36 @@ const BlogsandAnn = () => {
 			return result;
 		};
 
-		let blogTypes = Array.from(
-			new Set(allBlogs.map((blog) => blog.filterName))
-		);
-		// console.log("blogTypes", blogTypes);
-
 		if (activeFilter === "all") {
+			let pagesCount = Math.ceil(allBlogs.length / 6);
+			setPages(pagesCount);
 			setFilteredBlogs(sortedBlogsByDate(allBlogs));
 		} else if (activeFilter === "blogs") {
+			let pagesCount = Math.ceil(blogs.length / 6);
+			setPages(pagesCount);
 			setFilteredBlogs(sortedBlogsByDate(blogs));
 		} else if (activeFilter === "announcements") {
+			let pagesCount = Math.ceil(announcements.length / 6);
+			setPages(pagesCount);
 			setFilteredBlogs(sortedBlogsByDate(announcements));
 		}
 	}, [activeFilter]);
+
+	useEffect(() => {
+		let blogsLength = filteredBlogs.length;
+
+		console.log("blogsLength", blogsLength);
+
+		let sliceStart = (currentPage - 1) * 6;
+		let sliceEnd = currentPage * 6;
+
+		//get first 6 blogs
+		let blogsArray = filteredBlogs.slice(sliceStart, sliceEnd);
+
+		console.log("blogsArray", blogsArray);
+
+		setBlogsArray(blogsArray);
+	}, [filteredBlogs, currentPage]);
 
 	useEffect(() => {
 		let blogs = blogsData.filter((blog) => blog.show);
@@ -62,9 +91,14 @@ const BlogsandAnn = () => {
 			moment(b.date, "MMM Do, YYYY").diff(moment(a.date, "MMM Do, YYYY"))
 		);
 
-		// console.log("sortedBlogsByDate", sortedBlogsByDate);
-
 		setFilteredBlogs(sortedBlogsByDate);
+
+		let pagesCount = Math.ceil(sortedBlogsByDate.length / 6);
+		console.log("pagesCount", pagesCount);
+
+		setPages(pagesCount);
+
+		// console.log("sortedBlogsByDate", sortedBlogsByDate);
 	}, []);
 
 	return (
@@ -85,7 +119,7 @@ const BlogsandAnn = () => {
 											? "bg-primary-600 text-white"
 											: "bg-secondary-50 text-secondary-700 hover:bg-primary-100"
 									} text-sm px-2 py-1 rounded border transition-all`}
-									onClick={() => setActiveFilter(button)}
+									onClick={() => handleFilter(button)}
 								>
 									{button}
 								</button>
@@ -94,13 +128,13 @@ const BlogsandAnn = () => {
 					</div>
 					<div className="block md:hidden">
 						<div className="grid grid-cols-1 gap-4">
-							{filteredBlogs.length === 0 && (
+							{blogsArray.length === 0 && (
 								<p className="text-center text-black italic">
 									No blogs or announcements to show...
 								</p>
 							)}
-							{filteredBlogs.length > 0 &&
-								filteredBlogs.map((blog, index) => (
+							{blogsArray.length > 0 &&
+								blogsArray.map((blog, index) => (
 									<Link key={index} href={blog.path}>
 										<article className="h-full bg-white rounded-md border shadow p-4">
 											<div className="flex space-x-4 space-y-0">
@@ -159,13 +193,13 @@ const BlogsandAnn = () => {
 					</div>
 					<div className="hidden md:block">
 						<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-							{filteredBlogs.length === 0 && (
+							{blogsArray.length === 0 && (
 								<p className="text-center text-black italic">
 									No blogs or announcements to show...
 								</p>
 							)}
-							{filteredBlogs.length > 0 &&
-								filteredBlogs.map((blog, index) => (
+							{blogsArray.length > 0 &&
+								blogsArray.map((blog, index) => (
 									<Link key={index} href={blog.path}>
 										<div className="h-full bg-white flex flex-col border border-secondary-300 rounded shadow p-4 space-y-4 hover:scale-105 transition">
 											<div className="h-[300px] w-full">
@@ -220,12 +254,22 @@ const BlogsandAnn = () => {
 					</div>
 					<div className="py-6 flex justify-center items-center">
 						<div className="flex items-center space-x-1">
-							<button
-								type="button"
-								className="py-1 px-3 border rounded text-black text-sm"
-							>
-								1
-							</button>
+							{pages &&
+								pages > 1 &&
+								Array.from({ length: pages }).map((_, i) => (
+									<button
+										key={i}
+										type="button"
+										className={`${
+											i + 1 === currentPage
+												? "bg-primary-600 text-white"
+												: "bg-white border-secondary-300 text-black hover:bg-primary-50 hover:text-primary-600 hover:border-primary-400 transition"
+										} py-1 px-3 border rounded text-sm`}
+										onClick={() => handlePagination(i + 1)}
+									>
+										{i + 1}
+									</button>
+								))}
 						</div>
 					</div>
 				</div>
