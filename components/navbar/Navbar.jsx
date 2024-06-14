@@ -80,6 +80,7 @@ const Navbar2 = () => {
 							)}
 						</div>
 						{/* <Link href={"/solutions"}>Solutions</Link> */}
+						<Link href={"/partners"}>Our partners</Link>
 						<Link href={"/blogs"}>Blogs</Link>
 						{/* <Link href={"/pricing"}>Pricing</Link> */}
 						<Link href={"/aboutus"}>About us</Link>
@@ -204,6 +205,18 @@ const Navbar2 = () => {
 
 										<span className="text-sm font-medium"> Solutions </span>
 									</Link> */}
+									<Link
+										onClick={() => setMobileMenu((prev) => !prev)}
+										href={"/partners"}
+										className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+									>
+										<BsBookmarkStarFill
+											size={20}
+											className="text-secondary-600"
+										/>
+
+										<span className="text-sm font-medium"> Our partners </span>
+									</Link>
 
 									<Link
 										onClick={() => setMobileMenu((prev) => !prev)}

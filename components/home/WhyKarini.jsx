@@ -43,33 +43,31 @@ const WhyKarini2 = () => {
 							{whyKariniData.map((data, index) => (
 								<div
 									key={index}
-									className="bg-gradient-to-br from-gray-800 to-gray-950 space-y-2 shadow rounded-3xl p-6"
+									className="bg-gradient-to-br from-gray-800 to-gray-950 space-y-4 shadow rounded-3xl p-6"
 								>
 									<div className="flex justify-center">
 										{/* bg-primary-950 rounded-full */}
-										<div className="p-4">
-											{index === 0 && (
-												<IconOne width={40} height={40} color={iconColor} />
-											)}
-											{index === 1 && (
-												<IconTwo width={40} height={40} color={iconColor} />
-											)}
-											{index === 2 && (
-												<IconThree width={40} height={40} color={iconColor} />
-											)}
-											{index === 3 && (
-												<IconFour width={40} height={40} color={iconColor} />
-											)}
-											{index === 4 && (
-												<IconFive width={40} height={40} color={iconColor} />
-											)}
-											{index === 5 && (
-												<IconSix width={40} height={40} color={iconColor} />
-											)}
-										</div>
+										{index === 0 && (
+											<IconOne width={40} height={40} color={iconColor} />
+										)}
+										{index === 1 && (
+											<IconTwo width={40} height={40} color={iconColor} />
+										)}
+										{index === 2 && (
+											<IconThree width={40} height={40} color={iconColor} />
+										)}
+										{index === 3 && (
+											<IconFour width={40} height={40} color={iconColor} />
+										)}
+										{index === 4 && (
+											<IconFive width={40} height={40} color={iconColor} />
+										)}
+										{index === 5 && (
+											<IconSix width={40} height={40} color={iconColor} />
+										)}
 									</div>
-									<div className="space-y-4">
-								<h3 className="text-white text-center text-base md:text-lg font-medium">
+									<div className="">
+										<h3 className="text-white text-center text-base md:text-lg font-medium">
 											{data.title}
 										</h3>
 										<p className="text-secondary-400 text-center text-sm leading-relaxed">
