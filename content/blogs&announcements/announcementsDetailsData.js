@@ -976,6 +976,36 @@ export const announcementsDetailsData = [
 		title: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes.",
 		postedOn: "June 13, 2024",
 		timeToRead: "3 min read",
+		metadata:{
+				"og:local": "en_US",
+				"og:type": "article",
+				"og:title": "Efficient Batch Pipelines with No-Code GenAI Recipes",
+				"og:description":
+					"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations",
+				"og:url":
+					"https://www.karini.ai/announcements/batch-execution-pipelines",
+				"og:site_name": "Karini AI Batch Execution",
+				"article:published_time": "2024-06-13",
+				"og:updated_time": "2024-06-13",
+				"og:image":
+					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
+				"og:image:secure_url":
+					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
+				"og:image:width": "640",
+				"og:image:height": "640",
+				"og:image:alt":
+					"Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
+				"twitter:card": "summary",
+				"twitter:description":
+					"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations",
+				"twitter:title":
+					"Efficient Batch Pipelines with No-Code GenAI Recipes",
+				"twitter:site":
+					"https://www.karini.ai/announcements/batch-execution-pipelines",
+				"twitter:image":
+					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
+				"twitter:creator": "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
+			},
 		SEO_data: {
 			title: "Efficient Batch Pipelines with Karini AI's No-Code GenAI Recipes",
 			metaTitle: "Efficient Batch Pipelines with No-Code GenAI Recipes",
