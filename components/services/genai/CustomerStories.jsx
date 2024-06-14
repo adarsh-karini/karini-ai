@@ -1,9 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-	Pagination,
-	Autoplay,
-} from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 
 import { genaiCustomerStoriesData } from "@/content/services/genai/genaiData";
 
@@ -17,8 +14,8 @@ import IconTwo from "@/svgs/services/IconTwo";
 const CustomerStories = () => {
 	const iconColor = "#7c3aed";
 	return (
-		<section className="bg-secondary-100 px-6 md:px-20 py-20 overflow-hidden">
-			<div className="z-10 relative h-[55rem] md:h-[40rem] max-w-screen-lg mx-auto space-y-8">
+		<section className="bg-secondary-100 px-6 md:px-20 py-5 overflow-hidden">
+			<div className="z-10 relative max-h-[55rem] md:h-[40rem] max-w-screen-lg mx-auto space-y-8">
 				<div className="absolute -left-14 -top-0 p-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg"></div>
 				<div className="-z-10 absolute -right-32 -bottom-14 bg-gradient-to-br from-primary-400 to-primary-800 rounded-full shadow-lg">
 					<div className="p-20 m-8 bg-white rounded-full"></div>
@@ -32,7 +29,7 @@ const CustomerStories = () => {
 						autoHeight={true}
 						// height={200}
 						autoplay={{
-							delay: 4000,
+							delay: 10000,
 							pauseOnMouseEnter: true,
 							disableOnInteraction: false,
 						}}
@@ -99,7 +96,7 @@ const CustomerStories = () => {
 						autoHeight={true}
 						// height={200}
 						autoplay={{
-							delay: 7000,
+							delay: 10000,
 							pauseOnMouseEnter: true,
 							disableOnInteraction: false,
 						}}

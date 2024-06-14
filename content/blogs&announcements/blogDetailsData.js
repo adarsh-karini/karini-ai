@@ -24,6 +24,24 @@ let fontStyle = {
 	italic: "italic",
 };
 
+{
+	/* 
+			<meta property="og:local" content="en_US" />
+			<meta property="og:type" content="article" //>
+			<meta property="og:title" content="Supercharged Compound AI with Amazon Bedrock &; Karini.ai"/>
+			<meta property="og:description" content="Discover how Karini.ai enhances Amazon Bedrock compound GenAI systems for greater innovation, efficiency, and scalability. Revolutionize your tech today!"/>
+			<meta property="og:url" content="https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems"/>
+			<meta property="og:site_name" content="Karini AI"/>
+			<meta property="article:published_time" content="2024-25-04"/>
+			<meta property="og:updated_time" content="2024-25-04"/>
+			<meta property="og:image" content="https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75"/>
+			<meta property="og:image:secure_url" content="https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75"/>
+			<meta property="og:image:width" content="640"/>
+			<meta property="og:image:height" content="640"/>
+			<meta property="og:image:alt" content="amazon-bedrock-compound-ai-systems" />
+  */
+}
+
 export const blogDetailsData = [
 	{
 		type: "blog",
@@ -33,10 +51,37 @@ export const blogDetailsData = [
 		publishedOn: "January 2, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "5 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Industrializing Gen AI with Karini AI Insights",
+			"og:description":
+				"Explore how Karini AI leads the way in industrializing generative AI, offering strategies and insights for seamless AI application integration.",
+			"og:url": "https://www.karini.ai/blogs/industrialize-generative-ai",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-02-01",
+			"og:updated_time": "2024-02-01",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FIndustrialize-Generative-AI.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FIndustrialize-Generative-AI.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt": "industrialize-generative-ai",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Explore how Karini AI leads the way in industrializing generative AI, offering strategies and insights for seamless AI application integration.",
+			"twitter:title": "Industrializing Gen AI with Karini AI Insights",
+			"twitter:site": "https://www.karini.ai/blogs/industrialize-generative-ai",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FIndustrialize-Generative-AI.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Industrializing Gen AI with Karini AI Insights",
 			metaTitle: "Karini AI on Industrializing Generative AI",
-			keywords: "Industrialize Generative AI,Karini AI Generative AI,Gen AI Strategies,AI Application Integration,Generative AI Industrialization",
+			keywords:
+				"Industrialize Generative AI,Karini AI Generative AI,Gen AI Strategies,AI Application Integration,Generative AI Industrialization",
 			description:
 				"Explore how Karini AI leads the way in industrializing generative AI, offering strategies and insights for seamless AI application integration.",
 			canonicalLink: "https://www.karini.ai/blogs/industrialize-generative-ai",
@@ -187,8 +232,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:
-							`<ol style='list-style: inside; list-style-type: decimal;'><li><h3 class="list-heading">Infrastructure</h3> - Most companies have a primary cloud infrastructure and typically utilize Gen AI building blocks offered by the cloud.</li><li><h3 class="list-heading">Capabilities</h3> - These are set of foundational building block services offered by cloud native (e.g. Opensearch, Azure OpenAI) or 3rd party SAAS products(e.g. Milvus Vector search)</li><li><h3 class="list-heading">Reusable services</h3> - Central Gen AI teams typically have to build a RAG (Retrieval Augmented Generation), Fine Tuning or Model Hub Services that can be readily consumed with enterprise guard-rails</li><li><h3 class="list-heading">Use cases</h3> - Using the reusable services, use cases can be deployed and integrated with a variety of applications such as Customer support bot, summarizing customer reviews and more.</li></ol>`,
+						value: `<ol style='list-style: inside; list-style-type: decimal;'><li><h3 class="list-heading">Infrastructure</h3> - Most companies have a primary cloud infrastructure and typically utilize Gen AI building blocks offered by the cloud.</li><li><h3 class="list-heading">Capabilities</h3> - These are set of foundational building block services offered by cloud native (e.g. Opensearch, Azure OpenAI) or 3rd party SAAS products(e.g. Milvus Vector search)</li><li><h3 class="list-heading">Reusable services</h3> - Central Gen AI teams typically have to build a RAG (Retrieval Augmented Generation), Fine Tuning or Model Hub Services that can be readily consumed with enterprise guard-rails</li><li><h3 class="list-heading">Use cases</h3> - Using the reusable services, use cases can be deployed and integrated with a variety of applications such as Customer support bot, summarizing customer reviews and more.</li></ol>`,
 					},
 					{
 						type: type.paragraph,
@@ -241,7 +285,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: 'Conclusion',
+						value: "Conclusion",
 					},
 					{
 						type: type.paragraph,
@@ -260,6 +304,11 @@ export const blogDetailsData = [
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
+		relatedBlogs: [
+			"/blog/navigating-genaiops-in-enterprises",
+			"/blog/mastering-generative-ai",
+			"/blog/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+		],
 	},
 	{
 		type: "blog",
@@ -270,16 +319,45 @@ export const blogDetailsData = [
 		publishedOn: "January 31, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "10 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "GenAIOps in Enterprises: Navigating Challenges",
+			"og:description":
+				"Karini AI guides enterprises through GenAIOps, from adoption to execution. Discover best practices for integrating Generative AI into your business.",
+			"og:url":
+				"https://www.karini.ai/blogs/navigating-genaiops-in-enterprises",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-31-01",
+			"og:updated_time": "2024-31-01",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FNavigating_GenAIOps_in_Enterprises.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FNavigating_GenAIOps_in_Enterprises.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt": "navigating-genaiops-in-enterprises",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Karini AI guides enterprises through GenAIOps, from adoption to execution. Discover best practices for integrating Generative AI into your business.",
+			"twitter:title": "GenAIOps in Enterprises: Navigating Challenges",
+			"twitter:site":
+				"https://www.karini.ai/blogs/navigating-genaiops-in-enterprises",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FNavigating_GenAIOps_in_Enterprises.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
-			title:
-				"GenAIOps in Enterprises: Navigating Challenges",
+			title: "GenAIOps in Enterprises: Navigating Challenges",
 			metaTitle: "Overcoming GenAIOps Challenges in Enterprises | Karini AI",
-			keywords: "GenAIOps Enterprises,Generative AI Integration,GenAIOps Best Practices,Enterprise AI Solutions,Karini AI GenAIOps",
+			keywords:
+				"GenAIOps Enterprises,Generative AI Integration,GenAIOps Best Practices,Enterprise AI Solutions,Karini AI GenAIOps",
 			description:
 				"Karini AI guides enterprises through GenAIOps, from adoption to execution. Discover best practices for integrating Generative AI into your business.",
 			canonicalLink:
 				"https://www.karini.ai/blogs/navigating-genaiops-in-enterprises",
-			hreflang: "https://www.karini.ai/blogs/navigating-genaiops-in-enterprises",
+			hreflang:
+				"https://www.karini.ai/blogs/navigating-genaiops-in-enterprises",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
@@ -612,6 +690,11 @@ export const blogDetailsData = [
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
+		relatedBlogs: [
+			"unleashing-the-potential-of-unified-data",
+			"amazon-bedrock-compound-ai-systems",
+			"building-efficient-rag-systems",
+		],
 	},
 	{
 		type: "blog",
@@ -621,10 +704,37 @@ export const blogDetailsData = [
 		publishedOn: "January 4, 2024",
 		author: "Jerome Mendell",
 		timeToRead: "10 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Mastering Gen AI: Enterprise Guide by Karini AI",
+			"og:description":
+				"Unlock the full potential of Generative AI in your enterprise with Karini AI's expert guide. Dive into strategic insights for effective Gen AI integration.",
+			"og:url": "https://www.karini.ai/blogs/mastering-generative-ai",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-04-01",
+			"og:updated_time": "2024-04-01",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FMastering_Generative_AI.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FMastering_Generative_AI.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt": "mastering-generative-ai",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Unlock the full potential of Generative AI in your enterprise with Karini AI's expert guide. Dive into strategic insights for effective Gen AI integration.",
+			"twitter:title": "Mastering Gen AI: Enterprise Guide by Karini AI",
+			"twitter:site": "https://www.karini.ai/blogs/mastering-generative-ai",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FMastering_Generative_AI.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Mastering Gen AI: Enterprise Guide by Karini AI",
 			metaTitle: "Karini AI Guide to Mastering Generative AI",
-			keywords: "Mastering Generative AI,Generative AI Strategies,Karini AI Gen AI Guide,Enterprise Gen AI Integration,Generative AI Best Practices",
+			keywords:
+				"Mastering Generative AI,Generative AI Strategies,Karini AI Gen AI Guide,Enterprise Gen AI Integration,Generative AI Best Practices",
 			description:
 				"Unlock the full potential of Generative AI in your enterprise with Karini AI's expert guide. Dive into strategic insights for effective Gen AI integration.",
 			canonicalLink: "https://www.karini.ai/blogs/mastering-generative-ai",
@@ -1120,20 +1230,50 @@ export const blogDetailsData = [
 		type: "blog",
 		id: "fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
 		breadCrumbTitle: "Fast-track your Prompt Experiments",
-		title:
-			"Fast-track your Prompt Experiments by tracking the prompt runs",
+		title: "Fast-track your Prompt Experiments by tracking the prompt runs",
 		publishedOn: "February 26, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "5 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Optimize AI Prompts | Karini’s Prompt Playground",
+			"og:description":
+				"Accelerate Gen AI applications with Karini’s Prompt Playground. Save, test, and manage prompt runs efficiently for high-quality AI interactions.",
+			"og:url":
+				"https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-26-02",
+			"og:updated_time": "2024-26-02",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FFast_track_your_prompt_Experiments.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FFast_track_your_prompt_Experiments.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt":
+				"fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Accelerate Gen AI applications with Karini’s Prompt Playground. Save, test, and manage prompt runs efficiently for high-quality AI interactions.",
+			"twitter:title": "Optimize AI Prompts | Karini’s Prompt Playground",
+			"twitter:site":
+				"https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FFast_track_your_prompt_Experiments.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Optimize AI Prompts | Karini’s Prompt Playground",
 			metaTitle: "Streamline LLM Prompt Engineering | Karini AI",
-			keywords: "Prompt Engineering, Generative AI Application, LLM Prompt Optimization, AI Prompt Management, Karini AI Platform",
+			keywords:
+				"Prompt Engineering, Generative AI Application, LLM Prompt Optimization, AI Prompt Management, Karini AI Platform",
 			description:
 				"Accelerate Gen AI applications with Karini’s Prompt Playground. Save, test, and manage prompt runs efficiently for high-quality AI interactions.",
 			canonicalLink:
 				"https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
-			hreflang: "https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+			hreflang:
+				"https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
@@ -1144,7 +1284,8 @@ export const blogDetailsData = [
 				},
 				headline:
 					"Fast-track your Prompt Experiments by tracking the prompt runs",
-				description: "Accelerate Gen AI applications with Karini’s Prompt Playground. Save, test, and manage prompt runs efficiently for high-quality AI interactions.",
+				description:
+					"Accelerate Gen AI applications with Karini’s Prompt Playground. Save, test, and manage prompt runs efficiently for high-quality AI interactions.",
 				image:
 					"https://www.karini.ai/assets/images/blogs/Fast_track_your_prompt_Experiments.png",
 				author: {
@@ -1184,14 +1325,15 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Challenge:"
+						value: "Challenge:",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Often, prompt authors create numerous versions of a prompt for one task during the experimentation, which can become overwhelming.  A significant challenge during this process is tracking the different prompt versions you're testing and the ability to manage and incorporate them into your Gen AI workflow."
+						value:
+							"Often, prompt authors create numerous versions of a prompt for one task during the experimentation, which can become overwhelming.  A significant challenge during this process is tracking the different prompt versions you're testing and the ability to manage and incorporate them into your Gen AI workflow.",
 					},
 				],
 			},
@@ -1203,7 +1345,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Prompt Engineering for complex use cases such as Legal, Financial Advisor, HR advisor applications, etc., requires a lot of experimentation to ensure accuracy, quality, and safety guardrails. Although many prompt playgrounds exist, managing the prompt history comparison of large sets of experiments is still done offline using spreadsheets and entirely decoupled from Gen AI workflows, removing prompt lineage."
+						value:
+							"Prompt Engineering for complex use cases such as Legal, Financial Advisor, HR advisor applications, etc., requires a lot of experimentation to ensure accuracy, quality, and safety guardrails. Although many prompt playgrounds exist, managing the prompt history comparison of large sets of experiments is still done offline using spreadsheets and entirely decoupled from Gen AI workflows, removing prompt lineage.",
 					},
 				],
 			},
@@ -1215,14 +1358,15 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Prompt Engineering with Karini’s Prompt Playground:"
+						value: "Prompt Engineering with Karini’s Prompt Playground:",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Karini AI’s prompt playground revolutionizes how prompts are created, tested, and perfected across their lifecycle. This user-friendly and dynamic platform transforms domain experts into skilled prompt masters, offering a guided experience with ready-to-use templates for kickstarting the prompt creation. Users can quickly evaluate their prompts using different models and model parameters focusing on response quality, number of tokens, and response time to select the best option. Tracking prompt experiments has never been easier with the new feature to save prompt runs."
+						value:
+							"Karini AI’s prompt playground revolutionizes how prompts are created, tested, and perfected across their lifecycle. This user-friendly and dynamic platform transforms domain experts into skilled prompt masters, offering a guided experience with ready-to-use templates for kickstarting the prompt creation. Users can quickly evaluate their prompts using different models and model parameters focusing on response quality, number of tokens, and response time to select the best option. Tracking prompt experiments has never been easier with the new feature to save prompt runs.",
 					},
 				],
 			},
@@ -1247,7 +1391,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Using Karini’s Prompt Playground, authors can:"
+						value: "Using Karini’s Prompt Playground, authors can:",
 					},
 					{
 						type: type.list,
@@ -1312,7 +1456,7 @@ export const blogDetailsData = [
 									</li>
 								</ul>
 							</li>
-						</ul>`
+						</ul>`,
 					},
 				],
 			},
@@ -1324,26 +1468,15 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Conclusion:"
+						value: "Conclusion:",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "The main reason many generative AI applications fail to reach production is the issue of hallucinations and compromised quality. Prompt engineering is all about effectively communicating with a generative AI model. Crafting effective prompts is a dynamic process, not just a one-time task. Each variation in the design stage is essential, and needs to be managed throughout the prompt lifecycle."
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value: "With Karini's prompt playground and the prompt runs feature, authors can neatly organize and efficiently manage their experiments throughout the prompt lifecycle for the most complex use cases."
+						value:
+							"The main reason many generative AI applications fail to reach production is the issue of hallucinations and compromised quality. Prompt engineering is all about effectively communicating with a generative AI model. Crafting effective prompts is a dynamic process, not just a one-time task. Each variation in the design stage is essential, and needs to be managed throughout the prompt lifecycle.",
 					},
 				],
 			},
@@ -1355,7 +1488,21 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Take a look at the following video for a quick demonstration."
+						value:
+							"With Karini's prompt playground and the prompt runs feature, authors can neatly organize and efficiently manage their experiments throughout the prompt lifecycle for the most complex use cases.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Take a look at the following video for a quick demonstration.",
 					},
 				],
 			},
@@ -1368,7 +1515,8 @@ export const blogDetailsData = [
 						caption: "",
 						width: 600,
 						height: 700,
-						imageAltName: "Struggling to manage prompt experiments? Discover how Karini AI's Prompt Playground saves and analyzes your prompt runs, accelerating experimentation for accurate and reliable AI applications. Watch and learn!"
+						imageAltName:
+							"Struggling to manage prompt experiments? Discover how Karini AI's Prompt Playground saves and analyzes your prompt runs, accelerating experimentation for accurate and reliable AI applications. Watch and learn!",
 					},
 				],
 			},
@@ -1389,15 +1537,47 @@ export const blogDetailsData = [
 		publishedOn: "March 1, 2024",
 		author: "Jerome Mendell",
 		timeToRead: "5 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title":
+				"Generative AI in Business: Navigating the Future - Karini AI",
+			"og:description":
+				"Discover how Generative AI transforms businesses (marketing, R&D!) & how Karini AI empowers you to leverage it. #GenerativeAI",
+			"og:url":
+				"https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-01-03",
+			"og:updated_time": "2024-01-03",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Inevitable_Disruption_copy.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Inevitable_Disruption_copy.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt": "generative-ai-the-inevitable-disruption",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Discover how Generative AI transforms businesses (marketing, R&D!) & how Karini AI empowers you to leverage it. #GenerativeAI",
+			"twitter:title":
+				"Generative AI in Business: Navigating the Future - Karini AI",
+			"twitter:site":
+				"https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Inevitable_Disruption_copy.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Generative AI in Business: Navigating the Future - Karini AI",
 			metaTitle: "Exploring Generative AI's Impact on Enterprises | Karini AI",
-			keywords: "Generative AI, Business Transformation, AI Innovation, Enterprise AI Solutions, Karini AI, AI in Marketing, AI in R&D, AI Tools for Business, Disruptive Technology, Future of AI",
-			description:	
+			keywords:
+				"Generative AI, Business Transformation, AI Innovation, Enterprise AI Solutions, Karini AI, AI in Marketing, AI in R&D, AI Tools for Business, Disruptive Technology, Future of AI",
+			description:
 				"Discover how Generative AI transforms businesses (marketing, R&D!) & how Karini AI empowers you to leverage it. &#35;GenerativeAI",
 			canonicalLink:
 				"https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption",
-			hreflang: "https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption",
+			hreflang:
+				"https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
@@ -1408,7 +1588,8 @@ export const blogDetailsData = [
 				},
 				headline:
 					"Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes",
-				description: "Discover how Generative AI is revolutionizing enterprises, from marketing to R&D, and how Karini AI can be your ally in embracing this disruptive technology.",
+				description:
+					"Discover how Generative AI is revolutionizing enterprises, from marketing to R&D, and how Karini AI can be your ally in embracing this disruptive technology.",
 				image:
 					"https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png",
 				author: {
@@ -1448,14 +1629,15 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Beyond Analysis, Lies Creation: A New Frontier of AI"
+						value: "Beyond Analysis, Lies Creation: A New Frontier of AI",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Unlike traditional machine learning, which focuses on analysis and classification, Generative AI ventures into creation. Imagine it as an inexhaustible wellspring of AI-powered creativity, capable of generating entirely new content – text, images, music, or even code. Think of it as AI with imagination, ready to unlock possibilities previously confined to the human mind."
+						value:
+							"Unlike traditional machine learning, which focuses on analysis and classification, Generative AI ventures into creation. Imagine it as an inexhaustible wellspring of AI-powered creativity, capable of generating entirely new content – text, images, music, or even code. Think of it as AI with imagination, ready to unlock possibilities previously confined to the human mind.",
 					},
 				],
 			},
@@ -1467,14 +1649,16 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Demystifying the Engine: LLMs, NLP, and the Collaborative Powerhouse"
+						value:
+							"Demystifying the Engine: LLMs, NLP, and the Collaborative Powerhouse",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "This transformative potential hinges on a collaborative interplay of crucial components.<strong>Large Language Models (LLMs)</strong> form the backbone of many Generative AI systems, particularly those dealing with text. These AI entities are trained on massive datasets, absorbing the intricacies and nuances of human language. This empowers them to generate realistic and coherent text, translate languages, and craft diverse creative content."
+						value:
+							"This transformative potential hinges on a collaborative interplay of crucial components.<strong>Large Language Models (LLMs)</strong> form the backbone of many Generative AI systems, particularly those dealing with text. These AI entities are trained on massive datasets, absorbing the intricacies and nuances of human language. This empowers them to generate realistic and coherent text, translate languages, and craft diverse creative content.",
 					},
 				],
 			},
@@ -1486,7 +1670,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "<strong>Natural Language Processing (NLP)</strong> plays a crucial role in this process. By enabling computers to understand and interpret human language, NLP allows Generative AI models to decipher our instructions and translate them into actionable insights, ultimately guiding the desired output."
+						value:
+							"<strong>Natural Language Processing (NLP)</strong> plays a crucial role in this process. By enabling computers to understand and interpret human language, NLP allows Generative AI models to decipher our instructions and translate them into actionable insights, ultimately guiding the desired output.",
 					},
 				],
 			},
@@ -1498,26 +1683,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Generative AI, LLMs, NLP, and machine learning are not isolated entities but rather interlocking pieces of a much larger puzzle. The process begins with feeding massive amounts of data into LLMs. Machine learning algorithms then analyze this data, unearthing complex patterns and structures. NLP techniques come into play next, enabling the system to glean the context and meaning embedded within user instructions and data inputs. Finally, armed with this comprehensive understanding, the Generative AI model generates new data that aligns with the identified patterns and the intent behind the user input."
-					},
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.heading,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.medium,
-						fontStyle: fontStyle.normal,
-						value: "The Imperative for Action: Embracing the Generative Future"
-					},
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value: "While Generative AI is still in its early stages, its potential is undeniable. Businesses that seize this opportunity and become early adopters stand to gain a significant first-mover advantage, propelling them to the forefront of their industries and delaying; however, they must catch up as Generative AI disrupts existing processes and redefines market dynamics."
+						value:
+							"Generative AI, LLMs, NLP, and machine learning are not isolated entities but rather interlocking pieces of a much larger puzzle. The process begins with feeding massive amounts of data into LLMs. Machine learning algorithms then analyze this data, unearthing complex patterns and structures. NLP techniques come into play next, enabling the system to glean the context and meaning embedded within user instructions and data inputs. Finally, armed with this comprehensive understanding, the Generative AI model generates new data that aligns with the identified patterns and the intent behind the user input.",
 					},
 				],
 			},
@@ -1529,14 +1696,34 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Real-World Examples of the Generative AI Advantage:"
+						value: "The Imperative for Action: Embracing the Generative Future",
+					},
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"While Generative AI is still in its early stages, its potential is undeniable. Businesses that seize this opportunity and become early adopters stand to gain a significant first-mover advantage, propelling them to the forefront of their industries and delaying; however, they must catch up as Generative AI disrupts existing processes and redefines market dynamics.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.heading,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.medium,
+						fontStyle: fontStyle.normal,
+						value: "Real-World Examples of the Generative AI Advantage:",
 					},
 					{
 						type: type.list,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						
+
 						value: `	
 						<ul class="space-y-1" style="list-style-type: disc; padding-left: 50px">
 							<li>
@@ -1548,7 +1735,7 @@ export const blogDetailsData = [
 							<li>
 							<h3 class="list-heading">Customer Service & Support:</h3> Implementing automated chatbots with 25% reduced wait times and personalized product recommendations leading to increased customer satisfaction and sales exemplified by <a href='https://hyscaler.com/insights/culinary-fusion-leveraging-ai-in-hotel-dining/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Hilton Hotels</a>  and <a href='https://www.cnbc.com/2023/06/12/amazon-is-using-generative-ai-to-summarize-product-reviews.html' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon</a>.
 							</li>
-						</ul>`
+						</ul>`,
 					},
 				],
 			},
@@ -1560,14 +1747,15 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Your Roadmap to Leveraging Generative AI"
+						value: "Your Roadmap to Leveraging Generative AI",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Embarking on the Generative AI journey requires meticulous planning and strategic execution. The first step involves identifying specific use cases within your organization. Where can Generative AI streamline existing processes or unlock entirely new opportunities? Focusing on targeted areas with the potential for high impact is crucial for maximizing the return on investment."
+						value:
+							"Embarking on the Generative AI journey requires meticulous planning and strategic execution. The first step involves identifying specific use cases within your organization. Where can Generative AI streamline existing processes or unlock entirely new opportunities? Focusing on targeted areas with the potential for high impact is crucial for maximizing the return on investment.",
 					},
 				],
 			},
@@ -1579,7 +1767,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Experimentation through pilot projects offers an invaluable opportunity to gain firsthand experience, identify potential challenges, and cultivate internal support for wider adoption within the organization. Lastly, selecting the appropriate Generative AI tools requires thoroughly evaluating various platforms, ensuring they seamlessly integrate with existing infrastructure and align with specific business needs and resource constraints."
+						value:
+							"Experimentation through pilot projects offers an invaluable opportunity to gain firsthand experience, identify potential challenges, and cultivate internal support for wider adoption within the organization. Lastly, selecting the appropriate Generative AI tools requires thoroughly evaluating various platforms, ensuring they seamlessly integrate with existing infrastructure and align with specific business needs and resource constraints.",
 					},
 					{
 						type: type.list,
@@ -1607,7 +1796,7 @@ export const blogDetailsData = [
 									<li>Evaluate available platforms for seamless integration with existing infrastructure and alignment with business needs and resources.</li>
 								</ul>
 							</li>
-						</ul>`
+						</ul>`,
 					},
 				],
 			},
@@ -1619,14 +1808,16 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Introducing <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.karini.ai/' target='_blank'>Karini AI</a>: Your Generative AI Ally"
+						value:
+							"Introducing <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.karini.ai/' target='_blank'>Karini AI</a>: Your Generative AI Ally",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "At Karini AI, we understand the challenges and complexities of operationalizing Generative AI applications. We are committed to partnering with organizations globally to overcome these hurdles and propel them into the forefront of this transformative technology."
+						value:
+							"At Karini AI, we understand the challenges and complexities of operationalizing Generative AI applications. We are committed to partnering with organizations globally to overcome these hurdles and propel them into the forefront of this transformative technology.",
 					},
 				],
 			},
@@ -1655,7 +1846,7 @@ export const blogDetailsData = [
 							<li>
 								<h3 class="list-heading">Collaborative expertise:</h3> We provide the tools and knowledge you need to navigate the Generative AI landscape with confidence.
 							</li>
-						</ul>`
+						</ul>`,
 					},
 				],
 			},
@@ -1667,7 +1858,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:"Karini AI's platform is engineered to demystify Generative AI, transforming it from a complex, technical endeavor into an accessible, user-friendly revolution that anyone can join. It's designed not just to unlock but to unleash the potential of your data, fostering an ecosystem where imagination and innovation aren't just encouraged but expected."
+						value:
+							"Karini AI's platform is engineered to demystify Generative AI, transforming it from a complex, technical endeavor into an accessible, user-friendly revolution that anyone can join. It's designed not just to unlock but to unleash the potential of your data, fostering an ecosystem where imagination and innovation aren't just encouraged but expected.",
 					},
 				],
 			},
@@ -1679,7 +1871,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "With our platform, you'll navigate through the Generative AI process with ease—from ideation and experimentation to development and deployment. The journey is iterative, allowing for continuous learning and refinement, culminating in robust applications tailored to your organization's needs."
+						value:
+							"With our platform, you'll navigate through the Generative AI process with ease—from ideation and experimentation to development and deployment. The journey is iterative, allowing for continuous learning and refinement, culminating in robust applications tailored to your organization's needs.",
 					},
 				],
 			},
@@ -1691,7 +1884,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "At the heart of our platform is a commitment to security and ethics. We guide you in implementing robust safeguards that ensure your Generative AI applications are not only innovative but also responsible. By fostering a collaborative environment equipped with advanced tools and expertise, Karini AI empowers you to harness the transformative potential of Generative AI and lead the charge in the new frontier of digital innovation."
+						value:
+							"At the heart of our platform is a commitment to security and ethics. We guide you in implementing robust safeguards that ensure your Generative AI applications are not only innovative but also responsible. By fostering a collaborative environment equipped with advanced tools and expertise, Karini AI empowers you to harness the transformative potential of Generative AI and lead the charge in the new frontier of digital innovation.",
 					},
 				],
 			},
@@ -1703,10 +1897,11 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "The time for change is <b style='text-decoration: underline;'>now</b>. Embrace the Generative Future with Karini AI."
+						value:
+							"The time for change is <b style='text-decoration: underline;'>now</b>. Embrace the Generative Future with Karini AI.",
 					},
 				],
-			},	
+			},
 		],
 		aboutAuthor: {
 			title: "About the author",
@@ -1724,26 +1919,53 @@ export const blogDetailsData = [
 		publishedOn: "March 4, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "10 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Evolution of AI Agents: From Hallucination to Precision",
+			"og:description":
+				'AI chatbots evolve! Karini AI builds reliable assistants, no "hallucination." #GenAI #reliableAI',
+			"og:url": "https://www.karini.ai/blogs/the-evolution-of-ai-agents",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-04-03",
+			"og:updated_time": "2024-04-03",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Evolution_of_AI_Agents.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Evolution_of_AI_Agents.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt": "the-evolution-of-ai-agents",
+			"twitter:card": "summary",
+			"twitter:description":
+				'AI chatbots evolve! Karini AI builds reliable assistants, no "hallucination." #GenAI #reliableAI',
+			"twitter:title":
+				"Evolution of AI Agents: From Hallucination to Precision",
+			"twitter:site": "https://www.karini.ai/blogs/the-evolution-of-ai-agents",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Evolution_of_AI_Agents.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Evolution of AI Agents: From Hallucination to Precision",
 			metaTitle: "The Evolution of AI Agents in Business | Karini AI",
-			keywords: "AI Agents Evolution, Generative AI, RAG Systems, Prompt Engineering, Chatbots Innovation",
+			keywords:
+				"AI Agents Evolution, Generative AI, RAG Systems, Prompt Engineering, Chatbots Innovation",
 			description:
 				' AI chatbots evolve!  Karini AI builds reliable assistants, no "hallucination." #GenAI #reliableAI',
-			canonicalLink:
-				"https://www.karini.ai/blogs/the-evolution-of-ai-agents",
+			canonicalLink: "https://www.karini.ai/blogs/the-evolution-of-ai-agents",
 			hreflang: "https://www.karini.ai/blogs/the-evolution-of-ai-agents",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
 				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id":
-						"https://www.karini.ai/blogs/the-evolution-of-ai-agents",
+					"@id": "https://www.karini.ai/blogs/the-evolution-of-ai-agents",
 				},
 				headline:
 					"From Hallucination to Human-Like Helpers: The Evolution of AI Agents",
-				description: "The advent of Generative AI has sparked a wave of enthusiasm among businesses eager to harness its potential for creating Chatbots, companions, and copilots designed to unlock insights from vast datasets.",
+				description:
+					"The advent of Generative AI has sparked a wave of enthusiasm among businesses eager to harness its potential for creating Chatbots, companions, and copilots designed to unlock insights from vast datasets.",
 				image:
 					"https://www.karini.ai/assets/images/blogs/The_Evolution_of_AI_Agents.png",
 				author: {
@@ -1770,8 +1992,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:
-							`The advent of Generative AI has sparked a wave of enthusiasm among businesses eager to harness its potential for creating Chatbots, companions, and copilots designed to unlock insights from vast datasets. This journey often begins with the art of prompt engineering, which presents itself in various forms, including Single-shot, Few-shot, and Chain of Thought methodologies. Initially, companies tend to deploy internal chatbots to bolster employee productivity by facilitating access to critical insights. Furthermore, customer support, traditionally seen as a cost center, has become a focal point for optimization efforts, leading to the development of Retrieval Augmented Generation (RAG) systems intended to provide deeper insights. However, challenges such as potential inaccuracies or "hallucinations" in responses generated by these RAG systems can significantly impact customer service representatives' decision-making, potentially resulting in customer dissatisfaction. A notable incident involving <a href='https://www.bbc.com/travel/article/20240222-air-canada-chatbot-misinformation-what-travellers-should-know' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Air Canada</a> has recently highlighted the potential risks to brand reputation and financial stability posed by deploying these autonomous chatbots in customer support scenarios. The prospect of creating similar chatbots for financial advisors, capable of delivering human-like yet fundamentally flawed responses, raises significant concerns. Issues related to quality (such as hallucination, truth grounding, and comprehensiveness), content safety, and the risk of intellectual property leakage are among the key hurdles preventing many generative AI applications from reaching production stages.`,
+						value: `The advent of Generative AI has sparked a wave of enthusiasm among businesses eager to harness its potential for creating Chatbots, companions, and copilots designed to unlock insights from vast datasets. This journey often begins with the art of prompt engineering, which presents itself in various forms, including Single-shot, Few-shot, and Chain of Thought methodologies. Initially, companies tend to deploy internal chatbots to bolster employee productivity by facilitating access to critical insights. Furthermore, customer support, traditionally seen as a cost center, has become a focal point for optimization efforts, leading to the development of Retrieval Augmented Generation (RAG) systems intended to provide deeper insights. However, challenges such as potential inaccuracies or "hallucinations" in responses generated by these RAG systems can significantly impact customer service representatives' decision-making, potentially resulting in customer dissatisfaction. A notable incident involving <a href='https://www.bbc.com/travel/article/20240222-air-canada-chatbot-misinformation-what-travellers-should-know' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Air Canada</a> has recently highlighted the potential risks to brand reputation and financial stability posed by deploying these autonomous chatbots in customer support scenarios. The prospect of creating similar chatbots for financial advisors, capable of delivering human-like yet fundamentally flawed responses, raises significant concerns. Issues related to quality (such as hallucination, truth grounding, and comprehensiveness), content safety, and the risk of intellectual property leakage are among the key hurdles preventing many generative AI applications from reaching production stages.`,
 					},
 				],
 			},
@@ -1783,14 +2004,15 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Challenges in achieving quality and trust"
+						value: "Challenges in achieving quality and trust",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "It is easy to build a simple RAG system by combining Vector search for retrieval and LLM to summarize retrieved chunks, a massive upgrade from traditional knowledge bases with a limited understanding of the semantic nature of questions. These systems show poor performance in the real world for a multipart of complex questions."
+						value:
+							"It is easy to build a simple RAG system by combining Vector search for retrieval and LLM to summarize retrieved chunks, a massive upgrade from traditional knowledge bases with a limited understanding of the semantic nature of questions. These systems show poor performance in the real world for a multipart of complex questions.",
 					},
 				],
 			},
@@ -1829,7 +2051,7 @@ export const blogDetailsData = [
 								<li>
 								<h3 class="list-heading">LLM for Summarization:</h3> If the augmented prompt lacks the necessary context to answer the query effectively, LLMs may rely on their inherent knowledge base to fill in the gaps, leading to "hallucination," where the model generates plausible but inaccurate or fabricated information. This issue is particularly problematic in scenarios requiring precise, factual responses.
 								</li>
-								</ol>`
+								</ol>`,
 					},
 				],
 			},
@@ -1841,14 +2063,15 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Rise of Agents"
+						value: "Rise of Agents",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Prompt engineering techniques such as Chain of Thoughts (CoT) involve generating intermediate steps or reasoning paths when solving complex problems, especially in language models. It's like showing one's work in math problems but applied to AI. The model explicitly generates a sequence of thoughts or reasoning steps before arriving at a final answer or conclusion. Although CoT excels at breaking down complex tasks or questions, their effectiveness hinges on the context provided if used in RAG systems."
+						value:
+							"Prompt engineering techniques such as Chain of Thoughts (CoT) involve generating intermediate steps or reasoning paths when solving complex problems, especially in language models. It's like showing one's work in math problems but applied to AI. The model explicitly generates a sequence of thoughts or reasoning steps before arriving at a final answer or conclusion. Although CoT excels at breaking down complex tasks or questions, their effectiveness hinges on the context provided if used in RAG systems.",
 					},
 				],
 			},
@@ -1860,7 +2083,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "<a href='https://arxiv.org/pdf/2210.03629.pdf'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>The ReACT</a> (Synergizing Reasoning and Acting in Language Models) paper shows how this approach is far superior to CoTs. Let's look into the basics. In the study of autonomous agents and multi-agent systems, the concepts of Thought, Action, and Observation play crucial roles in defining how these agents perceive, interpret, and interact with their environment."
+						value:
+							"<a href='https://arxiv.org/pdf/2210.03629.pdf'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>The ReACT</a> (Synergizing Reasoning and Acting in Language Models) paper shows how this approach is far superior to CoTs. Let's look into the basics. In the study of autonomous agents and multi-agent systems, the concepts of Thought, Action, and Observation play crucial roles in defining how these agents perceive, interpret, and interact with their environment.",
 					},
 				],
 			},
@@ -1895,7 +2119,7 @@ export const blogDetailsData = [
 								 <li>
 								 <h3 class="list-heading">Observation</h3> involves the agent's perception of its environment through sensors or input mechanisms. It can include data from visual cameras, microphones, temperature sensors, or digital inputs like API calls. Observations are the raw data that an AI agent receives and processes to understand its current context or the state of the environment. Effective observation is critical for an agent to make informed decisions and adapt actions accordingly.
                                 </li>
-								</ul>`
+								</ul>`,
 					},
 				],
 			},
@@ -1907,7 +2131,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Together, Thought, Action, and Observation form a cyclical process that enables AI agents to operate autonomously, learn from their environment, and achieve their goals."
+						value:
+							"Together, Thought, Action, and Observation form a cyclical process that enables AI agents to operate autonomously, learn from their environment, and achieve their goals.",
 					},
 				],
 			},
@@ -1919,14 +2144,15 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "RAG Agents"
+						value: "RAG Agents",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Agentic workflows, also known as Agents, harness the capabilities of Large Language Models (LLMs) to navigate the complexities of constructing intricate Retrieval Augmented Generation (RAG) systems. They adeptly segment elaborate tasks into manageable sub-tasks, utilize external systems to enhance their knowledge base, and monitor the outcomes to determine subsequent actions, ensuring the initial query's goals are met. The following provides a standard depiction of how a RAG system incorporates external resources for knowledge expansion."
+						value:
+							"Agentic workflows, also known as Agents, harness the capabilities of Large Language Models (LLMs) to navigate the complexities of constructing intricate Retrieval Augmented Generation (RAG) systems. They adeptly segment elaborate tasks into manageable sub-tasks, utilize external systems to enhance their knowledge base, and monitor the outcomes to determine subsequent actions, ensuring the initial query's goals are met. The following provides a standard depiction of how a RAG system incorporates external resources for knowledge expansion.",
 					},
 				],
 			},
@@ -1968,7 +2194,7 @@ export const blogDetailsData = [
 						<li>
 						<a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href=' https://github.com/microsoft/semantic-kernel'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>Semantic Kernel</a> is an open-source project developed by Microsoft. It is an SDK that integrates Large Language Models (LLMs) like <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://platform.openai.com/docs/introduction 'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>OpenAI</a>, <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://azure.microsoft.com/en-us/products/ai-services/openai-service 'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>Azure OpenAI</a>, and <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://huggingface.co/ 'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>Hugging Face</a> with conventional programming languages like C#, Python, and Java. Semantic Kernel achieves this by allowing you to define <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://learn.microsoft.com/en-us/semantic-kernel/ai-orchestration/plugins 'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>plugins</a> that can be chained together in just a <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href=' https://learn.microsoft.com/en-us/semantic-kernel/ai-orchestration/chaining-functions?tabs=Csharp#using-the-runasync-method-to-simplify-your-code'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>few lines of code</a>. 
                         </li>
-						</ol>`
+						</ol>`,
 					},
 				],
 			},
@@ -1997,7 +2223,7 @@ export const blogDetailsData = [
 							   <li>
 							   <h3 class="list-heading">Recipes for RAGs:</h3> expedite the deployment of agentic workflows, complete with integrated performance, usage, and cost monitoring.Create custom greetings to enhance user experience. Continuously improve your AI with a built-in feedback mechanism. 
 							   </li>
-							   </ul>`
+							   </ul>`,
 					},
 				],
 			},
@@ -2009,7 +2235,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Karini AI empowers you to build, deploy, and manage powerful AI agents efficiently. Start your journey today!"
+						value:
+							"Karini AI empowers you to build, deploy, and manage powerful AI agents efficiently. Start your journey today!",
 					},
 				],
 			},
@@ -2021,17 +2248,18 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Conclusion:"
+						value: "Conclusion:",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:"The ReAct agent represents an advanced form of artificial intelligence, drawing inspiration from the human processes of thinking, acting, and observing to tackle challenges methodically. Whether you're a Generative AI aficionado or looking to gain a competitive edge by creating production-level agents through an intuitive visual platform, the <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href=' https://www.karini.ai/'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>Karini AI</a> platform is designed to accelerate your journey to market with ethical AI solutions. "
+						value:
+							"The ReAct agent represents an advanced form of artificial intelligence, drawing inspiration from the human processes of thinking, acting, and observing to tackle challenges methodically. Whether you're a Generative AI aficionado or looking to gain a competitive edge by creating production-level agents through an intuitive visual platform, the <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href=' https://www.karini.ai/'style='color:rgb(37 99 235 / var(--tw-text-opacity))'target='_blank'>Karini AI</a> platform is designed to accelerate your journey to market with ethical AI solutions. ",
 					},
 				],
-			},	
+			},
 		],
 		aboutAuthor: {
 			title: "About the author",
@@ -2043,32 +2271,59 @@ export const blogDetailsData = [
 	{
 		type: "blog",
 		id: "genai-visibility",
-		breadCrumbTitle: "GenAI Visibility: Cost transparency and consumption metrics only with Karini AI",
+		breadCrumbTitle:
+			"GenAI Visibility: Cost transparency and consumption metrics only with Karini AI",
 		title:
 			"GenAI Visibility: Cost transparency and consumption metrics only with Karini AI",
 		publishedOn: "April 12, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "4 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Maximize GenAI ROI with Karini AI’s Visibility Tools",
+			"og:description":
+				"Discover how Karini AI's visibility dashboard can transform your GenAI cost management, ensuring efficiency and transparency in operations.",
+			"og:url": "https://www.karini.ai/blogs/genai-visibility",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-12-04",
+			"og:updated_time": "2024-12-04",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FGenAI_Visibility_with_Karini_AI.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FGenAI_Visibility_with_Karini_AI.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt": "genai-visibility",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Discover how Karini AI's visibility dashboard can transform your GenAI cost management, ensuring efficiency and transparency in operations.",
+			"twitter:title": "Maximize GenAI ROI with Karini AI’s Visibility Tools",
+			"twitter:site": "https://www.karini.ai/blogs/genai-visibility",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FGenAI_Visibility_with_Karini_AI.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Maximize GenAI ROI with Karini AI’s Visibility Tools",
 			metaTitle: "Optimize GenAI Spend with Karini AI Visibility Dashboard",
-			keywords: "GenAI cost management,Karini AI dashboard,Operational transparency,LLM budget control,AI resource monitoring",
-			description:	
+			keywords:
+				"GenAI cost management,Karini AI dashboard,Operational transparency,LLM budget control,AI resource monitoring",
+			description:
 				"Discover how Karini AI's visibility dashboard can transform your GenAI cost management, ensuring efficiency and transparency in operations.",
-			canonicalLink:
-				"https://www.karini.ai/blogs/genai_visibility",
+			canonicalLink: "https://www.karini.ai/blogs/genai_visibility",
 			hreflang: "https://www.karini.ai/blogs/genai_visibility",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
 				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id":
-						"https://www.karini.ai/blogs/genai_visibility",
+					"@id": "https://www.karini.ai/blogs/genai_visibility",
 				},
 				headline:
 					"Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes",
-				description: "Discover how Generative AI is revolutionizing enterprises, from marketing to R&D, and how Karini AI can be your ally in embracing this disruptive technology.",
+				description:
+					"Discover how Generative AI is revolutionizing enterprises, from marketing to R&D, and how Karini AI can be your ally in embracing this disruptive technology.",
 				image:
 					"https://www.karini.ai/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png",
 				author: {
@@ -2095,14 +2350,15 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Introduction:"
+						value: "Introduction:",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "In the rapidly evolving landscape of Generative AI (Gen AI), managing the scale and cost of Large Language Models (LLMs) presents a formidable challenge for enterprises diversifying their application portfolios. As organizations increasingly integrate these powerful tools across various services, the absence of comprehensive visibility and cost controls can easily steer budgets into the red. Karini AI steps in as a game-changer, offering a meticulously designed dashboard that not only sheds light on the otherwise opaque realm of Gen AI expenditures but also puts the reins of cost management firmly in the hands of businesses."
+						value:
+							"In the rapidly evolving landscape of Generative AI (Gen AI), managing the scale and cost of Large Language Models (LLMs) presents a formidable challenge for enterprises diversifying their application portfolios. As organizations increasingly integrate these powerful tools across various services, the absence of comprehensive visibility and cost controls can easily steer budgets into the red. Karini AI steps in as a game-changer, offering a meticulously designed dashboard that not only sheds light on the otherwise opaque realm of Gen AI expenditures but also puts the reins of cost management firmly in the hands of businesses.",
 					},
 				],
 			},
@@ -2114,14 +2370,15 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Exploring Karini’s Dashboards:"
+						value: "Exploring Karini’s Dashboards:",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Karini’s dashboards allow you to examine your cost, usage, and resource statistics thoroughly. They enable you to identify cost drivers, the most widely used resources, such as models and connectors, and overall statistics about data ingestion and deployment completions."
+						value:
+							"Karini’s dashboards allow you to examine your cost, usage, and resource statistics thoroughly. They enable you to identify cost drivers, the most widely used resources, such as models and connectors, and overall statistics about data ingestion and deployment completions.",
 					},
 				],
 			},
@@ -2133,7 +2390,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "It offers the following capabilities:"
+						value: "It offers the following capabilities:",
 					},
 				],
 			},
@@ -2150,7 +2407,7 @@ export const blogDetailsData = [
 						<h3 class="list-heading">Statistical Overview:
 						</h3>
 						</li>
-						</ul>`
+						</ul>`,
 					},
 					{
 						type: type.list,
@@ -2158,7 +2415,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value: `<ol style='list-style: inside; list-style-type: decimal; margin-left: 40px;'>
-						Karini’s statistics dashboards offer you a single pane of glass to view all your resources, such as users, models, data connectors, recipes, prompts, copilots, embedded items, and recipe runs within your organization. You can get a high-level overview of your complete portfolio, and you can also get detailed analysis by diving deeper into each stats tile. In the following example, 52 LLM endpoints and 16 embedding model endpoints have been registered in Karini’s model hub within your organization. You can click the link to view the details for deeper analysis.`
+						Karini’s statistics dashboards offer you a single pane of glass to view all your resources, such as users, models, data connectors, recipes, prompts, copilots, embedded items, and recipe runs within your organization. You can get a high-level overview of your complete portfolio, and you can also get detailed analysis by diving deeper into each stats tile. In the following example, 52 LLM endpoints and 16 embedding model endpoints have been registered in Karini’s model hub within your organization. You can click the link to view the details for deeper analysis.`,
 					},
 				],
 			},
@@ -2170,7 +2427,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "The following screenshot shows an example of a statistical overview of an organization’s assets in Karini.						"
+						value:
+							"The following screenshot shows an example of a statistical overview of an organization’s assets in Karini.						",
 					},
 				],
 			},
@@ -2195,7 +2453,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "You can also review the resources and data statistics by grouping them by dimensions to see their distribution. For example, you can view all the registered model endpoints within your organization in Karini’s model hub, grouped by their model provider or model type. You can also view all the dataset items grouped by the data connectors using which the data was sourced.						"
+						value:
+							"You can also review the resources and data statistics by grouping them by dimensions to see their distribution. For example, you can view all the registered model endpoints within your organization in Karini’s model hub, grouped by their model provider or model type. You can also view all the dataset items grouped by the data connectors using which the data was sourced.						",
 					},
 				],
 			},
@@ -2207,7 +2466,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "The following screenshot shows an example of a distribution of assets within an organization in Karini. 						"
+						value:
+							"The following screenshot shows an example of a distribution of assets within an organization in Karini. 						",
 					},
 				],
 			},
@@ -2237,7 +2497,7 @@ export const blogDetailsData = [
 						<h3 class="list-heading">Cost and usage monitoring:
 						</h3>
 						</li>
-						</ul>`
+						</ul>`,
 					},
 					{
 						type: type.list,
@@ -2245,7 +2505,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value: `<ol style='list-style: inside; list-style-type: decimal; margin-left: 40px;'>
-						Karini's cost analysis dashboard features an intuitive interface that allows you to easily visualize, understand, and monitor your cost and usage trends over time. You can review your usage and costs via the main dashboard or explore specific resources like endpoints or copilots on their respective pages.`
+						Karini's cost analysis dashboard features an intuitive interface that allows you to easily visualize, understand, and monitor your cost and usage trends over time. You can review your usage and costs via the main dashboard or explore specific resources like endpoints or copilots on their respective pages.`,
 					},
 				],
 			},
@@ -2267,7 +2527,7 @@ export const blogDetailsData = [
 								 <li>
 								 <h3 class="list-heading">Use granular filtering:</h3> Along with filtering by date range and grouping by resources, you can also visualize your costs and usage by selecting monthly, daily, and hourly granularity. This helps provide deeper insights into the costs, API requests, and associated token counts to identify trends, pinpoint cost drivers, and detect anomalies. 
                                 </li>
-								</ul>`
+								</ul>`,
 					},
 				],
 			},
@@ -2280,7 +2540,7 @@ export const blogDetailsData = [
 						caption: "",
 						width: 600,
 						height: 700,
-						imageAltName: "Karini AI's cost monitoring dashboard"
+						imageAltName: "Karini AI's cost monitoring dashboard",
 					},
 				],
 			},
@@ -2292,7 +2552,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Benefits:"
+						value: "Benefits:",
 					},
 				],
 			},
@@ -2304,7 +2564,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Karini's Dashboards offer a range of benefits designed to enhance business operations and efficiency:"
+						value:
+							"Karini's Dashboards offer a range of benefits designed to enhance business operations and efficiency:",
 					},
 				],
 			},
@@ -2330,10 +2591,10 @@ export const blogDetailsData = [
 								<li>
 								<h3 class="list-heading">Usage Visibility:</h3> Given that large language model (LLM) applications can become costly, Karini provides detailed visibility into application usage. Businesses can monitor API requests and token consumption, which aids in budget planning and spending monitoring and ensures that resource use aligns with budgetary expectations.
 								</li>
-								</ol>`
+								</ol>`,
 					},
 				],
-			},	
+			},
 			{
 				group: true,
 				data: [
@@ -2342,14 +2603,15 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Conclusion:"
+						value: "Conclusion:",
 					},
 					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Karini’s platform is a game-changer for Operational Transparency and Budget Management. Organizations gain unparalleled insight into their expenditures by offering a meticulous breakdown of costs and usage metrics. This level of transparency empowers them to optimize their deployment of LLMs precisely, ensuring that resources are allocated with maximum efficiency, fostering innovation, and streamlining operations. With Karini's dashboard, organizations can closely monitor model spending, performance, and application usage, making it an indispensable tool for those looking to leverage Gen AI while fully maintaining fiscal responsibility."
+						value:
+							"Karini’s platform is a game-changer for Operational Transparency and Budget Management. Organizations gain unparalleled insight into their expenditures by offering a meticulous breakdown of costs and usage metrics. This level of transparency empowers them to optimize their deployment of LLMs precisely, ensuring that resources are allocated with maximum efficiency, fostering innovation, and streamlining operations. With Karini's dashboard, organizations can closely monitor model spending, performance, and application usage, making it an indispensable tool for those looking to leverage Gen AI while fully maintaining fiscal responsibility.",
 					},
 				],
 			},
@@ -2365,17 +2627,44 @@ export const blogDetailsData = [
 		type: "blog",
 		id: "building-efficient-rag-systems",
 		breadCrumbTitle: "Effective Ways to Enhance RAG Systems",
-		title:
-			"Building Efficient RAG Systems",
+		title: "Building Efficient RAG Systems",
 		publishedOn: "March 13th, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "3 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Optimize RAG Systems with Karini AI's GenAIOps Platform",
+			"og:description":
+				"How to operationalize Generative AI with Karini.ai's GenAI Orchestration platform, enhance RAG for precision and speed in response generation #GenAIOps with Karini.",
+			"og:url": "https://www.karini.ai/blogs/building-efficient-rag-systems",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-13-03",
+			"og:updated_time": "2024-13-03",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBuilding_Efficient_RAG_Systems.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBuilding_Efficient_RAG_Systems.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt": "building-efficient-rag-systems",
+			"twitter:card": "summary",
+			"twitter:description":
+				"How to operationalize Generative AI with Karini.ai's GenAI Orchestration platform, enhance RAG for precision and speed in response generation #GenAIOps with Karini.",
+			"twitter:title":
+				"Optimize RAG Systems with Karini AI's GenAIOps Platform",
+			"twitter:site":
+				"https://www.karini.ai/blogs/building-efficient-rag-systems",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBuilding_Efficient_RAG_Systems.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Optimize RAG Systems with Karini AI's GenAIOps Platform",
 			metaTitle: "Build Efficient RAG Systems | Karini AI GenAIOps",
-			keywords: "Generative AI, RAG systems, GenAIOps platform, efficient response generation, data indexing, AI augmentation",
-			description:
-				`How to operationalize Generative AI with Karini.ai's GenAI Orchestration platform, enhance RAG for precision and speed in response generation #GenAIOps with Karini.`,
+			keywords:
+				"Generative AI, RAG systems, GenAIOps platform, efficient response generation, data indexing, AI augmentation",
+			description: `How to operationalize Generative AI with Karini.ai's GenAI Orchestration platform, enhance RAG for precision and speed in response generation #GenAIOps with Karini.`,
 			canonicalLink:
 				"https://www.karini.ai/blogs/building-efficient-rag-systems",
 			hreflang: "https://www.karini.ai/blogs/building-efficient-rag-systems",
@@ -2384,12 +2673,11 @@ export const blogDetailsData = [
 				"@type": "BlogPosting",
 				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id":
-						"https://www.karini.ai/blogs/building-efficient-rag-systems",
+					"@id": "https://www.karini.ai/blogs/building-efficient-rag-systems",
 				},
-				headline:
-					"Building Efficient RAG Systems",
-				description: "When creating a RAG (Retrieval Augmented Generation) system, you infuse a Large Language Model (LLM) with fresh, current knowledge.",
+				headline: "Building Efficient RAG Systems",
+				description:
+					"When creating a RAG (Retrieval Augmented Generation) system, you infuse a Large Language Model (LLM) with fresh, current knowledge.",
 				image:
 					"https://www.karini.ai/assets/images/blogs/Building_Efficient_RAG_Systems.png",
 				author: {
@@ -2416,8 +2704,7 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:
-							`When creating a RAG (Retrieval Augmented Generation) system, you infuse a Large Language Model (LLM) with fresh, current knowledge. The goal is to make the LLM's responses to queries more factual and reduce instances that might produce incorrect or "hallucinated '' information.`,
+						value: `When creating a RAG (Retrieval Augmented Generation) system, you infuse a Large Language Model (LLM) with fresh, current knowledge. The goal is to make the LLM's responses to queries more factual and reduce instances that might produce incorrect or "hallucinated '' information.`,
 					},
 				],
 			},
@@ -2429,7 +2716,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "A RAG system is a sophisticated blend of generative AI's creativity and a search engine's precision. It operates through several critical components working harmoniously to deliver accurate and relevant responses."
+						value:
+							"A RAG system is a sophisticated blend of generative AI's creativity and a search engine's precision. It operates through several critical components working harmoniously to deliver accurate and relevant responses.",
 					},
 				],
 			},
@@ -2452,7 +2740,7 @@ export const blogDetailsData = [
 							<li>
 								<h3 class="list-heading">Generation: </h3> This engine crafts the response with the context now broadened by external data. It relies on a powerful language model to generate answers that are accurate and tailored to the enhanced input.
 							</li>
-							</ul>`
+							</ul>`,
 					},
 				],
 			},
@@ -2464,7 +2752,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "We can further break down this process into the following stages:"
+						value:
+							"We can further break down this process into the following stages:",
 					},
 					{
 						type: type.list,
@@ -2491,7 +2780,7 @@ export const blogDetailsData = [
 							<li>
 								<h3 class="list-heading">Evaluation: </h3>  Regular evaluations compare its effectiveness to other methods and assess any adjustments to ensure the RAG system performs at its best. This step measures the accuracy, reliability, and response time, ensuring the system's quality remains high.
 							</li>
-							</ul>`
+							</ul>`,
 					},
 				],
 			},
@@ -2503,10 +2792,10 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "RAG Enhancements:"
+						value: "RAG Enhancements:",
 					},
 				],
-			},	
+			},
 			{
 				group: true,
 				data: [
@@ -2528,7 +2817,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "To enhance the effectiveness and precision of your RAG system, we recommend the following best practices:"
+						value:
+							"To enhance the effectiveness and precision of your RAG system, we recommend the following best practices:",
 					},
 					{
 						type: type.list,
@@ -2561,7 +2851,7 @@ export const blogDetailsData = [
 							<li>
 								<h3 class="list-heading">Query Rewrite and Expansion: </h3> Before processing a query, have an LLM rewrite it to express the user's intent better, enhancing the match with relevant documents. This step can significantly refine the search process.
 							</li>
-							</ul>`
+							</ul>`,
 					},
 				],
 			},
@@ -2573,7 +2863,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "By implementing these strategies, businesses can significantly improve the functionality and accuracy of their RAG systems, leading to more effective and efficient outcomes."
+						value:
+							"By implementing these strategies, businesses can significantly improve the functionality and accuracy of their RAG systems, leading to more effective and efficient outcomes.",
 					},
 				],
 			},
@@ -2585,7 +2876,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Using Karini AI’s purpose-built platform for GenAIOps, you can build production-grade, efficient RAG systems within minutes. Reach out to us to discuss your use case."
+						value:
+							"Using Karini AI’s purpose-built platform for GenAIOps, you can build production-grade, efficient RAG systems within minutes. Reach out to us to discuss your use case.",
 					},
 				],
 			},
@@ -2606,15 +2898,46 @@ export const blogDetailsData = [
 		publishedOn: "April 25th, 2024",
 		author: "Deepali Rajale",
 		timeToRead: "5 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Supercharged Compound AI with Amazon Bedrock &; Karini.ai",
+			"og:description":
+				"Discover how Karini.ai enhances Amazon Bedrock compound GenAI systems for greater innovation, efficiency, and scalability. Revolutionize your tech today!",
+			"og:url":
+				"https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-25-04",
+			"og:updated_time": "2024-25-04",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt": "amazon-bedrock-compound-ai-systems",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Discover how Karini.ai enhances Amazon Bedrock compound GenAI systems for greater innovation, efficiency, and scalability. Revolutionize your tech today!",
+			"twitter:title":
+				"Supercharged Compound AI with Amazon Bedrock &; Karini.ai",
+			"twitter:site":
+				"https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBeyond_Limits.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Supercharged Compound AI with Amazon Bedrock & Karini.ai",
 			metaTitle: "Elevate GenAI Systems with Amazon Bedrock & Karini AI",
-			keywords: "Karini AI Platform, Amazon bedrock, Compound AI System, Business Innovation, Generative AI Pilots",
+			keywords:
+				"Karini AI Platform, Amazon bedrock, Compound AI System, Business Innovation, Generative AI Pilots",
 			description:
 				"Discover how Karini.ai enhances Amazon Bedrock compound GenAI systems for greater innovation, efficiency, and scalability. Revolutionize your tech today!",
 			canonicalLink:
 				"https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
-			hreflang: "https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
+			hreflang:
+				"https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
@@ -2626,8 +2949,7 @@ export const blogDetailsData = [
 				headline:
 					"Beyond Limits: How Amazon Bedrock and Karini AI Supercharge Compound AI Systems",
 				description: "Generative AI",
-				image:
-					"https://www.karini.ai/assets/images/blogs/Beyond_Limits.png",
+				image: "https://www.karini.ai/assets/images/blogs/Beyond_Limits.png",
 				author: {
 					"@type": "Person",
 					name: "Deepali Rajale",
@@ -2660,7 +2982,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						      "Generative AI has become a shared C-Level priority with many enterprises setting goals in their annual statement and numerous press releases. As Generative AI is gaining traction, there is much anticipation around their evolving model performance capabilities. However, as developers increasingly move beyond Generative AI pilots, the trend is shifting to compound systems. The SOTA results often come from compound systems incorporating multiple components rather than relying solely on standalone models. A recent study by MIT Research has observed that 60% of LLM deployments in businesses incorporate some form of retrieval-augmented generation (RAG), with 30% utilizing multi-step chains or compound systems.	 "
+							"Generative AI has become a shared C-Level priority with many enterprises setting goals in their annual statement and numerous press releases. As Generative AI is gaining traction, there is much anticipation around their evolving model performance capabilities. However, as developers increasingly move beyond Generative AI pilots, the trend is shifting to compound systems. The SOTA results often come from compound systems incorporating multiple components rather than relying solely on standalone models. A recent study by MIT Research has observed that 60% of LLM deployments in businesses incorporate some form of retrieval-augmented generation (RAG), with 30% utilizing multi-step chains or compound systems.	 ",
 					},
 				],
 			},
@@ -2680,7 +3002,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						      "A <a href='https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Compound AI System</a> addresses AI tasks through multiple interconnected components, including several calls to different models, retrievers, or external tools. AI models are constantly improving, with scalability seemingly limitless. However, complex, multifaceted compound systems increasingly achieve the most advanced results. Combining the models with other components allows businesses to build dynamic systems that can address complex scenarios based on user queries at runtime, reduce model hallucinations, and increase user control and trust. Enterprises can design their compound systems based on their performance goals. E.g. In some applications, even the largest model may need to be more performant or too expensive. Still, an ensemble of smaller fine-tuned models augmented with optimized search and retrieve capabilities can give the best results. Github Copilot is an excellent example of this approach. While enterprises are making a shift in compounding AI systems, the emerging challenges are how to design, optimize & operate these systems. The compound systems consist of a data processing loop, query optimization loop, and operations management capabilities, and they can be independently optimized for better performance."
+							"A <a href='https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Compound AI System</a> addresses AI tasks through multiple interconnected components, including several calls to different models, retrievers, or external tools. AI models are constantly improving, with scalability seemingly limitless. However, complex, multifaceted compound systems increasingly achieve the most advanced results. Combining the models with other components allows businesses to build dynamic systems that can address complex scenarios based on user queries at runtime, reduce model hallucinations, and increase user control and trust. Enterprises can design their compound systems based on their performance goals. E.g. In some applications, even the largest model may need to be more performant or too expensive. Still, an ensemble of smaller fine-tuned models augmented with optimized search and retrieve capabilities can give the best results. Github Copilot is an excellent example of this approach. While enterprises are making a shift in compounding AI systems, the emerging challenges are how to design, optimize & operate these systems. The compound systems consist of a data processing loop, query optimization loop, and operations management capabilities, and they can be independently optimized for better performance.",
 					},
 				],
 			},
@@ -2705,34 +3027,8 @@ export const blogDetailsData = [
 						fontSize: fontSize.large,
 						fontWeight: fontWeight.medium,
 						fontStyle: fontStyle.normal,
-						value: "Karini AI Platform powered by AWS Gen AI for Compound AI Systems",
-					},
-				]
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
 						value:
-						      "AWS provides a broad set of Gen AI managed services such as <a href='https://aws.amazon.com/bedrock/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon Bedrock</a>, Amazon SageMaker, and OpenSearch to build scalable generative AI applications. Amazon Bedrock is the most trusted and scalable fully managed service that offers a choice of high-performing foundation models from leading AI model providers and Amazon via a single API, along with a broad set of capabilities to build <a href='https://aws.amazon.com/generative-ai/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>generative AI</a> applications with security, privacy, and responsible AI."
-					},
-					
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-						    "Karini AI is a no-code Generative AI platform with a broad set of capabilities to build Compound AI systems purposefully built using AWS services to speed up production-grade application development. AWS customers can use best-of-breed capabilities to build production-grade RAG in a matter of minutes."
+							"Karini AI Platform powered by AWS Gen AI for Compound AI Systems",
 					},
 				],
 			},
@@ -2745,21 +3041,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						       "<strong>Data Processing Loop:</strong> Karini AI utilizes <a href='https://aws.amazon.com/textract/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon Textract</a> and proprietary technologies to create LLM-ready data and provides built-in chunking algorithms. Customers can choose Amazon Bedrock hosted models or custom models hosted via <a href='https://aws.amazon.com/sagemaker/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon SageMaker</a> for chunking. <a href='https://aws.amazon.com/opensearch-service/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon OpenSearch </a> delivers a secure and scalable vector store."
-					},
-					
-				],
-			},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value:
-						    "<strong>Query Optimization Loop:</strong> Karini AI employs the easy-to-use <a href='https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Prompt Playground</a> to author, test, and compare the model performance of Bedrock-hosted models or custom models using Amazon SageMaker. Enterprises can leverage one of the many built-in chains, such as Q&A, summarization, classification, or Agentic workflows. Multiple ways are available to optimize retrieval using techniques such as query rewrite, query expansion, and context generation. Customers can also customize LLM-driven responses for greetings and follow-up questions."
+							"AWS provides a broad set of Gen AI managed services such as <a href='https://aws.amazon.com/bedrock/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon Bedrock</a>, Amazon SageMaker, and OpenSearch to build scalable generative AI applications. Amazon Bedrock is the most trusted and scalable fully managed service that offers a choice of high-performing foundation models from leading AI model providers and Amazon via a single API, along with a broad set of capabilities to build <a href='https://aws.amazon.com/generative-ai/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>generative AI</a> applications with security, privacy, and responsible AI.",
 					},
 				],
 			},
@@ -2772,7 +3054,46 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						    "<strong>Operations and Visibility:</strong> Karini AI provides built-in observability for tracing RAG chains and understanding low performing conversations. Copilot supports fine-grained feedback collection to gather user preferences and create instruction fine-tuning datasets. The built-in dashboards provide system performance and cost monitoring across model endpoints for Amazon Bedrock and SageMaker-hosted models. Karini AI provides enterprise connectors for significant number of data sources such as Amazon S3, Websites, Google Storage, Azure Storage, and Dropbox to unify data silos into a single vector store and also respects source system role-based access controls during serving."
+							"Karini AI is a no-code Generative AI platform with a broad set of capabilities to build Compound AI systems purposefully built using AWS services to speed up production-grade application development. AWS customers can use best-of-breed capabilities to build production-grade RAG in a matter of minutes.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"<strong>Data Processing Loop:</strong> Karini AI utilizes <a href='https://aws.amazon.com/textract/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon Textract</a> and proprietary technologies to create LLM-ready data and provides built-in chunking algorithms. Customers can choose Amazon Bedrock hosted models or custom models hosted via <a href='https://aws.amazon.com/sagemaker/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon SageMaker</a> for chunking. <a href='https://aws.amazon.com/opensearch-service/' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Amazon OpenSearch </a> delivers a secure and scalable vector store.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"<strong>Query Optimization Loop:</strong> Karini AI employs the easy-to-use <a href='https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Prompt Playground</a> to author, test, and compare the model performance of Bedrock-hosted models or custom models using Amazon SageMaker. Enterprises can leverage one of the many built-in chains, such as Q&A, summarization, classification, or Agentic workflows. Multiple ways are available to optimize retrieval using techniques such as query rewrite, query expansion, and context generation. Customers can also customize LLM-driven responses for greetings and follow-up questions.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"<strong>Operations and Visibility:</strong> Karini AI provides built-in observability for tracing RAG chains and understanding low performing conversations. Copilot supports fine-grained feedback collection to gather user preferences and create instruction fine-tuning datasets. The built-in dashboards provide system performance and cost monitoring across model endpoints for Amazon Bedrock and SageMaker-hosted models. Karini AI provides enterprise connectors for significant number of data sources such as Amazon S3, Websites, Google Storage, Azure Storage, and Dropbox to unify data silos into a single vector store and also respects source system role-based access controls during serving.",
 					},
 				],
 			},
@@ -2798,7 +3119,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						    "Here is a quick end-2-end Karini AI Generative AI recipe powered by Amazon Bedrock models."
+							"Here is a quick end-2-end Karini AI Generative AI recipe powered by Amazon Bedrock models.",
 					},
 				],
 			},
@@ -2831,7 +3152,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							"Compound AI systems represent a significant step forward in AI development. By leveraging the power of collaboration between diverse components, they offer the potential to tackle problems previously beyond traditional AI's reach. Compound systems are more adaptable to diverse tasks and provide greater control over the model’s output. Karini AI’s platform capabilities and Amazon Bedrock empower customers to build well-designed compound AI systems for any use case. Businesses can stay ahead with innovation, maximize the quality and reliability of their AI application, and improve trust with their customers by embracing compound systems to tackle complex real-world problems efficiently and with control.",
+							"Compound AI systems mark a significant advancement in AI technology by integrating various components to solve complex challenges that were once out of reach for traditional AI models. These systems are highly flexible, allowing for tailored responses and greater control over outputs. Karini AI’s advanced platform, coupled with Amazon Bedrock, enables the creation of sophisticated compound AI systems for any use case. By adopting these systems, businesses can enhance innovation, increase the quality and reliability of their AI solutions, and build stronger trust with their customers.",
 					},
 				],
 			},
@@ -2842,6 +3163,11 @@ export const blogDetailsData = [
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
+		relatedBlogs: [
+			"navigating-genaiops-in-enterprises",
+			"mastering-generative-ai",
+			"fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+		],
 	},
 	{
 		type: "blog",
@@ -2852,15 +3178,46 @@ export const blogDetailsData = [
 		publishedOn: "February 2, 2024",
 		author: "Jerome Mendell",
 		timeToRead: "3 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Unified Data & Gen AI: Unleashing Potential | Karini AI",
+			"og:description":
+				"Explore how Karini AI leverages unified data through Generative AI to drive business intelligence and innovation. Unlock new insights and efficiencies.",
+			"og:url":
+				"https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-02-02",
+			"og:updated_time": "2024-02-02",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEvolution_of_Gen_AI.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEvolution_of_Gen_AI.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt": "unleashing-the-potential-of-unified-data",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Explore how Karini AI leverages unified data through Generative AI to drive business intelligence and innovation. Unlock new insights and efficiencies.",
+			"twitter:title":
+				"Unified Data & Gen AI: Unleashing Potential | Karini AI",
+			"twitter:site":
+				"https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEvolution_of_Gen_AI.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
 		SEO_data: {
 			title: "Unified Data & Gen AI: Unleashing Potential | Karini AI",
 			metaTitle: "Unleash Data Potential with Gen AI | Karini AI Blog",
-			keywords: "Unified Data,Generative AI,Business Intelligence,Data Integration Karini AI,AI-driven Insights",
+			keywords:
+				"Unified Data,Generative AI,Business Intelligence,Data Integration Karini AI,AI-driven Insights",
 			description:
 				"Explore how Karini AI leverages unified data through Generative AI to drive business intelligence and innovation. Unlock new insights and efficiencies.",
 			canonicalLink:
 				"https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data",
-			hreflang: "https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data",
+			hreflang:
+				"https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "BlogPosting",
@@ -3056,5 +3413,4 @@ export const blogDetailsData = [
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/jeromemendell/"> Jerome Mendell </a>is a software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus. Jerome has collaborated with leading technology providers, publishers, and clients serving Fortune 500 companies globally.',
 		},
 	},
-
 ];

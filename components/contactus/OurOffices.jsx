@@ -42,7 +42,7 @@ const OurOffices = () => {
 														</p>
 													</div>
 												</div>
-												<div>
+												{/* <div>
 													<iframe
 														src={data.iframeURL}
 														style={{ border: 0 }}
@@ -51,7 +51,7 @@ const OurOffices = () => {
 														referrerPolicy="no-referrer-when-downgrade"
 														className="w-full h-full rounded-md"
 													></iframe>
-												</div>
+												</div> */}
 											</div>
 										</div>
 									))}

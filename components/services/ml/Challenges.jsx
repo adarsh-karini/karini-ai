@@ -9,7 +9,7 @@ import { mlChallenges } from "@/content/services/ml/mlData";
 
 const Challenges = () => {
 	return (
-		<section className="px-4 lg:px-0 py-20">
+		<section className="px-4 lg:px-0 py-10">
 			<div className="max-w-screen-xl mx-auto">
 				<div className="">
 					<div className="space-y-6">

@@ -18,7 +18,7 @@ const poppins = Poppins({
 export async function getServerSideProps(context) {
 	// Fetch data from an external API
 	const { ann_id } = context.query;
-	console.log("ann_id", ann_id);
+	// console.log("ann_id", ann_id);
 	const [result] = announcementsDetailsData?.filter((ann) => ann.id === ann_id);
 
 	return {
@@ -54,7 +54,15 @@ const Announcement = ({ annData }) => {
 				<meta name="description" content={annData?.SEO_data.description} />
 				<meta name="keywords" content={annData?.SEO_data.keywords} />
 				<meta name="robots" content="index,follow" />
-
+				{Object.keys(annData?.metadata).length > 0 &&
+					Object.entries(annData?.metadata).map(([key, value]) => {
+						let keyName = /twitter:/.test(key);
+						if (keyName) {
+							return <meta key={key} name={key} content={value} />;
+						} else {
+							return <meta key={key} property={key} content={value} />;
+						}
+					})}
 				<link rel="canonical" href={annData?.SEO_data.canonicalLink} />
 
 				<link
@@ -78,7 +86,7 @@ const Announcement = ({ annData }) => {
 				<BreadCrumb title={annData?.breadCrumbTitle} />
 				<div className="py-5 bg-black"></div>
 				<AnnPage annData={annData} />
-				<CTA />
+				{/* <CTA /> */}
 				<Script
 					async
 					type="application/javascript"
