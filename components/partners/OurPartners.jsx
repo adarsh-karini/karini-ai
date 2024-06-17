@@ -15,6 +15,7 @@ import {
 	ourTechnologyPartners,
 	whyPartnersData,
 } from "@/content/partners/ourPartnersData";
+import CTA from "./CTA";
 
 const OurPartners = () => {
 	return (
@@ -49,15 +50,17 @@ const OurPartners = () => {
 								className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 shadow p-6"
 							>
 								<div className="md:w-1/3 flex justify-center items-center">
-									<Image
-										src={data.image}
-										alt="partners image"
-										width={200}
-										height={100}
-										className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
-										priority={true}
-										quality={100}
-									/>
+									<Link href={data.link}>
+										<Image
+											src={data.image}
+											alt="partners image"
+											width={200}
+											height={100}
+											className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
+											priority={true}
+											quality={100}
+										/>
+									</Link>
 								</div>
 								<div className="flex-1">
 									<p className="text-secondary-700 text-sm text-justify leading-6">
@@ -82,15 +85,17 @@ const OurPartners = () => {
 								className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 shadow p-6"
 							>
 								<div className="md:w-1/3 flex justify-center items-center">
-									<Image
-										src={data.image}
-										alt="partners image"
-										width={200}
-										height={100}
-										className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
-										priority={true}
-										quality={100}
-									/>
+									<Link href={data.link}>
+										<Image
+											src={data.image}
+											alt="partners image"
+											width={200}
+											height={100}
+											className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
+											priority={true}
+											quality={100}
+										/>
+									</Link>
 								</div>
 								<div className="flex-1">
 									<p className="text-secondary-700 text-sm text-justify leading-6">
@@ -115,15 +120,17 @@ const OurPartners = () => {
 								className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 shadow p-6"
 							>
 								<div className="md:w-1/3 flex justify-center items-center">
-									<Image
-										src={data.image}
-										alt="partners image"
-										width={200}
-										height={100}
-										className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
-										priority={true}
-										quality={100}
-									/>
+									<Link href={data.link}>
+										<Image
+											src={data.image}
+											alt="partners image"
+											width={200}
+											height={100}
+											className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
+											priority={true}
+											quality={100}
+										/>
+									</Link>
 								</div>
 								<div className="flex-1">
 									<p className="text-secondary-700 text-sm text-justify leading-6">
@@ -159,6 +166,7 @@ const OurPartners = () => {
 					</div>
 				</div>
 			</div>
+			<CTA />
 			<div className="bg-white px-4 base:px-0 py-20 overflow-hidden max-w-screen-lg mx-auto space-y-10">
 				<h3 className="text-primary-600 font-medium text-lg sm:text-xl text-center">
 					Why Partner with Karini.ai?
