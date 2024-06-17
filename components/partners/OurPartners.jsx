@@ -50,7 +50,7 @@ const OurPartners = () => {
 								className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 shadow p-6"
 							>
 								<div className="md:w-1/3 flex justify-center items-center">
-									<Link href={data.link} target="_blank">
+									<Link href={data.link} target="_blank" title={data.link}>
 										<Image
 											src={data.image}
 											alt="partners image"
@@ -85,7 +85,7 @@ const OurPartners = () => {
 								className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 shadow p-6"
 							>
 								<div className="md:w-1/3 flex justify-center items-center">
-									<Link href={data.link} target="_blank">
+									<Link href={data.link} target="_blank" title={data.link}>
 										<Image
 											src={data.image}
 											alt="partners image"
@@ -120,7 +120,7 @@ const OurPartners = () => {
 								className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 shadow p-6"
 							>
 								<div className="md:w-1/3 flex justify-center items-center">
-									<Link href={data.link} target="_blank">
+									<Link href={data.link} target="_blank" title={data.link}>
 										<Image
 											src={data.image}
 											alt="partners image"
