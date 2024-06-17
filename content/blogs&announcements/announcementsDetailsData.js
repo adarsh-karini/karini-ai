@@ -970,6 +970,234 @@ export const announcementsDetailsData = [
 	},
 	{
 		type: "announcement",
+		id: "batch-execution-pipelines",
+		breadCrumbTitle:
+			"Batch execution pipelines using no-code Generative AI recipes",
+		title: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes.",
+		postedOn: "June 13, 2024",
+		timeToRead: "3 min read",
+		metadata:{
+				"og:local": "en_US",
+				"og:type": "article",
+				"og:title": "Efficient Batch Pipelines with No-Code GenAI Recipes",
+				"og:description":
+					"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations",
+				"og:url":
+					"https://www.karini.ai/announcements/batch-execution-pipelines",
+				"og:site_name": "Karini AI Batch Execution",
+				"article:published_time": "2024-06-13",
+				"og:updated_time": "2024-06-13",
+				"og:image":
+					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
+				"og:image:secure_url":
+					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
+				"og:image:width": "640",
+				"og:image:height": "640",
+				"og:image:alt":
+					"Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
+				"twitter:card": "summary",
+				"twitter:description":
+					"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations",
+				"twitter:title":
+					"Efficient Batch Pipelines with No-Code GenAI Recipes",
+				"twitter:site":
+					"https://www.karini.ai/announcements/batch-execution-pipelines",
+				"twitter:image":
+					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
+				"twitter:creator": "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
+			},
+		SEO_data: {
+			title: "Efficient Batch Pipelines with Karini AI's No-Code GenAI Recipes",
+			metaTitle: "Efficient Batch Pipelines with No-Code GenAI Recipes",
+			keywords:
+				"Karini AI batch execution, no-code Generative AI recipes, generative AI applications, batch processing pipelines, Large Language Models LLMs, enterprise AI integration",
+			description:
+				"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations.",
+			canonicalLink:
+				"https://www.karini.ai/announcements/batch-execution-pipelines",
+			hreflang:
+				"https://www.karini.ai/announcements/batch-execution-pipelines",
+			schemaMarkup: {
+				"@context": "https://schema.org",
+				"@type": "NewsArticle",
+				mainEntityOfPage: {
+					"@type": "WebPage",
+					"@id":
+						"https://www.karini.ai/announcements/batch-execution-pipelines",
+				},
+				headline:
+					"Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes",
+				image:
+					"https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png",
+				author: {
+					"@type": "Person",
+					name: "Deepali Rajale",
+				},
+				publisher: {
+					"@type": "Organization",
+					name: "Karini AI",
+					logo: {
+						"@type": "ImageObject",
+						url: "https://www.karini.ai",
+					},
+				},
+				datePublished: "2024-06-13",
+			},
+		},
+		sections: [
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						       "As enterprises increasingly adopt Large Language Models (LLMs) for diverse generative AI applications, a notable challenge emerges in implementing batch processing pipelines. Unlike real-time processing, batch workflows enable handling large datasets in bulk, making them ideal for tasks where immediate responses are not required. Integrating generative AI into these batch workflows signifies a transformative leap in data and task management. This approach not only automates complex processes but also scales efficiently to meet the demands of extensive data handling. By ensuring precise and consistent outputs, generative AI-powered batch workflows enhance overall operational efficiency and maintain a competitive edge in today’s data-centric landscape."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Currently, several challenges accompany the implementation of generative AI in batch-processing pipelines."
+					},
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `
+						<ol style='list-style: inside; list-style-type: decimal; margin-left: 25px;'>
+						<li>
+							Parallelizing large-scale data processing.
+						</li>
+						<li>
+					        Complex pipelines involving compound systems, such as combining data retrieval, cleaning,
+							transformation, and AI model inference steps, require robust coordination mechanisms to ensure
+							smooth and efficient operation.
+						</li>
+						<li>
+							User experience is another critical aspect, as it involves designing intuitive interfaces and workflows for business and technical users to manage and monitor the batch processes.
+						</li>
+						<li>
+						The ability to review and trace every step of the batch pipeline is essential for fine-tuning and debugging purposes.
+						</li>
+					    </ol>`
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						    "Addressing these challenges is crucial for fully realizing the potential of generative AI in batch workflow applications and achieving scalable, reliable, and efficient data processing solutions."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Karini.ai's pioneering platform bridges the gap between the vast potential of generative AI and its practical application in the enterprise by providing access to state-of-the-art models, a prompt playground, and simple-to-use drag-and-drop workflows. Combining that with built-in connectors, advanced data preparation techniques, and fine-grained access controls ultimately unlocks enterprise data, delivering meaningful and valuable insights. Coupling our observability tool “Prompt Lens” improves the quality of responses, offering model fine-tuning, RAG auto-evaluations, and human-in-the-loop feedback. At the same time, the proprietary guardrail models prevent jailbreaking and limit hallucination.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						      "Karini AI is thrilled to introduce its user-friendly no-code recipe workflow support for building and executing batch pipelines using generative AI. This intuitive solution empowers our customers, both business and technical users, to seamlessly connect to various data sources using Karini AI’s data connectors and effortlessly orchestrate batch pipelines that incorporate custom transformation functions, prompts, and LLMs for multiple tasks. Additionally, this also empowers our customers to:"
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `
+						<ol style='list-style: inside; list-style-type: decimal; margin-left: 25px;'>
+						        <li>
+								Execute these no-code batch recipes on demand or based on specific triggers, providing flexibility and control over the batch processing workflows.
+								</li>
+								<li>
+								Enable human-in-the-loop capabilities, enabling users to review traces from intermediate steps, including custom functions and LLM calls. This ensures that the batch workflows are accurate and can be fine-tuned.
+								</li>
+								<li>
+								Furthermore, Karini AI provides comprehensive tracking and auditing capabilities, ensuring users can monitor token usage for each execution step. Our elaborate dashboards offer visibility into performance metrics, resource usage, and cost management, giving businesses the confidence to maintain efficiency and transparency in their batch-processing operations.
+								</li>
+								</ol>`
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						     "With Karini AI’s advanced platform, enterprises can unlock the full potential of executing batch workflows using generative AI, ultimately enhancing their operational capabilities and driving innovation. This is an exciting opportunity to revolutionize your data processing operations."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.base_image,
+						path: "/assets/images/blogs/Batch_recipe.png",
+						imageAltName:
+							"Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
+						caption: "",
+						width: 1200,
+						height: 1200,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Executing a batch workflow pipeline using generative AI holds significant potential for enhancing efficiency, accuracy, and scalability in various fields. Generative AI can analyze and process large datasets efficiently, providing valuable insights and supporting data-driven decision-making. We invite you to contact us for more information and to see how Karini AI can revolutionize your batch-processing operations.",
+					},
+				],
+			},
+		],
+	},
+	{
+		type: "announcement",
 		id: "karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 		breadCrumbTitle:
 			"Karini AI releases the first purpose-built platform for GenAIOps",

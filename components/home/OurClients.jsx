@@ -6,7 +6,7 @@ const OurClients2 = () => {
 	const ClientLogos = [
 		"/assets/images/services/aws_sagemaker.svg",
 		"/assets/images/services/aws_textract.svg",
-		"/assets/images/services/aws_bedrock.jpg",
+		"/assets/images/services/bedrock.svg",
 		"/assets/images/services/databricks.png",
 		"/assets/images/services/anthropic.svg",
 		"/assets/images/services/anyscale.svg",

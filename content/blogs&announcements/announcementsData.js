@@ -118,4 +118,22 @@ export const announcementsData = [
 		timeToRead: "3 min read",
 		path: "/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
 	},
+	{
+		show: true,
+		filterName: "announcements",
+		type: "announcement",
+		image: "/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png",
+		imageAltName:
+			"Workflow with Generative AI",
+		// imageWidth: 500,
+		// imageHeight: 500,
+		title:
+			"Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes",
+		description:
+			"As enterprises increasingly adopt Large Language Models (LLMs) for diverse generative AI applications, a notable challenge emerges in implementing batch processing pipelines. ",
+		tag: "Gen AI",
+		date: "June 13th, 2024",
+		timeToRead: "3 min read",
+		path: "/announcements/batch-execution-pipelines",
+	},
 ];

@@ -80,11 +80,11 @@ const Navbar2 = () => {
 							)}
 						</div>
 						{/* <Link href={"/solutions"}>Solutions</Link> */}
+						<Link href={"/partners"}>Partners</Link>
 						<Link href={"/blogs"}>Blogs</Link>
 						{/* <Link href={"/pricing"}>Pricing</Link> */}
 						<Link href={"/aboutus"}>About us</Link>
 						{/* <Link href={"/careers"}>Careers</Link> */}
-						<Link href={"/contactus"}>Contact us</Link>
 					</div>
 					<div className="flex space-x-2">
 						{/* <Link
@@ -204,6 +204,18 @@ const Navbar2 = () => {
 
 										<span className="text-sm font-medium"> Solutions </span>
 									</Link> */}
+									<Link
+										onClick={() => setMobileMenu((prev) => !prev)}
+										href={"/partners"}
+										className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+									>
+										<BsBookmarkStarFill
+											size={20}
+											className="text-secondary-600"
+										/>
+
+										<span className="text-sm font-medium"> Partners </span>
+									</Link>
 
 									<Link
 										onClick={() => setMobileMenu((prev) => !prev)}
@@ -250,16 +262,6 @@ const Navbar2 = () => {
 
                     <span className="text-sm font-medium"> Careers </span>
                   </Link> */}
-
-									<Link
-										onClick={() => setMobileMenu((prev) => !prev)}
-										href={"/contactus"}
-										className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
-									>
-										<AiFillContacts size={20} className="text-secondary-600" />
-
-										<span className="text-sm font-medium"> Contact Us </span>
-									</Link>
 								</div>
 								<div className="flex p-4">
 									<Link
