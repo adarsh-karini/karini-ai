@@ -20,7 +20,7 @@ const AWSmarketplaceReg = () => {
 	console.log("formData:", formData);
 
 	useEffect(() => {
-		const AWS_MARKETPLACE_TOKEN = "sample-amzn-marketplace-token";
+		const AWS_MARKETPLACE_TOKEN = "x-amzn-marketplace-token";
 		const urlParams = new URLSearchParams(window.location.search);
 		const token = urlParams.get(AWS_MARKETPLACE_TOKEN);
 		setRegToken(token);
@@ -80,13 +80,6 @@ const AWSmarketplaceReg = () => {
 			let aws_response = await axios.post(aws_endpoint, formData);
 
 			console.log("AWS subscribe api Response Data:", aws_response);
-
-			const apiEndpoint =
-				"https://4tqk6pfqye.execute-api.us-east-1.amazonaws.com/v1/aws_marketplace_reg";
-
-			const res = await axios.post(apiEndpoint, formData);
-
-			console.log("aws lambda Response Data:", res);
 
 			setShow("success");
 		} catch (error) {
