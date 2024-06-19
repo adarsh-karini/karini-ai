@@ -32,8 +32,10 @@ const ContactUs = () => {
 		setShow("submitting");
 
 		try {
-			const apiEndpoint =
-				"https://4tqk6pfqye.execute-api.us-east-1.amazonaws.com/v1/contactus";
+			// const apiEndpoint =
+			// 	"https://4tqk6pfqye.execute-api.us-east-1.amazonaws.com/v1/contactus";
+
+			const apiEndpoint = "/api/aws_marketplace_registration";
 
 			const res = await axios.post(apiEndpoint, contactData);
 
