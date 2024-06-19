@@ -17,13 +17,22 @@ const AWSmarketplaceReg = () => {
 	const [alert, setAlert] = useState(null);
 	const [regToken, setRegToken] = useState("");
 
+	console.log("regToken:", regToken);
+
 	console.log("formData:", formData);
 
+	const getUrlParameter = (name) => {
+		name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+		const regex = new RegExp(`[\\?&]${name}=([^&#]*)`);
+		const results = regex.exec(window.location.search);
+		return results === null
+			? ""
+			: decodeURIComponent(results[1].replace(/\+/g, " "));
+	};
+
 	useEffect(() => {
-		const AWS_MARKETPLACE_TOKEN = "x-amzn-marketplace-token";
-		const urlParams = new URLSearchParams(window.location.search);
-		const token = urlParams.get(AWS_MARKETPLACE_TOKEN);
-		setRegToken(token);
+		const AWS_MARKETPLACE_TOKEN = getUrlParameter("x-amzn-marketplace-token");
+		setRegToken(AWS_MARKETPLACE_TOKEN);
 	}, []);
 
 	const handleChange = (e) => {
@@ -40,7 +49,6 @@ const AWSmarketplaceReg = () => {
 
 		if (!regToken) {
 			showAlert(
-				"danger",
 				"Registration Token Missing. Please go to AWS Marketplace and follow the instructions to set up your account!"
 			);
 			return;
@@ -75,9 +83,20 @@ const AWSmarketplaceReg = () => {
 		setShow("submitting");
 
 		try {
-			let aws_endpoint = `${baseUrl}/subscriber`;
+			const regToken = getUrlParameter("x-amzn-marketplace-token");
 
-			let aws_response = await axios.post(aws_endpoint, formData);
+			if (!regToken) {
+				showAlert(
+					"Registration Token Missing. Please go to AWS Marketplace and follow the instructions to set up your account!"
+				);
+				return;
+			}
+
+			let aws_endpoint = `/subscriber`;
+
+			let aws_response = await axios.post(aws_endpoint, formData, {
+				headers: { "Content-Type": "application/json" },
+			});
 
 			console.log("AWS subscribe api Response Data:", aws_response);
 
@@ -111,6 +130,11 @@ const AWSmarketplaceReg = () => {
 					<div className="z-10 relative space-y-4">
 						<div className="flex justify-center items-center">
 							<Logo width={200} />
+						</div>
+						<div>
+							{alert && (
+								<p className="text-sm text-red-500 text-center p-2">{alert}</p>
+							)}
 						</div>
 						<form onSubmit={handleSubmit} className="flex flex-col space-y-4">
 							<div className="flex flex-col space-y-1">
