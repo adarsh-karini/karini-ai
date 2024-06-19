@@ -49,6 +49,10 @@ const handleFormSubmit = (event) => {
 
 		const xhr = new XMLHttpRequest();
 
+		console.log("data gggg", data);
+		console.log("postUrl gggg", postUrl);
+		console.log("regToken gggg", regToken);
+
 		xhr.open("POST", postUrl, true);
 		xhr.setRequestHeader("Content-Type", "application/json");
 		xhr.send(JSON.stringify(data));
