@@ -74,6 +74,12 @@ const Footer = () => {
 									>
 										Our Projects
 									</Link>
+									<Link
+										href={"/partners"}
+										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
+									>
+										Partners
+									</Link>
 								</div>
 							</div>
 							<div className="space-y-2">

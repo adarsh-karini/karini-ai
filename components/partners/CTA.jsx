@@ -19,7 +19,7 @@ const CTA = () => {
 							<div className="p-20 absolute -left-20 -bottom-24 bg-primary-600 rounded-full opacity-50"></div>
 							<div className="p-20 absolute -right-20 -top-1/2 bg-primary-600 rounded-full opacity-50"></div>
 
-							<div className=" space-y-1">
+							<div className=" z-10 space-y-1">
 								<p className="text-lg md:text-2xl text-center text-white font-semibold">
 									Contact us to learn more about Our Partner Programs Today
 								</p>
