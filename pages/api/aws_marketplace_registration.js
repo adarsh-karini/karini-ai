@@ -2,9 +2,9 @@ export default function handler(req, res) {
 	if (req.method === "POST") {
 		const data = req.body;
 
-		console.log(`Received req: ${JSON.stringify(req, null, 2)}`);
+		console.log("1234 ---", data);
 
-		console.log(`Received data: ${JSON.stringify(data, null, 2)}`);
+		console.log(`Received data jjj kkk: ${JSON.stringify(data, null, 2)}`);
 
 		let token = data["x-amzn-marketplace-token"];
 
