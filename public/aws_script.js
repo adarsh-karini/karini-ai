@@ -1,4 +1,4 @@
-const baseUrl = "https://lyw77vwwdd.execute-api.us-east-1.amazonaws.com/Prod/"; // TODO: This needs to be replaced
+const baseUrl = "https://lyw77vwwdd.execute-api.us-east-1.amazonaws.com/Prod/";
 const form = document.getElementsByClassName("form-signin")[0];
 
 const showAlert = (cssClass, message) => {
@@ -35,7 +35,7 @@ const getUrlParameter = (name) => {
 const handleFormSubmit = (event) => {
 	event.preventDefault();
 
-	const postUrl = `/subscriber`;
+	const postUrl = `${baseUrl}subscriber`;
 	const regToken = getUrlParameter("x-amzn-marketplace-token");
 
 	if (!regToken) {
