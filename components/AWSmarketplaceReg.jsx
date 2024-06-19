@@ -35,6 +35,16 @@ const AWSmarketplaceReg = () => {
 		setRegToken(AWS_MARKETPLACE_TOKEN);
 	}, []);
 
+	useEffect(() => {
+		if (!regToken) {
+			setAlert(
+				"Registration Token Missing. Please go to AWS Marketplace and follow the instructions to set up your account!"
+			);
+			return;
+		}
+		setAlert(null);
+	}, [regToken]);
+
 	const handleChange = (e) => {
 		let { name, value } = e.target;
 		setFormData({
@@ -47,8 +57,10 @@ const AWSmarketplaceReg = () => {
 		console.log("hello from handleSubmit");
 		e.preventDefault();
 
+		console.log("regToken bb", regToken);
+
 		if (!regToken) {
-			showAlert(
+			setAlert(
 				"Registration Token Missing. Please go to AWS Marketplace and follow the instructions to set up your account!"
 			);
 			return;
@@ -118,23 +130,24 @@ const AWSmarketplaceReg = () => {
 		}, 3500);
 	};
 
-	const showAlert = (cssClass, message) => {
-		setAlert({ cssClass, message });
-		setTimeout(() => setAlert(null), 5000); // Remove alert after 5 seconds
-	};
-
 	return (
 		<section className="relative bg-white py-20 overflow-hidden">
 			<div className="max-w-screen-sm mx-auto">
-				<div className="">
+				<div className="space-y-10">
+					{alert && (
+						<div className=" p-3 border rounded bg-red-50">
+							<p className="text-sm text-red-500 text-center">{alert}</p>
+						</div>
+					)}
 					<div className="z-10 relative space-y-4">
 						<div className="flex justify-center items-center">
 							<Logo width={200} />
 						</div>
-						<div>
-							{alert && (
-								<p className="text-sm text-red-500 text-center p-2">{alert}</p>
-							)}
+						<div className=" p-3">
+							<p className="text-base text-black text-center">
+								Please enter your company details below to register for the AWS
+								Marketplace. Thank you! 🚀
+							</p>
 						</div>
 						<form onSubmit={handleSubmit} className="flex flex-col space-y-4">
 							<div className="flex flex-col space-y-1">
