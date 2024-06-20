@@ -13,28 +13,28 @@ const showAlert = (cssClass, message) => {
 	document.querySelector("#alert").innerHTML += html;
 };
 
-const formToJSON = (elements) =>
-	[].reduce.call(
-		elements,
-		(data, element) => {
-			data[element.name] = element.value;
-			return data;
-		},
-		{}
-	);
-
-// const formToJSON = (elements) => {
-// 	return [].reduce.call(
+// const formToJSON = (elements) =>
+// 	[].reduce.call(
 // 		elements,
 // 		(data, element) => {
-// 			if (element.name && element.value) {
-// 				data[element.name] = element.value;
-// 			}
+// 			data[element.name] = element.value;
 // 			return data;
 // 		},
 // 		{}
 // 	);
-// };
+
+const formToJSON = (elements) => {
+	return [].reduce.call(
+		elements,
+		(data, element) => {
+			if (element.name && element.value) {
+				data[element.name] = element.value;
+			}
+			return data;
+		},
+		{}
+	);
+};
 
 const getUrlParameter = (name) => {
 	name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
