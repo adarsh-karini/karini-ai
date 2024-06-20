@@ -15,4 +15,12 @@ export const ourLeadershipData = [
 			"Jerome Mendell, our Chief Revenue Officer, is a seasoned software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus, he has a keen passion for artificial intelligence. Jerome has collaborated with leading technology providers serving Fortune 500 companies across various sectors, including BFS, CPG, MFG, and NGOs. He's launched, consulted, and advised many XaaS companies from ideation to revenue. His expertise is in aligning global channels and driving progress and innovation. Explore Jerome's remarkable career journey on his LinkedIn profile.",
 		linkedIn: "https://www.linkedin.com/in/jeromemendell/",
 	},
+	{
+		image: "/assets/images/team_members/nitin-wagh.jpg",
+		name: "Nitin Wagh",
+		position: "Chief Product Officer",
+		summary:
+			"Our Chief Product Officer is a well-respected GenAI and ML Leader with over two decades in enterprise technology. Nitin brings a wealth of experience in taking Machine Learning and Generative AI products to markets and creating new markets. He recently led the global adoption of Generative AI and Machine Learning products at Databricks’ flagship Data and AI unified platform. He oversaw successful launches of many Gen AI products, such as Model Serving and Databricks Vector Search. His strategic vision and ability to identify and capitalize on new opportunities were vital to these successes.  Prior to that, Nitin led Technology Go-To-Market for Amazon SageMaker at Amazon Web Services(AWS) and was responsible for the launch of over 15 services.",
+		linkedIn: "http://www.linkedin.com/in/nitin-bwagh/",
+	},
 ];
