@@ -350,4 +350,23 @@
 	<image:loc>https://www.karini.ai/assets/images/blogs/Batch_recipe.png</image:loc>
     </image:image>
   </url>
+
+  <!-- Announcement Post 9 -->
+  <url>
+    <loc>https://www.karini.ai/announcements/generative-bi-system</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Announcement five</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-06-24</news:publication_date>
+      <news:title>Introducing the First Purpose-Built Generative BI System: Natural Language Interaction with Your Analytics Databases and Data Warehouses
+     </news:title>
+      <news:keywords>Generative BI system, Natural language data interaction, Analytics databases integration, BI data warehousing solutions, Generative AI for business intelligence
+</news:keywords>
+    </news:news>
+	<image:image>
+	<image:loc>https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png</image:loc>
+    </image:image>
+  </url>
 </urlset>

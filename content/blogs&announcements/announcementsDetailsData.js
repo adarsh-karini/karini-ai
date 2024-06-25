@@ -970,6 +970,196 @@ export const announcementsDetailsData = [
 	},
 	{
 		type: "announcement",
+		id: "generative-bi-system",
+		breadCrumbTitle:
+			"First Purpose-Built Generative BI System",
+		title: "Introducing the First Purpose-Built Generative BI System: Natural Language Interaction with Your Analytics Databases and Data Warehouses",
+		postedOn: "June 24 , 2024",
+		timeToRead: "3 min read",
+		metadata:{
+				"og:local": "en_US",
+				"og:type": "article",
+				"og:title": "Generative BI System: Transform Your Data Analytics",
+				"og:description":
+					"Unlock powerful data insights with Karini AI's new Generative BI system. Enhance your analytics capabilities now.",
+				"og:url":
+					"https://www.karini.ai/announcements/generative-bi-system",
+				"og:site_name": "Karini AI Batch Execution",
+				"article:published_time": "2024-06-24",
+				"og:updated_time": "2024-06-24",
+				"og:image":
+					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEffortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75",
+				"og:image:secure_url":
+					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEffortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75",
+				"og:image:width": "640",
+				"og:image:height": "640",
+				"og:image:alt":
+					"Text to SQL with Karini AI",
+				"twitter:card": "summary",
+				"twitter:description":
+					"Explore Karini AI's Generative BI system for dynamic insights directly from your databases and data warehouses. Enhance decision-making today.",
+				"twitter:title":
+					"Generative BI System: Transform Your Data Analytics",
+				"twitter:site":
+					"https://www.karini.ai/announcements/generative-bi-system",
+				"twitter:image":
+					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEffortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75",
+				"twitter:creator": "Introducing the First Purpose-Built Generative BI System: Natural Language Interaction with Your Analytics Databases and Data Warehouses",
+			},
+		SEO_data: {
+			title: "Introducing Generative BI for Enhanced Data Analytics",
+			metaTitle: "Generative BI System: Transform Your Data Analytics",
+			keywords:
+				"Generative BI system, Natural language data interaction, Analytics databases integration, BI data warehousing solutions, Generative AI for business intelligence",
+			description:
+				"Explore Karini AI's Generative BI system for dynamic insights directly from your databases and data warehouses. Enhance decision-making today.",
+			canonicalLink:
+				"https://www.karini.ai/announcements/generative-bi-system",
+			hreflang:
+				"https://www.karini.ai/announcements/generative-bi-system",
+			schemaMarkup: {
+				"@context": "https://schema.org",
+				"@type": "NewsArticle",
+				mainEntityOfPage: {
+					"@type": "WebPage",
+					"@id":
+						"https://www.karini.ai/announcements/generative-bi-system",
+				},
+				headline:
+					"Introducing the First Purpose-Built Generative BI System",
+				image:
+					"https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png",
+				author: {
+					"@type": "Person",
+					name: "Deepali Rajale",
+				},
+				publisher: {
+					"@type": "Organization",
+					name: "Karini AI",
+					logo: {
+						"@type": "ImageObject",
+						url: "https://www.karini.ai",
+					},
+				},
+				datePublished: "2024-06-24",
+			},
+		},
+		sections: [
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						     "Today, traditional data analytics, warehousing, and databases hold vast amounts of data. However, these methods are becoming inadequate as data generation soars with additional sources and multiple Data architectures. Traditional Business Intelligence is time-consuming, requires specialized skills, and produces insights that are hard to interpret and typically hardwired. Decision makers do not get fresh insights or need to depend on their Data science or Analysts to provide summary increasing round trip time and hence delaying decisions."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						    "The State of the art Generative AI models have shown remarkable results in programming tasks such as SQL Generation, Data processing and Narrative generation hence they have the potential to transform every aspect of the data and analytics lifecycle. Businesses are increasingly planning to integrate generative AI into their BI strategies. There are similar solutions available by cloud providers or BI providers but they are confined to their own ecosystems and do not reflect realities of the Enterprise data landscape which tends to have Data silos across multiple clouds. Many enterprises also need better integration of Generative BI offerings within their own applications."
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Karini AI is excited to announce the support for the <b>first ever Glass Box Generative BI Solution</b> that can transcend across multiple Data silos to provide business insights.  While you get a quickstart Agentic solution, it can be tuned for your use case. The solution provides breadth of capabilities to to build a Copilot within 30 mins:",
+					},
+				],
+			},
+			{
+				group: true,
+				data:[
+				{
+				type: type.list,
+				fontSize: fontSize.medium,
+				fontWeight: fontWeight.normal,
+				fontStyle: fontStyle.normal,
+				value: `	
+				<ul class="space-y-2" style="list-style-type: disc; padding-left: 50px">
+					<li>
+						Providing connectors to the leading databases and data warehouses.
+						<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px">
+							<li>Redshift</li>
+							<li>AWS Glue (Athena for Query)</li>
+							<li>PostgreSQL</li>
+							<li>Databricks Unity Catalog(Databricks SQL for Query)</li>
+							<li>Snowflake</li>
+							<li>MySQL</li>
+							<li>Oracle</li>
+							<li>MS SQL</li>
+						</ul>
+					</li>
+					<li>
+						Replication of Catalog and catalog permissions.
+					</li>
+					<li>
+						Generating annotation of Tables and Columns for Business metadata. 
+					</li>
+					<li>
+						Agentic Prompt Engineering UI to test and finetune responses with built-in traceability.
+					</li>
+					<li>
+						Copilot interface that provides 
+						<ul class="space-y-2" style="list-style-type: circle; padding-left: 50px">
+							<li>Summarized narratives </li>
+							<li>Sampled Table Data</li>
+							<li>Generated SQLs</li>
+							<li>Suggested Dashboards</li>
+						</ul>
+					</li>
+					<li>
+						Seamless integration of copilot into customer applications.
+					</li>
+				</ul>`,
+			},
+		],
+	},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Generative BI transforms how we interact with data, making analytics accessible and impactful. By leveraging Gen AI, business users can get powerful insights from their data, create dashboards, explain data anomalies, and generate forecasts eliminating the learning curve. The Generative BI Solution can be seamlessly integrated with our Knowledge bases or custom models to enrich quality performance.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "With Karini AI, now you don't need to be an expert to build your Generative BI solution. For more information on how Karini AI can enhance your analytics and BI operations, contact us.",
+					},
+				],
+			},
+		],
+	},
+	{
+		type: "announcement",
 		id: "batch-execution-pipelines",
 		breadCrumbTitle:
 			"Batch execution pipelines using no-code Generative AI recipes",
