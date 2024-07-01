@@ -1076,6 +1076,18 @@ export const announcementsDetailsData = [
 				group: true,
 				data: [
 					{
+						type: type.video,
+						path: "/gif/gen_bi_strategy_V4.mp4",
+						caption: "",
+						width: 600,
+						height: 700,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
 						type: type.paragraph,
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
@@ -1133,18 +1145,6 @@ export const announcementsDetailsData = [
 			},
 		],
 	},
-	{
-		group: true,
-		data: [
-			{
-				type: type.video,
-				path: "/gif/gen_bi_strategy_V4.5.mp4",
-				caption: "",
-				width: 600,
-				height: 700,
-			},
-		],
-	},
 			{
 				group: true,
 				data: [
@@ -1165,7 +1165,7 @@ export const announcementsDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "With Karini AI, now you don't need to be an expert to build your Generative BI solution. For more information on how Karini AI can enhance your analytics and BI operations, contact us.",
+						value: "With Karini AI, now you don't need to be an expert to build your Generative BI solution. For more information on how Karini AI can enhance your analytics and BI operations, <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.karini.ai/contactus' target='_blank'>contact us.</a>",
 					},
 				],
 			},
