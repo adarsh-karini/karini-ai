@@ -85,6 +85,9 @@ const Navbar2 = () => {
 						{/* <Link href={"/pricing"}>Pricing</Link> */}
 						<Link href={"/aboutus"}>About us</Link>
 						{/* <Link href={"/careers"}>Careers</Link> */}
+						<Link href={"https://docs.karini.ai/"} target="_blank">
+							Docs
+						</Link>
 					</div>
 					<div className="flex space-x-2">
 						{/* <Link
@@ -251,6 +254,19 @@ const Navbar2 = () => {
 										/>
 
 										<span className="text-sm font-medium"> About Us </span>
+									</Link>
+									<Link
+										onClick={() => setMobileMenu((prev) => !prev)}
+										href={"https://docs.karini.ai/"}
+										target="_blank"
+										className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+									>
+										<BsInfoCircleFill
+											size={20}
+											className="text-secondary-600"
+										/>
+
+										<span className="text-sm font-medium"> Docs </span>
 									</Link>
 
 									{/* <Link
