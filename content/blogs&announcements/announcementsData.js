@@ -136,4 +136,22 @@ export const announcementsData = [
 		timeToRead: "3 min read",
 		path: "/announcements/batch-execution-pipelines",
 	},
+	{
+		show: true,
+		filterName: "announcements",
+		type: "announcement",
+		image: "/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png",
+		imageAltName:
+			"Text to SQL with Karini AI",
+		// imageWidth: 500,
+		// imageHeight: 500,
+		title:
+			"Introducing the First Purpose-Built Generative BI System: Natural Language Interaction with Your Analytics Databases and Data Warehouses",
+		description:
+			"Today, traditional data analytics, warehousing, and databases hold vast amounts of data. However, these methods are becoming inadequate as data generation soars with additional sources and multiple Data architectures.",
+		tag: "Gen AI",
+		date: "June 24th, 2024",
+		timeToRead: "3 min read",
+		path: "/announcements/generative-bi-system",
+	},
 ];

@@ -80,31 +80,30 @@ const aboutus = () => {
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{
 						__html: `{
-						"@context": "http://schema.org",
-						"@type": "Organization",
-						name: "Karini AI",
-						url: "https://www.karini.ai/partners",
-						description:
-							"At Karini AI, we forge powerful partnerships to unlock the true potential of Generative AI (GenAI).",
-						memberOf: [
-							{
-								"@type": "Organization",
-								name: "Amazon AWS",
-							},
-							{
-								"@type": "Organization",
-								name: "Microsoft Azure",
-							},
-							{
-								"@type": "Organization",
-								name: "Databricks",
-							},
-							{
-								"@type": "Organization",
-								name: "Distributed Technology Group (DTG)",
-							},
-						],
-					}`,
+							"@context": "http://schema.org",
+							"@type": "Organization",
+							"name": "Karini AI",
+							"url": "https://www.karini.ai/partners",
+							"description": "At Karini AI, we forge powerful partnerships to unlock the true potential of Generative AI (GenAI).",
+							"memberOf": [
+								{
+									"@type": "Organization",
+									"name": "Amazon AWS"
+								},
+								{
+									"@type": "Organization",
+									"name": "Microsoft Azure"
+								},
+								{
+									"@type": "Organization",
+									"name": "Databricks"
+								},
+								{
+									"@type": "Organization",
+									"name": "Distributed Technology Group (DTG)"
+								}
+							]
+						}`,
 					}}
 				></script>
 			</Head>
