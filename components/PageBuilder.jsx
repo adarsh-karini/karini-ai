@@ -278,6 +278,40 @@ const PageBuilder = ({ data }) => {
 															)}
 														</div>
 													)}
+													{val.type === "video" && (
+														<div className="space-y-1">
+															<div className="flex justify-center">
+																<video width={1000} height={900} controls>
+																	<source src={val.path} type="video/mp4" />
+																</video>
+															</div>
+															{val.caption && (
+																<small className="block text-center text-secondary-600 text-sm italic font-medium">
+																	{val.caption}
+																</small>
+															)}
+														</div>
+													)}
+													{val.type === "iframe" && (
+														<div className="space-y-1">
+															<div className="flex justify-center">
+																<iframe
+																	src={val.path}
+																	title={val.title || "YouTube video"}
+																	width={val.width || 560}
+																	height={val.height || 315}
+																	allowFullScreen
+																	referrerpolicy="strict-origin-when-cross-origin"
+																	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+																></iframe>
+															</div>
+															{val.caption && (
+																<small className="block text-center text-secondary-600 text-sm italic font-medium">
+																	{val.caption}
+																</small>
+															)}
+														</div>
+													)}
 												</div>
 											))}
 										</div>

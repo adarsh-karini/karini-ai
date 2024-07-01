@@ -5,6 +5,8 @@ let type = {
 	image: "image",
 	base_image: "base_image",
 	gif: "gif",
+	video: "video",
+	iframe: "iframe",
 };
 
 let fontSize = {
@@ -971,41 +973,39 @@ export const announcementsDetailsData = [
 	{
 		type: "announcement",
 		id: "generative-bi-system",
-		breadCrumbTitle:
-			"First Purpose-Built Generative BI System",
-		title: "Introducing the First Purpose-Built Generative BI System: Natural Language Interaction with Your Analytics Databases and Data Warehouses",
+		breadCrumbTitle: "First Purpose-Built Generative BI System",
+		title:
+			"Introducing the First Purpose-Built Generative BI System: Natural Language Interaction with Your Analytics Databases and Data Warehouses",
 		postedOn: "June 24 , 2024",
 		timeToRead: "3 min read",
-		metadata:{
-				"og:local": "en_US",
-				"og:type": "article",
-				"og:title": "Generative BI System: Transform Your Data Analytics",
-				"og:description":
-					"Unlock powerful data insights with Karini AI's new Generative BI system. Enhance your analytics capabilities now.",
-				"og:url":
-					"https://www.karini.ai/announcements/generative-bi-system",
-				"og:site_name": "Karini AI Batch Execution",
-				"article:published_time": "2024-06-24",
-				"og:updated_time": "2024-06-24",
-				"og:image":
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEffortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75",
-				"og:image:secure_url":
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEffortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75",
-				"og:image:width": "640",
-				"og:image:height": "640",
-				"og:image:alt":
-					"Text to SQL with Karini AI",
-				"twitter:card": "summary",
-				"twitter:description":
-					"Explore Karini AI's Generative BI system for dynamic insights directly from your databases and data warehouses. Enhance decision-making today.",
-				"twitter:title":
-					"Generative BI System: Transform Your Data Analytics",
-				"twitter:site":
-					"https://www.karini.ai/announcements/generative-bi-system",
-				"twitter:image":
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEffortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75",
-				"twitter:creator": "Introducing the First Purpose-Built Generative BI System: Natural Language Interaction with Your Analytics Databases and Data Warehouses",
-			},
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Generative BI System: Transform Your Data Analytics",
+			"og:description":
+				"Unlock powerful data insights with Karini AI's new Generative BI system. Enhance your analytics capabilities now.",
+			"og:url": "https://www.karini.ai/announcements/generative-bi-system",
+			"og:site_name": "Karini AI Batch Execution",
+			"article:published_time": "2024-06-24",
+			"og:updated_time": "2024-06-24",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEffortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEffortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt": "Text to SQL with Karini AI",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Explore Karini AI's Generative BI system for dynamic insights directly from your databases and data warehouses. Enhance decision-making today.",
+			"twitter:title": "Generative BI System: Transform Your Data Analytics",
+			"twitter:site":
+				"https://www.karini.ai/announcements/generative-bi-system",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEffortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75",
+			"twitter:creator":
+				"Introducing the First Purpose-Built Generative BI System: Natural Language Interaction with Your Analytics Databases and Data Warehouses",
+		},
 		SEO_data: {
 			title: "Introducing Generative BI for Enhanced Data Analytics",
 			metaTitle: "Generative BI System: Transform Your Data Analytics",
@@ -1013,20 +1013,16 @@ export const announcementsDetailsData = [
 				"Generative BI system, Natural language data interaction, Analytics databases integration, BI data warehousing solutions, Generative AI for business intelligence",
 			description:
 				"Explore Karini AI's Generative BI system for dynamic insights directly from your databases and data warehouses. Enhance decision-making today.",
-			canonicalLink:
-				"https://www.karini.ai/announcements/generative-bi-system",
-			hreflang:
-				"https://www.karini.ai/announcements/generative-bi-system",
+			canonicalLink: "https://www.karini.ai/announcements/generative-bi-system",
+			hreflang: "https://www.karini.ai/announcements/generative-bi-system",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id":
-						"https://www.karini.ai/announcements/generative-bi-system",
+					"@id": "https://www.karini.ai/announcements/generative-bi-system",
 				},
-				headline:
-					"Introducing the First Purpose-Built Generative BI System",
+				headline: "Introducing the First Purpose-Built Generative BI System",
 				image:
 					"https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png",
 				author: {
@@ -1054,7 +1050,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						     "Today, traditional data analytics, warehousing, and databases hold vast amounts of data. However, these methods are becoming inadequate as data generation soars with additional sources and multiple Data architectures. Traditional Business Intelligence is time-consuming, requires specialized skills, and produces insights that are hard to interpret and typically hardwired. Decision makers do not get fresh insights or need to depend on their Data science or Analysts to provide summary increasing round trip time and hence delaying decisions."
+							"Today, traditional data analytics, warehousing, and databases hold vast amounts of data. However, these methods are becoming inadequate as data generation soars with additional sources and multiple Data architectures. Traditional Business Intelligence is time-consuming, requires specialized skills, and produces insights that are hard to interpret and typically hardwired. Decision makers do not get fresh insights or need to depend on their Data science or Analysts to provide summary increasing round trip time and hence delaying decisions.",
 					},
 				],
 			},
@@ -1067,7 +1063,19 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						    "The State of the art Generative AI models have shown remarkable results in programming tasks such as SQL Generation, Data processing and Narrative generation hence they have the potential to transform every aspect of the data and analytics lifecycle. Businesses are increasingly planning to integrate generative AI into their BI strategies. There are similar solutions available by cloud providers or BI providers but they are confined to their own ecosystems and do not reflect realities of the Enterprise data landscape which tends to have Data silos across multiple clouds. Many enterprises also need better integration of Generative BI offerings within their own applications."
+							"The State of the art Generative AI models have shown remarkable results in programming tasks such as SQL Generation, Data processing and Narrative generation hence they have the potential to transform every aspect of the data and analytics lifecycle. Businesses are increasingly planning to integrate generative AI into their BI strategies. There are similar solutions available by cloud providers or BI providers but they are confined to their own ecosystems and do not reflect realities of the Enterprise data landscape which tends to have Data silos across multiple clouds. Many enterprises also need better integration of Generative BI offerings within their own applications.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.iframe,
+						path: "https://www.youtube.com/embed/kxdZe9Sj80Q?si=gutwNdnYIJqrfXIu",
+						title: "Karini AI Generative BI System",
+						width: 700,
+						height: 455,
 					},
 				],
 			},
@@ -1086,13 +1094,13 @@ export const announcementsDetailsData = [
 			},
 			{
 				group: true,
-				data:[
-				{
-				type: type.list,
-				fontSize: fontSize.medium,
-				fontWeight: fontWeight.normal,
-				fontStyle: fontStyle.normal,
-				value: `	
+				data: [
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `	
 				<ul class="space-y-2" style="list-style-type: disc; padding-left: 50px">
 					<li>
 						Providing connectors to the leading databases and data warehouses.
@@ -1129,18 +1137,6 @@ export const announcementsDetailsData = [
 						Seamless integration of copilot into customer applications.
 					</li>
 				</ul>`,
-			},
-		],
-	},
-			{
-				group: true,
-				data: [
-					{
-						type: type.paragraph,
-						fontSize: fontSize.medium,
-						fontWeight: fontWeight.normal,
-						fontStyle: fontStyle.normal,
-						value: "Generative BI transforms how we interact with data, making analytics accessible and impactful. By leveraging Gen AI, business users can get powerful insights from their data, create dashboards, explain data anomalies, and generate forecasts eliminating the learning curve. The Generative BI Solution can be seamlessly integrated with our Knowledge bases or custom models to enrich quality performance.",
 					},
 				],
 			},
@@ -1152,7 +1148,21 @@ export const announcementsDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "With Karini AI, now you don't need to be an expert to build your Generative BI solution. For more information on how Karini AI can enhance your analytics and BI operations, contact us.",
+						value:
+							"Generative BI transforms how we interact with data, making analytics accessible and impactful. By leveraging Gen AI, business users can get powerful insights from their data, create dashboards, explain data anomalies, and generate forecasts eliminating the learning curve. The Generative BI Solution can be seamlessly integrated with our Knowledge bases or custom models to enrich quality performance.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"With Karini AI, now you don't need to be an expert to build your Generative BI solution. For more information on how Karini AI can enhance your analytics and BI operations, <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://www.karini.ai/contactus' target='_blank'>contact us.</a>",
 					},
 				],
 			},
@@ -1163,39 +1173,39 @@ export const announcementsDetailsData = [
 		id: "batch-execution-pipelines",
 		breadCrumbTitle:
 			"Batch execution pipelines using no-code Generative AI recipes",
-		title: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes.",
+		title:
+			"Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes.",
 		postedOn: "June 13, 2024",
 		timeToRead: "3 min read",
-		metadata:{
-				"og:local": "en_US",
-				"og:type": "article",
-				"og:title": "Efficient Batch Pipelines with No-Code GenAI Recipes",
-				"og:description":
-					"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations",
-				"og:url":
-					"https://www.karini.ai/announcements/batch-execution-pipelines",
-				"og:site_name": "Karini AI Batch Execution",
-				"article:published_time": "2024-06-13",
-				"og:updated_time": "2024-06-13",
-				"og:image":
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
-				"og:image:secure_url":
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
-				"og:image:width": "640",
-				"og:image:height": "640",
-				"og:image:alt":
-					"Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
-				"twitter:card": "summary",
-				"twitter:description":
-					"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations",
-				"twitter:title":
-					"Efficient Batch Pipelines with No-Code GenAI Recipes",
-				"twitter:site":
-					"https://www.karini.ai/announcements/batch-execution-pipelines",
-				"twitter:image":
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
-				"twitter:creator": "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
-			},
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Efficient Batch Pipelines with No-Code GenAI Recipes",
+			"og:description":
+				"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations",
+			"og:url": "https://www.karini.ai/announcements/batch-execution-pipelines",
+			"og:site_name": "Karini AI Batch Execution",
+			"article:published_time": "2024-06-13",
+			"og:updated_time": "2024-06-13",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt":
+				"Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations",
+			"twitter:title": "Efficient Batch Pipelines with No-Code GenAI Recipes",
+			"twitter:site":
+				"https://www.karini.ai/announcements/batch-execution-pipelines",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
+			"twitter:creator":
+				"Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
+		},
 		SEO_data: {
 			title: "Efficient Batch Pipelines with Karini AI's No-Code GenAI Recipes",
 			metaTitle: "Efficient Batch Pipelines with No-Code GenAI Recipes",
@@ -1205,8 +1215,7 @@ export const announcementsDetailsData = [
 				"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations.",
 			canonicalLink:
 				"https://www.karini.ai/announcements/batch-execution-pipelines",
-			hreflang:
-				"https://www.karini.ai/announcements/batch-execution-pipelines",
+			hreflang: "https://www.karini.ai/announcements/batch-execution-pipelines",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
@@ -1244,7 +1253,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						       "As enterprises increasingly adopt Large Language Models (LLMs) for diverse generative AI applications, a notable challenge emerges in implementing batch processing pipelines. Unlike real-time processing, batch workflows enable handling large datasets in bulk, making them ideal for tasks where immediate responses are not required. Integrating generative AI into these batch workflows signifies a transformative leap in data and task management. This approach not only automates complex processes but also scales efficiently to meet the demands of extensive data handling. By ensuring precise and consistent outputs, generative AI-powered batch workflows enhance overall operational efficiency and maintain a competitive edge in today’s data-centric landscape."
+							"As enterprises increasingly adopt Large Language Models (LLMs) for diverse generative AI applications, a notable challenge emerges in implementing batch processing pipelines. Unlike real-time processing, batch workflows enable handling large datasets in bulk, making them ideal for tasks where immediate responses are not required. Integrating generative AI into these batch workflows signifies a transformative leap in data and task management. This approach not only automates complex processes but also scales efficiently to meet the demands of extensive data handling. By ensuring precise and consistent outputs, generative AI-powered batch workflows enhance overall operational efficiency and maintain a competitive edge in today’s data-centric landscape.",
 					},
 				],
 			},
@@ -1256,7 +1265,8 @@ export const announcementsDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Currently, several challenges accompany the implementation of generative AI in batch-processing pipelines."
+						value:
+							"Currently, several challenges accompany the implementation of generative AI in batch-processing pipelines.",
 					},
 					{
 						type: type.list,
@@ -1279,7 +1289,7 @@ export const announcementsDetailsData = [
 						<li>
 						The ability to review and trace every step of the batch pipeline is essential for fine-tuning and debugging purposes.
 						</li>
-					    </ol>`
+					    </ol>`,
 					},
 				],
 			},
@@ -1292,7 +1302,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						    "Addressing these challenges is crucial for fully realizing the potential of generative AI in batch workflow applications and achieving scalable, reliable, and efficient data processing solutions."
+							"Addressing these challenges is crucial for fully realizing the potential of generative AI in batch workflow applications and achieving scalable, reliable, and efficient data processing solutions.",
 					},
 				],
 			},
@@ -1318,7 +1328,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						      "Karini AI is thrilled to introduce its user-friendly no-code recipe workflow support for building and executing batch pipelines using generative AI. This intuitive solution empowers our customers, both business and technical users, to seamlessly connect to various data sources using Karini AI’s data connectors and effortlessly orchestrate batch pipelines that incorporate custom transformation functions, prompts, and LLMs for multiple tasks. Additionally, this also empowers our customers to:"
+							"Karini AI is thrilled to introduce its user-friendly no-code recipe workflow support for building and executing batch pipelines using generative AI. This intuitive solution empowers our customers, both business and technical users, to seamlessly connect to various data sources using Karini AI’s data connectors and effortlessly orchestrate batch pipelines that incorporate custom transformation functions, prompts, and LLMs for multiple tasks. Additionally, this also empowers our customers to:",
 					},
 				],
 			},
@@ -1341,7 +1351,7 @@ export const announcementsDetailsData = [
 								<li>
 								Furthermore, Karini AI provides comprehensive tracking and auditing capabilities, ensuring users can monitor token usage for each execution step. Our elaborate dashboards offer visibility into performance metrics, resource usage, and cost management, giving businesses the confidence to maintain efficiency and transparency in their batch-processing operations.
 								</li>
-								</ol>`
+								</ol>`,
 					},
 				],
 			},
@@ -1354,7 +1364,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						     "With Karini AI’s advanced platform, enterprises can unlock the full potential of executing batch workflows using generative AI, ultimately enhancing their operational capabilities and driving innovation. This is an exciting opportunity to revolutionize your data processing operations."
+							"With Karini AI’s advanced platform, enterprises can unlock the full potential of executing batch workflows using generative AI, ultimately enhancing their operational capabilities and driving innovation. This is an exciting opportunity to revolutionize your data processing operations.",
 					},
 				],
 			},
@@ -1380,7 +1390,8 @@ export const announcementsDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Executing a batch workflow pipeline using generative AI holds significant potential for enhancing efficiency, accuracy, and scalability in various fields. Generative AI can analyze and process large datasets efficiently, providing valuable insights and supporting data-driven decision-making. We invite you to contact us for more information and to see how Karini AI can revolutionize your batch-processing operations.",
+						value:
+							"Executing a batch workflow pipeline using generative AI holds significant potential for enhancing efficiency, accuracy, and scalability in various fields. Generative AI can analyze and process large datasets efficiently, providing valuable insights and supporting data-driven decision-making. We invite you to contact us for more information and to see how Karini AI can revolutionize your batch-processing operations.",
 					},
 				],
 			},
