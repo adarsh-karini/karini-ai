@@ -5,6 +5,7 @@ let type = {
 	image: "image",
 	base_image: "base_image",
 	gif: "gif",
+	video: "video",
 };
 
 let fontSize = {
@@ -1129,6 +1130,18 @@ export const announcementsDetailsData = [
 						Seamless integration of copilot into customer applications.
 					</li>
 				</ul>`,
+			},
+		],
+	},
+	{
+		group: true,
+		data: [
+			{
+				type: type.video,
+				path: "/gif/gen_bi_strategy_V4.5.mp4",
+				caption: "",
+				width: 600,
+				height: 700,
 			},
 		],
 	},
