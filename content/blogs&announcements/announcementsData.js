@@ -154,4 +154,22 @@ export const announcementsData = [
 		timeToRead: "3 min read",
 		path: "/announcements/generative-bi-system",
 	},
+	{
+		show: true,
+		filterName: "announcements",
+		type: "announcement",
+		image: "/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png",
+		imageAltName:
+			"Karini AI on AWS Marketplace",
+		// imageWidth: 500,
+		// imageHeight: 500,
+		title:
+			"Generative AI Goes Prime Time: Karini AI Now Available on AWS Marketplace!",
+		description:
+			"Empowering innovation while prioritizing security is paramount for businesses of all sizes.",
+		tag: "Gen AI",
+		date: "July 1st, 2024",
+		timeToRead: "3 min read",
+		path: "/announcements/aws-marketplace",
+	},
 ];
