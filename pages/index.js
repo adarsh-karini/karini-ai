@@ -41,6 +41,41 @@ const index = () => {
 
 				<link rel="canonical" href="https://www.karini.ai" />
 				<link rel="alternate" href="https://www.karini.ai/" hrefLang="en-us" />
+				<script
+					id="ga0"
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: `{
+							"@context": "https://schema.org",
+							"@type": "Organization",
+							"name": "Karini Ai",
+							"alternateName": "Karini",
+							"url": "https://www.karini.ai/",
+							"logo": "https://karini.ai/karini-logo.png",
+							"sameAs": [
+								"https://www.linkedin.com/company/karini-ai/",
+								"https://twitter.com/karini_ai"
+							]}`,
+					}}
+				/>
+				<script
+					id="ga1"
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: `{
+							"@context": "https://schema.org/",
+							"@type": "WebSite",
+							"name": "Karini Ai",
+							"url": "https://www.karini.ai/",
+							"potentialAction": {
+								"@type": "SearchAction",
+								"target": "https://www.karini.ai/platforms{search_term_string}https://www.karini.ai/aboutus",
+								"query-input": "required name=search_term_string"
+							}
+							}
+						`,
+					}}
+				/>
 				{/* <meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@karini_ai" />
 				<meta
