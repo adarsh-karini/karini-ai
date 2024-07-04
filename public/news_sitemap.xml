@@ -369,4 +369,23 @@
 	<image:loc>https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png</image:loc>
     </image:image>
   </url>
+
+   <!-- Announcement Post 10 -->
+  <url>
+    <loc>https://www.karini.ai/announcements/aws-marketplace</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Announcement five</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-07-01</news:publication_date>
+      <news:title>Karini AI Launches on AWS Marketplace - Explore Now!
+     </news:title>
+      <news:keywords>Karini AI AWS Marketplace, Generative AI AWS integration, AWS Marketplace GenAI solutions, Secure GenAI platform, No-code AI development AWS
+</news:keywords>
+    </news:news>
+	<image:image>
+	<image:loc>https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png</image:loc>
+    </image:image>
+  </url>
 </urlset>
