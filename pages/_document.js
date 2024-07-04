@@ -13,41 +13,6 @@ export default function Document() {
 					type="image/x-icon"
 				/>
 
-				<script
-					id="ga0"
-					type="application/ld+json"
-					dangerouslySetInnerHTML={{
-						__html: `{
-							"@context": "https://schema.org",
-							"@type": "Organization",
-							"name": "Karini Ai",
-							"alternateName": "Karini",
-							"url": "https://www.karini.ai/",
-							"logo": "https://karini.ai/karini-logo.png",
-							"sameAs": [
-								"https://www.linkedin.com/company/karini-ai/",
-								"https://twitter.com/karini_ai"
-							]}`,
-					}}
-				/>
-				<script
-					id="ga1"
-					type="application/ld+json"
-					dangerouslySetInnerHTML={{
-						__html: `{
-							"@context": "https://schema.org/",
-							"@type": "WebSite",
-							"name": "Karini Ai",
-							"url": "https://www.karini.ai/",
-							"potentialAction": {
-								"@type": "SearchAction",
-								"target": "https://www.karini.ai/platforms{search_term_string}https://www.karini.ai/aboutus",
-								"query-input": "required name=search_term_string"
-							}
-							}
-						`,
-					}}
-				/>
 				{/* <script type="text/javascript">
                   {(function(c,l,a,r,i,t,y){
                      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
