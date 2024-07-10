@@ -42,6 +42,12 @@ const Blog = ({ blogData }) => {
 				<meta name="description" content={blogData?.SEO_data.description} />
 				<meta name="keywords" content={blogData?.SEO_data.keywords} />
 				<meta name="robots" content="index,follow" />
+				<script
+					async
+					type="application/javascript"
+					src="https://news.google.com/swg/js/v1/swg-basic.js"
+				></script>
+
 				{Object.keys(blogData?.metadata).length > 0 &&
 					Object.entries(blogData?.metadata).map(([key, value]) => {
 						let keyName = /twitter:/.test(key);
@@ -69,6 +75,7 @@ const Blog = ({ blogData }) => {
 				)}
 				{/* End Schema Markup */}
 			</Head>
+
 			<div
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
@@ -92,6 +99,19 @@ const Blog = ({ blogData }) => {
 									clientOptions: { theme: "light", lang: "en" },
 								});
 							});`,
+					}}
+				/>
+				<Script
+					id="post_script"
+					dangerouslySetInnerHTML={{
+						__html: `(self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+							basicSubscriptions.init({
+							type: "NewsArticle",
+							isPartOfType: ["Product"],
+							isPartOfProductId: "CAowwoDWCw:openaccess",
+							clientOptions: { theme: "light", lang: "en" },
+							});
+						});`,
 					}}
 				/>
 			</div>

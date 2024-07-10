@@ -92,6 +92,19 @@ const Announcement = ({ annData }) => {
 					type="application/javascript"
 					src="https://news.google.com/swg/js/v1/swg-basic.js"
 				/>
+				<Script
+					id="post_script"
+					dangerouslySetInnerHTML={{
+						__html: `(self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+							basicSubscriptions.init({
+							type: "NewsArticle",
+							isPartOfType: ["Product"],
+							isPartOfProductId: "CAowwoDWCw:openaccess",
+							clientOptions: { theme: "light", lang: "en" },
+							});
+						});`,
+					}}
+				/>
 				{/* <Script
 					id="ann-swg-script"
 					dangerouslySetInnerHTML={{
