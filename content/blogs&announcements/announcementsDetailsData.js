@@ -1339,6 +1339,240 @@ export const announcementsDetailsData = [
 	},
 	{
 		type: "announcement",
+		id: "ai-safety-guardrails",
+		breadCrumbTitle:
+			" Karini AI enhances AI safety with support for Guardrails",
+		title: "Karini AI enhances AI safety with support for Guardrails",
+		postedOn: "July 17, 2024",
+		timeToRead: "4 min read",
+		metadata:{
+				"og:local": "en_US",
+				"og:type": "article",
+				"og:title": "Karini AI Guardrails: Secure Your AI on AWS",
+				"og:description":
+					"Leverage Karini AI's integration with Amazon Bedrock to enhance AI application safety and ethical compliance.",
+				"og:url":
+					"https://www.karini.ai/announcements/ai-safety-guardrails",
+				"og:site_name": "Karini AI enhances AI safety with support for Guardrails",
+				"article:published_time": "2024-07-17",
+				"og:updated_time": "2024-07-17",
+				"og:image":
+					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
+				"og:image:secure_url":
+					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
+				"og:image:width": "640",
+				"og:image:height": "640",
+				"og:image:alt":
+					"Karini AI enhances AI safety with support for Guardrails",
+				"twitter:card": "summary",
+				"twitter:description":
+					"Secure your AI applications with Karini AI's ethical guardrails, integrated with Amazon Bedrock.",
+				"twitter:title":
+					"Enhancing AI Safety with Karini Guardrails on AWS",
+				"twitter:site":
+					"https://www.karini.ai/announcements/ai-safety-guardrails",
+				"twitter:image":
+					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
+				"twitter:creator": "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
+			},
+		SEO_data: {
+			title: "Enhancing AI Safety with Karini Guardrails on AWS",
+			metaTitle: "Karini AI Guardrails: Secure Your AI on AWS",
+			keywords:
+				"Karini AI safety guardrails, AI content safety, Amazon Bedrock integration, ethical AI applications, AI risk management",
+			description:
+				"Discover how Karini AI ensures ethical AI use with Amazon Bedrock Guardrails. Enhance safety, prevent misuse, and build trust.",
+			canonicalLink:
+				"https://www.karini.ai/announcements/ai-safety-guardrails",
+			hreflang:
+				"https://www.karini.ai/announcements/ai-safety-guardrails",
+			schemaMarkup: {
+				"@context": "https://schema.org",
+				"@type": "NewsArticle",
+				mainEntityOfPage: {
+					"@type": "WebPage",
+					"@id":
+						"https://www.karini.ai/announcements/ai-safety-guardrails",
+				},
+				headline:
+					"Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes",
+				image:
+					"https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png",
+				author: {
+					"@type": "Person",
+					name: "Deepali Rajale",
+				},
+				publisher: {
+					"@type": "Organization",
+					name: "Karini AI",
+					logo: {
+						"@type": "ImageObject",
+						url: "https://www.karini.ai",
+					},
+				},
+				datePublished: "2024-07-17",
+			},
+		},
+		sections: [
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						      "The rapid advancement of large language models (LLMs) has opened up incredible possibilities in various fields, from enhancing customer service through chatbots to generating creative content and assisting in virtual tasks. These AI-powered applications mimic human-like conversations and can engage users in unprecedented ways. However, it's crucial to be aware that the potential for misuse and harm is significant without proper safeguards. By their nature, LLMs can inadvertently produce and spread misinformation, manipulate individuals, and generate harmful or biased content. This risk underscores the critical need for content safety guardrails to ensure that the benefits of LLMs are realized without compromising ethical standards and societal well-being. This includes the following:"
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `
+						<ol style='list-style: inside; list-style-type: decimal; margin-left: 25px;'>
+						        <li>
+								<h3 class="list-heading">Mitigating Misinformation and Manipulation:</h3> LLMs in chatbots can unintentionally spread misinformation without content safety guardrails, especially in critical areas like healthcare and finance. Guardrails ensure information accuracy, protecting users from being misled.
+								</li>
+								<li>
+								<h3 class="list-heading">Preventing Harmful and Biased Outputs:</h3> LLMs may produce harmful or biased content, leading to offensive language or discrimination. Here, content safety guardrails play a crucial role. They filter such outputs and ensure AI generates inclusive and respectful content, providing the audience a sense of reassurance and security.
+								</li>
+								<li>
+								<h3 class="list-heading">Enhancing User Trust and Safety:</h3>LLM chatbots may generate offensive or false responses without safeguards. Content safety guardrails build user trust by ensuring safer interactions, particularly in applications for children or vulnerable populations.
+								</li>
+								<li>
+								<h3 class="list-heading">Protecting Your Brand and Business:</h3> Chatbot conversations can stray into irrelevant or controversial topics, harming your brand. Guardrails prevent security risks by ensuring LLMs don't expose confidential information or produce harmful outputs.
+								</li>
+								<li>
+								<h3 class="list-heading">Facilitating Regulatory Compliance:</h3> Regulatory bodies scrutinize AI for content safety and user protection. Implementing guardrails helps developers comply with regulations, avoid legal issues, and promote sustainable AI deployment.
+								</li>
+								<li>
+								<h3 class="list-heading">Ensuring Ethical Use of AI:</h3> Content safety guardrails monitor and control generated content, providing a safer user experience. This is especially crucial for applications targeting children and vulnerable groups. It assures users of the technology's reliability and encourages a responsible and considerate approach to AI use.	
+								</li>
+								</ol>`,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "Karini AI is proud to announce its support for content safety Guardrails by integrating with <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://aws.amazon.com/bedrock/guardrails/' target='_blank'>Amazon Bedrock Guardrails</a>. This integration allows you to configure different filtering policies to avoid undesirable and harmful content and remove or mask sensitive information for privacy protection. Amazon Bedrock Guardrails provide a robust framework for implementing these guardrails, ensuring AI's safety and ethical use in your applications."
+					},
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `<ul class="space-y-2" style="list-style-type: disc; padding-left: 50px">
+						        <li>
+							    With Karini AI's content filters, you can set thresholds to block input prompts or model responses containing harmful content such as hate speech, insults, sexual content, violence, criminal activity, and prompt attacks, which can include attempts to elicit sensitive information or incite harmful behavior. This feature ensures that your AI applications maintain a safe and respectful environment for users.
+								</li>
+						        <li>
+							    Denied topics: You can set issues to avoid in your generative AI application. For instance, a banking assistant can be programmed to steer clear of illegal investment advice.
+								</li>
+								<li>
+							    Word filters: You can set custom words or phrases to detect and block user interactions with generative AI applications. For instance, you can filter out profanity and specific terms like competitor names or offensive words.
+								</li>
+								<li>
+								Sensitive information filters: You can reject or redact sensitive information in responses depending on the use case. For instance, you can redact personal details while summarizing customer and agent conversation transcripts.
+								</li>
+								</ul>`
+					},
+					
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.iframe,
+						path: "https://www.youtube.com/embed/SM23u0W_Gao?si=RnrplOcUN_nW1oZx",
+						title: "AI safety with support for Guardrails",
+						width: 700,
+						height: 455,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						      "With Karini AI, you now have:"
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: `<ul class="space-y-2" style="list-style-type: disc; padding-left: 50px">
+						        <li>
+                                An easy and agile interface that allows you to configure your guardrails on the same platform as your prompts, recipes, and copilots. 
+ 								</li>
+						        <li>
+                                This is a flexible way to configure global guardrails at the organization level, which can be applied to all prompts within the organization. 
+								</li>
+								<li>
+                                The ability to Deploy your guardrail as an Amazon Bedrock guardrail. 
+								</li>
+								<li>
+                                Monitor the cost of Guardrails in an application using cost dashboards. 
+								</li>
+								</ul>`
+					},
+					
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Using the prompt playground, Karini provides a place to incorporate guardrails in prompts and tests. The prompt guardrails are enforced in the associated recipes and copilots, ensuring that your AI applications adhere to the highest safety standards. The prompt playground feature allows you to test and refine your prompts in a controlled environment, ensuring that they meet your content safety requirements before deployment.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+						       "Organizations can mitigate risks associated with generative AI applications by incorporating robust safety measures through guardrails, fostering trust and reliability. As these technologies continue to evolve, the emphasis on ethical deployment and rigorous safety protocols will be paramount in leveraging the transformative potential of LLMs while safeguarding users and maintaining public trust. With Karini AI, you can develop innovative and responsible AI applications by leveraging customizable controls tailored to your specific use cases and ethical AI policies. Thus ensuring a balance between technological progress and risk management."
+					},
+				],
+			},
+		],
+	},
+	{
+		type: "announcement",
 		id: "batch-execution-pipelines",
 		breadCrumbTitle:
 			"Batch execution pipelines using no-code Generative AI recipes",

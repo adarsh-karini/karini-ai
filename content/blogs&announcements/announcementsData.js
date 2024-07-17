@@ -172,4 +172,22 @@ export const announcementsData = [
 		timeToRead: "3 min read",
 		path: "/announcements/aws-marketplace",
 	},
+	{
+		show: true,
+		filterName: "announcements",
+		type: "announcement",
+		image: "/assets/images/blogs/Support_AI_Safety_with_Guardrails.png",
+		imageAltName:
+			"Support AI Safety with Guardrails",
+		// imageWidth: 500,
+		// imageHeight: 500,
+		title:
+			"Karini AI enhances AI safety with support for Guardrails",
+		description:
+			"The rapid advancement of large language models (LLMs) has opened up incredible possibilities in various fields, from enhancing customer service through chatbots to generating creative content and assisting in virtual tasks.",
+		tag: "Gen AI",
+		date: "July 17th, 2024",
+		timeToRead: "4 min read",
+		path: "/announcements/ai-safety-guardrails",
+	},
 ];
