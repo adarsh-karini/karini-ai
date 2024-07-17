@@ -188,6 +188,6 @@ export const announcementsData = [
 		tag: "Gen AI",
 		date: "July 17th, 2024",
 		timeToRead: "4 min read",
-		path: "/announcements/ai-safety-guardrails",
+		path: "/announcements/bedrock-guardrails",
 	},
 ];
