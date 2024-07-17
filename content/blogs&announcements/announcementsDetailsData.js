@@ -1378,7 +1378,7 @@ export const announcementsDetailsData = [
 		metadata: {
 			"og:local": "en_US",
 			"og:type": "article",
-			"og:title": "Karini AI Guardrails: Secure Your AI on AWS",
+			"og:title": "Elevate AI Trust and Safety with Amazon Bedrock Guardrails",
 			"og:description":
 				"Leverage Karini AI's integration with Amazon Bedrock to enhance AI application safety and ethical compliance.",
 			"og:url": "https://www.karini.ai/announcements/bedrock-guardrails",
@@ -1397,7 +1397,8 @@ export const announcementsDetailsData = [
 			"twitter:card": "summary",
 			"twitter:description":
 				"Secure your AI applications with Karini AI's ethical guardrails, integrated with Amazon Bedrock.",
-			"twitter:title": "Enhancing AI Safety with Karini Guardrails on AWS",
+			"twitter:title":
+				"Elevate AI Trust and Safety with Amazon Bedrock Guardrails",
 			"twitter:site": "https://www.karini.ai/announcements/bedrock-guardrails",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
@@ -1405,12 +1406,13 @@ export const announcementsDetailsData = [
 				"Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
 		},
 		SEO_data: {
-			title: "Elevate AI Trust and Safety with Amazon Bedrock Guardrails",
+			title:
+				"Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails",
 			metaTitle: "Karini AI enhances AI safety with Guardrails for GenAI",
 			keywords:
 				"Karini AI safety guardrails, AI content safety, Amazon Bedrock integration, ethical AI applications, AI risk management",
 			description:
-				"Karini AI makes building safe and effective AI easy. Our interface lets you set up guardrails alongside everything else you need, so you can quickly develop responsible AI applications.",
+				"Karini AI makes building safe and effective AI easy. Our interface lets you set up guardrails alongside everything else you need, so you can quickly develop responsible AI apps",
 			canonicalLink: "https://www.karini.ai/announcements/bedrock-guardrails",
 			hreflang: "https://www.karini.ai/announcements/bedrock-guardrails",
 			schemaMarkup: {
@@ -1420,8 +1422,7 @@ export const announcementsDetailsData = [
 					"@type": "WebPage",
 					"@id": "https://www.karini.ai/announcements/bedrock-guardrails",
 				},
-				headline:
-					"Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes",
+				headline: "Elevate AI Trust and Safety with Amazon Bedrock Guardrails",
 				image:
 					"https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png",
 				author: {
