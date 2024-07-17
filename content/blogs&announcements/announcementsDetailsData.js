@@ -154,6 +154,10 @@ export const announcementsDetailsData = [
 				],
 			},
 		],
+		relatedBlogs: [
+			"enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+			"karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+		],
 	},
 	{
 		type: "announcement",
@@ -283,6 +287,11 @@ export const announcementsDetailsData = [
 					},
 				],
 			},
+		],
+		relatedBlogs: [
+			"fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+			"karini-ai-launches-streaming-for-copilot",
+			"enterprise-connectivity-integrating-google-azure-confluence-dropbox",
 		],
 	},
 	{
@@ -462,6 +471,10 @@ export const announcementsDetailsData = [
 				],
 			},
 		],
+		relatedBlogs: [
+			"karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+			"karini-ai-embarks-on-a-new-partnership-with-databricks",
+		],
 	},
 	{
 		type: "announcement",
@@ -638,6 +651,10 @@ export const announcementsDetailsData = [
 				],
 			},
 		],
+		relatedBlogs: [
+			"karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+			"karini-ai-announces-full-support-for-amazon-bedrock-models",
+		],
 	},
 	{
 		type: "announcement",
@@ -810,6 +827,11 @@ export const announcementsDetailsData = [
 				],
 			},
 		],
+		relatedBlogs: [
+			"karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+			"karini-ai-embarks-on-a-new-partnership-with-databricks",
+			"karini-ai-announces-full-support-for-amazon-bedrock-models",
+		],
 	},
 	{
 		type: "announcement",
@@ -968,6 +990,10 @@ export const announcementsDetailsData = [
 					},
 				],
 			},
+		],
+		relatedBlogs: [
+			"karini-ai-embarks-on-a-new-partnership-with-databricks",
+			"karini-ai-announces-full-support-for-amazon-bedrock-models",
 		],
 	},
 	{
@@ -1167,45 +1193,47 @@ export const announcementsDetailsData = [
 				],
 			},
 		],
+		relatedBlogs: [
+			"karini-ai-embarks-on-a-new-partnership-with-databricks",
+			"industrialize-generative-ai",
+			"karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+		],
 	},
 	{
 		type: "announcement",
 		id: "aws-marketplace",
-		breadCrumbTitle:
-			" Karini AI Now Available on AWS Marketplace!",
-		title: "Generative AI Goes Prime Time: Karini AI Now Available on AWS Marketplace!",
+		breadCrumbTitle: " Karini AI Now Available on AWS Marketplace!",
+		title:
+			"Generative AI Goes Prime Time: Karini AI Now Available on AWS Marketplace!",
 		postedOn: "July 1, 2024",
 		timeToRead: "3 min read",
-		metadata:{
-				"og:local": "en_US",
-				"og:type": "article",
-				"og:title": "Karini AI Available on AWS - Secure GenAI Solutions",
-				"og:description":
-					"Launch your AI innovations with Karini AI on AWS Marketplace. Secure, scalable, and user-friendly!",
-				"og:url":
-					"https://www.karini.ai/announcements/aws-marketplace",
-				"og:site_name": "Karini AI on AWS MarketPlace",
-				"article:published_time": "2024-07-01",
-				"og:updated_time": "2024-07-01",
-				"og:image":
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_now_on_AWS_Marketplace.png&w=640&q=75",
-				"og:image:secure_url":
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_now_on_AWS_Marketplace.png&w=640&q=75",
-				"og:image:width": "640",
-				"og:image:height": "640",
-				"og:image:alt":
-					"Karini AI on AWS Marketplace",
-				"twitter:card": "summary",
-				"twitter:description":
-					"Unlock the power of GenAI with Karini AI on AWS Marketplace. Secure, scalable AI development is just a click away!",
-				"twitter:title":
-					"Karini AI Launches on AWS Marketplace - Explore Now!",
-				"twitter:site":
-					"https://www.karini.ai/announcements/aws-marketplace",
-				"twitter:image":
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_now_on_AWS_Marketplace.png&w=640&q=75",
-				"twitter:creator": "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
-			},
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Karini AI Available on AWS - Secure GenAI Solutions",
+			"og:description":
+				"Launch your AI innovations with Karini AI on AWS Marketplace. Secure, scalable, and user-friendly!",
+			"og:url": "https://www.karini.ai/announcements/aws-marketplace",
+			"og:site_name": "Karini AI on AWS MarketPlace",
+			"article:published_time": "2024-07-01",
+			"og:updated_time": "2024-07-01",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_now_on_AWS_Marketplace.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_now_on_AWS_Marketplace.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt": "Karini AI on AWS Marketplace",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Unlock the power of GenAI with Karini AI on AWS Marketplace. Secure, scalable AI development is just a click away!",
+			"twitter:title": "Karini AI Launches on AWS Marketplace - Explore Now!",
+			"twitter:site": "https://www.karini.ai/announcements/aws-marketplace",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_now_on_AWS_Marketplace.png&w=640&q=75",
+			"twitter:creator":
+				"Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
+		},
 		SEO_data: {
 			title: "Karini AI Launches on AWS Marketplace - Explore Now!",
 			metaTitle: "Karini AI Available on AWS - Secure GenAI Solutions",
@@ -1213,17 +1241,14 @@ export const announcementsDetailsData = [
 				"Karini AI AWS Marketplace, Generative AI AWS integration, AWS Marketplace GenAI solutions, Secure GenAI platform, No-code AI development AWS",
 			description:
 				"Discover Karini AI on AWS Marketplace! Build secure, scalable GenAI applications quickly with seamless integration and enhanced security.",
-			canonicalLink:
-				"https://www.karini.ai/announcements/aws-marketplace",
-			hreflang:
-				"https://www.karini.ai/announcements/aws-marketplace",
+			canonicalLink: "https://www.karini.ai/announcements/aws-marketplace",
+			hreflang: "https://www.karini.ai/announcements/aws-marketplace",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id":
-						"https://www.karini.ai/announcements/aws-marketplace",
+					"@id": "https://www.karini.ai/announcements/aws-marketplace",
 				},
 				headline:
 					"Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes",
@@ -1254,7 +1279,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						    "Empowering innovation while prioritizing security is paramount for businesses of all sizes. We're thrilled to announce that Karini AI, the leading platform for building secure and scalable Generative AI (GenAI) applications, is now available on AWS Marketplace. Its user-friendly interface and seamless integration with Amazon Bedrock make it a comfortable choice for your business."
+							"Empowering innovation while prioritizing security is paramount for businesses of all sizes. We're thrilled to announce that Karini AI, the leading platform for building secure and scalable Generative AI (GenAI) applications, is now available on AWS Marketplace. Its user-friendly interface and seamless integration with Amazon Bedrock make it a comfortable choice for your business.",
 					},
 				],
 			},
@@ -1266,7 +1291,8 @@ export const announcementsDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Built upon the trusted foundation of AWS, Karini AI seamlessly integrates with Amazon Bedrock, empowering you to leverage state-of-the-art models with the peace of mind of enterprise-grade security. But Karini AI goes beyond just security. Our platform offers a suite of benefits that can unlock significant value for your business:"
+						value:
+							"Built upon the trusted foundation of AWS, Karini AI seamlessly integrates with Amazon Bedrock, empowering you to leverage state-of-the-art models with the peace of mind of enterprise-grade security. But Karini AI goes beyond just security. Our platform offers a suite of benefits that can unlock significant value for your business:",
 					},
 					{
 						type: type.list,
@@ -1291,9 +1317,8 @@ export const announcementsDetailsData = [
 								</li>
 								<li>
 								<h3 class="list-heading">Cost Savings:</h3>  Karini AI's detailed operational dashboards and cost management features help optimize your AI expenditures. The time savings you gain can translate to significant cost reductions, with projects potentially seeing 25-40% lower costs thanks to the 8-week development speedup.
-								</li>`
+								</li>`,
 					},
-					
 				],
 			},
 			{
@@ -1305,7 +1330,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						    "The convenience of AWS Marketplace makes it easier than ever to unlock the power of GenAI. Now, you can easily procure and deploy Karini AI directly within your AWS environment, accelerating your journey to AI-driven innovation."
+							"The convenience of AWS Marketplace makes it easier than ever to unlock the power of GenAI. Now, you can easily procure and deploy Karini AI directly within your AWS environment, accelerating your journey to AI-driven innovation.",
 					},
 				],
 			},
@@ -1331,10 +1356,15 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						      "Don't let complexity hold you back. With Karini AI, embracing Generative AI is as easy as a few clicks. Our platform is designed for ease of use, allowing you to unlock various benefits that drive innovation and success without the need for extensive technical knowledge."
+							"Don't let complexity hold you back. With Karini AI, embracing Generative AI is as easy as a few clicks. Our platform is designed for ease of use, allowing you to unlock various benefits that drive innovation and success without the need for extensive technical knowledge.",
 					},
 				],
 			},
+		],
+		relatedBlogs: [
+			"enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+			"karini-ai-announces-full-support-for-amazon-bedrock-models",
+			"karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 		],
 	},
 	{
@@ -1345,36 +1375,35 @@ export const announcementsDetailsData = [
 		title: "Karini AI enhances AI safety with support for Guardrails",
 		postedOn: "July 17, 2024",
 		timeToRead: "4 min read",
-		metadata:{
-				"og:local": "en_US",
-				"og:type": "article",
-				"og:title": "Karini AI Guardrails: Secure Your AI on AWS",
-				"og:description":
-					"Leverage Karini AI's integration with Amazon Bedrock to enhance AI application safety and ethical compliance.",
-				"og:url":
-					"https://www.karini.ai/announcements/bedrock-guardrails",
-				"og:site_name": "Karini AI enhances AI safety with support for Guardrails",
-				"article:published_time": "2024-07-17",
-				"og:updated_time": "2024-07-17",
-				"og:image":
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
-				"og:image:secure_url":
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
-				"og:image:width": "640",
-				"og:image:height": "640",
-				"og:image:alt":
-					"Karini AI enhances AI safety with support for Guardrails",
-				"twitter:card": "summary",
-				"twitter:description":
-					"Secure your AI applications with Karini AI's ethical guardrails, integrated with Amazon Bedrock.",
-				"twitter:title":
-					"Enhancing AI Safety with Karini Guardrails on AWS",
-				"twitter:site":
-					"https://www.karini.ai/announcements/bedrock-guardrails",
-				"twitter:image":
-					"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
-				"twitter:creator": "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
-			},
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Karini AI Guardrails: Secure Your AI on AWS",
+			"og:description":
+				"Leverage Karini AI's integration with Amazon Bedrock to enhance AI application safety and ethical compliance.",
+			"og:url": "https://www.karini.ai/announcements/bedrock-guardrails",
+			"og:site_name":
+				"Karini AI enhances AI safety with support for Guardrails",
+			"article:published_time": "2024-07-17",
+			"og:updated_time": "2024-07-17",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt":
+				"Karini AI enhances AI safety with support for Guardrails",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Secure your AI applications with Karini AI's ethical guardrails, integrated with Amazon Bedrock.",
+			"twitter:title": "Enhancing AI Safety with Karini Guardrails on AWS",
+			"twitter:site": "https://www.karini.ai/announcements/bedrock-guardrails",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
+			"twitter:creator":
+				"Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
+		},
 		SEO_data: {
 			title: "Elevate AI Trust and Safety with Amazon Bedrock Guardrails",
 			metaTitle: "Karini AI enhances AI safety with Guardrails for GenAI",
@@ -1382,17 +1411,14 @@ export const announcementsDetailsData = [
 				"Karini AI safety guardrails, AI content safety, Amazon Bedrock integration, ethical AI applications, AI risk management",
 			description:
 				"Karini AI makes building safe and effective AI easy. Our interface lets you set up guardrails alongside everything else you need, so you can quickly develop responsible AI applications.",
-			canonicalLink:
-				"https://www.karini.ai/announcements/bedrock-guardrails",
-			hreflang:
-				"https://www.karini.ai/announcements/bedrock-guardrails",
+			canonicalLink: "https://www.karini.ai/announcements/bedrock-guardrails",
+			hreflang: "https://www.karini.ai/announcements/bedrock-guardrails",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id":
-						"https://www.karini.ai/announcements/bedrock-guardrails",
+					"@id": "https://www.karini.ai/announcements/bedrock-guardrails",
 				},
 				headline:
 					"Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes",
@@ -1423,7 +1449,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						      "The rapid advancement of large language models (LLMs) has opened up incredible possibilities in various fields, from enhancing customer service through chatbots to generating creative content and assisting in virtual tasks. These AI-powered applications mimic human-like conversations and can engage users in unprecedented ways. However, it's crucial to be aware that the potential for misuse and harm is significant without proper safeguards. By their nature, LLMs can inadvertently produce and spread misinformation, manipulate individuals, and generate harmful or biased content. This risk underscores the critical need for content safety guardrails to ensure that the benefits of LLMs are realized without compromising ethical standards and societal well-being. This includes the following:"
+							"The rapid advancement of large language models (LLMs) has opened up incredible possibilities in various fields, from enhancing customer service through chatbots to generating creative content and assisting in virtual tasks. These AI-powered applications mimic human-like conversations and can engage users in unprecedented ways. However, it's crucial to be aware that the potential for misuse and harm is significant without proper safeguards. By their nature, LLMs can inadvertently produce and spread misinformation, manipulate individuals, and generate harmful or biased content. This risk underscores the critical need for content safety guardrails to ensure that the benefits of LLMs are realized without compromising ethical standards and societal well-being. This includes the following:",
 					},
 				],
 			},
@@ -1467,7 +1493,8 @@ export const announcementsDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value: "Karini AI is proud to announce its support for content safety Guardrails by integrating with <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://aws.amazon.com/bedrock/guardrails/' target='_blank'>Amazon Bedrock Guardrails</a>. This integration allows you to configure different filtering policies to avoid undesirable and harmful content and remove or mask sensitive information for privacy protection. Amazon Bedrock Guardrails provide a robust framework for implementing these guardrails, ensuring AI's safety and ethical use in your applications."
+						value:
+							"Karini AI is proud to announce its support for content safety Guardrails by integrating with <a style='text-decoration: underline; color:rgb(37 99 235 / var(--tw-text-opacity))' href='https://aws.amazon.com/bedrock/guardrails/' target='_blank'>Amazon Bedrock Guardrails</a>. This integration allows you to configure different filtering policies to avoid undesirable and harmful content and remove or mask sensitive information for privacy protection. Amazon Bedrock Guardrails provide a robust framework for implementing these guardrails, ensuring AI's safety and ethical use in your applications.",
 					},
 					{
 						type: type.list,
@@ -1487,9 +1514,8 @@ export const announcementsDetailsData = [
 								<li>
 								Sensitive information filters: You can reject or redact sensitive information in responses depending on the use case. For instance, you can redact personal details while summarizing customer and agent conversation transcripts.
 								</li>
-								</ul>`
+								</ul>`,
 					},
-					
 				],
 			},
 			{
@@ -1512,8 +1538,7 @@ export const announcementsDetailsData = [
 						fontSize: fontSize.medium,
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
-						value:
-						      "With Karini AI, you now have:"
+						value: "With Karini AI, you now have:",
 					},
 				],
 			},
@@ -1538,9 +1563,8 @@ export const announcementsDetailsData = [
 								<li>
                                 Monitor the cost of Guardrails in an application using cost dashboards. 
 								</li>
-								</ul>`
+								</ul>`,
 					},
-					
 				],
 			},
 			{
@@ -1565,10 +1589,15 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-						       "Organizations can mitigate risks associated with generative AI applications by incorporating robust safety measures through guardrails, fostering trust and reliability. As these technologies continue to evolve, the emphasis on ethical deployment and rigorous safety protocols will be paramount in leveraging the transformative potential of LLMs while safeguarding users and maintaining public trust. With Karini AI, you can develop innovative and responsible AI applications by leveraging customizable controls tailored to your specific use cases and ethical AI policies. Thus ensuring a balance between technological progress and risk management."
+							"Organizations can mitigate risks associated with generative AI applications by incorporating robust safety measures through guardrails, fostering trust and reliability. As these technologies continue to evolve, the emphasis on ethical deployment and rigorous safety protocols will be paramount in leveraging the transformative potential of LLMs while safeguarding users and maintaining public trust. With Karini AI, you can develop innovative and responsible AI applications by leveraging customizable controls tailored to your specific use cases and ethical AI policies. Thus ensuring a balance between technological progress and risk management.",
 					},
 				],
 			},
+		],
+		relatedBlogs: [
+			"karini-ai-launches-streaming-for-copilot",
+			"karini-ai-unveils-enhanced-prompt-playground",
+			"generative-bi-system",
 		],
 	},
 	{
@@ -1799,6 +1828,11 @@ export const announcementsDetailsData = [
 				],
 			},
 		],
+		relatedBlogs: [
+			"generative-ai-the-inevitable-disruption",
+			"karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+			"karini-ai-launches-streaming-for-copilot",
+		],
 	},
 	{
 		type: "announcement",
@@ -1988,6 +2022,11 @@ export const announcementsDetailsData = [
 					},
 				],
 			},
+		],
+		relatedBlogs: [
+			"karini-ai-launches-streaming-for-copilot",
+			"enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+			"karini-ai-announces-full-support-for-amazon-bedrock-models",
 		],
 	},
 ];
