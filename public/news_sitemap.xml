@@ -388,4 +388,24 @@
 	<image:loc>https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png</image:loc>
     </image:image>
   </url>
+
+
+  <!-- Announcement Post 11 -->
+  <url>
+    <loc>https://www.karini.ai/announcements/bedrock-guardrails</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Announcement five</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-07-17</news:publication_date>
+      <news:title>Enhancing AI Safety with Karini Guardrails on AWS
+     </news:title>
+      <news:keywords>Karini AI safety guardrails, AI content safety, Amazon Bedrock integration, ethical AI applications, AI risk management
+</news:keywords>
+    </news:news>
+	<image:image>
+	<image:loc>https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png</image:loc>
+    </image:image>
+  </url>
 </urlset>
