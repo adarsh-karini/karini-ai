@@ -1376,12 +1376,12 @@ export const announcementsDetailsData = [
 				"twitter:creator": "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
 			},
 		SEO_data: {
-			title: "Enhancing AI Safety with Karini Guardrails on AWS",
-			metaTitle: "Karini AI Guardrails: Secure Your AI on AWS",
+			title: "Elevate AI Trust and Safety with Amazon Bedrock Guardrails",
+			metaTitle: "Karini AI enhances AI safety with Guardrails for GenAI",
 			keywords:
 				"Karini AI safety guardrails, AI content safety, Amazon Bedrock integration, ethical AI applications, AI risk management",
 			description:
-				"Discover how Karini AI ensures ethical AI use with Amazon Bedrock Guardrails. Enhance safety, prevent misuse, and build trust.",
+				"Karini AI makes building safe and effective AI easy. Our interface lets you set up guardrails alongside everything else you need, so you can quickly develop responsible AI applications.",
 			canonicalLink:
 				"https://www.karini.ai/announcements/bedrock-guardrails",
 			hreflang:
