@@ -304,11 +304,7 @@ export const blogDetailsData = [
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
-		relatedBlogs: [
-			"/blog/navigating-genaiops-in-enterprises",
-			"/blog/mastering-generative-ai",
-			"/blog/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
-		],
+		relatedBlogs: ["mastering-generative-ai", "the-evolution-of-ai-agents"],
 	},
 	{
 		type: "blog",
@@ -691,9 +687,9 @@ export const blogDetailsData = [
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
 		relatedBlogs: [
-			"unleashing-the-potential-of-unified-data",
-			"amazon-bedrock-compound-ai-systems",
-			"building-efficient-rag-systems",
+			"genai-visibility",
+			"generative-ai-the-inevitable-disruption",
+			"the-evolution-of-ai-agents",
 		],
 	},
 	{
@@ -1225,6 +1221,7 @@ export const blogDetailsData = [
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/jeromemendell/"> Jerome Mendell </a>is a software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus. Jerome has collaborated with leading technology providers, publishers, and clients serving Fortune 500 companies globally.',
 		},
+		relatedBlogs: ["industrialize-generative-ai", "the-evolution-of-ai-agents"],
 	},
 	{
 		type: "blog",
@@ -1527,6 +1524,11 @@ export const blogDetailsData = [
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
+		relatedBlogs: [
+			"karini-ai-unveils-enhanced-prompt-playground",
+			"amazon-bedrock-compound-ai-systems",
+			"building-efficient-rag-systems",
+		],
 	},
 	{
 		type: "blog",
@@ -1909,6 +1911,11 @@ export const blogDetailsData = [
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/jeromemendell/"> Jerome Mendell </a>is a software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus. Jerome has collaborated with leading technology providers, publishers, and clients serving Fortune 500 companies globally.',
 		},
+		relatedBlogs: [
+			"unleashing-the-potential-of-unified-data",
+			"the-evolution-of-ai-agents",
+			"navigating-genaiops-in-enterprises",
+		],
 	},
 	{
 		type: "blog",
@@ -2267,6 +2274,11 @@ export const blogDetailsData = [
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
+		relatedBlogs: [
+			"fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+			"generative-ai-the-inevitable-disruption",
+			"unleashing-the-potential-of-unified-data",
+		],
 	},
 	{
 		type: "blog",
@@ -2622,6 +2634,11 @@ export const blogDetailsData = [
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
+		relatedBlogs: [
+			"industrialize-generative-ai",
+			"mastering-generative-ai",
+			"navigating-genaiops-in-enterprises",
+		],
 	},
 	{
 		type: "blog",
@@ -2888,6 +2905,10 @@ export const blogDetailsData = [
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
+		relatedBlogs: [
+			"karini-ai-unveils-enhanced-prompt-playground",
+			"fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+		],
 	},
 	{
 		type: "blog",
@@ -3164,9 +3185,9 @@ export const blogDetailsData = [
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/deepali-rajale-958a267/"> Deepali Rajale </a>is a founder of Karini AI with a mission to democratize generative AI across enterprises. She enjoys blogging about Generative AI, coaching customers to optimize Generative AI practice. She loves to spend time outdoors camping with her family and also a poet and has published a book.',
 		},
 		relatedBlogs: [
+			"karini-ai-unveils-enhanced-prompt-playground",
 			"navigating-genaiops-in-enterprises",
-			"mastering-generative-ai",
-			"fast-track-your-prompt-experiments-by-tracking-the-prompt-runs",
+			"generative-ai-the-inevitable-disruption",
 		],
 	},
 	{
@@ -3412,5 +3433,10 @@ export const blogDetailsData = [
 			authorInfo:
 				'<a	class="text-blue-600 hover:underline" target="_blank" rel=" nofollow" href="https://www.linkedin.com/in/jeromemendell/"> Jerome Mendell </a>is a software executive with over 25 years of experience and is a dynamic growth leader for high-tech B2B landscapes. Known for exceeding expectations and building consensus. Jerome has collaborated with leading technology providers, publishers, and clients serving Fortune 500 companies globally.',
 		},
+		relatedBlogs: [
+			"navigating-genaiops-in-enterprises",
+			"industrialize-generative-ai",
+			"amazon-bedrock-compound-ai-systems ",
+		],
 	},
 ];
