@@ -37,7 +37,8 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Bedrock_Models_Support.png",
-		imageAltName: 'Karini AI Amazon Bedrock Model Integration"Amazon Bedrock Models Supported by Karini AI"',
+		imageAltName:
+			'Karini AI Amazon Bedrock Model Integration"Amazon Bedrock Models Supported by Karini AI"',
 		// imageWidth: 450,
 		// imageHeight: 530,
 		title: "Karini AI Announces Full Support for Amazon Bedrock Models",
@@ -53,7 +54,8 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Databricks_Partnership.png",
-		imageAltName: 'Karini AI and Databricks Partnership Logo "Innovative AI Solutions by Karini AI & Databricks"',
+		imageAltName:
+			'Karini AI and Databricks Partnership Logo "Innovative AI Solutions by Karini AI & Databricks"',
 		// imageWidth: 530,
 		// imageHeight: 530,
 		title: "Karini AI Embarks on a New Partnership with Databricks",
@@ -86,13 +88,13 @@ export const announcementsData = [
 		show: true,
 		filterName: "announcements",
 		type: "announcement",
-		image: "/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png",
+		image:
+			"/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png",
 		imageAltName:
 			"Karini AI releases the first purpose-built platform for GenAIOps",
 		// imageWidth: 500,
 		// imageHeight: 500,
-		title:
-			"Karini AI releases the first purpose-built platform for GenAIOps",
+		title: "Karini AI releases the first purpose-built platform for GenAIOps",
 		description:
 			"Karini.ai is excited to announce the general availability of the first-of-its-kind purpose-built Generative AI platform designed to power evolution in enterprise AI adoption. ",
 		tag: "Gen AI",
@@ -105,8 +107,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png",
-		imageAltName:
-			"Karini.ai's Connectivity Expansion",
+		imageAltName: "Karini.ai's Connectivity Expansion",
 		// imageWidth: 500,
 		// imageHeight: 500,
 		title:
@@ -123,8 +124,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png",
-		imageAltName:
-			"Workflow with Generative AI",
+		imageAltName: "Workflow with Generative AI",
 		// imageWidth: 500,
 		// imageHeight: 500,
 		title:
@@ -140,9 +140,9 @@ export const announcementsData = [
 		show: true,
 		filterName: "announcements",
 		type: "announcement",
-		image: "/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png",
-		imageAltName:
-			"Text to SQL with Karini AI",
+		image:
+			"/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png",
+		imageAltName: "Text to SQL with Karini AI",
 		// imageWidth: 500,
 		// imageHeight: 500,
 		title:
@@ -159,8 +159,7 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png",
-		imageAltName:
-			"Karini AI on AWS Marketplace",
+		imageAltName: "Karini AI on AWS Marketplace",
 		// imageWidth: 500,
 		// imageHeight: 500,
 		title:
@@ -177,17 +176,32 @@ export const announcementsData = [
 		filterName: "announcements",
 		type: "announcement",
 		image: "/assets/images/blogs/Support_AI_Safety_with_Guardrails.png",
-		imageAltName:
-			"Support AI Safety with Guardrails",
+		imageAltName: "Support AI Safety with Guardrails",
 		// imageWidth: 500,
 		// imageHeight: 500,
-		title:
-			"Karini AI enhances AI safety with support for Guardrails",
+		title: "Karini AI enhances AI safety with support for Guardrails",
 		description:
 			"The rapid advancement of large language models (LLMs) has opened up incredible possibilities in various fields, from enhancing customer service through chatbots to generating creative content and assisting in virtual tasks.",
 		tag: "Gen AI",
 		date: "July 17th, 2024",
 		timeToRead: "4 min read",
 		path: "/announcements/bedrock-guardrails",
+	},
+	{
+		show: true,
+		filterName: "announcements",
+		type: "announcement",
+		image: "/assets/images/blogs/Boost-Your-Gen-AI-Performance.png",
+		imageAltName: "Boost Your Gen AI Performance",
+		// imageWidth: 500,
+		// imageHeight: 500,
+		title:
+			"Karini AI enhances Gen AI application performance with Managed Semantic Cache",
+		description:
+			"Latency and cost are significant challenges for organizations building applications on top of Language Models.",
+		tag: "Gen AI",
+		date: "July 28th, 2024",
+		timeToRead: "4 min read",
+		path: "/announcements/managed-semantic-cache",
 	},
 ];

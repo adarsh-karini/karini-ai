@@ -248,6 +248,12 @@
 		<image:loc>https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png</image:loc>
     </image:image>
   </url>
+    <url>
+	<loc>https://www.karini.ai/announcements/managed-semantic-cache</loc>
+	<lastmod>2024-07-28</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+</url>
   <url>
     <loc>https://www.karini.ai/announcements/announcements/generative-bi-system",
     </loc>
