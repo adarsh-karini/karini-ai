@@ -1378,6 +1378,37 @@ export const announcementsDetailsData = [
 		metadata: {
 			"og:local": "en_US",
 			"og:type": "article",
+			"og:title":
+				"Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails",
+			"og:description":
+				"Karini AI makes building safe and effective AI easy. Our interface lets you set up guardrails alongside everything else you need, so you can quickly develop responsible AI apps",
+			"og:url": "https://www.karini.ai/announcements/bedrock-guardrails",
+			"og:site_name":
+				"Karini AI enhances AI safety with support for Guardrails",
+			"article:published_time": "2024-07-17",
+			"og:updated_time": "2024-07-17",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt":
+				"Karini AI enhances AI safety with support for Guardrails",
+			"twitter:card": "summary",
+			"twitter:description":
+				"Karini AI makes building safe and effective AI easy. Our interface lets you set up guardrails alongside everything else you need, so you can quickly develop responsible AI apps",
+			"twitter:title":
+				"Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails",
+			"twitter:site": "https://www.karini.ai/announcements/bedrock-guardrails",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
+			"twitter:creator":
+				"Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes",
+		},
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
 			"og:title": "Elevate AI Trust and Safety with Amazon Bedrock Guardrails",
 			"og:description":
 				"Leverage Karini AI's integration with Amazon Bedrock to enhance AI application safety and ethical compliance.",
@@ -2028,6 +2059,181 @@ export const announcementsDetailsData = [
 			"karini-ai-launches-streaming-for-copilot",
 			"enterprise-connectivity-integrating-google-azure-confluence-dropbox",
 			"karini-ai-announces-full-support-for-amazon-bedrock-models",
+		],
+	},
+	{
+		type: "announcement",
+		id: "managed-semantic-cache",
+		breadCrumbTitle:
+			"Karini AI Enhances GenAI Application Performance with Managed Semantic Cache",
+		title:
+			"Karini AI Enhances GenAI Application Performance with Managed Semantic Cache",
+		postedOn: "July 29, 2024",
+		timeToRead: "4 min read",
+		metadata: {
+			"og:local": "en_US",
+			"og:type": "article",
+			"og:title": "Enhance Gen AI Performance with Managed Semantic Cache",
+			"og:description":
+				"LatBoost AI app performance with Karini AI's Managed Semantic Cache. Reduce latency, cut costs, and enhance user experience. Learn more about our advanced caching solutions.",
+			"og:url": "https://www.karini.ai/announcements/managed-semantic-cache",
+			"og:site_name": "Karini AI",
+			"article:published_time": "2024-28-07",
+			"og:updated_time": "2024-28-07",
+			"og:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBoost-Your-Gen-AI-Performance.png&w=640&q=75",
+			"og:image:secure_url":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBoost-Your-Gen-AI-Performance.png&w=640&q=75",
+			"og:image:width": "640",
+			"og:image:height": "640",
+			"og:image:alt": "gen-ai-performance-managed-semantic-cach",
+			"twitter:card": "summary_large_image",
+			"twitter:description":
+				"Boost AI app performance with Karini AI's Managed Semantic Cache. Reduce latency, cut costs, and enhance user experience. Learn more about our advanced caching solutions.",
+			"twitter:title": "Enhance Gen AI Performance with Managed Semantic Cache",
+			"twitter:site":
+				"https://www.karini.ai/announcements/managed-semantic-cache",
+			"twitter:image":
+				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBoost-Your-Gen-AI-Performance.png&w=640&q=75",
+			"twitter:creator": "Karini AI",
+		},
+		SEO_data: {
+			title: "Enhance Gen AI Performance with Managed Semantic Cache",
+			metaTitle: "Optimize AI with Managed Semantic Cache - Karini AI",
+			keywords:
+				"Managed Semantic Cache, Karini AI, generative AI, latency reduction, cost optimization, LLM applications, AI performance",
+			description:
+				"Boost AI app performance with Karini AI's Managed Semantic Cache. Reduce latency, cut costs, and enhance user experience. Learn more about our advanced caching solutions.",
+			canonicalLink:
+				"https://www.karini.ai/announcements/managed-semantic-cache",
+			hreflang: "https://www.karini.ai/announcements/managed-semantic-cache",
+			schemaMarkup: {
+				"@context": "https://schema.org",
+				"@type": "NewsArticle",
+				mainEntityOfPage: {
+					"@type": "WebPage",
+					"@id": "https://www.karini.ai/announcements/managed-semantic-cache",
+				},
+				headline: "Enhance Gen AI Performance with Managed Semantic Cache",
+				description:
+					"Boost AI app performance with Karini AI's Managed Semantic Cache. Reduce latency, cut costs, and enhance user experience. Learn more about our advanced caching solutions.",
+				image: "",
+				author: {
+					"@type": "Organization",
+					name: "Karini AI",
+					url: "https://www.karini.ai",
+				},
+				publisher: {
+					"@type": "Organization",
+					name: "Karini AI",
+					logo: {
+						"@type": "ImageObject",
+						url: "https://www.karini.ai",
+					},
+				},
+				datePublished: "2024-07-28",
+			},
+		},
+		sections: [
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"<strong>Karini AI Enhances GenAI Application Performance with Managed Semantic Cache</strong>",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Latency and cost are significant challenges for organizations building applications on top of Language Models. High latency can severely degrade user experience, while increased costs hinder scalability and long-term viability. Imagine an LLM application processing thousands of API calls every hour, where users frequently ask similar questions that have already been answered. Each redundant call to the LLM incurs additional costs and results in a suboptimal user experience. This situation becomes particularly problematic when hundreds of users repeat the same question. Karini AI's managed semantic cache significantly reduces these high costs, ensuring a more sustainable financial model for your applications.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"What if a system could retrieve precomputed answers from a cache instead of re-executing the entire inference process? Semantic caching addresses this need by storing previously generated responses and serving them when similar queries are made. This is achieved through tokenization and similarity measures, which allow the system to intelligently match and serve similar queries from the cache. This approach reduces latency, improves response times, and significantly cuts operational costs by eliminating the need for repeated token processing. A semantic cache can transform LLM-based applications' efficiency and user experience, making them more scalable and cost-effective.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Karini AI now incorporates managed semantic cache to enhance generative AI applications, and it can be enabled with a single click.",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.base_image,
+						path: "/assets/images/blogs/semantic_cache_drawio.png",
+						imageAltName:
+							"Karini AI Enhances GenAI Application Performance with Managed Semantic Cache",
+						caption: "",
+						width: 800,
+						height: 800,
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value: "With Karini AI’s managed semantic cache, you can achieve:",
+					},
+					{
+						type: type.list,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"<ul style='list-style: inside; list-style-type: disc;'><li><strong>Cost optimization:</strong> Serving responses without invoking LLMs can save substantial costs. Customers have reported that the caching layer can handle 20-30% of user queries in some use cases.</li><li><strong>Improvement in latency and query response throughput:</strong> Serving responses from a cache is much faster than generating them in real time through LLM inference. This leads to quicker response times, enhancing user experience by providing instant answers to frequently asked queries. With Karini AI's semantic caching capabilities, you can expect a significant boost in the efficiency of your applications, with faster response times becoming the norm and ensuring user satisfaction.</li><li><strong>Consistency in responses:</strong> By serving answers from the cache, the LLM does not need actual generation each time a similar query is made. This means that queries deemed semantically similar will always receive the same response, ensuring uniformity and reliability in user information and providing a sense of security.</li><li><strong>Optimized query handling:</strong> Semantic caching employs similarity measures to retrieve semantically similar queries from the cache. This means that even if the question hasn't been asked, the system can intelligently match and answer similar questions from the cache, reducing the need for LLM inference.</li><li><strong>Scaling:</strong> Because cache hits, successful retrievals of precomputed answers from the cache respond to questions without invoking LLMs, the provisioned resources and endpoints are available to address new or unseen user queries. This means that as your user base grows, your application can continue to provide fast and reliable responses, without the need for additional resources. This is particularly beneficial when scaling applications to accommodate a more extensive user base, ensuring that your application can handle increased traffic without compromising performance.</li><li><strong>Enhanced user experience:</strong> Faster response times and reliable answers from the cache improve overall user satisfaction. Users receive swift responses to their queries, particularly important in applications requiring real-time interactions.</li></ul>",
+					},
+				],
+			},
+			{
+				group: true,
+				data: [
+					{
+						type: type.paragraph,
+						fontSize: fontSize.medium,
+						fontWeight: fontWeight.normal,
+						fontStyle: fontStyle.normal,
+						value:
+							"Semantic caching is vital in LLM-based applications as it reduces costs, improves performance, and enhances scalability, reliability, and user experience. By efficiently managing and serving cached responses, applications can more effectively leverage the power of LLMs. With Karini AI, you can develop innovative, reliable, cost-effective AI applications by leveraging semantic caching. ",
+					},
+				],
+			},
 		],
 	},
 ];
