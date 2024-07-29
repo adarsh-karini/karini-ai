@@ -2065,9 +2065,9 @@ export const announcementsDetailsData = [
 		type: "announcement",
 		id: "managed-semantic-cache",
 		breadCrumbTitle:
-			"Karini AI enhances Gen AI application performance with Managed Semantic Cache",
+			"Karini AI Enhances GenAI Application Performance with Managed Semantic Cache",
 		title:
-			"Karini AI enhances Gen AI application performance with Managed Semantic Cache",
+			"Karini AI Enhances GenAI Application Performance with Managed Semantic Cache",
 		postedOn: "July 29, 2024",
 		timeToRead: "4 min read",
 		metadata: {
@@ -2144,7 +2144,7 @@ export const announcementsDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							"<strong>Karini AI enhances Gen AI application performance with Managed Semantic Cache</strong>",
+							"<strong>Karini AI Enhances GenAI Application Performance with Managed Semantic Cache</strong>",
 					},
 				],
 			},
@@ -2194,7 +2194,7 @@ export const announcementsDetailsData = [
 						type: type.base_image,
 						path: "/assets/images/blogs/semantic_cache_drawio.png",
 						imageAltName:
-							"Karini AI enhances Gen AI application performance with Managed Semantic Cache",
+							"Karini AI Enhances GenAI Application Performance with Managed Semantic Cache",
 						caption: "",
 						width: 800,
 						height: 800,

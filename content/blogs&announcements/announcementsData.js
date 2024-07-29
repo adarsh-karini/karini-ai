@@ -196,7 +196,7 @@ export const announcementsData = [
 		// imageWidth: 500,
 		// imageHeight: 500,
 		title:
-			"Karini AI enhances Gen AI application performance with Managed Semantic Cache",
+			"Karini AI Enhances GenAI Application Performance with Managed Semantic Cache",
 		description:
 			"Latency and cost are significant challenges for organizations building applications on top of Language Models.",
 		tag: "Gen AI",
