@@ -200,7 +200,7 @@ export const announcementsData = [
 		description:
 			"Latency and cost are significant challenges for organizations building applications on top of Language Models.",
 		tag: "Gen AI",
-		date: "July 28th, 2024",
+		date: "July 29th, 2024",
 		timeToRead: "4 min read",
 		path: "/announcements/managed-semantic-cache",
 	},
