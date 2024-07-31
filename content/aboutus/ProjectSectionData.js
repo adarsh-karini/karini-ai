@@ -3,7 +3,7 @@ export const projectSectionData = [
 		title:
 			"Empower Your Business with Streamlined GenAI Application Development",
 		description:
-			"Karini AI isn&apos;t just another AI development tool. It&apos;s a revolutionary platform designed to empower organizations to leverage the transformative potential of Generative AI (GenAI)	applications. Forget complex coding and fragmented workflows. Karini provides a user-friendly, unified environment that	simplifies the entire GenAI development process.",
+			"Karini AI isn't just another AI development tool. It's a revolutionary platform designed to empower organizations to leverage the transformative potential of Generative AI (GenAI)	applications. Forget complex coding and fragmented workflows. Karini provides a user-friendly, unified environment that	simplifies the entire GenAI development process.",
 	},
 	{
 		title: "Unparalleled Collaboration for Superior Results",
@@ -13,12 +13,12 @@ export const projectSectionData = [
 	{
 		title: "Streamlined Development for Faster Time-to-value",
 		description:
-			"Karini AI streamlines the entire application development lifecycle. Its intuitive interface facilitates the management and orchestration of all application components, simplifying functionality creation. Karini&apos;s robust testing and comparison capabilities also ensure you select the optimal AI model for peak performance, accuracy, and reliability to meet your business objectives.",
+			"Karini AI streamlines the entire application development lifecycle. Its intuitive interface facilitates the management and orchestration of all application components, simplifying functionality creation. Karini's robust testing and comparison capabilities also ensure you select the optimal AI model for peak performance, accuracy, and reliability to meet your business objectives.",
 	},
 	{
 		title: "Future-Proof Your Innovation with Confidence",
 		description:
-			"Built with scalability and maintainability, Karini AI&apos;s persistent application journey record provides a comprehensive history of your AI development process. This minimizes technical debt and empowers your team to manage and confidently update your application well into the future.",
+			"Built with scalability and maintainability, Karini AI's persistent application journey record provides a comprehensive history of your AI development process. This minimizes technical debt and empowers your team to manage and confidently update your application well into the future.",
 	},
 ];
 
