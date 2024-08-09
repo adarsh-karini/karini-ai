@@ -16,6 +16,7 @@ import {
 	whyPartnersData,
 } from "@/content/partners/ourPartnersData";
 import CTA from "./CTA";
+import { FiExternalLink } from "react-icons/fi";
 
 const OurPartners = () => {
 	return (
@@ -49,18 +50,22 @@ const OurPartners = () => {
 								key={index}
 								className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 shadow p-6"
 							>
-								<div className="md:w-1/3 flex justify-center items-center">
+								<div className="relative md:w-1/3 flex justify-center items-center">
 									<Link href={data.link} target="_blank" title={data.link}>
-										<Image
-											src={data.image}
-											alt="partners image"
-											width={200}
-											height={100}
-											className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
-											priority={true}
-											quality={100}
+										<FiExternalLink
+											size={20}
+											className="absolute top-2 right-2 text-blue-500 cursor-pointer"
 										/>
 									</Link>
+									<Image
+										src={data.image}
+										alt="partners image"
+										width={200}
+										height={100}
+										className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
+										priority={true}
+										quality={100}
+									/>
 								</div>
 								<div className="flex-1">
 									<p className="text-secondary-700 text-sm text-justify leading-6">
@@ -84,18 +89,22 @@ const OurPartners = () => {
 								key={index}
 								className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 shadow p-6"
 							>
-								<div className="md:w-1/3 flex justify-center items-center">
+								<div className="relative md:w-1/3 flex justify-center items-center">
 									<Link href={data.link} target="_blank" title={data.link}>
-										<Image
-											src={data.image}
-											alt="partners image"
-											width={200}
-											height={100}
-											className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
-											priority={true}
-											quality={100}
+										<FiExternalLink
+											size={20}
+											className="absolute top-2 right-2 text-blue-500 cursor-pointer"
 										/>
 									</Link>
+									<Image
+										src={data.image}
+										alt="partners image"
+										width={200}
+										height={100}
+										className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
+										priority={true}
+										quality={100}
+									/>
 								</div>
 								<div className="flex-1">
 									<p className="text-secondary-700 text-sm text-justify leading-6">
@@ -119,18 +128,22 @@ const OurPartners = () => {
 								key={index}
 								className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 shadow p-6"
 							>
-								<div className="md:w-1/3 flex justify-center items-center">
+								<div className="relative md:w-1/3 flex justify-center items-center">
 									<Link href={data.link} target="_blank" title={data.link}>
-										<Image
-											src={data.image}
-											alt="partners image"
-											width={200}
-											height={100}
-											className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
-											priority={true}
-											quality={100}
+										<FiExternalLink
+											size={20}
+											className="absolute top-2 right-2 text-blue-500 cursor-pointer"
 										/>
 									</Link>
+									<Image
+										src={data.image}
+										alt="partners image"
+										width={200}
+										height={100}
+										className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
+										priority={true}
+										quality={100}
+									/>
 								</div>
 								<div className="flex-1">
 									<p className="text-secondary-700 text-sm text-justify leading-6">

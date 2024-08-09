@@ -3,7 +3,7 @@ export const ourCloudPartners = [
 		image: "/assets/images/partners/aws_logo.png",
 		description:
 			"At Karini.ai, we believe in the power of strategic partnerships. That's why we've teamed up with Amazon - AWS. This partnership allows us to leverage AWS's immense power and scalability, providing a robust foundation for our GenAIOps platform. It also ensures we can offer our users cutting-edge AI and machine learning resources. Furthermore, our seamless integration with Amazon Bedrock simplifies the management and deployment of complex AI and ML workloads, offering our users an even more streamlined and efficient development experience.",
-		link: "https://aws.amazon.com/",
+		link: "https://partners.amazonaws.com/partners/0018W00002RupsKQAR/Karini%20AI#solutions--tech-product",
 	},
 	{
 		image: "/assets/images/partners/microsoft_azure_logo.png",
