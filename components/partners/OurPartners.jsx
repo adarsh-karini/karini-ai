@@ -57,15 +57,17 @@ const OurPartners = () => {
 											className="absolute top-2 right-2 text-blue-500 cursor-pointer"
 										/>
 									</Link>
-									<Image
-										src={data.image}
-										alt="partners image"
-										width={200}
-										height={100}
-										className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
-										priority={true}
-										quality={100}
-									/>
+									<Link href={data.link} target="_blank" title={data.link}>
+										<Image
+											src={data.image}
+											alt="partners image"
+											width={200}
+											height={100}
+											className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
+											priority={true}
+											quality={100}
+										/>
+									</Link>
 								</div>
 								<div className="flex-1">
 									<p className="text-secondary-700 text-sm text-justify leading-6">
@@ -96,15 +98,17 @@ const OurPartners = () => {
 											className="absolute top-2 right-2 text-blue-500 cursor-pointer"
 										/>
 									</Link>
-									<Image
-										src={data.image}
-										alt="partners image"
-										width={200}
-										height={100}
-										className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
-										priority={true}
-										quality={100}
-									/>
+									<Link href={data.link} target="_blank" title={data.link}>
+										<Image
+											src={data.image}
+											alt="partners image"
+											width={200}
+											height={100}
+											className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
+											priority={true}
+											quality={100}
+										/>
+									</Link>
 								</div>
 								<div className="flex-1">
 									<p className="text-secondary-700 text-sm text-justify leading-6">
@@ -135,15 +139,17 @@ const OurPartners = () => {
 											className="absolute top-2 right-2 text-blue-500 cursor-pointer"
 										/>
 									</Link>
-									<Image
-										src={data.image}
-										alt="partners image"
-										width={200}
-										height={100}
-										className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
-										priority={true}
-										quality={100}
-									/>
+									<Link href={data.link} target="_blank" title={data.link}>
+										<Image
+											src={data.image}
+											alt="partners image"
+											width={200}
+											height={100}
+											className="w-40 md:w-52 rounded-md object-contain" // object-contain, object-cover, object-fill, object-none, object-scale-down
+											priority={true}
+											quality={100}
+										/>
+									</Link>
 								</div>
 								<div className="flex-1">
 									<p className="text-secondary-700 text-sm text-justify leading-6">
