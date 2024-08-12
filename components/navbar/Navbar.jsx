@@ -2,12 +2,6 @@ import Logo from "@/svgs/logo/Logo";
 import Link from "next/link";
 import React, { useState } from "react";
 import {
-	AiFillContacts,
-	AiOutlinePartition,
-	AiOutlineRise,
-} from "react-icons/ai";
-import { BiSolidBarChartAlt2 } from "react-icons/bi";
-import {
 	BsBookmarkStarFill,
 	BsCloudFog2,
 	BsInfoCircleFill,
@@ -186,10 +180,7 @@ const Navbar2 = () => {
 												href={"/services/ml"}
 												className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 											>
-												<AiOutlinePartition
-													size={20}
-													className="text-secondary-600"
-												/>
+												<BsCloudFog2 size={20} className="text-secondary-600" />
 												<span> Machine Learning</span>
 											</Link>
 										</ul>

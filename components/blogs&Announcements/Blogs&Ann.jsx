@@ -12,35 +12,33 @@ import { GoArrowRight } from "react-icons/go";
 import { WiDirectionRight } from "react-icons/wi";
 import { HiOutlineArrowLongRight, HiOutlineArrowRight } from "react-icons/hi2";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
+import { FaRegClock } from "react-icons/fa";
+import { IoCalendarNumberOutline } from "react-icons/io5";
 
-const BlogsandAnn = () => {
+const BlogsandAnn = ({ postMetadata }) => {
+	let filterButtons = ["all", "blogs", "announcements"];
+
 	const [activeFilter, setActiveFilter] = useState("all");
-	let filterButtons = blogsFilterArray;
-	const [filteredBlogs, setFilteredBlogs] = useState([]);
+	const [filteredPosts, setFilteredPosts] = useState([]);
 	const [blogsArray, setBlogsArray] = useState([]);
-	const [view, setView] = useState("list"); // list, grid
 	const [pages, setPages] = useState(1);
 	const [currentPage, setCurrentPage] = useState(1);
-
 	const handlePagination = (pageNumber) => {
 		setCurrentPage(pageNumber);
 	};
 
-	const handleFilter = (button) => {
-		setActiveFilter(button);
-		setCurrentPage(1);
-	};
-
 	useEffect(() => {
-		let announcements = announcementsData.filter(
-			(announcement) => announcement.show
+		let posts = postMetadata.filter((post) => post.show);
+
+		let announcements = postMetadata.filter(
+			(post) => post.type === "announcement"
 		);
-		let blogs = blogsData.filter((blog) => blog.show);
+		let blogs = postMetadata.filter((post) => post.type === "blog");
 
-		let allBlogs = [...announcements, ...blogs];
+		let allPosts = [...announcements, ...blogs];
 
-		let sortedBlogsByDate = (blogs) => {
-			let result = blogs.sort((a, b) =>
+		let sortedPostsByDate = (posts) => {
+			let result = posts.sort((a, b) =>
 				moment(b.date, "MMM Do, YYYY").diff(moment(a.date, "MMM Do, YYYY"))
 			);
 
@@ -48,57 +46,47 @@ const BlogsandAnn = () => {
 		};
 
 		if (activeFilter === "all") {
-			let pagesCount = Math.ceil(allBlogs.length / 6);
+			let pagesCount = Math.ceil(allPosts.length / 6);
 			setPages(pagesCount);
-			setFilteredBlogs(sortedBlogsByDate(allBlogs));
+			setFilteredPosts(sortedPostsByDate(posts));
 		} else if (activeFilter === "blogs") {
 			let pagesCount = Math.ceil(blogs.length / 6);
 			setPages(pagesCount);
-			setFilteredBlogs(sortedBlogsByDate(blogs));
+			setFilteredPosts(sortedPostsByDate(blogs));
 		} else if (activeFilter === "announcements") {
 			let pagesCount = Math.ceil(announcements.length / 6);
 			setPages(pagesCount);
-			setFilteredBlogs(sortedBlogsByDate(announcements));
+			setFilteredPosts(sortedPostsByDate(announcements));
 		}
-	}, [activeFilter]);
+	}, [activeFilter, postMetadata]);
 
 	useEffect(() => {
-		let blogsLength = filteredBlogs.length;
-
-		console.log("blogsLength", blogsLength);
+		let postsLength = filteredPosts.length;
 
 		let sliceStart = (currentPage - 1) * 6;
 		let sliceEnd = currentPage * 6;
 
 		//get first 6 blogs
-		let blogsArray = filteredBlogs.slice(sliceStart, sliceEnd);
+		let postsArray = filteredPosts.slice(sliceStart, sliceEnd);
 
-		console.log("blogsArray", blogsArray);
-
-		setBlogsArray(blogsArray);
-	}, [filteredBlogs, currentPage]);
+		setBlogsArray(postsArray);
+	}, [filteredPosts, currentPage]);
 
 	useEffect(() => {
-		let blogs = blogsData.filter((blog) => blog.show);
+		let posts = postMetadata.filter((post) => post.show);
 
-		let announcements = announcementsData.filter(
-			(announcement) => announcement.show
-		);
+		let sortedPostsByDate = posts.sort((a, b) => {
+			const momentA = moment(a.date, "YYYY-MM-DD", true);
+			const momentB = moment(b.date, "YYYY-MM-DD", true);
 
-		let allBlogs = [...blogs, ...announcements];
+			return momentB.diff(momentA);
+		});
 
-		let sortedBlogsByDate = allBlogs.sort((a, b) =>
-			moment(b.date, "MMM Do, YYYY").diff(moment(a.date, "MMM Do, YYYY"))
-		);
+		setFilteredPosts(sortedPostsByDate);
 
-		setFilteredBlogs(sortedBlogsByDate);
-
-		let pagesCount = Math.ceil(sortedBlogsByDate.length / 6);
-		console.log("pagesCount", pagesCount);
+		let pagesCount = Math.ceil(sortedPostsByDate.length / 6);
 
 		setPages(pagesCount);
-
-		// console.log("sortedBlogsByDate", sortedBlogsByDate);
 	}, []);
 
 	return (
@@ -119,7 +107,10 @@ const BlogsandAnn = () => {
 											? "bg-primary-600 text-white"
 											: "bg-secondary-50 text-secondary-700 hover:bg-primary-100"
 									} text-sm px-2 py-1 rounded border transition-all`}
-									onClick={() => handleFilter(button)}
+									onClick={() => {
+										setActiveFilter(button);
+										setCurrentPage(1);
+									}}
 								>
 									{button}
 								</button>
@@ -135,14 +126,14 @@ const BlogsandAnn = () => {
 							)}
 							{blogsArray.length > 0 &&
 								blogsArray.map((blog, index) => (
-									<Link key={index} href={blog.path}>
+									<Link key={index} href={`/blogs/${blog.slug}`}>
 										<article className="h-full bg-white rounded-md border shadow p-4">
 											<div className="flex space-x-4 space-y-0">
 												<div className="flex items-center w-28">
 													<Image
-														alt={blog.imageAltName}
-														title={blog.imageAltName}
-														src={blog.image}
+														alt={blog.blog_image_alt_name}
+														title={blog.blog_image_alt_name}
+														src={blog.blog_image}
 														width={500}
 														height={500}
 														className="w-full rounded"
@@ -150,15 +141,24 @@ const BlogsandAnn = () => {
 												</div>
 												<div className="flex-1 flex flex-col justify-between">
 													<div className="space-y-1">
-														<span
-															className={`${
-																blog.type === "blog"
-																	? "bg-primary-500 border-primary-500"
-																	: "bg-[#e100ff] border-[#e100ff]"
-															} text-xs text-white border rounded-full py-1 px-2`}
-														>
-															{blog.type === "blog" ? "blog" : "announcement"}
-														</span>
+														<div className="flex items-center justify-between">
+															<span
+																className={`${
+																	blog.type === "blog"
+																		? "bg-primary-500 border-primary-500"
+																		: "bg-[#e100ff] border-[#e100ff]"
+																} text-xs text-white border rounded-full py-1 px-2`}
+															>
+																{blog.type === "blog" ? "blog" : "announcement"}
+															</span>
+															<div className="flex items-center space-x-2 px-2 py-1 rounded-full border shadow text-secondary-600 text-xs">
+																<IoCalendarNumberOutline
+																	size={14}
+																	className=""
+																/>
+																<p className="font-medium">{blog.date}</p>
+															</div>
+														</div>
 														<h3 className="text-sm sm:text-base lg:text-xl font-semibold text-secondary-900 hover:text-primary-600 line-clamp-2">
 															{blog.title}
 														</h3>
@@ -177,11 +177,7 @@ const BlogsandAnn = () => {
 															/>
 														</div>
 														<p className="text-primary-600 text-xs md:text-sm font-medium space-x-1 md:space-x-2">
-															<span>{blog.date}</span>
-															<span className="hidden sm:inline">|</span>
-															<span className="hidden sm:inline">
-																{blog.timeToRead}
-															</span>
+															<span className="">{blog.time_to_read}</span>
 														</p>
 													</div>
 												</div>
@@ -200,19 +196,38 @@ const BlogsandAnn = () => {
 							)}
 							{blogsArray.length > 0 &&
 								blogsArray.map((blog, index) => (
-									<Link key={index} href={blog.path}>
+									<Link key={index} href={`/blogs/${blog.slug}`}>
 										<div className="h-full bg-white flex flex-col border border-secondary-300 rounded shadow p-4 space-y-4 hover:scale-105 transition">
 											<div className="h-[300px] w-full">
 												<Image
-													alt={blog.imageAltName}
-													title={blog.imageAltName}
-													src={blog.image}
+													alt={blog.blog_image_alt_name}
+													title={blog.blog_image_alt_name}
+													src={blog.blog_image}
 													width={500}
 													height={500}
-													className="object-cover rounded-md w-full h-full"
+													className="object-cover rounded-md h-full"
 												/>
 											</div>
 											<div className="flex-1 flex flex-col space-y-4">
+												<div className="flex justify-between items-center ">
+													<div className="flex items-center space-x-2">
+														<Image
+															alt={blog.author}
+															src={blog.author_image}
+															height={30}
+															width={30}
+															className="rounded-full"
+														/>
+														<p className="text-xs text-secondary-600 italic">
+															{blog.author}
+														</p>
+													</div>
+
+													<div className="flex items-center space-x-2 px-2 py-1 rounded-full border shadow text-secondary-600 text-xs">
+														<IoCalendarNumberOutline size={14} className="" />
+														<p className="font-medium">{blog.date}</p>
+													</div>
+												</div>
 												<div className="flex-1 space-y-1">
 													<span
 														className={`${
@@ -241,9 +256,7 @@ const BlogsandAnn = () => {
 														/>
 													</div>
 													<p className="flex-1 md:flex-none text-primary-600 text-xs text-right font-medium space-x-1">
-														<span>{blog.date}</span>
-														<span>|</span>
-														<span>{blog.timeToRead}</span>
+														<span>{blog.time_to_read}</span>
 													</p>
 												</div>
 											</div>
