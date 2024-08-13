@@ -75,6 +75,13 @@ module.exports = {
 							marginRight: "auto",
 							maxWidth: "60%", // Ensures the image is responsive and does not overflow its container
 						},
+						video: {
+							borderRadius: "var(--radius)",
+							display: "block", // Added to ensure img is treated as block-level
+							marginLeft: "auto",
+							marginRight: "auto",
+							maxWidth: "60%", // Ensures the image is responsive and does not overflow its container
+						},
 					},
 				},
 			},

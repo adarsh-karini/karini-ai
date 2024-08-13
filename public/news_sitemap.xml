@@ -209,7 +209,7 @@
 
   <!-- Announcement Post 1 -->
   <url>
-    <loc>https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground</loc>
+    <loc>https://www.karini.ai/blogs/karini-ai-unveils-enhanced-prompt-playground</loc>
     <news:news>
       <news:publication>
         <news:name>Announcement one</news:name>
@@ -226,7 +226,7 @@
 
   <!-- Announcement Post 2 -->
   <url>
-    <loc>https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot</loc>
+    <loc>https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot</loc>
     <news:news>
       <news:publication>
         <news:name>Announcement two</news:name>
@@ -243,7 +243,7 @@
 
   <!-- Announcement Post 3 -->
   <url>
-    <loc>https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks</loc>
+    <loc>https://www.karini.ai/blogs/karini-ai-embarks-on-a-new-partnership-with-databricks</loc>
     <news:news>
       <news:publication>
         <news:name>Announcement three</news:name>
@@ -260,7 +260,7 @@
 
 <!-- Announcement Post 4 -->
   <url>
-    <loc>https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor</loc>
+    <loc>https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor</loc>
     <news:news>
       <news:publication>
         <news:name>Announcement four</news:name>
@@ -277,7 +277,7 @@
 
   <!-- Announcement Post 5 -->
   <url>
-    <loc>https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models</loc>
+    <loc>https://www.karini.ai/blogs/karini-ai-announces-full-support-for-amazon-bedrock-models</loc>
     <news:news>
       <news:publication>
         <news:name>Announcement five</news:name>
@@ -294,7 +294,7 @@
 
 <!-- Announcement Post 6 -->
   <url>
-    <loc>https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops</loc>
+    <loc>https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops</loc>
     <news:news>
       <news:publication>
         <news:name>Announcement five</news:name>
@@ -311,7 +311,7 @@
 
   <!-- Announcement Post 7 -->
   <url>
-    <loc>https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox</loc>
+    <loc>https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox</loc>
     <news:news>
       <news:publication>
         <news:name>Announcement five</news:name>
@@ -332,7 +332,7 @@
 
   <!-- Announcement Post 8 -->
   <url>
-    <loc>https://www.karini.ai/announcements/batch-execution-pipelines</loc>
+    <loc>https://www.karini.ai/blogs/batch-execution-pipelines</loc>
     <news:news>
       <news:publication>
         <news:name>Announcement five</news:name>
@@ -353,7 +353,7 @@
 
   <!-- Announcement Post 9 -->
   <url>
-    <loc>https://www.karini.ai/announcements/generative-bi-system</loc>
+    <loc>https://www.karini.ai/blogs/generative-bi-system</loc>
     <news:news>
       <news:publication>
         <news:name>Announcement five</news:name>
@@ -372,7 +372,7 @@
 
    <!-- Announcement Post 10 -->
   <url>
-    <loc>https://www.karini.ai/announcements/aws-marketplace</loc>
+    <loc>https://www.karini.ai/blogs/aws-marketplace</loc>
     <news:news>
       <news:publication>
         <news:name>Announcement five</news:name>
@@ -392,7 +392,7 @@
 
   <!-- Announcement Post 11 -->
   <url>
-    <loc>https://www.karini.ai/announcements/bedrock-guardrails</loc>
+    <loc>https://www.karini.ai/blogs/bedrock-guardrails</loc>
     <news:news>
       <news:publication>
         <news:name>Announcement five</news:name>
@@ -406,6 +406,24 @@
     </news:news>
 	<image:image>
 	<image:loc>https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png</image:loc>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.karini.ai/blogs/managed-semantic-cache</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Announcement six</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-03-01</news:publication_date>
+      <news:title>Karini AI Enhances GenAI Application Performance with Managed Semantic Cache
+     </news:title>
+      <news:keywords>Managed Semantic Cache, Karini AI, generative AI, latency reduction, cost optimization, LLM applications, AI performance
+</news:keywords>
+    </news:news>
+	<image:image>
+	<image:loc>https://www.karini.ai/assets/images/blogs/Boost-Your-Gen-AI-Performance.png</image:loc>
     </image:image>
   </url>
 </urlset>
