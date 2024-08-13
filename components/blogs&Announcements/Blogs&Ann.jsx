@@ -27,6 +27,8 @@ const BlogsandAnn = ({ postMetadata }) => {
 		setCurrentPage(pageNumber);
 	};
 
+	console.log("blogsArray123", blogsArray);
+
 	useEffect(() => {
 		let posts = postMetadata.filter((post) => post.show);
 

@@ -8,7 +8,7 @@ date: "2024-01-02"
 author: "Deepali Rajale"
 author_image: "/assets/images/team_members/deepali-rajale.png"
 author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
-blog_image: "https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png"
+blog_image: "/assets/images/blogs/Industrialize-Generative-AI.png"
 blog_image_alt_name: "Industrialize Generative AI"
 time_to_read: "5 min read"
 SEO_data:

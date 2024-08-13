@@ -8,7 +8,7 @@ date: "2024-03-04"
 author: "Deepali Rajale"
 author_image: "/assets/images/team_members/deepali-rajale.png"
 author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
-blog_image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FThe_Evolution_of_AI_Agents.png&w=640&q=75"
+blog_image: "/assets/images/blogs/The_Evolution_of_AI_Agents.png&w=640&q=75"
 blog_image_alt_name: "the-evolution-of-ai-agents"
 time_to_read: "10 min read"
 SEO_data:

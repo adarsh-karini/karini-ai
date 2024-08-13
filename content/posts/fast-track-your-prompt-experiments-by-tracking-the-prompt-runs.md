@@ -8,7 +8,7 @@ date: "2024-02-26"
 author: "Deepali Rajale"
 author_image: "/assets/images/team_members/deepali-rajale.png"
 author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
-blog_image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FFast_track_your_prompt_Experiments.png&w=640&q=75"
+blog_image: "/assets/images/blogs/Fast_track_your_prompt_Experiments.png&w=640&q=75"
 blog_image_alt_name: "fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
 time_to_read: "5 min read"
 SEO_data:

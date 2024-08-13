@@ -8,7 +8,7 @@ date: "2024-01-31"
 author: "Deepali Rajale"
 author_image: "/assets/images/team_members/deepali-rajale.png"
 author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
-blog_image: "https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png"
+blog_image: "/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png"
 blog_image_alt_name: "navigating-genaiops-in-enterprises"
 time_to_read: "10 min read"
 SEO_data:
