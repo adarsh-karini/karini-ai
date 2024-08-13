@@ -59,8 +59,6 @@ const PageBuilder = ({ data }) => {
 		return `${fontSize} ${fontWeight} ${fontStyle}`;
 	};
 
-	console.log("filteredBlogs gg", filteredBlogs);
-
 	useEffect(() => {
 		if (!data) return;
 

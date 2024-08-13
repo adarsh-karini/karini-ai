@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { BiSolidHome } from "react-icons/bi";
 import { FaAngleRight } from "react-icons/fa";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { IoChevronForwardOutline } from "react-icons/io5";

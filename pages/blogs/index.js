@@ -3,13 +3,50 @@ import { Inter, Open_Sans, Poppins } from "next/font/google";
 import Head from "next/head";
 import BlogsandAnn from "@/components/blogs&Announcements/Blogs&Ann";
 import CTA from "@/components/cta/CTA";
+import fs from "fs";
+import matter from "gray-matter";
 const inter = Inter({ subsets: ["latin"] });
 const openSans = Open_Sans({
 	subsets: ["latin"],
 	weight: ["300", "400", "500", "600", "700", "800"],
 });
 
-const blog = () => {
+export async function getStaticProps() {
+	const folder = "./content/posts";
+	const files = fs.readdirSync(folder);
+	const markdownPosts = files.filter((file) => file.endsWith(".md"));
+	// const slugs = markdownPosts.map((file) => file.replace(".md", ""));
+	const posts = markdownPosts.map((fileName, index) => {
+		const fileContents = fs.readFileSync(`./content/posts/${fileName}`, "utf8");
+		const matterResult = matter(fileContents);
+
+		return {
+			type: matterResult.data.type,
+			show: matterResult.data.show,
+			title: matterResult.data.title,
+			SEO_title: matterResult.data.SEO_title,
+			subtitle: matterResult.data.subtitle,
+			date: matterResult.data.date,
+			author: matterResult.data.author,
+			author_image: matterResult.data.author_image,
+			author_linked_in: matterResult.data.author_linked_in,
+			blog_image: matterResult.data.blog_image,
+			blog_image_alt_name: matterResult.data.blog_image_alt_name,
+			time_to_read: matterResult.data.time_to_read,
+			slug: fileName.replace(".md", ""),
+			SEO_data: matterResult.data.SEO_data,
+			related_posts: matterResult.data.related_posts,
+		};
+	});
+
+	return {
+		props: {
+			postMetadata: posts,
+		},
+	};
+}
+
+const blog = ({ postMetadata }) => {
 	return (
 		<>
 			<Head>
@@ -52,7 +89,7 @@ const blog = () => {
 				/>
 			</Head>
 			<div className={`font-sans subpixel-antialiased bg-white`}>
-				<BlogsandAnn />
+				<BlogsandAnn postMetadata={postMetadata} />
 				{/* <CTA /> */}
 			</div>
 		</>

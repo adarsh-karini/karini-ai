@@ -13,6 +13,9 @@
 	--foreground-rgb: 0, 0, 0;
 	--background-start-rgb: 214, 219, 220;
 	--background-end-rgb: 255, 255, 255;
+	--foreground: #030712;
+	--muted-foreground: #374151;
+	--radius: 0.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -95,8 +98,7 @@ h3 {
 	padding-left: 100px;
 }
 
-
-.list-heading{
+.list-heading {
 	display: inline-block;
 	font-weight: 600;
 }
