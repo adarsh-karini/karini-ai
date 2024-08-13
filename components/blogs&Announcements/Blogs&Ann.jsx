@@ -40,9 +40,7 @@ const BlogsandAnn = ({ postMetadata }) => {
 		let allPosts = [...announcements, ...blogs];
 
 		let sortedPostsByDate = (posts) => {
-			let result = posts.sort((a, b) =>
-				moment(b.date, "MMM Do, YYYY").diff(moment(a.date, "MMM Do, YYYY"))
-			);
+			let result = posts.sort((a, b) => moment(b.date).diff(moment(a.date)));
 
 			return result;
 		};
@@ -78,8 +76,8 @@ const BlogsandAnn = ({ postMetadata }) => {
 		let posts = postMetadata.filter((post) => post.show);
 
 		let sortedPostsByDate = posts.sort((a, b) => {
-			const momentA = moment(a.date, "YYYY-MM-DD", true);
-			const momentB = moment(b.date, "YYYY-MM-DD", true);
+			const momentA = moment(a.date);
+			const momentB = moment(b.date);
 
 			return momentB.diff(momentA);
 		});

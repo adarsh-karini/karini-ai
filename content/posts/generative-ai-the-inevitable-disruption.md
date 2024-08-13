@@ -8,7 +8,7 @@ date: "2024-04-12"
 author: "Deepali Rajale"
 author_image: "/assets/images/team_members/deepali-rajale.png"
 author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
-blog_image: "/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png&w=640&q=75"
+blog_image: "/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png"
 blog_image_alt_name: "GenAI Visibility"
 time_to_read: "4 min read"
 SEO_data:

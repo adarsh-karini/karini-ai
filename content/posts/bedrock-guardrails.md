@@ -6,7 +6,7 @@ SEO_title: "Karini AI enhances AI safety with Guardrails for GenAI"
 subtitle: "Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails."
 date: "2024-07-17"
 time_to_read: "4 min read"
-blog_image: "/assets/images/blogs/Support_AI_Safety_with_Guardrails.png&w=640&q=75"
+blog_image: "/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
 blog_image_alt_name: "Support_AI_Safety_with_Guardrails"
 author: "Deepali Rajale"
 author_image: "/assets/images/team_members/deepali-rajale.png"
@@ -60,8 +60,6 @@ related_posts:
   - "karini-ai-unveils-enhanced-prompt-playground"
   - "generative-bi-system"
 ---
-
-## Karini AI enhances AI safety with support for Guardrails
 
 The rapid advancement of large language models (LLMs) has opened up incredible possibilities in various fields, from enhancing customer service through chatbots to generating creative content and assisting in virtual tasks. These AI-powered applications mimic human-like conversations and can engage users in unprecedented ways. However, it's crucial to be aware that the potential for misuse and harm is significant without proper safeguards. By their nature, LLMs can inadvertently produce and spread misinformation, manipulate individuals, and generate harmful or biased content. This risk underscores the critical need for content safety guardrails to ensure that the benefits of LLMs are realized without compromising ethical standards and societal well-being. This includes the following:
 

@@ -8,7 +8,7 @@ date: "2024-01-04"
 author: "Jerome Mendell"
 author_image: "/assets/images/team_members/jerome-mendell.png"
 author_linked_in: "https://www.linkedin.com/in/jeromemendell/"
-blog_image: "/assets/images/blogs/Mastering_Generative_AI.png&w=640&q=75"
+blog_image: "/assets/images/blogs/Mastering_Generative_AI.png"
 blog_image_alt_name: "mastering-generative-ai"
 time_to_read: "10 min read"
 SEO_data:

@@ -81,9 +81,9 @@ const PostPage = ({ blog_id, post }) => {
 								/>
 							</div>
 							<div className="flex-1 flex flex-col space-y-2">
-								<p className="text-black text-lg sm:text-xl md:text-2xl xl:text-3xl font-semibold tracking-tighter pb-2 border-b border-b-muted leading-normal">
+								<h1 className="text-black text-lg sm:text-xl md:text-2xl xl:text-3xl font-semibold tracking-tighter pb-2 border-b border-b-muted leading-normal">
 									{post.data.title}
-								</p>
+								</h1>
 								<div className="flex-1 flex flex-col justify-between">
 									<div className="space-y-4 py-3">
 										<div className="space-x-1 text-sm">
