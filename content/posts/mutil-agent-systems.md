@@ -85,11 +85,9 @@ Here is an example of a multi-agent recipe that utilizes three agents—a Coder 
 
 - **Advanced Safety Mechanisms**: Karini’s recipe platform enhances agent workflows by incorporating advanced safety features, such as guardrails that halt processing in case of violations. This helps maintain the integrity and reliability of the system. Addressing a common challenge in agent-based systems, Karini provides features that prevent infinite loops, safeguard the workflow, and ensure smooth operation.
 
-- **Integrated Conversation History**: The platform includes a built-in memory, allowing developers to track and review the interactions between agents over time, providing valuable insights for refinement.
+- **Integrated Agent Memory**: The platform includes a built-in memory, allowing developers to track and review the interactions between agents over time, providing valuable insights for refinement.
 
 - **Detailed Tracing and Observability**: Karini AI offers in-depth tracing and observability features, enabling developers to closely monitor and analyze agent behaviors and system performance.
-
-- **Precise User Feedback Mechanism**: The platform’s ability to capture fine-grained user feedback empowers developers to continually optimize and refine their multi-agent systems, enhancing overall performance and user satisfaction.
 
 - **Clear Task Distribution**: Task performance improves when each agent operates with instructions and few-shot examples powered by individually fine-tuned language models and various tools. Dividing responsibilities among specialized agents enhances overall outcomes, as each agent can concentrate on a specific task instead of navigating a wide array of tools.
 
@@ -98,6 +96,8 @@ Here is an example of a multi-agent recipe that utilizes three agents—a Coder 
 - **Reusability of Agents**: Once developed, agents can be repurposed for various applications, creating a versatile ecosystem of agents. These agents can collaborate to tackle different challenges using well-structured recipes in Karini.
 
 - **Embracing Diversity in Agents**: Incorporate diverse perspectives within agents to enhance outputs and minimize hallucinations and biases, similar to the benefits seen in diverse human teams.
+
+- **Precise User Feedback Mechanism**: The platform’s ability to capture fine-grained user feedback empowers developers to continually optimize and refine their multi-agent systems, enhancing overall performance and user satisfaction.
 
 ### Multi-Agent CoPilot in Action
 
