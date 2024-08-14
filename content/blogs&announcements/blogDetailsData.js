@@ -3101,7 +3101,7 @@ export const blogDetailsData = [
 						fontWeight: fontWeight.normal,
 						fontStyle: fontStyle.normal,
 						value:
-							"<strong>Query Optimization Loop:</strong> Karini AI employs the easy-to-use <a href='https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Prompt Playground</a> to author, test, and compare the model performance of Bedrock-hosted models or custom models using Amazon SageMaker. Enterprises can leverage one of the many built-in chains, such as Q&A, summarization, classification, or Agentic workflows. Multiple ways are available to optimize retrieval using techniques such as query rewrite, query expansion, and context generation. Customers can also customize LLM-driven responses for greetings and follow-up questions.",
+							"<strong>Query Optimization Loop:</strong> Karini AI employs the easy-to-use <a href='https://www.karini.ai/blogs/karini-ai-unveils-enhanced-prompt-playground' style='color:rgb(37 99 235 / var(--tw-text-opacity))' target='_blank'>Prompt Playground</a> to author, test, and compare the model performance of Bedrock-hosted models or custom models using Amazon SageMaker. Enterprises can leverage one of the many built-in chains, such as Q&A, summarization, classification, or Agentic workflows. Multiple ways are available to optimize retrieval using techniques such as query rewrite, query expansion, and context generation. Customers can also customize LLM-driven responses for greetings and follow-up questions.",
 					},
 				],
 			},

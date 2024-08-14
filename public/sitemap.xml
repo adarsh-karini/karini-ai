@@ -167,7 +167,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground</loc>
+    <loc>https://www.karini.ai/blogs/karini-ai-unveils-enhanced-prompt-playground</loc>
     <lastmod>2024-01-22</lastmod>
 	<changefreq>monthly</changefreq>
    <priority>0.8</priority>
@@ -176,7 +176,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox</loc>
+    <loc>https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox</loc>
     <lastmod>2024-03-11</lastmod>
 	<changefreq>monthly</changefreq>
    <priority>0.8</priority>
@@ -189,7 +189,7 @@
   </url>
 
   <url>
-    <loc>https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot</loc>
+    <loc>https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot</loc>
     <lastmod>2024-01-18</lastmod>
 	<changefreq>monthly</changefreq>
   <priority>0.8</priority>
@@ -199,7 +199,7 @@
   </url>
 
   <url>
-    <loc>https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks</loc>
+    <loc>https://www.karini.ai/blogs/karini-ai-embarks-on-a-new-partnership-with-databricks</loc>
     <lastmod>2023-11-14</lastmod>
 	<changefreq>monthly</changefreq>
    <priority>0.8</priority>
@@ -209,7 +209,7 @@
   </url>
 
   <url>
-    <loc>https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor</loc>
+    <loc>https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor</loc>
     <lastmod>2023-10-16</lastmod>
 	<changefreq>monthly</changefreq>
    <priority>0.8</priority>
@@ -219,7 +219,7 @@
   </url>
 
   <url>
-    <loc>https://www.karini.ai/announcements/announcements/batch-execution-pipelines</loc>
+    <loc>https://www.karini.ai/blogs/announcements/batch-execution-pipelines</loc>
     <lastmod>2024-06-13</lastmod>
 	<changefreq>monthly</changefreq>
    <priority>0.8</priority>
@@ -231,7 +231,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.karini.ai/announcements/announcements/aws-marketplace</loc>
+    <loc>https://www.karini.ai/blogs/announcements/aws-marketplace</loc>
     <lastmod>2024-07-02</lastmod>
 	<changefreq>monthly</changefreq>
    <priority>0.9</priority>
@@ -240,7 +240,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.karini.ai/announcements/announcements/bedrock-guardrails</loc>
+    <loc>https://www.karini.ai/blogs/announcements/bedrock-guardrails</loc>
     <lastmod>2024-07-17</lastmod>
 	<changefreq>monthly</changefreq>
    <priority>0.9</priority>
@@ -249,13 +249,13 @@
     </image:image>
   </url>
     <url>
-	<loc>https://www.karini.ai/announcements/managed-semantic-cache</loc>
+	<loc>https://www.karini.ai/blogs/managed-semantic-cache</loc>
 	<lastmod>2024-07-28</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.8</priority>
 </url>
   <url>
-    <loc>https://www.karini.ai/announcements/announcements/generative-bi-system",
+    <loc>https://www.karini.ai/blogs/announcements/generative-bi-system",
     </loc>
     <lastmod>2024-04-15</lastmod>
 	<changefreq>monthly</changefreq>
@@ -265,7 +265,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models</loc>
+    <loc>https://www.karini.ai/blogs/karini-ai-announces-full-support-for-amazon-bedrock-models</loc>
     <lastmod>2023-12-01</lastmod>
 	<changefreq>monthly</changefreq>
    <priority>0.8</priority>
@@ -274,7 +274,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops</loc>
+    <loc>https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops</loc>
     <lastmod>2024-02-06</lastmod>
 	<changefreq>monthly</changefreq>
   <priority>0.8</priority>
@@ -318,4 +318,11 @@
 		<image:loc>https://www.karini.ai/assets/images/blogs/Amazon_bedrock_recipe.png</image:loc>
     </image:image>
   </url>
+   <url>
+        <loc>https://www.karini.ai/blogs/multi-agent-systems</loc>
+        <lastmod>2024-08-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
 </urlset>

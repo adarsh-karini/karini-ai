@@ -41,7 +41,7 @@ export const announcementsDetailsData = [
 			"og:description":
 				"Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications.",
 			"og:url":
-				"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
+				"https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot",
 			"og:site_name": "Karini AI",
 			"article:published_time": "2024-18-01",
 			"og:updated_time": "2024-18-01",
@@ -57,7 +57,7 @@ export const announcementsDetailsData = [
 				"Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications.",
 			"twitter:title": "Karini AI Launches Copilot Streaming Feature",
 			"twitter:site":
-				"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
+				"https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FStreaming-eye-catcher.png&w=640&q=75",
 			"twitter:creator": "Karini AI",
@@ -70,16 +70,16 @@ export const announcementsDetailsData = [
 			description:
 				"Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications.",
 			canonicalLink:
-				"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
+				"https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot",
 			hreflang:
-				"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
+				"https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
 					"@id":
-						"https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot",
+						"https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot",
 				},
 				headline: "Karini AI Launches Streaming for Copilot",
 				description: "Karini Ai Copilot",
@@ -174,7 +174,7 @@ export const announcementsDetailsData = [
 			"og:description":
 				"Explore Karini AI's Enhanced Prompt Playground. A breakthrough in AI development, offering intuitive prompt creation and model testing for experts.",
 			"og:url":
-				"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
+				"https://www.karini.ai/blogs/karini-ai-unveils-enhanced-prompt-playground",
 			"og:site_name": "Karini AI",
 			"article:published_time": "2024-22-01",
 			"og:updated_time": "2024-22-01",
@@ -190,7 +190,7 @@ export const announcementsDetailsData = [
 				"Explore Karini AI's Enhanced Prompt Playground. A breakthrough in AI development, offering intuitive prompt creation and model testing for experts.",
 			"twitter:title": "Karini AI's Enhanced Prompt Playground Unveiled",
 			"twitter:site":
-				"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
+				"https://www.karini.ai/blogs/karini-ai-unveils-enhanced-prompt-playground",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_Evolves_Prompting_Experience.png&w=640&q=75",
 			"twitter:creator": "Karini AI",
@@ -203,16 +203,16 @@ export const announcementsDetailsData = [
 			description:
 				"Explore Karini AI's Enhanced Prompt Playground. A breakthrough in AI development, offering intuitive prompt creation and model testing for experts.",
 			canonicalLink:
-				"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
+				"https://www.karini.ai/blogs/karini-ai-unveils-enhanced-prompt-playground",
 			hreflang:
-				"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
+				"https://www.karini.ai/blogs/karini-ai-unveils-enhanced-prompt-playground",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
 					"@id":
-						"https://www.karini.ai/announcements/karini-ai-unveils-enhanced-prompt-playground",
+						"https://www.karini.ai/blogs/karini-ai-unveils-enhanced-prompt-playground",
 				},
 				headline:
 					"Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development",
@@ -309,7 +309,7 @@ export const announcementsDetailsData = [
 			"og:description":
 				"Discover Karini AI's complete support for Amazon Bedrock Models, enhancing AI solutions with robust, scalable, and versatile AI model integration.",
 			"og:url":
-				"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
+				"https://www.karini.ai/blogs/karini-ai-announces-full-support-for-amazon-bedrock-models",
 			"og:site_name": "Karini AI",
 			"article:published_time": "2023-12-01",
 			"og:updated_time": "2021-12-01",
@@ -326,7 +326,7 @@ export const announcementsDetailsData = [
 				"Discover Karini AI's complete support for Amazon Bedrock Models, enhancing AI solutions with robust, scalable, and versatile AI model integration.",
 			"twitter:title": "Karini AI Supports Amazon Bedrock Models Fully",
 			"twitter:site":
-				"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
+				"https://www.karini.ai/blogs/karini-ai-announces-full-support-for-amazon-bedrock-models",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBedrock_Models_Support.png&w=640&q=75",
 			"twitter:creator": "Karini AI",
@@ -339,16 +339,16 @@ export const announcementsDetailsData = [
 			description:
 				"Discover Karini AI's complete support for Amazon Bedrock Models, enhancing AI solutions with robust, scalable, and versatile AI model integration.",
 			canonicalLink:
-				"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
+				"https://www.karini.ai/blogs/karini-ai-announces-full-support-for-amazon-bedrock-models",
 			hreflang:
-				"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
+				"https://www.karini.ai/blogs/karini-ai-announces-full-support-for-amazon-bedrock-models",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
 					"@id":
-						"https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models",
+						"https://www.karini.ai/blogs/karini-ai-announces-full-support-for-amazon-bedrock-models",
 				},
 				headline: "Karini AI Announces Full Support for Amazon Bedrock Models",
 				description: "Karini AI Amazon Bedrock Model",
@@ -490,7 +490,7 @@ export const announcementsDetailsData = [
 			"og:description":
 				"Karini AI partners with Databricks to revolutionize AI development. Discover how this collaboration paves the way for advanced AI solutions and innovation.",
 			"og:url":
-				"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
+				"https://www.karini.ai/blogs/karini-ai-embarks-on-a-new-partnership-with-databricks",
 			"og:site_name": "Karini AI",
 			"article:published_time": "2023-14-11",
 			"og:updated_time": "2023-14-11",
@@ -506,7 +506,7 @@ export const announcementsDetailsData = [
 				"Karini AI partners with Databricks to revolutionize AI development. Discover how this collaboration paves the way for advanced AI solutions and innovation.",
 			"twitter:title": "Karini AI & Databricks New Partnership Unveiled",
 			"twitter:site":
-				"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
+				"https://www.karini.ai/blogs/karini-ai-embarks-on-a-new-partnership-with-databricks",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FDatabricks_Partnership.png&w=640&q=75",
 			"twitter:creator": "Karini AI",
@@ -519,16 +519,16 @@ export const announcementsDetailsData = [
 			description:
 				"Karini AI partners with Databricks to revolutionize AI development. Discover how this collaboration paves the way for advanced AI solutions and innovation.",
 			canonicalLink:
-				"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
+				"https://www.karini.ai/blogs/karini-ai-embarks-on-a-new-partnership-with-databricks",
 			hreflang:
-				"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
+				"https://www.karini.ai/blogs/karini-ai-embarks-on-a-new-partnership-with-databricks",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
 					"@id":
-						"https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks",
+						"https://www.karini.ai/blogs/karini-ai-embarks-on-a-new-partnership-with-databricks",
 				},
 				headline: "Karini AI Embarks on a New Partnership with Databricks",
 				description: "Karini AI Partnership with Databricks",
@@ -671,7 +671,7 @@ export const announcementsDetailsData = [
 			"og:description":
 				"Break silos! Karini.ai integrates w/ Google, Azure, Confluence, Dropbox for enterprise GenAI apps. #NoCodeAI",
 			"og:url":
-				"https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+				"https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
 			"og:site_name": "Karini AI",
 			"article:published_time": "2024-11-03",
 			"og:updated_time": "2024-11-03",
@@ -689,7 +689,7 @@ export const announcementsDetailsData = [
 			"twitter:title":
 				"Karini.ai Integrates Google, Azure, Confluence, Dropbox",
 			"twitter:site":
-				"https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+				"https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75",
 			"twitter:creator": "Karini AI",
@@ -703,16 +703,16 @@ export const announcementsDetailsData = [
 			description:
 				"Break silos! Karini.ai integrates w/ Google, Azure, Confluence, Dropbox for enterprise GenAI apps. #NoCodeAI",
 			canonicalLink:
-				"https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+				"https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
 			hreflang:
-				"https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+				"https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
 					"@id":
-						"https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
+						"https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox",
 				},
 				headline:
 					"Karini AI Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox",
@@ -848,7 +848,7 @@ export const announcementsDetailsData = [
 			"og:description":
 				"Discover Karini AI's new chapter as an Independent Software Vendor (ISV) with Amazon Web Services. A milestone in AI innovation and cloud computing synergy.",
 			"og:url":
-				"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+				"https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 			"og:site_name": "Karini AI",
 			"article:published_time": "2023-16-10",
 			"og:updated_time": "2023-16-10",
@@ -865,7 +865,7 @@ export const announcementsDetailsData = [
 				"Discover Karini AI's new chapter as an Independent Software Vendor (ISV) with Amazon Web Services. A milestone in AI innovation and cloud computing synergy.",
 			"twitter:title": "Karini AI & AWS Partner as ISV - Major Announcement",
 			"twitter:site":
-				"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+				"https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75",
 			"twitter:creator": "Karini AI",
@@ -878,16 +878,16 @@ export const announcementsDetailsData = [
 			description:
 				"Discover Karini AI's new chapter as an Independent Software Vendor (ISV) with Amazon Web Services. A milestone in AI innovation and cloud computing synergy.",
 			canonicalLink:
-				"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+				"https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 			hreflang:
-				"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+				"https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
 					"@id":
-						"https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
+						"https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor",
 				},
 				headline:
 					"Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor",
@@ -1010,7 +1010,7 @@ export const announcementsDetailsData = [
 			"og:title": "Generative BI System: Transform Your Data Analytics",
 			"og:description":
 				"Unlock powerful data insights with Karini AI's new Generative BI system. Enhance your analytics capabilities now.",
-			"og:url": "https://www.karini.ai/announcements/generative-bi-system",
+			"og:url": "https://www.karini.ai/blogs/generative-bi-system",
 			"og:site_name": "Karini AI Batch Execution",
 			"article:published_time": "2024-06-24",
 			"og:updated_time": "2024-06-24",
@@ -1025,8 +1025,7 @@ export const announcementsDetailsData = [
 			"twitter:description":
 				"Explore Karini AI's Generative BI system for dynamic insights directly from your databases and data warehouses. Enhance decision-making today.",
 			"twitter:title": "Generative BI System: Transform Your Data Analytics",
-			"twitter:site":
-				"https://www.karini.ai/announcements/generative-bi-system",
+			"twitter:site": "https://www.karini.ai/blogs/generative-bi-system",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEffortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75",
 			"twitter:creator":
@@ -1039,14 +1038,14 @@ export const announcementsDetailsData = [
 				"Generative BI system, Natural language data interaction, Analytics databases integration, BI data warehousing solutions, Generative AI for business intelligence",
 			description:
 				"Explore Karini AI's Generative BI system for dynamic insights directly from your databases and data warehouses. Enhance decision-making today.",
-			canonicalLink: "https://www.karini.ai/announcements/generative-bi-system",
-			hreflang: "https://www.karini.ai/announcements/generative-bi-system",
+			canonicalLink: "https://www.karini.ai/blogs/generative-bi-system",
+			hreflang: "https://www.karini.ai/blogs/generative-bi-system",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id": "https://www.karini.ai/announcements/generative-bi-system",
+					"@id": "https://www.karini.ai/blogs/generative-bi-system",
 				},
 				headline: "Introducing the First Purpose-Built Generative BI System",
 				image:
@@ -1213,7 +1212,7 @@ export const announcementsDetailsData = [
 			"og:title": "Karini AI Available on AWS - Secure GenAI Solutions",
 			"og:description":
 				"Launch your AI innovations with Karini AI on AWS Marketplace. Secure, scalable, and user-friendly!",
-			"og:url": "https://www.karini.ai/announcements/aws-marketplace",
+			"og:url": "https://www.karini.ai/blogs/aws-marketplace",
 			"og:site_name": "Karini AI on AWS MarketPlace",
 			"article:published_time": "2024-07-01",
 			"og:updated_time": "2024-07-01",
@@ -1228,7 +1227,7 @@ export const announcementsDetailsData = [
 			"twitter:description":
 				"Unlock the power of GenAI with Karini AI on AWS Marketplace. Secure, scalable AI development is just a click away!",
 			"twitter:title": "Karini AI Launches on AWS Marketplace - Explore Now!",
-			"twitter:site": "https://www.karini.ai/announcements/aws-marketplace",
+			"twitter:site": "https://www.karini.ai/blogs/aws-marketplace",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_now_on_AWS_Marketplace.png&w=640&q=75",
 			"twitter:creator":
@@ -1241,14 +1240,14 @@ export const announcementsDetailsData = [
 				"Karini AI AWS Marketplace, Generative AI AWS integration, AWS Marketplace GenAI solutions, Secure GenAI platform, No-code AI development AWS",
 			description:
 				"Discover Karini AI on AWS Marketplace! Build secure, scalable GenAI applications quickly with seamless integration and enhanced security.",
-			canonicalLink: "https://www.karini.ai/announcements/aws-marketplace",
-			hreflang: "https://www.karini.ai/announcements/aws-marketplace",
+			canonicalLink: "https://www.karini.ai/blogs/aws-marketplace",
+			hreflang: "https://www.karini.ai/blogs/aws-marketplace",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id": "https://www.karini.ai/announcements/aws-marketplace",
+					"@id": "https://www.karini.ai/blogs/aws-marketplace",
 				},
 				headline:
 					"Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes",
@@ -1382,7 +1381,7 @@ export const announcementsDetailsData = [
 				"Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails",
 			"og:description":
 				"Karini AI makes building safe and effective AI easy. Our interface lets you set up guardrails alongside everything else you need, so you can quickly develop responsible AI apps",
-			"og:url": "https://www.karini.ai/announcements/bedrock-guardrails",
+			"og:url": "https://www.karini.ai/blogs/bedrock-guardrails",
 			"og:site_name":
 				"Karini AI enhances AI safety with support for Guardrails",
 			"article:published_time": "2024-07-17",
@@ -1400,7 +1399,7 @@ export const announcementsDetailsData = [
 				"Karini AI makes building safe and effective AI easy. Our interface lets you set up guardrails alongside everything else you need, so you can quickly develop responsible AI apps",
 			"twitter:title":
 				"Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails",
-			"twitter:site": "https://www.karini.ai/announcements/bedrock-guardrails",
+			"twitter:site": "https://www.karini.ai/blogs/bedrock-guardrails",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
 			"twitter:creator":
@@ -1412,7 +1411,7 @@ export const announcementsDetailsData = [
 			"og:title": "Elevate AI Trust and Safety with Amazon Bedrock Guardrails",
 			"og:description":
 				"Leverage Karini AI's integration with Amazon Bedrock to enhance AI application safety and ethical compliance.",
-			"og:url": "https://www.karini.ai/announcements/bedrock-guardrails",
+			"og:url": "https://www.karini.ai/blogs/bedrock-guardrails",
 			"og:site_name":
 				"Karini AI enhances AI safety with support for Guardrails",
 			"article:published_time": "2024-07-17",
@@ -1430,7 +1429,7 @@ export const announcementsDetailsData = [
 				"Secure your AI applications with Karini AI's ethical guardrails, integrated with Amazon Bedrock.",
 			"twitter:title":
 				"Elevate AI Trust and Safety with Amazon Bedrock Guardrails",
-			"twitter:site": "https://www.karini.ai/announcements/bedrock-guardrails",
+			"twitter:site": "https://www.karini.ai/blogs/bedrock-guardrails",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75",
 			"twitter:creator":
@@ -1444,14 +1443,14 @@ export const announcementsDetailsData = [
 				"Karini AI safety guardrails, AI content safety, Amazon Bedrock integration, ethical AI applications, AI risk management",
 			description:
 				"Karini AI makes building safe and effective AI easy. Our interface lets you set up guardrails alongside everything else you need, so you can quickly develop responsible AI apps",
-			canonicalLink: "https://www.karini.ai/announcements/bedrock-guardrails",
-			hreflang: "https://www.karini.ai/announcements/bedrock-guardrails",
+			canonicalLink: "https://www.karini.ai/blogs/bedrock-guardrails",
+			hreflang: "https://www.karini.ai/blogs/bedrock-guardrails",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id": "https://www.karini.ai/announcements/bedrock-guardrails",
+					"@id": "https://www.karini.ai/blogs/bedrock-guardrails",
 				},
 				headline: "Elevate AI Trust and Safety with Amazon Bedrock Guardrails",
 				image:
@@ -1647,7 +1646,7 @@ export const announcementsDetailsData = [
 			"og:title": "Efficient Batch Pipelines with No-Code GenAI Recipes",
 			"og:description":
 				"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations",
-			"og:url": "https://www.karini.ai/announcements/batch-execution-pipelines",
+			"og:url": "https://www.karini.ai/blogs/batch-execution-pipelines",
 			"og:site_name": "Karini AI Batch Execution",
 			"article:published_time": "2024-06-13",
 			"og:updated_time": "2024-06-13",
@@ -1663,8 +1662,7 @@ export const announcementsDetailsData = [
 			"twitter:description":
 				"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations",
 			"twitter:title": "Efficient Batch Pipelines with No-Code GenAI Recipes",
-			"twitter:site":
-				"https://www.karini.ai/announcements/batch-execution-pipelines",
+			"twitter:site": "https://www.karini.ai/blogs/batch-execution-pipelines",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75",
 			"twitter:creator":
@@ -1677,16 +1675,14 @@ export const announcementsDetailsData = [
 				"Karini AI batch execution, no-code Generative AI recipes, generative AI applications, batch processing pipelines, Large Language Models LLMs, enterprise AI integration",
 			description:
 				"Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations.",
-			canonicalLink:
-				"https://www.karini.ai/announcements/batch-execution-pipelines",
-			hreflang: "https://www.karini.ai/announcements/batch-execution-pipelines",
+			canonicalLink: "https://www.karini.ai/blogs/batch-execution-pipelines",
+			hreflang: "https://www.karini.ai/blogs/batch-execution-pipelines",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id":
-						"https://www.karini.ai/announcements/batch-execution-pipelines",
+					"@id": "https://www.karini.ai/blogs/batch-execution-pipelines",
 				},
 				headline:
 					"Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes",
@@ -1881,7 +1877,7 @@ export const announcementsDetailsData = [
 			"og:description":
 				"Discover Karini AI's groundbreaking platform for GenAIops, enabling businesses to build, test, and deploy Generative AI apps with ease",
 			"og:url":
-				"https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+				"https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 			"og:site_name": "Karini AI",
 			"article:published_time": "2024-06-02",
 			"og:updated_time": "2024-06-02",
@@ -1899,7 +1895,7 @@ export const announcementsDetailsData = [
 			"twitter:title":
 				"Karini AI Unveils GenAIOps Platform - Revolutionizing AI",
 			"twitter:site":
-				"https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+				"https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75",
 			"twitter:creator": "Karini AI",
@@ -1912,16 +1908,16 @@ export const announcementsDetailsData = [
 			description:
 				"Discover Karini AI's groundbreaking platform for GenAIops, enabling businesses to build, test, and deploy Generative AI apps with ease",
 			canonicalLink:
-				"https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+				"https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 			hreflang:
-				"https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+				"https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
 					"@id":
-						"https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
+						"https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops",
 				},
 				headline:
 					"Karini AI releases the first purpose-built platform for GenAIOps",
@@ -2076,7 +2072,7 @@ export const announcementsDetailsData = [
 			"og:title": "Enhance Gen AI Performance with Managed Semantic Cache",
 			"og:description":
 				"LatBoost AI app performance with Karini AI's Managed Semantic Cache. Reduce latency, cut costs, and enhance user experience. Learn more about our advanced caching solutions.",
-			"og:url": "https://www.karini.ai/announcements/managed-semantic-cache",
+			"og:url": "https://www.karini.ai/blogs/managed-semantic-cache",
 			"og:site_name": "Karini AI",
 			"article:published_time": "2024-28-07",
 			"og:updated_time": "2024-28-07",
@@ -2091,8 +2087,7 @@ export const announcementsDetailsData = [
 			"twitter:description":
 				"Boost AI app performance with Karini AI's Managed Semantic Cache. Reduce latency, cut costs, and enhance user experience. Learn more about our advanced caching solutions.",
 			"twitter:title": "Enhance Gen AI Performance with Managed Semantic Cache",
-			"twitter:site":
-				"https://www.karini.ai/announcements/managed-semantic-cache",
+			"twitter:site": "https://www.karini.ai/blogs/managed-semantic-cache",
 			"twitter:image":
 				"https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBoost-Your-Gen-AI-Performance.png&w=640&q=75",
 			"twitter:creator": "Karini AI",
@@ -2104,15 +2099,14 @@ export const announcementsDetailsData = [
 				"Managed Semantic Cache, Karini AI, generative AI, latency reduction, cost optimization, LLM applications, AI performance",
 			description:
 				"Boost AI app performance with Karini AI's Managed Semantic Cache. Reduce latency, cut costs, and enhance user experience. Learn more about our advanced caching solutions.",
-			canonicalLink:
-				"https://www.karini.ai/announcements/managed-semantic-cache",
-			hreflang: "https://www.karini.ai/announcements/managed-semantic-cache",
+			canonicalLink: "https://www.karini.ai/blogs/managed-semantic-cache",
+			hreflang: "https://www.karini.ai/blogs/managed-semantic-cache",
 			schemaMarkup: {
 				"@context": "https://schema.org",
 				"@type": "NewsArticle",
 				mainEntityOfPage: {
 					"@type": "WebPage",
-					"@id": "https://www.karini.ai/announcements/managed-semantic-cache",
+					"@id": "https://www.karini.ai/blogs/managed-semantic-cache",
 				},
 				headline: "Enhance Gen AI Performance with Managed Semantic Cache",
 				description:

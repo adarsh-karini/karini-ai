@@ -97,7 +97,7 @@ const PostPage = ({ blog_id, post }) => {
 													priority
 												/>
 												<Link
-													href={"post.data.author_linked_in"}
+													href={post.data.author_linked_in}
 													target="_blank"
 													className="hover:underline hover:decoration-primary-600 underline-offset-2"
 												>
