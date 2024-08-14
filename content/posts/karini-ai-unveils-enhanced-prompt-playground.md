@@ -64,6 +64,24 @@ related_posts:
   - "fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
   - "karini-ai-launches-streaming-for-copilot"
   - "enterprise-connectivity-integrating-google-azure-confluence-dropbox"
+sitemap:
+  loc: "https://www.karini.ai/blogs/karini-ai-unveils-enhanced-prompt-playground"
+  lastmod: "2024-01-22"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Karini_Evolves_Prompting_Experience.png"
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/karini-ai-unveils-enhanced-prompt-playground"
+  news:
+    publication:
+      name: "Announcement one"
+      language: "en"
+    publication_date: "2024-01-22"
+    title: "Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development"
+    keywords: "Generative AI, Challenges, AI Adoption"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Karini_Evolves_Prompting_Experience.png"
 ---
 
 Karini AI announces advanced prompt playground, encouraging industry experts to delve into the craft of prompt creation. This enhanced playground provides ready-to-use templates, user-friendly prompt creation, and a testing framework for model comparison. This allows business and technical users to quickly evaluate prompt efficacy and model performance, making the most of their domain expertise in crafting prompts.

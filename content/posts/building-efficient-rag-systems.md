@@ -59,6 +59,14 @@ SEO_data:
 related_posts:
   - "karini-ai-unveils-enhanced-prompt-playground"
   - "fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
+sitemap:
+  loc: "https://www.karini.ai/blogs/building-efficient-rag-systems"
+  lastmod: "2024-02-29"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Building_Efficient_RAG_Systems.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/rag_enhancement.png"
 ---
 
 ## Introduction

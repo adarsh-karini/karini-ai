@@ -60,6 +60,16 @@ related_posts:
   - "fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
   - "generative-ai-the-inevitable-disruption"
   - "unleashing-the-potential-of-unified-data"
+sitemap:
+  loc: "https://www.karini.ai/blogs/the-evolution-of-ai-agents"
+  lastmod: "2024-03-04"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/The_Evolution_of_AI_Agents.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/agents_challenges.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/agents_solution.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/React.png"
 ---
 
 ## Introduction

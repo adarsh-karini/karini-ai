@@ -64,6 +64,13 @@ related_posts:
   - "navigating-genaiops-in-enterprises"
   - "industrialize-generative-ai"
   - "amazon-bedrock-compound-ai-systems"
+sitemap:
+  loc: "https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data"
+  lastmod: "2024-02-02"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Evolution_of_Gen_AI.png"
 ---
 
 ## Introduction

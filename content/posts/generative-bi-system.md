@@ -63,6 +63,13 @@ related_posts:
   - "karini-ai-embarks-on-a-new-partnership-with-databricks"
   - "industrialize-generative-ai"
   - "karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
+sitemap:
+  loc: "https://www.karini.ai/blogs/generative-bi-system"
+  lastmod: "2024-04-15"
+  changefreq: "monthly"
+  priority: "0.9"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png"
 ---
 
 Today, traditional data analytics, warehousing, and databases hold vast amounts of data. However, these methods are becoming inadequate as data generation soars with additional sources and multiple Data architectures. Traditional Business Intelligence is time-consuming, requires specialized skills, and produces insights that are hard to interpret and typically hardwired. Decision-makers do not get fresh insights or need to depend on their Data science or Analysts to provide summaries, increasing round trip time and hence delaying decisions.

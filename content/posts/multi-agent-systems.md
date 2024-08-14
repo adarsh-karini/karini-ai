@@ -58,6 +58,11 @@ SEO_data:
         url: "https://www.karini.ai"
     datePublished: "2024-08-12"
 related_posts:
+sitemap:
+  loc: "https://www.karini.ai/blogs/multi-agent-systems"
+  lastmod: "2024-08-12"
+  changefreq: "monthly"
+  priority: "0.8"
 ---
 
 ## The Future of AI with Multi-Agent Systems

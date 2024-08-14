@@ -61,6 +61,22 @@ related_posts:
   - "karini-ai-launches-streaming-for-copilot"
   - "karini-ai-unveils-enhanced-prompt-playground"
   - "generative-bi-system"
+sitemap:
+  loc: "https://www.karini.ai/blogs/managed-semantic-cache"
+  lastmod: "2024-07-28"
+  changefreq: "monthly"
+  priority: "0.8"
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/managed-semantic-cache"
+  news:
+    publication:
+      name: "Announcement six"
+      language: "en"
+    publication_date: "2024-03-01"
+    title: "Karini AI Enhances GenAI Application Performance with Managed Semantic Cache"
+    keywords: "Managed Semantic Cache, Karini AI, generative AI, latency reduction, cost optimization, LLM applications, AI performance"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Boost-Your-Gen-AI-Performance.png"
 ---
 
 Latency and cost are significant challenges for organizations building applications on top of Language Models. High latency can severely degrade user experience, while increased costs hinder scalability and long-term viability. Imagine an LLM application processing thousands of API calls every hour, where users frequently ask similar questions that have already been answered. Each redundant call to the LLM incurs additional costs and results in a suboptimal user experience. This situation becomes particularly problematic when hundreds of users repeat the same question. Karini AI's managed semantic cache significantly reduces these high costs, ensuring a more sustainable financial model for your applications.

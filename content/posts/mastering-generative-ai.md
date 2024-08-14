@@ -60,6 +60,13 @@ SEO_data:
 related_posts:
   - "industrialize-generative-ai"
   - "the-evolution-of-ai-agents"
+sitemap:
+  loc: "https://www.karini.ai/blogs/mastering-generative-ai"
+  lastmod: "2024-01-04"
+  changefreq: "monthly"
+  priority: "0.7"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Mastering_Generative_AI.png"
 ---
 
 ## Introduction

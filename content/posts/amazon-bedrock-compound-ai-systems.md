@@ -60,6 +60,16 @@ related_posts:
   - "karini-ai-unveils-enhanced-prompt-playground"
   - "navigating-genaiops-in-enterprises"
   - "generative-ai-the-inevitable-disruption"
+sitemap:
+  loc: "https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems"
+  lastmod: "2024-04-25"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Beyond_Limits.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Compound_systems.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/karini_compound_systems.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Amazon_bedrock_recipe.png"
 ---
 
 ## Introduction

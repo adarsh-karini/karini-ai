@@ -1,15 +1,8 @@
 import React from "react";
-import { Inter, Open_Sans, Poppins } from "next/font/google";
 import Head from "next/head";
-import BlogsandAnn from "@/components/blogs&Announcements/Blogs&Ann";
-import CTA from "@/components/cta/CTA";
 import fs from "fs";
 import matter from "gray-matter";
-const inter = Inter({ subsets: ["latin"] });
-const openSans = Open_Sans({
-	subsets: ["latin"],
-	weight: ["300", "400", "500", "600", "700", "800"],
-});
+import Blogs from "@/components/Blogs";
 
 export async function getStaticProps() {
 	const folder = "./content/posts";
@@ -89,8 +82,7 @@ const blog = ({ postMetadata }) => {
 				/>
 			</Head>
 			<div className={`font-sans subpixel-antialiased bg-white`}>
-				<BlogsandAnn postMetadata={postMetadata} />
-				{/* <CTA /> */}
+				<Blogs postMetadata={postMetadata} />
 			</div>
 		</>
 	);

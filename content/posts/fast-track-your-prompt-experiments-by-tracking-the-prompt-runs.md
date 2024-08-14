@@ -60,6 +60,26 @@ related_posts:
   - "karini-ai-unveils-enhanced-prompt-playground"
   - "amazon-bedrock-compound-ai-systems"
   - "building-efficient-rag-systems"
+sitemap:
+  loc: "https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
+  lastmod: "2024-02-26"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Fast_track_your_prompt_Experiments.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Prompt_runs.png"
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
+  news:
+    publication:
+      name: "Generative AI Blog"
+      language: "en"
+    publication_date: "2024-02-26"
+    title: "Fast-track your Prompt Experiments by tracking the prompt runs"
+    keywords: "Prompt Engineering, Generative AI Application, LLM Prompt Optimization, AI Prompt Management, Karini AI Platform"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Fast_track_your_prompt_Experiments.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Prompt_runs.png"
 ---
 
 ## Introduction

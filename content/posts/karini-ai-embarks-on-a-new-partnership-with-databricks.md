@@ -59,6 +59,24 @@ SEO_data:
 related_posts:
   - "karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
   - "karini-ai-announces-full-support-for-amazon-bedrock-models"
+sitemap:
+  loc: "https://www.karini.ai/blogs/karini-ai-embarks-on-a-new-partnership-with-databricks"
+  lastmod: "2023-11-14"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png"
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/karini-ai-embarks-on-a-new-partnership-with-databricks"
+  news:
+    publication:
+      name: "Announcement three"
+      language: "en"
+    publication_date: "2023-11-14"
+    title: "Karini AI Embarks on a New Partnership with Databricks"
+    keywords: "Enterprise Operations, Karini AI, Generative AI"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png"
 ---
 
 We are excited to announce a dynamic new partnership between Karini AI and [Databricks](https://www.databricks.com/) effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers.

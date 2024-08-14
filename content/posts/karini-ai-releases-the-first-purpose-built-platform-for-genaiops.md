@@ -59,6 +59,13 @@ related_posts:
   - "karini-ai-launches-streaming-for-copilot"
   - "enterprise-connectivity-integrating-google-azure-confluence-dropbox"
   - "karini-ai-announces-full-support-for-amazon-bedrock-models"
+sitemap:
+  loc: "https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
+  lastmod: "2024-02-06"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png"
 ---
 
 Karini.ai is excited to announce the general availability of the first-of-its-kind purpose-built Generative AI platform designed to power evolution in enterprise AI adoption. The platform, Built by Ex Amazon Web Services (Ex-AWS) AI experts, delivers a new approach to GenAIOps for the complete supervision of DataOps, LLMOps, and DevOps for building, testing, and deploying generative AI applications at speed in the enterprise.
