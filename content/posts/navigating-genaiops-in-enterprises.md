@@ -60,6 +60,30 @@ related_posts:
   - "genai-visibility"
   - "generative-ai-the-inevitable-disruption"
   - "the-evolution-of-ai-agents"
+sitemap:
+  loc: "https://www.karini.ai/blogs/navigating-genaiops-in-enterprises"
+  lastmod: "2024-01-02"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/GenAIOps_challenges.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/msn_chevy_chatbot_crop.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/GenAIOps_best_practices.png"
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/navigating-genaiops-in-enterprises"
+  news:
+    publication:
+      name: "Generative AI Blog"
+      language: "en"
+    publication_date: "2024-01-31"
+    title: "Navigating GenAIOps in Enterprises: Challenges and Best Practices - Version 1.0"
+    keywords: "GenAIOps Enterprises, Generative AI Integration, GenAIOps Best Practices, Enterprise AI Solutions, Karini AI GenAIOps"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/GenAIOps_challenges.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/msn_chevy_chatbot_crop.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/GenAIOps_best_practices.png"
 ---
 
 ## Introduction to GenAIOps in Enterprises

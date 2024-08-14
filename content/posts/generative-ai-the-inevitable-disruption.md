@@ -64,6 +64,24 @@ related_posts:
   - "unleashing-the-potential-of-unified-data"
   - "the-evolution-of-ai-agents"
   - "navigating-genaiops-in-enterprises"
+sitemap:
+  loc: "https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption"
+  lastmod: "2024-03-01"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png"
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption"
+  news:
+    publication:
+      name: "Generative AI Blog"
+      language: "en"
+    publication_date: "2024-03-01"
+    title: "Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes"
+    keywords: "Generative AI, Business Transformation, AI Innovation, Enterprise AI Solutions, Karini AI, AI in Marketing, AI in R&D, AI Tools for Business, Disruptive Technology, Future of AI"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png"
 ---
 
 ## Introduction

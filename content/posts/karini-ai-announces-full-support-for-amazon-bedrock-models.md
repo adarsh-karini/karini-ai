@@ -59,6 +59,13 @@ SEO_data:
 related_posts:
   - "karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
   - "karini-ai-embarks-on-a-new-partnership-with-databricks"
+sitemap:
+  loc: "https://www.karini.ai/blogs/karini-ai-announces-full-support-for-amazon-bedrock-models"
+  lastmod: "2023-12-01"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Bedrock_Models_Support.png"
 ---
 
 We are delighted to share that starting December 1, 2023, Karini AI has fully expanded its capabilities to support all [Amazon Bedrock](https://aws.amazon.com/bedrock/) models. This significant enhancement to our service offerings helps take your pilots using Amazon Bedrock faster to production.

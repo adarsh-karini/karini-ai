@@ -64,6 +64,26 @@ related_posts:
   - "karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
   - "karini-ai-embarks-on-a-new-partnership-with-databricks"
   - "karini-ai-announces-full-support-for-amazon-bedrock-models"
+sitemap:
+  loc: "https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
+  lastmod: "2024-03-11"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Connectors.png"
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
+  news:
+    publication:
+      name: "Announcement five"
+      language: "en"
+    publication_date: "2024-03-11"
+    title: "Karini.ai Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox"
+    keywords: "Karini.ai, Generative AI, Google Cloud, Azure Blob Storage, Confluence, Dropbox, enterprise connectivity, RAG applications"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Connectors.png"
 ---
 
 Generative AI is a once-in-a-generation technology, and every enterprise is in a race to embrace it to improve internal productivity across IT, engineering, finance, and HR, as well as improve product experience for external customers. Model providers are steadily improving their performance with the launch of Claude3 by Anthropic and Gemini by Google, which boast on par or better performance than Open AI’s GPT4. However, these models need enterprise context to provide quality task-specific responses. Over 80% of large enterprises utilize more than one cloud, dispersing enterprise data across multiple cloud storages. Enterprises struggle to build meaningful Gen AI applications for Retrieval Augmented Generation (RAG) with disparate datasets for quality responses.

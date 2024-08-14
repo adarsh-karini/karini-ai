@@ -63,6 +63,26 @@ related_posts:
   - "generative-ai-the-inevitable-disruption"
   - "karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
   - "karini-ai-launches-streaming-for-copilot"
+sitemap:
+  loc: "https://www.karini.ai/blogs/batch-execution-pipelines"
+  lastmod: "2024-06-13"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Batch_recipe.png"
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/batch-execution-pipelines"
+  news:
+    publication:
+      name: "Announcement five"
+      language: "en"
+    publication_date: "2024-06-13"
+    title: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes"
+    keywords: "Karini AI batch execution, no-code Generative AI recipes, generative AI applications, batch processing pipelines, Large Language Models LLMs, enterprise AI integration"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Batch_recipe.png"
 ---
 
 As enterprises increasingly adopt Large Language Models (LLMs) for diverse generative AI applications, a notable challenge emerges in implementing batch processing pipelines. Unlike real-time processing, batch workflows enable handling large datasets in bulk, making them ideal for tasks where immediate responses are not required. Integrating generative AI into these batch workflows signifies a transformative leap in data and task management. This approach not only automates complex processes but also scales efficiently to meet the demands of extensive data handling. By ensuring precise and consistent outputs, generative AI-powered batch workflows enhance overall operational efficiency and maintain a competitive edge in today’s data-centric landscape.

@@ -1,328 +1,323 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  	
+    <url>
+      <loc>https://www.karini.ai</loc>
+      <image:image>
+        <image:loc>https://www.karini.ai/karini-logo.png</image:loc>
+        <image:title>Powering Evolution in Generative AI</image:title>
+      </image:image>
+    </url>
+    <url>
+      <loc>https://www.karini.ai</loc>
+      <lastmod>2021-06-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+    </url>
+    <url>
+      <loc>https://www.karini.ai/aboutus</loc>
+      <lastmod>2021-06-01</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://www.karini.ai/contactus</loc>
+      <lastmod>2021-06-01</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://www.karini.ai/services/genai</loc>
+      <lastmod>2021-06-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://www.karini.ai/services/ml</loc>
+      <lastmod>2021-06-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url> 
+      <loc>https://www.karini.ai/partners</loc> 
+      <lastmod>2024-04-15</lastmod> 
+      <priority>0.7</priority> 
+      <changefreq>monthly</changefreq> 
+    </url>
+    <url>
+      <loc>https://www.karini.ai/platforms</loc>
+      <lastmod>2021-06-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://www.karini.ai/privacypolicy</loc>
+      <lastmod>2021-06-01</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://www.karini.ai/termsofuse</loc>
+      <lastmod>2021-06-01</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://www.karini.ai/blogs</loc>
+      <lastmod>2024-01-10</lastmod> 
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+    <url>
+	<loc>https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems</loc>
+	<lastmod>2024-04-25</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Beyond_Limits.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Compound_systems.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/karini_compound_systems.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Amazon_bedrock_recipe.png</image:loc>
+	</image:image>
+</url>
 <url>
-  <loc>https://www.karini.ai</loc>
-  <image:image>
-    <image:loc>https://www.karini.ai/karini-logo.png</image:loc>
-    <image:title>Powering Evolution in Generative AI</image:title>
-  </image:image>
-</url>
-  <url>
-    <loc>https://www.karini.ai</loc>
-    <lastmod>2021-06-01</lastmod>
+	<loc>https://www.karini.ai/blogs/aws-marketplace</loc>
+	<lastmod>2024-07-02</lastmod>
 	<changefreq>monthly</changefreq>
-   <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/aboutus</loc>
-    <lastmod>2021-06-01</lastmod>
-	<changefreq>yearly</changefreq>
-  <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/contactus</loc>
-    <lastmod>2021-06-01</lastmod>
-	<changefreq>yearly</changefreq>
-   <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/services/genai</loc>
-    <lastmod>2021-06-01</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/services/ml</loc>
-    <lastmod>2021-06-01</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-  </url>
-  <url> 
-	<loc>https://www.karini.ai/partners</loc> 
-	<lastmod>2024-04-15</lastmod> 
-	<priority>0.7</priority> 
-	<changefreq>monthly</changefreq> 
-</url>
-  <url>
-    <loc>https://www.karini.ai/platforms</loc>
-    <lastmod>2021-06-01</lastmod>
-	<changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/privacypolicy</loc>
-    <lastmod>2021-06-01</lastmod>
-	<changefreq>yearly</changefreq>
-  <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/termsofuse</loc>
-    <lastmod>2021-06-01</lastmod>
-	<changefreq>yearly</changefreq>
-  <priority>0.5</priority>
-  </url>
-  <url>
-  <loc>https://www.karini.ai/blogs</loc>
-  <lastmod>2024-01-10</lastmod> 
-  <changefreq>weekly</changefreq>
-  <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://www.karini.ai/blogs/industrialize-generative-ai</loc>
-    <lastmod>2024-01-02</lastmod>
-	<changefreq>monthly</changefreq>
-  <priority>0.7</priority>
-	<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png</image:loc>
-    </image:image>
-	<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/GenAIOps_four_layer_cake.png</image:loc>
-    </image:image>
-		<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/AI-Platform-Architecture.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/navigating-genaiops-in-enterprises</loc>
-    <lastmod>2024-01-02</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-		<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png</image:loc>
-    </image:image>
-	<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/GenAIOps_challenges.png</image:loc>
-    </image:image>
-	<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/msn_chevy_chatbot_crop.png</image:loc>
-    </image:image>
-	<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/GenAIOps_best_practices.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs</loc>
-    <lastmod>2024-02-26</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-		<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/Fast_track_your_prompt_Experiments.png</image:loc>
-    </image:image>
-	<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/Prompt_runs.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai//blogs/generative-ai-the-inevitable-disruption</loc>
-    <lastmod>2024-03-01</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-		<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai//blogs/building-efficient-rag-systems</loc>
-    <lastmod>2024-02-29</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-		<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/Building_Efficient_RAG_Systems.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/rag_enhancement.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai//blogs/the-evolution-of-ai-agents</loc>
-    <lastmod>2024-03-04</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-		<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/The_Evolution_of_AI_Agents.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/agents_challenges.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/agents_solution.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/React.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/genai_visibility</loc>
-    <lastmod>2024-04-12</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-		<image:image>
-      <image:loc>https://www.karini.ai/assets/images/public/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/Dashboard_tiles.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/Dashboard-pie_charts.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/karini-ai-unveils-enhanced-prompt-playground</loc>
-    <lastmod>2024-01-22</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-	<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/Karini_Evolves_Prompting_Experience.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox</loc>
-    <lastmod>2024-03-11</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-	<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/Connectors.png</image:loc>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot</loc>
-    <lastmod>2024-01-18</lastmod>
-	<changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-	<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png</image:loc>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.karini.ai/blogs/karini-ai-embarks-on-a-new-partnership-with-databricks</loc>
-    <lastmod>2023-11-14</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-	<image:image>
-    	<image:loc>https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png</image:loc>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor</loc>
-    <lastmod>2023-10-16</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-	<image:image>
-	 	<image:loc>https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png</image:loc>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.karini.ai/blogs/announcements/batch-execution-pipelines</loc>
-    <lastmod>2024-06-13</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-	<image:image>
-		<image:loc>https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png</image:loc>
-    </image:image>
-    <image:image>
-		<image:loc>https://www.karini.ai/assets/images/blogs/Batch_recipe.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/announcements/aws-marketplace</loc>
-    <lastmod>2024-07-02</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.9</priority>
+	<priority>0.9</priority>
 	<image:image>
 		<image:loc>https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/announcements/bedrock-guardrails</loc>
-    <lastmod>2024-07-17</lastmod>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/batch-execution-pipelines</loc>
+	<lastmod>2024-06-13</lastmod>
 	<changefreq>monthly</changefreq>
-   <priority>0.9</priority>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Batch_recipe.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/bedrock-guardrails</loc>
+	<lastmod>2024-07-17</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
 	<image:image>
 		<image:loc>https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png</image:loc>
-    </image:image>
-  </url>
-    <url>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/building-efficient-rag-systems</loc>
+	<lastmod>2024-02-29</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Building_Efficient_RAG_Systems.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/rag_enhancement.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox</loc>
+	<lastmod>2024-03-11</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Connectors.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs</loc>
+	<lastmod>2024-02-26</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Fast_track_your_prompt_Experiments.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Prompt_runs.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/genai_visibility</loc>
+	<lastmod>2024-04-12</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Dashboard_tiles.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Dashboard-pie_charts.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption</loc>
+	<lastmod>2024-03-01</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/generative-bi-system</loc>
+	<lastmod>2024-04-15</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/industrialize-generative-ai</loc>
+	<lastmod>2024-01-02</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.7</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/GenAIOps_four_layer_cake.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/AI-Platform-Architecture.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/karini-ai-announces-full-support-for-amazon-bedrock-models</loc>
+	<lastmod>2023-12-01</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Bedrock_Models_Support.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/karini-ai-embarks-on-a-new-partnership-with-databricks</loc>
+	<lastmod>2023-11-14</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor</loc>
+	<lastmod>2023-10-16</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot</loc>
+	<lastmod>2024-01-18</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops</loc>
+	<lastmod>2024-02-06</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/karini-ai-unveils-enhanced-prompt-playground</loc>
+	<lastmod>2024-01-22</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Karini_Evolves_Prompting_Experience.png</image:loc>
+	</image:image>
+</url>
+<url>
 	<loc>https://www.karini.ai/blogs/managed-semantic-cache</loc>
 	<lastmod>2024-07-28</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.8</priority>
 </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/announcements/generative-bi-system",
-    </loc>
-    <lastmod>2024-04-15</lastmod>
+<url>
+	<loc>https://www.karini.ai/blogs/mastering-generative-ai</loc>
+	<lastmod>2024-01-04</lastmod>
 	<changefreq>monthly</changefreq>
-   <priority>0.9</priority>
-	<image:image>
-		<image:loc>https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/karini-ai-announces-full-support-for-amazon-bedrock-models</loc>
-    <lastmod>2023-12-01</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-	<image:image>
-		<image:loc>https://www.karini.ai/assets/images/blogs/Bedrock_Models_Support.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops</loc>
-    <lastmod>2024-02-06</lastmod>
-	<changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-	<image:image>
-      <image:loc>https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data</loc>
-    <lastmod>2024-02-02</lastmod>
-	<changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-	<image:image>
-		<image:loc>https://www.karini.ai/assets/images/blogs/Evolution_of_Gen_AI.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/mastering-generative-ai</loc>
-    <lastmod>2024-01-04</lastmod>
-	<changefreq>monthly</changefreq>
-  <priority>0.7</priority>
+	<priority>0.7</priority>
 	<image:image>
 		<image:loc>https://www.karini.ai/assets/images/blogs/Mastering_Generative_AI.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems</loc>
-    <lastmod>2024-04-25</lastmod>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/multi-agent-systems</loc>
+	<lastmod>2024-08-12</lastmod>
 	<changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/navigating-genaiops-in-enterprises</loc>
+	<lastmod>2024-01-02</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
 	<image:image>
-		<image:loc>https://www.karini.ai/assets/images/blogs/Beyond_Limits.png</image:loc>
-    </image:image>
-    <image:image>
-		<image:loc>https://www.karini.ai/assets/images/blogs/Compound_systems.png</image:loc>
-    </image:image>
-    <image:image>
-		<image:loc>https://www.karini.ai/assets/images/blogs/karini_compound_systems.png</image:loc>
-    </image:image>
-    <image:image>
-		<image:loc>https://www.karini.ai/assets/images/blogs/Amazon_bedrock_recipe.png</image:loc>
-    </image:image>
-  </url>
-   <url>
-        <loc>https://www.karini.ai/blogs/multi-agent-systems</loc>
-        <lastmod>2024-08-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-</urlset>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/GenAIOps_challenges.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/msn_chevy_chatbot_crop.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/GenAIOps_best_practices.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/the-evolution-of-ai-agents</loc>
+	<lastmod>2024-03-04</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/The_Evolution_of_AI_Agents.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/agents_challenges.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/agents_solution.png</image:loc>
+	</image:image>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/React.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/blogs/unleashing-the-potential-of-unified-data</loc>
+	<lastmod>2024-02-02</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Evolution_of_Gen_AI.png</image:loc>
+	</image:image>
+</url>
+  </urlset>

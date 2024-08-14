@@ -59,6 +59,24 @@ SEO_data:
 related_posts:
   - "karini-ai-embarks-on-a-new-partnership-with-databricks"
   - "karini-ai-announces-full-support-for-amazon-bedrock-models"
+sitemap:
+  loc: "https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
+  lastmod: "2023-10-16"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
+  news:
+    publication:
+      name: "Announcement four"
+      language: "en"
+    publication_date: "2023-10-16"
+    title: "Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor"
+    keywords: "Enterprise Operations, Karini AI, Generative AI"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
 ---
 
 We are thrilled to announce that Karini AI has officially partnered with [Amazon Web Services (AWS)](http://aws.amazon.com) as an Independent Software Vendor (ISV). This strategic partnership, effective from October 16, 2023, marks a significant milestone in our journey towards innovation and excellence.

@@ -59,6 +59,24 @@ related_posts:
   - "enterprise-connectivity-integrating-google-azure-confluence-dropbox"
   - "karini-ai-announces-full-support-for-amazon-bedrock-models"
   - "karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
+sitemap:
+  loc: "https://www.karini.ai/blogs/aws-marketplace"
+  lastmod: "2024-07-02"
+  changefreq: "monthly"
+  priority: "0.9"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/aws-marketplace"
+  news:
+    publication:
+      name: "Announcement five"
+      language: "en"
+    publication_date: "2024-07-01"
+    title: "Karini AI Launches on AWS Marketplace - Explore Now!"
+    keywords: "Karini AI AWS Marketplace, Generative AI AWS integration, AWS Marketplace GenAI solutions, Secure GenAI platform, No-code AI development AWS"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
 ---
 
 Empowering innovation while prioritizing security is paramount for businesses of all sizes. We're thrilled to announce that Karini AI, the leading platform for building secure and scalable Generative AI (GenAI) applications, is now available on AWS Marketplace. Its user-friendly interface and seamless integration with Amazon Bedrock make it a comfortable choice for your business.

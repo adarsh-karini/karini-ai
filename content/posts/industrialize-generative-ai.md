@@ -63,6 +63,28 @@ SEO_data:
 related_posts:
   - "mastering-generative-ai"
   - "the-evolution-of-ai-agents"
+sitemap:
+  loc: "https://www.karini.ai/blogs/industrialize-generative-ai"
+  lastmod: "2024-01-02"
+  changefreq: "monthly"
+  priority: "0.7"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/GenAIOps_four_layer_cake.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/AI-Platform-Architecture.png"
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/industrialize-generative-ai"
+  news:
+    publication:
+      name: "Generative AI Blog"
+      language: "en"
+    publication_date: "2024-01-02"
+    title: "Industrialize Generative AI"
+    keywords: "Industrialize Generative AI, Karini AI Generative AI, Gen AI Strategies, AI Application Integration, Generative AI Industrialization"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/GenAIOps_four_layer_cake.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/AI-Platform-Architecture.png"
 ---
 
 ## Hype of Generative AI

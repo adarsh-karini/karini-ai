@@ -63,6 +63,24 @@ SEO_data:
 related_posts:
   - "enterprise-connectivity-integrating-google-azure-confluence-dropbox"
   - "karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
+sitemap:
+  loc: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+  lastmod: "2024-01-18"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png"
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+  news:
+    publication:
+      name: "Announcement two"
+      language: "en"
+    publication_date: "2024-01-18"
+    title: "Karini AI Launches Streaming for Copilot"
+    keywords: "Enterprise Operations, Karini AI, Generative AI"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png"
 ---
 
 Karini AI is proud to announce a new feature to help businesses enhance user experiences by replacing the everlasting ellipsis with streaming responses. Following the latest trends in open-source generative AI, this leap forward for purpose-built enterprise-focused AI using natural language questions and answers is evolving Copilot to the next level.

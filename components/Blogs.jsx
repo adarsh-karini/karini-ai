@@ -1,12 +1,7 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
-import {
-	blogsData,
-	blogsFilterArray,
-} from "@/content/blogs&announcements/blogsData";
 import Image from "next/image";
-import { announcementsData } from "@/content/blogs&announcements/announcementsData";
 import moment from "moment";
 import { GoArrowRight } from "react-icons/go";
 import { WiDirectionRight } from "react-icons/wi";
@@ -15,7 +10,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 import { FaRegClock } from "react-icons/fa";
 import { IoCalendarNumberOutline } from "react-icons/io5";
 
-const BlogsandAnn = ({ postMetadata }) => {
+const Blogs = ({ postMetadata }) => {
 	let filterButtons = ["all", "blogs", "announcements"];
 
 	const [activeFilter, setActiveFilter] = useState("all");
@@ -291,4 +286,4 @@ const BlogsandAnn = ({ postMetadata }) => {
 	);
 };
 
-export default BlogsandAnn;
+export default Blogs;

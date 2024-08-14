@@ -60,6 +60,29 @@ related_posts:
   - "industrialize-generative-ai"
   - "mastering-generative-ai"
   - "navigating-genaiops-in-enterprises"
+sitemap:
+  loc: "https://www.karini.ai/blogs/genai_visibility"
+  lastmod: "2024-04-12"
+  changefreq: "monthly"
+  priority: "0.8"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Dashboard_tiles.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Dashboard-pie_charts.png"
+
+news_sitemap:
+  loc: "https://www.karini.ai/blogs/genai_visibility"
+  news:
+    publication:
+      name: "Generative AI Blog"
+      language: "en"
+    publication_date: "2024-04-12"
+    title: "Maximize GenAI ROI with Karini AI’s Visibility Tools"
+    keywords: "GenAI cost management, Karini AI dashboard, Operational transparency, LLM budget control, AI resource monitoring"
+  images:
+    - loc: "https://www.karini.ai/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Dashboard_tiles.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Dashboard-pie_charts.png"
 ---
 
 ## Introduction
