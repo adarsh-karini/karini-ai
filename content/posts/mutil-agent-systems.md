@@ -64,7 +64,7 @@ related_posts:
 
 While large language models (LLMs) have shown remarkable capabilities in various applications, the future of AI is even more promising with the evolution of AI agents. These [agents](https://www.karini.ai/blogs/the-evolution-of-ai-agents), which simplify using LLMs to build sophisticated systems for complex tasks, are transforming the AI landscape. They break down intricate functions into manageable parts, tap into external systems to expand their knowledge, and monitor results to ensure the initial query's objectives are met. As we move forward, multi-agent approaches are set to revolutionize AI, harnessing the collaborative potential of multiple agents to tackle increasingly complex tasks with greater efficiency and effectiveness.
 
-According to this research [More agents are all you need](https://arxiv.org/pdf/2402.05120.pdf), LLMs' performance improves with the number of agents involved, suggesting this method can enhance LLMs' capabilities, especially for complex tasks.
+According to this research [More agents is all you need](https://arxiv.org/pdf/2402.05120.pdf), LLMs' performance improves with the number of agents involved, suggesting this method can enhance LLMs' capabilities, especially for complex tasks.
 
 ![View the example](/assets/images/blogs/multi-agent.drawio.png).
 
