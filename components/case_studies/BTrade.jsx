@@ -7,11 +7,11 @@ const BTrade = () => {
 			<div className="max-w-screen-lg mx-auto space-y-8">
 				<div className="flex items-center justify-center">
 					<Image
-						src={"/assets/images/case_studies/btrade-logo.svg"}
+						src={"/assets/images/case_studies/BTrade_Logo.png"}
 						width={500}
 						height={200}
 						alt="btrade logo"
-						className="bg-black p-3"
+						className=""
 					/>
 					{/* <h1 className="text-center text-2xl font-semibold text-black md:text-3xl lg:text-4xl">
 							BTrade
