@@ -17,7 +17,7 @@ const PracticusAI = () => {
 						</h1> */}
 				</div>
 				<div className="space-y-3">
-					<p className="text-secondary-700 text-sm sm:text-base leading-relaxed">
+					<p className="text-secondary-700 text-sm sm:text-lg leading-relaxed">
 						Karini AI has been instrumental in transforming our customer support
 						operations. By rapidly developing a GenAI-powered DocBot, we&apos;ve
 						witnessed a dramatic reduction in how-to-call volume, exceeding our
@@ -27,14 +27,8 @@ const PracticusAI = () => {
 						a critical factor in achieving these impressive results. This
 						strategic decision, coupled with the platform&apos;s robust feature
 						set, has significantly improved customer satisfaction and is
-						anticipated to increase our NPS by over 25%. -{" "}
-						<a
-							href="mailto:hakan@practicus.ai"
-							className="text-blue-600 underline underline-offset-1"
-						>
-							Hakan
-						</a>{" "}
-						Eren.CEO, Practicus AI.
+						anticipated to increase our NPS by over 25%. - Haken Eren, CEO,
+						Practicus AI.
 					</p>
 				</div>
 			</div>
