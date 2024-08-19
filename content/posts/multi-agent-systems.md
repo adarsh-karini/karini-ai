@@ -108,8 +108,7 @@ Here is an example of a multi-agent recipe that utilizes three agents—a Coder 
 
 The following video demonstrates the Multi-agent copilot built using the recipe showcased in the above diagram, which functions as a DevOps engineer, assisting users in generating, reviewing, testing code, and building projects using the AWS CodeBuild Service.
 
-<video src="/assets/images/blogs/Multi-Agent-CoPilot.mp4" controls="controls">
-</video>
+<video src="/assets/images/blogs/Multi-Agent-CoPilot.mp4" controls="controls"></video>
 
 Imagine a team of AI agents with unique expertise working together to achieve a common goal. This is the essence of multi-agent systems. They allow collaboration among various AI agents, each contributing specialized skills to solve complex problems. For instance, a multi-agent system could streamline a DevOps engineering pipeline, where different agents handle tasks like coding, testing, and building. By working together, these agents can create more comprehensive and effective solutions than a single AI model could, leaving you reassured and satisfied with the outcomes. It's a community of AI working together for a common goal.
 
