@@ -80,7 +80,14 @@ module.exports = {
 							display: "block", // Added to ensure img is treated as block-level
 							marginLeft: "auto",
 							marginRight: "auto",
-							maxWidth: "60%", // Ensures the image is responsive and does not overflow its container
+							maxWidth: "90%", // Ensures the image is responsive and does not overflow its container
+						},
+						iframe: {
+							borderRadius: "var(--radius)",
+							display: "block", // Added to ensure img is treated as block-level
+							marginLeft: "auto",
+							marginRight: "auto",
+							maxWidth: "90%", // Ensures the image is responsive and does not overflow its container
 						},
 					},
 				},

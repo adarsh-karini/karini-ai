@@ -76,7 +76,7 @@ Today, traditional data analytics, warehousing, and databases hold vast amounts 
 
 The State of the art Generative AI models have shown remarkable results in programming tasks such as SQL Generation, Data processing, and Narrative generation hence they have the potential to transform every aspect of the data and analytics lifecycle. Businesses are increasingly planning to integrate generative AI into their BI strategies. There are similar solutions available by cloud providers or BI providers, but they are confined to their own ecosystems and do not reflect the realities of the Enterprise data landscape, which tends to have Data silos across multiple clouds. Many enterprises also need better integration of Generative BI offerings within their own applications.
 
-<iframe width="700" height="455" src="https://www.youtube.com/embed/kxdZe9Sj80Q?si=gutwNdnYIJqrfXIu" title="Karini AI Generative BI System"></iframe>
+<iframe width="700" height="455" src="https://www.youtube.com/embed/kxdZe9Sj80Q?si=gutwNdnYIJqrfXIu" title="Karini AI Generative BI System" frameborder="0" allowfullscreen></iframe>
 
 Karini AI is excited to announce the support for the **first-ever Glass Box Generative BI Solution** that can transcend across multiple Data silos to provide business insights. While you get a quickstart Agentic solution, it can be tuned for your use case. The solution provides a breadth of capabilities to build a Copilot within 30 mins:
 
