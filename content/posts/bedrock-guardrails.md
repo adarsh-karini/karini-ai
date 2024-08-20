@@ -95,7 +95,7 @@ Karini AI is proud to announce its support for content safety Guardrails by inte
 - Word filters: You can set custom words or phrases to detect and block user interactions with generative AI applications. For instance, you can filter out profanity and specific terms like competitor names or offensive words.
 - Sensitive information filters: You can reject or redact sensitive information in responses depending on the use case. For instance, you can redact personal details while summarizing customer and agent conversation transcripts.
 
-### [AI safety with support for Guardrails](https://www.youtube.com/embed/SM23u0W_Gao?si=RnrplOcUN_nW1oZx)
+<iframe width="700" height="455" src="https://www.youtube.com/embed/SM23u0W_Gao?si=RnrplOcUN_nW1oZx" title="AI safety with support for Guardrails" frameborder="0" allowfullscreen></iframe>
 
 With Karini AI, you now have:
 
