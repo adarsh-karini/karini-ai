@@ -89,4 +89,5 @@ Today, ChatGPT has set the tone and standard for the Copilot user experience as 
 
 We are excited to share that Karini AI’s Copilot now supports the streaming experience for almost all SOTA model providers, citations (references), and optional follow-up questions. The feature is vital as it delivers a uniform user experience when enterprises switch between model providers for A/B testing and model upgrades. Available now and out of the box without any additional setup. See it in action below and contact us for more information.
 
-![Karini Copilot Streaming Demo](/gif/karini_copilot_streaming_demo.gif)
+<!-- ![Karini Copilot Streaming Demo](/gif/karini_copilot_streaming_demo.gif) -->
+<img src="/gif/karini_copilot_streaming_demo.gif" alt="Karini Copilot Streaming Demo"/>
