@@ -90,4 +90,4 @@ Today, prompt engineering is one of the most critical steps to harness the power
 
 Karini AI provides the first playground that enables domain experts to become prompt engineers with a guided experience using built-in prompt templates to initiate the prompt-building process and quickly compare the prompts against authorized models for quality of responses, number of tokens, and response time to select the best prompt. This enables domain experts to excel in prompt engineering, effectively utilizing their specialized knowledge in prompt creation. Moreover, Generative AI applications can use these prompts with our drag-and-drop recipes to build the applications in minutes. See it in action below and contact us for more information.
 
-![Karini Copilot Streaming Demo](/gif/karini_copilot_streaming_demo.gif)
+![Karini Copilot Streaming Demo](/gif/karini_prompt_playground_demo.gif)
