@@ -17,9 +17,8 @@ module.exports = {
 							},
 						},
 						p: {
-							color: "var(--muted-foreground)",
+							color: "var(--foreground)",
 							fontWeight: "400",
-							//text wrap
 							overflowWrap: "break-normal",
 						},
 						strong: {
