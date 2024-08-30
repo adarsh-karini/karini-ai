@@ -4,8 +4,8 @@ show: true
 title: "Elevate Your RAG Applications: Unlock Advanced Evaluation Techniques with Karini AI"
 SEO_title: "Unlock Advanced RAG Evaluation with Karini AI"
 subtitle: "Retrieval-augmented Generation(RAG) has become the industry standard for developing chatbots due to its ability to reduce hallucinations and leverage domain-specific knowledge."
-date: "2024-08-29"
-time_to_read: "4 min read"
+date: "2024-08-30"
+time_to_read: "9 min read"
 blog_image: "/assets/images/blogs/Elevate-Your-RAG-Applications.png"
 blog_image_alt_name: "Elevate your RAG Applications with karini AI's evaluations"
 author: "Deepali Rajale"
@@ -54,14 +54,14 @@ SEO_data:
       logo:
         "@type": "ImageObject"
         url: "https://www.karini.ai"
-    datePublished: "2024-08-29"
+    datePublished: "2024-08-30"
 related_posts:
   - "managed-semantic-cache"
   - "karini-ai-unveils-enhanced-prompt-playground"
   - "generative-bi-system"
 sitemap:
   loc: "https://www.karini.ai/blogs/elevate_your_rag_applications"
-  lastmod: "2024-08-29"
+  lastmod: "2024-08-30"
   changefreq: "monthly"
   priority: "0.9"
   images:
@@ -72,7 +72,7 @@ news_sitemap:
     publication:
       name: "RAG Evaluation Techniques: Online & Offline Solutions"
       language: "en"
-    publication_date: "2024-08-29"
+    publication_date: "2024-08-30"
     title: "RAG Evaluation Techniques: Online & Offline Solutions"
     keywords: "Karini AI RAG Evaluations, Custom RAG Evalutaions, LLM as a judge, Online RAG Evalutaions, RAG Optimization"
   images:
