@@ -169,7 +169,7 @@ const PostPage = ({ blog_id, post }) => {
 							<Markdown>{post.content}</Markdown>
 						</article>
 						{post.related_post_data && post.related_post_data.length > 0 && (
-							<div className="w-full lg:w-1/3 py-8">
+							<div className="w-full lg:w-1/4 py-8">
 								<div className="space-y-2">
 									<div className="text-lg text-primary-600 font-semibold leading-normal">
 										Related Posts
@@ -181,13 +181,13 @@ const PostPage = ({ blog_id, post }) => {
 												key={index}
 												className="flex backdrop-blur-md border shadow-md rounded space-x-4 p-4"
 											>
-												<div className="w-28 flex items-center">
+												<div className="w-20 flex items-center">
 													<Image
 														alt={post.blog_image_alt_name}
 														title={post.blog_image_alt_name}
 														src={post.blog_image}
-														width={500}
-														height={500}
+														width={300}
+														height={300}
 														className="w-full rounded"
 														priority
 													/>
@@ -199,9 +199,9 @@ const PostPage = ({ blog_id, post }) => {
 													<div className="flex justify-between items-center">
 														<div className="flex items-center space-x-2 px-2 py-1 rounded-full border shadow text-secondary-700 text-xs">
 															<IoCalendarNumberOutline size={14} className="" />
-															<p className="text-nowrap">{post.date}</p>
+															<p className="text-nowrap text-xs">{post.date}</p>
 														</div>
-														<button className="text-sm text-primary-600 underline underline-offset-1 font-medium">
+														<button className="text-xs text-primary-600 underline underline-offset-1 font-medium">
 															<Link href={`/blogs/${post.slug}`}>
 																Read more
 															</Link>

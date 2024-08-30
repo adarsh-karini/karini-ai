@@ -97,14 +97,8 @@ At the launch, [Karini.ai](https://www.karini.ai/) provided connectors for Amazo
 
 ![Orchestrate GenAI with Karini.ai connectors: Azure Blob Storage, Google Cloud Storage(GCS), Google Drive, Confluence, and Dropbox.](/assets/images/blogs/connectors.png)
 
-Here is the continuation of the `.md` text file content for the filename:
-
-**`enterprise-connectivity-integrating-google-azure-confluence-dropbox.md`**
-
-```markdown
 With the addition of Google, Azure, Confluence, and Dropbox connectors, Karini.ai enables enterprises to unlock the true potential of Generative AI. Our comprehensive collection of connectors tackles the challenge of siloed data, allowing the creation of powerful RAG applications that leverage data from across various sources. This streamlines development and improves data quality, ultimately delivering superior GenAI experiences for internal and external users.
 
 Karini.ai remains committed to expanding its connector ecosystem, fostering a future where Generative AI seamlessly integrates with the ever-evolving enterprise data landscape.
 
 **Build your Generative AI application today!** Leverage these enterprise connectors and unify disparate cloud-based sources. With Karini.ai, you can unlock the true potential of Generative AI, streamline development, improve data quality, and deliver superior GenAI experiences.
-```

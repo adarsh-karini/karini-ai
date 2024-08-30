@@ -17,9 +17,8 @@ module.exports = {
 							},
 						},
 						p: {
-							color: "var(--muted-foreground)",
+							color: "var(--foreground)",
 							fontWeight: "400",
-							//text wrap
 							overflowWrap: "break-normal",
 						},
 						strong: {
@@ -43,20 +42,35 @@ module.exports = {
 						h6: {
 							color: "var(--foreground)",
 						},
+						table: {
+							maxWidth: "90%",
+							// display: "block",
+							// "overflow-x": "auto",
+							border: "1px solid #cbd5e1",
+						},
 						th: {
 							color: "var(--foreground)",
 							"text-align": "left",
+							background: "var(--background)",
+							"padding-left": "0.5rem",
+						},
+						td: {
+							color: "var(--foreground)",
+							"text-align": "left",
+							fontWeight: "400",
+							"padding-left": "0.5rem",
 						},
 						tbody: {
 							color: "var(--foreground)",
 							fontWeight: "300",
 						},
 						code: {
-							color: "var(--foreground)",
+							maxWidth: "90%",
 						},
 						pre: {
 							// color: "var(--foreground)",
-							maxWidth: "600px",
+							// maxWidth: "600px",
+							maxWidth: "90%",
 						},
 						// em: {
 						// 	color: "var(--foreground)",
@@ -73,7 +87,7 @@ module.exports = {
 							display: "block",
 							marginLeft: "auto",
 							marginRight: "auto",
-							maxWidth: "90%",
+							maxWidth: "95%",
 						},
 						video: {
 							borderRadius: "var(--radius)",
