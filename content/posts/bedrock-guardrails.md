@@ -3,7 +3,6 @@ type: "announcement"
 show: true
 title: "Karini AI enhances AI safety with support for Guardrails"
 SEO_title: "Karini AI enhances AI safety with Guardrails for GenAI"
-subtitle: "Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails."
 date: "2024-07-17"
 time_to_read: "4 min read"
 blog_image: "/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"

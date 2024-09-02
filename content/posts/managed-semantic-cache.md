@@ -3,7 +3,6 @@ type: "announcement"
 show: true
 title: "Karini AI Enhances GenAI Application Performance with Managed Semantic Cache"
 SEO_title: "Optimize AI with Managed Semantic Cache - Karini AI"
-subtitle: "Enhance Gen AI Performance with Managed Semantic Cache."
 date: "2024-07-29"
 time_to_read: "4 min read"
 blog_image: "/assets/images/blogs/Boost-Your-Gen-AI-Performance.png"

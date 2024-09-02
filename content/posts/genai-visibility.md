@@ -3,7 +3,6 @@ type: "blog"
 show: true
 title: "GenAI Visibility: Cost transparency and consumption metrics only with Karini AI"
 SEO_title: "Maximize GenAI ROI with Karini AI’s Visibility Tools"
-subtitle: "Discover how Karini AI's visibility dashboard can transform your GenAI cost management, ensuring efficiency and transparency in operations."
 date: "2024-04-12"
 author: "Deepali Rajale"
 author_image: "/assets/images/team_members/deepali-rajale.png"

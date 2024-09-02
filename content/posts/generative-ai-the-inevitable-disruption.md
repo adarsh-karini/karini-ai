@@ -3,7 +3,6 @@ type: "blog"
 show: true
 title: "Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes"
 SEO_title: "Maximize GenAI ROI with Karini AI’s Visibility Tools"
-subtitle: "Discover how Karini AI's visibility dashboard can transform your GenAI cost management, ensuring efficiency and transparency in operations."
 date: "2024-03-01"
 author: "Jerome Mendell"
 author_image: "/assets/images/team_members/jerome-mendell.png"

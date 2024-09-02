@@ -3,7 +3,6 @@ type: "blog"
 show: true
 title: "Building Efficient RAG Systems"
 SEO_title: "Optimize RAG Systems with Karini AI's GenAIOps Platform"
-subtitle: "How to operationalize Generative AI with Karini.ai's GenAI Orchestration platform, enhance RAG for precision and speed in response generation."
 date: "2024-03-13"
 author: "Deepali Rajale"
 author_image: "/assets/images/team_members/deepali-rajale.png"

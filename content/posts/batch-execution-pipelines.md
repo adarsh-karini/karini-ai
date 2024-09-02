@@ -3,7 +3,6 @@ type: "announcement"
 show: true
 title: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes."
 SEO_title: "Efficient Batch Pipelines with No-Code GenAI Recipes"
-subtitle: "Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations."
 date: "2024-06-13"
 time_to_read: "3 min read"
 blog_image: "/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"

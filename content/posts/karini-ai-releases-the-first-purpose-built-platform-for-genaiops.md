@@ -3,7 +3,6 @@ type: "announcement"
 show: true
 title: "Karini AI releases the first purpose-built platform for GenAIOps"
 SEO_title: "Karini AI Unveils GenAIOps Platform - Revolutionizing AI"
-subtitle: "Discover Karini AI's groundbreaking platform for GenAIops, enabling businesses to build, test, and deploy Generative AI apps with ease."
 date: "2024-02-06"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png"

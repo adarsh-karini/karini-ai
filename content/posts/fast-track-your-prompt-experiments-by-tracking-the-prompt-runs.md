@@ -3,7 +3,6 @@ type: "blog"
 show: true
 title: "Fast-track your Prompt Experiments by tracking the prompt runs"
 SEO_title: "Optimize AI Prompts | Karini’s Prompt Playground"
-subtitle: "Accelerate Gen AI applications with Karini’s Prompt Playground. Save, test, and manage prompt runs efficiently for high-quality AI interactions."
 date: "2024-02-26"
 author: "Deepali Rajale"
 author_image: "/assets/images/team_members/deepali-rajale.png"

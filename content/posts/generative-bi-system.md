@@ -3,7 +3,6 @@ type: "announcement"
 show: true
 title: "Introducing the First Purpose-Built Generative BI System: Natural Language Interaction with Your Analytics Databases and Data Warehouses"
 SEO_title: "Generative BI System: Transform Your Data Analytics"
-subtitle: "Unlock powerful data insights with Karini AI's new Generative BI system. Enhance your analytics capabilities now."
 date: "2024-06-24"
 time_to_read: "3 min read"
 blog_image: "/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png"

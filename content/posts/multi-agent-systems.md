@@ -3,7 +3,6 @@ type: "announcement"
 show: true
 title: "Karini AI Announces Support for Multi-Agent Systems"
 SEO_title: "Optimize AI with Managed Semantic Cache - Karini AI"
-subtitle: "Karini AI Supports Multi-Agent Systems for AI Solutions."
 date: "2024-08-12"
 time_to_read: "5 min read"
 blog_image: "/assets/images/blogs/Karini-AI-Supports-Multi-Agent-Systems.png"

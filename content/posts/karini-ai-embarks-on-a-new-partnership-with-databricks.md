@@ -3,7 +3,6 @@ type: "announcement"
 show: true
 title: "Karini AI Embarks on a New Partnership with Databricks"
 SEO_title: "Karini AI & Databricks New Partnership Unveiled"
-subtitle: "Karini AI partners with Databricks to revolutionize AI development. Discover how this collaboration paves the way for advanced AI solutions and innovation."
 date: "2023-11-14"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/Databricks_Partnership.png"

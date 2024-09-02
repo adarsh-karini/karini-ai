@@ -3,7 +3,6 @@ type: "blog"
 show: true
 title: "From Hallucination to Human-Like Helpers: The Evolution of AI Agents"
 SEO_title: "Evolution of AI Agents: From Hallucination to Precision"
-subtitle: "AI chatbots evolve! Karini AI builds reliable assistants, no 'hallucination.' #GenAI #reliableAI"
 date: "2024-03-04"
 author: "Deepali Rajale"
 author_image: "/assets/images/team_members/deepali-rajale.png"

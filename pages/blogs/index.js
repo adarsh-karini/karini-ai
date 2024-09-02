@@ -18,7 +18,6 @@ export async function getStaticProps() {
 			show: matterResult.data.show,
 			title: matterResult.data.title,
 			SEO_title: matterResult.data.SEO_title,
-			subtitle: matterResult.data.subtitle,
 			date: matterResult.data.date,
 			author: matterResult.data.author,
 			author_image: matterResult.data.author_image,

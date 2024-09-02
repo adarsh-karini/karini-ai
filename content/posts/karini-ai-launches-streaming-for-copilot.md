@@ -3,7 +3,6 @@ type: "announcement"
 show: true
 title: "Karini AI Launches Streaming for Copilot"
 SEO_title: "Streaming for Copilot by Karini AI: A New Era"
-subtitle: "Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications."
 date: "2024-01-18"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/Streaming-eye-catcher.png"

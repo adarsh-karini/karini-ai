@@ -3,7 +3,6 @@ type: "announcement"
 show: true
 title: "Generative AI Goes Prime Time: Karini AI Now Available on AWS Marketplace!"
 SEO_title: "Karini AI Launches on AWS Marketplace - Explore Now!"
-subtitle: "Discover Karini AI on AWS Marketplace! Build secure, scalable GenAI applications quickly with seamless integration and enhanced security."
 date: "2024-07-01"
 time_to_read: "3 min read"
 blog_image: "/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"

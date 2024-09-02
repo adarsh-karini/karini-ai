@@ -2,31 +2,30 @@
 type: "blog"
 show: true
 title: "Build and Productionalize Compound AI Systems in Databricks with Karini AI"
-SEO_title: "Build and Productionalize Compound AI Systems in Databricks with Karini AI"
-subtitle: "In today’s rapidly evolving tech landscape, Generative AI (GenAI) initiatives are not just experimental; they are emerging as critical components of enterprise strategies."
+SEO_title: "Compound AI Systems with Databricks | Karini AI"
 date: "2024-09-04"
 time_to_read: "6 min read"
-blog_image: "/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
-blog_image_alt_name: "Build and Productionalize Compound AI Systems in Databricks with Karini AI"
+blog_image: "/assets/images/blogs/Databricks-Together-is-Better.png"
+blog_image_alt_name: "Diagram of compound AI system architecture on Databricks platform"
 author: "Nitin Wagh"
 author_image: "/assets/images/team_members/nitin-wagh.jpg"
 author_linked_in: "https://www.linkedin.com/in/nitin-bwagh/"
 SEO_data:
   metadata:
-    title: "Efficient Batch Pipelines with Karini AI's No-Code GenAI Recipes"
-    keywords: ""
-    description: "In today’s rapidly evolving tech landscape, Generative AI (GenAI) initiatives are not just experimental; they are emerging as critical components of enterprise strategies."
+    title: "Build Powerful Compound AI Systems | Karini AI"
+    keywords: "compound AI, Databricks, generative AI, Karini AI, enterprise AI"
+    description: "Learn to develop and deploy compound AI systems using Databricks and Karini AI, optimizing performance and scalability for enterprise success."
     og:
       local: "en_US"
       type: "article"
       title: "Build and Productionalize Compound AI Systems in Databricks with Karini AI"
-      description: "In today’s rapidly evolving tech landscape, Generative AI (GenAI) initiatives are not just experimental; they are emerging as critical components of enterprise strategies."
-      url: "https://www.karini.ai/blogs/batch-execution-pipelines"
+      description: "Learn to develop and deploy compound AI systems using Databricks and Karini AI, optimizing performance and scalability for enterprise success."
+      url: "https://www.karini.ai/blogs/compound_ai_in_databricks"
       site_name: "Karini AI Batch Execution"
       updated_time: "2024-09-04"
       image:
-        url: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75"
-        secure_url: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75"
+        url: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FDatabricks-Together-is-Better.png&w=640&q=75"
+        secure_url: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FDatabricks-Together-is-Better.png&w=640&q=75"
         width: "640"
         height: "640"
         alt: "Build and Productionalize Compound AI Systems in Databricks with Karini AI"
@@ -34,21 +33,21 @@ SEO_data:
       published_time: "2024-09-04"
     twitter:
       card: "summary"
-      description: "In today’s rapidly evolving tech landscape, Generative AI (GenAI) initiatives are not just experimental; they are emerging as critical components of enterprise strategies."
+      description: "Learn to develop and deploy compound AI systems using Databricks and Karini AI, optimizing performance and scalability for enterprise success."
       title: "Build and Productionalize Compound AI Systems in Databricks with Karini AI"
-      site: "https://www.karini.ai/blogs/batch-execution-pipelines"
-      image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75"
+      site: "https://www.karini.ai/blogs/compound_ai_in_databricks"
+      image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FDatabricks-Together-is-Better.png&w=640&q=75"
       creator: "Build and Productionalize Compound AI Systems in Databricks with Karini AI"
-  canonicalLink: "https://www.karini.ai/blogs/batch-execution-pipelines"
-  hreflang: "https://www.karini.ai/blogs/batch-execution-pipelines"
+  canonicalLink: "https://www.karini.ai/blogs/compound_ai_in_databricks"
+  hreflang: "https://www.karini.ai/blogs/compound_ai_in_databricks"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "NewsArticle"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/blogs/batch-execution-pipelines"
+      "@id": "https://www.karini.ai/blogs/compound_ai_in_databricks"
     headline: "Build and Productionalize Compound AI Systems in Databricks with Karini AI"
-    image: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
+    image: "https://www.karini.ai/assets/images/blogs/Databricks-Together-is-Better.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -59,27 +58,25 @@ SEO_data:
         "@type": "ImageObject"
         url: "https://www.karini.ai"
     datePublished: "2024-09-04"
-
+related_posts:
 sitemap:
-  loc: "https://www.karini.ai/blogs/batch-execution-pipelines"
+  loc: "https://www.karini.ai/blogs/compound_ai_in_databricks"
   lastmod: "2024-09-04"
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Batch_recipe.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Databricks-Together-is-Better.png"
 news_sitemap:
-  loc: "https://www.karini.ai/blogs/batch-execution-pipelines"
+  loc: "https://www.karini.ai/blogs/compound_ai_in_databricks"
   news:
     publication:
-      name: "Announcement five"
+      name: "Build and Productionalize Compound AI Systems in Databricks with Karini A"
       language: "en"
     publication_date: "2024-09-04"
     title: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes"
     keywords: "Karini AI batch execution, no-code Generative AI recipes, generative AI applications, batch processing pipelines, Large Language Models LLMs, enterprise AI integration"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Batch_recipe.png"
+    - loc: "https://www.karini.ai/assets/images/blogs/Databricks-Together-is-Better.png"
 ---
 
 In today’s rapidly evolving tech landscape, Generative AI (GenAI) initiatives are not just experimental; they are emerging as critical components of enterprise strategies, with real budgets allocated and a few trailblazing use cases already in production. The potential of these initiatives is inspiring confidence in the security and legal teams, who were once hesitant but are now aligning with these initiatives. This shift is driven by the rise of privacy-focused open-source alternatives like DBRX, Llama 3.1, and Mistral Large. However, despite these advancements, Gartner predicts that by the end of 2025, at least 30% of GenAI projects will be abandoned post-proof of concept due to challenges such as poor data quality, insufficient risk controls, escalating costs, and ambiguous business value. While open-source solutions have made it easier to build proof of concepts, moving to production requires careful consideration of scaling, performance, security, quality monitoring, and cost management. These complexities have prompted a more cautious approach to ensure that GenAI deployments meet stringent enterprise standards and deliver sustainable value.

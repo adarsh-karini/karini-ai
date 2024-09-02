@@ -3,7 +3,6 @@ type: "blog"
 show: true
 title: "Industrialize Generative AI"
 SEO_title: "Karini AI on Industrializing Generative AI"
-subtitle: "Explore how Karini AI leads the way in industrializing generative AI, offering strategies and insights for seamless AI application integration."
 date: "2024-01-02"
 author: "Deepali Rajale"
 author_image: "/assets/images/team_members/deepali-rajale.png"

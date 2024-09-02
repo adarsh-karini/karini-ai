@@ -3,7 +3,6 @@ type: "announcement"
 show: true
 title: "Karini AI Announces Full Support for Amazon Bedrock Models"
 SEO_title: "Full Amazon Bedrock Model Support by Karini AI"
-subtitle: "Discover Karini AI's complete support for Amazon Bedrock Models, enhancing AI solutions with robust, scalable, and versatile AI model integration."
 date: "2023-12-01"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/Bedrock_Models_Support.png"

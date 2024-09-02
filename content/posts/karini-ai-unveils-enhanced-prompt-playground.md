@@ -3,7 +3,6 @@ type: "announcement"
 show: true
 title: "Karini AI unveils enhanced Prompt PlayGround, inviting Industry Experts to engage in Gen AI development"
 SEO_title: "Karini AI's Enhanced Prompt Playground Unveiled"
-subtitle: "Explore Karini AI's Enhanced Prompt Playground. A breakthrough in AI development, offering intuitive prompt creation and model testing for experts."
 date: "2024-01-22"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/Karini_Evolves_Prompting_Experience.png"

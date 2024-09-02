@@ -3,7 +3,6 @@ type: "blog"
 show: true
 title: "Unleashing the Potential of Unified Data: The Gen AI Evolution in Business Intelligence"
 SEO_title: "Unified Data & Gen AI: Unleashing Potential | Karini AI"
-subtitle: "Explore how Karini AI leverages unified data through Generative AI to drive business intelligence and innovation. Unlock new insights and efficiencies."
 date: "2024-02-02"
 author: "Jerome Mendell"
 author_image: "/assets/images/team_members/jerome-mendell.png"

@@ -3,7 +3,6 @@ type: "blog"
 show: true
 title: "Navigating GenAIOps in Enterprises: Challenges and Best Practices - Version 1.0"
 SEO_title: "GenAIOps in Enterprises: Navigating Challenges"
-subtitle: "Karini AI guides enterprises through GenAIOps, from adoption to execution. Discover best practices for integrating Generative AI into your business."
 date: "2024-01-31"
 author: "Deepali Rajale"
 author_image: "/assets/images/team_members/deepali-rajale.png"

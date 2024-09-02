@@ -3,7 +3,6 @@ type: "blog"
 show: true
 title: "Generative AI Strategies for enterprises"
 SEO_title: "Mastering Gen AI: Enterprise Guide by Karini AI"
-subtitle: "Unlock the full potential of Generative AI in your enterprise with Karini AI's expert guide. Dive into strategic insights for effective Gen AI integration."
 date: "2024-01-04"
 author: "Jerome Mendell"
 author_image: "/assets/images/team_members/jerome-mendell.png"

@@ -3,7 +3,6 @@ type: "announcement"
 show: true
 title: "Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor"
 SEO_title: "Karini AI Partners with AWS | Official ISV Announcement"
-subtitle: "Discover Karini AI's new chapter as an Independent Software Vendor (ISV) with Amazon Web Services. A milestone in AI innovation and cloud computing synergy."
 date: "2023-10-16"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
