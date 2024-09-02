@@ -9,7 +9,7 @@ export const ourCloudPartners = [
 		image: "/assets/images/partners/microsoft_azure_logo.png",
 		description:
 			"Microsoft - Azure - Karini leverages Azure's power to provide a seamless GenAI development experience. Karini.ai integrates with various Azure services, such as Azure Blob Storage for scalable data management, Azure Machine Learning for model training and deployment, and Azure OpenAI Services for pre-built Gen AI functionalities. This integration allows you to harness the combined strengths of Karini.ai's GenAIOps platform and Azure's robust cloud infrastructure, ensuring a streamlined workflow and optimal performance for your GenAI projects on Microsoft Azure.",
-		link: "https://azure.microsoft.com/en-us/ ",
+		link: "https://azure.microsoft.com/en-us/",
 	},
 ];
 

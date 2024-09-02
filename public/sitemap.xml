@@ -129,6 +129,15 @@
 	</image:image>
 </url>
 <url>
+	<loc>https://www.karini.ai/blogs/compound_ai_in_databricks</loc>
+	<lastmod>2024-09-04</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/databricks-blog.png</image:loc>
+	</image:image>
+</url>
+<url>
 	<loc>https://www.karini.ai/blogs/elevate_your_rag_applications</loc>
 	<lastmod>2024-08-30</lastmod>
 	<changefreq>monthly</changefreq>
@@ -300,18 +309,6 @@
 	</image:image>
 	<image:image>
 		<image:loc>https://www.karini.ai/assets/images/blogs/GenAIOps_best_practices.png</image:loc>
-	</image:image>
-</url>
-<url>
-	<loc>https://www.karini.ai/blogs/batch-execution-pipelines</loc>
-	<lastmod>2024-09-04</lastmod>
-	<changefreq>monthly</changefreq>
-	<priority>0.8</priority>
-	<image:image>
-		<image:loc>https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png</image:loc>
-	</image:image>
-	<image:image>
-		<image:loc>https://www.karini.ai/assets/images/blogs/Batch_recipe.png</image:loc>
 	</image:image>
 </url>
 <url>

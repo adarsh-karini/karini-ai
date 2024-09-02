@@ -113,6 +113,8 @@ module.exports = {
 				platform_img: "url('/assets/images/platform/platform_img.jpg')",
 				gen_img: "url('/assets/images/services/gen_services_img.jpg')",
 				ml_img: "url('/assets/images/services/ml_services_img.jpg')",
+				databricks_img:
+					"url('/assets/images/partners/Databricks-Together-is-Better.png')",
 			},
 			colors: {
 				dark: "#111827", //dark purple
