@@ -18,7 +18,7 @@ const SectionThree = () => {
 					</div>
 				</div>
 			</section>
-			<div className="z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
+			<div className="z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 px-4 lg:px-0">
 				{sectionThree.map((data, index) => {
 					return (
 						<div

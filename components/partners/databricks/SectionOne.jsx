@@ -1,5 +1,11 @@
 import { sectionOne } from "@/content/partner/databricks/sectionOne";
 import React from "react";
+import IconOne from "@/svgs/home/IconOne";
+import IconTwo from "@/svgs/home/IconTwo";
+import IconThree from "@/svgs/home/IconThree";
+import IconFour from "@/svgs/home/IconFour";
+import IconFive from "@/svgs/home/IconFive";
+import IconSix from "@/svgs/home/IconSix";
 
 const SectionOne = () => {
 	return (
@@ -20,8 +26,8 @@ const SectionOne = () => {
 					</div>
 				</div>
 			</section>
-			<div className="z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
-				{sectionOne.map((data, index) => {
+			<div className="z-10 ">
+				{/* {sectionOne.map((data, index) => {
 					return (
 						<div
 							key={index}
@@ -30,7 +36,7 @@ const SectionOne = () => {
 							<div className="space-y-2">
 								<div className="flex space-x-4">
 									<h3 className="text-primary-600 font-semibold sm:text-base">
-										{data.title}
+										{data.sectionOne}
 									</h3>
 								</div>
 								<p className="text-secondary-600 text-sm leading-relaxed">
@@ -39,7 +45,44 @@ const SectionOne = () => {
 							</div>
 						</div>
 					);
-				})}
+				})} */}
+				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 lg:px-0">
+					{sectionOne.map((data, index) => (
+						<div
+							key={index}
+							className="bg-gradient-to-br from-gray-800 to-gray-950 space-y-4 shadow rounded-3xl p-6"
+						>
+							<div className="flex justify-center">
+								{index === 0 && (
+									<IconOne width={40} height={40} color={"#7c3aed"} />
+								)}
+								{index === 1 && (
+									<IconTwo width={40} height={40} color={"#7c3aed"} />
+								)}
+								{index === 2 && (
+									<IconThree width={40} height={40} color={"#7c3aed"} />
+								)}
+								{index === 3 && (
+									<IconFour width={40} height={40} color={"#7c3aed"} />
+								)}
+								{index === 4 && (
+									<IconFive width={40} height={40} color={"#7c3aed"} />
+								)}
+								{index === 5 && (
+									<IconSix width={40} height={40} color={"#7c3aed"} />
+								)}
+							</div>
+							<div className="">
+								<h3 className="text-white text-center text-base md:text-lg font-medium">
+									{data.title}
+								</h3>
+								<p className="text-secondary-400 text-center text-sm leading-relaxed">
+									{data.overview}
+								</p>
+							</div>
+						</div>
+					))}
+				</div>
 			</div>
 		</div>
 	);

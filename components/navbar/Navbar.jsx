@@ -92,59 +92,79 @@ const Navbar2 = () => {
 							{partnersDropdown && (
 								<div
 									onMouseLeave={() => setPartnersDropdown(false)}
-									className="z-20 border absolute top-10 bg-white drop-shadow-md p-2 rounded space-y-3"
+									className="min-w-[200px] z-20 border absolute top-10 bg-white drop-shadow-md p-2 rounded space-y-3"
 								>
-									<Link
-										href={
-											"https://partners.amazonaws.com/partners/0018W00002RupsKQAR/Karini%20AI#solutions--tech-product"
-										}
-										target="_blank"
-										onClick={() => setPartnersDropdown(false)}
-										className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
-									>
-										<FaAws size={25} className="p-1" color={"#FF9900"} />
-										<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
-											AWS
-										</h3>
-									</Link>
-									<Link
-										href={"https://azure.microsoft.com/en-us/"}
-										target="_blank"
-										onClick={() => setPartnersDropdown(false)}
-										className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
-									>
-										<VscAzure size={25} className="p-1" color={"#069AF3"} />
-										<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
-											Microsoft Azure
-										</h3>
-									</Link>
-									<Link
-										href={"/partners/databricks"}
-										onClick={() => setPartnersDropdown(false)}
-										className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
-									>
-										<SiDatabricks size={25} className="p-1" color={"#FF3621"} />
-										<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
-											Databricks
-										</h3>
-									</Link>
-									<Link
-										href={"https://dtg.com/"}
-										target="_blank"
-										onClick={() => setPartnersDropdown(false)}
-										className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
-									>
-										<Image
-											src={"/assets/images/partners/dtg_icon.png"}
-											alt="dtg_icon"
-											height={25}
-											width={25}
-											className="p-1"
-										/>
-										<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
-											DTG
-										</h3>
-									</Link>
+									<div className="space-y-2">
+										<p className="py-1 text-sm text-primary-600 border-b">
+											Cloud Partners
+										</p>
+										<div className="">
+											<Link
+												href={"/partners#aws"}
+												onClick={() => setPartnersDropdown(false)}
+												className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
+											>
+												<FaAws size={25} className="p-1" color={"#FF9900"} />
+												<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
+													AWS
+												</h3>
+											</Link>
+											<Link
+												href={"/partners#microsoft"}
+												onClick={() => setPartnersDropdown(false)}
+												className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
+											>
+												<VscAzure size={25} className="p-1" color={"#069AF3"} />
+												<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
+													Microsoft Azure
+												</h3>
+											</Link>
+										</div>
+									</div>
+									<div className="space-y-2">
+										<p className="py-1 text-sm text-primary-600 border-b">
+											Technology Partners
+										</p>
+										<div>
+											<Link
+												href={"/partners/databricks"}
+												onClick={() => setPartnersDropdown(false)}
+												className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
+											>
+												<SiDatabricks
+													size={25}
+													className="p-1"
+													color={"#FF3621"}
+												/>
+												<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
+													Databricks
+												</h3>
+											</Link>
+										</div>
+									</div>
+									<div className="space-y-2">
+										<p className="py-1 text-sm text-primary-600 border-b">
+											Our Resellers
+										</p>
+										<div>
+											<Link
+												href={"/partners#dtg"}
+												onClick={() => setPartnersDropdown(false)}
+												className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
+											>
+												<Image
+													src={"/assets/images/partners/dtg_icon.png"}
+													alt="dtg_icon"
+													height={25}
+													width={25}
+													className="p-1"
+												/>
+												<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
+													DTG
+												</h3>
+											</Link>
+										</div>
+									</div>
 								</div>
 							)}
 						</div>
@@ -154,9 +174,7 @@ const Navbar2 = () => {
 						{/* <Link href={"/pricing"}>Pricing</Link> */}
 						<Link href={"/aboutus"}>About us</Link>
 						{/* <Link href={"/careers"}>Careers</Link> */}
-						<Link href={"https://docs.karini.ai/"} target="_blank">
-							Docs
-						</Link>
+						<Link href={"https://docs.karini.ai/"}>Docs</Link>
 					</div>
 					<div className="flex space-x-2">
 						{/* <Link
@@ -173,7 +191,6 @@ const Navbar2 = () => {
 						</Link>
 						<Link
 							href={"https://app.karini.ai/signin"}
-							target="_blank"
 							className="hidden lg:block bg-primary-600 border border-primary-600 px-4 py-1 text-center text-sm font-semibold text-white hover:text-primary-600 transition duration-100 hover:bg-white rounded"
 						>
 							Log in
@@ -288,64 +305,80 @@ const Navbar2 = () => {
 										</summary>
 
 										<ul className="space-y-3 px-4 py-4">
-											<Link
-												onClick={() => setMobileMenu((prev) => !prev)}
-												href={
-													"https://partners.amazonaws.com/partners/0018W00002RupsKQAR/Karini%20AI#solutions--tech-product"
-												}
-												target="_blank"
-												className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
-											>
-												<FaAws
-													size={20}
-													// className="text-secondary-600"
-													color={"#FF9900"}
-												/>
-												<span className="text-sm"> AWS</span>
-											</Link>
+											<div className="space-y-2">
+												<p className="py-1 text-sm text-primary-600 border-b">
+													Cloud Partners
+												</p>
+												<div className="space-y-2 py-1">
+													<Link
+														onClick={() => setMobileMenu((prev) => !prev)}
+														href={"/partners#aws"}
+														className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+													>
+														<FaAws
+															size={20}
+															// className="text-secondary-600"
+															color={"#FF9900"}
+														/>
+														<span className="text-sm"> AWS</span>
+													</Link>
 
-											<Link
-												onClick={() => setMobileMenu((prev) => !prev)}
-												href={"https://azure.microsoft.com/en-us/"}
-												target="_blank"
-												className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
-											>
-												<VscAzure
-													size={20}
-													// className="text-secondary-600"
-													color={"#069AF3"}
-												/>
-												<span className="text-sm"> Microsoft Azure</span>
-											</Link>
+													<Link
+														onClick={() => setMobileMenu((prev) => !prev)}
+														href={"/partners#microsoft"}
+														className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+													>
+														<VscAzure
+															size={20}
+															// className="text-secondary-600"
+															color={"#069AF3"}
+														/>
+														<span className="text-sm"> Microsoft Azure</span>
+													</Link>
+												</div>
+											</div>
 
-											<Link
-												onClick={() => setMobileMenu((prev) => !prev)}
-												href={"/partners/databricks"}
-												className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
-											>
-												<SiDatabricks
-													size={20}
-													// className="text-secondary-600"
-													color={"#FF3621"}
-												/>
-												<span className="text-sm"> Databricks</span>
-											</Link>
+											<div className="space-y-2">
+												<p className="py-1 text-sm text-primary-600 border-b">
+													Technology Partners
+												</p>
+												<div className="space-y-2 py-1">
+													<Link
+														onClick={() => setMobileMenu((prev) => !prev)}
+														href={"/partners/databricks"}
+														className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+													>
+														<SiDatabricks
+															size={20}
+															// className="text-secondary-600"
+															color={"#FF3621"}
+														/>
+														<span className="text-sm"> Databricks</span>
+													</Link>
+												</div>
+											</div>
 
-											<Link
-												onClick={() => setMobileMenu((prev) => !prev)}
-												href={"https://dtg.com/"}
-												target="_blank"
-												className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
-											>
-												<Image
-													src={"/assets/images/partners/dtg_icon.png"}
-													alt="dtg_icon"
-													height={22}
-													width={22}
-													className="text-secondary-600"
-												/>
-												<span className="text-sm"> DTG</span>
-											</Link>
+											<div className="space-y-2">
+												<p className="py-1 text-sm text-primary-600 border-b">
+													Our Resellers
+												</p>
+												<div className="space-y-2 py-1">
+													<Link
+														onClick={() => setMobileMenu((prev) => !prev)}
+														href={"/partners#dtg"}
+														className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+													>
+														<Image
+															src={"/assets/images/partners/dtg_icon.png"}
+															alt="dtg_icon"
+															height={22}
+															width={22}
+															className="text-secondary-600"
+														/>
+														<span className="text-sm"> DTG</span>
+													</Link>
+												</div>
+											</div>
 										</ul>
 									</details>
 
@@ -412,7 +445,6 @@ const Navbar2 = () => {
 									<Link
 										onClick={() => setMobileMenu((prev) => !prev)}
 										href={"https://docs.karini.ai/"}
-										target="_blank"
 										className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 									>
 										<BsInfoCircleFill

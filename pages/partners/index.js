@@ -7,8 +7,8 @@ import WhoWeAre from "@/components/aboutus/WhoWeAre";
 import { Inter, Poppins } from "next/font/google";
 import Head from "next/head";
 import ProjectSection from "@/components/aboutus/ProjectSection";
-import Hero from "@/components/partner/Hero";
-import OurPartners from "@/components/partner/OurPartners";
+import Hero from "@/components/partners/Hero";
+import OurPartners from "@/components/partners/OurPartners";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({

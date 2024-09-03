@@ -37,7 +37,7 @@ const OurPartners = () => {
 				</div>
 			</div>
 			<div className="bg-white px-4 base:px-0 py-20 overflow-hidden max-w-screen-lg mx-auto space-y-10 md:space-y-20">
-				<div className="space-y-6">
+				<div id="our_cloud_partners" className="space-y-6">
 					<div className="flex items-center space-x-2 pb-2 border-b">
 						<BsCloudFog2 size={30} className="text-primary-500" />
 						<p className="text-black font-medium text-lg sm:text-xl text-left">
@@ -48,6 +48,7 @@ const OurPartners = () => {
 						{ourCloudPartners.map((data, index) => (
 							<div
 								key={index}
+								id={data.id}
 								className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 shadow p-6"
 							>
 								<div className="relative md:w-1/3 flex justify-center items-center">
@@ -78,7 +79,7 @@ const OurPartners = () => {
 						))}
 					</div>
 				</div>
-				<div className="space-y-6">
+				<div id="our_technology_partners" className="space-y-6">
 					<div className="flex items-center space-x-2 pb-2 border-b">
 						<RiOrganizationChart size={30} className="text-primary-500" />
 						<p className="text-black font-medium text-lg sm:text-xl text-left">
@@ -89,6 +90,7 @@ const OurPartners = () => {
 						{ourTechnologyPartners.map((data, index) => (
 							<div
 								key={index}
+								id={data.id}
 								className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 shadow p-6"
 							>
 								<div className="relative md:w-1/3 flex justify-center items-center">
@@ -119,7 +121,7 @@ const OurPartners = () => {
 						))}
 					</div>
 				</div>
-				<div className="space-y-6">
+				<div id="our_resellers" className="space-y-6">
 					<div className="flex items-center space-x-2 pb-2 border-b">
 						<MdSettingsSystemDaydream size={30} className="text-primary-500" />
 						<p className="text-black font-medium text-lg sm:text-xl text-left">
@@ -130,6 +132,7 @@ const OurPartners = () => {
 						{ourResellers.map((data, index) => (
 							<div
 								key={index}
+								id={data.id}
 								className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 shadow p-6"
 							>
 								<div className="relative md:w-1/3 flex justify-center items-center">
@@ -161,7 +164,10 @@ const OurPartners = () => {
 					</div>
 				</div>
 			</div>
-			<div className="bg-primary-50 px-4 base:px-0 py-20 overflow-hidden space-y-10 md:space-y-16 sapce-y-2">
+			<div
+				id="#become_partner"
+				className="bg-primary-50 px-4 base:px-0 py-20 overflow-hidden space-y-10 md:space-y-16"
+			>
 				<div className="max-w-screen-lg mx-auto space-y-4">
 					<h3 className="text-black font-medium text-base sm:text-xl text-left">
 						Are you interested in becoming a partner?

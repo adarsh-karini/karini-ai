@@ -6,13 +6,16 @@ import "@/styles/globals.css";
 
 export default function App({ Component, pageProps }) {
 	return (
-		<>
-			<Navbar />
-			<div className="bg-black py-[35px]"></div>
+		<div className="h-[100vh] flex flex-col">
+			<div className="h-[76px]">
+				<Navbar />
+			</div>
 			<BrevoScript />
-			<Component {...pageProps} />
-			<CTA />
-			<Footer />
-		</>
+			<div className="flex-1 overflow-y-auto">
+				<Component {...pageProps} />
+				<CTA />
+				<Footer />
+			</div>
+		</div>
 	);
 }
