@@ -7,7 +7,7 @@ import "@/styles/globals.css";
 export default function App({ Component, pageProps }) {
 	return (
 		<div className="h-[100vh] flex flex-col">
-			<div className="h-[76px]">
+			<div className="h-[70px]">
 				<Navbar />
 			</div>
 			<BrevoScript />

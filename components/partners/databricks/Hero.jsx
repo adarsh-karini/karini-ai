@@ -2,7 +2,10 @@ import React from "react";
 
 const Hero = () => {
 	return (
-		<header className="relative bg-databricks_img bg-cover">
+		<header
+			className="relative bg-databricks_img bg-cover"
+			style={{ backgroundPosition: "center top -350px" }}
+		>
 			<div className="h-full w-full opacity-70 absolute bg-black"></div>
 			<div className="mx-auto max-w-screen-2xl">
 				<section>
@@ -15,13 +18,15 @@ const Hero = () => {
 								<span className="text-primary-600"> </span>
 							</h1>
 							<p className="text-center text-secondary-100 text-sm sm:text-base">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-								eum quo eius illo ea! Dolorum, unde consequuntur cum tempora
-								expedita aperiam accusantium numquam alias, necessitatibus,
-								mollitia praesentium! Libero rem velit ducimus molestiae dolorum
-								deserunt magni temporibus optio ab voluptatibus est corporis
-								tempore deleniti a, harum cupiditate unde vero. Adipisci,
-								minima?
+								Redefining the future of data and AI solutions. The strategic
+								collaboration between Karini’s GenAI Foundation and Databricks
+								Mosaic empowers businesses to integrate generative AI
+								capabilities seamlessly —supporting the delivery of a GenAI
+								portfolio strategy. Affording organizations a tailored journey
+								to their unique goals—defending current market positions,
+								extending existing processes, and upending industries with
+								groundbreaking innovations. Together, Databricks and Karini AI
+								are evolving the future of AI.
 							</p>
 						</div>
 					</div>

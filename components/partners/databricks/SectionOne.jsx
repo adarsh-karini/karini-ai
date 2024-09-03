@@ -6,6 +6,11 @@ import IconThree from "@/svgs/home/IconThree";
 import IconFour from "@/svgs/home/IconFour";
 import IconFive from "@/svgs/home/IconFive";
 import IconSix from "@/svgs/home/IconSix";
+import RaceCarIcon from "@/svgs/partners/RaceCarIcon";
+import CreditCardIcon from "@/svgs/partners/CreditCardIcon";
+import CrystalBallIcon from "@/svgs/partners/CrystalBallIcon";
+import CloudIcon from "@/svgs/partners/CloudIcon";
+import EnterpriseIcon from "@/svgs/partners/EnterpriseIcon";
 
 const SectionOne = () => {
 	return (
@@ -46,30 +51,27 @@ const SectionOne = () => {
 						</div>
 					);
 				})} */}
-				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 lg:px-0">
+				<div className="flex justify-center flex-wrap gap-6 px-4 lg:px-0">
 					{sectionOne.map((data, index) => (
 						<div
 							key={index}
-							className="bg-gradient-to-br from-gray-800 to-gray-950 space-y-4 shadow rounded-3xl p-6"
+							className="md:w-[280px] lg:w-[320px] bg-gradient-to-br from-gray-800 to-gray-950 space-y-4 shadow rounded-3xl p-6"
 						>
 							<div className="flex justify-center">
 								{index === 0 && (
-									<IconOne width={40} height={40} color={"#7c3aed"} />
+									<RaceCarIcon width={50} height={50} color={"#7c3aed"} />
 								)}
 								{index === 1 && (
-									<IconTwo width={40} height={40} color={"#7c3aed"} />
+									<CreditCardIcon width={50} height={50} color={"#7c3aed"} />
 								)}
 								{index === 2 && (
-									<IconThree width={40} height={40} color={"#7c3aed"} />
+									<CrystalBallIcon width={50} height={50} color={"#7c3aed"} />
 								)}
 								{index === 3 && (
-									<IconFour width={40} height={40} color={"#7c3aed"} />
+									<CloudIcon width={50} height={50} color={"#7c3aed"} />
 								)}
 								{index === 4 && (
-									<IconFive width={40} height={40} color={"#7c3aed"} />
-								)}
-								{index === 5 && (
-									<IconSix width={40} height={40} color={"#7c3aed"} />
+									<EnterpriseIcon width={50} height={50} color={"#7c3aed"} />
 								)}
 							</div>
 							<div className="">

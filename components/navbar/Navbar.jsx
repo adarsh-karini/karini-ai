@@ -92,7 +92,7 @@ const Navbar2 = () => {
 							{partnersDropdown && (
 								<div
 									onMouseLeave={() => setPartnersDropdown(false)}
-									className="min-w-[200px] z-20 border absolute top-10 bg-white drop-shadow-md p-2 rounded space-y-3"
+									className="min-w-[250px] z-20 border absolute top-10 bg-white drop-shadow-md p-2 rounded space-y-3"
 								>
 									<div className="space-y-2">
 										<p className="py-1 text-sm text-primary-600 border-b">
@@ -104,7 +104,13 @@ const Navbar2 = () => {
 												onClick={() => setPartnersDropdown(false)}
 												className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
 											>
-												<FaAws size={25} className="p-1" color={"#FF9900"} />
+												<Image
+													src={"/assets/images/partners/aws_icon.jpeg"}
+													alt="aws_icon"
+													height={25}
+													width={25}
+													className="text-secondary-600"
+												/>
 												<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
 													AWS
 												</h3>
@@ -114,7 +120,13 @@ const Navbar2 = () => {
 												onClick={() => setPartnersDropdown(false)}
 												className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
 											>
-												<VscAzure size={25} className="p-1" color={"#069AF3"} />
+												<Image
+													src={"/assets/images/partners/azure_icon.jpeg"}
+													alt="azure_icon"
+													height={25}
+													width={25}
+													className="text-secondary-600"
+												/>
 												<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
 													Microsoft Azure
 												</h3>
@@ -165,6 +177,15 @@ const Navbar2 = () => {
 											</Link>
 										</div>
 									</div>
+									<Link
+										href={"/partners#become-a-partner"}
+										onClick={() => setPartnersDropdown(false)}
+										className="border-t flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-2 rounded"
+									>
+										<h3 className="italic cursor-pointer text-sm text-black group-hover:text-white whitespace-nowrap">
+											Become a Partner
+										</h3>
+									</Link>
 								</div>
 							)}
 						</div>
@@ -315,10 +336,12 @@ const Navbar2 = () => {
 														href={"/partners#aws"}
 														className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 													>
-														<FaAws
-															size={20}
-															// className="text-secondary-600"
-															color={"#FF9900"}
+														<Image
+															src={"/assets/images/partners/aws_icon.jpeg"}
+															alt="aws_icon"
+															height={22}
+															width={22}
+															className="text-secondary-600"
 														/>
 														<span className="text-sm"> AWS</span>
 													</Link>
@@ -328,10 +351,12 @@ const Navbar2 = () => {
 														href={"/partners#microsoft"}
 														className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 													>
-														<VscAzure
-															size={20}
-															// className="text-secondary-600"
-															color={"#069AF3"}
+														<Image
+															src={"/assets/images/partners/azure_icon.jpeg"}
+															alt="azure_icon"
+															height={22}
+															width={22}
+															className="text-secondary-600"
 														/>
 														<span className="text-sm"> Microsoft Azure</span>
 													</Link>
@@ -357,7 +382,6 @@ const Navbar2 = () => {
 													</Link>
 												</div>
 											</div>
-
 											<div className="space-y-2">
 												<p className="py-1 text-sm text-primary-600 border-b">
 													Our Resellers
@@ -379,6 +403,13 @@ const Navbar2 = () => {
 													</Link>
 												</div>
 											</div>
+											<Link
+												onClick={() => setMobileMenu((prev) => !prev)}
+												href={"/partners#become-a-partner"}
+												className="border-t pt-2 flex items-center space-x-2 rounded-lg text-sm italic text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+											>
+												<span className="text-sm"> Become a Partner</span>
+											</Link>
 										</ul>
 									</details>
 

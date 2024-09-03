@@ -1,13 +1,8 @@
 import React from "react";
 
 const Hero = () => {
-	const imagePaths = [
-		"/assets/images/aboutus/about_img1.jpg",
-		"/assets/images/aboutus/about_img2.jpg",
-		"/assets/images/aboutus/about_img3.jpg",
-	];
 	return (
-		<header className="relative z-10 bg-about_img bg-cover">
+		<header className="relative z-10 bg-partners_img bg-cover">
 			<div className="h-full w-full opacity-60 absolute bg-black"></div>
 
 			<div className="mx-auto max-w-screen-2xl">
