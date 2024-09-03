@@ -19,7 +19,7 @@ SEO_data:
     og:type: "article"
     og:title: "Enhance Gen AI Performance with Managed Semantic Cache"
     og:description: "Boost AI app performance with Karini AI's Managed Semantic Cache. Reduce latency, cut costs, and enhance user experience. Learn more about our advanced caching solutions."
-    og:url: "https://www.karini.ai/blogs/managed-semantic-cache"
+    og:url: "https://www.karini.ai/announcements/managed-semantic-cache"
     og:site_name: "Karini AI"
     article:published_time: "2024-07-28"
     og:updated_time: "2024-07-28"
@@ -31,17 +31,17 @@ SEO_data:
     twitter:card: "summary_large_image"
     twitter:description: "Boost AI app performance with Karini AI's Managed Semantic Cache. Reduce latency, cut costs, and enhance user experience. Learn more about our advanced caching solutions."
     twitter:title: "Enhance Gen AI Performance with Managed Semantic Cache"
-    twitter:site: "https://www.karini.ai/blogs/managed-semantic-cache"
+    twitter:site: "https://www.karini.ai/announcements/managed-semantic-cache"
     twitter:image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBoost-Your-Gen-AI-Performance.png&w=640&q=75"
     twitter:creator: "Karini AI"
-  canonicalLink: "https://www.karini.ai/blogs/managed-semantic-cache"
-  hreflang: "https://www.karini.ai/blogs/managed-semantic-cache"
+  canonicalLink: "https://www.karini.ai/announcements/managed-semantic-cache"
+  hreflang: "https://www.karini.ai/announcements/managed-semantic-cache"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "NewsArticle"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/blogs/managed-semantic-cache"
+      "@id": "https://www.karini.ai/announcements/managed-semantic-cache"
     headline: "Enhance Gen AI Performance with Managed Semantic Cache"
     description: "Boost AI app performance with Karini AI's Managed Semantic Cache. Reduce latency, cut costs, and enhance user experience. Learn more about our advanced caching solutions."
     image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FBoost-Your-Gen-AI-Performance.png&w=640&q=75"
@@ -61,12 +61,12 @@ related_posts:
   - "karini-ai-unveils-enhanced-prompt-playground"
   - "generative-bi-system"
 sitemap:
-  loc: "https://www.karini.ai/blogs/managed-semantic-cache"
+  loc: "https://www.karini.ai/announcements/managed-semantic-cache"
   lastmod: "2024-07-28"
   changefreq: "monthly"
   priority: "0.8"
 news_sitemap:
-  loc: "https://www.karini.ai/blogs/managed-semantic-cache"
+  loc: "https://www.karini.ai/announcements/managed-semantic-cache"
   news:
     publication:
       name: "Announcement six"

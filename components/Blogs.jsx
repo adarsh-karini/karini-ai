@@ -22,8 +22,6 @@ const Blogs = ({ postMetadata }) => {
 		setCurrentPage(pageNumber);
 	};
 
-	console.log("blogsArray123", blogsArray);
-
 	useEffect(() => {
 		let posts = postMetadata.filter((post) => post.show);
 
@@ -121,7 +119,7 @@ const Blogs = ({ postMetadata }) => {
 							)}
 							{blogsArray.length > 0 &&
 								blogsArray.map((blog, index) => (
-									<Link key={index} href={`/blogs/${blog.slug}`}>
+									<Link key={index} href={`/${blog.type}s/${blog.slug}`}>
 										<article className="h-full bg-white rounded-md border shadow p-4">
 											<div className="flex space-x-4 space-y-0">
 												<div className="flex items-center w-28">
@@ -191,7 +189,7 @@ const Blogs = ({ postMetadata }) => {
 							)}
 							{blogsArray.length > 0 &&
 								blogsArray.map((blog, index) => (
-									<Link key={index} href={`/blogs/${blog.slug}`}>
+									<Link key={index} href={`/${blog.type}s/${blog.slug}`}>
 										<div className="h-full bg-white flex flex-col border border-secondary-300 rounded shadow p-4 space-y-4 hover:scale-105 transition">
 											<div className="h-[300px] w-full">
 												<Image

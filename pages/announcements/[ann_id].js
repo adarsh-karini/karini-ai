@@ -20,7 +20,7 @@ const poppins = Poppins({
 	subsets: ["devanagari"],
 });
 
-const PostPage = ({ blog_id, post }) => {
+const PostPage = ({ ann_id, post }) => {
 	return (
 		<>
 			<Head>
@@ -260,7 +260,7 @@ export async function getStaticPaths() {
 	const paths = filenames
 		.filter((filename) => filename.endsWith(".md")) // Ensure only markdown files are processed
 		.map((filename) => ({
-			params: { blog_id: filename.replace(".md", "") }, // Strip the extension to get the ID
+			params: { ann_id: filename.replace(".md", "") }, // Strip the extension to get the ID
 		}));
 
 	return { paths, fallback: false }; // Use 'blocking' if you want SSR for not pre-rendered paths
@@ -268,7 +268,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
 	const folder = "./content/posts";
-	const file = `${folder}/${params.blog_id}.md`;
+	const file = `${folder}/${params.ann_id}.md`;
 	let post = {
 		content: "Post not found.",
 		data: {},
@@ -312,7 +312,7 @@ export async function getStaticProps({ params }) {
 
 	return {
 		props: {
-			blog_id: params.blog_id,
+			ann_id: params.ann_id,
 			post: post,
 			related_post_data: relatedPostsData,
 		},

@@ -30,7 +30,6 @@ const Apply = ({ jobTitle }) => {
 
 			const res = await axios.post(apiEndpoint, jobData);
 
-			// console.log("Response Data:", res);
 			setShow("success");
 		} catch (error) {
 			setShow("failed");

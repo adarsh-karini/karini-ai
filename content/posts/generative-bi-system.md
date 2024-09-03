@@ -20,7 +20,7 @@ SEO_data:
       type: "article"
       title: "Generative BI System: Transform Your Data Analytics"
       description: "Unlock powerful data insights with Karini AI's new Generative BI system. Enhance your analytics capabilities now."
-      url: "https://www.karini.ai/blogs/generative-bi-system"
+      url: "https://www.karini.ai/announcements/generative-bi-system"
       site_name: "Karini AI Batch Execution"
       updated_time: "2024-06-24"
       image:
@@ -35,17 +35,17 @@ SEO_data:
       card: "summary"
       description: "Explore Karini AI's Generative BI system for dynamic insights directly from your databases and data warehouses. Enhance decision-making today."
       title: "Generative BI System: Transform Your Data Analytics"
-      site: "https://www.karini.ai/blogs/generative-bi-system"
+      site: "https://www.karini.ai/announcements/generative-bi-system"
       image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FEffortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75"
       creator: "Introducing the First Purpose-Built Generative BI System: Natural Language Interaction with Your Analytics Databases and Data Warehouses"
-  canonicalLink: "https://www.karini.ai/blogs/generative-bi-system"
-  hreflang: "https://www.karini.ai/blogs/generative-bi-system"
+  canonicalLink: "https://www.karini.ai/announcements/generative-bi-system"
+  hreflang: "https://www.karini.ai/announcements/generative-bi-system"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "NewsArticle"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/blogs/generative-bi-system"
+      "@id": "https://www.karini.ai/announcements/generative-bi-system"
     headline: "Introducing the First Purpose-Built Generative BI System"
     image: "https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png"
     author:
@@ -63,7 +63,7 @@ related_posts:
   - "industrialize-generative-ai"
   - "karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
 sitemap:
-  loc: "https://www.karini.ai/blogs/generative-bi-system"
+  loc: "https://www.karini.ai/announcements/generative-bi-system"
   lastmod: "2024-04-15"
   changefreq: "monthly"
   priority: "0.9"

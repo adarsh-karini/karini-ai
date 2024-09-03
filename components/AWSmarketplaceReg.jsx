@@ -17,10 +17,6 @@ const AWSmarketplaceReg = () => {
 	const [alert, setAlert] = useState(null);
 	const [regToken, setRegToken] = useState("");
 
-	console.log("regToken:", regToken);
-
-	console.log("formData:", formData);
-
 	const getUrlParameter = (name) => {
 		name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
 		const regex = new RegExp(`[\\?&]${name}=([^&#]*)`);
@@ -54,10 +50,7 @@ const AWSmarketplaceReg = () => {
 	};
 
 	const handleSubmit = async (e) => {
-		console.log("hello from handleSubmit");
 		e.preventDefault();
-
-		console.log("regToken bb", regToken);
 
 		if (!regToken) {
 			setAlert(
@@ -109,8 +102,6 @@ const AWSmarketplaceReg = () => {
 			let aws_response = await axios.post(aws_endpoint, formData, {
 				headers: { "Content-Type": "application/json" },
 			});
-
-			console.log("AWS subscribe api Response Data:", aws_response);
 
 			setShow("success");
 		} catch (error) {

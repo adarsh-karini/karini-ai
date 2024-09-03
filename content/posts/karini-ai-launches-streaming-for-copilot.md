@@ -20,7 +20,7 @@ SEO_data:
       type: "article"
       title: "Karini AI Launches Copilot Streaming Feature"
       description: "Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications."
-      url: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+      url: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
       site_name: "Karini AI"
       updated_time: "2024-01-18"
       image:
@@ -35,17 +35,17 @@ SEO_data:
       card: "summary"
       description: "Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications."
       title: "Karini AI Launches Copilot Streaming Feature"
-      site: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+      site: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
       image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FStreaming-eye-catcher.png&w=640&q=75"
       creator: "Karini AI"
-  canonicalLink: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
-  hreflang: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+  canonicalLink: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
+  hreflang: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "NewsArticle"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+      "@id": "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
     headline: "Karini AI Launches Streaming for Copilot"
     description: "Karini AI Copilot"
     image: "https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png"
@@ -63,14 +63,14 @@ related_posts:
   - "enterprise-connectivity-integrating-google-azure-confluence-dropbox"
   - "karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
 sitemap:
-  loc: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+  loc: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
   lastmod: "2024-01-18"
   changefreq: "monthly"
   priority: "0.8"
   images:
     - loc: "https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png"
 news_sitemap:
-  loc: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+  loc: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
   news:
     publication:
       name: "Announcement two"

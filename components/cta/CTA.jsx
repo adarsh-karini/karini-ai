@@ -5,7 +5,6 @@ import { FiExternalLink } from "react-icons/fi";
 
 const CTA = () => {
 	const { pathname } = useRouter();
-	// console.log("pathname", pathname);
 	return (
 		<>
 			{pathname === "/services/genai" ||

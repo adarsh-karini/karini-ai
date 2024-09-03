@@ -19,7 +19,7 @@ SEO_data:
     og:type: "article"
     og:title: "Karini AI Available on AWS - Secure GenAI Solutions"
     og:description: "Launch your AI innovations with Karini AI on AWS Marketplace. Secure, scalable, and user-friendly!"
-    og:url: "https://www.karini.ai/blogs/aws-marketplace"
+    og:url: "https://www.karini.ai/announcements/aws-marketplace"
     og:site_name: "Karini AI on AWS MarketPlace"
     article:published_time: "2024-07-01"
     og:updated_time: "2024-07-01"
@@ -31,17 +31,17 @@ SEO_data:
     twitter:card: "summary"
     twitter:description: "Unlock the power of GenAI with Karini AI on AWS Marketplace. Secure, scalable AI development is just a click away!"
     twitter:title: "Karini AI Launches on AWS Marketplace - Explore Now!"
-    twitter:site: "https://www.karini.ai/blogs/aws-marketplace"
+    twitter:site: "https://www.karini.ai/announcements/aws-marketplace"
     twitter:image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_now_on_AWS_Marketplace.png&w=640&q=75"
     twitter:creator: "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes"
-  canonicalLink: "https://www.karini.ai/blogs/aws-marketplace"
-  hreflang: "https://www.karini.ai/blogs/aws-marketplace"
+  canonicalLink: "https://www.karini.ai/announcements/aws-marketplace"
+  hreflang: "https://www.karini.ai/announcements/aws-marketplace"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "NewsArticle"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/blogs/aws-marketplace"
+      "@id": "https://www.karini.ai/announcements/aws-marketplace"
     headline: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes"
     image: "https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
     author:
@@ -59,14 +59,14 @@ related_posts:
   - "karini-ai-announces-full-support-for-amazon-bedrock-models"
   - "karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
 sitemap:
-  loc: "https://www.karini.ai/blogs/aws-marketplace"
+  loc: "https://www.karini.ai/announcements/aws-marketplace"
   lastmod: "2024-07-02"
   changefreq: "monthly"
   priority: "0.9"
   images:
     - loc: "https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
 news_sitemap:
-  loc: "https://www.karini.ai/blogs/aws-marketplace"
+  loc: "https://www.karini.ai/announcements/aws-marketplace"
   news:
     publication:
       name: "Announcement five"
