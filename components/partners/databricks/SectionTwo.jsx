@@ -1,5 +1,9 @@
 import { sectionOne } from "@/content/partner/databricks/sectionOne";
 import { sectionTwo } from "@/content/partner/databricks/sectionTwo";
+import DurationIcon from "@/svgs/partners/DurationIcon";
+import LockIcon from "@/svgs/partners/LockIcon";
+import NavigateIcon from "@/svgs/partners/NavigateIcon";
+import WatchStepIcon from "@/svgs/partners/WatchStepIcon";
 import IconOne from "@/svgs/services/IconOne";
 import IconThree from "@/svgs/services/IconThree";
 import IconTwo from "@/svgs/services/IconTwo";
@@ -13,7 +17,10 @@ const SectionTwo = () => {
 				<div className="relative flex flex-col items-center justify-center py-10">
 					<div className="absolute p-20 md:p-32 rounded-full left-0 md:left-1/4 top-0 bg-primary-100 blur-2xl"></div>
 					<div className="absolute p-20 md:p-32 rounded-full right-0 bottom-10 bg-primary-100 blur-2xl"></div>
-					<div className="z-10 space-y-3 px-4 max-w-screen-lf">
+					<div className="z-10 space-y-3 px-4 max-w-screen-lg">
+						<div className="flex justify-center">
+							<LockIcon width={50} height={50} color={"#7c3aed"} />
+						</div>
 						<h1 className="text-center text-base sm:text-lg md:text-2xl font-semibold text-black flex flex-col">
 							<span>
 								Enterprise challenges during experimenting and deploying
@@ -48,13 +55,13 @@ const SectionTwo = () => {
 							<div className="bg-gradient-to-r from-primary-50 to-white py-6 px-4 rounded-md flex items-center space-x-4">
 								<div>
 									{index === 0 && (
-										<IconOne width={40} height={40} color={"#7c3aed"} />
+										<NavigateIcon width={50} height={50} color={"#7c3aed"} />
 									)}
 									{index === 1 && (
-										<IconTwo width={40} height={40} color={"#7c3aed"} />
+										<WatchStepIcon width={50} height={50} color={"#7c3aed"} />
 									)}
 									{index === 2 && (
-										<IconThree width={40} height={40} color={"#7c3aed"} />
+										<DurationIcon width={50} height={50} color={"#7c3aed"} />
 									)}
 								</div>
 								<div className="flex-1 space-y-2">

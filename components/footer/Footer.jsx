@@ -143,7 +143,7 @@ const Footer = () => {
 										>
 											Georgia, USA
 										</Link> */}{" "}
-										Georgia, USA
+										Alpharetta, GA, US
 									</div>
 									<div className="text-black flex items-center space-x-1">
 										<BiSolidMapPin

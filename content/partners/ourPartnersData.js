@@ -27,18 +27,19 @@ export const ourTechnologyPartners = [
 
 export const ourResellers = [
 	{
-		id: "stitcloud",
-		image: "/assets/images/partners/dtg_logo.png",
-		description:
-			"ST IT Cloud is a data analytics and machine learning company that uses the most innovative technologies for data analysis, developing strategies and customized solutions for each business's unique needs.  ST IT Cloud also offers consulting services to help companies understand and optimize their data, ensuring an efficient and data-driven digital transformation.",
-		link: "https://dtg.com/",
-	},
-	{
 		id: "dtg",
-		image: "/assets/images/partners/Logo_stitcloud_data.png",
+		image: "/assets/images/partners/dtg_logo.png",
 		description:
 			"Distributed Technology Group (DTG), a leading IT innovator, is a VAR and SI partner. By partnering with Karini.ai, DTG gains access to our industry-leading GenAIOps platform, empowering them to deliver cutting-edge GenAI solutions. This collaboration aligns with DTG's commitment to transformation and our mission to make GenAI accessible. Together, we can help businesses unlock the true potential of generative AI, enhancing their competitive edge and driving growth. Distributed Technology Group (DTG) is a beacon of innovation in the IT sector.  DTG is committed to delivering transformative technology solutions through strategic partnerships and a deep understanding of industry challenges. Our dedication to excellence and strategic growth positions us as a trusted ally in navigating the ever-evolving technological landscape.",
 		link: "https://stitcloud.com/",
+	},
+	{
+		id: "stitcloud",
+
+		image: "/assets/images/partners/Logo_stitcloud_data.png",
+		description:
+			"ST IT Cloud is a data analytics and machine learning company that uses the most innovative technologies for data analysis, developing strategies and customized solutions for each business's unique needs.  ST IT Cloud also offers consulting services to help companies understand and optimize their data, ensuring an efficient and data-driven digital transformation.",
+		link: "https://dtg.com/",
 	},
 ];
 

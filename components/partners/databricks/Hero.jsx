@@ -5,7 +5,7 @@ const Hero = () => {
 	return (
 		<header
 			className="relative bg-databricks_img bg-cover"
-			style={{ backgroundPosition: "center top -350px" }}
+			style={{ backgroundPosition: "center top -200px" }}
 		>
 			<div className="h-full w-full opacity-70 absolute bg-black"></div>
 			<div className="mx-auto max-w-screen-2xl">
@@ -16,11 +16,11 @@ const Hero = () => {
 						<div className="z-10 space-y-3 px-4 max-w-screen-lg">
 							<div className="flex justify-center">
 								<Image
-									src={"/assets/images/partners/databricks.png"}
+									src={"/assets/images/partners/White_Karini_DB.png"}
 									alt="databricks"
 									width={400}
 									height={100}
-									className="bg-white p-4 rounded"
+									// className="bg-white p-4 rounded"
 								/>
 							</div>
 							<p className="text-center text-secondary-100 text-sm sm:text-base">
