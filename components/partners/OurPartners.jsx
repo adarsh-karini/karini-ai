@@ -24,15 +24,19 @@ const OurPartners = () => {
 			<div className="bg-primary-50 px-4 base:px-0 py-20 overflow-hidden">
 				<div className="max-w-screen-lg mx-auto space-y-2">
 					<h3 className="text-primary-600 font-medium text-base sm:text-xl text-center">
-						Why Partner with the Leaders in GenAI?
+					Karini&apos;s GenAI Foundation: The Key to Empowering Strategic AI Initiatives
 					</h3>
 					<p className="text-secondary-700 text-base text-center leading-6">
-						Our partners are not just clients, they&apos;re collaborators. They
-						bring a wealth of experience and expertise to the table, allowing
-						them to tailor GenAI solutions that hit the bullseye. This
-						collaborative approach ensures businesses get the most out of
-						Karini.ai&apos;s GenAIOps platform, maximizing GenAI&apos;s impact
-						on their operations.
+					We&apos;re transforming how businesses harness the power of GenAI through our unique GenAI Foundation. With its unique features tailored for organizations adopting a portfolio approach to their AI initiatives, this robust platform allows them to align their solutions with their strategic goals. By collaborating with a network of industry-leading partners, we significantly enhance our customers&apos; time-to-value (TTV) and return on investment (ROI).
+					</p>
+				</div>
+				<br/>
+				<div className="max-w-screen-lg mx-auto space-y-2">
+					<h3 className="text-primary-600 font-medium text-base sm:text-xl text-center">
+					Why Partner with the Leaders in GenAI?
+					</h3>
+					<p className="text-secondary-700 text-base text-center leading-6">
+					We&apos;re not just partners; we&apos;re collaborators. Together, we deliver a wealth of experience and expertise from the most savvy GenAI professionals, allowing our customers to benefit from tailored solutions that hit the bullseye. This collaborative approach ensures businesses get the most out of Karini&apos;s GenAI Foundation, maximizing GenAI&apos;s impact on their operations.
 					</p>
 				</div>
 			</div>
@@ -170,23 +174,15 @@ const OurPartners = () => {
 			>
 				<div className="max-w-screen-lg mx-auto space-y-4">
 					<h3 className="text-black font-medium text-base sm:text-xl text-left">
-						Are you interested in becoming a partner?
+					Unlock the Future of AI: Become a Karini AI Strategic Partner
 					</h3>
 					<div className="space-y-2">
 						<p className="text-secondary-700 text-base leading-6">
-							Experience the Exclusive Power of GenAI: Partner Exclusively with
-							Karini.ai. By joining our select group of partners, you&apos;re
-							not just gaining access to cutting-edge GenAI solutions, but also
-							becoming part of a community that values your expertise and
-							contribution.
+						By leveraging the GenAI Foundation and our strategic partnerships, Karini enables businesses to embrace a portfolio approach to AI, driving innovation and maximizing ROI. Our collaborative ecosystem ensures clients can rapidly deploy, scale, and optimize AI solutions, transforming their operations and achieving sustainable success.
 						</p>
+						<br/>
 						<p className="text-secondary-700 text-base leading-6">
-							The future of AI is generative. At Karini.ai, we&apos;re on a
-							mission to empower businesses and organizations to harness the
-							transformative power of Generative AI (GenAI). We believe that
-							GenAI has the potential to revolutionize countless industries, and
-							we&apos;re committed to making it accessible and efficient for
-							everyone, inspiring a new era of innovation.
+						Are you ready to revolutionize the AI landscape? Join Karini&apos;s exclusive partner network and harness the transformative power of our GenAI Foundation. As a strategic partner, you&apos;ll gain privileged access to cutting-edge GenAI solutions, empowering you to deliver unparalleled value to your clients. Our partnership program is designed to leverage your unique expertise, fostering a collaborative ecosystem that drives innovation and accelerates AI adoption across industries. By aligning with Karini, you&apos;ll position yourself at the forefront of the AI revolution, opening new avenues for growth and differentiation in the rapidly evolving tech market. Don&apos;t just witness the AI transformation – be a driving force behind it. Partner with Karini today and shape the future of GenAI.
 						</p>
 					</div>
 				</div>
