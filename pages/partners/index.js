@@ -108,6 +108,7 @@ const aboutus = () => {
 				></script>
 			</Head>
 			<div
+				id="partners"
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				<Hero />

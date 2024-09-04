@@ -7,7 +7,8 @@ import {
 	BsCloudFog2,
 	BsInfoCircleFill,
 } from "react-icons/bs";
-import { FaAngleDown, FaAws } from "react-icons/fa";
+import { FaAngleDown, FaAws, FaLongArrowAltRight } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 import { GiArtificialHive, GiFlatPlatform } from "react-icons/gi";
 import { IoPricetags } from "react-icons/io5";
 import { MdMiscellaneousServices, MdOutlineClose } from "react-icons/md";
@@ -92,10 +93,29 @@ const Navbar2 = () => {
 							{partnersDropdown && (
 								<div
 									onMouseLeave={() => setPartnersDropdown(false)}
-									className="min-w-[250px] z-20 border absolute top-10 bg-white drop-shadow-md p-2 rounded space-y-3"
+									className="min-w-[250px] z-20 border absolute top-10 bg-white drop-shadow-md py-2 px-4 rounded space-y-3"
 								>
 									<div className="space-y-2">
-										<p className="py-1 text-sm text-primary-600 border-b">
+										<Link
+											href={"/partners#partners"}
+											className="flex items-center space-x-1 hover:bg-primary-50 rounded group pb-2 border-b"
+										>
+											<Image
+												src={"/karini-favicon.png"}
+												alt="aws_icon"
+												height={22}
+												width={22}
+												className="text-secondary-600"
+											/>
+											<p className="py-1 px-2 text-sm text-black group-hover:text-primary-600">
+												Our Partners
+											</p>
+											<FaArrowRightLong
+												size={18}
+												className="text-black hover:text-primary-600"
+											/>
+										</Link>
+										<p className="py-1 px-2 text-sm text-primary-600 border-b">
 											Cloud Partners
 										</p>
 										<div className="">
@@ -138,7 +158,7 @@ const Navbar2 = () => {
 										</div>
 									</div>
 									<div className="space-y-2">
-										<p className="py-1 text-sm text-primary-600 border-b">
+										<p className="py-1 px-2 text-sm text-primary-600 border-b">
 											Technology Partners
 										</p>
 										<div>
@@ -343,6 +363,28 @@ const Navbar2 = () => {
 
 										<ul className="space-y-3 px-4 py-4">
 											<div className="space-y-2">
+												<Link
+													href={"/partners#partners"}
+													className="rounded-lg flex items-center space-x-1 pb-2 border-b"
+												>
+													<Image
+														src={"/karini-favicon.png"}
+														alt="aws_icon"
+														height={22}
+														width={22}
+														className="text-secondary-600"
+													/>
+													<span
+														onClick={() => setMobileMenu((prev) => !prev)}
+														className="text-sm text-secondary-500 font-medium"
+													>
+														Our Partners
+													</span>
+													<FaArrowRightLong
+														size={18}
+														className="text-gray-500 hover:text-primary-600"
+													/>
+												</Link>
 												<p className="py-1 text-sm text-primary-600 border-b">
 													Cloud Partners
 												</p>

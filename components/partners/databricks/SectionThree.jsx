@@ -4,6 +4,7 @@ import { sectionTwo } from "@/content/partner/databricks/sectionTwo";
 import BuildIcon from "@/svgs/partners/BuildIcon";
 import DrawIcon from "@/svgs/partners/DrawIcon";
 import KeyIcon from "@/svgs/partners/KeyIcon";
+import OrderIcon from "@/svgs/partners/OrderIcon";
 import SpaceshipIcon from "@/svgs/partners/SpaceshipIcon";
 import React, { useState } from "react";
 
@@ -93,6 +94,13 @@ const SectionThree = () => {
 										color={active === index ? "#fff" : "#7c3aed"}
 									/>
 								)}
+								{index === 3 && (
+									<OrderIcon
+										width={28}
+										height={28}
+										color={active === index ? "#fff" : "#7c3aed"}
+									/>
+								)}
 							</div>
 
 							<h3 className="flex-1">{data.title}</h3>
@@ -139,6 +147,13 @@ const SectionThree = () => {
 								)}
 								{index === 2 && (
 									<SpaceshipIcon
+										width={28}
+										height={28}
+										color={active === index ? "#fff" : "#7c3aed"}
+									/>
+								)}
+								{index === 3 && (
+									<OrderIcon
 										width={28}
 										height={28}
 										color={active === index ? "#fff" : "#7c3aed"}

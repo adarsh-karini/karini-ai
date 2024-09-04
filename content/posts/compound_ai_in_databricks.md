@@ -9,7 +9,7 @@ blog_image: "/assets/images/blogs/databricks-blog.png"
 blog_image_alt_name: "Diagram of compound AI system architecture on Databricks platform"
 authors:
   - name: "Prasad Kona"
-    image: "/assets/images/team_members/default_user.png"
+    image: "/assets/images/team_members/prasad-kona.jpeg"
     linked_in: "https://www.linkedin.com/in/pkona/"
   - name: "Nitin Wagh"
     image: "/assets/images/team_members/nitin-wagh.jpg"
