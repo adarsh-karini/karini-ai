@@ -1,18 +1,14 @@
-import { sectionOne } from "@/content/partner/databricks/sectionOne";
 import { sectionTwo } from "@/content/partner/databricks/sectionTwo";
 import DurationIcon from "@/svgs/partners/DurationIcon";
 import LockIcon from "@/svgs/partners/LockIcon";
 import NavigateIcon from "@/svgs/partners/NavigateIcon";
 import WatchStepIcon from "@/svgs/partners/WatchStepIcon";
-import IconOne from "@/svgs/services/IconOne";
-import IconThree from "@/svgs/services/IconThree";
-import IconTwo from "@/svgs/services/IconTwo";
+
 import React from "react";
-import { SiDatabricks } from "react-icons/si";
 
 const SectionTwo = () => {
 	return (
-		<div className="max-w-screen-lg mx-auto py-6">
+		<div className="max-w-screen-lg mx-auto py-6  overflow-hidden">
 			<section>
 				<div className="relative flex flex-col items-center justify-center py-10">
 					<div className="absolute p-20 md:p-32 rounded-full left-0 md:left-1/4 top-0 bg-primary-100 blur-2xl"></div>

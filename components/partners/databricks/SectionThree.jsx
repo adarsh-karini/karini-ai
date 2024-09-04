@@ -59,7 +59,7 @@ const SectionThree = () => {
 					);
 				})}
 			</div> */}
-			<div className="h-[30rem] z-10 flex border rounded shadow p-4">
+			<div className="hidden md:flex h-[30rem] z-10 border rounded shadow p-4">
 				<div className="h-full w-[300px] break-words border-r">
 					{sectionThree.map((data, index) => (
 						<div
@@ -70,6 +70,57 @@ const SectionThree = () => {
 									? "text-white font-medium bg-primary-600"
 									: "text-secondary-700 hover:bg-primary-50"
 							} flex items-center space-x-2 border-b border-b-secondary-300 rounded px-3 py-2 cursor-pointer transition text-sm`}
+						>
+							<div className="w-10">
+								{index === 0 && (
+									<BuildIcon
+										width={28}
+										height={28}
+										color={active === index ? "#fff" : "#7c3aed"}
+									/>
+								)}
+								{index === 1 && (
+									<DrawIcon
+										width={28}
+										height={28}
+										color={active === index ? "#fff" : "#7c3aed"}
+									/>
+								)}
+								{index === 2 && (
+									<SpaceshipIcon
+										width={28}
+										height={28}
+										color={active === index ? "#fff" : "#7c3aed"}
+									/>
+								)}
+							</div>
+
+							<h3 className="flex-1">{data.title}</h3>
+						</div>
+					))}
+				</div>
+				<div className="h-full flex-1 p-4 space-y-4 flex flex-col">
+					<p className="text-sm text-secondary-700">
+						{sectionThree[active].overview}
+					</p>
+					<div
+						dangerouslySetInnerHTML={{ __html: sectionThree[active].videoPath }}
+						className="flex-1 flex justify-center items-center"
+					></div>
+				</div>
+			</div>
+
+			<div className="px-4 md:hidden space-y-4">
+				<div className="flex items-center overflow-x-auto whitespace-nowrap space-x-3">
+					{sectionThree.map((data, index) => (
+						<div
+							key={index}
+							onClick={() => setActive(index)}
+							className={`${
+								active === index
+									? "text-white font-medium bg-primary-600"
+									: "text-secondary-700 hover:bg-primary-50"
+							} inline-flex items-center space-x-2 border border-secondary-300 rounded px-3 py-2 cursor-pointer transition text-sm mb-1`}
 						>
 							<div className="w-10">
 								{index === 0 && (
