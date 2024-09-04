@@ -103,9 +103,10 @@ const SectionThree = () => {
 					<p className="text-sm text-secondary-700">
 						{sectionThree[active].overview}
 					</p>
-					<div className="flex-1 flex justify-center items-center border border-black h-full">
-						<p className="text-black">Video will be HERE</p>
-					</div>
+					<div
+						dangerouslySetInnerHTML={{ __html: sectionThree[active].videoPath }}
+						className="flex-1 flex justify-center items-center"
+					></div>
 				</div>
 			</div>
 		</div>

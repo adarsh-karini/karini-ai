@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
-	<loc>https://www.karini.ai/blogs/aws-marketplace</loc>
+	<loc>https://www.karini.ai/announcements/aws-marketplace</loc>
 	<news:news>
 		<news:publication>
 			<news:name>Announcement five</news:name>
@@ -18,7 +18,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://www.karini.ai/blogs/batch-execution-pipelines</loc>
+	<loc>https://www.karini.ai/announcements/batch-execution-pipelines</loc>
 	<news:news>
 		<news:publication>
 			<news:name>Announcement five</news:name>
@@ -36,7 +36,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://www.karini.ai/blogs/bedrock-guardrails</loc>
+	<loc>https://www.karini.ai/announcements/bedrock-guardrails</loc>
 	<news:news>
 		<news:publication>
 			<news:name>Announcement five</news:name>
@@ -81,7 +81,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox</loc>
+	<loc>https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox</loc>
 	<news:news>
 		<news:publication>
 			<news:name>Announcement five</news:name>
@@ -174,7 +174,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://www.karini.ai/blogs/karini-ai-embarks-on-a-new-partnership-with-databricks</loc>
+	<loc>https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks</loc>
 	<news:news>
 		<news:publication>
 			<news:name>Announcement three</news:name>
@@ -189,7 +189,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor</loc>
+	<loc>https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor</loc>
 	<news:news>
 		<news:publication>
 			<news:name>Announcement four</news:name>
@@ -204,7 +204,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot</loc>
+	<loc>https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot</loc>
 	<news:news>
 		<news:publication>
 			<news:name>Announcement two</news:name>
@@ -234,7 +234,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://www.karini.ai/blogs/managed-semantic-cache</loc>
+	<loc>https://www.karini.ai/announcements/managed-semantic-cache</loc>
 	<news:news>
 		<news:publication>
 			<news:name>Announcement six</news:name>

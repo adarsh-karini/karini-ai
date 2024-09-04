@@ -85,25 +85,25 @@ In today’s rapidly evolving tech landscape, Generative AI (GenAI) initiatives 
 
 According to a thought leadership article by Berkeley Research, [Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) achieve state-of-the-art results by integrating multiple specialized components rather than relying on monolithic models alone. These systems are increasingly adopted by enterprises to leverage the best-of-breed capabilities tailored to specific use case requirements. A typical production-grade Agentic AI system involves multiple stages, each powered by purpose-built large language models (LLMs) to generate optimal responses. The diagram below illustrates a typical compound AI system, incorporating both an Ingestion pipeline and an Agentic Query pipeline, with several LLM calls executed before the response is delivered to the user. This approach allows for various optimizations, such as incorporating smaller open-source language models to enhance system performance while optimizing for cost and latency. Often, critical capabilities essential for production deployment are overlooked during proof-of-concept stages. Consequently, enterprises facing the challenge of scaling multiple Generative AI use cases—typically ranging from 50 to 300—tend to delay their first production deployment or cannot expand projects beyond initial implementations. Thus, enterprises devote their valuable internal resources to establishing a Generative AI Foundation that streamlines the deployment of safe, high-quality applications.
 
-### _IMAGEEEEEEEEEEEEEEEEE 1 GOES HERE_
+![Compound AI in Production](/assets/images/blogs/Compound_AI_in_Production.png)
 
 ## Building Scalable, Cloud-Agnostic GenAI Foundation with Databricks and Karini AI
 
 The GenAI foundation is a robust platform that equips enterprises with the tools to develop, manage, and monitor secure, high-quality, Generative AI applications. This platform is scalable, adaptable, and cloud-agnostic, ensuring it can evolve with the changing landscape of AI. It creates LLM-ready data and infrastructure, providing access to cutting-edge open-source LLMs and third-party model hubs. Databricks, a comprehensive, unified platform, offers specialized GenAI products for data preparation, managed vector store, optimized LLM model serving, and fine-tuning. Karini AI, a tool that seamlessly works with the Databricks [Data Intelligence Platform](https://www.databricks.com/product/data-intelligence-platform), enables enterprises to build and deploy Generative AI applications in under 30 minutes, accelerating production deployment by 20x compared to traditional methods.
 
-### _IMAGEEEEEEEEEEEEEEEEE 2 GOES HERE_
+![Karini AI Compund AI Databricks](/assets/images/blogs/Karini_AI_Compound_AI_Databricks.png)
 
 Karini AI’s no-code recipes allow practitioners to swiftly build Generative AI applications by assembling a data ingestion pipeline. Whether connecting to enterprise data sources or leveraging existing data registered in Unity Catalog volumes, users can easily configure the settings to preprocess and chunk source data into LLM-ready formats, targeting Databricks vector store indexes. Once the pipeline is set up, users can execute the ingestion securely within their workspace and observe real-time updates on the progress of knowledge base generation.
 
-### _VIDEOOOOOOOOOOOOOOOO 1 GOES HERE_
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wkwxLmMTJYA?si=X4cSKRzcFFq_9IrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Enterprises can use Karini AI’s prompt playground to create an Agent, beginning with a prompt template and registering relevant tools such as Databricks knowledge base, web services, messaging, custom functions, or [Databricks SQL](https://www.databricks.com/product/databricks-sql). The agentic prompt can be tested across multiple models to compare response quality and select the best-performing model. These prompt experiments can be saved in Karini AI’s prompt store for tracking and version control, allowing users to quickly revert to previous prompt versions.
 
-### _VIDEOOOOOOOOOOOOOOOO 2 GOES HERE_
+<iframe width="560" height="315" src="https://www.youtube.com/embed/553OaYvqtrA?si=oYUFoEPqO9n13GJV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Once the prompt is finalized, it can be deployed within a no-code recipe with output nodes. These output nodes offer optional settings for enabling intent detection, guardrails, follow-up questions, and online evaluation. The resulting chatbot can then be configured by exporting the recipe, allowing for styling and feedback options to be customized. Karini AI automatically maintains traces of the entire chain, which is invaluable for red-teaming efforts before releasing applications to production. Additionally, Karini AI keeps a record of historical conversations along with user feedback. These conversations can be exported to create fine-tuning datasets compatible with Databricks LLM fine-tuning, enabling continuous improvement of the AI models.
 
-### _VIDEOOOOOOOOOOOOOOOO 3 GOES HERE_
+<iframe width="560" height="315" src="https://www.youtube.com/embed/87p11pmQh6I?si=uE75gRc8BeJRYaf3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Karini AI also offers built-in cost and performance dashboards, enabling teams to track application-level spending and monitor performance metrics for continuous optimization.
 
