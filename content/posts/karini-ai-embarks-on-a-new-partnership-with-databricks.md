@@ -7,9 +7,10 @@ date: "2023-11-14"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/Databricks_Partnership.png"
 blog_image_alt_name: "karini-ai-embarks-on-a-new-partnership-with-databricks"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Karini AI & Databricks New Partnership Unveiled"

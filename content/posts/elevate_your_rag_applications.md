@@ -7,9 +7,10 @@ date: "2024-08-30"
 time_to_read: "9 min read"
 blog_image: "/assets/images/blogs/Elevate-Your-RAG-Applications.png"
 blog_image_alt_name: "Elevate your RAG Applications with karini AI's evaluations"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "RAG Evaluation Techniques: Online & Offline Solutions"

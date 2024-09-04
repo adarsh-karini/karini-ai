@@ -7,9 +7,10 @@ date: "2023-10-16"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
 blog_image_alt_name: "AWS_Partner_Announcement_Eye_Catcher"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Karini AI & AWS Partner as ISV - Major Announcement"

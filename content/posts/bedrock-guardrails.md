@@ -7,9 +7,10 @@ date: "2024-07-17"
 time_to_read: "4 min read"
 blog_image: "/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
 blog_image_alt_name: "Support_AI_Safety_with_Guardrails"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails"

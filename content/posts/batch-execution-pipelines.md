@@ -7,9 +7,10 @@ date: "2024-06-13"
 time_to_read: "3 min read"
 blog_image: "/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
 blog_image_alt_name: "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Efficient Batch Pipelines with Karini AI's No-Code GenAI Recipes"

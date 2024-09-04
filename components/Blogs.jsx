@@ -22,6 +22,8 @@ const Blogs = ({ postMetadata }) => {
 		setCurrentPage(pageNumber);
 	};
 
+	console.log("blogsArray", blogsArray);
+
 	useEffect(() => {
 		let posts = postMetadata.filter((post) => post.show);
 
@@ -202,35 +204,42 @@ const Blogs = ({ postMetadata }) => {
 												/>
 											</div>
 											<div className="flex-1 flex flex-col space-y-4">
-												<div className="flex justify-between items-center ">
-													<div className="flex items-center space-x-2">
-														<Image
-															alt={blog.author}
-															src={blog.author_image}
-															height={30}
-															width={30}
-															className="rounded-full"
-														/>
-														<p className="text-xs text-secondary-600 italic">
-															{blog.author}
-														</p>
-													</div>
-
-													<div className="flex items-center space-x-2 px-2 py-1 rounded-full border shadow text-secondary-600 text-xs">
-														<IoCalendarNumberOutline size={14} className="" />
-														<p className="font-medium">{blog.date}</p>
-													</div>
+												<div className="whitespace-nowrap overflow-x-auto space-x-3">
+													{blog.authors.length > 0 &&
+														blog.authors.map((author, index) => (
+															<div
+																key={index}
+																className="inline-flex items-center space-x-2"
+															>
+																<Image
+																	alt={author.name}
+																	src={author.image}
+																	height={30}
+																	width={30}
+																	className="rounded-full"
+																/>
+																<p className="text-xs text-secondary-600 italic whitespace-nowrap">
+																	{author.name}
+																</p>
+															</div>
+														))}
 												</div>
 												<div className="flex-1 space-y-1">
-													<span
-														className={`${
-															blog.type === "blog"
-																? "bg-primary-500 border-primary-500"
-																: "bg-[#e100ff] border-[#e100ff]"
-														} text-xs text-white border rounded-full py-1 px-2`}
-													>
-														{blog.type === "blog" ? "blog" : "announcement"}
-													</span>
+													<div className="flex items-center justify-between">
+														<span
+															className={`${
+																blog.type === "blog"
+																	? "bg-primary-500 border-primary-500"
+																	: "bg-[#e100ff] border-[#e100ff]"
+															} text-xs text-white border rounded-full py-1 px-2`}
+														>
+															{blog.type === "blog" ? "blog" : "announcement"}
+														</span>
+														<div className="flex items-center space-x-2 px-2 py-1 rounded-full border shadow text-secondary-600 text-xs">
+															<IoCalendarNumberOutline size={14} className="" />
+															<p className="font-medium">{blog.date}</p>
+														</div>
+													</div>
 													<h3 className="text-base text-black font-medium hover:text-primary-600 hover:underline">
 														{blog.title}
 													</h3>

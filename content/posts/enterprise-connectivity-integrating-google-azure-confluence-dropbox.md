@@ -7,9 +7,10 @@ date: "2024-03-11"
 time_to_read: "3 min read"
 blog_image: "/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
 blog_image_alt_name: "Enterprise Connectivity Integrating Google, Azure, Confluence, Dropbox"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Karini.ai Integrates Google, Azure, Confluence, Dropbox"

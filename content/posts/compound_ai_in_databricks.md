@@ -7,9 +7,13 @@ date: "2024-09-04"
 time_to_read: "6 min read"
 blog_image: "/assets/images/blogs/databricks-blog.png"
 blog_image_alt_name: "Diagram of compound AI system architecture on Databricks platform"
-author: "Nitin Wagh"
-author_image: "/assets/images/team_members/nitin-wagh.jpg"
-author_linked_in: "https://www.linkedin.com/in/nitin-bwagh/"
+authors:
+  - name: "Prasad Kona"
+    image: "/assets/images/team_members/default_user.png"
+    linked_in: "https://www.linkedin.com/in/pkona/"
+  - name: "Nitin Wagh"
+    image: "/assets/images/team_members/nitin-wagh.jpg"
+    linked_in: "https://www.linkedin.com/in/nitin-bwagh/"
 SEO_data:
   metadata:
     title: "Build Powerful Compound AI Systems | Karini AI"

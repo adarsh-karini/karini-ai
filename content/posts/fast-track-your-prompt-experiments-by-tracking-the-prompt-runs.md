@@ -4,9 +4,10 @@ show: true
 title: "Fast-track your Prompt Experiments by tracking the prompt runs"
 SEO_title: "Optimize AI Prompts | Karini’s Prompt Playground"
 date: "2024-02-26"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 blog_image: "/assets/images/blogs/Fast_track_your_prompt_Experiments.png"
 blog_image_alt_name: "fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
 time_to_read: "5 min read"

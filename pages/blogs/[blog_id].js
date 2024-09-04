@@ -86,26 +86,32 @@ const PostPage = ({ blog_id, post }) => {
 								</h1>
 								<div className="flex-1 flex flex-col justify-between">
 									<div className="space-y-4 py-3">
-										<div className="space-x-1 text-sm">
-											<div className="flex items-center space-x-2">
-												<Image
-													alt={post.data.author}
-													src={post.data.author_image}
-													height={30}
-													width={30}
-													className="rounded-full"
-													priority
-												/>
-												<Link
-													href={post.data.author_linked_in}
-													target="_blank"
-													className="hover:underline hover:decoration-primary-600 underline-offset-2"
-												>
-													<span className="text-primary-600 font-medium">
-														{post.data.author}
-													</span>
-												</Link>
-											</div>
+										<div className="flex items-center space-x-4">
+											{post.data.authors.length > 0 &&
+												post.data.authors.map((author, index) => (
+													<div
+														key={index}
+														className="flex items-center space-x-2"
+													>
+														<Image
+															alt={author.name}
+															src={author.image}
+															height={30}
+															width={30}
+															className="rounded-full"
+															priority
+														/>
+														<Link
+															href={author.linked_in}
+															target="_blank"
+															className="hover:underline hover:decoration-primary-600 underline-offset-2"
+														>
+															<span className="text-sm text-primary-600 font-medium">
+																{author.name}
+															</span>
+														</Link>
+													</div>
+												))}
 										</div>
 										<div className="space-y-2">
 											<p className="space-x-1 text-xs md:text-sm">

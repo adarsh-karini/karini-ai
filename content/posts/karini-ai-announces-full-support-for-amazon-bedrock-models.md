@@ -7,9 +7,10 @@ date: "2023-12-01"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/Bedrock_Models_Support.png"
 blog_image_alt_name: "Bedrock_Models_Support"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Karini AI Supports Amazon Bedrock Models Fully"

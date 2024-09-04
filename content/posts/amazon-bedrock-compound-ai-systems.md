@@ -4,9 +4,10 @@ show: true
 title: "Beyond Limits: How Amazon Bedrock and Karini AI Supercharge Compound AI Systems"
 SEO_title: "Supercharged Compound AI with Amazon Bedrock & Karini.ai"
 date: "2024-04-25"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 blog_image: "/assets/images/blogs/Beyond_Limits.png"
 blog_image_alt_name: "amazon-bedrock-compound-ai-systems"
 time_to_read: "5 min read"

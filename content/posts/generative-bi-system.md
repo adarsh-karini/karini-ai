@@ -7,9 +7,10 @@ date: "2024-06-24"
 time_to_read: "3 min read"
 blog_image: "/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png"
 blog_image_alt_name: "Text to SQL with Karini AI"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Introducing Generative BI for Enhanced Data Analytics"

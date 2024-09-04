@@ -7,9 +7,10 @@ date: "2024-01-18"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/Streaming-eye-catcher.png"
 blog_image_alt_name: "Karini AI Launches Streaming for Copilot"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Karini AI Launches Copilot Streaming Feature"

@@ -7,9 +7,10 @@ date: "2024-02-06"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png"
 blog_image_alt_name: "karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Karini AI Unveils GenAIOps Platform - Revolutionizing AI"
