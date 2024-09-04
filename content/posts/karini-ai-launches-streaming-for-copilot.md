@@ -3,14 +3,14 @@ type: "announcement"
 show: true
 title: "Karini AI Launches Streaming for Copilot"
 SEO_title: "Streaming for Copilot by Karini AI: A New Era"
-subtitle: "Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications."
 date: "2024-01-18"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/Streaming-eye-catcher.png"
 blog_image_alt_name: "Karini AI Launches Streaming for Copilot"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Karini AI Launches Copilot Streaming Feature"
@@ -21,7 +21,7 @@ SEO_data:
       type: "article"
       title: "Karini AI Launches Copilot Streaming Feature"
       description: "Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications."
-      url: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+      url: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
       site_name: "Karini AI"
       updated_time: "2024-01-18"
       image:
@@ -36,17 +36,17 @@ SEO_data:
       card: "summary"
       description: "Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications."
       title: "Karini AI Launches Copilot Streaming Feature"
-      site: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+      site: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
       image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FStreaming-eye-catcher.png&w=640&q=75"
       creator: "Karini AI"
-  canonicalLink: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
-  hreflang: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+  canonicalLink: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
+  hreflang: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "NewsArticle"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+      "@id": "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
     headline: "Karini AI Launches Streaming for Copilot"
     description: "Karini AI Copilot"
     image: "https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png"
@@ -64,14 +64,14 @@ related_posts:
   - "enterprise-connectivity-integrating-google-azure-confluence-dropbox"
   - "karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
 sitemap:
-  loc: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+  loc: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
   lastmod: "2024-01-18"
   changefreq: "monthly"
   priority: "0.8"
   images:
     - loc: "https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png"
 news_sitemap:
-  loc: "https://www.karini.ai/blogs/karini-ai-launches-streaming-for-copilot"
+  loc: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
   news:
     publication:
       name: "Announcement two"

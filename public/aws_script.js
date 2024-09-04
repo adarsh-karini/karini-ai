@@ -62,10 +62,6 @@ const handleFormSubmit = (event) => {
 
 		const xhr = new XMLHttpRequest();
 
-		console.log("data gggg", data);
-		console.log("postUrl gggg", postUrl);
-		console.log("regToken gggg", regToken);
-
 		xhr.open("POST", postUrl, true);
 		xhr.setRequestHeader("Content-Type", "application/json");
 		xhr.send(JSON.stringify(data));
@@ -73,7 +69,6 @@ const handleFormSubmit = (event) => {
 		xhr.onreadystatechange = () => {
 			if (xhr.readyState == XMLHttpRequest.DONE) {
 				showAlert("primary", xhr.responseText);
-				console.log(JSON.stringify(xhr.responseText));
 			}
 		};
 	}

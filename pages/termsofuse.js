@@ -70,6 +70,7 @@ const termsofuse = () => {
 				<meta name="twitter:creator" content="Karini AI" />
 			</Head>
 			<div
+				id="termsofuse"
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				<div className="max-w-screen-lg mx-auto space-y-8 py-10 px-4 lg:px-0">

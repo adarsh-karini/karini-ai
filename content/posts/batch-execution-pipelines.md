@@ -3,14 +3,14 @@ type: "announcement"
 show: true
 title: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes."
 SEO_title: "Efficient Batch Pipelines with No-Code GenAI Recipes"
-subtitle: "Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations."
 date: "2024-06-13"
 time_to_read: "3 min read"
 blog_image: "/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
 blog_image_alt_name: "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Efficient Batch Pipelines with Karini AI's No-Code GenAI Recipes"
@@ -21,7 +21,7 @@ SEO_data:
       type: "article"
       title: "Efficient Batch Pipelines with No-Code GenAI Recipes"
       description: "Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations."
-      url: "https://www.karini.ai/blogs/batch-execution-pipelines"
+      url: "https://www.karini.ai/announcements/batch-execution-pipelines"
       site_name: "Karini AI Batch Execution"
       updated_time: "2024-06-13"
       image:
@@ -36,17 +36,17 @@ SEO_data:
       card: "summary"
       description: "Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations."
       title: "Efficient Batch Pipelines with No-Code GenAI Recipes"
-      site: "https://www.karini.ai/blogs/batch-execution-pipelines"
+      site: "https://www.karini.ai/announcements/batch-execution-pipelines"
       image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAutomate_Your_Workflow_with_Generative_AI.png&w=640&q=75"
       creator: "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes"
-  canonicalLink: "https://www.karini.ai/blogs/batch-execution-pipelines"
-  hreflang: "https://www.karini.ai/blogs/batch-execution-pipelines"
+  canonicalLink: "https://www.karini.ai/announcements/batch-execution-pipelines"
+  hreflang: "https://www.karini.ai/announcements/batch-execution-pipelines"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "NewsArticle"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/blogs/batch-execution-pipelines"
+      "@id": "https://www.karini.ai/announcements/batch-execution-pipelines"
     headline: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes."
     image: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
     author:
@@ -64,7 +64,7 @@ related_posts:
   - "karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
   - "karini-ai-launches-streaming-for-copilot"
 sitemap:
-  loc: "https://www.karini.ai/blogs/batch-execution-pipelines"
+  loc: "https://www.karini.ai/announcements/batch-execution-pipelines"
   lastmod: "2024-06-13"
   changefreq: "monthly"
   priority: "0.8"
@@ -72,7 +72,7 @@ sitemap:
     - loc: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
     - loc: "https://www.karini.ai/assets/images/blogs/Batch_recipe.png"
 news_sitemap:
-  loc: "https://www.karini.ai/blogs/batch-execution-pipelines"
+  loc: "https://www.karini.ai/announcements/batch-execution-pipelines"
   news:
     publication:
       name: "Announcement five"

@@ -3,14 +3,14 @@ type: "announcement"
 show: true
 title: "Karini AI releases the first purpose-built platform for GenAIOps"
 SEO_title: "Karini AI Unveils GenAIOps Platform - Revolutionizing AI"
-subtitle: "Discover Karini AI's groundbreaking platform for GenAIops, enabling businesses to build, test, and deploy Generative AI apps with ease."
 date: "2024-02-06"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png"
 blog_image_alt_name: "karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Karini AI Unveils GenAIOps Platform - Revolutionizing AI"
@@ -20,7 +20,7 @@ SEO_data:
     og:type: "article"
     og:title: "Karini AI Unveils GenAIOps Platform - Revolutionizing AI"
     og:description: "Discover Karini AI's groundbreaking platform for GenAIops, enabling businesses to build, test, and deploy Generative AI apps with ease."
-    og:url: "https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
+    og:url: "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
     og:site_name: "Karini AI"
     article:published_time: "2024-02-06"
     og:updated_time: "2024-02-06"
@@ -32,17 +32,17 @@ SEO_data:
     twitter:card: "summary"
     twitter:description: "Discover Karini AI's groundbreaking platform for GenAIops, enabling businesses to build, test, and deploy Generative AI apps with ease."
     twitter:title: "Karini AI Unveils GenAIOps Platform - Revolutionizing AI"
-    twitter:site: "https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
+    twitter:site: "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
     twitter:image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75"
     twitter:creator: "Karini AI"
-  canonicalLink: "https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
-  hreflang: "https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
+  canonicalLink: "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
+  hreflang: "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "NewsArticle"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
+      "@id": "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
     headline: "Karini AI releases the first purpose-built platform for GenAIOps"
     image: "https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png"
     author:
@@ -60,7 +60,7 @@ related_posts:
   - "enterprise-connectivity-integrating-google-azure-confluence-dropbox"
   - "karini-ai-announces-full-support-for-amazon-bedrock-models"
 sitemap:
-  loc: "https://www.karini.ai/blogs/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
+  loc: "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
   lastmod: "2024-02-06"
   changefreq: "monthly"
   priority: "0.8"

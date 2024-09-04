@@ -76,6 +76,7 @@ const aboutus = () => {
 				<meta name="twitter:creator" content="Karini AI" />
 			</Head>
 			<div
+				id="aboutus"
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				<Hero />

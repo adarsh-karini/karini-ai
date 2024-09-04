@@ -63,7 +63,7 @@ const Footer = () => {
 								<p className="text-black font-semibold text-lg">Quick links</p>
 								<div className="grid grid-cols-1 gap-2">
 									<Link
-										href={"/platforms"}
+										href={"/platforms#platforms"}
 										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
 									>
 										Platform
@@ -86,13 +86,13 @@ const Footer = () => {
 								<p className="text-black font-semibold text-lg">Services</p>
 								<div className="grid grid-cols-1 gap-2">
 									<Link
-										href={"/services/genai"}
+										href={"/services/genai#genai"}
 										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
 									>
 										Generative AI
 									</Link>
 									<Link
-										href={"/services/ml"}
+										href={"/services/ml#ml"}
 										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
 									>
 										Machine Learning
@@ -109,13 +109,13 @@ const Footer = () => {
 										Blogs
 									</Link>
 									<Link
-										href={"/aboutus"}
+										href={"/aboutus#aboutus"}
 										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
 									>
 										About us
 									</Link>
 									<Link
-										href={"/contactus"}
+										href={"/contactus#contactus"}
 										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
 									>
 										Contact us
@@ -143,7 +143,7 @@ const Footer = () => {
 										>
 											Georgia, USA
 										</Link> */}{" "}
-										Georgia, USA
+										Alpharetta, GA, US
 									</div>
 									<div className="text-black flex items-center space-x-1">
 										<BiSolidMapPin
@@ -201,13 +201,13 @@ const Footer = () => {
 					</p>
 					<div className="space-x-3">
 						<Link
-							href={"/privacypolicy"}
+							href={"/privacypolicy#privacypolicy"}
 							className="text-primary-600 text-sm hover:underline underline-offset-2 hover:font-semibold font-medium"
 						>
 							Privacy Policy
 						</Link>
 						<Link
-							href={"/termsofuse"}
+							href={"/termsofuse#termsofuse"}
 							className="text-primary-600 text-sm hover:underline underline-offset-2 hover:font-semibold font-medium"
 						>
 							Terms of Use

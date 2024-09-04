@@ -3,14 +3,14 @@ type: "announcement"
 show: true
 title: "Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor"
 SEO_title: "Karini AI Partners with AWS | Official ISV Announcement"
-subtitle: "Discover Karini AI's new chapter as an Independent Software Vendor (ISV) with Amazon Web Services. A milestone in AI innovation and cloud computing synergy."
 date: "2023-10-16"
 time_to_read: "2 min read"
 blog_image: "/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
 blog_image_alt_name: "AWS_Partner_Announcement_Eye_Catcher"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Karini AI & AWS Partner as ISV - Major Announcement"
@@ -20,7 +20,7 @@ SEO_data:
     og:type: "article"
     og:title: "Karini AI & AWS Partner as ISV - Major Announcement"
     og:description: "Discover Karini AI's new chapter as an Independent Software Vendor (ISV) with Amazon Web Services. A milestone in AI innovation and cloud computing synergy."
-    og:url: "https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
+    og:url: "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
     og:site_name: "Karini AI"
     article:published_time: "2023-10-16"
     og:updated_time: "2023-10-16"
@@ -32,17 +32,17 @@ SEO_data:
     twitter:card: "summary"
     twitter:description: "Discover Karini AI's new chapter as an Independent Software Vendor (ISV) with Amazon Web Services. A milestone in AI innovation and cloud computing synergy."
     twitter:title: "Karini AI & AWS Partner as ISV - Major Announcement"
-    twitter:site: "https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
+    twitter:site: "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
     twitter:image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FAWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75"
     twitter:creator: "Karini AI"
-  canonicalLink: "https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
-  hreflang: "https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
+  canonicalLink: "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
+  hreflang: "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "NewsArticle"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
+      "@id": "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
     headline: "Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor"
     description: "Karini AI with AWS as Software Vendor"
     image: "https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
@@ -60,14 +60,14 @@ related_posts:
   - "karini-ai-embarks-on-a-new-partnership-with-databricks"
   - "karini-ai-announces-full-support-for-amazon-bedrock-models"
 sitemap:
-  loc: "https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
+  loc: "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
   lastmod: "2023-10-16"
   changefreq: "monthly"
   priority: "0.8"
   images:
     - loc: "https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
 news_sitemap:
-  loc: "https://www.karini.ai/blogs/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
+  loc: "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
   news:
     publication:
       name: "Announcement four"

@@ -3,14 +3,14 @@ type: "announcement"
 show: true
 title: "Karini AI enhances AI safety with support for Guardrails"
 SEO_title: "Karini AI enhances AI safety with Guardrails for GenAI"
-subtitle: "Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails."
 date: "2024-07-17"
 time_to_read: "4 min read"
 blog_image: "/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
 blog_image_alt_name: "Support_AI_Safety_with_Guardrails"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails"
@@ -20,7 +20,7 @@ SEO_data:
     og:type: "article"
     og:title: "Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails"
     og:description: "Karini AI makes building safe and effective AI easy. Our interface lets you set up guardrails alongside everything else you need, so you can quickly develop responsible AI apps."
-    og:url: "https://www.karini.ai/blogs/bedrock-guardrails"
+    og:url: "https://www.karini.ai/announcements/bedrock-guardrails"
     og:site_name: "Karini AI enhances AI safety with support for Guardrails"
     article:published_time: "2024-07-17"
     og:updated_time: "2024-07-17"
@@ -32,17 +32,17 @@ SEO_data:
     twitter:card: "summary"
     twitter:description: "Karini AI makes building safe and effective AI easy. Our interface lets you set up guardrails alongside everything else you need, so you can quickly develop responsible AI apps."
     twitter:title: "Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails"
-    twitter:site: "https://www.karini.ai/blogs/bedrock-guardrails"
+    twitter:site: "https://www.karini.ai/announcements/bedrock-guardrails"
     twitter:image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FSupport_AI_Safety_with_Guardrails.png&w=640&q=75"
     twitter:creator: "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes"
-  canonicalLink: "https://www.karini.ai/blogs/bedrock-guardrails"
-  hreflang: "https://www.karini.ai/blogs/bedrock-guardrails"
+  canonicalLink: "https://www.karini.ai/announcements/bedrock-guardrails"
+  hreflang: "https://www.karini.ai/announcements/bedrock-guardrails"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "NewsArticle"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/blogs/bedrock-guardrails"
+      "@id": "https://www.karini.ai/announcements/bedrock-guardrails"
     headline: "Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails"
     image: "https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
     author:
@@ -60,14 +60,14 @@ related_posts:
   - "karini-ai-unveils-enhanced-prompt-playground"
   - "generative-bi-system"
 sitemap:
-  loc: "https://www.karini.ai/blogs/bedrock-guardrails"
+  loc: "https://www.karini.ai/announcements/bedrock-guardrails"
   lastmod: "2024-07-17"
   changefreq: "monthly"
   priority: "0.9"
   images:
     - loc: "https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
 news_sitemap:
-  loc: "https://www.karini.ai/blogs/bedrock-guardrails"
+  loc: "https://www.karini.ai/announcements/bedrock-guardrails"
   news:
     publication:
       name: "Announcement five"

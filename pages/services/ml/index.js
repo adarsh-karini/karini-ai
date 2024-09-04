@@ -75,6 +75,7 @@ const ml = () => {
 				<meta name="twitter:creator" content="Karini AI" />
 			</Head>
 			<div
+				id="ml"
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				<Hero />

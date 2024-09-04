@@ -1,13 +1,8 @@
 import React from "react";
 
 const Hero = () => {
-	const imagePaths = [
-		"/assets/images/aboutus/about_img1.jpg",
-		"/assets/images/aboutus/about_img2.jpg",
-		"/assets/images/aboutus/about_img3.jpg",
-	];
 	return (
-		<header className="relative z-10 bg-about_img bg-cover">
+		<header className="relative z-10 bg-partners_img bg-cover">
 			<div className="h-full w-full opacity-60 absolute bg-black"></div>
 
 			<div className="mx-auto max-w-screen-2xl">
@@ -19,15 +14,10 @@ const Hero = () => {
 						<div className="z-10 max-w-screen-lg space-y-10 px-4">
 							<div className="space-y-3">
 								<h1 className="text-center text-2xl font-semibold text-white md:text-3xl lg:text-4xl">
-									We Partner. You Win with GenAI
+								We Partner. Everyone Wins with GenAI
 								</h1>
 								<p className="text-center text-gray-200 text-sm sm:text-base">
-									At Karini.ai, we forge powerful partnerships to unlock the
-									true potential of Generative AI (GenAI). We&apos;ve built a
-									network of leading Value Added Resellers (VARs), System
-									Integrators (SIs), Hyperscalars, and innovative tech players
-									like Databricks. Together, we&apos;re shaping a future powered
-									by GenAI.
+									We forge powerful partnerships to unlock the true potential of Generative AI (GenAI). We&apos;re building a network of leading Value-Added Resellers (VARs), System Integrators (SIs), Hyperscalers, and innovative tech players. Together, we&apos;ll shape the GenAI-powered future.
 								</p>
 							</div>
 							{/* <div className="flex space-x-4">

@@ -3,14 +3,14 @@ type: "announcement"
 show: true
 title: "Karini AI Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox"
 SEO_title: "Karini.ai Integrates Google, Azure, Confluence, Dropbox"
-subtitle: "Break silos! Karini.ai integrates w/ Google, Azure, Confluence, Dropbox for enterprise GenAI apps. #NoCodeAI"
 date: "2024-03-11"
 time_to_read: "3 min read"
 blog_image: "/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
 blog_image_alt_name: "Enterprise Connectivity Integrating Google, Azure, Confluence, Dropbox"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Karini.ai Integrates Google, Azure, Confluence, Dropbox"
@@ -21,7 +21,7 @@ SEO_data:
       type: "article"
       title: "Karini.ai Integrates Google, Azure, Confluence, Dropbox"
       description: "Break silos! Karini.ai integrates w/ Google, Azure, Confluence, Dropbox for enterprise GenAI apps. #NoCodeAI"
-      url: "https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
+      url: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
       site_name: "Karini AI"
       updated_time: "2024-03-11"
       image:
@@ -36,17 +36,17 @@ SEO_data:
       card: "summary"
       description: "Break silos! Karini.ai integrates w/ Google, Azure, Confluence, Dropbox for enterprise GenAI apps. #NoCodeAI"
       title: "Karini.ai Integrates Google, Azure, Confluence, Dropbox"
-      site: "https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
+      site: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
       image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75"
       creator: "Karini AI"
-  canonicalLink: "https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
-  hreflang: "https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
+  canonicalLink: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
+  hreflang: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "NewsArticle"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
+      "@id": "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
     headline: "Karini AI Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox"
     description: "Generative AI is a once-in-a-generation technology, and every enterprise is in a race to embrace it to improve internal productivity across IT, engineering, finance, and HR, as well as improve product experience for external customers."
     image: "https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
@@ -65,7 +65,7 @@ related_posts:
   - "karini-ai-embarks-on-a-new-partnership-with-databricks"
   - "karini-ai-announces-full-support-for-amazon-bedrock-models"
 sitemap:
-  loc: "https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
+  loc: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
   lastmod: "2024-03-11"
   changefreq: "monthly"
   priority: "0.8"
@@ -73,7 +73,7 @@ sitemap:
     - loc: "https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
     - loc: "https://www.karini.ai/assets/images/blogs/Connectors.png"
 news_sitemap:
-  loc: "https://www.karini.ai/blogs/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
+  loc: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
   news:
     publication:
       name: "Announcement five"

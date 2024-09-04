@@ -3,14 +3,14 @@ type: "announcement"
 show: true
 title: "Generative AI Goes Prime Time: Karini AI Now Available on AWS Marketplace!"
 SEO_title: "Karini AI Launches on AWS Marketplace - Explore Now!"
-subtitle: "Discover Karini AI on AWS Marketplace! Build secure, scalable GenAI applications quickly with seamless integration and enhanced security."
 date: "2024-07-01"
 time_to_read: "3 min read"
 blog_image: "/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
 blog_image_alt_name: "Karini AI on AWS Marketplace"
-author: "Deepali Rajale"
-author_image: "/assets/images/team_members/deepali-rajale.png"
-author_linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
+authors:
+  - name: "Deepali Rajale"
+    image: "/assets/images/team_members/deepali-rajale.png"
+    linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
     title: "Karini AI Launches on AWS Marketplace - Explore Now!"
@@ -20,7 +20,7 @@ SEO_data:
     og:type: "article"
     og:title: "Karini AI Available on AWS - Secure GenAI Solutions"
     og:description: "Launch your AI innovations with Karini AI on AWS Marketplace. Secure, scalable, and user-friendly!"
-    og:url: "https://www.karini.ai/blogs/aws-marketplace"
+    og:url: "https://www.karini.ai/announcements/aws-marketplace"
     og:site_name: "Karini AI on AWS MarketPlace"
     article:published_time: "2024-07-01"
     og:updated_time: "2024-07-01"
@@ -32,17 +32,17 @@ SEO_data:
     twitter:card: "summary"
     twitter:description: "Unlock the power of GenAI with Karini AI on AWS Marketplace. Secure, scalable AI development is just a click away!"
     twitter:title: "Karini AI Launches on AWS Marketplace - Explore Now!"
-    twitter:site: "https://www.karini.ai/blogs/aws-marketplace"
+    twitter:site: "https://www.karini.ai/announcements/aws-marketplace"
     twitter:image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FKarini_AI_now_on_AWS_Marketplace.png&w=640&q=75"
     twitter:creator: "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes"
-  canonicalLink: "https://www.karini.ai/blogs/aws-marketplace"
-  hreflang: "https://www.karini.ai/blogs/aws-marketplace"
+  canonicalLink: "https://www.karini.ai/announcements/aws-marketplace"
+  hreflang: "https://www.karini.ai/announcements/aws-marketplace"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "NewsArticle"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/blogs/aws-marketplace"
+      "@id": "https://www.karini.ai/announcements/aws-marketplace"
     headline: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes"
     image: "https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
     author:
@@ -60,14 +60,14 @@ related_posts:
   - "karini-ai-announces-full-support-for-amazon-bedrock-models"
   - "karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
 sitemap:
-  loc: "https://www.karini.ai/blogs/aws-marketplace"
+  loc: "https://www.karini.ai/announcements/aws-marketplace"
   lastmod: "2024-07-02"
   changefreq: "monthly"
   priority: "0.9"
   images:
     - loc: "https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
 news_sitemap:
-  loc: "https://www.karini.ai/blogs/aws-marketplace"
+  loc: "https://www.karini.ai/announcements/aws-marketplace"
   news:
     publication:
       name: "Announcement five"

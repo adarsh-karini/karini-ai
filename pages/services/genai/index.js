@@ -84,6 +84,7 @@ const genai = () => {
 				<meta name="twitter:creator" content="Karini AI" />
 			</Head>
 			<div
+				id="genai"
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				<Hero />

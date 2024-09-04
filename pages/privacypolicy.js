@@ -75,6 +75,7 @@ const privacypolicy = () => {
 				<meta name="twitter:creator" content="Karini AI" />
 			</Head>
 			<div
+				id="privacypolicy"
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				<div className="max-w-screen-lg mx-auto space-y-4 py-10 px-4 lg:px-0">

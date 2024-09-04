@@ -21,7 +21,7 @@ const aboutus = () => {
 	return (
 		<>
 			<Head>
-				<title>Partner with Karini AI for GenAI Excellence</title>
+				<title>We Partner. Everyone Wins with GenAI</title>
 				<meta
 					name="title"
 					content="Karini AI Partnerships: Lead in GenAI Innovation"
@@ -108,6 +108,7 @@ const aboutus = () => {
 				></script>
 			</Head>
 			<div
+				id="partners"
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				<Hero />
