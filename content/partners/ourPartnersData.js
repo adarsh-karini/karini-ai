@@ -3,14 +3,14 @@ export const ourCloudPartners = [
 		id: "aws",
 		image: "/assets/images/partners/aws_logo.png",
 		description:
-			"At Karini.ai, we believe in the power of strategic partnerships. That's why we've teamed up with Amazon - AWS. This partnership allows us to leverage AWS's immense power and scalability, providing a robust foundation for our GenAIOps platform. It also ensures we can offer our users cutting-edge AI and machine learning resources. Furthermore, our seamless integration with Amazon Bedrock simplifies the management and deployment of complex AI and ML workloads, offering our users an even more streamlined and efficient development experience.",
+			"We harness the power of strategic partnerships to deliver unparalleled value through our GenAI Foundation. Our collaboration with Amazon Web Services (AWS) exemplifies this approach, leveraging AWS's immense computational power and scalability to provide a robust infrastructure for our AI solutions. This partnership enables our customers cutting-edge AI and machine learning resources, significantly enhancing their capabilities. By integrating seamlessly with Amazon Bedrock, we simplify the management and deployment of complex AI workloads, streamlining the development process and accelerating time-to-value for customers. This synergy between Karini's innovative GenAI Foundation and AWS's world-class cloud infrastructure empowers organizations to rapidly prototype, deploy, and scale AI applications, driving transformative outcomes across industries.",
 		link: "https://partners.amazonaws.com/partners/0018W00002RupsKQAR/Karini%20AI#solutions--tech-product",
 	},
 	{
 		id: "microsoft",
 		image: "/assets/images/partners/microsoft_azure_logo.png",
 		description:
-			"Microsoft - Azure - Karini leverages Azure's power to provide a seamless GenAI development experience. Karini.ai integrates with various Azure services, such as Azure Blob Storage for scalable data management, Azure Machine Learning for model training and deployment, and Azure OpenAI Services for pre-built Gen AI functionalities. This integration allows you to harness the combined strengths of Karini.ai's GenAIOps platform and Azure's robust cloud infrastructure, ensuring a streamlined workflow and optimal performance for your GenAI projects on Microsoft Azure.",
+			"Our strategic partnership with Microsoft Azure elevates our GenAI Foundation to new heights of performance and scalability. By seamlessly integrating with Azure's robust cloud services, we offer our clients an unparalleled GenAI development experience. Our platform leverages Azure Blob Storage for solid data management, Azure Machine Learning for advanced model training and deployment, and Azure OpenAI Services for cutting-edge AI functionalities. This synergy between Karini's innovative GenAI Foundation and Azure's comprehensive cloud infrastructure empowers organizations to rapidly prototype, deploy, and scale AI applications with unprecedented ease. Harnessing the combined strengths of our platform and Azure&apos;s ecosystem, we ensure a streamlined workflow and optimal performance for even the most complex GenAI projects, enabling clients to drive innovation and achieve transformative outcomes in their AI initiatives.",
 		link: "https://azure.microsoft.com/en-us/",
 	},
 ];
@@ -20,7 +20,7 @@ export const ourTechnologyPartners = [
 		id: "databricks",
 		image: "/assets/images/partners/databricks_logo.png",
 		description:
-			"Databricks—Karini seamlessly integrates with Databricks, the leader in unified Data and AI platforms. The partnership unlocks scalability for handling massive GenAI datasets and streamlines Generative AI workflows by leveraging Databricks' AI set of tools to build Agentic workflows backed by Unity Catalog Governance. The collaboration ensures safe, high-quality, and governance-enabled Generative AI deployments across multiple clouds.",
+			"Integrating with Databricks, a unified data and AI leader, unlocks unprecedented scalability for handling massive GenAI datasets. Our strategic partnership streamlines AI workflows by leveraging Databricks’s comprehensive suite of tools, enabling the creation of sophisticated agentic workflows backed by Unity Catalog Governance. Our collaboration ensures that GenAI deployments are safe, high-quality, and governance-enabled across multiple cloud environments. Combining Karini’s innovative GenAI Foundation with Databricks’s robust infrastructure empowers organizations to manage and deploy AI solutions efficiently, driving transformative outcomes and maximizing their return on investment.",
 		link: "https://www.databricks.com/",
 	},
 ];
@@ -30,16 +30,16 @@ export const ourResellers = [
 		id: "dtg",
 		image: "/assets/images/partners/dtg_logo.png",
 		description:
-			"Distributed Technology Group (DTG), a leading IT innovator, is a VAR and SI partner. By partnering with Karini.ai, DTG gains access to our industry-leading GenAIOps platform, empowering them to deliver cutting-edge GenAI solutions. This collaboration aligns with DTG's commitment to transformation and our mission to make GenAI accessible. Together, we can help businesses unlock the true potential of generative AI, enhancing their competitive edge and driving growth. Distributed Technology Group (DTG) is a beacon of innovation in the IT sector.  DTG is committed to delivering transformative technology solutions through strategic partnerships and a deep understanding of industry challenges. Our dedication to excellence and strategic growth positions us as a trusted ally in navigating the ever-evolving technological landscape.",
-		link: "https://stitcloud.com/",
+			"Distributed Technology Group (DTG), a beacon of innovation in the IT sector, has forged a powerful alliance with Karini. Our strategic collaboration grants DTG access to Karini’s cutting-edge GenAI Foundation, empowering them to deliver transformative GenAI solutions to their clients. This partnership creates a formidable force in the AI landscape by leveraging Karini’s expertise and DTG’s deep understanding of industry challenges. Together, we’re committed to making advanced AI technologies accessible to businesses across various sectors, particularly in government and public services, where DTG excels. This synergy enhances DTG’s ability to deliver innovative solutions and accelerates the adoption of AI technologies, driving growth and competitive advantage for their clients. Through this partnership, we’re unlocking the true potential of GenAI, helping organizations navigate the complex technological landscape and achieve unprecedented efficiency and innovation.",
+		link: "https://dtg.com/",
 	},
 	{
 		id: "stitcloud",
 
 		image: "/assets/images/partners/Logo_stitcloud_data.png",
 		description:
-			"ST IT Cloud is a data analytics and machine learning company that uses the most innovative technologies for data analysis, developing strategies and customized solutions for each business's unique needs.  ST IT Cloud also offers consulting services to help companies understand and optimize their data, ensuring an efficient and data-driven digital transformation.",
-		link: "https://dtg.com/",
+			"ST IT Cloud, a leading Systems Integrator serving Latin America from its base in Brazil, has forged a strategic alliance with Karini to revolutionize data analytics and machine learning solutions in the region. Our partnership combines ST IT’s expertise in developing customized strategies for businesses' unique needs with Karini’s cutting-edge GenAI Foundation. Leveraging our innovative AI technologies, ST IT Cloud enhances its ability to deliver state-of-the-art data analysis and consulting services, ensuring efficient and data-driven digital transformations for its clients. This collaboration empowers Latin American enterprises to harness the full potential of GenAI, optimizing their operations and driving innovation. Karini and ST IT Cloud are accelerating the adoption of advanced AI solutions in the LATAM market, providing a competitive edge to businesses across various sectors and fostering regional technological growth",
+		link: "https://stitcloud.com/",
 	},
 ];
 
