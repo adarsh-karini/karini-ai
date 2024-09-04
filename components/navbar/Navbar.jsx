@@ -36,7 +36,7 @@ const Navbar2 = () => {
 						</Link>
 					</div>
 					<div className="hidden lg:flex justify-between space-x-8 text-base text-secondary-300">
-						<Link href={"/platforms"}>Platform</Link>
+						<Link href={"/platforms#platforms"}>Platform</Link>
 						<div
 							className="relative flex items-end space-x-1 cursor-pointer select-none"
 							onClick={() => {
@@ -52,7 +52,7 @@ const Navbar2 = () => {
 									className="z-20 border absolute top-10 bg-white drop-shadow-md p-2 rounded"
 								>
 									<Link
-										href={"/services/genai"}
+										href={"/services/genai#genai"}
 										onClick={() => setServicesDropdown(false)}
 										className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
 									>
@@ -65,7 +65,7 @@ const Navbar2 = () => {
 										</h3>
 									</Link>
 									<Link
-										href={"/services/ml"}
+										href={"/services/ml#ml"}
 										onClick={() => setServicesDropdown(false)}
 										className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
 									>
@@ -143,7 +143,7 @@ const Navbar2 = () => {
 										</p>
 										<div>
 											<Link
-												href={"/partners/databricks"}
+												href={"/partners/databricks#databricks"}
 												className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
 											>
 												<SiDatabricks
@@ -201,7 +201,7 @@ const Navbar2 = () => {
 						{/* <Link href={"/partners"}>Partners</Link> */}
 						<Link href={"/blogs"}>Blogs</Link>
 						{/* <Link href={"/pricing"}>Pricing</Link> */}
-						<Link href={"/aboutus"}>About us</Link>
+						<Link href={"/aboutus#aboutus"}>About us</Link>
 						{/* <Link href={"/careers"}>Careers</Link> */}
 						<Link href={"https://docs.karini.ai/"}>Docs</Link>
 					</div>
@@ -248,7 +248,7 @@ const Navbar2 = () => {
 							<div className=" bg-white shadow-xl">
 								<div className="space-y-4 border-b border-secondary-3x`00 p-4">
 									<Link
-										href={"/platforms"}
+										href={"/platforms#platforms"}
 										className="flex items-center gap-2 rounded-lg text-secondary-600"
 									>
 										<GiFlatPlatform size={20} className="text-secondary-600" />
@@ -290,7 +290,7 @@ const Navbar2 = () => {
 
 										<ul className="space-y-2 px-4 py-2">
 											<Link
-												href={"/services/genai"}
+												href={"/services/genai#genai"}
 												className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 											>
 												<GiArtificialHive
@@ -303,7 +303,7 @@ const Navbar2 = () => {
 											</Link>
 
 											<Link
-												href={"/services/ml"}
+												href={"/services/ml#ml"}
 												className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 											>
 												<BsCloudFog2 size={20} className="text-secondary-600" />
@@ -395,7 +395,7 @@ const Navbar2 = () => {
 												</p>
 												<div className="space-y-2 py-1">
 													<Link
-														href={"/partners/databricks"}
+														href={"/partners/databricks#databricks"}
 														className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 													>
 														<SiDatabricks
@@ -478,7 +478,7 @@ const Navbar2 = () => {
 									</Link> */}
 
 									<Link
-										href={"/aboutus"}
+										href={"/aboutus#aboutus"}
 										className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 									>
 										<BsInfoCircleFill

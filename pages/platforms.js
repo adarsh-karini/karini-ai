@@ -72,6 +72,7 @@ const platforms = () => {
 				<meta name="twitter:creator" content="Karini AI" />
 			</Head>
 			<div
+				id="platforms"
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				<Hero />

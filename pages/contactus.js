@@ -64,7 +64,7 @@ const contactus = () => {
 				<meta name="twitter:image" content="https://www.karini.ai" />
 				<meta name="twitter:creator" content="Karini AI" />
 			</Head>
-			<div className={`font-sans subpixel-antialiased bg-white`}>
+			<div id="contactus" className={`font-sans subpixel-antialiased bg-white`}>
 				{/* <Hero /> */}
 				<ContactUs />
 				<OurOffices />

@@ -4,7 +4,6 @@ import SectionThree from "@/components/partners/databricks/SectionThree";
 import SectionTwo from "@/components/partners/databricks/SectionTwo";
 import { Inter, Poppins } from "next/font/google";
 import Head from "next/head";
-import { useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -14,22 +13,6 @@ const poppins = Poppins({
 });
 
 const Databricks = () => {
-	useEffect(() => {
-		const handleScroll = () => {
-			window.scrollTo(0, 0);
-		};
-
-		// Ensures the page scrolls to the top when the component mounts
-		handleScroll();
-
-		// Optional: If you want to ensure it scrolls to top whenever the path changes
-		window.addEventListener("beforeunload", handleScroll);
-
-		return () => {
-			window.removeEventListener("beforeunload", handleScroll);
-		};
-	}, []);
-
 	return (
 		<>
 			<Head>
@@ -116,6 +99,7 @@ const Databricks = () => {
 				></script>
 			</Head>
 			<div
+				id="databricks"
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 			>
 				<Hero />
