@@ -59,6 +59,9 @@ SEO_data:
         url: "https://www.karini.ai"
     datePublished: "2024-09-04"
 related_posts:
+  - "karini-ai-embarks-on-a-new-partnership-with-databricks"
+  - "enterprise-connectivity-integrating-google-azure-confluence-dropbox"
+  - "bedrock-guardrails"
 sitemap:
   loc: "https://www.karini.ai/blogs/compound_ai_in_databricks"
   lastmod: "2024-09-04"
@@ -95,15 +98,15 @@ The GenAI foundation is a robust platform that equips enterprises with the tools
 
 Karini AI’s no-code recipes allow practitioners to swiftly build Generative AI applications by assembling a data ingestion pipeline. Whether connecting to enterprise data sources or leveraging existing data registered in Unity Catalog volumes, users can easily configure the settings to preprocess and chunk source data into LLM-ready formats, targeting Databricks vector store indexes. Once the pipeline is set up, users can execute the ingestion securely within their workspace and observe real-time updates on the progress of knowledge base generation.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wkwxLmMTJYA?si=X4cSKRzcFFq_9IrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="700" height="455" src="https://www.youtube.com/embed/wkwxLmMTJYA?si=X4cSKRzcFFq_9IrA&amp;controls=0" title="Part 1: Creating a Knowlegebase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Enterprises can use Karini AI’s prompt playground to create an Agent, beginning with a prompt template and registering relevant tools such as Databricks knowledge base, web services, messaging, custom functions, or [Databricks SQL](https://www.databricks.com/product/databricks-sql). The agentic prompt can be tested across multiple models to compare response quality and select the best-performing model. These prompt experiments can be saved in Karini AI’s prompt store for tracking and version control, allowing users to quickly revert to previous prompt versions.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/553OaYvqtrA?si=oYUFoEPqO9n13GJV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="700" height="455" src="https://www.youtube.com/embed/553OaYvqtrA?si=oYUFoEPqO9n13GJV&amp;controls=0" title="Part 2: Creating a legal agent prompt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Once the prompt is finalized, it can be deployed within a no-code recipe with output nodes. These output nodes offer optional settings for enabling intent detection, guardrails, follow-up questions, and online evaluation. The resulting chatbot can then be configured by exporting the recipe, allowing for styling and feedback options to be customized. Karini AI automatically maintains traces of the entire chain, which is invaluable for red-teaming efforts before releasing applications to production. Additionally, Karini AI keeps a record of historical conversations along with user feedback. These conversations can be exported to create fine-tuning datasets compatible with Databricks LLM fine-tuning, enabling continuous improvement of the AI models.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/87p11pmQh6I?si=uE75gRc8BeJRYaf3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="700" height="455" src="https://www.youtube.com/embed/87p11pmQh6I?si=uE75gRc8BeJRYaf3&amp;controls=0" title="Part 3: Building the legal recipe and copilot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Karini AI also offers built-in cost and performance dashboards, enabling teams to track application-level spending and monitor performance metrics for continuous optimization.
 
