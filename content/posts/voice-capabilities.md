@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-09-11"
     og:updated_time: "2024-09-11"
-    og:image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FVoice_Capabilities.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FVoice_Capabilities.png&w=640&q=75"
+    og:image: "https://www.karini.ai/assets/images/blogs/Voice_Capabilities.png"
+    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Voice_Capabilities.png"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "Karini AI Voice Capabilities"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Karini AI adds advanced voice capabilities, enabling businesses to build voice-driven conversational AI applications with seamless speech-to-text and text-to-speech automation."
     twitter:title: "Karini AI Launches Advanced Voice Capabilities"
     twitter:site: "https://www.karini.ai/announcements/voice-capabilities"
-    twitter:image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FVoice_Capabilities.png&w=640&q=75"
+    twitter:image: "https://www.karini.ai/assets/images/blogs/Voice_Capabilities.png"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/announcements/voice-capabilities"
   hreflang: "https://www.karini.ai/announcements/voice-capabilities"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/announcements/voice-capabilities"
     headline: "Karini AI Introduces Voice Capabilities for Conversational AI"
     description: "Learn how Karini AI's new voice capabilities empower businesses to leverage speech-to-text and text-to-speech features in conversational AI applications."
-    image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fblogs%2FVoice_Capabilities.png&w=640&q=75"
+    image: "https://www.karini.ai/assets/images/blogs/Voice_Capabilities.png"
     author:
       "@type": "Organization"
       name: "Karini AI"
@@ -92,4 +92,4 @@ With Karini’s speech-to-text and text-to-speech capabilities, you get:
 - **Choice to select voice models:** Select from the cutting-edge language models that provide voice capabilities.
 - **Improved customer experience:** Karini AI’s integration of state-of-the-art language models with voice automation ensures that customer interactions are natural, warm, and highly personalized. This elevates the user experience and strengthens brand loyalty by providing customers with seamless and efficient voice-driven interactions, making their experience more comfortable and enjoyable.
 
-With Karini AI, you can efficiently build, test, and deploy complex generative AI applications as recipes and copilots, all while integrating seamless voice capabilities. 
+With Karini AI, you can efficiently build, test, and deploy complex generative AI applications as recipes and copilots, all while integrating seamless voice capabilities.
