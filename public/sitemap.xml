@@ -338,4 +338,10 @@
 		<image:loc>https://www.karini.ai/assets/images/blogs/Evolution_of_Gen_AI.png</image:loc>
 	</image:image>
 </url>
+<url>
+	<loc>https://www.karini.ai/announcements/voice-capabilities</loc>
+	<lastmod>2024-09-11</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+</url>
   </urlset>
