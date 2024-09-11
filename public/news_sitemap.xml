@@ -272,4 +272,19 @@
 		<image:loc>https://www.karini.ai/assets/images/blogs/GenAIOps_best_practices.png</image:loc>
 	</image:image>
 </url>
+<url>
+	<loc>https://www.karini.ai/announcements/voice-capabilities</loc>
+	<news:news>
+		<news:publication>
+			<news:name>Karini AI Supports Voice Capabilities</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:publication_date>2024-09-11</news:publication_date>
+		<news:title>Karini AI Supports Voice Capabilities</news:title>
+		<news:keywords>Karini AI, Voice Capabilities, AI-driven Services, Conversational AI</news:keywords>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Voice_Capabilities.png</image:loc>
+	</image:image>
+</url>
 </urlset>
