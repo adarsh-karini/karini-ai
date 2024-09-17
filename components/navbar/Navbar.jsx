@@ -61,7 +61,7 @@ const Navbar2 = () => {
 											size={35}
 											className="text-primary-600 p-2 group-hover:text-white"
 										/>
-										<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
+										<h3 className="cursor-pointer text-sm text-black group-hover:text-white whitespace-nowrap">
 											Generative AI
 										</h3>
 									</Link>
@@ -74,7 +74,7 @@ const Navbar2 = () => {
 											size={35}
 											className="text-primary-600 p-2 group-hover:text-white"
 										/>
-										<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
+										<h3 className="cursor-pointer text-sm text-black group-hover:text-white whitespace-nowrap">
 											Machine Learning
 										</h3>
 									</Link>
@@ -115,7 +115,7 @@ const Navbar2 = () => {
 												className="text-black hover:text-primary-600"
 											/>
 										</Link>
-										<p className="py-1 px-2 text-sm text-primary-600 border-b">
+										<p className="py-1 px-2 text-sm text-primary-600 font-medium border-b">
 											Cloud Partners
 										</p>
 										<div className="">
@@ -132,7 +132,7 @@ const Navbar2 = () => {
 												/>
 												<h3
 													onClick={() => setPartnersDropdown(false)}
-													className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap"
+													className="cursor-pointer text-sm text-black group-hover:text-white whitespace-nowrap"
 												>
 													AWS
 												</h3>
@@ -150,7 +150,7 @@ const Navbar2 = () => {
 												/>
 												<h3
 													onClick={() => setPartnersDropdown(false)}
-													className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap"
+													className="cursor-pointer text-sm text-black group-hover:text-white whitespace-nowrap"
 												>
 													Microsoft Azure
 												</h3>
@@ -158,7 +158,7 @@ const Navbar2 = () => {
 										</div>
 									</div>
 									<div className="space-y-2">
-										<p className="py-1 px-2 text-sm text-primary-600 border-b">
+										<p className="py-1 px-2 text-sm text-primary-600 font-medium border-b">
 											Technology Partners
 										</p>
 										<div>
@@ -173,15 +173,33 @@ const Navbar2 = () => {
 												/>
 												<h3
 													onClick={() => setPartnersDropdown(false)}
-													className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap"
+													className="cursor-pointer text-sm text-black group-hover:text-white whitespace-nowrap"
 												>
 													Databricks
+												</h3>
+											</Link>
+											<Link
+												href={"/partners#teradata"}
+												className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
+											>
+												<Image
+													src={"/assets/images/partners/teradata_icon.png"}
+													alt="azure_icon"
+													height={25}
+													width={25}
+													className="text-secondary-600"
+												/>
+												<h3
+													onClick={() => setPartnersDropdown(false)}
+													className="cursor-pointer text-sm text-black group-hover:text-white whitespace-nowrap"
+												>
+													Teradata
 												</h3>
 											</Link>
 										</div>
 									</div>
 									{/* <div className="space-y-2">
-										<p className="py-1 text-sm text-primary-600 border-b">
+										<p className="py-1 text-sm text-primary-600 font-medium border-b">
 											Our Resellers
 										</p>
 										<div>
@@ -197,7 +215,7 @@ const Navbar2 = () => {
 													width={25}
 													className="p-1"
 												/>
-												<h3 className="cursor-pointer text-sm text-black font-semibold group-hover:text-white whitespace-nowrap">
+												<h3 className="cursor-pointer text-sm text-black group-hover:text-white whitespace-nowrap">
 													DTG
 												</h3>
 											</Link>
@@ -311,7 +329,7 @@ const Navbar2 = () => {
 										<ul className="space-y-2 px-4 py-2">
 											<Link
 												href={"/services/genai#genai"}
-												className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+												className="flex items-center space-x-2 rounded-lg text-sm text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 											>
 												<GiArtificialHive
 													size={20}
@@ -324,7 +342,7 @@ const Navbar2 = () => {
 
 											<Link
 												href={"/services/ml#ml"}
-												className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+												className="flex items-center space-x-2 rounded-lg text-sm text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 											>
 												<BsCloudFog2 size={20} className="text-secondary-600" />
 												<span onClick={() => setMobileMenu((prev) => !prev)}>
@@ -385,13 +403,13 @@ const Navbar2 = () => {
 														className="text-gray-500 hover:text-primary-600"
 													/>
 												</Link>
-												<p className="py-1 text-sm text-primary-600 border-b">
+												<p className="py-1 text-sm text-primary-600 font-medium border-b">
 													Cloud Partners
 												</p>
 												<div className="space-y-2 py-1">
 													<Link
 														href={"/partners#aws"}
-														className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+														className="flex items-center space-x-2 rounded-lg text-sm text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 													>
 														<Image
 															src={"/assets/images/partners/aws_icon.jpeg"}
@@ -411,7 +429,7 @@ const Navbar2 = () => {
 
 													<Link
 														href={"/partners#microsoft"}
-														className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+														className="flex items-center space-x-2 rounded-lg text-sm text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 													>
 														<Image
 															src={"/assets/images/partners/azure_icon.jpeg"}
@@ -432,13 +450,13 @@ const Navbar2 = () => {
 											</div>
 
 											<div className="space-y-2">
-												<p className="py-1 text-sm text-primary-600 border-b">
+												<p className="py-1 text-sm text-primary-600 font-medium border-b">
 													Technology Partners
 												</p>
 												<div className="space-y-2 py-1">
 													<Link
 														href={"/partners/databricks#databricks"}
-														className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+														className="flex items-center space-x-2 rounded-lg text-sm text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 													>
 														<SiDatabricks
 															size={20}
@@ -453,17 +471,35 @@ const Navbar2 = () => {
 															Databricks
 														</span>
 													</Link>
+													<Link
+														href={"/partners#teradata"}
+														className="flex items-center space-x-2 rounded-lg text-sm text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+													>
+														<Image
+															src={"/assets/images/partners/teradata_icon.png"}
+															alt="azure_icon"
+															height={22}
+															width={22}
+															className="text-secondary-600"
+														/>
+														<span
+															onClick={() => setMobileMenu((prev) => !prev)}
+															className="text-sm"
+														>
+															Teradata
+														</span>
+													</Link>
 												</div>
 											</div>
 											{/* <div className="space-y-2">
-												<p className="py-1 text-sm text-primary-600 border-b">
+												<p className="py-1 text-sm text-primary-600 font-medium border-b">
 													Our Resellers
 												</p>
 												<div className="space-y-2 py-1">
 													<Link
 													
 														href={"/partners#dtg"}
-														className="flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+														className="flex items-center space-x-2 rounded-lg text-sm text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 													>
 														<Image
 															src={"/assets/images/partners/dtg_icon.png"}
@@ -478,7 +514,7 @@ const Navbar2 = () => {
 											</div> */}
 											<Link
 												href={"/partners#become-a-partner"}
-												className="border-t pt-2 flex items-center space-x-2 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+												className="border-t pt-2 flex items-center space-x-2 rounded-lg text-sm text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 											>
 												<span
 													onClick={() => setMobileMenu((prev) => !prev)}

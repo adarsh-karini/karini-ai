@@ -23,6 +23,13 @@ export const ourTechnologyPartners = [
 			"Integrating with Databricks, a unified data and AI leader, unlocks unprecedented scalability for handling massive GenAI datasets. Our strategic partnership streamlines AI workflows by leveraging Databricks’s comprehensive suite of tools, enabling the creation of sophisticated agentic workflows backed by Unity Catalog Governance. Our collaboration ensures that GenAI deployments are safe, high-quality, and governance-enabled across multiple cloud environments. Combining Karini’s innovative GenAI Foundation with Databricks’s robust infrastructure empowers organizations to manage and deploy AI solutions efficiently, driving transformative outcomes and maximizing their return on investment.",
 		link: "https://www.databricks.com/",
 	},
+	{
+		id: "teradata",
+		image: "/assets/images/partners/teradata_logo.png",
+		description:
+			"The Teradata partnership means users can now leverage Karini AI's GenAI foundation to supercharge their AI initiatives, combining Teradata's trusted data platform with cutting-edge generative AI capabilities. This partnership enables Teradata customers to integrate GenAI into their existing data ecosystems, accelerating time-to-value and enhancing ROI. Karini AI's no-code canvas and rapid prototyping capabilities complement Teradata's ClearScape Analytics™, allowing users to quickly develop and deploy GenAI applications while maintaining the scalability and reliability they expect from Teradata. By utilizing Karini AI's GenAI foundation, Teradata users cannot only automate complex workflows but also unlock new insights from their data, inspiring innovation across their organizations. This powerful combination empowers enterprises to stay at the forefront of the AI revolution, making more informed decisions and gaining a competitive edge in their respective industries.",
+		link: "https://www.teradata.com/",
+	},
 ];
 
 export const ourResellers = [
