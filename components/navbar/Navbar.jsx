@@ -237,7 +237,7 @@ const Navbar2 = () => {
 						</div>
 						{/* <Link href={"/solutions"}>Solutions</Link> */}
 						{/* <Link href={"/partners"}>Partners</Link> */}
-						<Link href={"/blogs"}>Blogs</Link>
+						<Link href={"/blogs"}>Resources</Link>
 						{/* <Link href={"/pricing"}>Pricing</Link> */}
 						<Link href={"/aboutus#aboutus"}>About us</Link>
 						{/* <Link href={"/careers"}>Careers</Link> */}
@@ -540,8 +540,7 @@ const Navbar2 = () => {
 											onClick={() => setMobileMenu((prev) => !prev)}
 											className="text-sm font-medium"
 										>
-											{" "}
-											Blogs{" "}
+											Resources
 										</span>
 									</Link>
 
