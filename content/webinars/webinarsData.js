@@ -1,7 +1,7 @@
 export const webinarsData = [
 	{
 		path: "/genai_foundation_best_practices",
-		image: "/assets/images/blogs/Beyond_Limits.png",
+		image: "/assets/images/webinars/Accelerate-Your-GenAI-Projects.png",
 		imageAltName: "Beyond Limits",
 		title:
 			"Best practices to set up GenAI foundations to accelerate GenAI Projects",
@@ -12,7 +12,7 @@ export const webinarsData = [
 	},
 	{
 		path: "/master_genai_agents_knowledgegraph_karini_neo4j",
-		image: "/assets/images/blogs/Beyond_Limits.png",
+		image: "/assets/images/webinars/Master-Practical-GenAI-Agents.png",
 		imageAltName: "Beyond Limits",
 		title:
 			"Master Practical GenAI Agents with KnowledgeGraph using Karini AI and Neo4J",
