@@ -19,9 +19,7 @@ const index = () => {
 	return (
 		<>
 			<Head>
-				<title>
-					Karini AI: GenAIOps - Generative AI for Enterprise Applications
-				</title>
+				<title>KariniAI: GenAIFoundation for Enterprise Generative AI</title>
 				<meta
 					name="title"
 					content="No code platform connecting for GenAI Operationalization"

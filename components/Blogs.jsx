@@ -11,11 +11,12 @@ import { FaRegClock } from "react-icons/fa";
 import { IoCalendarNumberOutline } from "react-icons/io5";
 
 const Blogs = ({ postMetadata }) => {
-	let filterButtons = ["all", "blogs", "announcements"];
+	let filterButtons = ["all", "blogs", "announcements", "webinars"];
 
 	const [activeFilter, setActiveFilter] = useState("all");
 	const [filteredPosts, setFilteredPosts] = useState([]);
 	const [blogsArray, setBlogsArray] = useState([]);
+	const [webinarsArray, setWebinarsArray] = useState([]);
 	const [pages, setPages] = useState(1);
 	const [currentPage, setCurrentPage] = useState(1);
 	const handlePagination = (pageNumber) => {
@@ -27,10 +28,15 @@ const Blogs = ({ postMetadata }) => {
 	useEffect(() => {
 		let posts = postMetadata.filter((post) => post.show);
 
+		console.log("posts", posts);
+
 		let announcements = postMetadata.filter(
 			(post) => post.type === "announcement"
 		);
 		let blogs = postMetadata.filter((post) => post.type === "blog");
+
+		let webinars = postMetadata.filter((post) => post.type === "webinar");
+		console.log("webinars", webinars);
 
 		let allPosts = [...announcements, ...blogs];
 
@@ -52,6 +58,10 @@ const Blogs = ({ postMetadata }) => {
 			let pagesCount = Math.ceil(announcements.length / 6);
 			setPages(pagesCount);
 			setFilteredPosts(sortedPostsByDate(announcements));
+		} else if (activeFilter === "webinars") {
+			let pagesCount = Math.ceil(webinars.length / 6);
+			setPages(pagesCount);
+			setFilteredPosts(sortedPostsByDate(webinars));
 		}
 	}, [activeFilter, postMetadata]);
 
@@ -90,7 +100,6 @@ const Blogs = ({ postMetadata }) => {
 				<h1 className="text-black font-bold text-2xl sm:text-3xl text-center">
 					Blogs & Announcements
 				</h1>
-				{/* grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  */}
 				<div className="space-y-6">
 					<div className="pb-2 border-b border-b-secondary-200">
 						<div className="space-x-2">
@@ -230,10 +239,12 @@ const Blogs = ({ postMetadata }) => {
 															className={`${
 																blog.type === "blog"
 																	? "bg-primary-500 border-primary-500"
+																	: blog.type === "webinar"
+																	? "bg-blue-500 border-blue-500"
 																	: "bg-[#e100ff] border-[#e100ff]"
 															} text-xs text-white border rounded-full py-1 px-2`}
 														>
-															{blog.type === "blog" ? "blog" : "announcement"}
+															{blog.type}
 														</span>
 														<div className="flex items-center space-x-2 px-2 py-1 rounded-full border shadow text-secondary-600 text-xs">
 															<IoCalendarNumberOutline size={14} className="" />
