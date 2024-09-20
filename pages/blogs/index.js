@@ -3,6 +3,7 @@ import Head from "next/head";
 import fs from "fs";
 import matter from "gray-matter";
 import Blogs from "@/components/Blogs";
+import Webinars from "@/components/Webinars";
 
 export async function getStaticProps() {
 	const folder = "./content/posts";
@@ -83,6 +84,7 @@ const blog = ({ postMetadata }) => {
 			</Head>
 			<div className={`font-sans subpixel-antialiased bg-white`}>
 				<Blogs postMetadata={postMetadata} />
+				<Webinars />
 			</div>
 		</>
 	);
