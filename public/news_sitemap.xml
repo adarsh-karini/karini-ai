@@ -117,6 +117,21 @@
 	</image:image>
 </url>
 <url>
+	<loc>https://www.karini.ai/webinars/genai-foundations</loc>
+	<news:news>
+		<news:publication>
+			<news:name>Best practices to set up GenAI foundations to accelerate GenAI Projects</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:publication_date>2024-07-09</news:publication_date>
+		<news:title>Best practices to set up GenAI foundations to accelerate GenAI Projects</news:title>
+		<news:keywords>generative AI, Karini AI, enterprise AI</news:keywords>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/webinars/Accelerate-Your-GenAI-Projects.png</image:loc>
+	</image:image>
+</url>
+<url>
 	<loc>https://www.karini.ai/blogs/genai_visibility</loc>
 	<news:news>
 		<news:publication>
@@ -246,6 +261,21 @@
 	</news:news>
 	<image:image>
 		<image:loc>https://www.karini.ai/assets/images/blogs/Boost-Your-Gen-AI-Performance.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/webinars/master-genai-agents</loc>
+	<news:news>
+		<news:publication>
+			<news:name>Master Practical GenAI Agents with KnowledgeGraph using Karini AI and Neo4J</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:publication_date>2024-08-19</news:publication_date>
+		<news:title>Master Practical GenAI Agents with KnowledgeGraph using Karini AI and Neo4J</news:title>
+		<news:keywords>generative AI, Karini AI, enterprise AI</news:keywords>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/webinars/Master-Practical-GenAI-Agents.png</image:loc>
 	</image:image>
 </url>
 <url>

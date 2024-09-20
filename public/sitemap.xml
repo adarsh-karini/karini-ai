@@ -171,6 +171,15 @@
 	</image:image>
 </url>
 <url>
+	<loc>https://www.karini.ai/webinars/genai-foundations</loc>
+	<lastmod>2024-07-09</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/webinars/Accelerate-Your-GenAI-Projects.png</image:loc>
+	</image:image>
+</url>
+<url>
 	<loc>https://www.karini.ai/blogs/genai_visibility</loc>
 	<lastmod>2024-04-12</lastmod>
 	<changefreq>monthly</changefreq>
@@ -277,6 +286,15 @@
 	<lastmod>2024-07-28</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.karini.ai/webinars/master-genai-agents</loc>
+	<lastmod>2024-08-19</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/webinars/Master-Practical-GenAI-Agents.png</image:loc>
+	</image:image>
 </url>
 <url>
 	<loc>https://www.karini.ai/blogs/mastering-generative-ai</loc>

@@ -11,7 +11,7 @@ import { FaRegClock } from "react-icons/fa";
 import { IoCalendarNumberOutline } from "react-icons/io5";
 
 const Blogs = ({ postMetadata }) => {
-	let filterButtons = ["all", "blogs", "announcements", "webinars"];
+	let filterButtons = ["all", "blog", "announcement", "webinar"];
 
 	const [activeFilter, setActiveFilter] = useState("all");
 	const [filteredPosts, setFilteredPosts] = useState([]);
@@ -23,46 +23,24 @@ const Blogs = ({ postMetadata }) => {
 		setCurrentPage(pageNumber);
 	};
 
-	console.log("blogsArray", blogsArray);
-
 	useEffect(() => {
 		let posts = postMetadata.filter((post) => post.show);
 
-		console.log("posts", posts);
-
-		let announcements = postMetadata.filter(
-			(post) => post.type === "announcement"
-		);
-		let blogs = postMetadata.filter((post) => post.type === "blog");
-
-		let webinars = postMetadata.filter((post) => post.type === "webinar");
-		console.log("webinars", webinars);
-
-		let allPosts = [...announcements, ...blogs];
-
-		let sortedPostsByDate = (posts) => {
-			let result = posts.sort((a, b) => moment(b.date).diff(moment(a.date)));
-
-			return result;
+		const sortedPostsByDate = (posts) => {
+			return posts.sort((a, b) => moment(b.date).diff(moment(a.date)));
 		};
 
-		if (activeFilter === "all") {
-			let pagesCount = Math.ceil(allPosts.length / 6);
-			setPages(pagesCount);
-			setFilteredPosts(sortedPostsByDate(posts));
-		} else if (activeFilter === "blogs") {
-			let pagesCount = Math.ceil(blogs.length / 6);
-			setPages(pagesCount);
-			setFilteredPosts(sortedPostsByDate(blogs));
-		} else if (activeFilter === "announcements") {
-			let pagesCount = Math.ceil(announcements.length / 6);
-			setPages(pagesCount);
-			setFilteredPosts(sortedPostsByDate(announcements));
-		} else if (activeFilter === "webinars") {
-			let pagesCount = Math.ceil(webinars.length / 6);
-			setPages(pagesCount);
-			setFilteredPosts(sortedPostsByDate(webinars));
-		}
+		const filterPosts = (filter) => {
+			if (filter === "all") {
+				return posts;
+			}
+			return postMetadata.filter((post) => post.type === filter); // removing 's' from the filter
+		};
+
+		let filtered = filterPosts(activeFilter);
+		let pagesCount = Math.ceil(filtered.length / 6);
+		setPages(pagesCount);
+		setFilteredPosts(sortedPostsByDate(filtered));
 	}, [activeFilter, postMetadata]);
 
 	useEffect(() => {
@@ -116,7 +94,7 @@ const Blogs = ({ postMetadata }) => {
 										setCurrentPage(1);
 									}}
 								>
-									{button}
+									{button === "all" ? "all" : `${button}s`}
 								</button>
 							))}
 						</div>
