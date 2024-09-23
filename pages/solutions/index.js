@@ -63,7 +63,7 @@ const solutions = () => {
 				<meta name="twitter:image" content="https://www.karini.ai" />
 				<meta name="twitter:creator" content="Karini AI" />
 			</Head>
-			<div id="contactus" className={`font-sans subpixel-antialiased bg-white`}>
+			<div id="solutions" className={`font-sans subpixel-antialiased bg-white`}>
 				<Hero />
 				<Solutions />
 			</div>

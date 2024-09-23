@@ -238,7 +238,7 @@ const Navbar2 = () => {
 						{/* <Link href={"/solutions"}>Solutions</Link> */}
 						{/* <Link href={"/partners"}>Partners</Link> */}
 						<Link href={"/blogs"}>Resources</Link>
-						<Link href={"/solutions"}>Solutions</Link>
+						<Link href={"/solutions#solutions"}>Solutions</Link>
 						{/* <Link href={"/pricing"}>Pricing</Link> */}
 						<Link href={"/aboutus#aboutus"}>About us</Link>
 						{/* <Link href={"/careers"}>Careers</Link> */}
@@ -546,7 +546,7 @@ const Navbar2 = () => {
 									</Link>
 
 									<Link
-										href={"/solutions"}
+										href={"/solutions#solutions"}
 										className="flex items-center gap-2 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 									>
 										<BsBookmarkStarFill
