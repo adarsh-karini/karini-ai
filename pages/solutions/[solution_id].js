@@ -3,13 +3,13 @@ import { useRouter } from "next/router";
 import { Inter, Poppins } from "next/font/google";
 
 import { solutionsData } from "@/content/solutions/solutionsData";
-import Hero from "@/components/solutions/Hero";
-import Challenges from "@/components/solutions/solution_details/ChallengesSection";
 import ChallengesSection from "@/components/solutions/solution_details/ChallengesSection";
 import SolutionSection from "@/components/solutions/solution_details/SolutionSection";
 import BenefitsSection from "@/components/solutions/solution_details/BenefitsSection";
 import RestDataSection from "@/components/solutions/solution_details/RestDataSection";
 import Head from "next/head";
+import Hero from "@/components/solutions/solution_details/Hero";
+import BreadCrumb from "@/components/solutions/solution_details/BreadCrumb";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -106,6 +106,7 @@ const Solution = () => {
 					<div
 						className={`${poppins.variable} font-sans subpixel-antialiased bg-white`}
 					>
+						<BreadCrumb title={solutionData?.details?.title} />
 						<Hero
 							title={solutionData.details.title}
 							// overview={solutionsData?.overview}

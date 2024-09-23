@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 
 const Hero = ({ title, overview }) => {
 	return (
@@ -15,7 +17,7 @@ const Hero = ({ title, overview }) => {
 									<h1 className="text-left text-xl font-semibold text-black md:text-3xl">
 										{title}
 									</h1>
-									<p className="text-left text-gray-600 text-sm">{overview}</p>
+									{/* <p className="text-left text-gray-600 text-sm">{overview}</p> */}
 								</div>
 							</div>
 							<div className="flex-1 bg-primary-400 py-20"></div>
