@@ -1,30 +1,37 @@
 import React from "react";
 
-const Hero = () => {
-  return (
-    <header className="relative bg-solution_img bg-cover ">
-      <div className="h-full w-full opacity-60 absolute bg-black"></div>
-      <div className="mx-auto max-w-screen-2xl">
-        <section>
-          <div className="relative flex flex-col items-center justify-center py-14 md:py-32 md:pb-52">
-            <div className="z-10 space-y-2 lg:space-y-3 px-4 max-w-screen-xl">
-              <h1 className="text-center text-2xl font-semibold text-white md:text-3xl lg:text-4xl">
-                Our Solutions
-              </h1>
-              <p className="max-w-screen-lg px-10 lg:px-0 text-center text-secondary-100 text-xs sm:text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestias, rem quo. Rem dolore accusantium architecto eius
-                error, distinctio quibusdam sequi enim quidem excepturi impedit
-                vero consequuntur, alias, ratione praesentium voluptatum?
-                Explicabo quam vitae accusamus nemo dolores possimus expedita
-                error ut.
-              </p>
-            </div>
-          </div>
-        </section>
-      </div>
-    </header>
-  );
+const Hero = ({ title, overview }) => {
+	return (
+		<header className="bg-white">
+			<div className="mx-auto max-w-screen-2xl">
+				<section>
+					<div className="relative flex flex-col items-center justify-center px-4 lg:px-0 py-10 lg:py-20">
+						<div className="absolute p-20 md:p-32 rounded-full left-0 md:left-1/4 top-10 md:top-20 bg-primary-100 blur-2xl"></div>
+						<div className="absolute p-20 md:p-32 rounded-full right-0 bottom-0 bg-primary-100 blur-2xl"></div>
+
+						<div className="max-w-screen-lg z-10 flex justify-between space-x-4">
+							<div className="flex-1 md:px-0">
+								<div className=" space-y-1">
+									<h1 className="text-left text-xl font-semibold text-black md:text-3xl">
+										{title}
+									</h1>
+									{/* <p className="text-left text-gray-600 text-sm">{overview}</p> */}
+									{/* <p className="text-left text-gray-600 text-sm">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Aspernatur dolor nihil quasi iste earum, repudiandae, quod
+										delectus alias tenetur similique quae sed repellat pariatur
+										sint harum beatae atque. Quae ab impedit debitis nam
+										praesentium possimus ipsum enim in quibusdam facilis!
+									</p> */}
+								</div>
+							</div>
+							<div className="flex-1 bg-primary-400 py-20"></div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</header>
+	);
 };
 
 export default Hero;
