@@ -129,7 +129,30 @@ const PostPage = ({ solution_id, post }) => {
 						<article className="flex-1 prose max-w-max mx-auto py-2">
 							<Markdown>{post.content}</Markdown>
 						</article>
-						<div className="abosolute hidden md:block">hello</div>
+						<div className="z-10 hidden md:block w-[340px] py-4">
+							<div className="bg-gradient-to-r from-primary-50 to-white border border-primary-100 rounded-2xl shadow p-4 space-y-4">
+								<div className="space-y-2">
+									<p className="text-black font-medium text-3xl tracking-tighter leading-tight">
+										Do you want to hear more from us ?
+									</p>
+									<p className="text-sm text-secondary-600">
+										Discover how Karini AI can accelerate the creation of your
+										Generative AI applications, ensuring both speed and
+										security.
+									</p>
+								</div>
+								<div>
+									<Link
+										href={"/contactus#contactus"}
+										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
+									>
+										<button className="w-full bg-teal-600 text-white font-medium px-3 py-2 border border-teal-600 rounded-full shadow-xl">
+											Contact Us
+										</button>
+									</Link>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

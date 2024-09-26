@@ -129,8 +129,8 @@ const PostPage = ({ solution_id, post }) => {
 						<article className="flex-1 prose max-w-max mx-auto py-2">
 							<Markdown>{post.content}</Markdown>
 						</article>
-						<div className="z-10 hidden md:block w-[340px] bg-white py-4">
-							<div className="border rounded-2xl shadow p-4 space-y-4">
+						<div className="z-10 hidden md:block w-[340px] py-4">
+							<div className="bg-gradient-to-r from-primary-50 to-white border border-primary-100 rounded-2xl shadow p-4 space-y-4">
 								<div className="space-y-2">
 									<p className="text-black font-medium text-3xl tracking-tighter leading-tight">
 										Do you want to hear more from us ?

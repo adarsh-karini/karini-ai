@@ -176,45 +176,26 @@ const Solutions = ({ solutionsMetadata, solutionTypes }) => {
 										</div>
 									))}
 							</div>
-							{/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-								{solutionsData &&
-									solutionsData.length > 0 &&
-									solutionsData.map((solution, index) => (
-										<Link
-											key={index}
-											href={`/solutions/${solution.card_data.path}`}
-										>
-											<div className="h-full bg-white flex flex-col border border-secondary-300 rounded shadow p-4 space-y-4 hover:scale-105 transition">
-												<div className="h-[300px] w-full">
-													<Image
-														alt={solution.card_data.image_alt_tag}
-														title={solution.card_data.image_alt_tag}
-														src={solution.card_data.image}
-														width={500}
-														height={500}
-														className="object-cover rounded-md h-full"
-													/>
-												</div>
-												<div className="flex-1 flex flex-col space-y-4">
-													<h3 className="text-base text-black font-medium hover:text-primary-600 hover:underline">
-														{solution.card_data.title}
-													</h3>
-												</div>
-												<div className="flex justify-end items-center">
-													<div className="flex-1 md:flex-none flex items-center space-x-1">
-														<span className="text-xs text-primary-600 text-left font-medium hover:underline">
-															Read More
-														</span>
-														<MdOutlineArrowRightAlt
-															size={20}
-															className="text-primary-600"
-														/>
-													</div>
-												</div>
-											</div>
-										</Link>
-									))}
-							</div> */}
+						</div>
+					</div>
+					<div className="py-6 flex justify-center items-center">
+						<div className="flex items-center space-x-1">
+							{pages &&
+								pages > 1 &&
+								Array.from({ length: pages }).map((_, i) => (
+									<button
+										key={i}
+										type="button"
+										className={`${
+											i + 1 === currentPage
+												? "bg-primary-600 text-white"
+												: "bg-white border-secondary-300 text-black hover:bg-primary-50 hover:text-primary-600 hover:border-primary-400 transition"
+										} py-1 px-3 border rounded text-sm`}
+										onClick={() => handlePagination(i + 1)}
+									>
+										{i + 1}
+									</button>
+								))}
 						</div>
 					</div>
 				</div>

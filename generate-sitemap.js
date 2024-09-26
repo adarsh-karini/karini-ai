@@ -87,6 +87,12 @@ function generateSitemap() {
       <lastmod>2024-01-10</lastmod> 
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
+    </url>
+	<url>
+      <loc>https://www.karini.ai/solutions</loc>
+      <lastmod>2024-09-26</lastmod> 
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
     </url>`;
 
 	// Process each markdown file
