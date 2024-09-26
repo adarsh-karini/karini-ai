@@ -68,6 +68,12 @@
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
+	<url>
+      <loc>https://www.karini.ai/solutions</loc>
+      <lastmod>2024-09-26</lastmod> 
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
     <url>
 	<loc>https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems</loc>
 	<lastmod>2024-04-25</lastmod>

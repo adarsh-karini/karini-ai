@@ -61,7 +61,7 @@ const PostPage = ({ solution_id, post }) => {
 			>
 				{/* <BreadCrumb title={post.data.title} />
 				<div className="h-10 w-full bg-black"></div> */}
-				<div className="border-b">
+				<div className="bg-stone-100 border-b">
 					<div className="max-w-screen-xl mx-auto p-4 space-y-6">
 						<Link href="/solutions#solutions">
 							<button className="flex text-primary-600">
@@ -69,14 +69,14 @@ const PostPage = ({ solution_id, post }) => {
 								<span className="text-xs">Back</span>
 							</button>
 						</Link>
-						<div className="w-full flex space-x-6 py-10">
-							<div className="w-2/5 flex flex-col justify-between">
+						<div className="w-full lg:flex lg:space-x-6 space-y-3 lg:space-y-0 py-5 lg:py-10">
+							<div className="w-full lg:w-2/5 flex flex-col justify-between">
 								<h1 className="text-black text-lg sm:text-xl md:text-2xl xl:text-3xl font-semibold tracking-tighter pb-2 leading-normal">
 									{post.data.hero_title}
 								</h1>
 								{/* <div className="pt-2 flex flex-col sm:flex-row justify-between space-y-2 sm:space-y-0">
 									<div className="flex items-center space-x-2">
-										<p className="text-xs md:text-sm text-secondary-600 font-medium">
+										<p className="text-xs lg:text-sm text-secondary-600 font-medium">
 											Share this post
 										</p>
 										<div className="flex items-center space-x-2">
@@ -110,17 +110,16 @@ const PostPage = ({ solution_id, post }) => {
 									</div>
 								</div> */}
 							</div>
-							<div className="flex-1 flex items-center justify-end">
+							<div className="w-full lg:flex-1 ">
 								<Image
 									src={post.data.hero_image}
 									alt={post.data.hero_image_alt_name}
 									width={800}
 									height={500}
-									className="rounded-md h-[300px]"
+									className="rounded-md h-[200px] lg:h-[300px]"
 									priority
 								/>
 							</div>
-							{/* <div className="flex-1 bg-primary-400 py-20"></div> */}
 						</div>
 					</div>
 				</div>
@@ -129,7 +128,7 @@ const PostPage = ({ solution_id, post }) => {
 						<article className="flex-1 prose max-w-max mx-auto py-2">
 							<Markdown>{post.content}</Markdown>
 						</article>
-						<div className="z-10 hidden md:block w-[340px] py-4">
+						<div className="z-10 w-full lg:w-[340px] py-4">
 							<div className="bg-gradient-to-r from-primary-50 to-white border border-primary-100 rounded-2xl shadow p-4 space-y-4">
 								<div className="space-y-2">
 									<p className="text-black font-medium text-3xl tracking-tighter leading-tight">
