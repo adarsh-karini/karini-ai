@@ -1,4 +1,3 @@
-import { solutionsData } from "@/content/solutions/solutionsData";
 import Image from "next/image";
 import moment from "moment";
 import Link from "next/link";
@@ -8,9 +7,6 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 import SolutionFilters from "./SolutionFilters";
 
 const Solutions = ({ solutionsMetadata, solutionTypes }) => {
-	console.log("solutionsMetadata", solutionsMetadata);
-	console.log("solutionTypes", solutionTypes);
-
 	const [filters, setFilters] = useState([]);
 	const [activeFilters, setActiveFilters] = useState([]);
 	const [filteredSolutions, setFilteredSolutions] = useState([]);
@@ -21,13 +17,7 @@ const Solutions = ({ solutionsMetadata, solutionTypes }) => {
 		setCurrentPage(pageNumber);
 	};
 
-	console.log("filters", filters);
-	console.log("activeFilters", activeFilters);
-	console.log("filteredSolutions", filteredSolutions);
-	console.log("solutionsArray", solutionsArray);
-
 	const handleFilterChange = (filter) => {
-		console.log("filterbbb", filter);
 		let result;
 		if (activeFilters.includes(filter)) {
 			result = activeFilters.filter((item) => item !== filter);
@@ -37,8 +27,6 @@ const Solutions = ({ solutionsMetadata, solutionTypes }) => {
 			result = [...activeFilters, filter];
 			setActiveFilters(result);
 		}
-
-		console.log("result123_final", result);
 	};
 
 	const handleResetFilters = () => {
@@ -57,8 +45,6 @@ const Solutions = ({ solutionsMetadata, solutionTypes }) => {
 			return;
 		}
 
-		console.log("posts123", posts);
-
 		let all_tags = [];
 		posts.map((solution) => {
 			let tags = solution.tags;
@@ -66,21 +52,16 @@ const Solutions = ({ solutionsMetadata, solutionTypes }) => {
 		});
 
 		all_tags = [...new Set(all_tags)];
-		console.log("all_tags", all_tags);
 
 		const filterPosts = (filter) => {
-			console.log("54_tags", all_tags);
-			console.log("54_filter", filter);
 			let result;
 
 			return posts.filter((post) => {
-				console.log("post111", post);
 				return filter.some((tag) => post.tags.includes(tag));
 			});
 		};
 
 		let filtered = filterPosts(activeFilters);
-		console.log("filtered123", filtered);
 		let pagesCount = Math.ceil(filtered.length / 6);
 		setPages(pagesCount);
 		setFilteredSolutions(sortedPostsByDate(filtered));
@@ -91,8 +72,6 @@ const Solutions = ({ solutionsMetadata, solutionTypes }) => {
 
 		let sliceStart = (currentPage - 1) * 6;
 		let sliceEnd = currentPage * 6;
-
-		console.log("filteredSolutionseee", filteredSolutions);
 
 		let postsArray = filteredSolutions.slice(sliceStart, sliceEnd);
 

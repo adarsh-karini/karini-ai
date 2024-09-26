@@ -10,7 +10,6 @@ const SolutionFilters = ({
 	solutionsMetadata,
 	solutionTypes,
 }) => {
-	console.log("filters123", filters);
 	const [solution_types, setSolution_types] = useState([]);
 
 	useEffect(() => {
@@ -21,14 +20,11 @@ const SolutionFilters = ({
 			filtersData.push(...tags);
 		});
 
-		console.log("filtersData", filtersData);
 		setFilters([...new Set(filtersData)]);
 	}, [solutionsMetadata]);
 
 	useEffect(() => {
 		let allTypes = [];
-
-		console.log("solutionsMetadata555", solutionsMetadata);
 
 		for (let solution of solutionsMetadata) {
 			if (!allTypes.some((item) => Object.keys(item)[0] === solution.type)) {
@@ -37,8 +33,6 @@ const SolutionFilters = ({
 				});
 			}
 		}
-
-		console.log("allTypes", allTypes);
 
 		setSolution_types(allTypes);
 	}, [solutionTypes]);

@@ -21,7 +21,6 @@ const poppins = Poppins({
 });
 
 const PostPage = ({ solution_id, post }) => {
-	console.log("post_solutions", post);
 	return (
 		<>
 			<Head>
@@ -177,8 +176,6 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
 	const folder = "./content/solutions";
 	const file = `${folder}/${params.solution_id}.md`;
-
-	console.log("file111", file);
 
 	let post = {
 		content: "Post not found.",
