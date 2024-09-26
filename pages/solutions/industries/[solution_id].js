@@ -136,8 +136,9 @@ const PostPage = ({ solution_id, post }) => {
 										Do you want to hear more from us ?
 									</p>
 									<p className="text-sm text-secondary-600">
-										See how Dataiku can help bring your Generative AI
-										applications to life quickly and safely.
+										Discover how Karini AI can accelerate the creation of your
+										Generative AI applications, ensuring both speed and
+										security.
 									</p>
 								</div>
 								<div>
