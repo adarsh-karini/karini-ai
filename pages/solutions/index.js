@@ -1,10 +1,43 @@
 import Hero from "@/components/solutions/Hero";
 import Solutions from "@/components/solutions/Solutions";
-import { Inter, Poppins } from "next/font/google";
 import Head from "next/head";
-const inter = Inter({ subsets: ["latin"] });
+import fs from "fs";
+import matter from "gray-matter";
 
-const solutions = () => {
+export async function getStaticProps() {
+	const folder = "./content/solutions";
+	const files = fs.readdirSync(folder);
+	const markdownSolutions = files.filter((file) => file.endsWith(".md"));
+
+	let solutionTypes = [];
+
+	const solutions = markdownSolutions.map((fileName, index) => {
+		const fileContents = fs.readFileSync(`${folder}/${fileName}`, "utf8");
+		const matterResult = matter(fileContents);
+
+		if (matterResult.data.type) {
+			solutionTypes.push(matterResult.data.type);
+
+			return {
+				type: matterResult.data.type,
+				show: matterResult.data.show,
+				slug: fileName.replace(".md", ""),
+				tags: matterResult.data.tags,
+				card_data: matterResult.data.card_data,
+				date: matterResult.data.date,
+			};
+		}
+	});
+
+	return {
+		props: {
+			solutionsMetadata: solutions,
+			solutionTypes: [...new Set(solutionTypes)],
+		},
+	};
+}
+
+const solutions = ({ solutionsMetadata, solutionTypes }) => {
 	return (
 		<>
 			<Head>
@@ -65,7 +98,10 @@ const solutions = () => {
 			</Head>
 			<div id="solutions" className={`font-sans subpixel-antialiased bg-white`}>
 				<Hero />
-				<Solutions />
+				<Solutions
+					solutionsMetadata={solutionsMetadata}
+					solutionTypes={solutionTypes}
+				/>
 			</div>
 		</>
 	);

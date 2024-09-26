@@ -10,13 +10,12 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 import { FaRegClock } from "react-icons/fa";
 import { IoCalendarNumberOutline } from "react-icons/io5";
 
-const Blogs = ({ postMetadata }) => {
-	let filterButtons = ["all", "blog", "announcement", "webinar"];
+const Blogs = ({ postMetadata, blogTypes }) => {
+	let filterButtons = ["all", ...blogTypes];
 
 	const [activeFilter, setActiveFilter] = useState("all");
 	const [filteredPosts, setFilteredPosts] = useState([]);
 	const [blogsArray, setBlogsArray] = useState([]);
-	const [webinarsArray, setWebinarsArray] = useState([]);
 	const [pages, setPages] = useState(1);
 	const [currentPage, setCurrentPage] = useState(1);
 	const handlePagination = (pageNumber) => {
