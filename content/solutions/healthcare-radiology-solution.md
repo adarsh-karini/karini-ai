@@ -1,24 +1,24 @@
 ---
-type: Industries
+type: industries
 tags:
-  - Healthcare
+  - healthcare
 show: true
 card_data:
   title: Radiology
   description: Revolutionizing Radiology with Vision Language Models(VLMs).
-  image: /assets/images/solutions/Radiology sqaure.png
+  image: /assets/images/solutions/Radiology_sqaure.png
   image_alt_name: Radiology AI transformation
   theme_color: "#84cc16"
 date: "2024-09-30"
 hero_title: Revolutionizing Radiology with Vision Language Models(VLMs)
-hero_image: "/assets/images/solutions/Radiology Banner.png"
+hero_image: "/assets/images/solutions/Radiology_Banner.png"
 hero_image_alt_name: "Radiology GenAI transformation"
 SEO_title: Revolutionizing Radiology with Vision Language Models(VLMs)
 SEO_data:
   metadata:
     title: Revolutionizing Radiology with Vision Language Models(VLMs)
     keywords: "radiology, VLMs, AI in healthcare, medical AI, radiology reports AI"
-    description: "Discover how Karini AI revolutionizes radiology with Vision Language Models (VLMs) to provide fast, accurate, and comprehensive diagnostic reports.".
+    description: "Discover how Karini AI revolutionizes radiology with Vision Language Models (VLMs) to provide fast, accurate, and comprehensive diagnostic reports."
     og:local: "en_US"
     og:type: "article"
     og:title: Revolutionizing Radiology with Vision Language Models (VLMs)
@@ -27,8 +27,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-09-30"
     og:updated_time: "2024-09-30"
-    og:image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fsolutions%2FRadiology%20Banner.png&w=1920&q=75"
-    og:image:secure_url: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fsolutions%2FRadiology%20Banner.png&w=1920&q=75"
+    og:image: "https://www.karini.ai/assets/images/solutions/Radiology_sqaure.png"
+    og:image:secure_url: "https://www.karini.ai/assets/images/solutions/Radiology_sqaure.png"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "https://www.karini.ai//assets/images/solutions/Radiology sqaure.png"
@@ -36,7 +36,7 @@ SEO_data:
     twitter:description: Karini AI uses Vision Language Models (VLMs) to bring fast, accurate radiology reports to life, transforming the healthcare industry.
     twitter:title: Revolutionizing Radiology with Vision Language Models (VLMs)
     twitter:site: "https://www.karini.ai/solutions/Industries/healthcare-industry-solution"
-    twitter:image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fsolutions%2FRadiology%20Banner.png&w=1920&q=75"
+    twitter:image: "https://www.karini.ai/assets/images/solutions/Radiology_sqaure.png"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/solutions/Industries/healthcare-radiology-solution"
   hreflang: "https://www.karini.ai/solutions/Industries/healthcare-radiology-solution"
@@ -48,7 +48,7 @@ SEO_data:
       "@id": "https://www.karini.ai/solutions/Industries/healthcare-radiology-solution"
     headline: "Revolutionizing Radiology with Vision Language Models (VLMs)"
     description: "Generative AI"
-    image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fsolutions%2FRadiology%20Banner.png&w=1920&q=75"
+    image: "https://www.karini.ai/assets/images/solutions/Radiology_sqaure.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -67,13 +67,11 @@ sitemap:
   images:
     - loc: "https://www.karini.ai/assets/images/solutions/Radiology sqaure.png"
     - loc: "https://www.karini.ai/assets/images/solutions/Radiology Banner.png"
-
 ---
 
 Imagine a world where life-saving diagnoses are delayed simply because there aren't enough radiologists. This isn't science fiction—it's the reality in many parts of the world today.
 Radiologists are the unsung heroes of healthcare. They meticulously analyze complex images like CT scans and X-rays. But this process is painfully slow and requires years of expertise. The result? Delayed diagnoses, compromised patient care, and a widening healthcare gap between urban and rural areas.
 In short, We're asking too much of too few, and patients are paying the price.
-
 
 ## Solution:
 
@@ -85,11 +83,11 @@ And the best part? Our demo is ready to show you this revolution in action.
 ## Benefits:
 
 - Lightning-Fast Reports: Say goodbye to long waits. Karini AI slashes report turnaround times, getting patients from diagnosis to treatment faster than ever.
-Superhuman Accuracy: We're taking diagnostic accuracy to new heights by combining AI precision with human expertise.
+  Superhuman Accuracy: We're taking diagnostic accuracy to new heights by combining AI precision with human expertise.
 - Radiologist Relief: Free your experts from routine tasks, allowing them to focus on complex cases where their skills shine brightest.
 - Healthcare Equality: Bring world-class diagnostics to every corner of the globe, bridging the gap between urban and rural healthcare.
 - Consistent Excellence: Standardized interpretations mean consistent quality every time.
-Seamless Integration: Karini AI plays nice with your existing systems, scaling effortlessly to meet your needs.
+  Seamless Integration: Karini AI plays nice with your existing systems, scaling effortlessly to meet your needs.
 - Budget-Friendly: Do more with less. Optimize your resources and reduce staffing pressures without compromising care.
 
 With Karini AI, the future of radiology isn't just bright—it's here. Ready to transform your practice?

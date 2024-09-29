@@ -1,51 +1,51 @@
 ---
-type: Industries
+type: industries
 tags:
-  - Healthcare
+  - healthcare
 show: true
 card_data:
-  title: Healthcare Industry Solution
-  description: Transforming Population Health Analytics with AI-Powered Generative BI.
-  image: /assets/images/solutions/healthcare_solutions_thumbnail.png
-  image_alt_name: Generative BI for Population Health
+  title: "Healthcare Industry Solution"
+  description: "Transforming Population Health Analytics with AI-Powered Generative BI."
+  image: "/assets/images/solutions/healthcare_solutions_thumbnail.png"
+  image_alt_name: "Generative BI for Population Health"
   theme_color: "#84cc16"
 date: "2024-09-30"
-hero_title: Transforming Population Health Analytics with AI-Powered Generative BI
+hero_title: "Transforming Population Health Analytics with AI-Powered Generative BI"
 hero_image: "/assets/images/solutions/transforming_healthcare.png"
 hero_image_alt_name: "transforming_healthcare-with-generative-bi"
-SEO_title: Transforming Population Health Analytics with AI-Powered Generative BI
+SEO_title: "Transforming Population Health Analytics with AI-Powered Generative BI"
 SEO_data:
   metadata:
-    title: Transforming Population Health Analytics with AI-Powered Generative BI
+    title: "Transforming Population Health Analytics with AI-Powered Generative BI"
     keywords: "AI in healthcare,population health,Amazon Bedrock, Anthropic, OpenAI"
-    description: Transforming Population Health Analytics with AI-Powered Generative BI
+    description: "Transforming Population Health Analytics with AI-Powered Generative BI."
     og:local: "en_US"
     og:type: "solution"
-    og:title: Transforming Population Health Analytics with AI-Powered Generative BI
-    og:description: Transforming Population Health Analytics with AI-Powered Generative BI.
-    og:url: "https://www.karini.ai/solutions/Industries/healthcare-industry-solution"
+    og:title: "Transforming Population Health Analytics with AI-Powered Generative BI"
+    og:description: "Transforming Population Health Analytics with AI-Powered Generative BI."
+    og:url: "https://www.karini.ai/solutions/industries/healthcare-industry-solution"
     og:site_name: "Karini AI"
     article:published_time: "2024-04-25"
     og:updated_time: "2024-04-25"
-    og:image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fsolutions%2Ftransforming_healthcare.png&w=1920&q=75"
-    og:image:secure_url: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fsolutions%2Ftransforming_healthcare.png&w=1920&q=75"
+    og:image: "https://www.karini.ai/assets/images/solutions/healthcare_solutions_thumbnail.png"
+    og:image:secure_url: "https://www.karini.ai/assets/images/solutions/healthcare_solutions_thumbnail.png"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "Generative BI for Population Health"
     twitter:card: "summary"
-    twitter:description: Transforming Population Health Analytics with AI-Powered Generative BI.
-    twitter:title: Transforming Population Health Analytics with AI-Powered Generative BI
-    twitter:site: "https://www.karini.ai/solutions/Industries/healthcare-industry-solution"
-    twitter:image: "https://www.karini.ai/_next/image?url=%2Fassets%2Fimages%2Fsolutions%2Fhealthcare_solutions_thumbnail.png&w=256&q=75"
+    twitter:description: "Transforming Population Health Analytics with AI-Powered Generative BI."
+    twitter:title: "Transforming Population Health Analytics with AI-Powered Generative BI."
+    twitter:site: "https://www.karini.ai/solutions/industries/healthcare-industry-solution"
+    twitter:image: "https://www.karini.ai/assets/images/solutions/healthcare_solutions_thumbnail.png"
     twitter:creator: "Karini AI"
-  canonicalLink: "https://www.karini.ai/solutions/Industries/healthcare-industry-solution"
-  hreflang: "https://www.karini.ai/solutions/Industries/healthcare-industry-solution"
+  canonicalLink: "https://www.karini.ai/solutions/industries/healthcare-industry-solution"
+  hreflang: "https://www.karini.ai/solutions/industries/healthcare-industry-solution"
   schemaMarkup:
     "@context": "https://schema.org"
     "@type": "BlogPosting"
     mainEntityOfPage:
       "@type": "WebPage"
-      "@id": "https://www.karini.ai/solutions/Industries/healthcare-industry-solution"
+      "@id": "https://www.karini.ai/solutions/industries/healthcare-industry-solution"
     headline: "Beyond Limits: How Amazon Bedrock and Karini AI Supercharge Compound AI Systems"
     description: "Generative AI"
     image: "https://www.karini.ai/assets/images/solutions/transforming_healthcare.png"
@@ -60,13 +60,13 @@ SEO_data:
         url: "https://www.karini.ai/"
     datePublished: "2024-09-30"
 sitemap:
-  loc: "https://www.karini.ai/solutions/Industries/healthcare-industry-solution"
+  loc: "https://www.karini.ai/solutions/industries/healthcare-industry-solution"
   lastmod: "2024-09-30"
   changefreq: "monthly"
   priority: "0.8"
   images:
     - loc: "https://www.karini.ai/assets/images/solutions/transforming_healthcare.png"
-    - loc: "https://www.karini.ai//assets/images/solutions/healthcare_solutions_thumbnail.png"
+    - loc: "https://www.karini.ai/assets/images/solutions/healthcare_solutions_thumbnail.png"
 ---
 
 The COVID-19 pandemic has significantly increased the emphasis on population health. It has highlighted the emergence of new diseases and the urgent need for rapid, data-driven responses. Effectively managing population health requires real-time data integration from multiple sources. This integration is essential for identifying trends and making predictive analyses based on historical events.
