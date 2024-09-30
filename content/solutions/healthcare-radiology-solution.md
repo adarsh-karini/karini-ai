@@ -1,14 +1,14 @@
 ---
-type: industries
+type: features
 tags:
-  - healthcare
+  - multi-modal
 show: true
 card_data:
   title: Radiology
   description: Revolutionizing Radiology with Vision Language Models(VLMs).
   image: /assets/images/solutions/Radiology_sqaure.png
   image_alt_name: Radiology AI transformation
-  theme_color: "#84cc16"
+  theme_color: "#facc15"
 date: "2024-09-30"
 hero_title: Revolutionizing Radiology with Vision Language Models(VLMs)
 hero_image: "/assets/images/solutions/Radiology_Banner.png"
