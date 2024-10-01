@@ -8,10 +8,14 @@ export async function getStaticProps() {
 	const folder = "./content/posts";
 	const files = fs.readdirSync(folder);
 	const markdownPosts = files.filter((file) => file.endsWith(".md"));
-	// const slugs = markdownPosts.map((file) => file.replace(".md", ""));
+
+	let blogTypes = [];
+
 	const posts = markdownPosts.map((fileName, index) => {
 		const fileContents = fs.readFileSync(`./content/posts/${fileName}`, "utf8");
 		const matterResult = matter(fileContents);
+
+		blogTypes.push(matterResult.data.type);
 
 		return {
 			type: matterResult.data.type,
@@ -20,9 +24,6 @@ export async function getStaticProps() {
 			SEO_title: matterResult.data.SEO_title,
 			date: matterResult.data.date,
 			authors: matterResult.data.authors,
-			// author: matterResult.data.author,
-			// author_image: matterResult.data.author_image,
-			// author_linked_in: matterResult.data.author_linked_in,
 			blog_image: matterResult.data.blog_image,
 			blog_image_alt_name: matterResult.data.blog_image_alt_name,
 			time_to_read: matterResult.data.time_to_read,
@@ -35,11 +36,12 @@ export async function getStaticProps() {
 	return {
 		props: {
 			postMetadata: posts,
+			blogTypes: [...new Set(blogTypes)],
 		},
 	};
 }
 
-const blog = ({ postMetadata }) => {
+const blog = ({ postMetadata, blogTypes }) => {
 	return (
 		<>
 			<Head>
@@ -82,7 +84,7 @@ const blog = ({ postMetadata }) => {
 				/>
 			</Head>
 			<div className={`font-sans subpixel-antialiased bg-white`}>
-				<Blogs postMetadata={postMetadata} />
+				<Blogs postMetadata={postMetadata} blogTypes={blogTypes} />
 			</div>
 		</>
 	);

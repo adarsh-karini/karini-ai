@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { Inter, Poppins } from "next/font/google";
 
-import Hero from "@/components/solutions/solution_details/Hero";
-import BreadCrumb from "@/components/solutions/solution_details/BreadCrumb";
+import Hero from "@/components/solution/solution_details/Hero";
+import BreadCrumb from "@/components/solution/solution_details/BreadCrumb";
 
-import { solutionDetailsData } from "@/content/solutions/solutionDetailsData";
-import SectionOne from "@/components/solutions/solution_details/SectionOne";
+import { solutionDetailsData } from "@/content/solution/solutionDetailsData";
+import SectionOne from "@/components/solution/solution_details/SectionOne";
 import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });

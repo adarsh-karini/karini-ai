@@ -106,7 +106,7 @@ const Footer = () => {
 										href={"/blogs"}
 										className="text-secondary-700 hover:text-primary-600 hover:underline text-sm font-medium"
 									>
-										Blogs
+										Resources
 									</Link>
 									<Link
 										href={"/aboutus#aboutus"}
