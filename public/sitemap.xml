@@ -93,6 +93,15 @@
 	</image:image>
 </url>
 <url>
+	<loc>https://www.karini.ai/announcements/automatic-prompt-optimization</loc>
+	<lastmod>2024-10-01</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Automatic-Prompt-Optimization-Square.png</image:loc>
+	</image:image>
+</url>
+<url>
 	<loc>https://www.karini.ai/announcements/aws-marketplace</loc>
 	<lastmod>2024-07-02</lastmod>
 	<changefreq>monthly</changefreq>

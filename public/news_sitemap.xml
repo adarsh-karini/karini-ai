@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
+	<loc>https://www.karini.ai/announcements/automatic-prompt-optimization</loc>
+	<news:news>
+		<news:publication>
+			<news:name>automatic prompt optimization</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:publication_date>2024-10-01</news:publication_date>
+		<news:title></news:title>
+		<news:keywords></news:keywords>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Automatic-Prompt-Optimization-Square.png</image:loc>
+	</image:image>
+</url>
+<url>
 	<loc>https://www.karini.ai/announcements/aws-marketplace</loc>
 	<news:news>
 		<news:publication>
