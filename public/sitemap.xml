@@ -345,6 +345,15 @@
 	</image:image>
 </url>
 <url>
+	<loc>https://www.karini.ai/webinars/genai-foundations</loc>
+	<lastmod>2024-10-08</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/webinars/contract-review.png</image:loc>
+	</image:image>
+</url>
+<url>
 	<loc>https://www.karini.ai/blogs/the-evolution-of-ai-agents</loc>
 	<lastmod>2024-03-04</lastmod>
 	<changefreq>monthly</changefreq>
@@ -360,6 +369,15 @@
 	</image:image>
 	<image:image>
 		<image:loc>https://www.karini.ai/assets/images/blogs/React.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/webinars/the-future-of-RFP-responding</loc>
+	<lastmod>2024-10-29</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/webinars/webinar-10-29-24-DTG.png</image:loc>
 	</image:image>
 </url>
 <url>

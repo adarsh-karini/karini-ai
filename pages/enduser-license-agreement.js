@@ -18,9 +18,9 @@ const poppins = Poppins({
 });
 
 export async function getStaticProps() {
-	const file = `./content/terms_and_policies/privacypolicy.md`;
+	const file = `./content/terms_and_policies/enduser_license_aggrement.md`;
 	let post = {
-		content: "privacypolicy.md not found.",
+		content: "enduser_license_aggrement.md not found.",
 		data: {},
 	};
 
@@ -33,7 +33,7 @@ export async function getStaticProps() {
 			data: matterResult.data,
 		};
 	} catch (err) {
-		console.error("Error reading privacypolicy.md file---", err);
+		console.error("Error reading enduser_license_aggrement.md file---", err);
 	}
 
 	return {
@@ -43,14 +43,14 @@ export async function getStaticProps() {
 	};
 }
 
-const privacypolicy = ({ post }) => {
+const enduserlicenseaggrement = ({ post }) => {
 	return (
 		<>
 			<Head>
-				<title>Karini AI Privacy Policy: Safeguarding Your Data</title>
+				<title>Karini AI End User Licence Agreement (EULA) for Karini AI</title>
 				<meta
 					name="title"
-					content="Protecting Your Privacy with Karini AI’s Policy"
+					content="End User Licence Agreement (EULA) for Karini AI"
 				></meta>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta charSet="utf-8" />
@@ -63,10 +63,13 @@ const privacypolicy = ({ post }) => {
 					content="Karini AI Privacy Policy,Data Protection,Privacy Commitment,User Data Security,AI Privacy Standards"
 				/>
 				<meta name="robots" content="index, follow" />
-				<link rel="canonical" href="https://www.karini.ai/privacypolicy" />
+				<link
+					rel="canonical"
+					href="https://www.karini.ai/enduser-license-greement"
+				/>
 				<link
 					rel="alternate"
-					href="https://www.karini.ai/privacypolicy"
+					href="https://www.karini.ai/enduser-license-greement"
 					hrefLang="en-us"
 				/>
 
@@ -79,7 +82,10 @@ const privacypolicy = ({ post }) => {
 					property="og:description"
 					content="Read Karini AI’s commitment to privacy. Understand how we collect, use, and protect your data in accordance with our privacy policy."
 				/>
-				<meta property="og:url" content="https://www.karini.ai/privacypolicy" />
+				<meta
+					property="og:url"
+					content="https://www.karini.ai/enduser-license-greement"
+				/>
 				<meta property="og:site_name" content="Karini AI Privacy Policy" />
 
 				<meta property="og:image" content="https://www.karini.ai" />
@@ -98,18 +104,18 @@ const privacypolicy = ({ post }) => {
 				/>
 				<meta
 					name="twitter:site"
-					content="https://www.karini.ai/privacypolicy"
+					content="https://www.karini.ai/enduser-license-greement"
 				/>
 				<meta name="twitter:image" content="https://www.karini.ai" />
 				<meta name="twitter:creator" content="Karini AI" />
 			</Head>
 			<div
-				id="privacypolicy"
+				id="enduserlicenseagreement"
 				className={`${poppins.variable} font-sans subpixel-antialiased bg-white py-6`}
 			>
 				<div>
 					<h1 className="text-center text-black font-bold text-3xl">
-						Karini AI Privacy Policy
+						End User Licence Agreement (EULA) for Karini AI
 					</h1>
 				</div>
 				<article className="prose max-w-screen-xl mx-auto text-foreground px-4 border border-transparent">
@@ -120,4 +126,4 @@ const privacypolicy = ({ post }) => {
 	);
 };
 
-export default privacypolicy;
+export default enduserlicenseaggrement;

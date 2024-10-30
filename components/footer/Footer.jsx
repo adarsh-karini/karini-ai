@@ -200,12 +200,12 @@ const Footer = () => {
 						. All Rights Reserved.
 					</p>
 					<div className="space-x-3">
-						<Link
+						{/* <Link
 							href={"/privacypolicy#privacypolicy"}
 							className="text-primary-600 text-sm hover:underline underline-offset-2 hover:font-semibold font-medium"
 						>
 							Privacy Policy
-						</Link>
+						</Link> */}
 						<Link
 							href={"/termsofuse#termsofuse"}
 							className="text-primary-600 text-sm hover:underline underline-offset-2 hover:font-semibold font-medium"
