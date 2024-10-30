@@ -48,7 +48,7 @@ const privacypolicy = ({ post }) => {
 		<>
 			<Head>
 				<title>Karini AI Privacy Policy: Safeguarding Your Data</title>
-				<meta
+				{/* <meta
 					name="title"
 					content="Protecting Your Privacy with Karini AI’s Policy"
 				></meta>
@@ -101,7 +101,7 @@ const privacypolicy = ({ post }) => {
 					content="https://www.karini.ai/privacypolicy"
 				/>
 				<meta name="twitter:image" content="https://www.karini.ai" />
-				<meta name="twitter:creator" content="Karini AI" />
+				<meta name="twitter:creator" content="Karini AI" /> */}
 			</Head>
 			<div
 				id="privacypolicy"

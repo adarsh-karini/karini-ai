@@ -47,7 +47,7 @@ const termsofuse = ({ post }) => {
 		<>
 			<Head>
 				<title>Karini AI Terms of Use - Your Guide to Our Services</title>
-				<meta
+				{/* <meta
 					name="title"
 					content="Karini AI Official Terms of Service Agreement"
 				></meta>
@@ -98,7 +98,7 @@ const termsofuse = ({ post }) => {
 				/>
 				<meta name="twitter:site" content="https://www.karini.ai/termsofuse" />
 				<meta name="twitter:image" content="https://www.karini.ai" />
-				<meta name="twitter:creator" content="Karini AI" />
+				<meta name="twitter:creator" content="Karini AI" /> */}
 			</Head>
 			<div
 				id="termsofuse"

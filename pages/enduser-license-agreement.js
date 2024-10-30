@@ -48,7 +48,7 @@ const enduserlicenseaggrement = ({ post }) => {
 		<>
 			<Head>
 				<title>Karini AI End User Licence Agreement (EULA) for Karini AI</title>
-				<meta
+				{/* <meta
 					name="title"
 					content="End User Licence Agreement (EULA) for Karini AI"
 				></meta>
@@ -107,7 +107,7 @@ const enduserlicenseaggrement = ({ post }) => {
 					content="https://www.karini.ai/enduser-license-greement"
 				/>
 				<meta name="twitter:image" content="https://www.karini.ai" />
-				<meta name="twitter:creator" content="Karini AI" />
+				<meta name="twitter:creator" content="Karini AI" /> */}
 			</Head>
 			<div
 				id="enduserlicenseagreement"
