@@ -318,6 +318,36 @@
 	</image:image>
 </url>
 <url>
+	<loc>https://www.karini.ai/webinars/genai-foundations</loc>
+	<news:news>
+		<news:publication>
+			<news:name>Revolutionizing Contract Review: Leveraging Knowledge Graphs and Generative AI with Amazon Bedrock, Neo4j and Karini AI</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:publication_date>2024-10-08</news:publication_date>
+		<news:title>Revolutionizing Contract Review: Leveraging Knowledge Graphs and Generative AI with Amazon Bedrock, Neo4j and Karini AI</news:title>
+		<news:keywords>generative AI, Karini AI, enterprise AI</news:keywords>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/webinars/contract-review.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.karini.ai/webinars/genai-foundations</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Future of RFP Responding</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:publication_date>2024-10-29</news:publication_date>
+		<news:title>The Future of RFP Responding</news:title>
+		<news:keywords>generative AI, Karini AI, enterprise AI</news:keywords>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/webinars/contract-review.png</image:loc>
+	</image:image>
+</url>
+<url>
 	<loc>https://www.karini.ai/announcements/voice-capabilities</loc>
 	<news:news>
 		<news:publication>
