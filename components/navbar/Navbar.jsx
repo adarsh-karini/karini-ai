@@ -184,7 +184,7 @@ const Navbar2 = () => {
 											>
 												<Image
 													src={"/assets/images/partners/teradata_icon.png"}
-													alt="azure_icon"
+													alt="teradata_icon"
 													height={25}
 													width={25}
 													className="text-secondary-600"
@@ -194,6 +194,24 @@ const Navbar2 = () => {
 													className="cursor-pointer text-sm text-black group-hover:text-white whitespace-nowrap"
 												>
 													Teradata
+												</h3>
+											</Link>
+											<Link
+												href={"/partners#protect-ai"}
+												className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
+											>
+												<Image
+													src={"/assets/images/partners/Protect-AI.png"}
+													alt="teradata_ai_icon"
+													height={25}
+													width={25}
+													className="text-secondary-600"
+												/>
+												<h3
+													onClick={() => setPartnersDropdown(false)}
+													className="cursor-pointer text-sm text-black group-hover:text-white whitespace-nowrap"
+												>
+													Protect AI
 												</h3>
 											</Link>
 										</div>
@@ -478,7 +496,7 @@ const Navbar2 = () => {
 													>
 														<Image
 															src={"/assets/images/partners/teradata_icon.png"}
-															alt="azure_icon"
+															alt="teardata_icon"
 															height={22}
 															width={22}
 															className="text-secondary-600"
@@ -488,6 +506,24 @@ const Navbar2 = () => {
 															className="text-sm"
 														>
 															Teradata
+														</span>
+													</Link>
+													<Link
+														href={"/partners#protect-ai"}
+														className="flex items-center space-x-2 rounded-lg text-sm text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+													>
+														<Image
+															src={"/assets/images/partners/Protect-AI.png"}
+															alt="protect-ai-icon"
+															height={22}
+															width={22}
+															className="text-secondary-600"
+														/>
+														<span
+															onClick={() => setMobileMenu((prev) => !prev)}
+															className="text-sm"
+														>
+															Protect AI
 														</span>
 													</Link>
 												</div>
