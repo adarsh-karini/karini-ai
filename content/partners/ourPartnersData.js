@@ -30,6 +30,13 @@ export const ourTechnologyPartners = [
 			"The Teradata partnership means users can now leverage Karini AI's GenAI foundation to supercharge their AI initiatives, combining Teradata's trusted data platform with cutting-edge generative AI capabilities. This partnership enables Teradata customers to integrate GenAI into their existing data ecosystems, accelerating time-to-value and enhancing ROI. Karini AI's no-code canvas and rapid prototyping capabilities complement Teradata's ClearScape Analytics™, allowing users to quickly develop and deploy GenAI applications while maintaining the scalability and reliability they expect from Teradata. By utilizing Karini AI's GenAI foundation, Teradata users cannot only automate complex workflows but also unlock new insights from their data, inspiring innovation across their organizations. This powerful combination empowers enterprises to stay at the forefront of the AI revolution, making more informed decisions and gaining a competitive edge in their respective industries.",
 		link: "https://www.teradata.com/",
 	},
+	{
+		id: "protect-ai",
+		image: "/assets/images/partners/Protect-AI.png",
+		description:
+			"Protect AI's collaboration with Karini AI enhances secure and responsible GenAI development. This alliance integrates Protect AI's cutting-edge AI/ML security solutions with Karini's innovative GenAI Foundation, offering enterprises a glass-box approach for a comprehensive platform to leverage generative AI while maintaining robust security. By incorporating Protect AI's Layer into Karini's GenAI Foundation platform, organizations can confidently build, deploy, and manage production-grade GenAI applications with advanced security and governance. This partnership empowers clients to innovate boldly, knowing industry-leading protocols safeguard their AI initiatives. Together, we're establishing new benchmarks for secure, scalable, and ethical GenAI solutions, enabling businesses to achieve transformative outcomes while effectively managing AI-related risks. Our collaboration underscores our commitment to delivering powerful, trustworthy, and responsible AI technologies across diverse sectors.",
+		link: "https://protectai.com/",
+	},
 ];
 
 export const ourResellers = [
@@ -39,6 +46,14 @@ export const ourResellers = [
 		description:
 			"Distributed Technology Group (DTG), a beacon of innovation in the IT sector, has forged a powerful alliance with Karini. Our strategic collaboration grants DTG access to Karini’s cutting-edge GenAI Foundation, empowering them to deliver transformative GenAI solutions to their clients. This partnership creates a formidable force in the AI landscape by leveraging Karini’s expertise and DTG’s deep understanding of industry challenges. Together, we’re committed to making advanced AI technologies accessible to businesses across various sectors, particularly in government and public services, where DTG excels. This synergy enhances DTG’s ability to deliver innovative solutions and accelerates the adoption of AI technologies, driving growth and competitive advantage for their clients. Through this partnership, we’re unlocking the true potential of GenAI, helping organizations navigate the complex technological landscape and achieve unprecedented efficiency and innovation.",
 		link: "https://dtg.com/",
+	},
+	{
+		id: "bab",
+
+		image: "/assets/images/partners/Bab-logo.svg",
+		description:
+			"BAB International Corporation for Specialized Services, a leading IT and e-content solutions provider in Saudi Arabia, has joined forces with Karini AI to revolutionize the Arabic information landscape with cutting-edge GenAI solutions. This powerful collaboration merges Karini's innovative GenAI Foundation with BAB's two decades of regional expertise, creating a unique offering for Middle Eastern enterprises eager to leverage generative AI. Combining BAB's profound understanding of Arabic content management with Karini's GenAIOps platform enables organizations to build, deploy, and manage Arabic-language GenAI applications seamlessly. This partnership empowers businesses across the MENA region to accelerate digital transformation, setting new benchmarks for localized, scalable, and ethical GenAI solutions. Together, we're committed to delivering culturally relevant and responsible AI technologies that drive transformative outcomes for our clients in the Arabic-speaking world.",
+		link: "https://bab.com.sa/index.html",
 	},
 	{
 		id: "stitcloud",
