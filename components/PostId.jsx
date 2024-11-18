@@ -21,14 +21,19 @@ const PostId = ({ post }) => {
 					</Link>
 					<div className="flex space-x-6">
 						<div>
-							<Image
-								src={post.data.blog_image}
-								alt={post.data.blog_image_alt_name}
-								width={200}
-								height={500}
-								className="rounded-md w-[100px] sm:w-[200px]"
-								priority
-							/>
+							{post.data.blog_image ? (
+								<Image
+									src={post.data.blog_image}
+									alt={post.data.blog_image_alt_name}
+									title={post.data.blog_image_alt_name}
+									width={200}
+									height={500}
+									className="rounded-md w-[100px] sm:w-[200px]"
+									priority
+								/>
+							) : (
+								<div className="bg-primary-300 rounded-md w-[100px] sm:w-[200px] h-[100px] sm:h-[200px]"></div>
+							)}
 						</div>
 						<div className="flex-1 flex flex-col space-y-2">
 							<h1 className="text-black text-lg sm:text-xl md:text-2xl xl:text-3xl font-semibold tracking-tighter pb-2 border-b border-b-muted leading-normal">
@@ -136,15 +141,19 @@ const PostId = ({ post }) => {
 											className="flex backdrop-blur-md border shadow-md rounded space-x-4 p-4"
 										>
 											<div className="w-20 flex items-center">
-												<Image
-													alt={post.blog_image_alt_name}
-													title={post.blog_image_alt_name}
-													src={post.blog_image}
-													width={300}
-													height={300}
-													className="w-full rounded"
-													priority
-												/>
+												{post.blog_image ? (
+													<Image
+														alt={post.blog_image_alt_name}
+														title={post.blog_image_alt_name}
+														src={post.blog_image}
+														width={300}
+														height={300}
+														className="w-full rounded"
+														priority
+													/>
+												) : (
+													<div className="w-full h-20 rounded bg-primary-300"></div>
+												)}
 											</div>
 											<div className="flex-1 flex flex-col justify-between">
 												<div className="text-sm text-secondary-700 font-normal leading-normal line-clamp-2">
