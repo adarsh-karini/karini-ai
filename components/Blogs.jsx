@@ -111,14 +111,18 @@ const Blogs = ({ postMetadata, blogTypes }) => {
 										<article className="h-full bg-white rounded-md border shadow p-4">
 											<div className="flex space-x-4 space-y-0">
 												<div className="flex items-center w-28">
-													<Image
-														alt={blog.blog_image_alt_name}
-														title={blog.blog_image_alt_name}
-														src={blog.blog_image}
-														width={500}
-														height={500}
-														className="w-full rounded"
-													/>
+													{blog.blog_image ? (
+														<Image
+															alt={blog.blog_image_alt_name}
+															title={blog.blog_image_alt_name}
+															src={blog.blog_image}
+															width={500}
+															height={500}
+															className="w-full rounded"
+														/>
+													) : (
+														<div className="bg-primary-300 rounded-md w-full h-28"></div>
+													)}
 												</div>
 												<div className="flex-1 flex flex-col justify-between">
 													<div className="space-y-1">
@@ -180,14 +184,18 @@ const Blogs = ({ postMetadata, blogTypes }) => {
 									<Link key={index} href={`/${blog.type}s/${blog.slug}`}>
 										<div className="h-full bg-white flex flex-col border border-secondary-300 rounded shadow p-4 space-y-4 hover:scale-105 transition">
 											<div className="h-[300px] w-full">
-												<Image
-													alt={blog.blog_image_alt_name}
-													title={blog.blog_image_alt_name}
-													src={blog.blog_image}
-													width={500}
-													height={500}
-													className="object-cover rounded-md h-full"
-												/>
+												{blog.blog_image ? (
+													<Image
+														alt={blog.blog_image_alt_name}
+														title={blog.blog_image_alt_name}
+														src={blog.blog_image}
+														width={500}
+														height={500}
+														className="object-cover rounded-md h-full"
+													/>
+												) : (
+													<div className="bg-primary-300 rounded-md h-full w-[300px]"></div>
+												)}
 											</div>
 											<div className="flex-1 flex flex-col space-y-4">
 												<div className="whitespace-nowrap overflow-x-auto space-x-3">
