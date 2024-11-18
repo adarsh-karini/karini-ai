@@ -86,7 +86,7 @@ Today, we’re thrilled to announce **Karini AI Agent 2.0**, our most advanced a
 
 Swagelok Southeast Texas has reimagined its procure-to-pay process with Karini’s Agent 2.0, leveraging omnichannel capabilities through automated intelligent document processing and an MS Teams chatbot. This enables its customer service representatives to deliver real-time support to customers.
 
-_**“We’ve streamlined workflows, reduced onboarding time by >50%, areand are confident and Karini will unlock more use cases to further increase productivity and customer satisfaction while delivering a fast ROI.”**_
+_**“We’ve streamlined workflows, reduced onboarding time by >50%, and are confident Karini will unlock more use cases to further increase productivity and customer satisfaction while delivering a fast ROI.”**_
 
 --- _**Peter Hory, Director of IT (SST)**_
 
