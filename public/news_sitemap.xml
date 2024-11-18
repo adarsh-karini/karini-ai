@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
+	<loc>https://www.karini.ai/blogs/agent-2-0</loc>
+	<news:news>
+		<news:publication>
+			<news:name>Generative AI Blog</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:publication_date>2024-11-18</news:publication_date>
+		<news:title>Karini AI Agent 2.0: Build Agentic Workflows Fast</news:title>
+		<news:keywords>GenAI cost management, Karini AI dashboard, Operational transparency, LLM budget control, AI resource monitoring</news:keywords>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.karini.ai/assets/images/blogs/Agent-2.0-final.gif</image:loc>
+	</image:image>
+</url>
+<url>
 	<loc>https://www.karini.ai/announcements/automatic-prompt-optimization</loc>
 	<news:news>
 		<news:publication>

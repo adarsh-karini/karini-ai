@@ -1,14 +1,14 @@
 ---
-type: "blog"
+type: "announcement"
 show: true
-title: "Build Agentic Workflows in Minutes with Karini AI Agent 2.0"
+title: "Agent 2.0: Build Agentic Workflows in Minutes"
 SEO_title: "Karini AI Agent 2.0: Build Agentic Workflows Fast"
 date: "2024-11-18"
 authors:
   - name: "Nitin Wagh"
     image: "/assets/images/team_members/nitin-wagh.jpg"
     linked_in: "https://www.linkedin.com/in/nitin-bwagh/"
-blog_image: ""
+blog_image: "/assets/images/blogs/Agent-2.0-Announcement.png"
 blog_image_alt_name: "agent-2.0"
 time_to_read: "3 min read"
 SEO_data:
@@ -86,7 +86,7 @@ Today, we’re thrilled to announce **Karini AI Agent 2.0**, our most advanced a
 
 Swagelok Southeast Texas has reimagined its procure-to-pay process with Karini’s Agent 2.0, leveraging omnichannel capabilities through automated intelligent document processing and an MS Teams chatbot. This enables its customer service representatives to deliver real-time support to customers.
 
-_**“We’ve streamlined workflows, reduced onboarding time by >50%, are confident and Karini will unlock more use cases to further increase productivity and customer satisfaction while delivering a fast ROI.”**_
+_**“We’ve streamlined workflows, reduced onboarding time by >50%, areand are confident and Karini will unlock more use cases to further increase productivity and customer satisfaction while delivering a fast ROI.”**_
 
 --- _**Peter Hory, Director of IT (SST)**_
 
