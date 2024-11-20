@@ -87,6 +87,8 @@ The webinar showcases Karni AI's robust generative AI foundation (GenAIFoundatio
 
 The presenters will highlight the unique benefits of the DTG-Karni partnership, which combines technological expertise with a deep understanding of business use cases. This partnership ensures that the AI solutions presented are not only cutting-edge but also practical and applicable to real-world business scenarios.
 
-<a href="/contactus" style="padding: 4px 8px; color:white; font-weight:600;background-color:#7c3aed; border-radius: 3px; text-decoration-line:none">Contact us</a>
+<div style="width:100%; display:flex;  justify-content: center; padding:10px;">
+<a href="/contactus" style="padding: 4px 10px; color:white; font-weight:600; background-color:#7c3aed; border-radius:3px; font-size:20px; text-decoration-line:none">Contact us</a>
+</div>
 
 <iframe width="700" height="465" src="https://www.youtube.com/embed/Fmh69vm7tO4?si=L9RiyOPMR2GKT5B2&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
