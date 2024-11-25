@@ -24,6 +24,13 @@ export const ourTechnologyPartners = [
 		link: "https://www.databricks.com/",
 	},
 	{
+		id: "nvidia",
+		image: "/assets/images/partners/NVIDIA_icon.svg",
+		description:
+			"Karini AI's acceptance into the NVIDIA Inception program marks a significant milestone in our commitment to advancing enterprise GenAI capabilities. This prestigious collaboration combines NVIDIA's revolutionary GPU technology and AI computing platforms with Karini's innovative GenAI Foundation, enabling unprecedented performance and scalability for complex AI workloads. By leveraging NVIDIA's cutting-edge infrastructure, including its advanced GPU architectures and AI frameworks, we empower organizations to build and deploy sophisticated GenAI applications with exceptional speed and efficiency. This strategic alliance enhances our platform's ability to handle resource-intensive AI operations while maintaining optimal performance, allowing enterprises to scale their GenAI initiatives confidently. The synergy between Karini's no-code platform and NVIDIA's powerful computing solutions accelerates time-to-value for AI implementations, setting new standards for enterprise AI development and deployment.",
+		link: "https://www.nvidia.com/",
+	},
+	{
 		id: "teradata",
 		image: "/assets/images/partners/teradata_logo.png",
 		description:

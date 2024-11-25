@@ -16,7 +16,6 @@ function generateSitemap() {
 	const files = fs.readdirSync(folder);
 	const markdownPosts = files.filter((file) => file.endsWith(".md"));
 
-	// Initialize arrays to hold the sitemap outputs
 	let allSitemapOutputs = [];
 	let allNewsSitemapOutputs = [];
 
@@ -60,7 +59,7 @@ function generateSitemap() {
     </url>
     <url> 
       <loc>https://www.karini.ai/partners</loc> 
-      <lastmod>2024-04-15</lastmod> 
+      <lastmod>2024-11-21</lastmod> 
       <priority>0.7</priority> 
       <changefreq>monthly</changefreq> 
     </url>
@@ -95,7 +94,6 @@ function generateSitemap() {
       <priority>0.7</priority>
     </url>`;
 
-	// Process each markdown file
 	markdownPosts.forEach((fileName, index) => {
 		const fileContents = fs.readFileSync(`./content/posts/${fileName}`, "utf8");
 		const matterResult = matter(fileContents);
@@ -106,7 +104,6 @@ function generateSitemap() {
 			let sitemap_data = matterResult.data.sitemap;
 			let news_sitemap_data = matterResult.data.news_sitemap;
 
-			// Handle regular sitemap data
 			if (sitemap_data && Object.keys(sitemap_data).length > 0) {
 				let sitemapOutput = "<url>\n";
 
@@ -130,7 +127,6 @@ function generateSitemap() {
 				allSitemapOutputs.push(sitemapOutput);
 			}
 
-			// Handle news sitemap data
 			if (news_sitemap_data && Object.keys(news_sitemap_data).length > 0) {
 				let newsSitemapOutput = "<url>\n";
 
@@ -176,7 +172,6 @@ function generateSitemap() {
 		}
 	});
 
-	// Combine the results into the final XML strings
 	const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   	${staticUrls}
@@ -190,7 +185,6 @@ function generateSitemap() {
     ${allNewsSitemapOutputs.join("\n")}
 </urlset>`;
 
-	// Write the sitemaps to files
 	fs.writeFileSync(path.join(__dirname, "public", "sitemap.xml"), sitemap);
 	fs.writeFileSync(
 		path.join(__dirname, "public", "news_sitemap.xml"),

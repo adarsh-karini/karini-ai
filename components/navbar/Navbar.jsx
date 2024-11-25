@@ -179,6 +179,24 @@ const Navbar2 = () => {
 												</h3>
 											</Link>
 											<Link
+												href={"/partners#nvidia"}
+												className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
+											>
+												<Image
+													src={"/assets/images/partners/Nvidia_logo.png"}
+													alt="nvidia_icon"
+													height={25}
+													width={25}
+													className="text-secondary-600"
+												/>
+												<h3
+													onClick={() => setPartnersDropdown(false)}
+													className="cursor-pointer text-sm text-black group-hover:text-white whitespace-nowrap"
+												>
+													Nvidia
+												</h3>
+											</Link>
+											<Link
 												href={"/partners#teradata"}
 												className="flex items-center space-x-2 hover:bg-primary-600 group transition px-2 py-1 rounded"
 											>
@@ -491,12 +509,30 @@ const Navbar2 = () => {
 														</span>
 													</Link>
 													<Link
+														href={"/partners#nvidia"}
+														className="flex items-center space-x-2 rounded-lg text-sm text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
+													>
+														<Image
+															src={"/assets/images/partners/Nvidia_logo.png"}
+															alt="nvidia_icon"
+															height={22}
+															width={22}
+															className="text-secondary-600"
+														/>
+														<span
+															onClick={() => setMobileMenu((prev) => !prev)}
+															className="text-sm"
+														>
+															Nvidia
+														</span>
+													</Link>
+													<Link
 														href={"/partners#teradata"}
 														className="flex items-center space-x-2 rounded-lg text-sm text-gray-500 hover:bg-gray-100 hover:text-secondary-600"
 													>
 														<Image
 															src={"/assets/images/partners/teradata_icon.png"}
-															alt="teardata_icon"
+															alt="teradata_icon"
 															height={22}
 															width={22}
 															className="text-secondary-600"
