@@ -18,6 +18,18 @@
 	</image:image>
 </url>
 <url>
+	<loc>https://www.karini.ai/announcements/amazonq-index</loc>
+	<news:news>
+		<news:publication>
+			<news:name>Generative AI Blog</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:publication_date>2024-12-09</news:publication_date>
+		<news:title>Karini AI Expands Agentic Workflows with Amazon Q Index Integration</news:title>
+		<news:keywords>Karini AI, Amazon Q Index integration, Enterprise AI workflows, Retrieval-Augmented Generation (RAG), Enterprise knowledge management, Secure enterprise search</news:keywords>
+	</news:news>
+</url>
+<url>
 	<loc>https://www.karini.ai/announcements/automatic-prompt-optimization</loc>
 	<news:news>
 		<news:publication>
