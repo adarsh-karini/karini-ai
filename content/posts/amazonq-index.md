@@ -79,7 +79,7 @@ We’re excited to announce that Karini AI is now a launch partner for the Amazo
 
 Karini AI’s Agent 2.0 workflows make it easy to create multi-agent solutions that leverage up-to-date information through Retrieval-Augmented Generation (RAG). Our platform supports fully managed native knowledgebases featuring advanced OCR, PII masking, and sophisticated chunking methods, including recursive, semantic, and layout-aware techniques. Earlier this year, we also introduced GraphRAG recipes that let customers build knowledge graphs powered by Neo4J, enabling advanced and dynamic RAG use cases.
 
-![Statistical overview on Karini AI Dashboard](/assets/images/blogs/Agent-2.0-fina.gif)
+![Statistical overview on Karini AI Dashboard](/assets/images/blogs/Q-Screen-Shot.png)
 
 ### Partnering with Amazon Q
 

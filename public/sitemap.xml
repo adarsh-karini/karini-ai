@@ -102,6 +102,12 @@
 	</image:image>
 </url>
 <url>
+	<loc>https://www.karini.ai/announcements/amazonq-index</loc>
+	<lastmod>2024-12-09</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.karini.ai/announcements/automatic-prompt-optimization</loc>
 	<lastmod>2024-10-01</lastmod>
 	<changefreq>monthly</changefreq>
