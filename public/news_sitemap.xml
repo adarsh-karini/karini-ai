@@ -93,6 +93,18 @@
 	</image:image>
 </url>
 <url>
+	<loc>https://www.karini.ai/announcements/bedrock_knowledgebases</loc>
+	<news:news>
+		<news:publication>
+			<news:name>Generative AI Blog</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:publication_date>2025-01-08</news:publication_date>
+		<news:title>Karini AI + Amazon Bedrock: Future of Enterprise AI</news:title>
+		<news:keywords>Amazon Bedrock Integration, Enterprise AI Knowledge Management, Karini AI Knowledge Bases, Agentic RAG Solutions, AI and Knowledge Graphs, Scalable AI Workflows, Bedrock Knowledgebase Support, Generative AI for Enterprises</news:keywords>
+	</news:news>
+</url>
+<url>
 	<loc>https://www.karini.ai/blogs/compound_ai_in_databricks</loc>
 	<news:news>
 		<news:publication>
