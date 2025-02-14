@@ -80,7 +80,7 @@ Today, we're excited to introduce Prompt Versioning in the Karini AI GenAI Found
 ## Why Prompt Versioning Matters
 Managing GenAI applications at scale requires precise control over three critical components: prompts, LLMs, and knowledge bases. While traditional application components remain stable, these AI building blocks must constantly evolve to maintain peak performance. This creates a significant operational challenge for enterprises managing many GenAI use cases.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/B7_5mQsfNqw?si=rXHuEH61j69z3QZ0&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="700" height="455" src="https://www.youtube.com/embed/B7_5mQsfNqw?si=rXHuEH61j69z3QZ0&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Bringing Production-Grade Control to GenAI
 Prompt Versioning in the Karini AI Foundation enables teams to:
