@@ -3,7 +3,7 @@ type: "announcement"
 show: true
 title: "Introducing Prompt Versioning: Enterprise-Grade Control for Your GenAI Applications"
 SEO_title: "Prompt Versioning for GenAI | Karini AI"
-date: "2025-01-13"
+date: "2025-02-14"
 authors:
   - name: "Nitin Wagh"
     image: "/assets/images/team_members/nitin-wagh.jpg"
