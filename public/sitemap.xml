@@ -366,6 +366,12 @@
 	</image:image>
 </url>
 <url>
+	<loc>https://www.karini.ai/announcements/prompt_versioning</loc>
+	<lastmod>2025-01-12</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://www.karini.ai/webinars/genai-foundations</loc>
 	<lastmod>2024-10-08</lastmod>
 	<changefreq>monthly</changefreq>
