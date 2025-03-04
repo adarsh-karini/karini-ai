@@ -5,14 +5,14 @@ title: "The Future of RFP Responding"
 SEO_title: "The Future of RFP Responding"
 date: "2024-10-29"
 time_to_read: "40 min watch"
-blog_image: "/assets/images/webinars/webinar-10-29-24-DTG.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/webinar-10-29-24-DTG.png"
 blog_image_alt_name: "Accelerate-Your-GenAI-Projects"
 authors:
   - name: "Tim Condello"
-    image: "/assets/images/team_members/timcondello.jfif"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/timcondello.jfif"
     linked_in: "https://www.linkedin.com/in/timcondello"
   - name: "Nitin Wagh"
-    image: "/assets/images/team_members/nitin-wagh.jpg"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/nitin-wagh.jpg"
     linked_in: "https://www.linkedin.com/in/nitin-bwagh/"
 SEO_data:
   metadata:
@@ -27,8 +27,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-10-29"
     og:updated_time: "2024-10-29"
-    og:image: "https://www.karini.ai/assets/images/webinars/webinar-10-29-24-DTG.png"
-    og:image:secure_url: "https://www.karini.ai/assets/images/webinars/webinar-10-29-24-DTG.png"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/webinar-10-29-24-DTG.png"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/webinar-10-29-24-DTG.png"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "The Future of RFP Responding"
@@ -36,7 +36,7 @@ SEO_data:
     twitter:description: "The webinar showcases Karni AI's robust generative AI foundation (GenAIFoundation) on AWS"
     twitter:title: "The Future of RFP Responding"
     twitter:site: "https://www.karini.ai/webinars/the-future-of-RFP-responding"
-    twitter:image: "https://www.karini.ai/assets/images/webinars/webinar-10-29-24-DTG.png"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/webinar-10-29-24-DTG.png"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/webinars/the-future-of-RFP-responding"
   hreflang: "https://www.karini.ai/webinars/the-future-of-RFP-responding"
@@ -48,7 +48,7 @@ SEO_data:
       "@id": "https://www.karini.ai/webinars/the-future-of-RFP-responding"
     headline: "The Future of RFP Responding"
     description: "The webinar showcases Karni AI's robust generative AI foundation (GenAIFoundation) on AWS"
-    image: "https://www.karini.ai/assets/images/webinars/webinar-10-29-24-DTG.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/webinar-10-29-24-DTG.png"
     author:
       "@type": "Organization"
       name: "Karini AI"
@@ -67,7 +67,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/webinars/webinar-10-29-24-DTG.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/webinar-10-29-24-DTG.png"
 news_sitemap:
   loc: "https://www.karini.ai/webinars/the-future-of-RFP-responding"
   news:
@@ -78,7 +78,7 @@ news_sitemap:
     title: "The Future of RFP Responding"
     keywords: "generative AI, Karini AI, enterprise AI"
   images:
-    - loc: "https://www.karini.ai/assets/images/webinars/webinar-10-29-24-DTG.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/webinar-10-29-24-DTG.png"
 ---
 
 Tim Condello, Director of Cloud and AIML at Distributed Technology Group, and Nitin Wagh, Chief Product Officer at Karni AI, unveiled how generative AI will revolutionize the way organizations prepare and respond to Request for Proposals (RFPs) and Request for Information (RFIs).

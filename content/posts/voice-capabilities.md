@@ -5,11 +5,11 @@ title: "Karini AI Supports Voice Capabilities"
 SEO_title: "Karini AI Launches Advanced Voice Capabilities for Conversational AI"
 date: "2024-09-11"
 time_to_read: "2 min read"
-blog_image: "/assets/images/blogs/Voice_Capabilities.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Voice_Capabilities.png"
 blog_image_alt_name: "Karini AI Voice Capabilities"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-09-11"
     og:updated_time: "2024-09-11"
-    og:image: "https://www.karini.ai/assets/images/blogs/Voice_Capabilities.png"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Voice_Capabilities.png"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Voice_Capabilities.png"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Voice_Capabilities.png"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "Karini AI Voice Capabilities"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Karini AI adds advanced voice capabilities, enabling businesses to build voice-driven conversational AI applications with seamless speech-to-text and text-to-speech automation."
     twitter:title: "Karini AI Launches Advanced Voice Capabilities"
     twitter:site: "https://www.karini.ai/announcements/voice-capabilities"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Voice_Capabilities.png"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Voice_Capabilities.png"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/announcements/voice-capabilities"
   hreflang: "https://www.karini.ai/announcements/voice-capabilities"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/announcements/voice-capabilities"
     headline: "Karini AI Introduces Voice Capabilities for Conversational AI"
     description: "Learn how Karini AI's new voice capabilities empower businesses to leverage speech-to-text and text-to-speech features in conversational AI applications."
-    image: "https://www.karini.ai/assets/images/blogs/Voice_Capabilities.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Voice_Capabilities.png"
     author:
       "@type": "Organization"
       name: "Karini AI"
@@ -76,7 +76,7 @@ news_sitemap:
     title: "Karini AI Supports Voice Capabilities"
     keywords: "Karini AI, Voice Capabilities, AI-driven Services, Conversational AI"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Voice_Capabilities.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Voice_Capabilities.png"
 ---
 
 Chatbots have become indispensable business tools in the rapidly evolving landscape of Generative AI, offering efficient and personalized customer interactions. As AI technology advances, the need for more sophisticated and natural communication methods is growing. Voice capabilities, in particular, are becoming increasingly vital as businesses seek to enhance the accessibility and convenience of their AI-driven services.

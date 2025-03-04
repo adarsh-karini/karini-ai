@@ -6,9 +6,9 @@ SEO_title: "Prompt Versioning for GenAI | Karini AI"
 date: "2025-02-14"
 authors:
   - name: "Nitin Wagh"
-    image: "/assets/images/team_members/nitin-wagh.jpg"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/nitin-wagh.jpg"
     linked_in: "https://www.linkedin.com/in/nitin-bwagh/"
-blog_image: "/assets/images/blogs/Prompt-Versioning.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Prompt-Versioning.png"
 blog_image_alt_name: "Prompt-Versioning"
 time_to_read: "2 min read"
 SEO_data:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2025-01-12"
     og:updated_time: "2025-01-12"
-    og:image: "https://www.karini.ai/assets/images/blogs/Prompt-Versioning.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Prompt-Versioning.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Prompt-Versioning.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Prompt-Versioning.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "Prompt-Versioning"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Gain enterprise grade control over your GenAI applications with Karini AI’s Prompt Versioning. Test, track, and deploy prompts confidently."
     twitter:title: "Enterprise-Grade Prompt Versioning | Karini AI"
     twitter:site: "https://www.karini.ai/announcements/prompt_versioning"
-    twitter:image: "https://www.karini.ai//assets/images/blogs/Prompt-Versioning.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Prompt-Versioning.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/announcements/prompt_versioning"
   hreflang: "https://www.karini.ai/announcements/prompt_versioning"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/announcements/prompt_versioning"
     headline: "Enterprise-Grade Prompt Versioning | Karini AI"
     description: "Gain enterprise grade control over your GenAI applications with Karini AI’s Prompt Versioning. Test, track, and deploy prompts confidently"
-    image: "https://www.karini.ai/assets/images/blogs/Prompt-Versioning.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Prompt-Versioning.png"
     author:
       "@type": "Person"
       name: "Nitin Wagh"
@@ -78,11 +78,13 @@ In today's rapidly evolving Generative AI landscape, enterprises are racing to t
 Today, we're excited to introduce Prompt Versioning in the Karini AI GenAI Foundation Platform. This game-changing feature brings enterprise-grade version control to your GenAI applications.
 
 ## Why Prompt Versioning Matters
+
 Managing GenAI applications at scale requires precise control over three critical components: prompts, LLMs, and knowledge bases. While traditional application components remain stable, these AI building blocks must constantly evolve to maintain peak performance. This creates a significant operational challenge for enterprises managing many GenAI use cases.
 
 <iframe width="700" height="455" src="https://www.youtube.com/embed/B7_5mQsfNqw?si=rXHuEH61j69z3QZ0&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Bringing Production-Grade Control to GenAI
+
 Prompt Versioning in the Karini AI Foundation enables teams to:
 
 - Experiment freely in a prompt playground while maintaining strict control over production deployments in the recipes
@@ -91,6 +93,7 @@ Prompt Versioning in the Karini AI Foundation enables teams to:
 - Roll back instantly to previous versions if needed, maintaining business continuity.
 
 ## Key Features That Set Us Apart
+
 1. **Comprehensive Versioning** Track and manage your entire prompt configuration, including system prompts, variables, LLM endpoints, and parameters like temperature and max_tokens.
 2. **Flexible Deployment Pipeline** Experiment with different prompt-LLM combinations and tag versions (staging, prod) and promote tested configurations to production through Karini Recipes.
 3. **Production Safeguards** Our intentional gatekeeping ensures experimental prompts never disrupt production workflows. Only versioned prompts can be promoted to production recipes.

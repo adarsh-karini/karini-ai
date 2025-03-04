@@ -5,11 +5,11 @@ title: "Karini AI Launches Streaming for Copilot"
 SEO_title: "Streaming for Copilot by Karini AI: A New Era"
 date: "2024-01-18"
 time_to_read: "2 min read"
-blog_image: "/assets/images/blogs/Streaming-eye-catcher.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Streaming-eye-catcher.png"
 blog_image_alt_name: "Karini AI Launches Streaming for Copilot"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -25,8 +25,8 @@ SEO_data:
       site_name: "Karini AI"
       updated_time: "2024-01-18"
       image:
-        url: "https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png&w=640&q=75"
-        secure_url: "https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png&w=640&q=75"
+        url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Streaming-eye-catcher.png&w=640&q=75"
+        secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Streaming-eye-catcher.png&w=640&q=75"
         width: "640"
         height: "640"
         alt: "Karini AI Launches Streaming for Copilot"
@@ -37,7 +37,7 @@ SEO_data:
       description: "Discover the latest innovation by Karini AI: Streaming for Copilot. Enhance user experience with real-time interactions in generative AI applications."
       title: "Karini AI Launches Copilot Streaming Feature"
       site: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
-      image: "https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png&w=640&q=75"
+      image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Streaming-eye-catcher.png&w=640&q=75"
       creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
   hreflang: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
@@ -49,7 +49,7 @@ SEO_data:
       "@id": "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
     headline: "Karini AI Launches Streaming for Copilot"
     description: "Karini AI Copilot"
-    image: "https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Streaming-eye-catcher.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -69,7 +69,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Streaming-eye-catcher.png"
 news_sitemap:
   loc: "https://www.karini.ai/announcements/karini-ai-launches-streaming-for-copilot"
   news:
@@ -80,7 +80,7 @@ news_sitemap:
     title: "Karini AI Launches Streaming for Copilot"
     keywords: "Enterprise Operations, Karini AI, Generative AI"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Streaming-eye-catcher.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Streaming-eye-catcher.png"
 ---
 
 Karini AI is proud to announce a new feature to help businesses enhance user experiences by replacing the everlasting ellipsis with streaming responses. Following the latest trends in open-source generative AI, this leap forward for purpose-built enterprise-focused AI using natural language questions and answers is evolving Copilot to the next level.

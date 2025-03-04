@@ -5,11 +5,11 @@ title: "Elevate Your RAG Applications: Unlock Advanced Evaluation Techniques wit
 SEO_title: "Unlock Advanced RAG Evaluation with Karini AI"
 date: "2024-08-30"
 time_to_read: "9 min read"
-blog_image: "/assets/images/blogs/Elevate-Your-RAG-Applications.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Elevate-Your-RAG-Applications.png"
 blog_image_alt_name: "Elevate your RAG Applications with karini AI's evaluations"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Elevate Your RAG Applications: Unlock Advanced Evaluation Techniques with Karini AI"
     article:published_time: "2024-08-29"
     og:updated_time: "2024-08-29"
-    og:image: "https://www.karini.ai/assets/images/blogs/Elevate-Your-RAG-Applications.png"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Elevate-Your-RAG-Applications.png"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Elevate-Your-RAG-Applications.png"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Elevate-Your-RAG-Applications.png"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "Elevate your RAG Applications with karini AI's evaluations"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Optimize your Retrieval-Augmented Generation (RAG) applications. Discover advanced online & offline evaluation techniques with Karini AI."
     twitter:title: "RAG Evaluation Techniques: Online & Offline Solutions"
     twitter:site: "https://www.karini.ai/blogs/elevate_your_rag_applications"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Elevate-Your-RAG-Applications.png"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Elevate-Your-RAG-Applications.png"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/blogs/elevate_your_rag_applications"
   hreflang: "https://www.karini.ai/blogs/elevate_your_rag_applications"
@@ -44,7 +44,7 @@ SEO_data:
       "@type": "WebPage"
       "@id": "https://www.karini.ai/blogs/elevate_your_rag_applications"
     headline: "RAG Evaluation Techniques: Online & Offline Solutions"
-    image: "https://www.karini.ai/assets/images/blogs/Elevate-Your-RAG-Applications.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Elevate-Your-RAG-Applications.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -65,7 +65,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.9"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Elevate-Your-RAG-Applications.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Elevate-Your-RAG-Applications.png"
 news_sitemap:
   loc: "https://www.karini.ai/blogs/elevate_your_rag_applications"
   news:
@@ -76,7 +76,7 @@ news_sitemap:
     title: "RAG Evaluation Techniques: Online & Offline Solutions"
     keywords: "Karini AI RAG Evaluations, Custom RAG Evalutaions, LLM as a judge, Online RAG Evalutaions, RAG Optimization"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Elevate-Your-RAG-Applications.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Elevate-Your-RAG-Applications.png"
 ---
 
 Retrieval-augmented Generation(RAG) has become the industry standard for developing chatbots due to its ability to reduce hallucinations and leverage domain-specific knowledge. However, the process of evaluating its effectiveness remains challenging and complex. A RAG system is a sophisticated combination of multiple components, such as a retrieval module and a generation component represented by large language models (LLMs). These components work together to provide contextually relevant and accurate responses, yet each operates differently and requires distinct evaluation methodologies. The complexity of these systems underscores the need for advanced evaluation techniques. The difficulty lies in assessing the overall end-to-end performance of the RAG system, as traditional evaluation metrics often need to be revised to capture the nuances and dependencies between these components. Additionally, the absence of standardized benchmarks for RAG systems further complicates the evaluation process, making it challenging to compare different approaches and select the most suitable one for specific use cases.
@@ -85,7 +85,7 @@ The need for sophisticated RAG evaluation mechanisms is clear. For instance, eva
 
 Karini AI offers a comprehensive and efficient solution for RAG evaluation. It provides the unique ability to conduct live “reference-free” (online) evaluation of your chatbot and offline evaluation using predefined or custom metrics and an evaluation dataset. By leveraging Karini AI, you can streamline the evaluation process, reduce the need for human annotators, and significantly reduce time and costs. This efficiency instills confidence in the evaluation process, allowing you to focus on the quality and performance of your RAG system. With Karini AI, you can be reassured that your RAG system is being evaluated with the utmost precision and thoroughness.
 
-![View the example](/assets/images/blogs/online_eval.drawio.png).
+![View the example](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/online_eval.drawio.png).
 
 ### Offline Evaluation
 
@@ -127,7 +127,7 @@ Here's the RAG recipe for creating the Amazon Shareholder's Assistant chatbot an
 
 The table below presents an example of evaluation results for a question in the dataset. It includes the response generated by the RAG recipe and a detailed breakdown of each metric and corresponding scores, providing a comprehensive view of the evaluation process.
 
-![Offline Evaluation table](/assets/images/blogs/offline_evaluation_table.png)
+![Offline Evaluation table](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/offline_evaluation_table.png)
 
 By systematically comparing the generated responses to the ground-truth dataset, you can fine-tune your recipe to enhance accuracy, relevance, and contextual alignment, ensuring that your AI-driven solutions perform optimally in real-world scenarios. Below is an example of how an evaluation dataset might be structured, illustrating the practical steps needed to achieve reliable, high-quality outcomes from your AI deployments.
 
@@ -202,7 +202,7 @@ In Karini AI’s prompt playground, you can test and compare your custom evaluat
 
 After creating and uploading your evaluation dataset using the “Evaluation” component in Karini’s recipe, you can select the “Custom evaluation” option and associate your evaluation prompt.
 
-![Custom Evaluation](/assets/images/blogs/custom-eval.png)
+![Custom Evaluation](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/custom-eval.png)
 
 The table below presents the evaluation results for each question in the dataset. It includes the response generated by the RAG recipe, a detailed breakdown of the custom metric scores, and corresponding justifications for each.
 
@@ -224,7 +224,7 @@ Karini AI offers advanced capabilities to perform a real-time evaluation of your
 
 You can choose the online evaluation option and the desired evaluation metrics during the recipe creation. Once the recipe is deployed as a copilot(chatbot), these evaluation metrics will automatically apply to all copilot requests. Each user request processed by the copilot is dynamically evaluated against these metrics, with the evaluation scores being continuously updated in the copilot’s history. This ongoing feedback loop captures the copilot’s performance over time. It provides users with insights into the quality of the responses, empowering them to make informed decisions about fine-tuning the copilot recipe based on outputs.
 
-![Online Evaluation](/assets/images/blogs/online-eval.png)
+![Online Evaluation](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/online-eval.png)
 
 The table below displays user queries, the LLM responses from the Karini AI Copilot, and the corresponding evaluation metrics calculated for each response.
 

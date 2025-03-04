@@ -27,42 +27,50 @@ const HowItWorks = () => {
 	const howItWorksData = [
 		{
 			name: "Dashboard",
-			image: "/assets/images/platform/karini_ai_dashboards.gif",
+			image:
+				"https://d189ftywc9pie0.cloudfront.net/assets/images/platform/karini_ai_dashboards.gif",
 			icon: DashboardIcon,
 		},
 		{
 			name: "Explore Copilot Hub",
-			image: "/assets/images/platform/Copilot_Hub.png",
+			image:
+				"https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Copilot_Hub.png",
 			icon: ChatbotIcon,
 		},
 		{
 			name: "Create Model Endpoint",
-			image: "/assets/images/platform/Model_EndPoint.jpg",
+			image:
+				"https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Model_EndPoint.jpg",
 			icon: ModelsIcon,
 		},
 		{
 			name: "Test Prompts using Playground",
-			image: "/assets/images/platform/Prompt_Playground.png",
+			image:
+				"https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Prompt_Playground.png",
 			icon: PromptIcon,
 		},
 		{
 			name: "Set up and Run Recipe",
-			image: "/assets/images/platform/Setup_and_Run_Recipe.jpg",
+			image:
+				"https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Setup_and_Run_Recipe.jpg",
 			icon: RecipeIcon,
 		},
 		{
 			name: "Evaluate RAG",
-			image: "/assets/images/platform/Evaluation_Rag.jpg",
+			image:
+				"https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Evaluation_Rag.jpg",
 			icon: EvaluateIcon,
 		},
 		{
 			name: "Export Copilot",
-			image: "/assets/images/platform/Export_CoPilot.png",
+			image:
+				"https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Export_CoPilot.png",
 			icon: ChatbotIcon,
 		},
 		{
 			name: "Start using Copilot",
-			image: "/assets/images/platform/Copilot.png",
+			image:
+				"https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Copilot.png",
 			icon: ChatbotIcon,
 		},
 	];

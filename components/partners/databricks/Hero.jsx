@@ -16,7 +16,9 @@ const Hero = () => {
 						<div className="z-10 space-y-3 px-4 max-w-screen-lg">
 							<div className="flex justify-center">
 								<Image
-									src={"/assets/images/partners/White_Karini_DB.png"}
+									src={
+										"https://d189ftywc9pie0.cloudfront.net/assets/images/partners/White_Karini_DB.png"
+									}
 									alt="databricks"
 									width={400}
 									height={100}

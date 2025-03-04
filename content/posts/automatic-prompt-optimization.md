@@ -5,11 +5,11 @@ title: "Karini AI’s Exclusive Automatic Prompt Optimization(APO) for Revolutio
 SEO_title: "Karini AI's Automatic Prompt Optimization(APO) for Revolutionizing LLM Performance"
 date: "2024-10-01"
 time_to_read: "5 min read"
-blog_image: "/assets/images/blogs/Automatic-Prompt-Optimization-Square.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automatic-Prompt-Optimization-Square.png"
 blog_image_alt_name: "Automatic-Prompt-Optimization"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-10-01"
     og:updated_time: "2024-10-01"
-    og:image: "https://www.karini.ai/assets/images/blogs/Automatic-Prompt-Optimization-Square.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Automatic-Prompt-Optimization-Square.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automatic-Prompt-Optimization-Square.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automatic-Prompt-Optimization-Square.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "Automatic Prompt Optimization for LLM"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Discover how Karini AI's Automatic Prompt Optimization streamlines the process of refining task-specific prompts, enabling higher accuracy and better performance for LLMs."
     twitter:title: "Karini AI's Automatic Prompt Optimization: A Game-Changer for LLM Performance"
     twitter:site: "https://www.karini.ai/announcements/automatic-prompt-optimization"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Automatic-Prompt-Optimization-Square.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automatic-Prompt-Optimization-Square.png&w=640&q=75"
     twitter:creator: "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes"
   canonicalLink: "https://www.karini.ai/announcements/automatic-prompt-optimization"
   hreflang: "https://www.karini.ai/announcements/automatic-prompt-optimization"
@@ -44,7 +44,7 @@ SEO_data:
       "@type": "WebPage"
       "@id": "https://www.karini.ai/announcements/automatic-prompt-optimization"
     headline: ""
-    image: "https://www.karini.ai/assets/images/blogs/Automatic-Prompt-Optimization-Square.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automatic-Prompt-Optimization-Square.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -65,7 +65,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.9"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Automatic-Prompt-Optimization-Square.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automatic-Prompt-Optimization-Square.png"
 news_sitemap:
   loc: "https://www.karini.ai/announcements/automatic-prompt-optimization"
   news:
@@ -76,7 +76,7 @@ news_sitemap:
     title: ""
     keywords: ""
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Automatic-Prompt-Optimization-Square.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automatic-Prompt-Optimization-Square.png"
 ---
 
 In the evolving world of Generative AI, prompt engineering has become crucial in leveraging the full potential of Large Language Models (LLMs). The compound GenAI system tends to have multiple system prompts dedicated to a task (e.g. Intent detection, follow-up generation, summarization, etc.). These task-specific system prompts and associated LLMs determine overall system performance. It is essential to author a just right system prompt for each task. Authoring effective prompts has been a manual process involving numerous iterations, significant trial-and-error, and expertise in crafting precise instructions for the model.

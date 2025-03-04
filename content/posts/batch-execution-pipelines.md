@@ -5,11 +5,11 @@ title: "Karini AI extends support for Batch execution pipelines using no-code Ge
 SEO_title: "Efficient Batch Pipelines with No-Code GenAI Recipes"
 date: "2024-06-13"
 time_to_read: "3 min read"
-blog_image: "/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
 blog_image_alt_name: "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -25,8 +25,8 @@ SEO_data:
       site_name: "Karini AI Batch Execution"
       updated_time: "2024-06-13"
       image:
-        url: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png&w=640&q=75"
-        secure_url: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png&w=640&q=75"
+        url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png&w=640&q=75"
+        secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png&w=640&q=75"
         width: "640"
         height: "640"
         alt: "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes"
@@ -37,7 +37,7 @@ SEO_data:
       description: "Discover Karini AI's no-code GenAI recipes for streamlined batch execution pipelines. Enhance efficiency, accuracy, and scalability in your data processing operations."
       title: "Efficient Batch Pipelines with No-Code GenAI Recipes"
       site: "https://www.karini.ai/announcements/batch-execution-pipelines"
-      image: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png&w=640&q=75"
+      image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png&w=640&q=75"
       creator: "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes"
   canonicalLink: "https://www.karini.ai/announcements/batch-execution-pipelines"
   hreflang: "https://www.karini.ai/announcements/batch-execution-pipelines"
@@ -48,7 +48,7 @@ SEO_data:
       "@type": "WebPage"
       "@id": "https://www.karini.ai/announcements/batch-execution-pipelines"
     headline: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes."
-    image: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -69,8 +69,8 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Batch_recipe.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Batch_recipe.png"
 news_sitemap:
   loc: "https://www.karini.ai/announcements/batch-execution-pipelines"
   news:
@@ -81,8 +81,8 @@ news_sitemap:
     title: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes"
     keywords: "Karini AI batch execution, no-code Generative AI recipes, generative AI applications, batch processing pipelines, Large Language Models LLMs, enterprise AI integration"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Batch_recipe.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Automate_Your_Workflow_with_Generative_AI.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Batch_recipe.png"
 ---
 
 As enterprises increasingly adopt Large Language Models (LLMs) for diverse generative AI applications, a notable challenge emerges in implementing batch processing pipelines. Unlike real-time processing, batch workflows enable handling large datasets in bulk, making them ideal for tasks where immediate responses are not required. Integrating generative AI into these batch workflows signifies a transformative leap in data and task management. This approach not only automates complex processes but also scales efficiently to meet the demands of extensive data handling. By ensuring precise and consistent outputs, generative AI-powered batch workflows enhance overall operational efficiency and maintain a competitive edge in today’s data-centric landscape.
@@ -106,6 +106,6 @@ Karini AI is thrilled to introduce its user-friendly no-code recipe workflow sup
 
 With Karini AI’s advanced platform, enterprises can unlock the full potential of executing batch workflows using generative AI, ultimately enhancing their operational capabilities and driving innovation. This is an exciting opportunity to revolutionize your data processing operations.
 
-![Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes](/assets/images/blogs/Batch_recipe.png)
+![Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Batch_recipe.png)
 
 Executing a batch workflow pipeline using generative AI holds significant potential for enhancing efficiency, accuracy, and scalability in various fields. Generative AI can analyze and process large datasets efficiently, providing valuable insights and supporting data-driven decision-making. We invite you to [contact us](https://www.karini.ai/contactus) for more information and to see how Karini AI can revolutionize your batch-processing operations.

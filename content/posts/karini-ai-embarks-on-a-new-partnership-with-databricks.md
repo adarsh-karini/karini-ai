@@ -5,11 +5,11 @@ title: "Karini AI Embarks on a New Partnership with Databricks"
 SEO_title: "Karini AI & Databricks New Partnership Unveiled"
 date: "2023-11-14"
 time_to_read: "2 min read"
-blog_image: "/assets/images/blogs/Databricks_Partnership.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Databricks_Partnership.png"
 blog_image_alt_name: "karini-ai-embarks-on-a-new-partnership-with-databricks"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2023-11-14"
     og:updated_time: "2023-11-14"
-    og:image: "https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Databricks_Partnership.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Databricks_Partnership.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "karini-ai-embarks-on-a-new-partnership-with-databricks"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Karini AI partners with Databricks to revolutionize AI development. Discover how this collaboration paves the way for advanced AI solutions and innovation."
     twitter:title: "Karini AI & Databricks New Partnership Unveiled"
     twitter:site: "https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Databricks_Partnership.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks"
   hreflang: "https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks"
     headline: "Karini AI Embarks on a New Partnership with Databricks"
     description: "Karini AI Partnership with Databricks"
-    image: "https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Databricks_Partnership.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -65,7 +65,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Databricks_Partnership.png"
 news_sitemap:
   loc: "https://www.karini.ai/announcements/karini-ai-embarks-on-a-new-partnership-with-databricks"
   news:
@@ -76,7 +76,7 @@ news_sitemap:
     title: "Karini AI Embarks on a New Partnership with Databricks"
     keywords: "Enterprise Operations, Karini AI, Generative AI"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Databricks_Partnership.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Databricks_Partnership.png"
 ---
 
 We are excited to announce a dynamic new partnership between Karini AI and [Databricks](https://www.databricks.com/) effective November 14, 2023. This collaboration unites the cutting-edge artificial intelligence capabilities offered by Karini AI with the powerful Data and AI capabilities offered by Databricks to enable our customers.

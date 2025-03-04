@@ -5,11 +5,11 @@ title: "Karini AI enhances AI safety with support for Guardrails"
 SEO_title: "Karini AI enhances AI safety with Guardrails for GenAI"
 date: "2024-07-17"
 time_to_read: "4 min read"
-blog_image: "/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
 blog_image_alt_name: "Support_AI_Safety_with_Guardrails"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI enhances AI safety with support for Guardrails"
     article:published_time: "2024-07-17"
     og:updated_time: "2024-07-17"
-    og:image: "https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Support_AI_Safety_with_Guardrails.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Support_AI_Safety_with_Guardrails.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "Karini AI enhances AI safety with support for Guardrails"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Karini AI makes building safe and effective AI easy. Our interface lets you set up guardrails alongside everything else you need, so you can quickly develop responsible AI apps."
     twitter:title: "Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails"
     twitter:site: "https://www.karini.ai/announcements/bedrock-guardrails"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Support_AI_Safety_with_Guardrails.png&w=640&q=75"
     twitter:creator: "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes"
   canonicalLink: "https://www.karini.ai/announcements/bedrock-guardrails"
   hreflang: "https://www.karini.ai/announcements/bedrock-guardrails"
@@ -44,7 +44,7 @@ SEO_data:
       "@type": "WebPage"
       "@id": "https://www.karini.ai/announcements/bedrock-guardrails"
     headline: "Elevate AI Trust and Safety with Karini AI & Amazon Bedrock Guardrails"
-    image: "https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -65,7 +65,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.9"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
 news_sitemap:
   loc: "https://www.karini.ai/announcements/bedrock-guardrails"
   news:
@@ -76,7 +76,7 @@ news_sitemap:
     title: "Enhancing AI Safety with Karini Guardrails on AWS"
     keywords: "Karini AI safety guardrails, AI content safety, Amazon Bedrock integration, ethical AI applications, AI risk management"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Support_AI_Safety_with_Guardrails.png"
 ---
 
 The rapid advancement of large language models (LLMs) has opened up incredible possibilities in various fields, from enhancing customer service through chatbots to generating creative content and assisting in virtual tasks. These AI-powered applications mimic human-like conversations and can engage users in unprecedented ways. However, it's crucial to be aware that the potential for misuse and harm is significant without proper safeguards. By their nature, LLMs can inadvertently produce and spread misinformation, manipulate individuals, and generate harmful or biased content. This risk underscores the critical need for content safety guardrails to ensure that the benefits of LLMs are realized without compromising ethical standards and societal well-being. This includes the following:

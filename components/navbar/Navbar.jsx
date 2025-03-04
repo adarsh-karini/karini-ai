@@ -66,7 +66,9 @@ const Navbar = () => {
 							href: "/partners#aws",
 							icon: (
 								<Image
-									src={"/assets/images/partners/aws_icon.jpeg"}
+									src={
+										"https://d189ftywc9pie0.cloudfront.net/assets/images/partners/aws_icon.jpeg"
+									}
 									alt="aws_icon"
 									height={25}
 									width={25}
@@ -78,7 +80,9 @@ const Navbar = () => {
 							href: "/partners#microsoft",
 							icon: (
 								<Image
-									src={"/assets/images/partners/azure_icon.jpeg"}
+									src={
+										"https://d189ftywc9pie0.cloudfront.net/assets/images/partners/azure_icon.jpeg"
+									}
 									alt="azure_icon"
 									height={25}
 									width={25}
@@ -102,7 +106,9 @@ const Navbar = () => {
 							href: "/partners#nvidia",
 							icon: (
 								<Image
-									src={"/assets/images/partners/Nvidia_logo.png"}
+									src={
+										"https://d189ftywc9pie0.cloudfront.net/assets/images/partners/Nvidia_logo.png"
+									}
 									alt="nvidia_icon"
 									height={25}
 									width={25}
@@ -114,7 +120,9 @@ const Navbar = () => {
 							href: "/partners#teradata",
 							icon: (
 								<Image
-									src={"/assets/images/partners/teradata_icon.png"}
+									src={
+										"https://d189ftywc9pie0.cloudfront.net/assets/images/partners/teradata_icon.png"
+									}
 									alt="teradata_icon"
 									height={25}
 									width={25}
@@ -126,7 +134,9 @@ const Navbar = () => {
 							href: "/partners#protect-ai",
 							icon: (
 								<Image
-									src={"/assets/images/partners/Protect-AI.png"}
+									src={
+										"https://d189ftywc9pie0.cloudfront.net/assets/images/partners/Protect-AI.png"
+									}
 									alt="protectai_icon"
 									height={25}
 									width={25}

@@ -6,9 +6,9 @@ SEO_title: "Evolution of AI Agents: From Hallucination to Precision"
 date: "2024-03-04"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
-blog_image: "/assets/images/blogs/The_Evolution_of_AI_Agents.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Evolution_of_AI_Agents.png"
 blog_image_alt_name: "the-evolution-of-ai-agents"
 time_to_read: "10 min read"
 SEO_data:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-03-04"
     og:updated_time: "2024-03-04"
-    og:image: "https://www.karini.ai/assets/images/blogs/The_Evolution_of_AI_Agents.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/The_Evolution_of_AI_Agents.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Evolution_of_AI_Agents.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Evolution_of_AI_Agents.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "the-evolution-of-ai-agents"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "AI chatbots evolve! Karini AI builds reliable assistants, no 'hallucination.' #GenAI #reliableAI"
     twitter:title: "Evolution of AI Agents: From Hallucination to Precision"
     twitter:site: "https://www.karini.ai/blogs/the-evolution-of-ai-agents"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/The_Evolution_of_AI_Agents.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Evolution_of_AI_Agents.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/blogs/the-evolution-of-ai-agents"
   hreflang: "https://www.karini.ai/blogs/the-evolution-of-ai-agents"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/blogs/the-evolution-of-ai-agents"
     headline: "From Hallucination to Human-Like Helpers: The Evolution of AI Agents"
     description: "The advent of Generative AI has sparked a wave of enthusiasm among businesses eager to harness its potential for creating Chatbots, companions, and copilots designed to unlock insights from vast datasets."
-    image: "https://www.karini.ai/assets/images/blogs/The_Evolution_of_AI_Agents.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Evolution_of_AI_Agents.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -66,10 +66,10 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/The_Evolution_of_AI_Agents.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/agents_challenges.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/agents_solution.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/React.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Evolution_of_AI_Agents.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/agents_challenges.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/agents_solution.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/React.png"
 ---
 
 ## Introduction
@@ -80,7 +80,7 @@ The advent of Generative AI has sparked a wave of enthusiasm among businesses ea
 
 It is easy to build a simple RAG system by combining Vector search for retrieval and LLM to summarize retrieved chunks, a massive upgrade from traditional knowledge bases with a limited understanding of the semantic nature of questions. These systems show poor performance in the real world for a multipart of complex questions.
 
-![Challenges in AI Agents Quality and Trust](/assets/images/blogs/agents_challenges.png)
+![Challenges in AI Agents Quality and Trust](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/agents_challenges.png)
 
 Let's deep dive into the challenges by breaking down the RAG system:
 
@@ -95,7 +95,7 @@ Prompt engineering techniques such as Chain of Thoughts (CoT) involve generating
 
 [The ReACT](https://arxiv.org/pdf/2210.03629.pdf) (Synergizing Reasoning and Acting in Language Models) paper shows how this approach is far superior to CoTs. Let's look into the basics. In the study of autonomous agents and multi-agent systems, the concepts of Thought, Action, and Observation play crucial roles in defining how these agents perceive, interpret, and interact with their environment.
 
-![Components of RAG System Illustrated](/assets/images/blogs/React.png)
+![Components of RAG System Illustrated](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/React.png)
 
 - **Thought** in AI agents refers to the internal processing or decision-making mechanisms that occur before taking an action. It involves the interpretation of observations, the weighing of possible actions based on learned experiences or predefined rules, and the formulation of a plan or response. Thought processes in AI can range from simple if-then rules to complex algorithms that involve reasoning, planning, and prediction based on deep learning models.
 - **Action** is the step an AI agent takes in response to its thoughts and observations. It's the execution phase where the agent applies its decision to the environment, potentially altering its state. Actions can be physical movements, such as a robotic arm picking up an object, or digital responses, like sending a message or updating a database. The scope of actions available to an AI agent depends on its capabilities and the effectors it has to interact with its environment.
@@ -107,7 +107,7 @@ Together, Thought, Action, and Observation form a cyclical process that enables 
 
 Agentic workflows, also known as Agents, harness the capabilities of Large Language Models (LLMs) to navigate the complexities of constructing intricate Retrieval Augmented Generation (RAG) systems. They adeptly segment elaborate tasks into manageable sub-tasks, utilize external systems to enhance their knowledge base, and monitor the outcomes to determine subsequent actions, ensuring the initial query's goals are met. The following provides a standard depiction of how a RAG system incorporates external resources for knowledge expansion.
 
-![Innovative ReACT and Agentic Workflows Diagram](/assets/images/blogs/agents_solution.png)
+![Innovative ReACT and Agentic Workflows Diagram](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/agents_solution.png)
 
 There are several providers of Agentic solutions:
 

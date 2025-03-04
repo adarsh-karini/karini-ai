@@ -5,11 +5,11 @@ title: "Karini AI Announces Full Support for Amazon Bedrock Models"
 SEO_title: "Full Amazon Bedrock Model Support by Karini AI"
 date: "2023-12-01"
 time_to_read: "2 min read"
-blog_image: "/assets/images/blogs/Bedrock_Models_Support.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Bedrock_Models_Support.png"
 blog_image_alt_name: "Bedrock_Models_Support"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2023-12-01"
     og:updated_time: "2021-12-01"
-    og:image: "https://www.karini.ai/assets/images/blogs/Bedrock_Models_Support.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Bedrock_Models_Support.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Bedrock_Models_Support.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Bedrock_Models_Support.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "karini-ai-announces-full-support-for-amazon-bedrock-models"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Discover Karini AI's complete support for Amazon Bedrock Models, enhancing AI solutions with robust, scalable, and versatile AI model integration."
     twitter:title: "Karini AI Supports Amazon Bedrock Models Fully"
     twitter:site: "https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Bedrock_Models_Support.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Bedrock_Models_Support.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models"
   hreflang: "https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/announcements/karini-ai-announces-full-support-for-amazon-bedrock-models"
     headline: "Karini AI Announces Full Support for Amazon Bedrock Models"
     description: "Karini AI Amazon Bedrock Model"
-    image: "https://www.karini.ai/assets/images/blogs/Bedrock_Models_Support.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Bedrock_Models_Support.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -65,7 +65,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Bedrock_Models_Support.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Bedrock_Models_Support.png"
 ---
 
 We are delighted to share that starting December 1, 2023, Karini AI has fully expanded its capabilities to support all [Amazon Bedrock](https://aws.amazon.com/bedrock/) models. This significant enhancement to our service offerings helps take your pilots using Amazon Bedrock faster to production.

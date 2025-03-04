@@ -5,11 +5,11 @@ title: "Karini AI releases the first purpose-built platform for GenAIOps"
 SEO_title: "Karini AI Unveils GenAIOps Platform - Revolutionizing AI"
 date: "2024-02-06"
 time_to_read: "2 min read"
-blog_image: "/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png"
 blog_image_alt_name: "karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-02-06"
     og:updated_time: "2024-02-06"
-    og:image: "https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Discover Karini AI's groundbreaking platform for GenAIops, enabling businesses to build, test, and deploy Generative AI apps with ease."
     twitter:title: "Karini AI Unveils GenAIOps Platform - Revolutionizing AI"
     twitter:site: "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
   hreflang: "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
@@ -44,7 +44,7 @@ SEO_data:
       "@type": "WebPage"
       "@id": "https://www.karini.ai/announcements/karini-ai-releases-the-first-purpose-built-platform-for-genaiops"
     headline: "Karini AI releases the first purpose-built platform for GenAIOps"
-    image: "https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -65,7 +65,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_Launches_Revolutionary_GenAIOps_Platform.png"
 ---
 
 Karini.ai is excited to announce the general availability of the first-of-its-kind purpose-built Generative AI platform designed to power evolution in enterprise AI adoption. The platform, Built by Ex Amazon Web Services (Ex-AWS) AI experts, delivers a new approach to GenAIOps for the complete supervision of DataOps, LLMOps, and DevOps for building, testing, and deploying generative AI applications at speed in the enterprise.

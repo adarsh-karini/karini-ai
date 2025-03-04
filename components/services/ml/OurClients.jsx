@@ -4,10 +4,9 @@ import React from "react";
 const OurClients = () => {
 	const ClientLogos = [
 		"/assets/images/services/aws_sagemaker.svg",
-		"/assets/images/services/databricks.png",
 		"/assets/images/services/aws_textract.svg",
 		"/assets/images/services/hugging_face.svg",
-		"/assets/images/services/aws_bedrock.jpg",
+		"https://d189ftywc9pie0.cloudfront.net/assets/images/services/aws_bedrock.jpg",
 		"/assets/images/services/anyscale.svg",
 	];
 

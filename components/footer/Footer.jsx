@@ -41,7 +41,9 @@ const Footer = () => {
 							</Link>
 							<Link href={"https://twitter.com/karini_ai"} target="_blank">
 								<Image
-									src={"/assets/images/xtwitter.png"}
+									src={
+										"https://d189ftywc9pie0.cloudfront.net/assets/images/xtwitter.png"
+									}
 									alt={"twitter"}
 									target="_blank"
 									width={25}

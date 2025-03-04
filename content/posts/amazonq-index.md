@@ -6,9 +6,9 @@ SEO_title: "Karini AI + Amazon Q Index: Enterprise AI Integration"
 date: "2024-12-09"
 authors:
   - name: "Nitin Wagh"
-    image: "/assets/images/team_members/nitin-wagh.jpg"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/nitin-wagh.jpg"
     linked_in: "https://www.linkedin.com/in/nitin-bwagh/"
-blog_image: "/assets/images/blogs/Q-Index-Launch.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Q-Index-Launch.png"
 blog_image_alt_name: "Q-Index-Launch"
 time_to_read: "2 min read"
 SEO_data:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-12-09"
     og:updated_time: "2024-12-09"
-    og:image: "https://www.karini.ai/assets/images/blogs/Q-Index-Launch.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Q-Index-Launch.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Q-Index-Launch.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Q-Index-Launch.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "Q-Index-Launch"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Discover how Karini AI's integration with Amazon Q Index enhances enterprise search with advanced RAG workflows, secure connectors, and powerful AI-driven insights."
     twitter:title: "Karini AI Partners with Amazon Q Index"
     twitter:site: "https://www.karini.ai/announcements/amazonq-index"
-    twitter:image: "https://www.karini.ai//assets/images/blogs/Q-Index-Launch.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Q-Index-Launch.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/announcements/amazonq-index"
   hreflang: "https://www.karini.ai/announcements/amazonq-index"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/announcements/amazonq-index"
     headline: "Karini AI Partners with Amazon Q Index"
     description: "Discover how Karini AI's integration with Amazon Q Index enhances enterprise search with advanced RAG workflows, secure connectors, and powerful AI-driven insights."
-    image: "https://www.karini.ai/assets/images/blogs/Q-Index-Launch.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Q-Index-Launch.png"
     author:
       "@type": "Person"
       name: "Nitin Wagh"
@@ -79,7 +79,7 @@ We’re excited to announce that Karini AI is now a launch partner for the Amazo
 
 Karini AI’s Agent 2.0 workflows make it easy to create multi-agent solutions that leverage up-to-date information through Retrieval-Augmented Generation (RAG). Our platform supports fully managed native knowledgebases featuring advanced OCR, PII masking, and sophisticated chunking methods, including recursive, semantic, and layout-aware techniques. Earlier this year, we also introduced GraphRAG recipes that let customers build knowledge graphs powered by Neo4J, enabling advanced and dynamic RAG use cases.
 
-![Statistical overview on Karini AI Dashboard](/assets/images/blogs/Q-Screen-Shot.png)
+![Statistical overview on Karini AI Dashboard](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Q-Screen-Shot.png)
 
 ### Partnering with Amazon Q
 

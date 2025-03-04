@@ -1,6 +1,7 @@
 export const ourLeadershipData = [
 	{
-		image: "/assets/images/team_members/deepali-rajale.png",
+		image:
+			"https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png",
 		name: "Deepali Rajale",
 		position: "Founder and CEO",
 		summary:
@@ -8,7 +9,8 @@ export const ourLeadershipData = [
 		linkedIn: "https://www.linkedin.com/in/deepali-rajale",
 	},
 	{
-		image: "/assets/images/team_members/jerome-mendell.png",
+		image:
+			"https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/jerome-mendell.png",
 		name: "Jerome Mendell",
 		position: "Head of Sales and Marketing",
 		summary:
@@ -16,7 +18,8 @@ export const ourLeadershipData = [
 		linkedIn: "https://www.linkedin.com/in/jeromemendell/",
 	},
 	{
-		image: "/assets/images/team_members/nitin-wagh.jpg",
+		image:
+			"https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/nitin-wagh.jpg",
 		name: "Nitin Wagh",
 		position: "Chief Product Officer",
 		summary:

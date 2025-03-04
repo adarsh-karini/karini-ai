@@ -5,11 +5,11 @@ title: "Karini AI Expands Enterprise Connectivity: Now Integrating Google, Azure
 SEO_title: "Karini.ai Integrates Google, Azure, Confluence, Dropbox"
 date: "2024-03-11"
 time_to_read: "3 min read"
-blog_image: "/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
 blog_image_alt_name: "Enterprise Connectivity Integrating Google, Azure, Confluence, Dropbox"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -25,8 +25,8 @@ SEO_data:
       site_name: "Karini AI"
       updated_time: "2024-03-11"
       image:
-        url: "https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75"
-        secure_url: "https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75"
+        url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75"
+        secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75"
         width: "640"
         height: "640"
         alt: "Enterprise Connectivity Integrating Google, Azure, Confluence, Dropbox"
@@ -37,7 +37,7 @@ SEO_data:
       description: "Break silos! Karini.ai integrates w/ Google, Azure, Confluence, Dropbox for enterprise GenAI apps. #NoCodeAI"
       title: "Karini.ai Integrates Google, Azure, Confluence, Dropbox"
       site: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
-      image: "https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75"
+      image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png&w=640&q=75"
       creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
   hreflang: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
@@ -49,7 +49,7 @@ SEO_data:
       "@id": "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
     headline: "Karini AI Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox"
     description: "Generative AI is a once-in-a-generation technology, and every enterprise is in a race to embrace it to improve internal productivity across IT, engineering, finance, and HR, as well as improve product experience for external customers."
-    image: "https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -70,8 +70,8 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Connectors.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Connectors.png"
 news_sitemap:
   loc: "https://www.karini.ai/announcements/enterprise-connectivity-integrating-google-azure-confluence-dropbox"
   news:
@@ -82,8 +82,8 @@ news_sitemap:
     title: "Karini.ai Expands Enterprise Connectivity: Now Integrating Google, Azure, Confluence, and Dropbox"
     keywords: "Karini.ai, Generative AI, Google Cloud, Azure Blob Storage, Confluence, Dropbox, enterprise connectivity, RAG applications"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Connectors.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_ai_Expands_Enterprise_Connectivity.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Connectors.png"
 ---
 
 Generative AI is a once-in-a-generation technology, and every enterprise is in a race to embrace it to improve internal productivity across IT, engineering, finance, and HR, as well as improve product experience for external customers. Model providers are steadily improving their performance with the launch of Claude3 by Anthropic and Gemini by Google, which boast on par or better performance than Open AI’s GPT4. However, these models need enterprise context to provide quality task-specific responses. Over 80% of large enterprises utilize more than one cloud, dispersing enterprise data across multiple cloud storages. Enterprises struggle to build meaningful Gen AI applications for Retrieval Augmented Generation (RAG) with disparate datasets for quality responses.
@@ -95,7 +95,7 @@ At the launch, [Karini.ai](https://www.karini.ai/) provided connectors for Amazo
 - Filter the source connectors using regular expressions for selective ingest. For example, to ingest only PDF files, use filter as (\*.pdf)
 - Recursive search capabilities are available to search all child directories and subsequent directories.
 
-![Orchestrate GenAI with Karini.ai connectors: Azure Blob Storage, Google Cloud Storage(GCS), Google Drive, Confluence, and Dropbox.](/assets/images/blogs/connectors.png)
+![Orchestrate GenAI with Karini.ai connectors: Azure Blob Storage, Google Cloud Storage(GCS), Google Drive, Confluence, and Dropbox.](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/connectors.png)
 
 With the addition of Google, Azure, Confluence, and Dropbox connectors, Karini.ai enables enterprises to unlock the true potential of Generative AI. Our comprehensive collection of connectors tackles the challenge of siloed data, allowing the creation of powerful RAG applications that leverage data from across various sources. This streamlines development and improves data quality, ultimately delivering superior GenAI experiences for internal and external users.
 

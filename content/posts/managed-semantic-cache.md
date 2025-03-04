@@ -5,11 +5,11 @@ title: "Karini AI Enhances GenAI Application Performance with Managed Semantic C
 SEO_title: "Optimize AI with Managed Semantic Cache - Karini AI"
 date: "2024-07-29"
 time_to_read: "4 min read"
-blog_image: "/assets/images/blogs/Boost-Your-Gen-AI-Performance.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Boost-Your-Gen-AI-Performance.png"
 blog_image_alt_name: "Boost Your Gen AI Performance"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-07-28"
     og:updated_time: "2024-07-28"
-    og:image: "https://www.karini.ai/assets/images/blogs/Boost-Your-Gen-AI-Performance.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Boost-Your-Gen-AI-Performance.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Boost-Your-Gen-AI-Performance.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Boost-Your-Gen-AI-Performance.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "gen-ai-performance-managed-semantic-cache"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Boost AI app performance with Karini AI's Managed Semantic Cache. Reduce latency, cut costs, and enhance user experience. Learn more about our advanced caching solutions."
     twitter:title: "Enhance Gen AI Performance with Managed Semantic Cache"
     twitter:site: "https://www.karini.ai/announcements/managed-semantic-cache"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Boost-Your-Gen-AI-Performance.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Boost-Your-Gen-AI-Performance.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/announcements/managed-semantic-cache"
   hreflang: "https://www.karini.ai/announcements/managed-semantic-cache"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/announcements/managed-semantic-cache"
     headline: "Enhance Gen AI Performance with Managed Semantic Cache"
     description: "Boost AI app performance with Karini AI's Managed Semantic Cache. Reduce latency, cut costs, and enhance user experience. Learn more about our advanced caching solutions."
-    image: "https://www.karini.ai/assets/images/blogs/Boost-Your-Gen-AI-Performance.png&w=640&q=75"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Boost-Your-Gen-AI-Performance.png&w=640&q=75"
     author:
       "@type": "Organization"
       name: "Karini AI"
@@ -76,7 +76,7 @@ news_sitemap:
     title: "Karini AI Enhances GenAI Application Performance with Managed Semantic Cache"
     keywords: "Managed Semantic Cache, Karini AI, generative AI, latency reduction, cost optimization, LLM applications, AI performance"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Boost-Your-Gen-AI-Performance.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Boost-Your-Gen-AI-Performance.png"
 ---
 
 Latency and cost are significant challenges for organizations building applications on top of Language Models. High latency can severely degrade user experience, while increased costs hinder scalability and long-term viability. Imagine an LLM application processing thousands of API calls every hour, where users frequently ask similar questions that have already been answered. Each redundant call to the LLM incurs additional costs and results in a suboptimal user experience. This situation becomes particularly problematic when hundreds of users repeat the same question. Karini AI's managed semantic cache significantly reduces these high costs, ensuring a more sustainable financial model for your applications.
@@ -85,7 +85,7 @@ What if a system could retrieve precomputed answers from a cache instead of re-e
 
 Karini AI now incorporates managed semantic cache to enhance generative AI applications, and it can be enabled with a single click.
 
-![Karini AI Enhances GenAI Application Performance with Managed Semantic Cache](/assets/images/blogs/semantic_cache_drawio.png)
+![Karini AI Enhances GenAI Application Performance with Managed Semantic Cache](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/semantic_cache_drawio.png)
 
 With Karini AI’s managed semantic cache, you can achieve:
 

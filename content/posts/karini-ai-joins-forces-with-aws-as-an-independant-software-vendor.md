@@ -5,11 +5,11 @@ title: "Karini AI Joins Forces with Amazon Web Services as an Independent Softwa
 SEO_title: "Karini AI Partners with AWS | Official ISV Announcement"
 date: "2023-10-16"
 time_to_read: "2 min read"
-blog_image: "/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
 blog_image_alt_name: "AWS_Partner_Announcement_Eye_Catcher"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2023-10-16"
     og:updated_time: "2023-10-16"
-    og:image: "https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Discover Karini AI's new chapter as an Independent Software Vendor (ISV) with Amazon Web Services. A milestone in AI innovation and cloud computing synergy."
     twitter:title: "Karini AI & AWS Partner as ISV - Major Announcement"
     twitter:site: "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
   hreflang: "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
     headline: "Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor"
     description: "Karini AI with AWS as Software Vendor"
-    image: "https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -65,7 +65,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
 news_sitemap:
   loc: "https://www.karini.ai/announcements/karini-ai-joins-forces-with-aws-as-an-independant-software-vendor"
   news:
@@ -76,7 +76,7 @@ news_sitemap:
     title: "Karini AI Joins Forces with Amazon Web Services as an Independent Software Vendor"
     keywords: "Enterprise Operations, Karini AI, Generative AI"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/AWS_Partner_Announcement_Eye_Catcher.png"
 ---
 
 We are thrilled to announce that Karini AI has officially partnered with [Amazon Web Services (AWS)](http://aws.amazon.com) as an Independent Software Vendor (ISV). This strategic partnership, effective from October 16, 2023, marks a significant milestone in our journey towards innovation and excellence.

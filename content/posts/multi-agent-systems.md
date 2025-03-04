@@ -5,11 +5,11 @@ title: "Karini AI Announces Support for Multi-Agent Systems"
 SEO_title: "Optimize AI with Managed Semantic Cache - Karini AI"
 date: "2024-08-12"
 time_to_read: "5 min read"
-blog_image: "/assets/images/blogs/Karini-AI-Supports-Multi-Agent-Systems.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini-AI-Supports-Multi-Agent-Systems.png"
 blog_image_alt_name: "Karini AI Supports Multi Agent Systems"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-08-12"
     og:updated_time: "2024-08-12"
-    og:image: "https://www.karini.ai/assets/images/blogs/Karini-AI-Supports-Multi-Agent-Systems.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Karini-AI-Supports-Multi-Agent-Systems.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini-AI-Supports-Multi-Agent-Systems.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini-AI-Supports-Multi-Agent-Systems.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "gen-ai-performance-multi-agent-systems"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Karini AI introduces multi-agent systems for building sophisticated AI solutions using its innovative agentic prompt playground and no-code recipe canvas."
     twitter:title: "Karini AI Supports Multi-Agent Systems for AI Solutions"
     twitter:site: "https://www.karini.ai/blogs/multi-agent-systems"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Karini-AI-Supports-Multi-Agent-Systems.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini-AI-Supports-Multi-Agent-Systems.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/blogs/multi-agent-systems"
   hreflang: "https://www.karini.ai/blogs/multi-agent-systems"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/blogs/multi-agent-systems"
     headline: "Karini AI Announces Support for Multi-Agent Systems"
     description: "Karini AI introduces multi-agent systems for building sophisticated AI solutions using its innovative agentic prompt playground and no-code recipe canvas."
-    image: "https://www.karini.ai/assets/images/blogs/Karini-AI-Supports-Multi-Agent-Systems.png&w=640&q=75"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini-AI-Supports-Multi-Agent-Systems.png&w=640&q=75"
     author:
       "@type": "Organization"
       name: "Karini AI"
@@ -71,7 +71,7 @@ While large language models (LLMs) have shown remarkable capabilities in various
 
 According to this research [More agents is all you need](https://arxiv.org/pdf/2402.05120.pdf), LLMs' performance improves with the number of agents involved, suggesting this method can enhance LLMs' capabilities, especially for complex tasks.
 
-![View the example](/assets/images/blogs/multi-agent.drawio.png).
+![View the example](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/multi-agent.drawio.png).
 
 Karini AI is proud to announce support for building multi-agent systems using its user-friendly and intuitive agentic prompt playground and no-code recipe canvas. This powerful system empowers you to create a wide range of applications, from simple tasks to complex challenges, with ease and comfort.
 
@@ -82,7 +82,7 @@ At Karini AI, we understand the importance of context and prompt in a multi-agen
 Multi-agent applications can be seamlessly orchestrated using Karini’s no-code recipe canvas and deployed as copilots to be accessed by end users.
 Here is an example of a multi-agent recipe that utilizes three agents—a Coder Agent, a Tester Agent, and a Code Builder agent—to build a robust DevOps engineering pipeline.
 
-![View the example](/assets/images/blogs/DevOps-MultiAgent-Recipe.jpeg).
+![View the example](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/DevOps-MultiAgent-Recipe.jpeg).
 
 ### Key Features of Karini's Multi-Agent Workflows
 
@@ -108,7 +108,7 @@ Here is an example of a multi-agent recipe that utilizes three agents—a Coder 
 
 The following video demonstrates the Multi-agent copilot built using the recipe showcased in the above diagram, which functions as a DevOps engineer, assisting users in generating, reviewing, testing code, and building projects using the AWS CodeBuild Service.
 
-<video src="/assets/images/blogs/Multi-Agent-CoPilot.mp4" controls="controls"></video>
+<video src="https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Multi-Agent-CoPilot.mp4" controls="controls"></video>
 
 Imagine a team of AI agents with unique expertise working together to achieve a common goal. This is the essence of multi-agent systems. They allow collaboration among various AI agents, each contributing specialized skills to solve complex problems. For instance, a multi-agent system could streamline a DevOps engineering pipeline, where different agents handle tasks like coding, testing, and building. By working together, these agents can create more comprehensive and effective solutions than a single AI model could, leaving you reassured and satisfied with the outcomes. It's a community of AI working together for a common goal.
 

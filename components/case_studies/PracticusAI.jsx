@@ -7,7 +7,9 @@ const PracticusAI = () => {
 			<div className="max-w-screen-lg mx-auto space-y-8">
 				<div className="flex items-center justify-center">
 					<Image
-						src={"/assets/images/case_studies/practicus_logo.png"}
+						src={
+							"https://d189ftywc9pie0.cloudfront.net/assets/images/case_studies/practicus_logo.png"
+						}
 						width={250}
 						height={100}
 						alt="btrade logo"

@@ -6,9 +6,9 @@ SEO_title: "Optimize AI Prompts | Karini’s Prompt Playground"
 date: "2024-02-26"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
-blog_image: "/assets/images/blogs/Fast_track_your_prompt_Experiments.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Fast_track_your_prompt_Experiments.png"
 blog_image_alt_name: "fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
 time_to_read: "5 min read"
 SEO_data:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-02-26"
     og:updated_time: "2024-02-26"
-    og:image: "https://www.karini.ai/assets/images/team_members/deepali-rajale.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/team_members/deepali-rajale.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Accelerate Gen AI applications with Karini’s Prompt Playground. Save, test, and manage prompt runs efficiently for high-quality AI interactions."
     twitter:title: "Optimize AI Prompts | Karini’s Prompt Playground"
     twitter:site: "https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
-    twitter:image: "https://www.karini.ai/assets/images/team_members/deepali-rajale.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
   hreflang: "en-US"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
     headline: "Fast-track your Prompt Experiments by tracking the prompt runs"
     description: "Accelerate Gen AI applications with Karini’s Prompt Playground. Save, test, and manage prompt runs efficiently for high-quality AI interactions."
-    image: "https://www.karini.ai/assets/images/blogs/Fast_track_your_prompt_Experiments.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Fast_track_your_prompt_Experiments.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -66,8 +66,8 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Fast_track_your_prompt_Experiments.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Prompt_runs.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Fast_track_your_prompt_Experiments.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Prompt_runs.png"
 news_sitemap:
   loc: "https://www.karini.ai/blogs/fast-track-your-prompt-experiments-by-tracking-the-prompt-runs"
   news:
@@ -78,8 +78,8 @@ news_sitemap:
     title: "Fast-track your Prompt Experiments by tracking the prompt runs"
     keywords: "Prompt Engineering, Generative AI Application, LLM Prompt Optimization, AI Prompt Management, Karini AI Platform"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Fast_track_your_prompt_Experiments.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Prompt_runs.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Fast_track_your_prompt_Experiments.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Prompt_runs.png"
 ---
 
 ## Introduction
@@ -96,7 +96,7 @@ Prompt Engineering for complex use cases such as Legal, Financial Advisor, HR ad
 
 Karini AI’s prompt playground revolutionizes how prompts are created, tested, and perfected across their lifecycle. This user-friendly and dynamic platform transforms domain experts into skilled prompt masters, offering a guided experience with ready-to-use templates for kickstarting the prompt creation. Users can quickly evaluate their prompts using different models and model parameters focusing on response quality, number of tokens, and response time to select the best option. Tracking prompt experiments has never been easier with the new feature to save prompt runs.
 
-![Prompt Engineering with Karini’s Prompt Playground](/assets/images/blogs/Prompt_runs.png)
+![Prompt Engineering with Karini’s Prompt Playground](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Prompt_runs.png)
 
 Using Karini’s Prompt Playground, authors can:
 

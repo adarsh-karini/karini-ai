@@ -6,9 +6,9 @@ SEO_title: "Maximize GenAI ROI with Karini AI’s Visibility Tools"
 date: "2024-04-12"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
-blog_image: "/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png"
 blog_image_alt_name: "genai-visibility"
 time_to_read: "4 min read"
 SEO_data:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-04-12"
     og:updated_time: "2024-04-12"
-    og:image: "https://www.karini.ai/assets/images/team_members/deepali-rajale.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/team_members/deepali-rajale.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "genai-visibility"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Discover how Karini AI's visibility dashboard can transform your GenAI cost management, ensuring efficiency and transparency in operations."
     twitter:title: "Maximize GenAI ROI with Karini AI’s Visibility Tools"
     twitter:site: "https://www.karini.ai/blogs/genai-visibility"
-    twitter:image: "https://www.karini.ai/assets/images/team_members/deepali-rajale.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/blogs/genai_visibility"
   hreflang: "https://www.karini.ai/blogs/genai_visibility"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/blogs/genai_visibility"
     headline: "Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes"
     description: "Discover how Generative AI is revolutionizing enterprises, from marketing to R&D, and how Karini AI can be your ally in embracing this disruptive technology."
-    image: "https://www.karini.ai/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -66,9 +66,9 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Dashboard_tiles.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Dashboard-pie_charts.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Dashboard_tiles.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Dashboard-pie_charts.png"
 
 news_sitemap:
   loc: "https://www.karini.ai/blogs/genai_visibility"
@@ -80,9 +80,9 @@ news_sitemap:
     title: "Maximize GenAI ROI with Karini AI’s Visibility Tools"
     keywords: "GenAI cost management, Karini AI dashboard, Operational transparency, LLM budget control, AI resource monitoring"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Dashboard_tiles.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Dashboard-pie_charts.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAI_Visibility_with_Karini_AI.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Dashboard_tiles.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Dashboard-pie_charts.png"
 ---
 
 ## Introduction
@@ -100,13 +100,13 @@ It offers the following capabilities:
 
 The following screenshot shows an example of a statistical overview of an organization’s assets in Karini.
 
-![Statistical overview on Karini AI Dashboard](/assets/images/blogs/Dashboard_tiles.png)
+![Statistical overview on Karini AI Dashboard](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Dashboard_tiles.png)
 
 You can also review the resources and data statistics by grouping them by dimensions to see their distribution. For example, you can view all the registered model endpoints within your organization in Karini’s model hub, grouped by their model provider or model type. You can also view all the dataset items grouped by the data connectors using which the data was sourced.
 
 The following screenshot shows an example of a distribution of assets within an organization in Karini.
 
-![Pie chart distribution of assets in Karini AI](/assets/images/blogs/Dashboard-pie_charts.png)
+![Pie chart distribution of assets in Karini AI](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Dashboard-pie_charts.png)
 
 - **Cost and usage monitoring:**
   Karini's cost analysis dashboard features an intuitive interface that allows you to easily visualize, understand, and monitor your cost and usage trends over time. You can review your usage and costs via the main dashboard or explore specific resources like endpoints or copilots on their respective pages.

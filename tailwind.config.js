@@ -107,15 +107,21 @@ module.exports = {
 				},
 			},
 			backgroundImage: {
-				// hero_img: "url('/assets/images/tool_image.png')",
-				about_img: "url('/assets/images/aboutus/aboutus_img.jpg')",
-				solution_img: "url('/assets/images/solutions/solutions_img.jpg')",
-				platform_img: "url('/assets/images/platform/platform_img.jpg')",
-				gen_img: "url('/assets/images/services/gen_services_img.jpg')",
-				ml_img: "url('/assets/images/services/ml_services_img.jpg')",
+				// hero_img: "url('https://d189ftywc9pie0.cloudfront.net/assets/images/tool_image.png')",
+				about_img:
+					"url('https://d189ftywc9pie0.cloudfront.net/assets/images/aboutus/aboutus_img.jpg')",
+				solution_img:
+					"url('https://d189ftywc9pie0.cloudfront.net/assets/images/solutions/solutions_img.jpg')",
+				platform_img:
+					"url('https://d189ftywc9pie0.cloudfront.net/assets/images/platform/platform_img.jpg')",
+				gen_img:
+					"url('https://d189ftywc9pie0.cloudfront.net/assets/images/services/gen_services_img.jpg')",
+				ml_img:
+					"url('https://d189ftywc9pie0.cloudfront.net/assets/images/services/ml_services_img.jpg')",
 				databricks_img:
-					"url('/assets/images/partners/databricks-partner-img.png')",
-				partners_img: "url('/assets/images/partners/partners-winning.png')",
+					"url('https://d189ftywc9pie0.cloudfront.net/assets/images/partners/databricks-partner-img.png')",
+				partners_img:
+					"url('https://d189ftywc9pie0.cloudfront.net/assets/images/partners/partners-winning.png')",
 			},
 			colors: {
 				dark: "#111827", //dark purple

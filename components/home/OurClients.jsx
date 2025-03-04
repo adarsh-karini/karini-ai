@@ -7,11 +7,11 @@ const OurClients2 = () => {
 		"/assets/images/services/aws_sagemaker.svg",
 		"/assets/images/services/aws_textract.svg",
 		"/assets/images/services/bedrock.svg",
-		"/assets/images/services/databricks.png",
+		"https://d189ftywc9pie0.cloudfront.net/assets/images/services/databricks.png",
 		"/assets/images/services/anthropic.svg",
 		"/assets/images/services/anyscale.svg",
 		"/assets/images/services/hugging_face.svg",
-		"/assets/images/services/azure_openai.png",
+		"https://d189ftywc9pie0.cloudfront.net/assets/images/services/azure_openai.png",
 	];
 
 	return (

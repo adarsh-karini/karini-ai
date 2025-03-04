@@ -7,7 +7,9 @@ const BTrade = () => {
 			<div className="max-w-screen-lg mx-auto space-y-8">
 				<div className="flex items-center justify-center">
 					<Image
-						src={"/assets/images/case_studies/BTrade_Logo.png"}
+						src={
+							"https://d189ftywc9pie0.cloudfront.net/assets/images/case_studies/BTrade_Logo.png"
+						}
 						width={500}
 						height={200}
 						alt="btrade logo"

@@ -16,42 +16,42 @@ const Hero = () => {
 	const imagesData = [
 		{
 			title: "Centralized Visibility and Usage Trends",
-			path: "/assets/images/platform/karini_ai_dashboards.gif",
+			path: "https://d189ftywc9pie0.cloudfront.net/assets/images/platform/karini_ai_dashboards.gif",
 			altText: "dashboard",
 		},
 		{
 			title: "Explore Copilot Hub",
-			path: "/assets/images/platform/Copilot_Hub.png",
+			path: "https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Copilot_Hub.png",
 			altText: "explore-copilot-hub",
 		},
 		{
 			title: "Connect to SAAS Models or Open Source Models",
-			path: "/assets/images/platform/Model_EndPoint.jpg",
+			path: "https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Model_EndPoint.jpg",
 			altText: "connect-to-saas-and-proprietary-models",
 		},
 		{
 			title: "Prompt Playground to compare LLM performance",
-			path: "/assets/images/platform/Prompt_Playground.png",
+			path: "https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Prompt_Playground.png",
 			altText: "prompt-engineering",
 		},
 		{
 			title: "No Code Generative AI Recipes to Build Applications",
-			path: "/assets/images/platform/Setup_and_Run_Recipe.jpg",
+			path: "https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Setup_and_Run_Recipe.jpg",
 			altText: "low-code-recipes",
 		},
 		{
 			title: "Evaluate RAG using Ground Truth Labels",
-			path: "/assets/images/platform/Evaluation_Rag.jpg",
+			path: "https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Evaluation_Rag.jpg",
 			altText: "evaluate-rag",
 		},
 		{
 			title: "Customize Copilot & Deploy",
-			path: "/assets/images/platform/Export_CoPilot.png",
+			path: "https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Export_CoPilot.png",
 			altText: "export copilot",
 		},
 		{
 			title: "Integrate Copilot with your Application",
-			path: "/assets/images/platform/Copilot.png",
+			path: "https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Copilot.png",
 			altText: "intergrate-chatbot-with-your-applications",
 		},
 	];

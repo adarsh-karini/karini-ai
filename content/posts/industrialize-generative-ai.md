@@ -6,9 +6,9 @@ SEO_title: "Karini AI on Industrializing Generative AI"
 date: "2024-01-02"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
-blog_image: "/assets/images/blogs/Industrialize-Generative-AI.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Industrialize-Generative-AI.png"
 blog_image_alt_name: "Industrialize Generative AI"
 time_to_read: "5 min read"
 SEO_data:
@@ -25,8 +25,8 @@ SEO_data:
       site_name: "Karini AI"
       updated_time: "2024-02-01"
       image:
-        url: "https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png&w=640&q=75"
-        secure_url: "https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png&w=640&q=75"
+        url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Industrialize-Generative-AI.png&w=640&q=75"
+        secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Industrialize-Generative-AI.png&w=640&q=75"
         width: "640"
         height: "640"
         alt: "Industrialize Generative AI"
@@ -37,7 +37,7 @@ SEO_data:
       description: "Explore how Karini AI leads the way in industrializing generative AI, offering strategies and insights for seamless AI application integration."
       title: "Industrializing Gen AI with Karini AI Insights"
       site: "https://www.karini.ai/blogs/industrialize-generative-ai"
-      image: "https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png&w=640&q=75"
+      image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Industrialize-Generative-AI.png&w=640&q=75"
       creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/blogs/industrialize-generative-ai"
   hreflang: "https://www.karini.ai/blogs/industrialize-generative-ai"
@@ -49,7 +49,7 @@ SEO_data:
       "@id": "https://www.karini.ai/blogs/industrialize-generative-ai"
     headline: "Industrialize Generative AI"
     description: "Generative AI"
-    image: "https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Industrialize-Generative-AI.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -69,9 +69,9 @@ sitemap:
   changefreq: "monthly"
   priority: "0.7"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/GenAIOps_four_layer_cake.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/AI-Platform-Architecture.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Industrialize-Generative-AI.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAIOps_four_layer_cake.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/AI-Platform-Architecture.png"
 news_sitemap:
   loc: "https://www.karini.ai/blogs/industrialize-generative-ai"
   news:
@@ -82,9 +82,9 @@ news_sitemap:
     title: "Industrialize Generative AI"
     keywords: "Industrialize Generative AI, Karini AI Generative AI, Gen AI Strategies, AI Application Integration, Generative AI Industrialization"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Industrialize-Generative-AI.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/GenAIOps_four_layer_cake.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/AI-Platform-Architecture.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Industrialize-Generative-AI.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAIOps_four_layer_cake.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/AI-Platform-Architecture.png"
 ---
 
 ## Hype of Generative AI
@@ -108,7 +108,7 @@ In summary, Generative AI offers massive opportunities to enterprises, but due t
 
 The quest for enterprise-grade Generative AI applications is now easier, thanks to SaaS-based model APIs and packages like Langchain and Llama Index. Yet, scaling these initiatives across an enterprise remains challenging. Historical trends show that companies thrive when utilizing a centralized platform that promotes reusability and governance, a practice seen in the formation of AI and ML platform teams.
 
-![GenAIOps four layer cake](/assets/images/blogs/GenAIOps_four_layer_cake.png)
+![GenAIOps four layer cake](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAIOps_four_layer_cake.png)
 
 Enterprises should think about Gen AI platforms with the above four-layered cake:
 
@@ -123,7 +123,7 @@ Many Data, ML, and AI vendors are snapping these capabilities on top of their ex
 
 Karini AI presents "Generative AI platform," designed to revolutionize enterprise operations by integrating proprietary data with advanced language models, effectively creating a digital co-pilot for every user. Karini simplifies the process, offering intuitive Gen AI templates that allow rapid application development. The platform offers an array of data processing tools and adheres to LLMOps practices for deploying Models, Data, and Copilots. It also provides customization options and incorporates continuous feedback mechanisms to enhance the quality of RAG implementations.
 
-![AI Platform Architecture](/assets/images/blogs/AI-Platform-Architecture.png)
+![AI Platform Architecture](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/AI-Platform-Architecture.png)
 
 ### Conclusion
 

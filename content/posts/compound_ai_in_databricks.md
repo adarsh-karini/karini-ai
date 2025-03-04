@@ -5,14 +5,14 @@ title: "Build and Productionalize Compound AI Systems in Databricks with Karini 
 SEO_title: "Compound AI Systems with Databricks | Karini AI"
 date: "2024-09-04"
 time_to_read: "6 min read"
-blog_image: "/assets/images/blogs/databricks-blog.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/databricks-blog.png"
 blog_image_alt_name: "Diagram of compound AI system architecture on Databricks platform"
 authors:
   - name: "Prasad Kona"
-    image: "/assets/images/team_members/prasad-kona.jpeg"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/prasad-kona.jpeg"
     linked_in: "https://www.linkedin.com/in/pkona/"
   - name: "Nitin Wagh"
-    image: "/assets/images/team_members/nitin-wagh.jpg"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/nitin-wagh.jpg"
     linked_in: "https://www.linkedin.com/in/nitin-bwagh/"
 SEO_data:
   metadata:
@@ -27,8 +27,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-09-04"
     og:updated_time: "2024-09-04"
-    og:image: "https://www.karini.ai/assets/images/blogs/databricks-blog.png"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/databricks-blog.png"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/databricks-blog.png"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/databricks-blog.png"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "Build and Productionalize Compound AI Systems in Databricks with Karini AI"
@@ -36,7 +36,7 @@ SEO_data:
     twitter:description: "Learn to develop and deploy compound AI systems using Databricks and Karini AI, optimizing performance and scalability for enterprise success."
     twitter:title: "Build and Productionalize Compound AI Systems in Databricks with Karini AI"
     twitter:site: "https://www.karini.ai/blogs/compound_ai_in_databricks"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/databricks-blog.png"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/databricks-blog.png"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/blogs/compound_ai_in_databricks"
   hreflang: "https://www.karini.ai/blogs/compound_ai_in_databricks"
@@ -48,7 +48,7 @@ SEO_data:
       "@id": "https://www.karini.ai/blogs/compound_ai_in_databricks"
     headline: "Karini AI Announces Support for Multi-Agent Systems"
     description: "Learn to develop and deploy compound AI systems using Databricks and Karini AI, optimizing performance and scalability for enterprise success."
-    image: "https://www.karini.ai/assets/images/blogs/databricks-blog.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/databricks-blog.png"
     author:
       "@type": "Organization"
       name: "Karini AI"
@@ -70,7 +70,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/databricks-blog.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/databricks-blog.png"
 news_sitemap:
   loc: "https://www.karini.ai/blogs/compound_ai_in_databricks"
   news:
@@ -81,7 +81,7 @@ news_sitemap:
     title: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes"
     keywords: "Karini AI batch execution, no-code Generative AI recipes, generative AI applications, batch processing pipelines, Large Language Models LLMs, enterprise AI integration"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/databricks-blog.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/databricks-blog.png"
 ---
 
 In today’s rapidly evolving tech landscape, Generative AI (GenAI) initiatives are not just experimental; they are emerging as critical components of enterprise strategies, with real budgets allocated and a few trailblazing use cases already in production. The potential of these initiatives is inspiring confidence in the security and legal teams, who were once hesitant but are now aligning with these initiatives. This shift is driven by the rise of privacy-focused open-source alternatives like DBRX, Llama 3.1, and Mistral Large. However, despite these advancements, Gartner predicts that by the end of 2025, at least 30% of GenAI projects will be abandoned post-proof of concept due to challenges such as poor data quality, insufficient risk controls, escalating costs, and ambiguous business value. While open-source solutions have made it easier to build proof of concepts, moving to production requires careful consideration of scaling, performance, security, quality monitoring, and cost management. These complexities have prompted a more cautious approach to ensure that GenAI deployments meet stringent enterprise standards and deliver sustainable value.

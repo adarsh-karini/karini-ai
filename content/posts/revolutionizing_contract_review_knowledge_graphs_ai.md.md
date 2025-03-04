@@ -5,14 +5,14 @@ title: "Revolutionizing Contract Review: Leveraging Knowledge Graphs and Generat
 SEO_title: "Revolutionizing Contract Review: Leveraging Knowledge Graphs and Generative AI with Amazon Bedrock, Neo4j and Karini AI"
 date: "2024-10-08"
 time_to_read: "1 hour watch"
-blog_image: "/assets/images/webinars/contract-review.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/contract-review.png"
 blog_image_alt_name: "Accelerate-Your-GenAI-Projects"
 authors:
   - name: "Sreenath Gotur"
-    image: "/assets/images/team_members/sreenath_gotur.jfif"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/sreenath_gotur.jfif"
     linked_in: "https://www.linkedin.com/in/sreenath-gotur-b9b66011/"
   - name: "Nitin Wagh"
-    image: "/assets/images/team_members/nitin-wagh.jpg"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/nitin-wagh.jpg"
     linked_in: "https://www.linkedin.com/in/nitin-bwagh/"
 SEO_data:
   metadata:
@@ -27,8 +27,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-10-08"
     og:updated_time: "2024-10-08"
-    og:image: "https://www.karini.ai/assets/images/webinars/contract-review.png"
-    og:image:secure_url: "https://www.karini.ai/assets/images/webinars/contract-review.png"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/contract-review.png"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/contract-review.png"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "Revolutionizing Contract Review: Leveraging Knowledge Graphs and Generative AI with Amazon Bedrock, Neo4j and Karini AI"
@@ -36,7 +36,7 @@ SEO_data:
     twitter:description: "In this practical webinar, you will gain insights into the building blocks of Compound Generative AI Foundational components."
     twitter:title: "Revolutionizing Contract Review: Leveraging Knowledge Graphs and Generative AI with Amazon Bedrock, Neo4j and Karini AI"
     twitter:site: "https://www.karini.ai/webinars/genai-foundations"
-    twitter:image: "https://www.karini.ai/assets/images/webinars/contract-review.png"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/contract-review.png"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/webinars/genai-foundations"
   hreflang: "https://www.karini.ai/webinars/genai-foundations"
@@ -48,7 +48,7 @@ SEO_data:
       "@id": "https://www.karini.ai/webinars/genai-foundations"
     headline: "Revolutionizing Contract Review: Leveraging Knowledge Graphs and Generative AI with Amazon Bedrock, Neo4j and Karini AI"
     description: "In this practical webinar, you will gain insights into the building blocks of Compound Generative AI Foundational components."
-    image: "https://www.karini.ai/assets/images/webinars/contract-review.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/contract-review.png"
     author:
       "@type": "Organization"
       name: "Karini AI"
@@ -67,7 +67,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/webinars/contract-review.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/contract-review.png"
 news_sitemap:
   loc: "https://www.karini.ai/webinars/genai-foundations"
   news:
@@ -78,7 +78,7 @@ news_sitemap:
     title: "Revolutionizing Contract Review: Leveraging Knowledge Graphs and Generative AI with Amazon Bedrock, Neo4j and Karini AI"
     keywords: "generative AI, Karini AI, enterprise AI"
   images:
-    - loc: "https://www.karini.ai/assets/images/webinars/contract-review.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/contract-review.png"
 ---
 
 Sreenath Gotur, a seasoned GenAI Specialist and senior Partner Solutions Architect at AWS, and Nitin Wagh, Chief Product Officer at Karini AI, dive deep into how Generative AI and Knowledge Graphs transform contract analysis. This session showcases the integration of Amazon Bedrock with Neo4j, demonstrating how complex contract review workflows can be simplified and enhanced.

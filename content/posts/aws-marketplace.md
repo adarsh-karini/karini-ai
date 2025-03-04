@@ -5,11 +5,11 @@ title: "Generative AI Goes Prime Time: Karini AI Now Available on AWS Marketplac
 SEO_title: "Karini AI Launches on AWS Marketplace - Explore Now!"
 date: "2024-07-01"
 time_to_read: "3 min read"
-blog_image: "/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
 blog_image_alt_name: "Karini AI on AWS Marketplace"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI on AWS MarketPlace"
     article:published_time: "2024-07-01"
     og:updated_time: "2024-07-01"
-    og:image: "https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "Karini AI on AWS Marketplace"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Unlock the power of GenAI with Karini AI on AWS Marketplace. Secure, scalable AI development is just a click away!"
     twitter:title: "Karini AI Launches on AWS Marketplace - Explore Now!"
     twitter:site: "https://www.karini.ai/announcements/aws-marketplace"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png&w=640&q=75"
     twitter:creator: "Efficient Batch Pipelines with Karini AI's No-Code Generative AI Recipes"
   canonicalLink: "https://www.karini.ai/announcements/aws-marketplace"
   hreflang: "https://www.karini.ai/announcements/aws-marketplace"
@@ -44,7 +44,7 @@ SEO_data:
       "@type": "WebPage"
       "@id": "https://www.karini.ai/announcements/aws-marketplace"
     headline: "Karini AI extends support for Batch execution pipelines using no-code Generative AI recipes"
-    image: "https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -65,7 +65,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.9"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
 news_sitemap:
   loc: "https://www.karini.ai/announcements/aws-marketplace"
   news:
@@ -76,7 +76,7 @@ news_sitemap:
     title: "Karini AI Launches on AWS Marketplace - Explore Now!"
     keywords: "Karini AI AWS Marketplace, Generative AI AWS integration, AWS Marketplace GenAI solutions, Secure GenAI platform, No-code AI development AWS"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Karini_AI_now_on_AWS_Marketplace.png"
 ---
 
 Empowering innovation while prioritizing security is paramount for businesses of all sizes. We're thrilled to announce that Karini AI, the leading platform for building secure and scalable Generative AI (GenAI) applications, is now available on AWS Marketplace. Its user-friendly interface and seamless integration with Amazon Bedrock make it a comfortable choice for your business.

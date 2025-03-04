@@ -5,11 +5,11 @@ title: "Introducing the First Purpose-Built Generative BI System: Natural Langua
 SEO_title: "Generative BI System: Transform Your Data Analytics"
 date: "2024-06-24"
 time_to_read: "3 min read"
-blog_image: "/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png"
 blog_image_alt_name: "Text to SQL with Karini AI"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
 SEO_data:
   metadata:
@@ -25,8 +25,8 @@ SEO_data:
       site_name: "Karini AI Batch Execution"
       updated_time: "2024-06-24"
       image:
-        url: "https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75"
-        secure_url: "https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75"
+        url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75"
+        secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75"
         width: "640"
         height: "640"
         alt: "Text to SQL with Karini AI"
@@ -37,7 +37,7 @@ SEO_data:
       description: "Explore Karini AI's Generative BI system for dynamic insights directly from your databases and data warehouses. Enhance decision-making today."
       title: "Generative BI System: Transform Your Data Analytics"
       site: "https://www.karini.ai/announcements/generative-bi-system"
-      image: "https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75"
+      image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png&w=640&q=75"
       creator: "Introducing the First Purpose-Built Generative BI System: Natural Language Interaction with Your Analytics Databases and Data Warehouses"
   canonicalLink: "https://www.karini.ai/announcements/generative-bi-system"
   hreflang: "https://www.karini.ai/announcements/generative-bi-system"
@@ -48,7 +48,7 @@ SEO_data:
       "@type": "WebPage"
       "@id": "https://www.karini.ai/announcements/generative-bi-system"
     headline: "Introducing the First Purpose-Built Generative BI System"
-    image: "https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -69,7 +69,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.9"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Effortlessly_Convert_Text_to_SQL_with_Karini_AI.png"
 ---
 
 Today, traditional data analytics, warehousing, and databases hold vast amounts of data. However, these methods are becoming inadequate as data generation soars with additional sources and multiple Data architectures. Traditional Business Intelligence is time-consuming, requires specialized skills, and produces insights that are hard to interpret and typically hardwired. Decision-makers do not get fresh insights or need to depend on their Data science or Analysts to provide summaries, increasing round trip time and hence delaying decisions.

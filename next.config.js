@@ -7,6 +7,10 @@ const nextConfig = {
 				protocol: "https",
 				hostname: "www.karini.ai",
 			},
+			{
+				protocol: "https",
+				hostname: "d189ftywc9pie0.cloudfront.net",
+			},
 		],
 	},
 };

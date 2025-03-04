@@ -6,9 +6,9 @@ SEO_title: "Supercharged Compound AI with Amazon Bedrock & Karini.ai"
 date: "2024-04-25"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
-blog_image: "/assets/images/blogs/Beyond_Limits.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Beyond_Limits.png"
 blog_image_alt_name: "amazon-bedrock-compound-ai-systems"
 time_to_read: "5 min read"
 SEO_data:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-04-25"
     og:updated_time: "2024-04-25"
-    og:image: "https://www.karini.ai/assets/images/blogs/Beyond_Limits.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Beyond_Limits.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Beyond_Limits.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Beyond_Limits.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "amazon-bedrock-compound-ai-systems"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Discover how Karini.ai enhances Amazon Bedrock compound GenAI systems for greater innovation, efficiency, and scalability. Revolutionize your tech today!"
     twitter:title: "Supercharged Compound AI with Amazon Bedrock & Karini.ai"
     twitter:site: "https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Beyond_Limits.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Beyond_Limits.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems"
   hreflang: "https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/blogs/amazon-bedrock-compound-ai-systems"
     headline: "Beyond Limits: How Amazon Bedrock and Karini AI Supercharge Compound AI Systems"
     description: "Generative AI"
-    image: "https://www.karini.ai/assets/images/blogs/Beyond_Limits.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Beyond_Limits.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -66,10 +66,10 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Beyond_Limits.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Compound_systems.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/karini_compound_systems.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/Amazon_bedrock_recipe.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Beyond_Limits.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Compound_systems.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/karini_compound_systems.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Amazon_bedrock_recipe.png"
 ---
 
 ## Introduction
@@ -80,7 +80,7 @@ Generative AI has become a shared C-Level priority with many enterprises setting
 
 A [Compound AI System](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) addresses AI tasks through multiple interconnected components, including several calls to different models, retrievers, or external tools. AI models are constantly improving, with scalability seemingly limitless. However, complex, multifaceted compound systems increasingly achieve the most advanced results. Combining the models with other components allows businesses to build dynamic systems that can address complex scenarios based on user queries at runtime, reduce model hallucinations, and increase user control and trust. Enterprises can design their compound systems based on their performance goals. E.g., in some applications, even the largest model may need to be more performant or too expensive. Still, an ensemble of smaller fine-tuned models augmented with optimized search and retrieve capabilities can give the best results. Github Copilot is an excellent example of this approach. While enterprises are making a shift in compounding AI systems, the emerging challenges are how to design, optimize & operate these systems. The compound systems consist of a data processing loop, query optimization loop, and operations management capabilities, and they can be independently optimized for better performance.
 
-![Compound Systems](/assets/images/blogs/Compound_systems.png)
+![Compound Systems](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Compound_systems.png)
 
 ## Karini AI Platform powered by AWS Gen AI for Compound AI Systems
 
@@ -94,11 +94,11 @@ Karini AI is a no-code Generative AI platform with a broad set of capabilities t
 
 **Operations and Visibility:** Karini AI provides built-in observability for tracing RAG chains and understanding low-performing conversations. Copilot supports fine-grained feedback collection to gather user preferences and create instruction fine-tuning datasets. The built-in dashboards provide system performance and cost monitoring across model endpoints for Amazon Bedrock and SageMaker-hosted models. Karini AI provides enterprise connectors for significant numbers of data sources such as Amazon S3, Websites, Google Storage, Azure Storage, and Dropbox to unify data silos into a single vector store and also respects source system role-based access controls during serving.
 
-![Karini Compound Systems](/assets/images/blogs/karini_compound_systems.png)
+![Karini Compound Systems](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/karini_compound_systems.png)
 
 Here is a quick end-to-end Karini AI Generative AI recipe powered by Amazon Bedrock models.
 
-![Amazon Bedrock Recipe](/assets/images/blogs/Amazon_bedrock_recipe.png)
+![Amazon Bedrock Recipe](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Amazon_bedrock_recipe.png)
 
 ## Conclusion
 

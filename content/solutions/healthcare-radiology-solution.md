@@ -6,12 +6,12 @@ show: true
 card_data:
   title: Radiology
   description: Revolutionizing Radiology with Vision Language Models(VLMs).
-  image: /assets/images/solutions/Radiology_sqaure.png
+  image: https://d189ftywc9pie0.cloudfront.net/assets/images/solutions/Radiology_sqaure.png
   image_alt_name: Radiology AI transformation
   theme_color: "#facc15"
 date: "2024-09-30"
 hero_title: Revolutionizing Radiology with Vision Language Models(VLMs)
-hero_image: "/assets/images/solutions/Radiology_Banner.png"
+hero_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/solutions/Radiology_Banner.png"
 hero_image_alt_name: "Radiology GenAI transformation"
 SEO_title: Revolutionizing Radiology with Vision Language Models(VLMs)
 SEO_data:
@@ -27,16 +27,16 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-09-30"
     og:updated_time: "2024-09-30"
-    og:image: "https://www.karini.ai/assets/images/solutions/Radiology_sqaure.png"
-    og:image:secure_url: "https://www.karini.ai/assets/images/solutions/Radiology_sqaure.png"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/solutions/Radiology_sqaure.png"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/solutions/Radiology_sqaure.png"
     og:image:width: "640"
     og:image:height: "640"
-    og:image:alt: "https://www.karini.ai//assets/images/solutions/Radiology sqaure.png"
+    og:image:alt: "https://d189ftywc9pie0.cloudfront.net/assets/images/solutions/Radiology sqaure.png"
     twitter:card: "summary"
     twitter:description: Karini AI uses Vision Language Models (VLMs) to bring fast, accurate radiology reports to life, transforming the healthcare industry.
     twitter:title: Revolutionizing Radiology with Vision Language Models (VLMs)
     twitter:site: "https://www.karini.ai/solutions/Industries/healthcare-industry-solution"
-    twitter:image: "https://www.karini.ai/assets/images/solutions/Radiology_sqaure.png"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/solutions/Radiology_sqaure.png"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/solutions/Industries/healthcare-radiology-solution"
   hreflang: "https://www.karini.ai/solutions/Industries/healthcare-radiology-solution"
@@ -48,7 +48,7 @@ SEO_data:
       "@id": "https://www.karini.ai/solutions/Industries/healthcare-radiology-solution"
     headline: "Revolutionizing Radiology with Vision Language Models (VLMs)"
     description: "Generative AI"
-    image: "https://www.karini.ai/assets/images/solutions/Radiology_sqaure.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/solutions/Radiology_sqaure.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -65,8 +65,8 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/solutions/Radiology sqaure.png"
-    - loc: "https://www.karini.ai/assets/images/solutions/Radiology Banner.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/solutions/Radiology sqaure.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/solutions/Radiology Banner.png"
 ---
 
 Imagine a world where life-saving diagnoses are delayed simply because there aren't enough radiologists. This isn't science fiction—it's the reality in many parts of the world today.

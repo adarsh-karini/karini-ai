@@ -6,9 +6,9 @@ SEO_title: "GenAIOps in Enterprises: Navigating Challenges"
 date: "2024-01-31"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
-blog_image: "/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png"
 blog_image_alt_name: "navigating-genaiops-in-enterprises"
 time_to_read: "10 min read"
 SEO_data:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-01-31"
     og:updated_time: "2024-01-31"
-    og:image: "https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "navigating-genaiops-in-enterprises"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Karini AI guides enterprises through GenAIOps, from adoption to execution. Discover best practices for integrating Generative AI into your business."
     twitter:title: "GenAIOps in Enterprises: Navigating Challenges"
     twitter:site: "https://www.karini.ai/blogs/navigating-genaiops-in-enterprises"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/blogs/navigating-genaiops-in-enterprises"
   hreflang: "https://www.karini.ai/blogs/navigating-genaiops-in-enterprises"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/blogs/navigating-genaiops-in-enterprises"
     headline: "Navigating GenAIOps in Enterprises: Challenges and Best Practices"
     description: "Enterprises are adopting Generative AI to help solve many complex use cases with natural language instructions. Building a Gen AI application involves multiple components such as an LLM, data sources, vector store, prompt engineering, and RAG."
-    image: "https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -66,10 +66,10 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/GenAIOps_challenges.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/msn_chevy_chatbot_crop.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/GenAIOps_best_practices.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAIOps_challenges.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/msn_chevy_chatbot_crop.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAIOps_best_practices.png"
 news_sitemap:
   loc: "https://www.karini.ai/blogs/navigating-genaiops-in-enterprises"
   news:
@@ -80,10 +80,10 @@ news_sitemap:
     title: "Navigating GenAIOps in Enterprises: Challenges and Best Practices - Version 1.0"
     keywords: "GenAIOps Enterprises, Generative AI Integration, GenAIOps Best Practices, Enterprise AI Solutions, Karini AI GenAIOps"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/GenAIOps_challenges.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/msn_chevy_chatbot_crop.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/GenAIOps_best_practices.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Navigating_GenAIOps_in_Enterprises.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAIOps_challenges.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/msn_chevy_chatbot_crop.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAIOps_best_practices.png"
 ---
 
 ## Introduction to GenAIOps in Enterprises
@@ -94,7 +94,7 @@ Enterprises are adopting Generative AI to help solve many complex use cases with
 
 While pilot projects using Generative AI can start effortlessly, most enterprises need help progressing beyond this phase. According to Everest Research, a staggering 50%+ projects do not move beyond the pilots as they face hurdles due to the absence of established GenAIOps practices. Each step presents unique challenges, from connecting to enterprise data to navigating the complexities of embedding algorithms and managing query phases. These include:
 
-![GenAIOps challenges](/assets/images/blogs/GenAIOps_challenges.png)
+![GenAIOps challenges](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAIOps_challenges.png)
 
 **Access to Enterprise Data**: This involves creating connectors to various storage solutions and databases, considering different ingestion formats like files, tabular data, or API responses. Unlike traditional ETL, extraction, cleaning, masking, and chunking techniques require special attention, especially when dealing with complex structures like tables in PDFs or removing unwanted HTML tags from web crawls.
 
@@ -111,7 +111,7 @@ Prompt Efficiency: Open source LLMs are catching up fast with proprietary LLMs i
 
 **Content Safety:** LLMs may spout toxic or unsafe content without proper guardrails, leading to brand reputation issues. The brand reputation concern is genuine, as reported by Chevrolet’s public AI chatbot([MSN](https://www.msn.com/en-us/money/companies/a-chevrolet-dealer-offered-an-ai-chatbot-on-its-website-it-told-customers-to-buy-a-ford/ar-AA1lL6KE?ocid=entnewsntp&cvid=b258df25642b448c8467af9a3bf4c362&ei=18)), which produced results touting Ford's products. Imagine building these AI chatbots for children or other uninformed or vulnerable populations that may be led astray with misinformation.
 
-![MSN Chevy Chatbot](/assets/images/blogs/msn_chevy_chatbot.png)
+![MSN Chevy Chatbot](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/msn_chevy_chatbot.png)
 
 **User Experience:** Most Gen AI systems do not focus on end-user experience. Chat GPT has set the standard for user experience, but OpenAI has control of the end-to-end pipeline, including the model. Lack of good experiences, such as streaming responses, A/B testing framework, lack of exhaustive user feedback mechanism, adequate seeding questions, or lack of follow-up questions, may diminish user engagement.
 
@@ -121,7 +121,7 @@ Getting started with GenAIOps automation is another hurdle due to its technical 
 
 Effective GenAIOps operationalization requires skills such as AI engineers, safety and security experts, and domain experts. The diagram below provides best practices for a typical RAG workflow depicted in the challenges section. Let's dive into the best practices below,
 
-![GenAIOps best practices](/assets/images/blogs/GenAIOps_best_practices.png)
+![GenAIOps best practices](https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/GenAIOps_best_practices.png)
 
 **Data Management:** Utilize standard storage, database, and SaaS application interfaces to minimize bulk distributed data replication and incremental ingestion. To make it LLM-ready, utilize distributed runtimes for extraction, cleaning, masking, and chunking data. Maintain a copy of source metadata to the vector store to ensure downstream querying systems can use it for pre-filtering for more relevant answers.
 

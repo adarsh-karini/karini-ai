@@ -6,9 +6,9 @@ SEO_title: "Maximize GenAI ROI with Karini AI’s Visibility Tools"
 date: "2024-03-01"
 authors:
   - name: "Jerome Mendell"
-    image: "/assets/images/team_members/jerome-mendell.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/jerome-mendell.png"
     linked_in: "https://www.linkedin.com/in/jeromemendell/"
-blog_image: "/assets/images/blogs/The_Inevitable_Disruption_copy.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Inevitable_Disruption_copy.png"
 blog_image_alt_name: "The Inevitable Disruption copy"
 time_to_read: "5 min read"
 SEO_data:
@@ -25,8 +25,8 @@ SEO_data:
       site_name: "Karini AI"
       updated_time: "2024-01-03"
       image:
-        url: "https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png&w=640&q=75"
-        secure_url: "https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png&w=640&q=75"
+        url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Inevitable_Disruption_copy.png&w=640&q=75"
+        secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Inevitable_Disruption_copy.png&w=640&q=75"
         width: "640"
         height: "640"
         alt: "The Inevitable Disruption copy"
@@ -37,7 +37,7 @@ SEO_data:
       description: "Discover how Generative AI transforms businesses (marketing, R&D!) & how Karini AI empowers you to leverage it. #GenerativeAI"
       title: "Generative AI in Business: Navigating the Future - Karini AI"
       site: "https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption"
-      image: "https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png&w=640&q=75"
+      image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Inevitable_Disruption_copy.png&w=640&q=75"
       creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption"
   hreflang: "https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption"
@@ -49,7 +49,7 @@ SEO_data:
       "@id": "https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption"
     headline: "Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes"
     description: "Discover how Generative AI is revolutionizing enterprises, from marketing to R&D, and how Karini AI can be your ally in embracing this disruptive technology."
-    image: "https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Inevitable_Disruption_copy.png"
     author:
       "@type": "Person"
       name: "Jerome Mendell"
@@ -70,7 +70,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Inevitable_Disruption_copy.png"
 news_sitemap:
   loc: "https://www.karini.ai/blogs/generative-ai-the-inevitable-disruption"
   news:
@@ -81,7 +81,7 @@ news_sitemap:
     title: "Generative AI: The Inevitable Disruption Shaping Enterprise Landscapes"
     keywords: "Generative AI, Business Transformation, AI Innovation, Enterprise AI Solutions, Karini AI, AI in Marketing, AI in R&D, AI Tools for Business, Disruptive Technology, Future of AI"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/The_Inevitable_Disruption_copy.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/The_Inevitable_Disruption_copy.png"
 ---
 
 ## Introduction

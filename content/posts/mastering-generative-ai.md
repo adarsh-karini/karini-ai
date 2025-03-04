@@ -6,9 +6,9 @@ SEO_title: "Mastering Gen AI: Enterprise Guide by Karini AI"
 date: "2024-01-04"
 authors:
   - name: "Jerome Mendell"
-    image: "/assets/images/team_members/jerome-mendell.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/jerome-mendell.png"
     linked_in: "https://www.linkedin.com/in/jeromemendell/"
-blog_image: "/assets/images/blogs/Mastering_Generative_AI.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Mastering_Generative_AI.png"
 blog_image_alt_name: "mastering-generative-ai"
 time_to_read: "10 min read"
 SEO_data:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-04-01"
     og:updated_time: "2024-04-01"
-    og:image: "https://www.karini.ai/assets/images/team_members/jerome-mendell.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/team_members/jerome-mendell.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/jerome-mendell.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/jerome-mendell.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "mastering-generative-ai"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "Unlock the full potential of Generative AI in your enterprise with Karini AI's expert guide. Dive into strategic insights for effective Gen AI integration."
     twitter:title: "Mastering Gen AI: Enterprise Guide by Karini AI"
     twitter:site: "https://www.karini.ai/blogs/mastering-generative-ai"
-    twitter:image: "https://www.karini.ai/assets/images/team_members/jerome-mendell.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/jerome-mendell.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/blogs/mastering-generative-ai"
   hreflang: "https://www.karini.ai/blogs/mastering-generative-ai"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/blogs/mastering-generative-ai"
     headline: "Mastering Generative AI: A Strategic Roadmap for Enterprise Integration"
     description: "In the past twelve months, the corporate landscape has been abuzz with the potential of generative AI as a groundbreaking innovation. Despite broad recognition of its transformative power, many firms have adopted a tentative stance, cautiously navigating the implementation of this technology."
-    image: "https://www.karini.ai/assets/images/blogs/Mastering_Generative_AI.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Mastering_Generative_AI.png"
     author:
       "@type": "Person"
       name: "Jerome Mendell"
@@ -66,7 +66,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.7"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Mastering_Generative_AI.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Mastering_Generative_AI.png"
 ---
 
 ## Introduction

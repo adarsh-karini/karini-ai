@@ -6,9 +6,9 @@ SEO_title: "Optimize RAG Systems with Karini AI's GenAIOps Platform"
 date: "2024-03-13"
 authors:
   - name: "Deepali Rajale"
-    image: "/assets/images/team_members/deepali-rajale.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/deepali-rajale.png"
     linked_in: "https://www.linkedin.com/in/deepali-rajale-958a267/"
-blog_image: "/assets/images/blogs/Building_Efficient_RAG_Systems.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Building_Efficient_RAG_Systems.png"
 blog_image_alt_name: "building-efficient-rag-systems"
 time_to_read: "3 min read"
 SEO_data:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-03-13"
     og:updated_time: "2024-03-13"
-    og:image: "https://www.karini.ai/assets/images/blogs/Building_Efficient_RAG_Systems.png&w=640&q=75"
-    og:image:secure_url: "https://www.karini.ai/assets/images/blogs/Building_Efficient_RAG_Systems.png&w=640&q=75"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Building_Efficient_RAG_Systems.png&w=640&q=75"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Building_Efficient_RAG_Systems.png&w=640&q=75"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "building-efficient-rag-systems"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "How to operationalize Generative AI with Karini.ai's GenAI Orchestration platform, enhance RAG for precision and speed in response generation."
     twitter:title: "Optimize RAG Systems with Karini AI's GenAIOps Platform"
     twitter:site: "https://www.karini.ai/blogs/building-efficient-rag-systems"
-    twitter:image: "https://www.karini.ai/assets/images/blogs/Building_Efficient_RAG_Systems.png&w=640&q=75"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Building_Efficient_RAG_Systems.png&w=640&q=75"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/blogs/building-efficient-rag-systems"
   hreflang: "en-US"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/blogs/building-efficient-rag-systems"
     headline: "Building Efficient RAG Systems"
     description: "How to operationalize Generative AI with Karini.ai's GenAI Orchestration platform, enhance RAG for precision and speed in response generation."
-    image: "https://www.karini.ai/assets/images/blogs/Building_Efficient_RAG_Systems.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Building_Efficient_RAG_Systems.png"
     author:
       "@type": "Person"
       name: "Deepali Rajale"
@@ -65,8 +65,8 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/blogs/Building_Efficient_RAG_Systems.png"
-    - loc: "https://www.karini.ai/assets/images/blogs/rag_enhancement.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/Building_Efficient_RAG_Systems.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/blogs/rag_enhancement.png"
 ---
 
 ## Introduction

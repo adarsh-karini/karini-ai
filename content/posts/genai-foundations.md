@@ -5,11 +5,11 @@ title: "Best practices to set up GenAI foundations to accelerate GenAI Projects"
 SEO_title: "Best practices to set up GenAI foundations to accelerate GenAI Projects"
 date: "2024-07-09"
 time_to_read: "1 hour watch"
-blog_image: "/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
+blog_image: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
 blog_image_alt_name: "Accelerate-Your-GenAI-Projects"
 authors:
   - name: "Nitin Wagh"
-    image: "/assets/images/team_members/nitin-wagh.jpg"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/team_members/nitin-wagh.jpg"
     linked_in: "https://www.linkedin.com/in/nitin-bwagh/"
 SEO_data:
   metadata:
@@ -24,8 +24,8 @@ SEO_data:
     og:site_name: "Karini AI"
     article:published_time: "2024-07-09"
     og:updated_time: "2024-07-09"
-    og:image: "https://www.karini.ai/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
-    og:image:secure_url: "https://www.karini.ai/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
+    og:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
+    og:image:secure_url: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
     og:image:width: "640"
     og:image:height: "640"
     og:image:alt: "Best practices to set up GenAI foundations to accelerate GenAI Projects"
@@ -33,7 +33,7 @@ SEO_data:
     twitter:description: "In this practical webinar, you will gain insights into the building blocks of Compound Generative AI Foundational components."
     twitter:title: "Best practices to set up GenAI foundations to accelerate GenAI Projects"
     twitter:site: "https://www.karini.ai/webinars/genai-foundations"
-    twitter:image: "https://www.karini.ai/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
+    twitter:image: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
     twitter:creator: "Karini AI"
   canonicalLink: "https://www.karini.ai/webinars/genai-foundations"
   hreflang: "https://www.karini.ai/webinars/genai-foundations"
@@ -45,7 +45,7 @@ SEO_data:
       "@id": "https://www.karini.ai/webinars/genai-foundations"
     headline: "Best practices to set up GenAI foundations to accelerate GenAI Projects"
     description: "In this practical webinar, you will gain insights into the building blocks of Compound Generative AI Foundational components."
-    image: "https://www.karini.ai/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
+    image: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
     author:
       "@type": "Organization"
       name: "Karini AI"
@@ -64,7 +64,7 @@ sitemap:
   changefreq: "monthly"
   priority: "0.8"
   images:
-    - loc: "https://www.karini.ai/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
 news_sitemap:
   loc: "https://www.karini.ai/webinars/genai-foundations"
   news:
@@ -75,7 +75,7 @@ news_sitemap:
     title: "Best practices to set up GenAI foundations to accelerate GenAI Projects"
     keywords: "generative AI, Karini AI, enterprise AI"
   images:
-    - loc: "https://www.karini.ai/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
+    - loc: "https://d189ftywc9pie0.cloudfront.net/assets/images/webinars/Accelerate-Your-GenAI-Projects.png"
 ---
 
 In this practical webinar, you will gain insights into the building blocks of Compound Generative AI Foundational components. This knowledge will empower your enterprise to innovate rapidly, all while maintaining guardrails and governance. We will also delve into the pitfalls of ad-hoc Gen AI development and shadow Gen AI projects, providing you with the tools to avoid these common traps. To further enhance your learning experience, we will conclude with a couple of Conversational Agents and Batch workflow demos. By the end of this webinar, you will be equipped to confidently build Generative AI foundations in less than 60 minutes and learn from our Gen AI experts.
