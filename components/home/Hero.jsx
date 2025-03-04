@@ -15,11 +15,6 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Hero = () => {
 	const imagesData = [
 		{
-			title: "Centralized Visibility and Usage Trends",
-			path: "https://d189ftywc9pie0.cloudfront.net/assets/images/platform/karini_ai_dashboards.gif",
-			altText: "dashboard",
-		},
-		{
 			title: "Explore Copilot Hub",
 			path: "https://d189ftywc9pie0.cloudfront.net/assets/images/platform/Copilot_Hub.png",
 			altText: "explore-copilot-hub",
